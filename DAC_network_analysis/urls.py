@@ -6,6 +6,9 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 # ... the rest of your URLconf goes here ...
 urlpatterns = patterns('',
     url(r'^$', 'network_visualizer.views.index', name='index'),
+    url(r'^$', 'network_visualizer.views.proto1', name='proto1'),
+    url(r'^$', 'network_visualizer.views.proto2', name='proto2'),
+    url(r'^$', 'network_visualizer.views.proto3', name='proto3'),
     url(r'^admin/', include(admin.site.urls)),
 )
 

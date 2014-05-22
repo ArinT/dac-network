@@ -57,12 +57,21 @@ WSGI_APPLICATION = 'DAC_network_analysis.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
+    # 'default': {
+    #   'ENGINE': 'django.db.backends.mysql',
+    #   'NAME': 'DAC_Network',
+	 #    'USER': 'root',
+	 #    'PASSWORD': 'buet105',
+	 #    'HOST': 'esdl-6.ise.illinois.edu',
+	 #    'PORT': '5901',
+    #  },
+        'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'mydatabase',
     }
-}
+ }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
