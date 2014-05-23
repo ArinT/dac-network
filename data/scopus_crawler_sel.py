@@ -5,9 +5,9 @@ from os import listdir
 from os.path import isfile, join
 
 BASE_URL = "http://www.scopus.com"
-READ_PATH = "/home/citations-group/Documents/Citations Networks/UniquePapers.txt"
+READ_PATH = "/home/arin/thesis/DAC_network_analysis/data/UniquePapers.txt"
 #folder_paths = {"2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"}
-DEST_PATH = "/home/citations-group/Documents/Citations Networks/"
+DEST_PATH = "/home/arin/thesis/DAC_network_analysis/data/"
 
 def extractReferences(papername):
 	references = []
@@ -98,4 +98,4 @@ def examinePapers():
 		time.sleep(2)
 	print("done for " + (str)(i))
 
-#examinePapers()
+examinePapers()

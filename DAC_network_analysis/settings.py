@@ -62,16 +62,16 @@ DATABASES = {
     # 'default': {
     #   'ENGINE': 'django.db.backends.mysql',
     #   'NAME': 'DAC_Network',
-	 #    'USER': 'root',
-	 #    'PASSWORD': 'buet105',
-	 #    'HOST': 'esdl-6.ise.illinois.edu',
-	 #    'PORT': '5901',
-    #  },
+	 #   'USER': 'root',
+	 #   'PASSWORD': 'buet105',
+	 #   'HOST': 'esdl-11.ise.illinois.edu',
+	 #   'PORT': '5901',
+    # },
         'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'mydatabase',
     }
- }
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
