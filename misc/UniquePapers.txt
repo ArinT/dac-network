@@ -1,0 +1,1239 @@
+On Performance Enhancement of Parallel Kinematic Machine # DETC2005-85034
+Optimal Process Architectures for Distributed Design Using a Social Network Model # DETC2012-71015
+Locating Precision of Fit Datums # DETC2008-49078
+Modeling and Design of Materials for Controlled Wave Propagation in Plane Grid Structures # DETC2004-57183
+Establishing Correspondence Between Value Functions Used in Market-Based Engineering Design # DETC2008-50073
+Reliability-Based Design Optimization Methods # DETC2004-57456
+Dynamic Analysis and Optimization of Tensioner in Automotive Serpentine Belt Drive Systems # DETC2002-34120
+PSS Business Case Map: Supporting Idea Generation in PSS Design # DETC2012-70692
+Optimizing Optimization for Design Optimization # DETC2003-48803
+Structural Topology Optimization Using Frame Elements Based on the Complementary Strain Energy Concept for Eigen-Frequency Maximization # DETC2005-85176
+Exploring Differences in Preference Heterogeneity Representation and Their Influence in Product Family Design # DETC2011-48596
+A Study on Optimum Topology of Plate Structure Using Coordinate Transformation by Conformal Mapping # DETC2002-34053
+Mass Customization: A Review of the Paradigm Across Marketing, Engineering and Distribution Domains # DETC2010-28753
+Distributed Compliant Model for Efficient Dynamic Simulation of Systems With Frictional Contacts # DETC2003-48809
+A Design Exploration of Genetically Engineered Myosin Motors # DETC2011-48568
+A Function-Based Strategy for Analysis of Energy Systems in Transportation Vehicles # DETC2009-87474
+Integrating a Vision System With a Coordinate Measuring Machine to Automate the Datum Alignment Process # DETC2005-85455
+A Simulation-Based Robust Concept Exploration Method # DETC2010-28767
+Evaluation Method for the Topological Synthesis of Sheet Metal Components # DETC2004-57254
+Determination of Geometric Distortions in Automotive Lamps Using Non-Linear Parametric Estimations # DETC2002-34071
+Generative Design and CNC Fabrication Using Shape Grammars # DETC2008-49856
+A Recursive, Line-Intersection Method for Finding the Area of a Mesh Projected Onto a Plane # DETC2004-57156
+The Effect of Reward Interdependence of Strategies in Evolutionary Multi-Agent Systems # DETC2009-87225
+Assessing and Improving Commonality and Diversity Within a Product Family # DETC2006-99499
+Non-Probabilistic Based Structural Design Optimization Under External Load Uncertainty With Eigenvalue-Superposition of Convex Models # DETC2012-71316
+An Asymmetric Dimension-Adaptive Tensor-Product Method for Reliability Analysis # DETC2011-48850
+Identifying Feature Handles of Freeform Shapes # DETC2008-49438
+Forward Problem Singularities of Manipulators Which Become PS-2RS or 2PS-RS Structures When the Actuators Are Locked # DETC2003-48821
+Multiattribute Decision Making Using Hypothetical Equivalents # DETC2002-34079
+Development of a Design Reuse View of Cutting Tool Design Ontology # DETC2003-48738
+Genetic Programming of an Artificial Neural Network for Robust Control of a 2-D Path Following Robot # DETC2008-50137
+Numerical and Experimental Study of Shielding Gas Orientation Effects on Particle Stream Concentration Mode in Coaxial Laser Aided Material Deposition Process # DETC2004-57049
+Design for Product-Embedded Disassembly # DETC2005-85260
+Analysis of Support Vector Regression for Approximation of Complex Engineering Analyses # DETC2003-48759
+Designing a Dexterous Reconfigurable Packaging System for Flexible Automation # DETC2003-48812
+A Simulation-Based Random Process Method for Time-Dependent Reliability of Dynamic Systems # DETC2010-28131
+Simulation and Optimization of the Water-Jet Cleaning Process # DETC2009-86882
+A Concept for a Material That Softens With Frequency # DETC2007-34299
+Predicting 5th and 95th Percentile Anthropometric Segment Lengths From Population Stature # DETC2008-50091
+Identifying Variable Effects on the Dimensional Quality of Compliant Assembly, Using Computer Experiments # DETC2002-34035
+Product Design Selection With Variability in Preferences for an Implicit Value Function # DETC2004-57339
+Multi-Objective Optimization in Industrial Robotic Cell Design # DETC2010-28488
+Decomposition-Based Assembly Synthesis Based on Structural Stiffness Considerations # DETC2002-34083
+Selection of Copula to Generate Input Joint CDF for RBDO # DETC2008-49494
+Identifying and Tracking Features in Freeform Shape # DETC2004-57174
+Trim Loop Closure for Enhanced CAD Interoperability # DETC2004-57533
+Diagonal Quadratic Approximation for Parallelization of Analytical Target Cascading # DETC2007-35566
+Heat Compensation in Buildings Using Thermoelectric Windows: An Energy Efficient Window Technology # DETC2008-50068
+Reliability Assessment Based on the Concept of Failure Surface Frontier # DETC2005-84495
+Response Surface Algorithms for Engine Mount Optimization in Motorcycles # DETC2009-86407
+Using Genetic Algorithms With Niche Formation to Solve the Minimum Distance Problem Among Concave Objects # DETC2002-34105
+Quantity Dimension Indexing for Design Knowledge Management # DETC2007-35133
+Customer Driven Optimal Design for Convergence Products # DETC2011-47927
+A Comparison of Probability Bounds Analysis and Sensitivity Analysis in Environmentally Benign Design and Manufacture # DETC2006-99230
+Early Design Modeling and Simulation of Behaviors: Case Study of Mobile Work Machine # DETC2009-86457
+Towards a Conceptual Design Explorer Using Metamodeling Approaches and Constraint Programming # DETC2003-48766
+Artificial Immune System Based Isomorphism Identification Method for Mechanism Kinematics Chains # DETC2002-34063
+Optimum Disassembly Process With Genetic Algorithms for a Compressor # DETC2006-99425
+A Systems Framework for Platform Architecture Analysis # DETC2004-57299
+Synthesis of Structural Symmetry Driven by Cost Savings # DETC2005-85111
+A Dual Environment for 3D Modeling With User-Defined Free Form Features # DETC2007-34796
+Robust Design Through the Use of a Hybrid Genetic Algorithm # DETC2002-34108
+FEA-Based Design of Heterogeneous Objects # DETC2006-99295
+Quantifying the Convergence Time of Distributed Design Processes # DETC2011-48377
+Covariance Modeling Method for Use in Compliant Assembly Tolerance Analysis # DETC2004-57066
+Uncertainty Analysis Using a Constraint Reliability Index # DETC2002-34142
+Investigating Different Approaches for Front-Loading Problem Solving in Product Development: Evidence From Engine Engineering # DETC2006-99595
+Approaches of Knowledge-Based Design # DETC2003-48741
+Design Space Visualization and Its Application to a Design by Shopping Paradigm # DETC2003-48785
+Reliability Based Design Optimization With Correlated Input Variables Using Copulas # DETC2007-35104
+Topology Optimization for Synthesizing Extrusion Based Nonlinear Transient Designs # DETC2007-35914
+Design and Selection of Safe Water Supply Solutions for Emerging Regions: A Demography Based Demand Driven Approach # DETC2012-70577
+A Virtual Reality Interface for the Design of Compliant Mechanisms # DETC2009-87155
+Knowledge Intensive Collaborative Decision Support for Design Process # DETC2003-48747
+Structural Durability Design Optimization and Its Reliability Assessment # DETC2003-48711
+Analysis of Loads and Stresses for a Sewing Needle # DETC2002-34062
+Issues of Similarity in Engineering Design # DETC2006-99678
+Application of the Generational Variety Index: A Retrospective Study of iPhone Evolution # DETC2012-70727
+Bayesian Evaluation of Engineering Models # DETC2002-34141
+The Skewboid Method: A Simple and Effective Approach to Pareto Relaxation and Filtering # DETC2012-70323
+An Interactive Virtual Environment for 3D Model Assembly With Video Immersion # DETC2002-34151
+Novel Design of a 3-DOF Parallel Manipulator for Materials Handling # DETC2008-49188
+Should Designers Worry About Market Systems? # DETC2008-49137
+Gaussian Process Meta-Models for Efficient Probabilistic Design in Complex Engineering Design Spaces # DETC2005-85406
+A Study of Factor Effects in Data From Factorial Experiments # DETC2005-85486
+A Template-Based Approach for Multilevel Blast Resistant Panel Design # DETC2007-35447
+Parametric and Topological Control in Shape Optimization # DETC2006-99612
+APIX: Analysis From Pixellated Inputs in Early Design Using a Pen-Based Interface # DETC2011-48680
+A Design Exploration Method for Adaptive Design Systems # DETC2009-87217
+Generalized Random Tunneling Algorithm for Continuous Design Variables # DETC2003-48804
+Combined Plant and Controller Design Using Decomposition-Based Design Optimization and the Minimum Principle # DETC2010-28887
+Using the Compromise Decision Support Problem in Microsystem Design: A Formulation for a Miniature Parylene Gas Chromatographic Column # DETC2004-57582
+Robust Design for Profit Maximization Under Uncertainty of Consumer Choice Model Parameters Using the Delta Method # DETC2011-48409
+A Monte Carlo Reliability Assessment for Multiple Failure Region Problems Using Approximate Metamodels # DETC2007-34957
+On Sequential Sampling for Global Metamodeling in Engineering Design # DETC2002-34092
+Optimal Design Decisions in Product Portfolio Valuation # DETC2002-34097
+Using Tolerance-Maps to Generate Frequency Distributions of Clearance for Pin-Hole Assemblies # DETC2006-99585
+Procedural Design of Imprint Rolls for Fluid Pathway Fabrication # DETC2007-35187
+A Simplified Systematic Method of Acquiring Design Specifications From Customer Requirements # DETC2007-34769
+Application of the Sequential Optimization and Reliability Assessment Method to Structural Design Problems # DETC2003-48710
+Robust Design Concept in Possibility Theory and Optimization for System With Both Random and Fuzzy Input Variables # DETC2007-35106
+Platform Selection Under Performance Loss Constraints in Optimal Design of Product Families # DETC2002-34099
+Multiobjective Collaborative Robust Optimization (McRO) With Interval Uncertainty and Interdisciplinary Uncertainty Propagation # DETC2007-34818
+A Full Parametric Model for Turbomachinery Blade Design and Optimisation # DETC2004-57467
+Automatic Conceptual Design of Mechanical Devices Based on Reasoning the Design Rules # DETC2002-34050
+Product Configuration Design Based on Extensible Product Family for Mass Customization # DETC2005-85443
+Computer-Aided Fixture Design Verification: Part II - Tolerance Analysis # DETC2002-34145
+Fuzzy Preference Evaluation for Hierarchical Co-Evolutionary Design Concept Generation # DETC2006-99312
+Topology Optimization of Compliant Mechanisms Using Evolutionary Algorithm With Design Geometry Encoded as a Graph # DETC2002-34147
+Heuristic Gradient Projection for 3D Space Frame Optimization # DETC2005-85348
+Application of Pontryagin's Maximum Principle to Statistical Process Control Optimization # DETC2012-70104
+Analysis of Decomposability and Complexity for Design Problems in the Context of Decomposition # DETC2004-57050
+Application of a Genetic Algorithm to Concept Variant Selection # DETC2006-99390
+A Survey of the Study of Failure # DETC2004-57244
+Hybrid and Adaptive Metamodel Based Global Optimization # DETC2009-87121
+Math-Based Performance Evaluation of an Experimental Car: Side Impact Protection # DETC2002-34076
+Structural Topology Optimization for Forced Vibration Problem Using Level Set Method # DETC2011-47037
+Automated Synthesis and Optimization of Gear Train Topologies # DETC2009-86780
+An Investigation of the Impact of Assembly Sequencing on the Product Family Design Outcomes # DETC2007-35672
+A New Variable Fidelity Optimization Framework Based on Model Fusion and Objective-Oriented Sequential Sampling # DETC2007-35782
+Engineering Product Design Optimization for Retail Channel Acceptance # DETC2006-99118
+Visibility for Determining the Rotational Axis CNC Rapid Prototyping and Rapid Manufacturing # DETC2006-99211
+Identification of Product Family Platforms Using Pattern Recognition # DETC2011-47472
+Design Optimization of Enclosed Liquid Containers With Baffles for Sloshing and Impact # DETC2004-57328
+Causal Design Knowledge Acquisition by Constructing BBN Through FCM # DETC2008-49900
+Updating Predictive Models: Calibration, Bias Correction, and Identifiability # DETC2010-28828
+An Effective Random Field Characterization for Probability Analysis and Design # DETC2008-49481
+Reconfiguration of Kinematic Structure for Changing Motion Requirement Based on Reusability Evaluation in Lie Algebra # DETC2002-34052
+Euclidean Symmetry Detection From Scanned Meshes Based on a Combination of ICP and Region Growing Algorithms # DETC2008-49698
+New Concepts in Graphic Visualization of Objective Functions # DETC2002-34129
+Optimization-Based Prediction of Aiming and Kneeling Military Tasks Performed by a Soldier # DETC2012-71166
+A New Model for Wind Farm Layout Optimization With Landowner Decisions # DETC2011-47772
+A Weighted Three-Point-Based Strategy for Variance Estimation # DETC2004-57363
+Finding the Shortest Path for Quality Assurance of Electric Components # DETC2002-34117
+Robust Design Optimization of Ball Grid Array Packaging # DETC2011-48858
+Development and Application of a Patent-Based Design Around Process # DETC2010-28180
+A Group Technology Based Representation for Product Portfolios # DETC2005-85313
+Integrated Feature Modeller for Certain Manufacturing Processes # DETC2005-85686
+Representation and Analysis Challenges in Design for Part Re-Use: an Automotive Case Study # DETC2007-35483
+Multi-Objective Design Optimization for Product Platform and Product Family Design Using Genetic Algorithms # DETC2005-84905
+Finite Element Modeling and Analysis of Orthotropic Butt Welds # DETC2010-28027
+A Study of Geometric Error Measurement of CNC Machine Tools Using the Improved Planar Encoder System # DETC2003-48739
+Design of Components With Optimized Microstructure # DETC2004-57228
+Design Methodology for the Thermal Packaging of Hybrid Electronic-Mechanical Products: A Case Study on the Berkeley Emulation Engine (BEE) # DETC2003-48790
+Decoupled and Single Loop Methods for Reliability-Based Optimization and Robust Design # DETC2004-57404
+Optimization of Helicopter Air Intake Scoop Design # DETC2003-48801
+Topology Optimization of Spacers for Maximizing Permeate Flux on Membrane Surface in Reverse Osmosis Channel # DETC2011-48933
+An Approach to Support the Implementation of Product Configuration Tools # DETC2009-86752
+Energy Characteristic State Model for Automated Conceptual Design of Hydraulic System # DETC2008-49675
+A General Approach to Robustness Assessment for Multidisciplinary Systems # DETC2008-50081
+A Two-Stage Design Method for Compliant Mechanisms Having Specified Non-Linear Output Paths # DETC2006-99351
+Optimal Scheduling of Parabolic Heliostats Aim Targets in a Mini-Tower Solar Concentrator System # DETC2011-48582
+A Conceptual Design Synthesis Framework for Micro-Electro-Mechanical Systems (MEMS) # DETC2004-57235
+Geometric Construction of Piecewise Line-Symmetric Spherical Motions Using Quaternion Biarcs # DETC2006-99647
+Level Set Based Robust Shape and Topology Optimization Under Random Field Uncertainties # DETC2009-87083
+Q2S2: Merging Qualitative Information in Sequential DOE # DETC2007-34520
+Optimum Design of Columns Under Elastic Buckling # DETC2012-70601
+Comprehensive Product Platform Planning (CP3) Using Mixed-Discrete Particle Swarm Optimization and a New Commonality Index # DETC2012-70954
+Creative Design, Issues and Strategies # DETC2004-57258
+Text and Illustration Based Senario Expressions for Conveying Failure Knowledge # DETC2004-57376
+Reliability-Based Design Optimization Using Enhanced Dimension Reduction Method With Variable Sampling Points # DETC2009-87268
+A Compromise Method for the Design of Parametric Polynomial Surrogate Models # DETC2005-85469
+Fuzzy Analytical Hierarchy Process-Based Assembly Unit Partition for Complex Products # DETC2007-34631
+Incorporating Twinkling in Genetic Algorithms for Global Optimization # DETC2008-49256
+An Extended Pattern Search Approach to Wind Farm Layout Optimization # DETC2010-28748
+Finite Element Analysis Applied to Ergonomic Design of 2-Piece Aluminum Beverage Cans and Bottles # DETC2007-34940
+A Mixed-Integer Nonlinear Programming Model for Global Optimization of Plug-In Hybrid Vehicle Design and Allocation to Minimize Life Cycle Greenhouse Gas Emissions # DETC2010-28064
+An Enhanced Change Modes and Effects Analysis (CMEA) Tool for Measuring Product Flexibility With Applications to Consumer Products # DETC2006-99478
+Topology Optimization of Poroelastic Structures to Minimize Mean Sound Pressure Levels # DETC2008-49582
+Topology Optimization and Dynamic Performance of a Bike With Dampers # DETC2003-48771
+Two-Level Approximation Method for Reliability Based Design Optimization # DETC2004-57463
+Empirical Analysis of Transformers in the Development of a Storyboarding Methodology # DETC2009-87420
+Global Product Family Design: Multi-Objective Optimization and Design Concept Exploration # DETC2012-70858
+Local Least Squares Fitting for Surface Mesh Fairing in Automobile Panel Design # DETC2002-34074
+A Novel Search Algorithm for Interactive Automated Conceptual Design Generator (ACDG) # DETC2011-47743
+Elicitation and Modeling of Customer' Preferences in Industrial Design: A Comparative Study on Vehicle Front End # DETC2008-49637
+Automatic Process Planning of a Multi-Axis Hybrid Manufacturing System # DETC2002-34138
+Graphical Modeling Environment and Support Framework for Function-Based Conceptual Design # DETC2004-57492
+Design Optimization of a Laptop Computer Using Aggregate and Mixed Logit Demand Models With Consumer Survey Data # DETC2007-34883
+Singularity Analysis of a Novel 4-DOFs Parallel Robot H4 by Using Screw Theory # DETC2003-48822
+Emerging Virtual Machine Tools # DETC2003-48756
+Tracing the Envelope of the Objective-Space in Multi-Objective Topology Optimization # DETC2011-47329
+A Structural Optimization Method for Universal Design of Compliant Mechanism Scissors # DETC2009-86594
+The Automated Planning for Fixture Location Based on Process Requirement # DETC2010-28205
+Development of a J2EE Web Application for STEP-Based Design Conformance Checking # DETC2004-57522
+Shape Optimization of NURBS Modeled 3D C-Frames Using Hybrid Genetic Algorithm # DETC2002-34107
+A Comprehensive Metric for Evaluating Component Commonality in a Product Family # DETC2006-99268
+A Study on Collaborative Design Considering Features of Design # DETC2002-34051
+An Improved Kriging Assistant Multi-Objective Genetic Algorithm # DETC2010-28543
+Structural Topology Optimization Under Impact Loads Using Beam Ground Structures # DETC2004-57421
+Subfunctions as Parts of Functions: Some Formal Problems # DETC2010-28095
+Architectural Optimisation Using Real Options Theory and Dependency Structure Matrices # DETC2002-34119
+A Study on the Feed Rate Optimization of a Ball Screw Feed Drive System for Minimum Vibrations # DETC2005-85473
+Optimisation and Robust Design in Aero Engine Development # DETC2004-57400
+Curve Shape Modification and Fairness Evaluation # DETC2007-34597
+A Multi-Scale Design for a Robust Hydrogen Storage Tank # DETC2009-87074
+Applying Universal Linking of Engineering Objects in the Automotive Industry: Practical Aspects, Benefits, and Prototypes # DETC2002-34040
+On Honeycomb Parameterization for Topology Optimization of Compliant Mechanisms # DETC2003-48806
+A Comparison of Optimized Stacked-Ply Flywheel Designs That Are Based on Different Failure Criteria # DETC2005-84633
+Reduction of Non - Monomial Basis in the Dimensional Analysis of a Dynamical System # DETC2007-35504
+Analysis of Avoided Carbon-Dioxide Due to Photovoltaic and Wind Turbine Technologies Displacing Electrical Peaking Facilities # DETC2009-86511
+A Copula Based Sampling Method for Residual Life Prediction of Engineering Systems Under Uncertainty # DETC2012-71105
+An Intelligent and Efficient Tree Search Algorithm for Computer-Aided Component Selection # DETC2007-34587
+Optimization of Parabolic Heliostat Focal Lengths in a Mini-Tower Solar Concentrator System # DETC2011-48591
+Fast Layered Manufacturing Support Volume Computation on GPUs # DETC2006-99666
+A Study of Different Metamodeling Techniques for Conceptual Design # DETC2009-86496
+Reconstructing Freeform Surface With Parameterized Features # DETC2002-34036
+Computational Recognition of Functional Parameters of Surfaces for the Kinematic Design of Window Regulator Systems # DETC2002-34060
+Optimal Design of Product Family Throughout Commonalization, Customization and Lineup Arrangement # DETC2008-50023
+A Customer-Driven Approach to One-Of-A-Kind Product Design # DETC2007-34878
+Design Under Uncertainty Using Monte Carlo Simulation and Probabilistic Sufficiency Factor # DETC2003-48704
+Optimal Embedding in Topology Design of Structures # DETC2002-34148
+A Haptic System for Virtual Prototyping of Polygonal Models # DETC2004-57507
+Convex Estimators for Optimization of Kriging Model Problems # DETC2011-48566
+Multi-Discipline Design of a Wind Turbine # DETC2011-47756
+Robust Design of Compressor Blades Against Manufacturing Variations # DETC2006-99304
+Knowledge Intensive Support for Product Family Design # DETC2002-34098
+Exploiting the Features of ISO GPS Standards to Enhance a Knowledge-Based Method for Product Redesign and Process Reconfiguration # DETC2008-49154
+A Function Based Approach for Product Integration # DETC2011-47922
+Product Family Design: Strategic Principles to Choose Between Product-Driven and Platform-Driven Processes # DETC2008-49429
+Case Study Instrument Development for Studying Collaborative Design # DETC2006-99674
+Design Achievement Model for Planning Creative and Concurrent Design Process # DETC2008-49799
+An Extension of the Commonality Index for Product Family Optimization # DETC2007-35605
+Task Scheduling of Parallel Development Projects Using Genetic Algorithm # DETC2004-57159
+Lifecycle-Based Product Design Using Global Optimization Methods Based on Hierarchical Genotype Representation of Alternatives and Constraints # DETC2002-34043
+Rough Set-Based Design Rule Selection for Collaborative Assembly Design # DETC2008-49191
+OAM+: An Assembly Data Model for Legacy Systems Engineering # DETC2007-35723
+Recognizing Network-Like Hand-Drawn Sketches: A Convolutional Neural Network Approach # DETC2009-87402
+Design Optimization of Continuous Caster Refractory Components # DETC2005-84968
+Module Interface Representation # DETC2006-99554
+Meta-Material Design of the Shear Layer of a Non-Pneumatic Wheel Using Topology Optimization # DETC2012-71340
+Shape Design of Periodic Cellular Materials Under Cyclic Loading # DETC2011-47983
+A Variable Fidelity Model Management Framework for Multiscale Computational Design of Continuous Fiber SiC-Si3N4 Ceramic Composites # DETC2007-35913
+Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design # DETC2002-34127
+INSIDES: A New Design and Simulation Platform for Virtual Prototyping in Automotive and Aerospace Industry # DETC2006-99228
+Optimization of Machine Product Designs From Deeper Level Characteristics Using Collaboration Theory Concepts # DETC2009-86928
+Customizing Products Using Functional Component Matrices # DETC2008-50005
+Understanding Rural Village Energy Needs and Design Constraints # DETC2011-48669
+Aerodynamic Shape Optimization and Knowledge Mining of Centrifugal Fans Using Simulated Annealing Coupled With a Neural Network # DETC2006-99189
+Reverse Engineering of Geometric Surfaces Using Tabu Search Optimization Technique # DETC2007-34970
+Supervised Bayesian Models to Carry Out Kansei Engineering of Car Dashbaords # DETC2007-34968
+Numerically Stable Design Optimization With Price Competition # DETC2012-71201
+Development of Adaptive Range Genetic Algorithms Considering Inheritance of Searching Range # DETC2002-34103
+Structural Topology Design Optimization for Controlled Crash Behavior # DETC2003-48733
+An Exploration-Estimation Algorithm for Synthesis and Analysis of Engineering Systems Using Minimal Physical Testing # DETC2004-57574
+Design of an Automobile Seat With Regulations Using Axiomatic Design # DETC2005-84794
+Topology Synthesis and Classification of Low-Mobility Parallel Mechanisms # DETC2006-99068
+Evaluating Genetic Algorithms on Welding Sequence Optimization With Respect to Dimensional Variation and Cycle Time # DETC2011-48393
+Interval Extensions of Signed Distance Functions: Uniform Samplings and the Range of Associated Implicit Objects # DETC2008-49604
+A Growth Design Approach for Tolerancing # DETC2008-49700
+Integration of Commercial CAD/CAM System With Custom Capp Using Orbix Middleware and Cobra Standard # DETC2002-34069
+Prospect of Design for Mass Customization and Personalization # DETC2011-48919
+Optimization of a Semi-Active Shock Absorber Using a Genetic Algorithm # DETC2004-57115
+An Information Theoretical Perspective on Design Optimization # DETC2004-57438
+Autogenetic Design Theory: An Approach to Optimise Both the Design Process and the Product # DETC2002-34038
+Improving Identifiability in Model Calibration Using Multiple Responses # DETC2011-48623
+A Point Membership Classification for Sweeping Solids # DETC2007-34827
+Representing Stresses That Arise in Parallel Assemblies That Contain Imperfect Geometry Allowed by Tolerances # DETC2012-70208
+Optimal Sample Augmentation and Resource Allocation for Design With Inadequate Uncertainty Data # DETC2012-70234
+Automated Concept Generation: A Co-Evolutionary Approach # DETC2005-85125
+Strengthening of Bone Cement by Shape Optimization of Short Fibers # DETC2003-48793
+GA-Based Multi-Objective Fuzzy Matter-Element Optimization # DETC2002-34104
+Switchgear Component Commonality Design Method Considering Delivery Lead-Time and Inventory Level # DETC2007-35687
+Applicability of Design Spaces to Utilize Current Assembly Plant Resources to Produce New Product Family Members # DETC2004-57528
+Trajectory Estimation of Human Mass Center Based on an Inertia Identification Approach # DETC2012-71046
+Scenario Expression for Characterizing Failure Cases # DETC2003-48789
+Design Optimization of a Vehicle B-Pillar Subjected to Roof Crush Using Mixed Reactive Taboo Search # DETC2003-48750
+Elastohydrodynamic Ball Bearing Optimization Using Genetic Algorithm and Heuristic Gradient Projection # DETC2011-47624
+Development of a Product Family Analysis Toolkit for Systematic Benchmarking # DETC2010-28269
+Design Information Support Tool (DIST): It's Development and Effectiveness Investigation # DETC2006-99479
+Knowledge Management for Fault Tree Analysis Based on Quantity Dimension Indexing # DETC2008-49734
+A Product Ontology for Automotive Seat Specification # DETC2004-57071
+Determine Mesh Orientation by Voxel-Based Principal Component Analysis # DETC2006-99380
+Exploring the Advantages of Materials Design in a Product Design Process # DETC2006-99492
+Segmentation of Noisy Laser-Scanner Generated Meshes With Piecewise Polynomial Approximations # DETC2004-57475
+Vehicle Structure Optimization for Crash Pulse # DETC2004-57479
+Optimization of Machine System Designs Using Hierarchical Decomposition Based on Criteria Influence # DETC2002-34042
+Design Optimization for Structural-Acoustic Problems Using FEM-BEM # DETC2002-34131
+Product Family and Platform Portfolio Optimization # DETC2003-48721
+Conceptual Design of Freeform Surfaces From Unstructured Point Sets Using Neural Network Regression # DETC2011-48324
+Product Realization in the Age of Mass Collaboration # DETC2008-49865
+Pultrusion Process Analysis Using Knowledge-Based System # DETC2008-49895
+Simultaneous Requirement and Design Optimization of an Industrial Robot Family Using Multi-Objective Optimization # DETC2011-47819
+Development of a Changeable Airfoil Optimization Model for Use in the Multidisciplinary Design of Unmanned Aerial Vehicles # DETC2009-87482
+Overlapped Grouping Genetic Algorithm for Optimization of Reels Cutting Planning Problems # DETC2007-35012
+An Efficient Feasibility Robust Optimization Method Using a Sensitivity Region Concept # DETC2004-57048
+Development of a Robust Design Process Using a New Robustness Index # DETC2005-84555
+A Method for Determining the Optimal Direction of the Principal Moment of Inertia in Frame Element Cross-Sections # DETC2004-57369
+A Complete Variation Algorithm for Slot and Tab Features for 3D Simulation-Based Tolerance Analysis # DETC2005-85541
+Mesh Processing for Computerized Anthropometry # DETC2005-85528
+A Benchmark Comparison of Curvature Matched Machining versus Three- and Five-Axis Machining Methods Applied to Industrial Part Surfaces # DETC2002-34090
+Incorporating Process Architecture in the Evaluation of Stability in Distributed Design # DETC2011-48375
+2-D Deposition Pattern and Strategy Study on Rapid Manufacturing # DETC2006-99326
+Turning Black-Box Into White Functions # DETC2010-28958
+A Genetic Algorithm Based Procedure for Extracting Optimal Solutions From a Morphological Chart # DETC2007-35497
+Surrogate Modeling of Complex Systems Using Adaptive Hybrid Functions # DETC2011-48608
+Development of Adaptive RBF-HDMR Model for Approximating High Dimensional Problems # DETC2009-86531
+Design Shell for Parametric Design at Embodiment Stage # DETC2003-48788
+A Strategic Platform Design Method for Developing Customized Families of Services # DETC2009-87280
+A Study of Emission Policy Effects on Optimal Vehicle Design Decisions # DETC2003-48767
+An Evolutionary Multi-Objective Optimization Approach to the Topology Optimization of Auxetic Structures # DETC2002-34149
+A Tool Management System for Probabilistic Design Problems # DETC2002-34143
+An Approach to Automate Concept Generation of Sheet Metal Parts Based on Manufacturing Operations # DETC2008-49648
+A Study on the Use of Kriging Models to Approximate Deterministic Computer Models # DETC2003-48762
+Towards Robustly Stable Musculo-Skeletal Simulation of Human Gait: Merging Lumped and Component-Based Modeling Approaches # DETC2012-71473
+Hole-Making on a Bent Thick Plate # DETC2005-84274
+Pattern-Based Reasoning in Critical Parameter Management (CPM) for Rapid Redesign # DETC2006-99074
+Plant-Limited Co-Design of an Energy-Efficient Counterbalanced Robotic Manipulator # DETC2012-71108
+An Efficient Tradeoff Approach for Topology Optimization With Manufacturing Constraints # DETC2010-28411
+A Modified Continuous Reactive Tabu Search for Damage Detection in Beams # DETC2010-28389
+Exploiting Shape Similarity in Engineering Analysis # DETC2006-99413
+Empirical Analysis Using Advanced Similarity Methods # DETC2002-34082
+Indicator of Feasibility for Layout Problems # DETC2012-70640
+Methods for Discrete Design Optimization # DETC2005-85202
+Surrogate Model Updating Using Clustering in a Genetic Algorithm Setup # DETC2006-99491
+Evaluation Method of Drinking Ease for Aluminum Beverage Bottles # DETC2007-35637
+A Single-Stage Gradient-Based Approach for Solving the Joint Product Family Platform Selection and Design Problem Using Decomposition # DETC2007-35611
+Reducing Cycle Time and Errors in the Design and Layout of MEMS # DETC2003-48740
+A Fuzzy Dynamic Programming Approach for Mixed-Discrete Multistage Decision Processes # DETC2004-57418
+Design of Functionally Graded Structures for Enhanced Thermal Behavior # DETC2005-85290
+Product Platform Selection in Lower-Dimensional Manifold Spaces # DETC2009-87486
+Metrics-Based Approach for VR Technology Evaluation in Styling Product Design # DETC2009-86228
+Compliant Mechanism Design With Non-Linear Materials Using Topology Optimization # DETC2002-34150
+Enhanced Multi-Agent Normal Sampling Technique for Global Optimization # DETC2008-49991
+Multidimensional Solution Clustering and Its Application to the Cool and Passage Optimization of a Turbine Blade # DETC2003-48764
+Multiobjective Optimization for Integrated Tolerance Allocation and Fixture Layout Design in Multistation Assembly # DETC2006-99467
+Development of Knowledge Based System to Facilitate Design of On-Board Car Safety Systems # DETC2003-48743
+Topology Optimization of Heat-Resistant Structures # DETC2003-48769
+A Functionally-Aware Product Schematic Clustering Algorithm # DETC2012-71506
+Development of Distributed Computing Framework for Parallel Multi-Disciplinary Optimization # DETC2006-99496
+Pre-Programmed Failure Behavior Using Biology-Inspired Structures # DETC2007-34685
+A Comparison of Virtual Condition Cylinder Evaluation Methods in Coordinate Metrology # DETC2008-49798
+Knowledge Based Design Method for Fibre Metal Laminate Fuselage Panels # DETC2005-84079
+On the Application of Multi-Objective Parallel Asynchronous Particle Swarm Optimization to Engineering Design Problems # DETC2009-86973
+Enabling Local Risk Assessment to Support Global Collaboration in a Distributed Environment # DETC2006-99159
+A Strategy for Simulation-Based Multiscale, Multi-Functional Products and Associated Design Processes # DETC2005-85316
+Multiobjective Optimization Method for Lifecycle Design of Machine Products # DETC2008-49425
+Coordination of Product Design Process in View of Product and Organizational Structures # DETC2012-71305
+Sampling-Based Stochastic Sensitivity Analysis Using Score Functions for RBDO Problems With Correlated Random Variables # DETC2010-28591
+Optimal Tolerance Allocation of Automotive Pneumatic Control Valves Based on Product and Process Simulations # DETC2006-99592
+A Stochastic Optimization Application for Vehicle Structures # DETC2002-34075
+Incorporating Social Impact on New Product Adoption in Choice Modeling: A Case Study in Green Vehicles # DETC2012-71123
+Design of Hierarchic Platforms for Customizable Products # DETC2002-34095
+A Framework for Choice Modeling in Usage Context-Based Design # DETC2010-28490
+Analytical Determination of Principal Twists and Singular Directions in Robot Manipulators # DETC2003-48819
+Selecting and Optimizing a Regulation Compliant Robust Vehicle Portfolio Mix: An Approach and a Case Study # DETC2012-70832
+Handling Multiple Objectives in Decentralized Design # DETC2005-84807
+Product Modular Design Using Atomic Theory # DETC2009-87122
+Design of a Bimorph Driven Meander-Line Structure for Parts Feeder Application # DETC2004-57391
+Product Family Deployment Through Optimal Resource Allocation Under Market System # DETC2010-28662
+Bayesian Reliability Analysis With Evolving, Insufficient, and Subjective Data Sets # DETC2008-49663
+Product Optimization Incorporating Discrete Design Variables Based on Decomposition of Performance Characteristics # DETC2006-99187
+Decomposition-Based Assembly Synthesis of Space Frame Structures Using Joint Library # DETC2004-57301
+A Fast Grid Deformation Algorithm for Aerodynamic Shape Optimization # DETC2010-28782
+The Performance Moment Integration Method for Reliability-Based Robust Design Optimization # DETC2004-57471
+Preliminary Results on Generating Assembly Sequences for Shape Display # DETC2006-99233
+Sensitivity Analyses of FORM-Based and DRM-Based Performance Measure Approach for Reliability-Based Design Optimization # DETC2008-49493
+Loci Surface Guided Crystal Phase Transition Pathway Search # DETC2011-47750
+Genetic Evolution for the Development of Robust Artificial Neural Network Logic Gates # DETC2009-87448
+A Sequential Linearization Technique for Analytical Target Cascading # DETC2008-49148
+A Mixed Logit Choice Modeling Approach Using Customer Satisfaction Surveys to Support Engineering Design # DETC2009-87052
+Developing Innovative Energy Harvesting Approaches for Infrastructure Health Monitoring Systems # DETC2011-48359
+Bounded Target Cascading in Hierarchical Design Optimization # DETC2011-48614
+Design and Analysis of a Hybrid Guideway Heating System for Morgantown Personal Rapid Transit # DETC2010-28369
+Are We There Yet? Investigating the Role of Design Process Architecture in Convergence Time # DETC2009-87517
+Can a House Without a Foundation Support Design? # DETC2005-84765
+Predicting the Thermal Performance for the Multi-Objective Vehicle Underhood Packing Optimization Problem # DETC2012-71098
+Design of Mechanical Structures Considering Harmonic Loads Using Level Set-Based Topology Optimization # DETC2012-70235
+Applying the Mahalanobis-Taguchi System to Vehicle Handling # DETC2006-99133
+A Methodology to Manage Uncertainty During System-Level Conceptual Design # DETC2005-84984
+Constraint Importance Mode Pursuing Sampling for Continuous Global Optimization # DETC2010-28355
+Organizational Applications of Failure Knowledge Management # DETC2005-84543
+Optimization of a Vehicle Space Frame Under Ballistic Impact Loading # DETC2007-34157
+Robust Product Family Consolidation and Selection Using the Hypothetical Equivalents and Inequivalents Method # DETC2007-35522
+A Practical Robust and Efficient RBF Metamodel Method for Typical Engineering Problems # DETC2008-49994
+Design and Optimization of Multiple Microchannel Heat Transfer Systems Based on Multiple Prioritized Preferences # DETC2012-70869
+Assessing Functional and Shape Differentiation Within a Family of Products # DETC2008-49428
+BB-ATV: Analytical Target Cascading Using Branch and Bound for Mixed-Integer Nonlinear Programming # DETC2006-99040
+Reliability-Based Design Optimization With Confidence Level for Non-Gaussian Distributions Using Bootstrap Method # DETC2010-28597
+Incorporating Epistemic Uncertainty in Robust Design # DETC2003-48713
+Assembly Process Selection to Minimize Existing Assembly System Modification Cost During New Product Family Member Design # DETC2005-85016
+Development of a Production Cost Estimation Framework for Product Family Design # DETC2004-57175
+A Saddlepoint Approximation Method for Uncertainty Analysis # DETC2004-57269
+Managing Design Process Complexity: A Value-Of-Information Based Approach for Scale and Decision Decoupling # DETC2007-35686
+Geometric Surface Features Applied to Volumetric CAE Mesh Models # DETC2005-84214
+Adaptive Virtual Support Vector Machine for the Reliability Analysis of High-Dimensional Problems # DETC2011-47538
+A Simulation-Based RBDO Method Using Probabilistic Re-Analysis and a Trust-Region Approach # DETC2009-86704
+Economics of Sacrificial Fixturing for CNC Machining and Rapid Manufacturing # DETC2004-57440
+Investigation of Design Tools as Complexity Management Techniques # DETC2010-28554
+Separating Design Optimization Problems for Bounded Rational Designers # DETC2009-86462
+Ant Colony Optimization Method for Product Platform Formation # DETC2004-57195
+Computer-Aided Analysis of Free Transverse-Vibration of Stepped Beams # DETC2002-34054
+Towards Automated Design of Multi-Piece Permanent Molds # DETC2003-48725
+Usage Coverage Model for Choice Modeling: Principles # DETC2009-87534
+Packing Optimization by Enhanced Rubber Band Analogy # DETC2005-85502
+Solid Modeler Evaluation and Comparison Cycle: A Methodology for Optimum Selection of Modeling Software # DETC2004-57478
+A Method for Integrating Form Errors Into Geometric Tolerance Analysis # DETC2005-84343
+Policy Design for Sustainable Energy Systems Considering Multiple Objectives and Incomplete Preferences # DETC2012-70426
+Hybrid Approach for Containment Problems # DETC2002-34124
+Integrating Assembly Design, Sequence Optimization, and Advanced Path Planning # DETC2008-49760
+Fastener Pattern Optimization of an Eccentrically Loaded Multi-Fastener Connection # DETC2010-28891
+Simultaneous Geometry Optimization and Material Selection for Truss Structures # DETC2006-99349
+Determination of Ranged Sets of Design Specifications by Incorporating Heterogeneous Design Capability Information # DETC2006-99494
+Robust Truck Cabin Layout Optimization Using Advanced Driver Variance Models # DETC2005-84179
+Integrated Optimization of a Solar-Powered Humidification-Dehumidification Desalination System for Small Communities # DETC2012-70783
+On Design of Electro-Thermally Compliant MEMS for Strength # DETC2003-48807
+Analysis of Information Complexity During Product Development # DETC2005-85284
+Study of the Sequential Constraint-Handling Technique for Evolutionary Optimization With Application to Structural Problems # DETC2011-47057
+Defining Technology-Adoption Indifference Curves for Residential Solar Electricity Generation Using Stated Preference Experiments # DETC2011-48007
+A Knowledge-Based Approach to Spur Gear Fabrication in Precision Forging Process # DETC2002-34089
+Performance Optimization of Extrusion Blow Molded Parts Using Fuzzy Neural-Taguchi Method and Genetic Algorithm # DETC2002-34047
+Adaptive-Agent Based Simulation Model to Study Diffusion of Eco-Innovation Strategies # DETC2002-34088
+A Process Model and Data Mining to Support Designing Families of Services # DETC2007-34687
+The Effect of Carbon Nanotubes on the Natural Frequencies of Microcantilever Beams # DETC2010-28494
+An Efficient Re-Analysis Methodology for Probabilistic Vibration of Large-Scale Structures # DETC2008-49156
+Decision-Based Design Using Time-Varying Preferences Represented by Stochastic Processes # DETC2012-70558
+Model Validation via Uncertainty Propagation Using Response Surface Models # DETC2002-34140
+Parallel Population Based Incremental Learning With GPU Acceleration for Nonlinear Optimization # DETC2009-86129
+A Hybrid Models Deformation Tool for Free-Form Shapes Manipulation # DETC2008-49524
+Parameter and Tolerance Constraints Modeling for Assembly # DETC2004-57224
+Relative Entropy Based Method for Global and Regional Sensitivity Analysis in Probabilistic Design # DETC2004-57500
+Bayesian Approximation-Assisted Optimization Applied to Crashworthiness Design of a Pickup Truck # DETC2003-48755
+Modular Product Optimization to Alleviate Poverty: An Irrigation Pump Case Study # DETC2012-71171
+Predicting Energy Consumption in Humans Using Joint Space Methods # DETC2012-71353
+Multiscale Design and Multiobjective Optimization of Orthopaedic Cellular Hip Implants # DETC2011-47487
+Theoretical Evaluation of the Integrated Structure and Control Design Approach by Optimization Theory # DETC2002-34116
+A Product-Service System Design Framework Based on a Business Ecosystem # DETC2012-70731
+Material Property Identification and Sensitivity Analysis Using Indentation and FEM # DETC2006-99329
+An Efficient Algorithm for Vehicle Crashworthiness Design via Crash Mode Matching # DETC2006-99485
+Exploration of the Use of Design Methods With the Design Structure Matrix for Integrating New Technologies Into Large Complex Systems # DETC2012-70521
+Platform Strategy for Product Family Design Using Particle Swarm Optimization # DETC2011-48060
+Informing Design Using Data Mining Methods # DETC2002-34058
+Return on Investment Analysis for Implementing Barriers to Reverse Engineering # DETC2011-47094
+A Port-Based Agent Approach to Guiding Concept Generation for Customizing Modular Varieties # DETC2010-28492
+A Hybrid Approach to Feature Recognition Using Approximate and Partial Exact CAD Models # DETC2002-34101
+Representation: Structural Complexity of Assemblies to Create Neural Network Based Assembly Time Estimation Models # DETC2012-71337
+A Concurrent Design Method for Multiple Cross-Sectional Automotive Body Frames Involving Discrete and Continuous Design Variables # DETC2003-48784
+Response Surface Methods and Pareto Optimization in Crashworthiness Design # DETC2003-48752
+Dynamic Project Navigation: Modelling, Improving, and Review of Engineering Processes # DETC2002-34132
+Isogeometric Shape Design Sensitivity Analysis Using Mixed Transformation Method for Kronecker Delta Property # DETC2011-47697
+Benefit Evaluation for Machining of Marine Propellers # DETC2008-49639
+A Preliminary Study of Novice and Expert Users' Decision-Making Procedures During Visual Trade Space Exploration # DETC2009-87294
+Pseudo-Hierarchical Multistage Model for System of Systems Design and Operations # DETC2007-35825
+A Method for Benchmarking Product Family Design Alternatives # DETC2007-34494
+Designing MEMS Disk Resonator Based Biological Mass Sensors Under Fabrication Uncertainty # DETC2009-86748
+Constraint Management of Reduced Representation Variables in Decomposition-Based Design Optimization # DETC2010-28788
+Modeling of Geometric Variations Within a Tolerance-Zone for Circular Runout # DETC2009-86283
+Reliability Estimation for Time-Dependent Problems Using a Niching Genetic Algorithm # DETC2007-34865
+A Structure-Based Approach to Mearsuring Adaptability of Product Design # DETC2008-49236
+On Design Preference Elicitation With Crowd Implicit Feedback # DETC2012-70605
+Product Platform Design Through Sensitivity Analysis and Cluster Analysis # DETC2004-57464
+Improving Multi-Response Metamodels With Upper/Lower Bound Information Using Multi-Stage, Non-Stationary Covariance Functions # DETC2010-29030
+Design for Product Adaptability # DETC2007-35179
+A Collaborative Rapid Analysis Method for Decision-Making in Assembly Line Design # DETC2004-57370
+A Sensitivity Analysis of Shot Peening Parameters # DETC2006-99035
+Tracing Pareto-Optimal Frontiers in Topology Optimization # DETC2010-28592
+Shape Commonalization to Develop Common Platform for Product Family # DETC2009-87304
+Concept Analysis for Reconfigurable Products # DETC2012-71029
+A Design Optimization Method Using Evidence Theory # DETC2005-84693
+A Viscoelastic Based Mechanism for Improving Spring-In Angle Predictions in Compression Molded Thermoplastic Matrix Composites # DETC2010-28472
+A Multiscale Design Approach With Random Field Representation of Material Uncertainty # DETC2008-49560
+Empirical Models for Non-Deterministic Simulation-Based Robust Design # DETC2007-35606
+Augmented Reality Visualization of Automobile Air Conditioning Using Optical Tracking Tools # DETC2010-29054
+Characterizing the Influence of Land Configuration on the Optimal Wind Farm Performance # DETC2011-48731
+Equivalent Standard Deviation to Convert High-Reliability Model to Low-Reliability Model for Efficiency of Sampling-Based RBDO # DETC2011-47537
+Trending Mining for Predictive Product Design # DETC2010-28364
+Development of Validation Metrics for Vehicle Frontal Impact Simulation # DETC2007-34124
+Adaptive Orthonormal Basis Functions for High Dimensional Metamodeling With Existing Sample Points # DETC2012-70480
+Addressing Limitations of Pareto Front in Design Under Uncertainty # DETC2011-47238
+Recommending a Platform Leveraging Strategy Based on the Homogeneous or Heterogeneous Nature of a Product Line # DETC2007-34507
+H-ISM: An Implementation of Heterogeneous Implicit Solid Modeling # DETC2002-34139
+Steps in Transforming Shapes Generated With Generative Design Into Simulation Models # DETC2012-71056
+Design for Project Change Management: Part 1 -- Configuration Design # DETC2004-57331
+A Deterministic Lagrangian-Based Global Optimization Approach for Large Scale Decomposable Problems # DETC2008-50029
+Reliability Optimization Involving Mixed Continuous-Discrete Uncertainties # DETC2005-84514
+Ruled Layer Generation Between Two Freeform Curves by Normal and Distance Matching # DETC2006-99582
+Assembly Synthesis With Subassembly Partitioning for Optimal-in-Process Dimensional Adjustability # DETC2003-48729
+Requirement Change Propagation Prediction Approach: Results From an Industry Case Study # DETC2010-28562
+Enhanced Convergence in Distributed Design Processes # DETC2006-99544
+Design of Cellular Self-Organizing Systems # DETC2012-71216
+Risk Management in Product Design: Current State, Conceptual Model and Future Research # DETC2010-28539
+Design of Origami Sheets for Foldable Object Fabrication # DETC2012-71530
+Generalization of Topological Sensitivity and its Application to Defeaturing # DETC2007-35353
+Port-Compatibility and Connectability Based Assembly Design # DETC2003-48783
+Concurrent Design Optimization and Calibration-Based Validation Using Local Domains Sized by Bootstrapping # DETC2012-70423
+A Review of Recent Phase Transition Simulation Methods: Transition Path Search # DETC2008-49410
+The Mathematical Model of a Procedure for Percutaneous Annuloplasty # DETC2010-28916
+Bayesian Network Classifiers for Set-Based Collaborative Design # DETC2010-28724
+Polygon Offsetting by Computing Winding Numbers # DETC2005-85513
+Development of an Ontology for the Automatic Reconfiguration of a Vise-Type Fixture Device # DETC2011-47741
+Generic Visual Simulation of Manufacturing Equipment # DETC2011-47908
+Computational Methods Applied to Modelica Simulation Models in a Web Based Framework # DETC2005-85428
+Product Reverse Engineering Based on Growth Design Process # DETC2007-35827
+Identifying Key Product Attributes and Their Importance Levels From Online Customer Reviews # DETC2012-70493
+Configurable and Extensible System for Experimenting With Design Optimization # DETC2002-34121
+A Review of Software Solutions for the Management of New Product Development and Product Family Planning # DETC2005-84454
+The Effects of Different Specifications on the Tolerance-Maps for an Angled Face # DETC2004-57199
+Adaptive Complex Method for Efficient Design Optimization # DETC2007-34773
+Optimal Product Design Under Price Competition # DETC2008-49176
+Introducing Rough Set for Design Space Exploration and Optimization # DETC2003-48761
+Stochastic Reassembly for Managing the Information Complexity in Multilevel Analysis of Heterogeneous Materials # DETC2012-70668
+Topology Optimization of a MEMS Resonator Using Hybrid Fuzzy Techniques # DETC2008-49563
+Vehicle Crashworthiness Design via a Surrogate Model Ensemble and a Co-Evolutionary Genetic Algorithm # DETC2005-84965
+Towards a Reference Ontology for Functional Knowledge Interoperability # DETC2007-35373
+Modeling and Identification for Rotary Geometric Errors of Five-Axis Machine Tools With R-Test Measurement # DETC2012-70182
+A Web Enabled Process for Accessing Customized Parametric Designs # DETC2002-34078
+A New Approach for Simultaneous Shape and Topology Optimization Based on Implicit Topology Description Functions # DETC2004-57302
+Design Sensitivity Analysis of Nonlinear Shell Structure With Frictionless Contact # DETC2003-48795
+A Joint Probability Approach to Multiobjective Optimization Under Uncertainty # DETC2010-28266
+Shear Compliant Hexagonal Cellular Solids With a Shape Memory Alloy # DETC2011-48790
+The Evolution of a Layered Manufacturing Interchange Format # DETC2002-34136
+Adjoint Design Sensitivity Analysis of Fracture Mechanics Using Molecular-Continuum Multiscale Approach # DETC2011-47700
+Design Optimization by Integration of Evolutionary Search and Cumulative Approximation # DETC2005-85245
+Improving Cost Effectiveness in an Existing Product Line Using Component Product Platforms # DETC2008-49544
+Uncertainty Analysis by Dimension Reduction Integration and Saddlepoint Approximations # DETC2005-84523
+An Efficient Method for Detecting Packaging Supporting Space # DETC2006-99747
+State Transition in Reconfigurable Systems # DETC2010-28723
+An Investigation of Nonlinearity of Reliability-Based Design Optimization Approaches # DETC2002-34128
+Multiscale Variability and Uncertainty Quantification Based on a Generalized Multiscale Markov Model # DETC2010-28790
+Computer Implementation of an Improved Kutzbach-Grobler Mobility Criterion # DETC2002-34093
+Empirical Similarity Analysis Using Adaptive Trigonometric Functions # DETC2009-87488
+Hierarchical Arrangement of Characteristics in Product Design Optimization Problems for Deeper Insight Into Optimized Results # DETC2004-57366
+A Cost Based Methodology for Design Optimization # DETC2005-84685
+Robust Product Design Optimization Method Using Hierarchical Representations of Characteristics # DETC2007-34591
+A Study of Convergence in Decentralized Design # DETC2003-48782
+Alternative Methods for Reliability-Based Robust Design Optimization Including Dimension Reduction Method # DETC2006-99732
+Integrating Immersive Computing Technology With Mixed-Integer Nonlinear Programming for Disassembly Sequence Planning Under Uncertainty # DETC2012-70392
+Design Process Error-Proofing: Development of Automated Error-Proofing Information Systems # DETC2003-48786
+Design Evaluation Method for Miniature Machine Tools Utilizing Form-Shaping Theory # DETC2003-48787
+A Context-Aware Information Model for Elderly Homecare Services in a Smart Home # DETC2009-86673
+User Interface Design for Interactive Product Family Analysis and Variants Derivation # DETC2010-28390
+An Information Theoretical Perspective on Performance, Refinement and Cost # DETC2005-85403
+A Method to Improve Platform Leveraging in a Market Segmentation Grid for an Existing Product Line # DETC2006-99469
+An Integrated Process Planning System for Machining and On-Machine Inspection # DETC2008-49725
+Relating Two Domains via a Third: An Approach to Overcome Ambiguous Attributions Using Multiple Domain Matrices # DETC2008-49249
+Smoothing of Noisy Laser Scanner Generated Meshes Using Polynomial Fitting and Neighborhood Erosion # DETC2003-48778
+A Genetic Algorithm Based Method for Product Family Design Optimization # DETC2002-34106
+An Improved Support Vector Domain Description Method for Modeling Valid Search Domains in Engineering Design Problems # DETC2011-48435
+Topology Optimization Considering Gravitational and Centrifugal Forces # DETC2006-99749
+Learning Stylistic Desires and Generating Preferred Designs of Consumers Using Neural Networks and Genetic Algorithms # DETC2011-48642
+Haptically Guided Filtering for Reverse Engineering # DETC2004-57539
+Metamodel Based Design Automation: Applied on Multidisciplinary Design Optimization of Industrial Robots # DETC2012-70867
+Contact Analysis Between a Moving Solid and the Boundary of Its Swept Volume # DETC2008-49447
+Design of an Extended-Range Electric Vehicle for the EcoCAR Challenge # DETC2010-28927
+A Filter-Based Sample Average SQP for Optimization Problems With Highly Nonlinear Probabilistic Constraints # DETC2009-86183
+Creating Polytope Representation of Design Spaces for Visual Exploration Using Consistency Technique # DETC2009-86887
+Reconfigurable Products and Their Means of Reconfiguration # DETC2010-28528
+On Usage Context of Hybrid Electric Vehicles in Choice Studies # DETC2011-48385
+Shape Optimization of a Camoid Follower Surface # DETC2008-49659
+Multi-Objective Configuration Optimization With Vehicle Dynamics Applied to Midsize Truck Design # DETC2003-48735
+Purely Declarative Feature-Based Design With Feature Type Property Maintenance # DETC2004-57360
+Microstructure Design for a Rotating Disk: With Application to Turbine Engines # DETC2005-85148
+Integrating Freeform and Feature-Based Fitting Methods # DETC2004-57298
+Semantic Tolerance Modeling # DETC2006-99609
+Reliability-Based Design Optimization With Confidence Level Under Input Model Uncertainty # DETC2009-86701
+A Scheme for Transformation of Tolerance Specifications to Generalized Deviation Space for Use in Tolerance Synthesis and Analysis # DETC2002-34146
+Optimization Method of Location for Cooperative Lifting of Two Mobile Cranes # DETC2012-70496
+Conservative Estimation of Reliability With Limited Sampling # DETC2007-35465
+An Importance Sampling Approach for Time-Dependent Reliability # DETC2011-47200
+Visually Exploring a Design Space Through the Use of Multiple Contextual Self-Organizing Maps # DETC2011-47944
+Design for Lifecycle Cost Using Time-Dependent Reliability # DETC2009-86587
+The Risk in Early Design (RED) Method: Likelihood and Consequence Formulations # DETC2006-99375
+Learning Geometric Design Knowledge From Conceptual Sketches and Its Utilization in Shape Creation and Optimization # DETC2009-87477
+A Review of Recent Phase Transition Simulation Methods: Saddle Point Search # DETC2008-49411
+Roles and Observations of a Graduate Design Coach # DETC2005-85136
+Ontologies for Supporting Engineering Design Optimization # DETC2006-99508
+A Graph Grammar Approach to Generate Neural Network Topologies # DETC2007-34588
+Examining Interactions Between Design Architecture and Designer Mistakes # DETC2010-28872
+Response Surface Method Using Sequential Sampling for Reliability-Based Design Optimization # DETC2009-87084
+Fuzzy Heuristic Gradient Projection for Frame Topology Optimization # DETC2005-85353
+Port-Based Ontology Semantic Similarities for Module Concept Creation # DETC2009-86470
+Improving Multi-Objective Robust Optimization Under Interval Uncertainty Using Worst Possible Point Constraint Cuts # DETC2009-87312
+Robust Structural Design Optimization Under Non-Probabilistic Uncertainties # DETC2011-48710
+A Subdivision Scheme for Discrete Motion Generation and Swept Volume Analysis # DETC2008-50105
+Optimal Hybridization of Battery, Engine and Motor for PHEV20 # DETC2011-47960
+Visual Representations as an Aid to Concept Generation # DETC2006-99572
+Platform-Based Design and Development: Current Trends and Needs in Industry # DETC2006-99229
+Robust Topological Design of Cellular Materials # DETC2003-48772
+Multifunctional Topology Design of Cellular Material Structures # DETC2006-99373
+Reducible Uncertain Interval Design (RUID) by Kriging Meta-Model Assisted Multi-Objective Optimization # DETC2010-28456
+Validating the Generational Variety Index (GVI) Through Product Family Optimization: A Preliminary Study # DETC2010-28573
+Multi Agent Normal Sampling Technique (MANST) for Global Optimization # DETC2007-35506
+Extended Radial Basis Functions for Metamodeling: A Comparative Study # DETC2005-85041
+A Study on Immune Algorithms Considering Interaction of Design With Environment Properties # DETC2003-48802
+A Second-Order Reliability Method With First-Order Efficiency # DETC2010-28178
+Three Dimensional Design Structure Matrix With Cross-Module and Cross-Interface Analyses # DETC2007-34510
+Automating Redesign of Sheet-Metal Parts in Automotive Industry Using KBE and CBR # DETC2006-99545
+Use of Constrained Viscoelastic Layers in the Design of Satellite Panels to Predict the Amplification Factor # DETC2002-34066
+Constraint Dominance Methods Applied to the Design of a Linear Motor # DETC2003-48794
+Optimal Design With Non-Normally Distributed Random Parameters, Conditional Probability, and Joint Constraint Reliabilities: A Case Study in Vehicle Emissions Regulations to Achieve Ambient Air Quality Standards # DETC2006-99417
+Data Mining and Fuzzy Clustering to Support Product Family Design # DETC2006-99287
+A Unified Framework for Decomposition of Design Structure Matrix and Domain Mapping Matrix # DETC2008-49542
+Automated Design of an Industrial Robot Family # DETC2009-86613
+Parameterization Strategy for Optimization of Shape Morphing Compliant Mechanisms Using Load Path Representation # DETC2003-48775
+A Process-Oriented Approach for Management of Product Configuration Models # DETC2004-57384
+Enabling Integrated Material and Product Design Under Uncertainty Through Stochastic Constitutive Relations # DETC2010-28917
+Shapley Value Based Attribute Selection for Configurators # DETC2009-86904
+Reliable Space Pursuing for RBDO With Black-Box Performance Functions # DETC2007-35517
+A Unified Information Model for Product Family Design Management # DETC2005-84869
+Modeling of Geometric Variations for Line-Profiles # DETC2011-47507
+Design and Experimental Research of Magneto-Rheological Fluids Fan Clutch # DETC2005-84367
+Computation of the Usage Contexts Coverage of a Jigsaw With CSP Techniques # DETC2010-28677
+Modeling of Slope Discontinuities in Flexible Body Dynamics Using the Finite Element Method # DETC2002-34094
+A Framework for Parallel Sampling of Design Space With Application to Vehicle Crashworthiness Optimization # DETC2012-71112
+A Game-Theoretic Approach to Finding Market Equilibria for Automotive Design Under Environmental Regulation # DETC2007-34884
+Geometric Design of Cylindric PRS Serial Chains # DETC2003-48816
+Modeling Variability in Torso Shape for Chair and Seat Design # DETC2008-49483
+Probabilistic Design Optimization of Frequency Dispersion for Rotating Blades # DETC2010-28172
+Random Field Characterization With Insufficient Data Sets for Probability Analysis and Design # DETC2011-48319
+A Graph-Based Method for Mechanical Product Family Modeling and Functional Tolerancing # DETC2005-85546
+An Extensive Simplex Method Mapping the Global Feasibility # DETC2002-34115
+On Adaptive Sampling for Single and Multi-Response Bayesian Surrogate Models # DETC2006-99210
+Optimisation of a Robotic Workcell Layout Using Genetic Algorithms # DETC2005-85518
+A Variable-Size Local Domain Approach for Concurrent Design Optimization and Model Validation Using Parametric Bootstrap # DETC2011-47234
+Model-Based Method to Translate System Level Customer Needs to Parts Specifications # DETC2010-28569
+Recognition of Interacting Turning Features for Mill/Turn Parts # DETC2005-85431
+Resilience-Driven System Design of Complex Engineered Systems # DETC2011-48314
+Concept Opportunity Diagrams: A Visual Modeling Method to Find Multifunctional Design Concepts # DETC2010-29068
+Interval Reliability Analysis # DETC2007-34582
+Evidence Theory-Based Reliability Analysis and Optimization in Engineering Design # DETC2007-34626
+A Packing Genetic Algorithm for Configuration Design # DETC2005-85479
+Shape Knowledge Indexing Using Invariant Shape Code # DETC2003-48744
+Dimensional Adjustment for Assemblability of Rapid Protoyped Parts # DETC2003-48722
+Particle Swarm Methodologies for Engineering Design Optimization # DETC2009-87237
+A Hybrid Reliability Approach for Reliability-Based Design Optimization # DETC2010-28871
+Co-Design of an Active Suspension Using Simultaneous Dynamic Optimization # DETC2011-48521
+A Design Method for Developing a Universal Product Family in a Dynamic Market Environment # DETC2009-86784
+An Analytical Approach to Functional Design # DETC2002-34084
+Assessing the Effectiveness of Using Graveyard Data for Generating Design Alternatives # DETC2011-48636
+A Method and Software Tool for Automated Gearbox Synthesis # DETC2009-86935
+A New Sparse Grid Based Method for Uncertainty Propagation # DETC2009-87430
+Development of a Probabilistic Model for Mechanistic Evaluation of Reliability of Oil Pipelines Subject to Corrosion-Fatigue Cracking # DETC2008-50079
+On Pattern Recognition in Rule-Based Topology Modification # DETC2008-49394
+Global Stiffness Improvement for Tricept Machine Tools Family # DETC2004-57211
+Nonlinear Kinematic Tolerance Analysis of Planar Higher Pairs # DETC2002-34109
+Model-Based Decomposition Using Non-Binary Dependency Analysis and Heuristic Partitioning Analysis # DETC2006-99175
+A Comparative Study of Optimal Design for an Inkjet Printer Tube With and Without Performance Variations # DETC2004-57446
+Planning on Mistakes: An Approach to Incorporate Error Checking Into the Design Process # DETC2008-50006
+Robustness Metrics for Time-Dependent Quality Characteristics # DETC2011-47855
+Topology Optimization of Piezoelectric Energy Harvesting Devices Subjected to Stochastic Excitation # DETC2010-28856
+Microstructure Reconstruction for Stochastic Multiscale Material Design # DETC2011-48323
+Optimum Design of an Anchoring System for Percutaneous Mitral Valve Repair # DETC2010-28462
+A Sequential Algorithm for Possibility-Based Design Optimization # DETC2006-99232
+Product Platform Problem Taxonomy: Classification and Identification of Benchmark Problems # DETC2006-99573
+Network Target Coordination for Optimal Design of Decomposed Systems With Consensus Optimization # DETC2012-70333
+A Method and Software Prototype to Support On-Line Planning on CNC Machines # DETC2008-50123
+Validation of Computational Fluid Structure Interaction Models for Shape Optimization Under Blast Impact # DETC2010-28110
+Topology Optimization of Micromachined Structures With Surface Micromachining Manufacturing Constraints # DETC2006-99341
+Quasi-Optimal Mesh Segmentation Via Region Growing/Merging # DETC2007-35171
+Stereolithography Mock-Up With Internal Camera for Automatic Usability Data Acquisition and Functional Simulation # DETC2006-99220
+Topology Optimization of Multi-Component Structures via Decomposition-Based Assembly Synthesis # DETC2003-48730
+Ensemble of Meta-Models Based on Local Error Measure Using Cross-Validation # DETC2009-87279
+Introducing Hierarchical Particle Swarm Optimization to Optimal Part Orientation in Fused Deposition Modeling # DETC2006-99534
+A Method to Solve Inverse Kinematics Problems Using Lie Algebra and Its Application to Robot Spray Painting Simulation # DETC2004-57086
+Geometric Containment Analysis for Rotational Parts # DETC2004-57271
+Strain-Based Topology Optimization for Crashworthiness Using Hybrid Cellular Automata # DETC2009-86348
+Numerical Methods for Propagating Imprecise Uncertainty # DETC2006-99237
+Error Sensitivity Analysis for Optimal Calibration of Parallel Kinematic Machines # DETC2002-34113
+Toward an Information Management Infrastructure for Product Family Planning and Mass Customization # DETC2004-57430
+Free-Form Feature Representation and Comparison # DETC2006-99066
+Product Family Commonality Selection Through Interactive Visualization # DETC2008-49335
+An Inverse Analysis Method for Design Optimization With Both Statistical and Fuzzy Uncertainties # DETC2006-99731
+WirePATH Rapid Tooling Process and Supporting Software Development # DETC2003-48723
+Optimization of Honeycomb Cellular Meso-Structures for High Speed Impact Energy Absorption # DETC2011-48000
+Non-Gradient Based Parameter Sensitivity Estimation for Robust Design Optimization # DETC2003-48716
+A Design Strategy for Collaborative Decision Making in a Distributed Environment # DETC2007-34842
+An Optimal Design Method for Reducing Brake Squeal in Disc Brake Systems # DETC2007-34708
+A New Inverse Reliability Analysis Method Using MPP-Based Dimension Reduction Method (DRM) # DETC2007-35098
+The Role of Contraints and Human Interaction in Evolving MEMS Designs: Microresonator Case Study # DETC2004-57462
+A Method for Identifying Design Principles for the Developing World # DETC2011-48584
+An Approach for Generating Variational Geometry of a Pattern of Holes With Composite Positional Tolerances # DETC2002-34033
+A Face Clustering Method for a Hexahedral Meshing # DETC2003-48776
+Structural Topology Optimization Under Design-Dependent Loads # DETC2005-85605
+Modular Product Design Using Cyberinfrastructure for Global Manufacturing # DETC2009-86899
+A Hybrid Biomimetic Genetic Algorithm Using a Local Fuzzy Simplex Search # DETC2010-29085
+A Methodology to Support Product Family Redesign Using Genetic Algorithm and Commonality Indices # DETC2005-84927
+Function Block Design to Enable Adaptive Job Shop Operations # DETC2007-34260
+Twinkling a Random Search Algorithm for Design Optimization # DETC2005-85305
+Design for Project Change Management: Part 2 -- Attribute Design # DETC2004-57332
+A Taxonomy for Collaborative Design # DETC2003-48781
+Decomposition of System Level Reliability-Based Design Optimization to Reduce the Number of Simulations # DETC2011-47815
+Correspondences Matching on 3D Freeform Mesh Models # DETC2007-35010
+Robust Design Using Preference Aggregation Methods # DETC2003-48715
+Assembly and Variety Considerations During Conceptual Design # DETC2008-50050
+On the Impact of Coupling Strength on Complex System Optimization for Single-Level Formulations # DETC2005-84790
+A CAD Package for High-Speed CAM Design Based on Direct Multiple Shooting Optimal Control Techniques # DETC2004-57410
+Exploring Marketing to Engineering Information Mapping in Mass Customization: A Presentation of Ideas, Challenges and Resulting Questions # DETC2011-48742
+Improving Confidence in Simulation-Based Design Through Error Functions # DETC2007-34435
+Flexible and Reconfigurable Systems: Nomenclature and Review # DETC2007-35745
+Topology Optimization of Non-Linear Elastic Structures by Using SLP # DETC2009-86292
+Design Optimization of Hierarchically Decomposed Multilevel Systems Under Uncertainty # DETC2004-57357
+Numerical Experiments in Using Voronoi Cell Finite Elements for Topology Optimization # DETC2009-87460
+Shape Recovery From Medical Image Data Using Extended Superquadrics # DETC2005-84738
+Quantitative Exploratory Techniques to Simplify Multiple Objectives in Product Design Optimization # DETC2003-48731
+A Study of the Effect of Geometry Changes on the Structural Stiffness of a Composite D-Spar # DETC2010-28730
+A Method for Inferring Design Rules With Explicit Bounds of Applicability # DETC2005-85295
+Studies on the Design of Reverse Osmosis Water Desalination Systems for Cost and Energy Efficiency # DETC2010-28493
+Knowledge Model for Managing Product Variety and its Reflective Design Process # DETC2006-99360
+Cross Model Shape Reuse: Copying and Pasting of Freeform Features # DETC2002-34064
+Principles of Mechanical Design for the Developing World: A Case Study Approach # DETC2011-48245
+A Comparative Study of Data-Intensive Demand Modeling Techniques in Relation to Product Design and Development # DETC2009-87049
+Verve: A General Purpose Open Source Reinforcement Learning Toolkit # DETC2006-99651
+A New Framework for Collaborative Set-Based Design: Application to the Design Problem of a Hollow Cylindrical Cantilever Beam # DETC2011-48153
+Considering Secular and Demographic Trends in Designing for Present and Future Populations # DETC2010-28879
+Toward Automatic Process Planning of a Multi-Axis Hybrid Laser Aided Manufacturing System: Skeleton-Based Offset Edge Generation # DETC2003-48726
+Crashworthiness Design Using a Hybrid Cellular Automation Algorithm # DETC2006-99566
+A Classifier-Guided Sampling Method for Computationally Expensive, Discrete-Variable, Discontinuous Design Problems # DETC2012-70353
+Towards a Suite of Problems for Comparison of Product Platform Design Methods: A Proposed Classification # DETC2006-99289
+Building Surrogate Models Based on Detailed and Approximate Simulations # DETC2004-57486
+Lighting Optimization for Sustainable Building Design Considering User Productivity # DETC2012-70470
+Optimization of Engine Torque Management Under Uncertainty for Vehicle Driveline Clunk Using Time-Dependent Metamodels # DETC2008-49479
+Finite Element Model Updating Approach to Damage Identification in Beams Using Particle Swarm Optimization # DETC2008-49727
+An Approach to Robust Multiattribute Concept Selection # DETC2003-48707
+An Improved Initial Population Strategy for Compliant Mechanism Designs Using Evolutionary Optimization # DETC2008-49187
+Enhanced Sequential Optimization and Reliability Assessment Method for Changing Design Variance # DETC2005-84891
+Supporting Trade Space Exploration of Multi-Dimensional Data With Interactive Multi-Scale Nested Clustering and Aggregation # DETC2009-87045
+Towards Adaptable Architecture # DETC2008-49971
+Automated Synthesis of MEMS Fabrication Sequence Using Graph Grammars # DETC2007-34691
+Growth Design Modeling # DETC2006-99151
+Application of Bayesian Sensor Placement Optimization for Real-Time Health Monitoring # DETC2012-71143
+Exploring Automated Concept Generator Output Through Principal Component Analysis # DETC2010-28911
+Conjoint-HoQ: A Quantitative Methodology for Consumer-Driven Design # DETC2007-35568
+Towards Rapid Redesign: Pattern-Based Design Diagnostics for Large-Scale and Complex Redesign Problems # DETC2005-84888
+Reliability-Based Design With the Mixture of Random and Interval Variables # DETC2003-48709
+Development of Game Theoretic Protocols for Multilevel Design # DETC2010-28818
+Hierarchical Optimization-Based Approach for Two-Dimensional Rectangular Layout Design Problems # DETC2009-87410
+Uncertainty Analysis With Probability and Evidence Theories # DETC2006-99078
+Interval Uncertainty Reduction and Single-Disciplinary Sensitivity Analysis With Multi-Objective Optimization # DETC2009-86282
+Novel Geometrical Approach to Designing Flow Channels # DETC2012-71448
+Customer-Centric Product Modeling for Rapid Product Identification in One-Of-A-Kind Production # DETC2009-86263
+Improved Head Restraint Design for Safety and Compliance # DETC2006-99429
+Application of Interactive Deformation to Assembled Mesh Models for CAE Analysis # DETC2007-34636
+Analytical Robust Design of Mechanical Systems # DETC2008-49230
+Control, Design and Error Variables in Decomposition of Design Optimization Problems # DETC2002-34085
+Partitioning Positional and Normal Space for Fast Occlusion Detection # DETC2003-48779
+Adaptive Slicing of Moving Least Squares Surfaces: Toward Direct Manufacturing of Point Set Surfaces # DETC2007-35665
+The Integration of Pahl and Beitz and the Theory of Inventive Problem Solving for the Conceptual Design of Multi-Domain Systems # DETC2009-87311
+Multidisciplinary Design Optimization of Ship Hull Forms Using Metamodels # DETC2011-47761
+A Methodology for the Study of the Effects of Communication Method on Design Review Effectiveness # DETC2003-48742
+Making the Most Out of Surrogate Models: Tricks of the Trade # DETC2010-28813
+Mini-Max Type Formulation of Strict Robust Design Optimization Under Correlative Variation # DETC2002-34041
+Two-Stage System of Systems Model by Linking System Design With Resource Allocation # DETC2006-99551
+An Experimental Approach to Assess the Disparities in the Usage Trends of Domestic Electric Lighting # DETC2012-70835
+An Integrated Design Support Environment for a Micro-Scale Portable Absorption Cooling System # DETC2004-57229
+Use Scenarios for Design Space Exploration With a Dynamic Multiobjective Optimization Formulation # DETC2012-71039
+Adaptive Deposition Coverage Toolpath Planning for Metal Deposition Process # DETC2007-34445
+Design Optimization of Reverse Osmosis Water Desalination Systems via Genetic Algorithms # DETC2010-28489
+Selecting an Appropriate Metamodel: The Case for NURBs Metamodels # DETC2005-85043
+Visualization of Multidimensional Design and Optimization Data Using Cloud Visualization # DETC2002-34130
+Parametric Solid Modeling # DETC2006-99174
+A Fast and Efficient Compact Packing Algorithm for Free-Form Objects # DETC2008-50097
+Multi-Objective Design and Tolerance Allocation for Single- and Multi-Level Systems # DETC2010-28140
+Designing Design Processes for Integrated Materials and Products Realization: A Multifunctional Energetic Structural Material Example # DETC2006-99449
+Modular Product Configuration: An Automatic Tool for Eliciting Design Knowledge From Parametric CAD Models # DETC2010-28242
+Hybrid General Heuristic Gradient Projection for Frame Optimization of Micro and Macro Applications # DETC2009-87012
+Robustness of Residual Stresses in Castings and an Improved Process Window # DETC2009-86454
+Design Language for Airplane Geometries Using the Unified Modeling Language # DETC2009-87368
+Analytical Variance-Based Global Sensitivity Analysis in Simulation-Based Design Under Uncertainty # DETC2004-57484
+Reliability-Based Shape Optimization of a Pressure Tank Under Random and Stochastic Environments # DETC2008-49415
+Optimal Design of a Simplified Morphing Blade for Fixed-Speed Horizontal Axis Wind Turbines # DETC2012-70225
+Shape and Topology Optimization With Medial Zones # DETC2011-48363
+Tolerance Synthesis of Mechanisms: A Robust Design Approach # DETC2003-48737
+A Multiscale Design Methodology for Designing Hierarchical Multiscale Systems Considering Random Field Uncertainty # DETC2009-87465
+Modeling of Hydraulic Hose Paths # DETC2002-34152
+Multi-Objective Optimization of Product Configuration # DETC2008-49871
+Bayesian Reliability Based Design Optimization Using Eigenvector Dimension Reduction (EDR) Method # DETC2007-35524
+Unified Distance Queries in a Heterogeneous Model Environment # DETC2004-57461
+Adapted Concept Generation and Computational Techniques for the Application of a Transformer Design Theory # DETC2006-99584
+Decision Making and Constraint Tradeoff Visualization for Design Under Uncertainty # DETC2007-35385
+Approximated Unimodal Region Elimination Based Global Optimization Method for Engineering Design # DETC2007-34839
+Evaluating the Performance of Visual Steering Commands for User-Guided Pareto Frontier Sampling During Trade Space Exploration # DETC2008-49681
+An Efficient Pareto Set Identification Approach for Multi-Objective Optimization on Black-Box Functions # DETC2004-57194
+ModelAngelo: A Rapid Prototyping System for Polystyrene # DETC2002-34137
+Including Preference in Anthropometry-Driven Models for Design # DETC2007-35479
+A Hybrid Method Using Response Surface and Pattern Search for Design Optimization # DETC2005-85146
+Designing Embodiment Design Processes Using a Value-of-Information-Based Approach With Applications for Integrated Product and Materials Design # DETC2008-49395
+A Sensitivity-Based Pattern Search Algorithm for 3D Component Layout # DETC2002-34123
+A Nested Extreme Response Surface Approach for RBDO With Time-Dependent Probabilistic Constraints # DETC2012-70790
+Consider-Then-Choose Models in Decision-Based Design Optimization # DETC2012-71176
+PDM Implementation in Indian Industries: An Impact Study on Technology Adoption # DETC2007-34723
+Metamorphosis of Periodic Surface Models # DETC2009-87101
+Updating Uncertainty Assessments: A Comparison of Statistical Approaches # DETC2007-35158
+Protocol-Based Multi-Agent Systems: Examining the Effect of Diversity, Dynamism, and Cooperation in Heuristic Optimization Approaches # DETC2010-28601
+System Dynamics Through Graphical Dimensional Analysis # DETC2009-87461
+Optimal Component Sizing and Forward-Looking Dispatch of an Electrical Microgrid for Energy Storage Planning # DETC2011-48513
+A System Approach to Simulation-Based Design Under Uncertainty, Through Best in Class Simulation Process Integration and Design Optimization # DETC2004-57149
+An Industrial Trial of a Set-Based Approach to Collaborative Design # DETC2008-49953
+Compliant Mechanism Design Using a Strain Based Topology Optimization Method # DETC2011-48525
+Optimal Kinematics Design of an Industrial Robot Family # DETC2008-49645
+A Study of Covariance Functions for Multi-Response Metamodeling for Simulation-Based Design and Optimization # DETC2008-50061
+Variation Analysis of Position, Velocity, and Acceleration of Two-Dimensional Mechanisms by the Direct Linearization Method # DETC2009-86236
+Simulation Model Refinement for Decision Making via a Value-of-Information Based Metric # DETC2006-99433
+Topology Optimization of Multiple Parts in Dynamic Controlled Systems # DETC2008-49134
+A Rational Design Approach to Gaussian Process Modeling for Variable Fidelity Models # DETC2011-48227
+Parallel Biogeography-Based Optimization With GPU Acceleration for Nonlinear Optimization # DETC2010-28102
+Math-Based Performance Evaluation of an Experimental Car: Frontal Impact Crashworthiness # DETC2002-34153
+Front Structure Design Procedure for Optimal Pedestrian Leg Impact Performance # DETC2004-57153
+An Efficient Algorithm for Constructing Optimal Design of Computer Experiments # DETC2003-48760
+Flexible Product Platforms: Framework and Case Study # DETC2006-99163
+Evolutive Design of Car Silhouettes # DETC2008-49439
+A Comparison of Commonality Indices for Product Family Design # DETC2004-57141
+Automatic Toolpath Generation for Multi-Axis Surface Machining in a Hybrid Manufacturing System # DETC2003-48780
+Quantifying Profit and Loss Associated With Failure Cases # DETC2004-57576
+Suggesting Joint Limitations and Physical Parameters for Motion Generating 3 DOF Planar Chains # DETC2003-48815
+Multi-Disciplinary Conceptual Modeling and Optimization With Uncertainty Effects Consideration # DETC2006-99617
+Topology Optimization for Steady-State Heat Transfer Problems Including Design-Dependent Effects # DETC2008-49098
+Freeform Feature Retrieval by Signal Processing # DETC2004-57061
+Automated Concept Generation Using Branched Functional Models # DETC2010-28775
+Design of Energy Absorbing Structure Using Topology Optimization With a Multi-Material Model # DETC2003-48774
+Geometric Design of Uniform Developable B-Spline Surfaces # DETC2004-57257
+Spiral-Like Path Planning Without Gap for Material Deposition Processes # DETC2006-99631
+On the Design Synthesis of Multistable Equilibrium Systems # DETC2004-57102
+Parameter Sensitivity in System Identification of Parallel Mechanisms # DETC2002-34110
+A Function-Based Methodology for Analyzing Critical Events # DETC2006-99535
+Granularity Enhancement of Extracted Preferential Probabilities From Design Team Discussion # DETC2011-48749
+Probabilistic Analysis of Manufacturing Uncertainty in Turbine Blades # DETC2009-86190
+Enabling Decision-Based Design Using Solution Trajectory Correction and Backtracking Rules # DETC2012-71080
+Heterogeneous Design Optimization From the Microstructure # DETC2006-99157
+Interactive Modular Optimization Strategy for Layout Problems # DETC2011-47925
+Reliability-Based Design Using Saddlepoint Approximation # DETC2006-99077
+Two Methodologies for Identifying Product Platform Elements Within an Existing Set of Products # DETC2006-99234
+Smart Assemblies for Robot Design: A Progress Report # DETC2002-34135
+Modified Reduced Gradient With Realizations Sorting for Hard Equality Constraints in Reliability-Based Design Optimization # DETC2010-28159
+Optimal Troubleshooting for Electro-Mechanical Systems # DETC2003-48796
+Free-Form Optimal Conjugation Design # DETC2012-71525
+Ball Bearing Fatigue and Wear Life Optimization Using Elastohydrodynamic and Genetic Algorithm # DETC2010-28849
+A Novel Second-Order Reliability Method (SORM) Using Non-Central or Generalized Chi-Squared Distributions # DETC2012-70276
+Genetic Algorithms Applied to Affordance Based Design # DETC2012-70332
+Additive Manufacturing Based on Multiple Calibrated Projectors and Its Mask Image Planning # DETC2010-28922
+Using Multiple Surrogates for Minimization of the RMS Error in Meta-Modeling # DETC2008-49240
+Optimization of Bicycle Frames Using Genetic Algorithms # DETC2007-34918
+Optimization for Mass Variation of System Including Shock Absorber # DETC2003-48797
+Dual Stage Input Coupled Split Power Transmission Efficiency Optimization # DETC2002-34057
+Topological Synthesis of Shell Structures # DETC2006-99092
+A Sequential Exploratory Experimental Design Method: Development of Appropriate Empirical Models in Design # DETC2004-57527
+Topology Optimization of a Compliant Gripper Using Hybrid Simulated Annealing and Direct Search # DETC2003-48770
+Insertion of Planar Areas Into Free-Form Surfaces in Early Product Design # DETC2005-85045
+An Analysis of Complexity Measures for Product Design and Development # DETC2012-71309
+Pipe Route Design Using Variable Topography Distance Transforms # DETC2005-85342
+Representation and Automated Generation of Analysis Feature Model for Finite Element Analysis # DETC2009-86322
+Hybrid Power/Energy Generation System Design Through Multistage Design Optimization Problem With Complementarity Constraints # DETC2010-28362
+Uncertainty Analysis of Damage Evolution Computed Through Microstructure-Property Relations # DETC2008-49168
+Determining Optimal Building Direction for Rapid Prototyping Based on Unit Sphere Searching # DETC2012-70210
+An Early-Stage Tool to Evaluate the Product Redesign Impact # DETC2011-47625
+Visual Analysis of User Accommodation # DETC2010-28712
+Objective Function Based Pattern Search: A Computationally Efficient Algorithm for 3D Component Layout # DETC2004-57429
+A Web-Enabled Engineering Object Modeling Environment to Support Interoperability and Intelligent Services in Collaborative Design # DETC2005-84240
+Matching Geometric Shapes in 4D Space Incorporating Curvature Information # DETC2007-34746
+A Platform Selection Approach Based on Product Family Ontology Modeling # DETC2011-48194
+Objective-Oriented Sequential Sampling for Simulation Based Robust Design Considering Multiple Sources of Uncertainty # DETC2012-70639
+A CAD-Integrated System for Automated Idealization of CAD-Models for Finite Element Analysis # DETC2005-84287
+Concurrent Parameter Design Based on Constraint Network # DETC2004-57116
+Research on Mechanism Model of Fixture Location Errors Analysis # DETC2012-70255
+A Non-Deterministic Approach to Concept Selection Using S-Pareto Frontiers # DETC2002-34125
+A Knowledge-Based System for Change Impact Analysis # DETC2004-57249
+Coupling Degree of Mechanism and its Application # DETC2006-99079
+Optimization of a PEM Fuel Cell System for Low-Speed Hybrid Electric Vehicles # DETC2006-99606
+Hybrid Manufacturing System Modeling and Development # DETC2012-70247
+Transient Root Cause Analysis: A Model-Based Systems Engineering Methodology # DETC2004-57350
+Topology Optimization of Piezoelectric Energy Harvesting Strap Buckle # DETC2009-86940
+Automatic Virtual Entity Simulation of the Symbolic Schemes Generated in Conceptual Design Processes # DETC2009-86503
+Probabilistic Analytical Target Cascading: A Moment Matching Formulation for Multilevel Optimization Under Uncertainty # DETC2005-84928
+Discretizing Continuous Problems for Faster Global Convergence # DETC2003-48798
+On the Effect of Weights in Rational Motion Design # DETC2003-48817
+Exploration in the Preliminary Mechanical Design of Trade-Offs Between Automotive Architectural Constraints and Aggregate Noise Performances # DETC2006-99498
+Sequential Quadratic Programming for Robust Optimization With Interval Uncertainty # DETC2012-70139
+Structural Optimization of Lattice Materials # DETC2011-47390
+Modeling of Evolutionary Design Database # DETC2005-84956
+A Bisociative Design Framework for Knowledge Discovery Across Seemingly Unrelated Product Domains # DETC2012-70764
+Type Synthesis of Three-DOF Translational Parallel Mechanisms # DETC2003-48820
+Knowledge Management: A Concept Review # DETC2003-48745
+Strategic Product Design Decisions for Uncertain Market Systems Using an Agent Based Approach # DETC2010-28778
+Measurement of Headlight Form Preference Using a Choice Based Conjoint Analysis # DETC2007-35409
+Optimization of Wind Farm Layout and Wind Turbine Geometry Using a Multi-Level Extended Pattern Search Algorithm That Accounts for Variation in Wind Shear Profile Shape # DETC2012-70290
+Object-Oriented Modeling of Industrial Manipulators With Application to Energy Optimal Trajectory Scaling # DETC2011-48390
+Multi-Objective Optimisation of Ship Hull With Distributed Applications # DETC2003-48732
+A New Mathematical Model for Geometric Tolerances as Applied to Axes # DETC2003-48736
+Design Improvement by Sensitivity Analysis (DISA) Under Interval Uncertainty Using Multi-Objective Optimization # DETC2009-87127
+A New Symbolic Method to Determine Base Inertia Parameters for General Spatial Mechanisms # DETC2002-34111
+Multidisciplinary Design Optimization of Modular Industrial Robots # DETC2011-48196
+Towards Rapid Redesign: Pattern-Based Redesign Planning for Large-Scale and Complex Redesign Problems # DETC2005-84890
+Recent Advancements in Product Family Design and Platform-Based Product Development: A Literature Review # DETC2011-47959
+An Inductive Design Exploration Method for the Integrated Design of Multi-Scale Materials and Products # DETC2005-85335
+Benefit Evaluation of New Technologies # DETC2002-34133
+DEVELOPMENT OF MULTI-STAGE AND HYBRID REAL-CODED GENETIC ALGORITHMS WITH ACTIVE CONSTRAINTS # DETC2002-34059
+A Hybrid Method for Parametric Conceptual Vehicle Design Using Legacy Components and Parametric Surfaces # DETC2006-99391
+Dimensional Synthesis of CRR Serial Chains # DETC2003-48818
+Decision Support for Strategic Redesign # DETC2008-49356
+Robust Design of Cellular Materials With Topological and Dimensional Imperfections # DETC2005-85061
+A Parallel Grammar for Simulation-Driven Mechanical Design Synthesis # DETC2005-85414
+A Pareto Approach to Aligning Public and Private Objectives in Vehicle Design # DETC2008-49143
+A Benchmark Comparison of CAD 5-Axis Machining Packages # DETC2004-57442
+Some Metrics and a Bayesian Procedure for Validating Predictive Models in Engineering Design # DETC2006-99599
+Model Development Under Uncertainty via Conjoint Analysis # DETC2012-71318
+Conservative Prediction Via Safety Margin: Design Through Cross-Validation and Benefits of Multiple Surrogates # DETC2009-87053
+Topology and Classical Shape Optimization of a Lower Control Arm: A Case Study # DETC2006-99173
+A Multicriteria System-Based Method for Simulation-Driven Design Synthesis # DETC2006-99354
+A Single-Loop Method for Reliability-Based Design Optimization # DETC2004-57255
+A Multi-Axis Slicing Method for Direct Laser Deposition Process # DETC2010-28442
+Optimal Partitioning and Coordination Decisions in Decomposition-Based Design Optimization # DETC2007-34698
+Simulation-Based Design of Wind-Turbine Sealing Solutions Using a Systematic Approach to Robust Concept Exploration # DETC2012-70345
+A Sketch-Based Interface for the Design and Analysis of Simple Vibratory Mechanical Systems # DETC2004-57529
+Influence of Group Cohesion and Information Sharing on Effectivenss of Design Review # DETC2004-57509
+Lagrangian Relaxation for Decentralized Decision Making in Engineering Design # DETC2008-49541
+Customer-Driven Product Design Selection Using Web Based User-Generated Content # DETC2011-48338
+A Reliability Approach to Inverse Simulation Under Uncertainty # DETC2012-70131
+Optimal Design Methodology of Common Components for a Class of Products: Its Foundations and Promise # DETC2003-48718
+Identifying Product Scaling Principles: A Tool for Bioinspired Design and Beyond # DETC2011-48404
+A Grammar-Based Approach to Sheet Metal Design # DETC2002-34087
+Functional Decomposition of the Clustering Approach for Matrix-Based Design Structuring # DETC2010-28768
+A Method for Supporting Service Design Based on Multiple Domain Knowledge # DETC2010-29032
+Assessing Product Architecture Costing: Product Life-Cycles, Allocation Rules, and Cost Models # DETC2004-57458
+Robustness and Performance Optimization of Engine Bearing System Using Computer Model and Surrogate Noise # DETC2004-57327
+Using Maximum Likelihood Estimation to Estimate Kriging Model Parameters # DETC2007-34662
+Automated Design Synthesis for Micro-Electro-Mechanical Systems (MEMS) # DETC2002-34065
+Convergence and Stability in Distributed Design of Large Systems # DETC2004-57344
+Parametric Design Sensitivity Analysis of High Frequency Structural-Acoustic Problems Using Energy Finite Element Method # DETC2003-48753
+Reverse Engineering for Spotting of Sheetmetal Forming Dies # DETC2010-28208
+An Activity-Based Costing Method for Product Family Design in the Early Stages of Development # DETC2005-84817
+Motion-Based Shape Deformation of Solid Models # DETC2007-34826
+Variable Fidelity Modeling as Applied to Trajectory Optimization for a Hydraulic Backhoe # DETC2009-87522
+Qualitative and Quantitative Sequential Sampling # DETC2006-99178
+Feature-Based Crystal Construction in Computer-Aided Nano-Design # DETC2008-49650
+A Robust Solution to the Spherical Rigid-Body Guidance Problem # DETC2003-48811
+Style Design Method Based on Form Impressions # DETC2005-84955
+Kinematic Synthesis of RPS Serial Chains # DETC2003-48813
+Improved Development Cycle of a Compliant Manipulator # DETC2003-48805
+Analysis and Design of a Four-Bar Linkage Type of Vibratory Parts Feeder Driven by Piezoelectric Actuator # DETC2002-34037
+Interactive UAS Path Planning Using Particle Swarm Optimization and Flight Mechanics # DETC2012-70967
+The Effect of Toolpath Intersection Angle in Metal Deposition # DETC2009-87335
+Approximate Motion Synthesis of Open and Closed Chains via Parametric Constraint Manifold Fitting: Preliminary Results # DETC2003-48814
+On the Entropy of Multi-Objective Design Optimization Solution Sets # DETC2002-34122
+Managing Uncertainty in Multiscale Systems via Simulation Model Refinement # DETC2011-47655
+Analysis and Design of an In-Pipe System for Water Leak Detection # DETC2011-48395
+PDE-Driven Level Sets and Shape Sensitivity for Structural Topology Optimization # DETC2004-57038
+An Approach to Improved Decentralized Design: The Modified Approximation-Based Decentralized Design (MADD) Framework # DETC2007-35534
+Decomposition Templates and Joint Morphing Operators for Genetic Algorithm Optimization of Multi-Component Topology # DETC2011-48572
+Process Platform Formation for Product Families # DETC2007-35742
+Product-Service Systems Design With Business Model Strategy Integrated: A Case Study of Urban Umbrella Rental Service System # DETC2012-71086
+Modeling of Non-Linear Relations Among Different Design Evaluation Measures for Multi-Objective Design Optimization # DETC2005-84425
+System RBDO With Correlated Variables Using Probabilistic Re-Analysis and Local Metamodels # DETC2010-28130
+Inverse Parametric Modeling From Independently Generated Product Data Sets # DETC2002-34100
+Conditions of Equivalence Between Continuum and Discrete Sensitivities # DETC2011-48800
+Design Optimization of Vehicle Structures for Crashworthiness Using Equivalent Mechanism Approximations # DETC2003-48751
+An Approach to Automated Conversion From Design Feature Model to Analysis Feature Model # DETC2011-47555
+Comparison of Gradient and Non Gradient Based Methods for Crash Optimisation # DETC2002-34045
+Comparison Study Between Probabilistic and Possibilistic Approach for Problems With Correlated Input and Lack of Input Statistical Information # DETC2009-86703
+Revisiting the Research Field of Product-Service Systems Development # DETC2012-70779
+A Modified Formulation for Automatic Synthesis of Planar Linkage Mechanisms # DETC2011-47341
+Analyzing Accidents of Jamming Body Parts in Doors # DETC2005-84542
+A Cross-Evaluation Matrix (CEM) Rating Based Approach to Pareto Efficient Frontier and Design Alternatives Enumeration # DETC2003-48705
+Moment Matching for Sensitivity Analysis of Probabilistic Model Output # DETC2004-57336
+A Quantitative Analysis of the Evolution of Design Automation Conference Fields # DETC2004-57119
+Optimization of Chemical Vapor Deposition Process # DETC2006-99748
+Augmenting Tools for Reverse Engineering Methods # DETC2006-99676
+Representation: Formal Development and Computational Recognition of Localized Requirement Change Types # DETC2012-71417
+A Framework for Designing Balanced Product Platforms by Estimating Versatility of Components # DETC2007-35879
+Response Surface Based Cost Model for Onshore Wind Farms Using Extended Radial Basis Functions # DETC2010-29121
+Optimization of Chemical Etching Process in Niobium Cavities # DETC2004-57133
+Extracting Freeform Shape Information by Template Fitting # DETC2003-48727
+Comparison of Gene Expression Programming and Common Metamodeling Techniques in Engineering Design # DETC2011-47130
+Hybrid Power Generation System Design Optimization Based on a Markovian Reliability Analysis Approach # DETC2011-48607
+Stiffness Testing of Hydraulic Hoses # DETC2002-34067
+Genetic Range Genetic Algorithms to Obtain Quasi-Optimum Solutions # DETC2003-48800
+Methodology for Pipeline Route Selection Using the NSGA II and Distance Transform Algorithms # DETC2011-47766
+Collision Free Locating of Mobile Cranes in 3D Lifting System # DETC2010-28618
+Fully Free-Form Deformation Features ([delta]-F4) Incorporating Discontinuities # DETC2004-57225
+Design of Chiral Honeycomb Meso-Structures for High Shear Flexure # DETC2010-28557
+Parameter Screening in Dynamic Computer Model Calibration Using Global Sensitivities # DETC2010-28343
+Developement of Evaluation System for Style Design Using Mixed Reality Technology # DETC2006-99331
+Structural Topology Optimization Using Function-Oriented Elements Based on the Concept of First Order Analysis # DETC2003-48773
+Faster Generation of Feasible Design Points # DETC2005-85449
+Design Decision-Making in the Early Stages of Collaborative Engineering # DETC2002-34034
+A Component Based Optimization Approach for Modular Robot Design # DETC2007-35329
+On the Use of Kriging Models to Approximate Deterministic Computer Models # DETC2004-57300
+On Providing Formal Manufacturability Information to Upstream Product Development Processes: Methodology and Case Study # DETC2005-84259
+Reducing the Number of Variables in a Response Surface Approximation: Application to Thermal Design # DETC2007-34674
+Extended Hierarchical Cluster Analysis for the Decomposition of Complex Design Problems # DETC2003-48728
+An Extended Hierarchical Statistical Sensitivity Analysis Method for Multilevel Systems With Shared Variables # DETC2009-87434
+Computer Model Validation in Vehicle Crash Safety Design # DETC2003-48757
+Casting and Milling Restrictions in Topology Optimization via Projection-Based Algorithms # DETC2012-71507
+Product Family Representation and Redesign: Increasing Commonality Using Formal Concept Analysis # DETC2005-84818
+A Design Alternatives Assessment and Management Approach # DETC2003-48746
+Fuzzy Controlled Hooke-Jeeves Optimization Search Algorithm # DETC2008-49127
+Human Head Aesthetic Design Using Hybrid Genetic Algorithm # DETC2002-34039
+Consistency Constraint Allocation in Augmented Lagrangian Coordination # DETC2008-49823
+A Quantitative Approach for Designing Multiple Product Platforms for an Evolving Portfolio of Products # DETC2002-34096
+A Local-Diffusion Genetic Algorithm for Disjoint Pareto-Optimal Problems With Application to Vehicle Suspension # DETC2012-70583
+A Conceptual Design Tool With Error Warning # DETC2005-84541
+Filling N-Sided Holes Using Trimmed B-Spline Surfaces # DETC2012-70735
+Selection-Integrated Optimization (SIO) Methodology for Optimal Design of Adaptive Systems # DETC2006-99322
+Port-Based Ontology Modeling for Product Conceptual Design # DETC2008-49726
+Occupant Restraint System Design Under Uncertainty Using Analytical Uncertainty Propagation Via Metamodels # DETC2005-85489
+Incorporating Customer Preferences and Market Trends in Vehicle Package Design # DETC2007-35520
+Approach to Evaluate and Implement Information Systems That Satisfy Your Goals # DETC2009-87327
+Universal Product Family Design Valuation in an Uncertain Market Environment # DETC2010-28682
+Knowledge Sharing Between Designers and Accidentologists for the Development of Road Safety Systems # DETC2005-85181
+An Indicator Response Surface-Based Monte Carlo Method for Efficient Component and System Reliability Analysis # DETC2003-48708
+Designing Product Families With Competition: A Design for Market Systems Approach # DETC2009-86422
+A Mesh Feature Paradigm for Rapid Generation of CAE-Based Design of Experiments Data # DETC2002-34102
+Parallel Implementation of Particle Swarm Optimization (PSO) Through Digital Pheromone Sharing # DETC2008-49444
+Understanding the Effects of Model Uncertainty in Robust Design With Computer Experiments # DETC2006-99500
+2-D Path Planning for Direct Laser Deposition Process # DETC2010-28440
+Support Vector Regression Modeling for Design and Analysis of Mechanical Snubbing # DETC2010-28117
+Fundamental Strategies for System Optimization of Machine Product Designs # DETC2008-49435
+A Customer-Based Expected Utility Metric for Product Design Selection # DETC2002-34081
+Development of an Interactive Web-Based Support System for Gear Design # DETC2002-34114
+Integrated Structure Decomposition, Optimization and Control Design # DETC2007-35152
+Introduction to Compliant Long-Dwell Mechanism Synthesis Using Buckling Arc Theory # DETC2003-48808
+A Learning Algorithm for Optimal Internal Combustion Engine Calibration in Real Time # DETC2007-34718
+Focused Product Family Improvement # DETC2008-49597
+A Forma Approach to Handling Conflicts in Multiattribute Group Decision Making # DETC2004-57342
+Parametric Modeling and Optimization of Chemical Vapor Deposition Process # DETC2008-50054
+Wavelet SDF-Reps: Solid Modeling With Volumetric Scans # DETC2007-34703
+On Tolerance Information Extraction of Feature Model in Automotive Engine CAPP System # DETC2005-84124
+Optimizing the Shear Beam of a Non-Pneumatic Wheel for Low Rolling Resistance # DETC2011-48532
+Development of an Automatic Design and Optimization System for Industrial Silencers # DETC2002-34118
+A Case Study of Design Process and Development of a Design Enabling Tool for Wright Metal Products # DETC2007-35610
+Integrated Optimization for Supporting Functional and Layout Designs During Conceptual Design Phase # DETC2009-86810
+Application of Product Platform Design for Engineered System # DETC2007-35800
+Modeling and Virtual Reality Realization of Coupled Processes in Integrated Open-Die Forging Plant # DETC2009-86807
+Automated Symmetry Exploitation in Engineering Analysis # DETC2004-57096
+Poisson Based Reuse of Freeform Features # DETC2006-99281
+Sequential Sampling With Kernel-Based Bayesian Network Classifiers # DETC2011-48318
+Optimizing the Unrestricted Placement of Turbines of Differing Rotor Diameters in a Wind Farm for Maximum Power Generation # DETC2010-29129
+Experimental Damage Characterization of Hexagonal Honeycombs Subjected to In-Plane Shear Loading # DETC2010-28549
+Tolerance-Maps Applied to a Point-Line Cluster of Features # DETC2005-85115
+Counting Degrees of Freedom for Developable Bezier Surface Design # DETC2002-34070
+Preference Inconsistency in Multidisciplinary Design Decision Making # DETC2007-35580
+An Optimization Model for Parabolic-Trough Solar Power Generation Systems # DETC2010-28997
+Application of Math-Based Marketing and Financial Tools in an Automated Parametric Design Framework # DETC2004-57437
+Theoretical Design and Control Analysis of Reconfigurable Parallel Kinematic Machine Tools # DETC2007-34301
+Global Product Family Design: A Mathematical Model for Simultaneous Decision of Module Commonalization and Supply Chain Configuration # DETC2011-47853
+Computational Geometric Modeling and Unfolding of 3-D Folded Structures # DETC2002-34046
+Design and Verification of a New Computer Controlled Seating Buck # DETC2006-99393
+Derivation of Design Guidelines for Miniature Machine Tools # DETC2004-57091
+Decomposition-Based Assembly Synthesis for In-Process Dimensional Adjustability # DETC2002-34086
+Low-Velocity Impact Behavior of Aluminum-Fiber/Epoxy Laminates: A Comprehensive Experimental Study # DETC2010-28731
+Dynamic Modelling and Simulation of Parallel Kinematic Machines # DETC2004-57163
+Optimized Mask Image Projection for Solid Freeform Fabrication # DETC2009-86268
+Prognosis Informed Design Framework for Operation and Maintenance of Wind Turbines # DETC2012-70792
+Agent Based Variation Propagation for Collaborative Top-Down Assembly Design # DETC2008-49589
+Selection of Part Orientation for Multi-Axis Hybrid Manufacturing Process # DETC2009-87370
+Feasibility Assessment in Preliminary Design Using Pareto Sets # DETC2005-84853
+Acquisition of Product Design Guidelines Considering User Kansei Data Pertaining to Product Environments # DETC2005-85160
+Reliable Design Optimization Under Aleatory and Epistemic Uncertainties # DETC2009-86473
+Manufacturing Investment and Allocation in Product Line Design Decision-Making # DETC2005-84812
+A Function-Based Approach for Integrated Design of Material and Product Concepts # DETC2007-35743
+Vehicle Component Layout With Shape Morphing: An Initial Study # DETC2006-99272
+Improved Clustering Algorithm for Design Structure Matrix # DETC2012-70076
+A New Approach to Probabilistic Risk Analysis in Concurrent and Distributed Design of Aerospace Systems # DETC2005-85056
+Multi-Stage Uncertainty Quantification for Verifying the Correctness of Complex System Designs # DETC2011-47888
+High Accuracy Laser Scanned View Registration Method for Reverse Engineering Using a CMM Generated CAD Model # DETC2006-99581
+A Measure of the Information Loss for Inspection Point Reduction # DETC2008-49708
+Reliable Kinetic Monte Carlo Simulation Based on Random Set Sampling # DETC2011-48575
+A Hybrid Sensitivity Analysis for Use in Early Design # DETC2009-87120
+A Reliability-Based Design Method Using Simulation Techniques and Efficient Optimization Approach # DETC2004-57457
+Finite Element Analysis in 3D Using the Penalty Boundary Method # DETC2002-34068
+Methodology to Reach Optimal Design of CHP Plants # DETC2005-84330
+A Hybrid Method for Surrogate Model Updating in Engineering Design Optimization # DETC2007-35482
+Identification of Platform Variables in Product Family Design Using Sensitivity Analysis # DETC2012-71198
+Redesign of a Spatial Gear Pair Using Configuration Spaces # DETC2002-34112
+The Effect of Tempering (Artificial Aging) on the Crashworthiness Performance of Mass-Efficient Extruded Aluminum Structures # DETC2003-48754
+Variant Design Automation: Strategy and Procedure for Storing Design Process Information # DETC2004-57377
+Basic Study of Autologous-Bone-Replaceable Artificial Bone Fabrication With Porosity Distribution Using Electrolysis # DETC2010-28645
+A Topology Optimization Problem in Control of Structures Using Modal Disparity # DETC2005-84761
+Optimal Design of a 3-DOF Parallel Micromanipulator # DETC2009-86259
+Optimal Camera Path Planning for the Inspection of Printed Circuit Boards Using a Two Stepped Optimization Approach # DETC2010-28393
+A Product Platform Development Method Using QFD # DETC2007-34622
+Neutral Defintion and Recognition of Assembly Features for Legacy Systems Reverse Engineering # DETC2009-86739
+Resistance Based Modeling of Collaborative Design # DETC2004-57076
+A Case Study of the Implementation and Maintenance of a Fee for Service Lighting System for a Rural Village in Sub Saharan Africa # DETC2012-71469
+Tolerance Allocation of Assemblies Using Fuzzy Comprehensive Evaluation and Decision Support Processes # DETC2010-29023
+Topology Optimization of Blank Geometry for the Sheet Forming Process # DETC2012-71497
+Designing a Product Package Platform # DETC2010-28888
+Robustness Analysis of Airfoil Performance # DETC2010-28261
+Suspension Synthesis for N:1 Roll Center Motion # DETC2003-48810
+A Knowledge-Supported System for Engineering Change Impact Analysis # DETC2003-48749
+An Integrated Framework for Probabilistic Optimization Using Inverse Reliability Strategy # DETC2003-48706
+Plug-in Hybrid Vehicle Simulation: How Battery Weight and Charging Patterns Impact Cost, Fuel Consumption, and CO2 Emissions # DETC2008-50027
+A Development Methodology for Parametric Synthesis Tools # DETC2007-34421
+Synthesis of Bistable Periodic Structures Using Topology Optimization and a Genetic Algorithm # DETC2005-84904
+A Graph Grammar Based Approach to Automated Manufacturing Planning # DETC2012-70406
+Analysis of Product Flexibility for Future Evolution Based on Design Guidelines and a High-Definition Design Structure Matrix # DETC2009-87118
+Design Configuration of Vehicle With Domain Knowledge Enhancement # DETC2004-57540
+An Integrated Robust Design and Marketing Approach for Product Design Selection Process # DETC2004-57405
+The Application of Product Platform Design to the Reuse of Electronic Components Subject to Long-Term Supply Chain Disruptions # DETC2008-49239
+An Interval-Based Focalization Method for Decision-Making in Decentralized, Multi-Functional Design # DETC2005-85322
+Modeling Implications in Simulation-Based Design of Stents # DETC2006-99493
+Customer Need Driven Function-Behavior Platform Formation # DETC2005-85336
+Design Optimization of a Special Class of Steel Structures Via Genetic Algorithms and Stochastic Sampling # DETC2009-87499
+Finding All Undercut-Free Parting Directions for Solids of Revolution # DETC2007-34688
+An Ensemble Approach for Robust Data-Driven Prognostics # DETC2012-70529
+An Investigation of Sustainability, Preference, and Profitability in Design Optimization # DETC2010-29055
+Wind Farm Layout Optimization Considering Energy Generation and Noise Propagation # DETC2012-71478
+A Perspective of Hierarchical Layout Design Optimization for Highly Packaged Equipments # DETC2007-35189
+Review of Metamodeling Techniques in Support of Engineering Design Optimization # DETC2006-99412
+Performance Comparison of Metamodeling Methods From the Perspective of Sample Quality Merits # DETC2009-86270
+Validating Designs Through Sequential Simulation-Based Optimization # DETC2010-28431
+An Optimization Based Methodology to Design Flexible Systems Subjected to Changing Operating Conditions # DETC2005-85147
+LIVE: A Work-Centered Approach to Support Visual Analytics of Multi-Dimensional Engineering Design Data With Interactive Visualization and Data-Mining # DETC2011-48333
+A Kriging Metamodel Assisted Multi-Objective Genetic Algorithm for Design Optimization # DETC2006-99316
+Aeronautical Planar Flank Milling Automation: Computing the G-Zones # DETC2006-99098
+Optimal Experimental Design of Human Appraisals for Modeling Consumer Preferences in Engineering Design # DETC2008-49561
+Layered Manufacturing by Electrophotographic Printing # DETC2003-48724
+Facilitating Collaborative Design: A Review on Design Representations and Workstations # DETC2005-85124
+Continuum-Based Design Sensitivity Analysis and Optimization of Springback in Stamping Process # DETC2005-84768
+Approximate Surfacing of Curve Clouds for Conceptual Shape Creation and Evaluation # DETC2011-48414
+Bayesian Hierarchical Choice Modeling Framework for Capturing Heterogeneous Preferences in Engineering System Design # DETC2009-87026
+Finite Element Synthesis for Design Optimization # DETC2012-70582
+Designing Product Families for a Changing Market Space # DETC2005-85164
+Design Preference Elicitation, Derivative-Free Optimization and Support Vector Machine Search # DETC2010-28475
+A Comparative Study of Constraint Programming Techniques Over Intervals in Preliminary Design # DETC2004-57152
+Time-Dependent Reliability Analysis by a Sampling Approach to Extreme Values of Stochastic Processes # DETC2012-70132
+Low Cost Demonstrator as a Mean for Rapid Product Realization With an Electric Motorcycle Application # DETC2005-85231
+Quantifying Model Uncertainty Using Measurement Uncertainty Standards # DETC2011-47865
+Optimization of a Semi-Active Shock Absorber for Aircraft Landing Gear # DETC2003-48765
+Penalized Likelihood Kriging Model for Analysis of Computer Experiments # DETC2003-48758
+The Improved Quadrilateral Discretization Model for the Discrete Topology Optimization of Structures # DETC2012-70424
+Approximation Assisted Multiobjective Optimization With Combined Global and Local Metamodeling # DETC2012-71174
+Fundamental Concepts for Product Designs Based on Pareto Optimum Solutions # DETC2011-47247
+Interactive Product Design Selection With an Implicit Value Function # DETC2002-34080
+Designing Products for Optimal Collaborative Performance With Application to Engineering-Based Poverty Alleviation # DETC2012-71209
+Microstructure-Mediated Integration of Material and Product Design: Undersea Submersible # DETC2009-87276
+Application of Dynamic State Variable Models for Multiple-Generation Product Lines With Cannibalization Across Generations # DETC2012-71186
+A Sequential Linear Programming Coordination Algorithm for Analytical Target Cascading # DETC2007-35361
+An Improved Genetic Algorithm for the Optimization of Composite Structures # DETC2006-99423
+Safety of Spur Gear Design Under Non-Ideal Conditions With Uncertainty # DETC2010-29186
+PSO Driven Genetic Range Genetic Algorithms # DETC2005-84942
+Multi-Category Design of Bundled Products for Retail Channels Considering Demand, Uncertainty and Competition # DETC2008-49210
+Efficient Genetic Algoritm Based Robust Design Method for Compressor Fan Blades # DETC2005-85042
+A Modeling Method for Vibration Analysis of a Stator Frame of Turbine Generators and Its Application to a Design System: Vibration Analysis and Analysis System # DETC2003-48792
+A Hybrid Inference Approach for Health Diagnostics With Unexampled Faulty States # DETC2012-70806
+Process Planning Support System Considering Product Quality # DETC2006-99377
+Optimal Packaging of Tank Turret System # DETC2003-48799
+Level Set-Based Topology Optimization Method for Thermal Problems Considering Design-Dependent Boundary Effects # DETC2009-86618
+High Performance Dirichlet Parametrization Through Triangular Bezier Surface Interpolation for Deformation of CAE Meshes # DETC2007-34285
+Investigating the Significance of 'One-to-Many' Mappings in Multiobjective Optimization # DETC2010-28689
+Methods for Evaluating Suitability of Econometric Demand Models in Design for Market Systems # DETC2009-87165
+An Engineering Design Strategy for Reconfigurable Products That Support Poverty Alleviation # DETC2010-28739
+An Adaptive Sequential Linear Programming Algorithm for Optimal Design Problems With Probabilistic Constraints # DETC2005-84489
+On the Use of Active Learning in Engineering Design # DETC2012-70624
+The Generalized Cahn-Hilliard Equations of Multiphase Transition for Structural Topology Optimization # DETC2005-84751
+Collaborative Decision Making Across Digital Interfaces # DETC2002-34073
+Improving the Performance of Visual Steering Commands for Multi-Dimensional Trade Space Exploration # DETC2008-49684
+Symmetry Plane Detection for 3D CAD Volumes # DETC2010-28338
+A Multidisciplinary and Multiobjective System Analysis and Optimization Methodology for Embedding Integrated Systems Health Management (ISHM) Into NASA's Complex Systems # DETC2006-99619
+Filleting and Rounding Using a Point-Based Method # DETC2005-85408
+Thermal Robustness and Mass Optimization of Heat Pipe Shape for Spacecraft Panel Using a Combination of Response Surface Methodology and Monte Carlo Simulation # DETC2002-34055
+Production Cost Modeling to Support Product Family Design Optimization # DETC2003-48720
+Methodology for Market Analysis of CHP Systems # DETC2005-85097
+Internet Based Framework to Perform Automated FEA on User Customized Products # DETC2003-48719
+Design Preference Elicitation Using Efficient Global Optimization # DETC2011-48316
+A Methodology for Trading-Off Performance and Robustness Under Uncertainty # DETC2005-85019
+Level Set Models for Structural Topology Optimization # DETC2003-48768
+Evaluation of Conceptual Designs and Maintainability Incorporating Uncertainty # DETC2002-34144
+Fundamental Concepts for Collaboratively Obtaining Optimum Product Designs # DETC2010-28376
+A Graph Theory Based Method for Functional Decoupling of a Design With Complex Interaction Structure # DETC2010-28609
+Probabilistic Approach for Digital Human Kinematic and Dynamic Reliabilities # DETC2012-70560
+Human Modelling: A Constraint-Based Feature Modelling Approach # DETC2002-34061
+PipeSynth: An Algorithm for Automated Topological and Parametric Design and Optimization of Pipe Networks # DETC2011-47906
+Parametric Structural Shape and Topology Optimization Method With Radial Basis Functions and Level-Set Method # DETC2006-99294
+Product Platform Design and Optimization: Status and Promise # DETC2003-48717
+Computationally Efficient Imprecise Uncertainty Propagation in Engineering Design and Decision Making # DETC2012-70419
+Quantifying Customer Sacrifice for Use in Product Customization Problems # DETC2012-71151
+Development of Process Optimization for an Intelligent Knowledge-Based System for Spur Gear Precision Forging Die Design # DETC2004-57205
+Model Reduction in Structural Analysis Using a Multiresolution Analysis # DETC2002-34077
+An Optimization Study of the Ultrasonic Welding of Thin Film Polymers # DETC2004-57082
+Assessing and Increasing Product and Family Differentiation in the Market # DETC2006-99538
+A New Global Optimization Method for Simultaneous Computation on Expensive Black-Box Functions # DETC2003-48763
+A Proposed Taxonomy for Physical Prototypes: Structure and Validation # DETC2008-49976
+Combining Case Based Reasoning and Shape Matching Based on Clearance Analyzes to Support the Reuse of Components # DETC2012-70631
+Product Family Concept Generation and Validation Through Predictive Decision Tree Data Mining and Multi-Level Optimization # DETC2007-34892
+A Survey of Various Encoding Schemes and Associated Placement Algorithms Applied to Packing and Layout Problems # DETC2006-99271
+A Cutting Plane Method for Analytical Target Cascading With Augmented Lagrangian Coordination # DETC2010-29207
+Topology and Dimensional Synthesis of Linkage Mechanism Based on the Constrained Superposition Method # DETC2008-50093
+Effective Random Field Characterization Considering Statistical Dependence for Probability Analysis and Design # DETC2010-29183
+Cycle Based Robot Drive Train Optimization Utilizing SVD Analysis # DETC2007-34772
+Robustness of Residual Stresses in Brake Discs by Metamodeling # DETC2011-47437
+Functional Part Families and Design Change for Mechanical Assemblies # DETC2008-49739
+Plug-In Hybrid Electric Vehicle Battery Selection for Optimum Economic and Environmental Benefits Using Pareto Set Points and PSATTM # DETC2010-28972
+Non-Dominated Sorting Genetic Quantum Algorithm for Multi Objective Optimization # DETC2007-35554
+A Framework for Collaborative Top-Down Assembly Design # DETC2007-34727
+Multidisciplinary Design Optimization for Complex Engineered Systems Design: State of the Research and State of the Practice--Report From a National Science Foundation Workshop # DETC2011-47237
+Towards Parametric Environmental Profiles of Complex Industrial Systems in Preliminary Design Stage # DETC2011-47376
+Optimization Design of a Spatial Six-Degree-of-Freedom Parallel Manipulator Based on Genetic Algorithms and Neural Networks # DETC2008-49558
+Probability of User Fit for Spatially Optimized Products # DETC2011-48569
+Allocating Tolerances Statistically With Tolerance-Maps and Beta Distributions: The Target a Planar Face # DETC2005-85122
+A Bayesian Approach to Reliability-Based Optimization With Incomplete Information # DETC2006-99458
+A Genetic Algorithm Approach for Technology Characterization # DETC2012-70465
+Designing Resource-Efficient Military Base Camps From a Holistic Perspective # DETC2012-70960
+Toward an Interactive Visualization Environment for Architecting Microgrids in Ultra Low Energy Communities # DETC2012-70535
+Integrated Decision Model for Interrelated Sub-Problems of Part Design or Selection, Machine Loading and Machining Optimization # DETC2009-86123
+Evolutionary Multi-Agent Systems: An Adaptive Approach to Optimization in Dynamic Environments # DETC2008-49211
+Robust Optimization of an Automotive Valvetrain Using a Multiobjective Genetic Algorithm # DETC2003-48714
+A Strategic Module-Based Platform Design Method for Developing Customized Products in Dynamic and Uncertain Market Environments # DETC2008-49683
+DRed and Design Folders: A Way of Capturing, Storing and Passing On Knowledge Generated During Design Projects # DETC2004-57165
+Evaluation of Modular Design Concepts of Complex Mechatronic Systems # DETC2005-84414
+Applications of 3D Level Set Topology Optimization # DETC2012-70870
+An Approach for Revealed Consumer Preferences for Technology Products: A Case Study of Residential Solar Panels # DETC2012-70468
+Predictive Carbon Nanotube Models Using the Eigenvector Dimension Reduction (EDR) Method # DETC2007-35608
+A Method for Designing Collaborative Products With Application to Poverty Alleviation # DETC2011-47409
+Optimal Adaptable Design Considering Changes of Requirements, Configurations and Parameters in the Whole Product Life-Cycle # DETC2010-28550
+Improved Disassembly Matrices for Disassembly Processes # DETC2004-57593
+Choice Model Specification for Market-Based Engineering Design # DETC2008-50071
+Enhanced Collaborative Optimization: A Decomposition-Based Method for Multidisciplinary Design # DETC2008-50038
+A Regularized Inexact Penalty Decomposition Algorithm for Multidisciplinary Design Optimization Problem With Complementarity Constraints # DETC2009-87278
+Using Q-Learning and Genetic Algorithms to Improve the Efficiency of Weight Adjustments for Optimal Control and Design Problems # DETC2005-85303
+On Electrochemical Deposition for Layered Manufacturing # DETC2004-57306
+A New Approach to Minimisations for Shape Control During Free-Form Surface Deformation # DETC2003-48777
+A Parametric Approach to Vehicle Seating Buck Design # DETC2004-57212
+A Single-Loop Approach for System Reliability-Based Design Optimization # DETC2006-99240
+Topological Synthesis for Linkage Mechanism Design Using the Minimum Potential Energy Principle # DETC2005-85587
+Direct 3D Layer Metal Deposition and Toolpath Generation # DETC2008-50062
+A Graphical Modeling Environment for Configuring Modular Product Families and Platforms # DETC2006-99537
+Automating Error Attenuation of Cutting Tools Using Smart Material # DETC2005-85509
+Analytical Target Setting: An Enterprise Context in Optimal Product Design # DETC2003-48734
+A Mathematical Programming-Based Approach for Architecture Selection # DETC2012-71025
+On Using Kriging Models for Complex Design # DETC2011-48579
+Adaptive Experimental Design Applied to Ergonomics Testing Procedure # DETC2002-34091
+Transformation Facilitators: A Quantitative Analysis of Reconfigurable Products and Their Characteristics # DETC2008-49891
+An Efficient Weighting Update Method to Achieve Acceptable Consistency Deviation in Analytical Target Cascading # DETC2004-57134
+Process Platform-Based Production Configuration # DETC2005-85559
+Automated Vehicle Structural Crashworthiness Design Via a Crash Mode Matching Algorithm # DETC2009-87072
+Automatically Generating Form Concepts According to Consumer Preference: A Shape Grammar Implementation With Software Agents # DETC2008-49281
+Using Level Set Method in Order to Design Structures Against Buckling # DETC2010-28942
+Application of Shape Grammars to Planning for CNC Machining # DETC2009-86827
+Optimization of Tool Handle Shape for a Target User Population # DETC2009-87444
+Conceptual Design of Tool Storage Based on the Divergent Tree Method # DETC2002-34044
+Towards Rules for Functional Composition # DETC2008-49904
+Exploring Heterogeneity of Customer Preference to Balance Commonality and Market Coverage # DETC2011-48581
+A Finite Element Approach for the Implementation of Magnetostrictive Material Terfenol-D in CNG Fuel Injection Actuation # DETC2008-50017
+A Decision Support Formulation for Design Teams: A Study in Preference Aggregation and Handling Unequal Group Members # DETC2005-84766
+An Evolutionary Clustering Approach to Pareto Solutions in Multiobjective Optimization # DETC2002-34048
+Theoretical and Experimental Characterization of the 34.6 2D Lattice Material # DETC2010-28158
+Safety Design Evaluation of Motorcycle Helmet for Oblique Impact # DETC2012-70484
+A Modular Design Approach to Improve the Life Cycle Performance Derived From Optimized Closed-Loop Supply Chain # DETC2011-48148
+Macroscopic Shape-Information as a Curve Design-Guideline # DETC2002-34072
+Bayesian Analysis of Adaptive One-Factor-At-A-Time Experimentation # DETC2007-34926

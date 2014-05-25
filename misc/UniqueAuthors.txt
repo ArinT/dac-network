@@ -1,0 +1,1990 @@
+X Y Shao
+Janet Worgan
+M Steven Greene
+Vikas Tomar
+Koichi Sasaki
+R D Sriram
+Margaret M Wiecek
+Johan Malmqvist
+Jordan J Cox
+Yao Lin
+Marcus Sandberg
+A Boyars
+Vijay K Kalivarapu
+HongLae Jang
+Mohamed ElMorsi
+Levent Burak Kara
+JeanPhilippe Pernot
+Nam Ho Kim
+C Greg Jensen
+Panos Y Papalambros
+Jun Shu
+Kate S Whitefoot
+Rahul Sarnobat
+Jianhua Zhou
+G Y Li
+Swathi Routhu
+Huibin Lui
+Zhimin Xi
+Ramsey Hemadeh
+S I Yi
+Satoshi Kitayama
+Achille Messac
+Umit Sonmez
+Paul Stewart
+Guojun Zhang
+Dibakar Sen
+Katie Whitefoot
+Dimitri Mavris
+Fredrik Borjesson
+Krishnan Suresh
+Eliot Winer
+Halldor Palsson
+William Culbreth
+Matthew Malone
+Andrew Hayes
+Haifeng Ji
+Gordon May
+Sourav Rakshit
+Prasanth B Nair
+Tyler Streeter
+Chenjie Wang
+Haoyu Wang
+Hua Deng
+Mitsunori Miki
+Stephane Guillet
+Zhang Shuting
+Sanghon Lee
+Limei Xu
+Charlotte de Vries
+Ali Farhang Mehr
+David Anderson
+Yue Wang
+ChihHsing Chu
+Stephen L Canfield
+Gopal Nadadur
+Josef Oehmen
+Mohamed Aly
+Alberto Vergnano
+Leslie Gennari
+Jie Hu
+Swaroop B Visweswaraiah
+Dr Abbas S Milani
+Kaveh Mohamed
+J Gu
+Jeff Thielman
+Wen Feng Lu
+Shafin Tauhid
+Patrick J Clasen
+Pranay Kilaru
+Jun Tang
+John K Gershenson
+Gregory Smith
+Leo Joskowicz
+Michael J Alexander
+Sinobu Yoshimura
+Shusheng Bi
+HyungJeong Yang
+John L Michaloski
+Xiangdong Yang
+Erin F MacDonald
+Richard Hauffe
+JyhCheng Yu
+Armand D Assadi
+Nathan H Putnam
+Kurt Sermeus
+Robin McDougall
+Jay D Martin
+Jianguo Wang
+Imre Horvath
+David A Dornfeld
+Yayoi Murase
+ELSayed Aziz
+Carolun Conner Seepersad
+Kunjal Oza
+Wonmo Kim
+Ryan S Hutcheson
+Diane Villanueva
+William Brace
+Hamid Jahed
+Natesh Chandrashekar
+KH Grote
+Marco Gero Fernandez
+Artemis Kloess
+Raymond Lipowski
+YungChieh Hung
+Renzo Cecere
+Young H Choi
+Maged R Abd El Malek
+Ram D Sriram
+Mikhail Ejakov
+Mike Bailey
+Yi Zhang
+Dmitriy Dikin
+Zhengchu Wang
+Roger J Jiao
+Michael S O Ehrenstrasser
+Brad Cooley
+Srikanth Devanathan
+Andreas A Malikopoulos
+Mark E Botkin
+Emad Samadiani
+Christian Noon
+Kamal Gupta
+Yu Liu
+Masoud Pourali
+Tobias Larsson
+Olivier de Weck
+Aaron Bobuk
+K H Hwang
+Naesung Lyu
+Gunay Orbay
+Raymond Rutkowski
+Geng Zhang
+Erik K Antonsson
+HoChin Jar
+Katie Grantham Lough
+James L Mathieson
+Kristen Kaufman
+Dustyn P Roberts
+Jami J Shah
+G K Ananthasuresh
+Jarod Kelly
+Elizabeth D Steva
+Dennis N Assanis
+Xiaoming Wang
+Alain Remouchamps
+Jason Parise
+Marius Swoboda
+Thomas Gmeiner
+Francois Cluzel
+Yusheng Liu
+Nathan B Schroeder
+J M Hamel
+Jingru Zhang
+Erich Devendorf
+Margherita Peruzzini
+Timothy J Troy
+John W Whitefoot
+Robert Bjarnemo
+Wing Bun Lee
+Wuhsun Chung
+Akihiro Takezawa
+Li Jiang Feng
+John C Ziegert
+Zebin Zhou
+Shintarou Yamasaki
+Peter J Hesketh
+Stefan Dahlstrom
+Chad Hume
+Jagadeep Thota
+Bryant D Hawthorne
+Samir Mesihovic
+Sendor Vajna
+Hiroshi Ishikawa
+Lijuan He
+Michel Bigand
+Heidi Q Chen
+C G Li
+Liping Wang
+Charles D Wood
+Dongwook Lim
+Eric Charbonneau
+Gilberto Mejia Rodriguez
+C F Jeff Wu
+Shamim Akhtar
+Chris Hoyle
+Swapnil Padhye
+Nanua Singh
+John JungWoon Yoo
+Aida Khajavirad
+Ruichen Jin
+Sebastian Mennicke
+Jeffrey W Herrmann
+Vladimir Turetsky
+Stephane Caro
+Michael Kokkolaras
+Howie Choset
+MinSheng Shin
+Sherrill Biggers
+Masaki Kamifuji
+John K Dickinson
+Masanori Kuriyama
+Joshua Mineroff
+Bradley Camburn
+Sudarsanam Chellappa
+Sridhar Kota
+HsinPao Chen
+Dongxing Cao
+Yoshinobu Kitamura
+Michael E Webber
+Paul K Wright
+Russell R Barton
+Matti Heiska
+Kevin Drost
+WenYuh Jywe
+Hideki Aoyama
+Andrew P Murray
+Mohamed F Aly
+Guido Galliani
+Changya Yan
+SeungWook Lee
+Eliab Z Opiyo
+Jiangchuan Liu
+Xin Wang
+Saraj Gupta
+Brian J Daniels
+Gul E Kremer
+Yi Miao
+Ashwin Gurnani
+Lijun Jiang
+Andreas Kain
+David Lamb
+Masoud RaisRohani
+Huaicai Mo
+Venkat Krovi
+Manh Tien Nguyen
+Tomotake Furuhata
+Daisuke Tsutsumi
+Ying Liu
+Ramon C Kuczera
+Markus Dihlmann
+Rahul Khardekar
+Vijitashwa Pandey
+Benjamin M Sloan
+J P Scanlan
+Kosuke Ishii
+JeanPierre Mathieu
+D Xue
+Jun Liu
+Don Beeson
+Lonny Thompson
+John J Wood
+Hemanth Amarchinta
+Seungjae Oh
+Craig Burkhart
+Kurt Hacker
+WinfriedHagen Friedl
+JeanClaude Leon
+Patrick Moriarty
+Mohamed S Senousy
+Yeong K Kim
+Mohammad Usman
+Yoojeong Noh
+G Hong
+Valery Y Glizer
+Vishwa Kalyanasundaram
+Barthelemy Longueville
+Norio Matsuki
+Cristina Amon
+Nasr AlHinai
+Darren C Knight
+Shinji Nishiwaki
+Yee Mey Goh
+Lieke Arts
+Ata A Eftekharian
+Roland Stolt
+Daniel E Carlsen
+Sirisha Rangavajhala
+Michael Morgenroth
+Kenneth M Ragsdell
+Masumi Sekita
+Dhanannjay Deo
+Yan Li
+Madhusudan Raghavan
+David Pulliam
+Akira Yamaguchi
+Hongseok Moses Noh
+Bonyong Koo
+Joshua Summers
+Giovanni Berselli
+Qiaode Jeffrey Ge
+Yuliang Shen
+Doug Fussner
+Anil Sachdev
+Lucas Pang
+Takashi Kobayashi
+Luke Berglind
+Kambiz Haji Hajikolaei
+Mostafa Nouri
+Michael G Montero
+Kemper E Lewis
+Runze Li
+L J B Peeters
+Avanti Jain
+Stella Maris Oggianu
+Bernhard Bettig
+PinYi Lin
+Shraddha Joshi
+Byeng D Youn
+Daniel Wehrwein
+Atsushi Yamada
+Kyle Stoker
+Ivan Mata
+Guolai Yang
+Miranda Baladi
+Deyi Xue
+Jun Doi
+Shapour Azarm
+Rupesh Kumar
+James T Allison
+Damien Motte
+A J Keane
+Conrad S Tucker
+Rached BenMansour
+Masayuki Kawamoto
+Aziz ElSayed
+Mi Xiao
+Justin Wahlborg
+Jian Tu
+Chao Hu
+Warren Seering
+Palwinder Singh
+Gary Wang
+Paul Carlile
+Haruki Kariya
+Keisuke Inoue
+Atia E Khalifa
+Takaaki Okano
+Michael J Scott
+Jing Fu
+Xiaodong Liu
+Bengt Lennartson
+Gaurav Ameta
+Apurva Kumar
+Rita T Willmann
+Kerry R Poppa
+Tarunraj Singh
+Dong Luo
+S J Culley
+Adel Younis
+Philippe Wenger
+Jun Lu
+M A Nahon
+John Goetz
+Spencer P Magleby
+PoEr Hsu
+Jonathan W Wittwer
+Laura Slingerland
+Sara McMains
+Sisi Xuanyuan
+Jakob Westrom
+Michele Germani
+Robert D Campbell
+Maura Mengoni
+K H Ko
+Masaru Uchiyama
+Deepak Sivaraman
+Yuya Suzuki
+Matthias Gurtler
+Yan Fu
+James J Mason
+C Grace Heckmann
+Hyung Sool Oh
+Mahmoud Awad
+Robert Bohlin
+Shiwei Zhou
+Kaivan Kamali
+Steven B Shooter
+Kevin Rawson
+Jing Li
+James Allison
+T Wiegers
+Parthsarathy Durgi
+Chensheng Wang
+Shuxing Yang
+Qi Lu
+Alice M Agogino
+Edgar Galvan
+Surya Swamy
+Ilaria Cristofolini
+Johan Segeborn
+Yoon Young Kim
+K Maddulapalli
+Marcel Verner
+Fernando Rangel
+L Luo
+Sudipto Ghosh
+Waleed M A Abd ElHady
+Mohammad BenDaya
+Geoff West
+Jian Zhang
+Yuanyuan Liu
+Michael R Tonks
+Tucker Marion
+Anthony M Roy
+S Gunawan
+David Yin
+Alexander Karl
+Venketesh N Dubey
+Kioumars Paryani
+Kishore Pochiraju
+Erhan Batuhan Arisoy
+Barbar Akle
+Gianna GomezLevi
+Thomas Klar
+John Eddy
+Shuo Cheng
+Abdullah M AlShabibi
+Li Nie
+Xiang Li
+Raffi Kamalian
+Ramy Harik
+Kiyoshi Yokota
+Saket Kansara
+Mark O Neal
+J Michael McCarthy
+Ahmad Nourbakhsh
+Jiten Patel
+Lupin Niranjan Jaishankar
+Lin He
+ChihHao Liu
+Mostafa S A Elsayed
+Constantine Samaras
+Shane K Curtis
+Sajad Arabnejad Khanoki
+Fangshun Jin
+Bin Song
+Magnus Thor Jonsson
+JengShen Huang
+Victor Picheny
+Vinayak
+Kathleen M Hart
+David Haynor
+Eric Sullivan
+Andre Jordan
+Kamal YoucefToumi
+Jae Chang Kim
+Xiaolong Feng
+Xinyu Shao
+Akbar AfaghiKhatibi
+ChingJui Chang
+Changjin Song
+S Azarm
+Jiantao Liu
+Kalie Porterfield
+J J Shah
+Zhijun Li
+Anoop A Mullur
+Padmavathi K Pakala
+Matthew P Reed
+Priyesh Malegaonkar
+Ravi Vallepalli
+Alejandro R Diaz
+Christopher Czech
+Harsheel Shah
+Jafar Jamshidi
+Gary Stump
+Wei Liu
+Kevin Maki
+Zhen Gao
+G Hua
+Johan Olvander
+S Maruyama
+Akira Yao
+Yibin Wang
+Josh Bongard
+Robert G Landers
+Beiqing Huang
+Raphael T Haftka
+R G L Hodges
+Bruce Ankenman
+Mark F Horstemeyer
+Jiju A Ninan
+Walt Benson
+Ye Li
+Gregory M Mocko
+Ruoning Xu
+Rene Waarsing
+Deborah J Medeiros
+Mathias Almer
+David Wolf
+Paul Arendt
+Jim He
+Niranjan Thyagaraja
+Gordon M Kaufman
+Larry Lessard
+Jan H Greibsch
+Ke Li
+David W Rosen
+Michael Schabacker
+Stephan Lisiewicz
+Siegnar Haasis
+Yuming Qiu
+Lihui Wang
+Harrison M Kim
+Hiroshi Yamakawa
+Angran Xiao
+M Yoshimura
+Rodolphe Le Riche
+Franca Giannini
+Hossein D T Rokni
+Kazuhiro Saitou
+Brian C Fabien
+Philip R LeDuc
+Ronald S Farrell
+Zhihuang Dai
+Christian Schunn
+Mohammad Modarres
+W Ross Morrow
+George S Ladkany
+Lee Ming Wong
+Rahul Rai
+Yoo S Hong
+Shashi K Shahi
+Anirban Dutta
+K H Saleh
+Kwunlon Ting
+Roy Awedikian
+Panayotis Georgiopoulos
+Jacques Verriet
+YI Miao
+Matthew I Campbell
+Ken How Foo
+Shuchun Wang
+Tomoyuki Miyashita
+Frank Hoisl
+Brian D Roth
+Kristin Wood
+Ulf Schmidt
+Ranjan Mukherjee
+Robert C Fromuth
+Andrew T Olewnik
+Angel G Perez
+Takeshi Kishinami
+Razvan Florea
+Christopher A Mattson
+David Yoo
+Jose Martinez Escanaverino
+Nikita Thakur
+Thaweepat Buranathiti
+Nanxin Wang
+Jeffrey A Robinson
+Zhaoliang Jiang
+Xiaorui Chen
+Shawn MidlamMohler
+S Jack Hu
+Amitabha Mukerjee
+W Gregory Sawyer
+Daqing Zhang
+Charles Kim
+HeeByoung Choi
+Wenshan Wang
+Julie S Linsey
+Richard W Longman
+Ryoichi Itoh
+Joaquim R R A Martins
+Roy Rusly
+Maria C Yang
+Bryony L DuPont
+George Lesieutre
+Jacob S Morrise
+Adwait Vaidya
+M I Mgwatu
+J S M Vergeest
+Kurt A Chipperfield
+Oben Ceryan
+YungYuan Hsu
+NamH Kim
+Wei Zhao
+Joseph Donndelinger
+Ramesh Rebba
+Daniel Aguilera
+Andrew Olewnik
+Zhengdong Ma
+Andy Keane
+Sandipan Bandyopadhyay
+Karim Hamza
+P G Li
+Irem Y Tumer
+Ashish Macwan
+Liu Fang
+K K Choi
+Masataka Yoshimura
+Wade O Troxell
+Vincent Y Blouin
+Zuomin Dong
+K P Karunakaran
+Han Tong Loh
+Deepak Kumar
+Reiko Koganei
+Mohamed Chookah
+Haipang Wu
+Bryan R Dolan
+Matthew Campbell
+John E Renaud
+Hoda A ElMaraghy
+Kenji Iino
+Garrett Foster
+Minho Yoon
+Sam Anand
+Xiaoqing Frank Liu
+Gabriel Ris
+Darren A Keese
+Xiaoshen Chen
+Chi Zhou
+Kiran K Annamdas
+Faysal Moreno
+Sang Won Lee
+R Dumitrescu
+Christoph Ertelt
+Walid Ben Ahmed
+Klaus Zeman
+Jeremy J Michalek
+Mustafa Arafa
+Ciro A Soto
+C Wang
+Zhangqi Wang
+James K Mills
+Yi Ren
+Ralf Schultheiss
+Hannah Muchnick
+Marcus Pettersson
+Chris Mechefski
+Brian Peterson
+Jing Han
+Ferruccio Mandorli
+Stefano Filippi
+Yongmao Gu
+Wen F Lu
+Kemper Lewis
+KinChuen Hui
+Daniel Bohnke
+Jasbir Arora
+Ehsan Masoumi Khalil Abad
+Michael G Miller
+Satoshi Yoshida
+Chaodi Li
+Peter Sandborn
+Zhigaung Qian
+Yanwei Zhao
+Simon Li
+Ming Wang Fu
+Wei Chen
+Erin Macdonald
+Krystian Zimowski
+HongYuan Chang
+Duane Storti
+Shuyou Zhang
+Robert L Jordan Jr
+Zhi Han
+Tsuyshoi Tajima
+Ashwin A Seshia
+Richard J Malak Jr
+H Wang
+David Ferrari
+Zhengshu Shen
+Kalyanmoy Deb
+Mike Van Wie
+Mitchell M Tseng
+Elaine Cohen
+Paul Weal
+Roger Jianxin Jiao
+Anukal Chiralaksanakul
+Satyandra K Gupta
+Kevin G Harding
+Charles L Penninger
+Kuo Juei Wang
+Guanghua Zong
+Farhad Javid
+Alireza Saremi
+Patrick K Lewis
+Heji Jeong
+Gilles Foucault
+Vijay Kumar
+Ali Mosleh
+Kevin McBrearty
+James Brink
+Ian H Tseng
+Dietmar Suesse
+Raj Mishra
+JC Leon
+FengHui Shi
+Eric Coatanea
+Po Ting Lin
+Rob H Bracewell
+Jingjun Yu
+S M Mahbub Murshed
+Alba Perez
+Zissimos P Mourelatos
+Elizabeth N Rice
+Huijun Song
+Kenneth P Laberteaux
+Kristin L Wood
+Jie Sheng
+KiHoon Shin
+Kentaro Watanabe
+Julien Benabes
+Irem Tumer
+Haobo Qiu
+Lawrence P Chao
+Benjamin Sloop
+Carey W King
+HaiJun Su
+Heng Pan
+MengSang Chew
+Johann U Zimmermann
+Khurshid Oureshi
+William R Ledoux
+Jurgen Grasel
+Rafael Araque
+Shuichi Hayashi
+Yuji Kawaguchi
+Keiji Mitsuyuki
+Julian Booker
+Dhaval Lokagariwar
+Jon Shelley
+Sundar Murugappan
+Koetsu Yamazaki
+YehLiang Hsu
+Naoki Tanigawa
+Jiaqin Chen
+Wanliang Wang
+Sadao Nishiyama
+Stijn Donders
+Dominique Millet
+Elisha Sacks
+Kazuhiro Izui
+Amir Khajepour
+ChingShin Shiau
+Toru Inagaki
+Hong Zhou
+M K Tiwari
+Joo H Kim
+Soon Chong Johnson Lim
+Lusine Baghdasaryan
+Warren P Seering
+Andrea Vigliotti
+M F Horstemeyer
+Felipe A C Viana
+Mary Frecker
+William Wetmore
+Zheng Fan
+Kang Tai
+Kenichi Maemori
+Shikui Chen
+Shaiful Arif
+Jaehyung Ju
+Runli Zhang
+S Shahpar
+Tomohiro Taguchi
+SangJoon Yoon
+ChihHsiang Chang
+Shigeaki Komori
+Randal P Ching
+Maria Yang
+Z Wang
+Lijun Wang
+Sanjay B Joshi
+Fred J A M van Houten
+Robert C Leishman
+Xiang Chen
+Katja HolttaOtto
+DerMin Tsay
+G J Zhang
+Venkat Allada
+James L Cunningham
+Atsushi Konno
+Georges Fadel
+U Roy
+YaDan Xiao
+Prabhu Shankar
+Euihark Lee
+Nier Wu
+Toru Matsushima
+B S Kang
+Mikael Cederfeldt
+Aimin Wang
+James Rankin II
+Janis Terpenny
+Patrick W Hull
+Jared Gragg
+AmirR Khorsand
+Kristina Shea
+Panos Papalambros
+Gloria J Wiens
+Monica Majcher
+Luciano Castillo
+RhysSheffer SK Birthwright
+Yotaro Hatamura
+Ahmed A Shabana
+Shaopu Yang
+Jinghong Liang
+Hitoshi Tokunaga
+Jitesh H Panchal
+Dennis Wang
+Ken Nasu
+DongHoon Choi
+Combiz Jelveh
+Adrian Sannier
+Jun Kawai
+Madara Ogut
+Jeonghan Ko
+Hod Lipson
+TungKing See
+Joseph A Donndelinger
+Sun Yuguo
+Geraint Wyn Owen
+Hae Chang Gea
+Akin Keskin
+Gregory A Keoleian
+Brian Literman
+Miao Zhuang
+Mohamed M Shalaby
+Diane L Peters
+Xuan F Zha
+Nam H Kim
+Sankaran Mahadevan
+Stella M Clarke
+Abhinav Krishna Choudhary
+Petter Krus
+Dongmin Shin
+Xike Zhao
+Sravya Thoomu
+Umakanth Sakaray
+Nengsheng Bao
+Bianca Falcidieno
+B D Youn
+Jamie Pears
+Michael A Latcha
+Deborah Thurston
+Zhaoqian Li
+Lorens Goksel
+Christopher J Garneau
+Emilie Poirson
+W F Lu
+Nicholas S Wasley
+Sang Jun Nam
+Shaligram Pokharel
+A FarhangMehr
+Axel Nordin
+Xueyong Qu
+J Hamel
+John Coultate
+Mohammd AlemiArdakani
+Tomoyuki Hiroyasu
+Jarek Rossignac
+Hongyi Xu
+Guoxian Zhang
+Eric Dierks
+Robert Paasch
+Mahdiar Hariri
+Chandan Mozumder
+Ahmad Khairyanto
+Tomoki Ushiro
+Robert Cheatham
+David Shahan
+Fouad Bennis
+Pierre M Larochelle
+Vincent Cheutet
+J K Davidson
+Paul Witherell
+Joaquin Moran
+James K Guest
+Braden J Hancock
+SeungKyum Choi
+J Ricardo Munoz
+Bethany M Byron
+Jason Weaver
+Irfan Kaymaz
+Mohit Goswami
+Charlie CL Wang
+Emilie Chapotot
+Souma Chowdhury
+Luke A Wissmann
+Waguih H ElMaraghy
+James Oliver
+Mark Drayer
+ChaSoo Jun
+Haipeng Jia
+O Ma
+G Li
+Dorin Drignei
+Liang Zhu
+Phil Cormier
+Huseyin Erdim
+Xingjie Fang
+Huibin Liu
+Kenneth M Bryden
+Liu Du
+Morgan Bruns
+JangTing Chen
+Taesik Lee
+Ali Saeed
+James W Beard
+Xuesong Mei
+Harry H Cheng
+Satishkumar Subramanian
+D J de Kock
+Dohyun Park
+Edward B Magrab
+Noriyasu Hirokawa
+XiaoLlin Hu
+Urmila M Diwekar
+Bin Zheng
+Saneet A Jawalkar
+Tieshi Zhao
+Derek YipHoi
+Masatake Higashi
+Peter Hallberg
+Ke Fu
+Basavaraj Tonshal
+Dong Zhao
+Shingo Takeuchi
+Tetsuzo Kuragano
+Jianxin Jiao
+Chan Yu
+David W Shahan
+Bo Holmgren
+Melissa Gardenghi
+I Kimura
+D Kingsly Jeba Singh
+Peter Cormier
+Frank W Liou
+Chengsheng Wang
+Hongqing Wang
+Liang Gao
+Eliot H Winer
+Tsutomu Nishimura
+Brian Bay
+Imme EbertUphoff
+Ping Ge
+Byungwoo Lee
+Yogesh Dashroa
+YuXin Wang
+Yoshinori Konishi
+Grzegorz Koscik
+Andre Saxer
+Vadivel Jagasivamani
+Madhusudan Kayyar
+Timothy HarrenLewis
+Zahed Siddique
+Hyung Min Kim
+Andre Benard
+Mike Poldneff
+Horea Ilies
+Bjorn Lunden
+Yutaka Inamori
+Daniel T Schwartz
+Aravind Alwan
+Kenji Shimada
+TzuChieh Hung
+Tomonori Honda
+Madara Ogot
+Sha Ma
+Gul E Okudan Kremer
+Xun W Xu
+Joseph Holub
+Xin Yan
+Udo Lindemann
+F Giannini
+Terry K K Chang
+Lionel Roucoules
+Scott Nokleby
+Emil Bashkansky
+Jami Shah
+Adarsh Krishnamurthy
+Ashok V Kumar
+Jorge Angeles
+Francis Thibault
+Jian Cao
+K Pochiraju
+Jose Lebron
+Weijuan Cao
+Ian Tseng
+HaeJin Choi
+R Sudarsan
+Hans Przewozny
+Amir H Birjandi
+Umesh Gandhi
+Baris Canbaz
+G K Nanthasuresh
+Y Kang
+Janet Allen
+John D Desjardins
+Gao Shuming
+Masao Arakawa
+Rikard Soderberg
+Beshoy Morkos
+Giorgio Rizzoni
+Meryvn Fathianathan
+Hans Tragter
+Anirban Chaudhuri
+G Gary Wang
+Yu Song
+Jesse Schultz
+Byung C Jung
+Paolo Cicconi
+Cameron J Turner
+Jose A Llamos Soriz
+Maki K Rashid
+K J Craig
+Neal M Patel
+Youdong Yang
+J A Carretero
+Satish K Bapanapalli
+Souran Manoochehri
+Ryota Akai
+Yosuke Kikuchi
+Jianxin Roger Jiao
+Christiaan J J Paredis
+Gerog M W Wuensch
+M A M Victor
+Yingli Zhang
+Sunmin Yook
+Sweta Dhaveji Ch
+Vikramjit Singh
+K Weinert
+David Rosen
+A Shepherd
+Paolo Guarneri
+Lei Wang
+Youyun Zhang
+Youji Hiraoka
+Yutaka Nomaguchi
+Madan Mohan Dabbeeru
+Lance M Powers
+Bernard Yannou
+Andrew W Heutchy
+Vincent Chanron
+Vivek Attaluri
+Fang Liu
+Jose Maria Rico
+Qingtian Cai
+Tania Ortiz Cardenas
+Ricardo Sbragio
+Zequn Wang
+Robert B Stone
+Judy Vance
+Dan Schwartz
+Santosh Tiwari
+Keunho Choi
+Fabien Nicaise
+Masaru Kageura
+Hallie J Kintner
+Lie Tang
+ChunMin Ho
+Vivek Krishnamurthy
+Matthew Parkisnon
+Stephanie Minel
+Carolyn C Seepersad
+Jim Shephard
+Wooi Ping Cheah
+Mu Zhu
+Sung Woo Kang
+Dan Carlsen
+Joseph K Davidson
+Steven Greene
+S Shan
+Bowen Yu
+Joost Van de Peer
+Ali Madani
+John Yen
+Kiran Solanki
+M Kalveram
+Inna Turevsky
+Tom R Kramer
+Dongchao Yang
+Seonho Cho
+Sundar Krishnamurty
+Douglas C Stahl
+Sam Nazari
+Ken W Chase
+Fenfen Xiong
+Jian Wan
+Anoop K Dhingra
+Shuting Zhang
+Fred M Proctor
+Yuki Hamasaki
+Singiresu S Rao
+Albert Swantner
+Travis McEvoy
+Steven Turek
+Francesca Bolognini
+P Gu
+Yifan Chen
+C A Pretorius
+Divya Kanakanala
+Li Chen
+Jean W Zu
+Clemens Mandl
+Eric Landel
+Ken M Wallace
+YM Deng
+Antony Roy Mileham
+Kazuya Oizumi
+Marcello Pellicciari
+Bhavani V Sankar
+JaeYong Park
+Hans Georg Bock
+Pieter E Vermaas
+Jingzhou James Yang
+Cari Bryant Arnold
+Matthew Watkins
+Farid Golnaraghi
+Dennis Assanis
+S Bhide
+Shana Smith
+Scott Duncan
+Yonghong Peng
+Jie Zhang
+Matthew K Chamberlain
+Alex C Starling
+ByungSoo Kang
+Liem Ferryanto
+Chandankumar Aladahalli
+Nickilas Vlahopoulos
+Pingfeng Wang
+Judy M Vance
+Fabrice Alizon
+Shunde Gao
+Carlo Sequin
+Gul Okudan
+Joonha Kim
+Masayuki Nakao
+Thomas M Stone
+Min Joong Jeong
+Yasushi Suehisa
+HuaiWei Ren
+Danny A Hlavinka
+George Papakonstantopoulos
+Carlos A Trujillo
+Christopher J Brampton
+YihCharng Deng
+Daniel D Jensen
+Guangleng Xiong
+Toufic Azar
+Lindsay Wilmes
+Ikjin Lee
+Suzanne Woll
+Rogelio Flores
+Vladimir Gantovnik
+WeiJu Chen
+Mohamed M Saada
+Peyman Karimian
+Nagesh Belludi
+Brayan S DSouza
+H Choset
+Abbas S Milani
+Zheqi Lin
+Shin Kikuchi
+Robert Scott Pierce
+Hans Andersson
+David E Johnson
+I Jessica Hidalgo
+Y I Kim
+Beizhi Li
+A Almansoori
+A G Olabi
+Liqiang An
+Andres Tovar
+Abhijit K Choudhury
+Clemens Poernbacher
+S Nishiwaki
+Guangquan Wu
+Andrew H Tilstra
+Nickolas Vlahopoulos
+Hyunsun A Kim
+JeanFrancois Petiot
+Efstratios Nikolaidis
+Joel Johansson
+Alejandra Garcia Toll
+Michael CardewHall
+MarieJosee Potvin
+Matteo Mezzadra
+Asad A Usman
+Ashraf Nassef
+Bahattin Koc
+Muhammad AlSalamah
+Kristina Warmefjord
+V Mehrad
+Roberto Raffaeli
+Hakan U Artar
+Q Z Yang
+Xiaolei Yin
+Trevor Richardson
+Jonathan Holzman
+Alok K Priyadarshi
+Kaarthic Madhavan
+Jiliang Wang
+Nathan G Johnson
+Shiqiao Li
+Marcus Redhe
+Jing Xiong
+Gerald R Bourne
+Christian Gogu
+Stephan Rudolph
+Scott Ferguson
+Eun Suk Suh
+Anand Vedam
+Martin Oschwald
+Kerem Bayar
+Yung Ting
+Satoshi Kanai
+Zafer Gurdal
+N N Kishore
+Pierre Goovaerts
+Yan Jin
+Joung Taek Yoon
+Guido Poncia
+J H Panchal
+Tsuyoshi Koga
+Peter A Fenyes
+Q J Ge
+Andreas Larsson
+Bhanoday Vemula
+Neha P Takawale
+Jyothi Hogirala
+Linda Lianfeng Zhang
+Amir Heidari
+Yang Youdong
+Ningning Zhou
+Abhishek Kumar
+Srikanth Tadepalli
+Pietro Fanghella
+G J Park
+Feng Gao
+ChienHong Liu
+Sara Behdad
+Fengfeng Xi
+Lauren S Perry
+Johannes Minx
+Yong Chen
+N AlQasas
+J C Leon
+Sundar Krishnamurthy
+Samual Drake
+Philippe Deshayes
+Yuguang Wu
+MinHo Kyung
+Naohiro Yabuta
+Songlin Chen
+Lei Gu
+Rembin Xiao
+Solomon C Yim
+Bo Eriksson
+Rajul Misra
+F Mistree
+John E Sneckenberger
+Sandor Vajna
+Cunzhi Pan
+PetruAurelian Simionescu
+KerrJia Lu
+Takashi Yamamoto
+Masoud Mojtahed
+Agus Sudjianto
+Frank S Koppelman
+Steven Sieczka
+Lalit Patil
+Luis E Izquierdo
+Victoria C P Chen
+P B Nair
+Y Fu
+Justin Seipel
+Brent L Adams
+Matthew C Frank
+Dan Zhang
+Satish V Akundi
+Takehide Nomura
+Songqing Shan
+L J Haarhoff
+Jin H Hong
+Steve C Wang
+Janet K Allen
+Rajat Saxena
+Zhiqiang Chen
+Sudhir Kaul
+Wenwu Xiu
+Vincent Blouin
+Y Rong
+Mark Ganter
+Gary M Stump
+Keith A Hekman
+Kazuhiro Aoyama
+Mark Batdorff
+YuChung Liao
+Dapeng Wang
+Jens Ottnad
+Johan Persson
+R Roy
+Junqiang Zhang
+Yogesh Jaluria
+Nick Tzannetakis
+Zongde Fang
+Yann Leroy
+Li Du
+Khalid AlWidyan
+Ayman Youssef
+Xiaomeng Chang
+Joris S M Vergeest
+Jeongwoo Han
+Yuna Hu
+Stephanie C Thompson
+Michael Sasena
+Takanori Chihara
+Christine Schoene
+Pradeep George
+P D Yoder
+KaiLu Wang
+David Gorsich
+Kenneth Kotovsky
+Ritesh A Khire
+David Lindstrom
+Ali A Yassine
+Jihong Liu
+David J Gorsich
+Ramesh Lakshmipathy
+Yong Wang
+Shiva SanderTavallaey
+Guenter Conzelmann
+Kazuhiro Oki
+Sigurjon N Kjaernested
+P H Gu
+Dipanjan D Ghosh
+Tomohiro Mizoguchi
+JP Pernot
+Jarden Krager
+Murilo W Bonilha
+Trevor Bailey
+JeanJacques Maisonneuve
+NPramanik
+Richard A Waltz
+V Roshan Joseph
+Peng Song
+Yasunari Mimura
+Bart D Frischknecht
+Kevin Otto
+Francesco Leali
+Y Li
+Semyung Wang
+Wei Jin
+Peng Wei
+Douglas S McCorkle
+Kris Downey
+Hungjen Wang
+JooHo Choi
+Jordan Smith
+Srikanth Akkaram
+TsungRen Hung
+Seung Ki Moon
+Xiaolong Luke Zhang
+Samuel SaiMan Li
+Mark A Ganter
+KwunLon Ting
+B Vermeulen
+M J L van Tooren
+Sayed Metwalli
+P K Kannan
+Ben Donaldson
+Joshua D Summers
+Seth Orsborn
+YuTong Li
+Mehmet Ersin Yumer
+Jiachuan Wang
+Cheng Feng Zhu
+Winston Chiang
+Madhusudan Chakraborty
+M Hofwing
+Rhonda Anderson
+Kazuma Fukatani
+Mohammed Shalaby
+L Wang
+R M Cheatham
+Antoine Dagher
+Tadafumi Kubo
+Alexander Lee
+Weiguo Zhang
+Liang Zhao
+Ashutosh Ballal
+Horea T Ilies
+Bart Frischknecht
+Saeema Ahmed
+Qi D Van Eikema Hommes
+Georges M Fadel
+S M Gao
+Alessandro Giassi
+Nozomu Mishima
+Mu Qiao
+Jeffrey D Wishart
+Zhaosong Lu
+Richard Malak
+Ashitava Ghosal
+Kenta Ogawa
+Mike Yukish
+Gary Palmer II
+Yoshiya Ogihara
+Deepu Mathew
+Alireza Kasaiezadeh
+Frank Schonberg
+Varun Prabhakar
+C Jebaraj
+Faryar Etesami
+Uwe Woessner
+Hong Yoon Kim
+Steve B Shooter
+Matthew Parkinson
+David Johnson
+Mian Li
+Zhi Gang Xu
+C S Kumar
+Wing Kam Liu
+Iman Ebrahimi
+KeZheng Huang
+Timothy Simpson
+Ning Quan
+Bernard Rolfe
+Minkyu Park
+C Chassapis
+Magnus Th Jonsson
+Ayman Wasfy
+B Falcidieno
+Yuko Shimomura
+Todd E Sparks
+S Y Cheing
+Alice Agogino
+Le Chen
+Anand Krishnamurthy
+Dane Freeman
+Lei Shu
+Ji Hwan Lee
+Joseph R Piacenza
+PierreAlain Yvars
+Wentao Fu
+Yishih Lin
+Richard A Wysk
+Karen J Ostergaard
+A Purwar
+Yuqin Jiang
+Karl Reichard
+Tetsurou Ogushi
+Sudhakar Teegavarapu
+Shen Lu
+Steffen Clement
+C Yu
+Kezheng Huang
+Peter J Sackett
+Pascal Haussler
+H A Chowdhury
+Shinobu Yoshimura
+S Manoochehri
+Albert Albers
+Mahesh Vora
+Frank Liou
+Patrick M Reed
+Ping An Du
+Wenyong Ma
+Utkarsh Seth
+David T Fullwood
+Ghassen Harmel
+Wei Li
+Huade Tan
+Tjamme Wiegers
+Mustafa H Arafa
+I Horvath
+E Z Opiyo
+Farrokh Mistree
+S J Du
+David Griese
+David L McDowell
+H James de St Germain
+Richard M Crowder
+Vijitha Kiridena
+Firas Zeineddine
+Yoshiyuki Matsuoka
+C Creg Jensen
+Shutian Liu
+Xiaoping Qian
+Patrick Morelle
+James M Gibert
+KyoungJong Park
+Magdalena K Chmarra
+MengLeong Tay
+Carolyn c Seepersad
+Jun Dong
+Camilo B Resende
+Miguel Vieira
+Adam J Andersen
+Xiaoping Du
+Daniel Wappling
+Alan Haddow
+Ashish D Deshpande
+Christopher W Vale
+Bjorn Johansson
+T C Kingsley
+Zhen Hu
+Eric Bibeau
+M D Giess
+Chen Xiang
+JoseRamon VegaGalaz
+William R Patterson Jr
+David Romero
+Jia Li
+Sumedh Inamdar
+Hirofumi Amaya
+Z Dong
+Vance R Murray
+Masakazu Kobayashi
+Aylmer Johnson
+Fumiya Akasaka
+Subroto Gunawan
+Dimitris M Chatzigeorgiou
+Tolga Kurtoglu
+HyunSeok Kim
+Alejandro Diaz
+Jitendra Prasad
+D Kalenchuk
+Takeo Ohashi
+Stella Oggianu
+Rudolf J Seethaler
+J A Yang
+Jonathan Cagan
+Yangqiu Patrick Hu
+ChungYi Lin
+Ashwin P Gurnani
+Vadim Shapiro
+Farhad Ameri
+Masahiro Terabe
+Ou Ma
+Adam B Cooper
+M M Shin
+Pradeep Radhakrishnan
+Robert R Parker
+Gabriel Hernandez
+Ralph Stelzer
+Sayed M Metwalli
+Larry L Howell
+Sebastian K Fixson
+Chang Muk Kang
+Dan Jensen
+S Rahman
+S Al Hashimi
+Deepak Sharma
+Lourdes A Medina
+Benoit Guedas
+Andre Cote
+Delun Wang
+Herve Guyon
+Gul E Okudan
+Peter Fenyes
+Catherine Brinson
+Callaway Turner
+E Nathan Harris
+Axel Reichwein
+Yu Kimishima
+MariaElena Aguilar
+Ken Chen
+V Cheutet
+Marc M Secanell
+Zhongyan Qian
+Ndrianarilala Rianantsoa
+Lotfi K Gaafar
+David Chang
+Youn Doh Ha
+Vishal Rami
+Kazuki Fujita
+Athulan Vijayaraghavan
+Hiroshi Masuda
+Yoram Koren
+Kenji Doi
+Jacquelyn K S Nagel
+Fumiki Tanaka
+Mark Snider
+Clive I Kerr
+Peter Y Zhang
+Chris McMahon
+Sreeram Ramakrishnan
+Daniel D Frey
+H Yang
+Murali M R Krishna
+Zhen Huang
+David M Sharman
+Jung Leng Foo
+Yan Wang
+Ying Xiong
+Yoshiki Ujiie
+Yunjian Ge
+Nuogang Sun
+Dongping Deng
+James H Oliver
+Paul D Arendt
+Pierre Nowak
+James R Rinderle
+Moataz A M Abd El Gawad
+Dorte Freisleben
+Nan Liu
+Lan Ren
+Raluca Dumitrescu
+Lianshui Guo
+Amandeep Singh
+Utpal Roy
+Stephen D Sintay
+Abdelbasset Hamdi
+Erin Roach
+Roxanne A Moore
+Amir Hooshmand
+David C Anderson
+Asa Ericson
+Ali Kamyab
+Ahmad Smaili
+Jaime Gallardo
+John Whitaker
+Kuntal Samanta
+Y S Liu
+J K Allen
+Karim A Aguib
+Aditya Soman
+Thomas R Langerak
+Sunao Takafuji
+Alexandrea Chor
+Minhua Long
+Tetsuo Tomiyama
+Roxana Grigoras
+Khurshid Qureshi
+Gabseong Lee
+Damiano Pasini
+Aaron Stange
+Amane Shimura
+Saber DorMohammadi
+Markus Rippel
+Xu Guo
+Richard Gonzalez
+F W Liou
+Riichiro Mizoguchi
+Jayaram Gopalakrishnan
+Vernet Lasrado
+JiungCheng Pan
+YoungIl Kim
+V Krishnamurthy
+Ryosuke Chiba
+Erdem Acar
+Jun Zhang
+ChinHsu Lin
+Robert R Mayer
+Atsuro Iga
+Tao Li
+Jaehyun Kwon
+Xiaobao Liu
+Hyeongjin Song
+J T Wang
+Jozsef Jozsef Kovecses
+Zhengdong Ding
+Sundeep Samson
+Karim AbdelMalek
+Yesh P Singh
+Willem F Bronsvoort
+Cristina H Amon
+Joseph J Beaman
+Rachel Hannah
+Sreekanth Reddy Gondipalle
+Jun Zhou
+Wenhui Fan
+Ashraf O Nassef
+Anupam Saxena
+Kikuo Fujita
+Timothy P Dietz
+Christopher D Congdon
+Magnus Hofwing
+Christopher Hoyle
+Kang Zhao
+Daniel A McAdams
+Josh Kollat
+Weihang Zhu
+Rajkumar Roy
+Kristin Potter
+David Kazmer
+Peter Hehenberger
+Jason Matthew Aughenbaugh
+Mehdi Tarkian
+Sanghoon Lee
+Somasundaram Valliyappan
+Junfu Zhang
+Soundar R T Kumara
+Jyotirmaya Nanda
+KyoungYun Kim
+Jay Patel
+Ravi Teja Katragadda
+Richard H Crawford
+Abdalla Elbella
+Jason M Weaver
+Pietro Buttolo
+Richard Crawford
+Ayan Sinha
+Shari Hannapel
+ChunYu Lin
+Eric Schact
+Andreas Nordgren
+Rakesh S Kulkarni
+Mahmoud R Saad
+Anne Marsan
+Jeremy Michalek
+Alex M Ruderman
+Xiaoli Ye
+Jie Chen
+Beth Bezaire
+Kate Whitefoot
+B Besharati
+Charles W Wampler
+Hady Parsaiyan
+Mohammad Rouhi
+Johan Andersson
+Yoshiki Shimomura
+Mohmmad M A Hanafy
+Weijun Wang
+Ayman M A Youssef
+Janis P Terpenny
+Gregory M Roach
+Iyad T Alzaharnah
+Toshiro Matsumoto
+Jianzhong Ruan
+Christian J J Paredis
+Yong Se Kim
+John Kruckenberg
+Ali FarhangMehr
+Andrew R Schnell
+Mohammad Nuhi
+Daeyoon Jung
+Michael F Zaeh
+J P Pernot
+Lee J Wells
+Y Song
+Johan S Carlson
+Peter B Backlund
+Zhila Pirmoradi
+ChingShin Norman Shiau
+Kaiyu Chen
+Ayako Nomura
+James Reneke
+Sheng Q Xie
+XiaoLing Zhang
+Adam Dixon
+Wing Yin Kwong
+Zhenyu Cheng
+Emre Kazancioglu
+Richard M Goff
+Matthias Kreimeyer
+Deepak Sankar Somasundaram
+TingLi Yang
+Leif P Berg
+Christopher Garneau
+Michiki Nakano
+T Zhang
+Yuan Mao Huang
+Chad McKonly
+Peter Simov
+Gauthier Picard
+A Ravisekar
+Feng Zhou
+Kiyoung Yi
+Hideyuki Takagi
+Brian H Dennis
+Niclas Stromberg
+HongZhong Huang
+Jonathan Osborn
+Kensuke Tsuchiya
+YL Tu
+Margaret Devendorf
+Tong Zou
+Brett W Clark
+Srinivasan Anandan
+Matthias Messer
+Kenneth W Chase
+Gene Wiggs
+J K Hill
+Maarten H L Roring
+Jillian Haldaman
+Kunnayut Eiamsaard
+J Raghavan
+Daniel W Apley
+G J de Wet
+Andrea De Crescenzo
+Brian Bowman
+Ryan Fellini
+Oscar Roberto Salinas Mejia
+Aleksandr A Kerzhner
+Lindsay Hanna
+Tiefu Shao
+Eric Laurendeau
+N R Srinivasa Raghavan
+Yogesh D Thakar
+Yan Zhou
+Ian R Grosse
+Raffaele Di Gregorio
+Elizabeth A Cudney
+Uwe Hinze
+Akhil Sopory
+Moslem Kazemi
+Wouter O Schotborgh
+Abigail R Mechtenberg
+A Diaz
+KueiYuan Chan
+Hua Ertian
+MinGeun Kim
+Fjola Jonsdottir
+Hong Dong
+Rachel Kuhr
+Shahryar Rahnamayan
+Jaeil Park
+Jay Fletcher
+Liqun Wang
+Abdennour Seibi
+Brian C H Ho
+R J Yang
+Andrew A Shapiro
+Hilario L Oh
+Yanjing Li
+Sagar Chowdhury
+Genzi Li
+Sanjay Joshi
+N Williams
+Yu Yoshimura
+Yiliu Tu
+Manasi Tamhankar
+Timothy W Simpson
+Avinash Kolla
+Takayuki Yamada
+Paul F Egan
+Ola Isaksson
+Stanislav Bohac
+Benjamin Klein
+Pieter J Stappers
+M Messer
+Karthik Ramani
+Shigeru Sakamoto
+Yun Seon Kim
+Devendra Alhat
+Long Ge
+David A Romero
+Sebastien J Wolff
+Takashi Suyama
+Shinichi Yoshioka
+Pinghai Yang
+Anil K Annepu
+Lianfeng Zhang
+D Scott Hesser
+Benoit Eynard
+Sherif Aly
+Yoo Suk Hong
+Parameshwaran S Iyer
+Michael Yu Wang
+Moh Sabeur
+Zhuming Bi
+Stewart M Skiles
+Henri J Thevenot
+Matthew Reed
+Benjamin W Caldwell
+GangWon Jang
+Chaitanya Vempati
+Peihua Gu
+Kyung K Choi
+Yannick Ravaut
+Liangkai Ma
+Elena Garcia
+Talib Bhabhrawala
+Zhengdong Huang
+J I Bailey
+G Balakrishnan
+Satoshi Imamura
+M M F Yuen
+George Fadel
+Kazuyuki Sugimura
+Alexis PerezDuarte
+Bert Bras
+Matthew B Parkinson
+YouTern Tsai
+Kazem Abhary
+Jin Hui Kim
+T Tyan
+Rajesh Subramanian
+Christian Fritz
+Zainab Hermes
+Steven J Skerlos
+Yves Page
+HsiYung Feng
+Tamotsu Murakami
+Shaoluo L Butler
+Kemal H Sahin
+Carolyn Conner Seepersad
+Roderick K W Lee
+K W Lyong
+Hiroaki Date
+Yaoyao F Zhao
+M Li
+Frans G M Kokkeler
+John Pieprzak
+Brendan J OToole
+Alejandro A Espinoza Orias
+Hesham A Hegazi
+Igor Tsukanov
+Zoran Filipi
+Liping He
+Sung H Jang
+K W Wang
+Yogendra Joshi
+ChaoChing Yen
+KwokLeung Tsui
+Prasanna Tamilselvan
+Denise Halverson
+Mukul Karnik
+Thierry Carriere
+Juan Carlos Garcia Arenillas
+Sankara Hari Gopalakrishnan
+Luoting Fu
+Masahiko Taniguchi
+Greg F Naterer
+Michael S Cherry
+B Klein
+Mark Jakiela
+Thomas Kormeier
+Tobias C Larsson
+David W Hislop
+Y L Tu
+Kunnayut Elammaard
+Heikki Kauranne
+Corey Lynam
+Hlynur Kristinsson
+Tucker J Marion
+Bryony L Du Pont
+Lars Austrin
+Charles Friesen
+J M McCarthy
+SiangKok Sim
+Stefanie Braun
+Domenico Spensieri
+Mohamed B Trabia
+Girish Rao
+Afreen Siddiqi
+Kristofer S J Pister
+Shuming Gao
+Tarek ElMekkawy
+Ritesh Khire
+Bianca Facidieno
+Anil Kumar Maddulapalli
+Asli Sahin
+Edin Crnkic
+Thomas F Stahovich
+Yongbin Lee
+Aki M Mikkola
+Alan R Parkinson
+Peter Willemsen
+Q Cheng
+Erin MacDonald
+NamHo Kim
+David G Beale
+ManuelAngel GonzalezChapa
+Susan Finger
+A R Rao
+KaiHsuan Hsu
+Amol Ghorpade
+Olivier L de Weck
+Dmitriy A Dikin
+Ashwin Michaelraj
+Toshio Morihara
+Yuma Ito
+Toufic Zaraket
+C G Jensen
+Josue R CrespoVarela
+Mohamed H Abbas
+Cheng Qi
+W Hu
+Mounib Mekhilef
+ZhiGang Xu
