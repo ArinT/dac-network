@@ -1,0 +1,4 @@
+SELECT *, dm(a1.AuthorName), dm(a2.AuthorName) FROM DAC_Network.Author_Table as a1
+CROSS JOIN DAC_Network.Author_Table as a2
+WHERE a1.AuthorID < a2.AuthorId AND SOUNDEX(a1.AuthorName) = SOUNDEX(a2.AuthorName) AND dm(a1.AuthorName) like dm(a2.AuthorName)
+ORDER BY a1.AuthorID;

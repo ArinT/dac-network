@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'network_visualizer',
+    'south',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -59,18 +60,19 @@ WSGI_APPLICATION = 'DAC_network_analysis.wsgi.application'
 
 
 DATABASES = {
-    # 'default': {
-    #   'ENGINE': 'django.db.backends.mysql',
-    #   'NAME': 'DAC_Network',
-	 #   'USER': 'root',
-	 #   'PASSWORD': 'buet105',
-	 #   'HOST': 'esdl-11.ise.illinois.edu',
-	 #   'PORT': '5901',
-    # },
-        'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase',
-    }
+     # 'default': {
+     #   'ENGINE': 'django.db.backends.mysql',
+     #   'NAME': 'DAC_Network',
+	  #   'USER': 'root',
+	  #   'PASSWORD': 'buet105',
+	  #   'HOST': 'esdl-11.ise.illinois.edu',
+	  #   'PORT': '3306',
+     # }
+    'default':
+        {
+            'ENGINE':'django.db.backends.sqlite3',
+            'NAME': 'debug',
+        }
 }
 
 # Internationalization
