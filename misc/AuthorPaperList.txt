@@ -1,0 +1,1239 @@
+DETC2009-87488,Empirical Similarity Analysis Using Adaptive Trigonometric Functions,Srikanth Tadepalli,Kristin L Wood
+DETC2004-57479,Vehicle Structure Optimization for Crash Pulse,Lei Gu,T Tyan,G Li,R J Yang
+DETC2005-85587,Topological Synthesis for Linkage Mechanism Design Using the Minimum Potential Energy Principle,Hae Chang Gea,Jaehyun Kwon
+DETC2009-86123,Integrated Decision Model for Interrelated Sub-Problems of Part Design or Selection, Machine Loading and Machining Optimization,E Z Opiyo,M I Mgwatu,M A M Victor
+DETC2007-35665,Adaptive Slicing of Moving Least Squares Surfaces: Toward Direct Manufacturing of Point Set Surfaces,Pinghai Yang,Xiaoping Qian
+DETC2010-28972,Plug-In Hybrid Electric Vehicle Battery Selection for Optimum Economic and Environmental Benefits Using Pareto Set Points and PSATTM,Shashi K Shahi,G Gary Wang
+DETC2008-49394,On Pattern Recognition in Rule-Based Topology Modification,Thomas Kormeier,Stephan Rudolph
+DETC2010-28677,Computation of the Usage Contexts Coverage of a Jigsaw With CSP Techniques,Bernard Yannou,Jiliang Wang,PierreAlain Yvars
+DETC2012-71353,Predicting Energy Consumption in Humans Using Joint Space Methods,Dustyn P Roberts,Joo H Kim
+DETC2008-49991,Enhanced Multi-Agent Normal Sampling Technique for Global Optimization,Alireza Saremi,Amir H Birjandi,G Gary Wang,Tarek ElMekkawy,Eric Bibeau
+DETC2004-57574,An Exploration-Estimation Algorithm for Synthesis and Analysis of Engineering Systems Using Minimal Physical Testing,Hod Lipson,Josh Bongard
+DETC2005-85336,Customer Need Driven Function-Behavior Platform Formation,Rupesh Kumar,Venkat Allada
+DETC2003-48805,Improved Development Cycle of a Compliant Manipulator,Stephen L Canfield,Patrick W Hull,James W Beard
+DETC2010-28739,An Engineering Design Strategy for Reconfigurable Products That Support Poverty Alleviation,Patrick K Lewis,Vance R Murray,Christopher A Mattson
+DETC2008-50017,A Finite Element Approach for the Implementation of Magnetostrictive Material Terfenol-D in CNG Fuel Injection Actuation,H A Chowdhury,A G Olabi
+DETC2006-99077,Reliability-Based Design Using Saddlepoint Approximation,Xiaoping Du
+DETC2002-34143,A Tool Management System for Probabilistic Design Problems,Irfan Kaymaz,Chris McMahon
+DETC2012-70668,Stochastic Reassembly for Managing the Information Complexity in Multilevel Analysis of Heterogeneous Materials,Hongyi Xu,M Steven Greene,Hua Deng,Catherine Brinson,Dmitriy Dikin,Wei Chen,Wing Kam Liu,Craig Burkhart,George Papakonstantopoulos,Mike Poldneff
+DETC2003-48737,Tolerance Synthesis of Mechanisms: A Robust Design Approach,Stephane Caro,Fouad Bennis,Philippe Wenger
+DETC2007-34826,Motion-Based Shape Deformation of Solid Models,Horea T Ilies,Nier Wu
+DETC2008-49900,Causal Design Knowledge Acquisition by Constructing BBN Through FCM,Yun Seon Kim,KyoungYun Kim,Wooi Ping Cheah,HyungJeong Yang
+DETC2010-28748,An Extended Pattern Search Approach to Wind Farm Layout Optimization,Bryony L Du Pont,Jonathan Cagan
+DETC2006-99537,A Graphical Modeling Environment for Configuring Modular Product Families and Platforms,Asli Sahin,Janis P Terpenny,Richard M Goff
+DETC2010-28376,Fundamental Concepts for Collaboratively Obtaining Optimum Product Designs,Masataka Yoshimura
+DETC2011-48532,Optimizing the Shear Beam of a Non-Pneumatic Wheel for Low Rolling Resistance,Niranjan Thyagaraja,Georges Fadel,Paolo Guarneri,Prabhu Shankar
+DETC2003-48756,Emerging Virtual Machine Tools,Michael F Zaeh,Gerog M W Wuensch,Clemens Poernbacher,Michael S O Ehrenstrasser
+DETC2008-49971,Towards Adaptable Architecture,Magdalena K Chmarra,Lieke Arts,Tetsuo Tomiyama
+DETC2009-87420,Empirical Analysis of Transformers in the Development of a Storyboarding Methodology,Dennis Wang,Rachel Kuhr,Kristen Kaufman,Richard Crawford,Kristin L Wood,Dan Jensen
+DETC2011-47761,Multidisciplinary Design Optimization of Ship Hull Forms Using Metamodels,Jim He,Shari Hannapel,Nickolas Vlahopoulos
+DETC2005-85502,Packing Optimization by Enhanced Rubber Band Analogy,Hong Dong,Georges M Fadel,Vincent Y Blouin
+DETC2009-87121,Hybrid and Adaptive Metamodel Based Global Optimization,J Gu,G Y Li,Z Dong
+DETC2009-87072,Automated Vehicle Structural Crashworthiness Design Via a Crash Mode Matching Algorithm,Karim Hamza,Kazuhiro Saitou
+DETC2002-34090,A Benchmark Comparison of Curvature Matched Machining versus Three- and Five-Axis Machining Methods Applied to Industrial Part Surfaces,J K Hill,R M Cheatham,C G Jensen
+DETC2006-99619,A Multidisciplinary and Multiobjective System Analysis and Optimization Methodology for Embedding Integrated Systems Health Management (ISHM) Into NASA's Complex Systems,Ali Farhang Mehr,Irem Y Tumer
+DETC2002-34136,The Evolution of a Layered Manufacturing Interchange Format,Sara McMains,Jordan Smith,Carlo Sequin
+DETC2012-70426,Policy Design for Sustainable Energy Systems Considering Multiple Objectives and Incomplete Preferences,Bryant D Hawthorne,Jitesh H Panchal
+DETC2003-48750,Design Optimization of a Vehicle B-Pillar Subjected to Roof Crush Using Mixed Reactive Taboo Search,Karim Hamza,Kazuhiro Saitou,Ashraf Nassef
+DETC2010-28205,The Automated Planning for Fixture Location Based on Process Requirement,Yuguang Wu,C G Li
+DETC2002-34140,Model Validation via Uncertainty Propagation Using Response Surface Models,Lusine Baghdasaryan,Wei Chen,Thaweepat Buranathiti,Jian Cao
+DETC2008-50050,Assembly and Variety Considerations During Conceptual Design,Gul E Okudan,Saraj Gupta
+DETC2009-87410,Hierarchical Optimization-Based Approach for Two-Dimensional Rectangular Layout Design Problems,Kikuo Fujita,Masayuki Kawamoto
+DETC2005-85016,Assembly Process Selection to Minimize Existing Assembly System Modification Cost During New Product Family Member Design,Zahed Siddique
+DETC2006-99498,Exploration in the Preliminary Mechanical Design of Trade-Offs Between Automotive Architectural Constraints and Aggregate Noise Performances,Abdelbasset Hamdi,Bernard Yannou,Eric Landel
+DETC2004-57086,A Method to Solve Inverse Kinematics Problems Using Lie Algebra and Its Application to Robot Spray Painting Simulation,Hitoshi Tokunaga,Takaaki Okano,Norio Matsuki,Fumiki Tanaka,Takeshi Kishinami
+DETC2004-57096,Automated Symmetry Exploitation in Engineering Analysis,Krishnan Suresh
+DETC2012-70835,An Experimental Approach to Assess the Disparities in the Usage Trends of Domestic Electric Lighting,Toufic Zaraket,Bernard Yannou,Yann Leroy,Stephanie Minel,Emilie Chapotot
+DETC2010-28369,Design and Analysis of a Hybrid Guideway Heating System for Morgantown Personal Rapid Transit,Anand Vedam,John E Sneckenberger
+DETC2012-71176,Consider-Then-Choose Models in Decision-Based Design Optimization,W Ross Morrow,Minhua Long,Erin F MacDonald
+DETC2002-34112,Redesign of a Spatial Gear Pair Using Configuration Spaces,Elisha Sacks,Leo Joskowicz,Ralf Schultheiss,Uwe Hinze
+DETC2002-34062,Analysis of Loads and Stresses for a Sewing Needle,Yuan Mao Huang
+DETC2005-85019,A Methodology for Trading-Off Performance and Robustness Under Uncertainty,Zissimos P Mourelatos,Jinghong Liang
+DETC2004-57509,Influence of Group Cohesion and Information Sharing on Effectivenss of Design Review,William Wetmore,Joshua D Summers
+DETC2011-48435,An Improved Support Vector Domain Description Method for Modeling Valid Search Domains in Engineering Design Problems,Erin Roach,Robert R Parker,Richard J Malak Jr
+DETC2002-34152,Modeling of Hydraulic Hose Paths,Kurt A Chipperfield,Judy M Vance
+DETC2010-28456,Reducible Uncertain Interval Design (RUID) by Kriging Meta-Model Assisted Multi-Objective Optimization,J M Hamel,S Azarm
+DETC2011-47944,Visually Exploring a Design Space Through the Use of Multiple Contextual Self-Organizing Maps,Trevor Richardson,Eliot Winer
+DETC2010-28493,Studies on the Design of Reverse Osmosis Water Desalination Systems for Cost and Energy Efficiency,Karim Hamza,Mohammed Shalaby,Ashraf O Nassef,Mohamed Aly,Kazuhiro Saitou
+DETC2007-35782,A New Variable Fidelity Optimization Framework Based on Model Fusion and Objective-Oriented Sequential Sampling,Ying Xiong,Wei Chen,KwokLeung Tsui
+DETC2012-70954,Comprehensive Product Platform Planning (CP3) Using Mixed-Discrete Particle Swarm Optimization and a New Commonality Index,Souma Chowdhury,Achille Messac,Ritesh Khire
+DETC2008-49681,Evaluating the Performance of Visual Steering Commands for User-Guided Pareto Frontier Sampling During Trade Space Exploration,Dan Carlsen,Matthew Malone,Josh Kollat,Timothy W Simpson
+DETC2005-85164,Designing Product Families for a Changing Market Space,Rakesh S Kulkarni,Janet K Allen,Farrokh Mistree
+DETC2004-57141,A Comparison of Commonality Indices for Product Family Design,Henri J Thevenot,Timothy W Simpson
+DETC2004-57527,A Sequential Exploratory Experimental Design Method: Development of Appropriate Empirical Models in Design,Yao Lin,Farrokh Mistree,Janet K Allen,KwokLeung Tsui,Victoria C P Chen
+DETC2005-85122,Allocating Tolerances Statistically With Tolerance-Maps and Beta Distributions: The Target a Planar Face,Gaurav Ameta,Joseph K Davidson,Jami J Shah
+DETC2002-34076,Math-Based Performance Evaluation of an Experimental Car: Side Impact Protection,YihCharng Deng,ChinHsu Lin,J T Wang
+DETC2007-35825,Pseudo-Hierarchical Multistage Model for System of Systems Design and Operations,Harrison M Kim,I Jessica Hidalgo
+DETC2009-87448,Genetic Evolution for the Development of Robust Artificial Neural Network Logic Gates,Anthony M Roy,Erik K Antonsson,Andrew A Shapiro
+DETC2004-57116,Concurrent Parameter Design Based on Constraint Network,Wenhui Fan,Tao Li,Guangleng Xiong
+DETC2004-57582,Using the Compromise Decision Support Problem in Microsystem Design: A Formulation for a Miniature Parylene Gas Chromatographic Column,Andrew R Schnell,Farrokh Mistree,Hongseok Moses Noh,Peter J Hesketh
+DETC2011-48850,An Asymmetric Dimension-Adaptive Tensor-Product Method for Reliability Analysis,Chao Hu,Byeng D Youn
+DETC2002-34128,An Investigation of Nonlinearity of Reliability-Based Design Optimization Approaches,Kyung K Choi,Byeng D Youn
+DETC2011-47766,Methodology for Pipeline Route Selection Using the NSGA II and Distance Transform Algorithms,Sigurjon N Kjaernested,Magnus Th Jonsson,Halldor Palsson
+DETC2004-57235,A Conceptual Design Synthesis Framework for Micro-Electro-Mechanical Systems (MEMS),YM Deng,W F Lu
+DETC2004-57539,Haptically Guided Filtering for Reverse Engineering,Kristin Potter,David Johnson,Elaine Cohen
+DETC2011-47472,Identification of Product Family Platforms Using Pattern Recognition,Dane Freeman,Dongwook Lim,Elena Garcia,Dimitri Mavris
+DETC2009-87049,A Comparative Study of Data-Intensive Demand Modeling Techniques in Relation to Product Design and Development,Conrad S Tucker,Christopher Hoyle,Harrison M Kim,Wei Chen
+DETC2010-28543,An Improved Kriging Assistant Multi-Objective Genetic Algorithm,Mian Li
+DETC2003-48782,A Study of Convergence in Decentralized Design,Vincent Chanron,Kemper Lewis
+DETC2002-34121,Configurable and Extensible System for Experimenting With Design Optimization,John K Dickinson
+DETC2004-57377,Variant Design Automation: Strategy and Procedure for Storing Design Process Information,Mikael Cederfeldt
+DETC2002-34092,On Sequential Sampling for Global Metamodeling in Engineering Design,Ruichen Jin,Wei Chen,Agus Sudjianto
+DETC2005-84523,Uncertainty Analysis by Dimension Reduction Integration and Saddlepoint Approximations,Beiqing Huang,Xiaoping Du
+DETC2009-86928,Optimization of Machine Product Designs From Deeper Level Characteristics Using Collaboration Theory Concepts,Masataka Yoshimura,Shin Kikuchi
+DETC2003-48767,A Study of Emission Policy Effects on Optimal Vehicle Design Decisions,Jeremy J Michalek,Panos Y Papalambros,Steven J Skerlos
+DETC2005-84693,A Design Optimization Method Using Evidence Theory,Zissimos P Mourelatos,Jun Zhou
+DETC2009-86739,Neutral Defintion and Recognition of Assembly Features for Legacy Systems Reverse Engineering,S M Mahbub Murshed,Adam Dixon,Jami J Shah
+DETC2012-70139,Sequential Quadratic Programming for Robust Optimization With Interval Uncertainty,Jianhua Zhou,Shuo Cheng,Mian Li
+DETC2007-35353,Generalization of Topological Sensitivity and its Application to Defeaturing,Inna Turevsky,Sankara Hari Gopalakrishnan,Krishnan Suresh
+DETC2011-48669,Understanding Rural Village Energy Needs and Design Constraints,Kenneth M Bryden,Nathan G Johnson
+DETC2009-86457,Early Design Modeling and Simulation of Behaviors: Case Study of Mobile Work Machine,William Brace,Eric Coatanea,Heikki Kauranne,Matti Heiska
+DETC2011-48153,A New Framework for Collaborative Set-Based Design: Application to the Design Problem of a Hollow Cylindrical Cantilever Beam,Baris Canbaz,Bernard Yannou,PierreAlain Yvars
+DETC2008-49281,Automatically Generating Form Concepts According to Consumer Preference: A Shape Grammar Implementation With Software Agents,Seth Orsborn,Jonathan Cagan
+DETC2003-48723,WirePATH Rapid Tooling Process and Supporting Software Development,Alexander Lee,James Brink,David Anderson,Karthik Ramani
+DETC2002-34133,Benefit Evaluation of New Technologies,Michael Schabacker
+DETC2005-85414,A Parallel Grammar for Simulation-Driven Mechanical Design Synthesis,Alex C Starling,Kristina Shea
+DETC2004-57183,Modeling and Design of Materials for Controlled Wave Propagation in Plane Grid Structures,Liangkai Ma,Alejandro Diaz,Alan Haddow
+DETC2007-34796,A Dual Environment for 3D Modeling With User-Defined Free Form Features,Thomas R Langerak,Joris S M Vergeest
+DETC2008-49698,Euclidean Symmetry Detection From Scanned Meshes Based on a Combination of ICP and Region Growing Algorithms,Tomohiro Mizoguchi,Satoshi Kanai
+DETC2006-99732,Alternative Methods for Reliability-Based Robust Design Optimization Including Dimension Reduction Method,Ikjin Lee,Kyung K Choi,Liu Du
+DETC2002-34042,Optimization of Machine System Designs Using Hierarchical Decomposition Based on Criteria Influence,Masataka Yoshimura,Kazuhiro Izui,Shigeaki Komori
+DETC2004-57071,A Product Ontology for Automotive Seat Specification,Clive I Kerr,Rajkumar Roy,Peter J Sackett
+DETC2003-48754,The Effect of Tempering (Artificial Aging) on the Crashworthiness Performance of Mass-Efficient Extruded Aluminum Structures,Robert R Mayer,Brian Peterson,Raj Mishra,Anil Sachdev
+DETC2008-49134,Topology Optimization of Multiple Parts in Dynamic Controlled Systems,Albert Albers,Jens Ottnad,Johannes Minx,Pascal Haussler
+DETC2012-71318,Model Development Under Uncertainty via Conjoint Analysis,Thomas M Stone,SeungKyum Choi,Hemanth Amarchinta
+DETC2002-34087,A Grammar-Based Approach to Sheet Metal Design,Aditya Soman,Matthew Campbell
+DETC2006-99592,Optimal Tolerance Allocation of Automotive Pneumatic Control Valves Based on Product and Process Simulations,Naesung Lyu,Amane Shimura,Kazuhiro Saitou
+DETC2004-57165,DRed and Design Folders: A Way of Capturing, Storing and Passing On Knowledge Generated During Design Projects,Rob H Bracewell,Saeema Ahmed,Ken M Wallace
+DETC2004-57540,Design Configuration of Vehicle With Domain Knowledge Enhancement,Yi Miao,Vincent Y Blouin,Georges M Fadel
+DETC2004-57446,A Comparative Study of Optimal Design for an Inkjet Printer Tube With and Without Performance Variations,Jeff Thielman,Ping Ge
+DETC2003-48820,Type Synthesis of Three-DOF Translational Parallel Mechanisms,Jingjun Yu,Shusheng Bi,Guanghua Zong,Tieshi Zhao,Zhen Huang
+DETC2011-48000,Optimization of Honeycomb Cellular Meso-Structures for High Speed Impact Energy Absorption,Jesse Schultz,David Griese,Prabhu Shankar,Joshua D Summers,Lonny Thompson,Jaehyung Ju
+DETC2003-48713,Incorporating Epistemic Uncertainty in Robust Design,Zhihuang Dai,Michael J Scott,Zissimos P Mourelatos
+DETC2006-99375,The Risk in Early Design (RED) Method: Likelihood and Consequence Formulations,Katie Grantham Lough,Robert B Stone,Irem Tumer
+DETC2012-71086,Product-Service Systems Design With Business Model Strategy Integrated: A Case Study of Urban Umbrella Rental Service System,Yong Se Kim,Sang Won Lee,Jin Hui Kim,Heji Jeong,Ji Hwan Lee,Yoo S Hong
+DETC2011-48359,Developing Innovative Energy Harvesting Approaches for Infrastructure Health Monitoring Systems,Travis McEvoy,Eric Dierks,Jason Weaver,Sumedh Inamdar,Krystian Zimowski,Kristin L Wood,Richard H Crawford,Dan Jensen
+DETC2007-34884,A Game-Theoretic Approach to Finding Market Equilibria for Automotive Design Under Environmental Regulation,ChingShin Shiau,Jeremy Michalek
+DETC2005-85303,Using Q-Learning and Genetic Algorithms to Improve the Efficiency of Weight Adjustments for Optimal Control and Design Problems,Kaivan Kamali,Lijun Jiang,John Yen,K W Wang
+DETC2010-28117,Support Vector Regression Modeling for Design and Analysis of Mechanical Snubbing,Sudhir Kaul
+DETC2009-87434,An Extended Hierarchical Statistical Sensitivity Analysis Method for Multilevel Systems With Shared Variables,Yu Liu,Xiaolei Yin,Paul Arendt,Wei Chen,HongZhong Huang
+DETC2010-28891,Fastener Pattern Optimization of an Eccentrically Loaded Multi-Fastener Connection,Matthew Watkins,Mark Jakiela
+DETC2006-99092,Topological Synthesis of Shell Structures,Thomas Kormeier,Stephan Rudolph
+DETC2011-47959,Recent Advancements in Product Family Design and Platform-Based Product Development: A Literature Review,Zhila Pirmoradi,G Gary Wang
+DETC2012-71340,Meta-Material Design of the Shear Layer of a Non-Pneumatic Wheel Using Topology Optimization,Christopher Czech,Paolo Guarneri,Georges Fadel
+DETC2002-34035,Identifying Variable Effects on the Dimensional Quality of Compliant Assembly, Using Computer Experiments,Stefan Dahlstrom,S Jack Hu,Rikard Soderberg
+DETC2011-47865,Quantifying Model Uncertainty Using Measurement Uncertainty Standards,Xiaoping Du,Harsheel Shah
+DETC2011-47234,A Variable-Size Local Domain Approach for Concurrent Design Optimization and Model Validation Using Parametric Bootstrap,Dorin Drignei,Zissimos P Mourelatos,Michael Kokkolaras,Vijitashwa Pandey,Grzegorz Koscik
+DETC2010-29129,Optimizing the Unrestricted Placement of Turbines of Differing Rotor Diameters in a Wind Farm for Maximum Power Generation,Souma Chowdhury,Achille Messac,Jie Zhang,Luciano Castillo,Jose Lebron
+DETC2002-34046,Computational Geometric Modeling and Unfolding of 3-D Folded Structures,Wei Liu,Kang Tai
+DETC2003-48744,Shape Knowledge Indexing Using Invariant Shape Code,Chensheng Wang,Joris S M Vergeest,Tjamme Wiegers,Yu Song
+DETC2007-34687,A Process Model and Data Mining to Support Designing Families of Services,Seung Ki Moon,Timothy W Simpson,Soundar R T Kumara
+DETC2005-84179,Robust Truck Cabin Layout Optimization Using Advanced Driver Variance Models,Matthew B Parkinson,Matthew P Reed,Michael Kokkolaras,Panos Y Papalambros
+DETC2007-35879,A Framework for Designing Balanced Product Platforms by Estimating Versatility of Components,Chang Muk Kang,Yoo Suk Hong
+DETC2012-70529,An Ensemble Approach for Robust Data-Driven Prognostics,Chao Hu,Byeng D Youn,Pingfeng Wang,Joung Taek Yoon
+DETC2008-49493,Sensitivity Analyses of FORM-Based and DRM-Based Performance Measure Approach for Reliability-Based Design Optimization,Ikjin Lee,Kyung K Choi,Liu Du,David Gorsich
+DETC2004-57331,Design for Project Change Management: Part 1 -- Configuration Design,D Xue,S Y Cheing,P Gu
+DETC2004-57205,Development of Process Optimization for an Intelligent Knowledge-Based System for Spur Gear Precision Forging Die Design,ELSayed Aziz,C Chassapis
+DETC2002-34065,Automated Design Synthesis for Micro-Electro-Mechanical Systems (MEMS),Ningning Zhou,Alice Agogino,Kristofer S J Pister
+DETC2005-85295,A Method for Inferring Design Rules With Explicit Bounds of Applicability,Kevin Rawson,Thomas F Stahovich
+DETC2011-47815,Decomposition of System Level Reliability-Based Design Optimization to Reduce the Number of Simulations,Diane Villanueva,Rodolphe Le Riche,Gauthier Picard,Raphael T Haftka,Bhavani V Sankar
+DETC2011-48007,Defining Technology-Adoption Indifference Curves for Residential Solar Electricity Generation Using Stated Preference Experiments,Bart D Frischknecht,Kate Whitefoot
+DETC2010-28393,Optimal Camera Path Planning for the Inspection of Printed Circuit Boards Using a Two Stepped Optimization Approach,Zainab Hermes,Ashraf O Nassef,Lotfi K Gaafar
+DETC2005-84968,Design Optimization of Continuous Caster Refractory Components,K J Craig,D J de Kock,G J de Wet,L J Haarhoff,C A Pretorius
+DETC2010-28172,Probabilistic Design Optimization of Frequency Dispersion for Rotating Blades,Liqiang An,G Gary Wang,Zhangqi Wang
+DETC2012-70465,A Genetic Algorithm Approach for Technology Characterization,Edgar Galvan,Richard Malak
+DETC2006-99074,Pattern-Based Reasoning in Critical Parameter Management (CPM) for Rapid Redesign,Li Chen,Simon Li
+DETC2005-85176,Structural Topology Optimization Using Frame Elements Based on the Complementary Strain Energy Concept for Eigen-Frequency Maximization,Akihiro Takezawa,Shinji Nishiwaki,Kazuhiro Izui,Masataka Yoshimura
+DETC2006-99554,Module Interface Representation,Bernhard Bettig,John K Gershenson
+DETC2007-34435,Improving Confidence in Simulation-Based Design Through Error Functions,Yee Mey Goh,Chris McMahon,Julian Booker
+DETC2006-99500,Understanding the Effects of Model Uncertainty in Robust Design With Computer Experiments,Jun Liu,Daniel W Apley,Wei Chen
+DETC2011-48623,Improving Identifiability in Model Calibration Using Multiple Responses,Paul D Arendt,Daniel W Apley,Wei Chen
+DETC2003-48735,Multi-Objective Configuration Optimization With Vehicle Dynamics Applied to Midsize Truck Design,Yi Miao,Vincent Y Blouin,Georges M Fadel
+DETC2002-34102,A Mesh Feature Paradigm for Rapid Generation of CAE-Based Design of Experiments Data,Yifan Chen,Paul Stewart,Anne Marsan,Huaicai Mo,Basavaraj Tonshal
+DETC2012-70255,Research on Mechanism Model of Fixture Location Errors Analysis,Yuguang Wu,C G Li
+DETC2007-34940,Finite Element Analysis Applied to Ergonomic Design of 2-Piece Aluminum Beverage Cans and Bottles,Jing Han,Koetsu Yamazaki,Sadao Nishiyama,Ryoichi Itoh
+DETC2003-48765,Optimization of a Semi-Active Shock Absorber for Aircraft Landing Gear,Kenichi Maemori,Naoki Tanigawa,Reiko Koganei,Toshio Morihara
+DETC2006-99210,On Adaptive Sampling for Single and Multi-Response Bayesian Surrogate Models,David A Romero,Cristina H Amon,Susan Finger
+DETC2010-28775,Automated Concept Generation Using Branched Functional Models,Abhinav Krishna Choudhary,Cari Bryant Arnold
+DETC2012-71098,Predicting the Thermal Performance for the Multi-Objective Vehicle Underhood Packing Optimization Problem,Ravi Teja Katragadda,Sreekanth Reddy Gondipalle,Paolo Guarneri,Georges Fadel
+DETC2012-70631,Combining Case Based Reasoning and Shape Matching Based on Clearance Analyzes to Support the Reuse of Components,Joel Johansson
+DETC2010-28753,Mass Customization: A Review of the Paradigm Across Marketing, Engineering and Distribution Domains,Scott Ferguson,Priyesh Malegaonkar,Andrew Olewnik,Phil Cormier,Saket Kansara
+DETC2009-87430,A New Sparse Grid Based Method for Uncertainty Propagation,Fenfen Xiong,Ying Xiong,Steven Greene,Wei Chen,Shuxing Yang
+DETC2006-99584,Adapted Concept Generation and Computational Techniques for the Application of a Transformer Design Theory,Stewart M Skiles,Vikramjit Singh,Jarden Krager,Carolyn Conner Seepersad,Kristin L Wood,Dan Jensen
+DETC2004-57038,PDE-Driven Level Sets and Shape Sensitivity for Structural Topology Optimization,Michael Yu Wang,Xiaoming Wang
+DETC2003-48734,Analytical Target Setting: An Enterprise Context in Optimal Product Design,Adam B Cooper,Panayotis Georgiopoulos,Hyung Min Kim,Panos Y Papalambros
+DETC2008-50093,Topology and Dimensional Synthesis of Linkage Mechanism Based on the Constrained Superposition Method,Hae Chang Gea,WeiJu Chen,ChingJui Chang
+DETC2002-34122,On the Entropy of Multi-Objective Design Optimization Solution Sets,Ali FarhangMehr,Shapour Azarm
+DETC2003-48802,A Study on Immune Algorithms Considering Interaction of Design With Environment Properties,Tomoyuki Miyashita,Hiroshi Yamakawa
+DETC2005-85408,Filleting and Rounding Using a Point-Based Method,Yong Chen,Hongqing Wang,David W Rosen,Jarek Rossignac
+DETC2006-99391,A Hybrid Method for Parametric Conceptual Vehicle Design Using Legacy Components and Parametric Surfaces,Jian Wan,Nanxin Wang,Gianna GomezLevi
+DETC2006-99666,Fast Layered Manufacturing Support Volume Computation on GPUs,Rahul Khardekar,Sara McMains
+DETC2002-34132,Dynamic Project Navigation: Modelling, Improving, and Review of Engineering Processes,Dorte Freisleben,Sendor Vajna
+DETC2011-48318,Sequential Sampling With Kernel-Based Bayesian Network Classifiers,David Shahan,Carolyn C Seepersad
+DETC2011-47700,Adjoint Design Sensitivity Analysis of Fracture Mechanics Using Molecular-Continuum Multiscale Approach,HyunSeok Kim,HongLae Jang,MinGeun Kim,Seonho Cho
+DETC2011-47750,Loci Surface Guided Crystal Phase Transition Pathway Search,Edin Crnkic,Lijuan He,Yan Wang
+DETC2009-86810,Integrated Optimization for Supporting Functional and Layout Designs During Conceptual Design Phase,Masakazu Kobayashi,Yuya Suzuki,Masatake Higashi
+DETC2003-48766,Towards a Conceptual Design Explorer Using Metamodeling Approaches and Constraint Programming,Bernard Yannou,Timothy W Simpson,Russell R Barton
+DETC2009-87165,Methods for Evaluating Suitability of Econometric Demand Models in Design for Market Systems,Bart Frischknecht,Katie Whitefoot,Panos Papalambros
+DETC2010-28958,Turning Black-Box Into White Functions,Songqing Shan,G Gary Wang
+DETC2003-48708,An Indicator Response Surface-Based Monte Carlo Method for Efficient Component and System Reliability Analysis,Tong Zou,Zissimos P Mourelatos,Sankaran Mahadevan,Jian Tu
+DETC2006-99631,Spiral-Like Path Planning Without Gap for Material Deposition Processes,Kunnayut Eiamsaard,F W Liou,Lan Ren,H Choset
+DETC2011-48933,Topology Optimization of Spacers for Maximizing Permeate Flux on Membrane Surface in Reverse Osmosis Channel,Semyung Wang,Seungjae Oh,Minkyu Park,Joonha Kim
+DETC2006-99449,Designing Design Processes for Integrated Materials and Products Realization: A Multifunctional Energetic Structural Material Example,Jitesh H Panchal,HaeJin Choi,Janet K Allen,David L McDowell,Farrokh Mistree
+DETC2007-35913,A Variable Fidelity Model Management Framework for Multiscale Computational Design of Continuous Fiber SiC-Si3N4 Ceramic Composites,Gilberto Mejia Rodriguez,John E Renaud,Vikas Tomar
+DETC2005-84790,On the Impact of Coupling Strength on Complex System Optimization for Single-Level Formulations,James Allison,Michael Kokkolaras,Panos Papalambros
+DETC2010-28601,Protocol-Based Multi-Agent Systems: Examining the Effect of Diversity, Dynamism, and Cooperation in Heuristic Optimization Approaches,Lindsay Hanna,Jonathan Cagan
+DETC2007-34124,Development of Validation Metrics for Vehicle Frontal Impact Simulation,R J Yang,G Li,Y Fu
+DETC2004-57306,On Electrochemical Deposition for Layered Manufacturing,Rhonda Anderson,Mark Ganter,Dan Schwartz,Duane Storti,John Whitaker
+DETC2010-29030,Improving Multi-Response Metamodels With Upper/Lower Bound Information Using Multi-Stage, Non-Stationary Covariance Functions,David A Romero,Cristina H Amon,Susan Finger
+DETC2010-28110,Validation of Computational Fluid Structure Interaction Models for Shape Optimization Under Blast Impact,Huade Tan,John Goetz,Andres Tovar,John E Renaud
+DETC2004-57149,A System Approach to Simulation-Based Design Under Uncertainty, Through Best in Class Simulation Process Integration and Design Optimization,Nick Tzannetakis,Stijn Donders,Joost Van de Peer,Paul Weal
+DETC2003-48761,Introducing Rough Set for Design Space Exploration and Optimization,Songqing Shan,G Gary Wang
+DETC2011-48525,Compliant Mechanism Design Using a Strain Based Topology Optimization Method,Xiaobao Liu,Euihark Lee,Hae Chang Gea,Ping An Du
+DETC2011-48395,Analysis and Design of an In-Pipe System for Water Leak Detection,Dimitris M Chatzigeorgiou,Kamal YoucefToumi,Atia E Khalifa,Rached BenMansour
+DETC2009-86752,An Approach to Support the Implementation of Product Configuration Tools,Roberto Raffaeli,Maura Mengoni,Michele Germani,Ferruccio Mandorli
+DETC2005-84555,Development of a Robust Design Process Using a New Robustness Index,K H Hwang,G J Park
+DETC2006-99538,Assessing and Increasing Product and Family Differentiation in the Market,Fabrice Alizon,Steven B Shooter,Timothy W Simpson
+DETC2009-87517,Are We There Yet? Investigating the Role of Design Process Architecture in Convergence Time,Erich Devendorf,Kemper Lewis
+DETC2006-99174,Parametric Solid Modeling,Horea T Ilies
+DETC2009-87465,A Multiscale Design Methodology for Designing Hierarchical Multiscale Systems Considering Random Field Uncertainty,Xiaolei Yin,Sanghoon Lee,Wei Chen,Wing Kam Liu
+DETC2009-87268,Reliability-Based Design Optimization Using Enhanced Dimension Reduction Method With Variable Sampling Points,Sunmin Yook,Gabseong Lee,SangJoon Yoon,JaeYong Park,DongHoon Choi
+DETC2011-48194,A Platform Selection Approach Based on Product Family Ontology Modeling,Ying Liu,Soon Chong Johnson Lim,Wing Bun Lee
+DETC2010-28362,Hybrid Power/Energy Generation System Design Through Multistage Design Optimization Problem With Complementarity Constraints,Shen Lu,Nathan B Schroeder,Harrison M Kim
+DETC2004-57175,Development of a Production Cost Estimation Framework for Product Family Design,Jaeil Park,Timothy W Simpson
+DETC2012-71112,A Framework for Parallel Sampling of Design Space With Application to Vehicle Crashworthiness Optimization,Karim Hamza,Mohammed Shalaby
+DETC2004-57301,Decomposition-Based Assembly Synthesis of Space Frame Structures Using Joint Library,Naesung Lyu,Kazuhiro Saitou
+DETC2003-48771,Topology Optimization and Dynamic Performance of a Bike With Dampers,Yuan Mao Huang,JiungCheng Pan
+DETC2012-70493,Identifying Key Product Attributes and Their Importance Levels From Online Customer Reviews,Rahul Rai
+DETC2003-48721,Product Family and Platform Portfolio Optimization,Olivier L de Weck,Eun Suk Suh,David Chang
+DETC2003-48758,Penalized Likelihood Kriging Model for Analysis of Computer Experiments,Runze Li,Agus Sudjianto
+DETC2008-49230,Analytical Robust Design of Mechanical Systems,Peihua Gu,Jian Zhang,Nengsheng Bao,Guojun Zhang
+DETC2007-35914,Topology Optimization for Synthesizing Extrusion Based Nonlinear Transient Designs,Neal M Patel,John E Renaud,Chandan Mozumder
+DETC2009-87276,Microstructure-Mediated Integration of Material and Product Design: Undersea Submersible,Ayan Sinha,Madhusudan Chakraborty,Sudipto Ghosh,C S Kumar,Jitesh H Panchal,Janet K Allen,David L McDowell,Farrokh Mistree
+DETC2005-85469,A Compromise Method for the Design of Parametric Polynomial Surrogate Models,Pradeep George,Madara Ogot
+DETC2011-47238,Addressing Limitations of Pareto Front in Design Under Uncertainty,Vijitashwa Pandey,Zissimos P Mourelatos,Efstratios Nikolaidis
+DETC2004-57437,Application of Math-Based Marketing and Financial Tools in an Automated Parametric Design Framework,Joseph A Donndelinger,Peter A Fenyes
+DETC2007-35497,A Genetic Algorithm Based Procedure for Extracting Optimal Solutions From a Morphological Chart,Santosh Tiwari,Joshua Summers,Georges Fadel
+DETC2002-34047,Performance Optimization of Extrusion Blow Molded Parts Using Fuzzy Neural-Taguchi Method and Genetic Algorithm,JyhCheng Yu,TsungRen Hung,Francis Thibault
+DETC2002-34067,Stiffness Testing of Hydraulic Hoses,Kurt A Chipperfield,Judy M Vance
+DETC2002-34064,Cross Model Shape Reuse: Copying and Pasting of Freeform Features,Chengsheng Wang,Joris S M Vergeest,Imre Horvath,Raluca Dumitrescu,Tjamme Wiegers,Yu Song
+DETC2004-57492,Graphical Modeling Environment and Support Framework for Function-Based Conceptual Design,Janis P Terpenny,Deepu Mathew
+DETC2004-57440,Economics of Sacrificial Fixturing for CNC Machining and Rapid Manufacturing,Kevin McBrearty,Richard A Wysk,Matthew C Frank
+DETC2005-85231,Low Cost Demonstrator as a Mean for Rapid Product Realization With an Electric Motorcycle Application,Peter Hallberg,Petter Krus,Lars Austrin
+DETC2010-28562,Requirement Change Propagation Prediction Approach: Results From an Industry Case Study,Beshoy Morkos,Joshua D Summers
+DETC2003-48809,Distributed Compliant Model for Efficient Dynamic Simulation of Systems With Frictional Contacts,Peng Song,Vijay Kumar
+DETC2012-70480,Adaptive Orthonormal Basis Functions for High Dimensional Metamodeling With Existing Sample Points,Kambiz Haji Hajikolaei,G Gary Wang
+DETC2008-49650,Feature-Based Crystal Construction in Computer-Aided Nano-Design,Cheng Qi,Yan Wang
+DETC2008-49725,An Integrated Process Planning System for Machining and On-Machine Inspection,Yaoyao F Zhao,Xun W Xu,Sheng Q Xie,Tom R Kramer,Fred M Proctor,John L Michaloski
+DETC2007-34285,High Performance Dirichlet Parametrization Through Triangular Bezier Surface Interpolation for Deformation of CAE Meshes,Yifan Chen,Basavaraj Tonshal
+DETC2007-35522,Robust Product Family Consolidation and Selection Using the Hypothetical Equivalents and Inequivalents Method,Bryan R Dolan,Kemper E Lewis
+DETC2007-35104,Reliability Based Design Optimization With Correlated Input Variables Using Copulas,Kyung K Choi,Yoojeong Noh,Liu Du
+DETC2003-48763,A New Global Optimization Method for Simultaneous Computation on Expensive Black-Box Functions,Liqun Wang,Songqing Shan,G Gary Wang
+DETC2005-85043,Selecting an Appropriate Metamodel: The Case for NURBs Metamodels,Cameron J Turner,Richard H Crawford
+DETC2004-57194,An Efficient Pareto Set Identification Approach for Multi-Objective Optimization on Black-Box Functions,G Gary Wang,Songqing Shan
+DETC2003-48714,Robust Optimization of an Automotive Valvetrain Using a Multiobjective Genetic Algorithm,Emre Kazancioglu,Guangquan Wu,Jeonghan Ko,Stanislav Bohac,Zoran Filipi,S Jack Hu,Dennis Assanis,Kazuhiro Saitou
+DETC2005-84633,A Comparison of Optimized Stacked-Ply Flywheel Designs That Are Based on Different Failure Criteria,Brian C Fabien
+DETC2002-34059,DEVELOPMENT OF MULTI-STAGE AND HYBRID REAL-CODED GENETIC ALGORITHMS WITH ACTIVE CONSTRAINTS,Yasunari Mimura,Shinobu Yoshimura,Tomoyuki Hiroyasu,Mitsunori Miki
+DETC2011-48614,Bounded Target Cascading in Hierarchical Design Optimization,XiaoLing Zhang,Po Ting Lin,Hae Chang Gea,HongZhong Huang
+DETC2012-70208,Representing Stresses That Arise in Parallel Assemblies That Contain Imperfect Geometry Allowed by Tolerances,Lupin Niranjan Jaishankar,Joseph K Davidson,Jami J Shah
+DETC2008-49211,Evolutionary Multi-Agent Systems: An Adaptive Approach to Optimization in Dynamic Environments,Lindsay Hanna,Jonathan Cagan
+DETC2007-34674,Reducing the Number of Variables in a Response Surface Approximation: Application to Thermal Design,Christian Gogu,Raphael T Haftka,Satish K Bapanapalli,Bhavani V Sankar
+DETC2007-34708,An Optimal Design Method for Reducing Brake Squeal in Disc Brake Systems,Toru Matsushima,Shinji Nishiwaki,Shintarou Yamasaki,Kazuhiro Izui,Masataka Yoshimura
+DETC2009-87026,Bayesian Hierarchical Choice Modeling Framework for Capturing Heterogeneous Preferences in Engineering System Design,Christopher Hoyle,Wei Chen,Nanxin Wang,Frank S Koppelman
+DETC2009-87237,Particle Swarm Methodologies for Engineering Design Optimization,Singiresu S Rao,Kiran K Annamdas
+DETC2002-34078,A Web Enabled Process for Accessing Customized Parametric Designs,Rogelio Flores,C Greg Jensen,Jon Shelley
+DETC2004-57076,Resistance Based Modeling of Collaborative Design,Karen J Ostergaard,Joshua D Summers,Georges Fadel
+DETC2012-70521,Exploration of the Use of Design Methods With the Design Structure Matrix for Integrating New Technologies Into Large Complex Systems,Iyad T Alzaharnah,Warren P Seering,Maria Yang
+DETC2003-48808,Introduction to Compliant Long-Dwell Mechanism Synthesis Using Buckling Arc Theory,Umit Sonmez
+DETC2010-28916,The Mathematical Model of a Procedure for Percutaneous Annuloplasty,Toufic Azar,Jorge Angeles,Jozsef Jozsef Kovecses,Renzo Cecere
+DETC2007-35566,Diagonal Quadratic Approximation for Parallelization of Analytical Target Cascading,Yanjing Li,Zhaosong Lu,Jeremy J Michalek
+DETC2012-70640,Indicator of Feasibility for Layout Problems,Julien Benabes,Benoit Guedas,Emilie Poirson,Fouad Bennis
+DETC2009-86228,Metrics-Based Approach for VR Technology Evaluation in Styling Product Design,Michele Germani,Maura Mengoni,Margherita Peruzzini
+DETC2008-50123,A Method and Software Prototype to Support On-Line Planning on CNC Machines,Andreas Kain,Frank Hoisl,Kristina Shea
+DETC2005-85428,Computational Methods Applied to Modelica Simulation Models in a Web Based Framework,Bjorn Johansson
+DETC2007-35447,A Template-Based Approach for Multilevel Blast Resistant Panel Design,Hannah Muchnick,Janet K Allen,David L McDowell,Farrokh Mistree
+DETC2002-34106,A Genetic Algorithm Based Method for Product Family Design Optimization,Brayan S DSouza,Timothy W Simpson
+DETC2007-35800,Application of Product Platform Design for Engineered System,Mohit Goswami,Venkat Allada
+DETC2006-99377,Process Planning Support System Considering Product Quality,Tsuyoshi Koga,Kazuhiro Aoyama
+DETC2007-34587,An Intelligent and Efficient Tree Search Algorithm for Computer-Aided Component Selection,Manasi Tamhankar,Matthew I Campbell
+DETC2011-48581,Exploring Heterogeneity of Customer Preference to Balance Commonality and Market Coverage,Scott Ferguson,Callaway Turner,Joseph Donndelinger
+DETC2011-47772,A New Model for Wind Farm Layout Optimization With Landowner Decisions,Le Chen,Erin Macdonald
+DETC2009-86190,Probabilistic Analysis of Manufacturing Uncertainty in Turbine Blades,Nikita Thakur,Andy Keane,Prasanth B Nair
+DETC2004-57199,The Effects of Different Specifications on the Tolerance-Maps for an Angled Face,Gaurav Ameta,Joseph K Davidson,Jami J Shah
+DETC2006-99098,Aeronautical Planar Flank Milling Automation: Computing the G-Zones,Ramy Harik,Gabriel Ris
+DETC2007-35106,Robust Design Concept in Possibility Theory and Optimization for System With Both Random and Fuzzy Input Variables,Liu Du,Kyung K Choi,Ikjin Lee
+DETC2006-99492,Exploring the Advantages of Materials Design in a Product Design Process,Hannah Muchnick,Stephanie C Thompson,Emad Samadiani,Janet K Allen,Yogendra Joshi,Farrokh Mistree
+DETC2006-99493,Modeling Implications in Simulation-Based Design of Stents,Tiefu Shao,Sundar Krishnamurty
+DETC2010-28027,Finite Element Modeling and Analysis of Orthotropic Butt Welds,Masoud Mojtahed,Qingtian Cai
+DETC2008-49137,Should Designers Worry About Market Systems?,ChingShin Shiau,Jeremy J Michalek
+DETC2008-49684,Improving the Performance of Visual Steering Commands for Multi-Dimensional Trade Space Exploration,Christopher D Congdon,Daniel E Carlsen,Timothy W Simpson,Jay D Martin
+DETC2009-87053,Conservative Prediction Via Safety Margin: Design Through Cross-Validation and Benefits of Multiple Surrogates,Felipe A C Viana,Victor Picheny,Raphael T Haftka
+DETC2004-57049,Numerical and Experimental Study of Shielding Gas Orientation Effects on Particle Stream Concentration Mode in Coaxial Laser Aided Material Deposition Process,Heng Pan,Yogesh D Thakar,Frank Liou
+DETC2007-35504,Reduction of Non - Monomial Basis in the Dimensional Analysis of a Dynamical System,Srikanth Tadepalli,Kristin L Wood
+DETC2011-48566,Convex Estimators for Optimization of Kriging Model Problems,Karim Hamza,Mohammed Shalaby
+DETC2004-57456,Reliability-Based Design Optimization Methods,Anukal Chiralaksanakul,Sankaran Mahadevan
+DETC2004-57258,Creative Design, Issues and Strategies,ZhiGang Xu
+DETC2005-85124,Facilitating Collaborative Design: A Review on Design Representations and Workstations,Gul E Okudan,Deborah J Medeiros
+DETC2005-84869,A Unified Information Model for Product Family Design Management,Jyotirmaya Nanda,Timothy W Simpson,Steven B Shooter,Robert B Stone
+DETC2006-99178,Qualitative and Quantitative Sequential Sampling,Rahul Rai,Matthew I Campbell
+DETC2006-99066,Free-Form Feature Representation and Comparison,David Ferrari,Geoff West,Bernard Rolfe,Michael CardewHall
+DETC2007-35361,A Sequential Linear Programming Coordination Algorithm for Analytical Target Cascading,Jeongwoo Han,Panos Papalambros
+DETC2007-34883,Design Optimization of a Laptop Computer Using Aggregate and Mixed Logit Demand Models With Consumer Survey Data,ChingShin Shiau,Ian H Tseng,Andrew W Heutchy,Jeremy Michalek
+DETC2010-28682,Universal Product Family Design Valuation in an Uncertain Market Environment,Seung Ki Moon,Daniel A McAdams
+DETC2008-49188,Novel Design of a 3-DOF Parallel Manipulator for Materials Handling,Dan Zhang,Zhen Gao,XiaoLlin Hu,Jason Parise
+DETC2005-84214,Geometric Surface Features Applied to Volumetric CAE Mesh Models,Yifan Chen,Basavaraj Tonshal,Ali Saeed
+DETC2004-57391,Design of a Bimorph Driven Meander-Line Structure for Parts Feeder Application,Yung Ting,HoChin Jar,ChungYi Lin,JengShen Huang
+DETC2002-34113,Error Sensitivity Analysis for Optimal Calibration of Parallel Kinematic Machines,Fengfeng Xi,Marcel Verner,Chris Mechefski
+DETC2002-34108,Robust Design Through the Use of a Hybrid Genetic Algorithm,Kurt Hacker,Kemper Lewis
+DETC2006-99433,Simulation Model Refinement for Decision Making via a Value-of-Information Based Metric,Jitesh H Panchal,Christiaan J J Paredis,Janet K Allen,Farrokh Mistree
+DETC2002-34144,Evaluation of Conceptual Designs and Maintainability Incorporating Uncertainty,D Kalenchuk,P Gu
+DETC2007-34301,Theoretical Design and Control Analysis of Reconfigurable Parallel Kinematic Machine Tools,Dan Zhang,Zhuming Bi,Yunjian Ge
+DETC2010-28549,Experimental Damage Characterization of Hexagonal Honeycombs Subjected to In-Plane Shear Loading,Shraddha Joshi,Luke Berglind,Roy Rusly,Jaehyung Ju,Joshua D Summers,John D Desjardins
+DETC2009-87294,A Preliminary Study of Novice and Expert Users' Decision-Making Procedures During Visual Trade Space Exploration,David Wolf,Timothy W Simpson,Xiaolong Luke Zhang
+DETC2004-57133,Optimization of Chemical Etching Process in Niobium Cavities,Mohamed B Trabia,William Culbreth,Satishkumar Subramanian,Tsuyshoi Tajima
+DETC2012-71056,Steps in Transforming Shapes Generated With Generative Design Into Simulation Models,Amir Hooshmand,Matthew I Campbell,Kristina Shea
+DETC2009-87084,Response Surface Method Using Sequential Sampling for Reliability-Based Design Optimization,Liang Zhao,K K Choi,Ikjin Lee,Liu Du
+DETC2003-48711,Structural Durability Design Optimization and Its Reliability Assessment,Kyung K Choi,Byeng D Youn,Jun Tang
+DETC2003-48817,On the Effect of Weights in Rational Motion Design,A Purwar,Q J Ge
+DETC2003-48799,Optimal Packaging of Tank Turret System,Chan Yu,Souran Manoochehri,Chad McKonly
+DETC2009-86935,A Method and Software Tool for Automated Gearbox Synthesis,Yishih Lin,Kristina Shea,Aylmer Johnson,John Coultate,Jamie Pears
+DETC2007-34698,Optimal Partitioning and Coordination Decisions in Decomposition-Based Design Optimization,James T Allison,Michael Kokkolaras,Panos Y Papalambros
+DETC2008-49798,A Comparison of Virtual Condition Cylinder Evaluation Methods in Coordinate Metrology,Steven Turek,Sam Anand
+DETC2007-35482,A Hybrid Method for Surrogate Model Updating in Engineering Design Optimization,Tiefu Shao,Sundar Krishnamurthy
+DETC2007-35608,Predictive Carbon Nanotube Models Using the Eigenvector Dimension Reduction (EDR) Method,Zhimin Xi,Byeng D Youn
+DETC2007-34746,Matching Geometric Shapes in 4D Space Incorporating Curvature Information,Y Song,J S M Vergeest
+DETC2008-49639,Benefit Evaluation for Machining of Marine Propellers,DerMin Tsay,HsinPao Chen,Sandor Vajna,Michael Schabacker
+DETC2006-99079,Coupling Degree of Mechanism and its Application,Jing Xiong,TingLi Yang,Xiangdong Yang,Dongchao Yang,Ken Chen
+DETC2005-84766,A Decision Support Formulation for Design Teams: A Study in Preference Aggregation and Handling Unequal Group Members,TungKing See,Kemper Lewis
+DETC2011-48148,A Modular Design Approach to Improve the Life Cycle Performance Derived From Optimized Closed-Loop Supply Chain,Wuhsun Chung,Gul E Kremer,Richard A Wysk
+DETC2011-47537,Equivalent Standard Deviation to Convert High-Reliability Model to Low-Reliability Model for Efficiency of Sampling-Based RBDO,Ikjin Lee,Kyung K Choi,David Gorsich
+DETC2011-47925,Interactive Modular Optimization Strategy for Layout Problems,Julien Benabes,Emilie Poirson,Fouad Bennis,Yannick Ravaut
+DETC2010-28472,A Viscoelastic Based Mechanism for Improving Spring-In Angle Predictions in Compression Molded Thermoplastic Matrix Composites,Corey Lynam,Dr Abbas S Milani
+DETC2002-34095,Design of Hierarchic Platforms for Customizable Products,Gabriel Hernandez,Janet K Allen,Farrokh Mistree
+DETC2005-84928,Probabilistic Analytical Target Cascading: A Moment Matching Formulation for Multilevel Optimization Under Uncertainty,Huibin Liu,Wei Chen,Michael Kokkolaras,Panos Y Papalambros,Harrison M Kim
+DETC2005-84343,A Method for Integrating Form Errors Into Geometric Tolerance Analysis,Robert Scott Pierce,David Rosen
+DETC2005-84685,A Cost Based Methodology for Design Optimization,A R Rao,A J Keane,J P Scanlan
+DETC2007-35723,OAM+: An Assembly Data Model for Legacy Systems Engineering,S M Mahbub Murshed,Jami J Shah,Vadivel Jagasivamani,Ayman Wasfy,David W Hislop
+DETC2009-87402,Recognizing Network-Like Hand-Drawn Sketches: A Convolutional Neural Network Approach,Luoting Fu,Levent Burak Kara
+DETC2008-49239,The Application of Product Platform Design to the Reuse of Electronic Components Subject to Long-Term Supply Chain Disruptions,Peter Sandborn,Varun Prabhakar,Bo Eriksson
+DETC2009-87225,The Effect of Reward Interdependence of Strategies in Evolutionary Multi-Agent Systems,Lindsay Hanna,Jonathan Cagan
+DETC2004-57211,Global Stiffness Improvement for Tricept Machine Tools Family,Dan Zhang
+DETC2009-86282,Interval Uncertainty Reduction and Single-Disciplinary Sensitivity Analysis With Multi-Objective Optimization,M Li,N Williams,S Azarm
+DETC2004-57462,The Role of Contraints and Human Interaction in Evolving MEMS Designs: Microresonator Case Study,Raffi Kamalian,Alice M Agogino,Hideyuki Takagi
+DETC2007-34772,Cycle Based Robot Drive Train Optimization Utilizing SVD Analysis,Xiaolong Feng,Shiva SanderTavallaey,Johan Olvander
+DETC2003-48770,Topology Optimization of a Compliant Gripper Using Hybrid Simulated Annealing and Direct Search,Mohamed M Shalaby,Hesham A Hegazi,Ashraf O Nassef,Sayed M Metwalli
+DETC2006-99429,Improved Head Restraint Design for Safety and Compliance,Matthew B Parkinson,Matthew P Reed
+DETC2007-34918,Optimization of Bicycle Frames Using Genetic Algorithms,Yuan Mao Huang,Kuo Juei Wang
+DETC2011-47437,Robustness of Residual Stresses in Brake Discs by Metamodeling,M Hofwing
+DETC2009-86704,A Simulation-Based RBDO Method Using Probabilistic Re-Analysis and a Trust-Region Approach,Ramon C Kuczera,Zissimos P Mourelatos,Efstratios Nikolaidis,Jing Li
+DETC2012-71186,Application of Dynamic State Variable Models for Multiple-Generation Product Lines With Cannibalization Across Generations,ChunYu Lin,Gul Okudan
+DETC2006-99187,Product Optimization Incorporating Discrete Design Variables Based on Decomposition of Performance Characteristics,Masataka Yoshimura,Yu Yoshimura,Kazuhiro Izui,Shinji Nishiwaki
+DETC2002-34043,Lifecycle-Based Product Design Using Global Optimization Methods Based on Hierarchical Genotype Representation of Alternatives and Constraints,Masataka Yoshimura,Kazuhiro Izui,Kazuma Fukatani
+DETC2011-47057,Study of the Sequential Constraint-Handling Technique for Evolutionary Optimization With Application to Structural Problems,Damien Motte,Axel Nordin,Robert Bjarnemo
+DETC2004-57418,A Fuzzy Dynamic Programming Approach for Mixed-Discrete Multistage Decision Processes,Ying Xiong,Singiresu S Rao
+DETC2002-34127,Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design,Xiaoping Du,Wei Chen
+DETC2011-48710,Robust Structural Design Optimization Under Non-Probabilistic Uncertainties,Jiantao Liu,Hae Chang Gea,Ping An Du
+DETC2002-34088,Adaptive-Agent Based Simulation Model to Study Diffusion of Eco-Innovation Strategies,Rahul Rai,Venkat Allada
+DETC2005-85056,A New Approach to Probabilistic Risk Analysis in Concurrent and Distributed Design of Aerospace Systems,Ali Farhang Mehr,Irem Y Tumer
+DETC2008-49558,Optimization Design of a Spatial Six-Degree-of-Freedom Parallel Manipulator Based on Genetic Algorithms and Neural Networks,Dan Zhang,Zhen Gao
+DETC2012-71029,Concept Analysis for Reconfigurable Products,Brian Literman,Kemper Lewis,Phil Cormier
+DETC2006-99040,BB-ATV: Analytical Target Cascading Using Branch and Bound for Mixed-Integer Nonlinear Programming,Jeremy J Michalek,Panos Y Papalambros
+DETC2007-35534,An Approach to Improved Decentralized Design: The Modified Approximation-Based Decentralized Design (MADD) Framework,Ashwin P Gurnani,Kemper Lewis
+DETC2012-71506,A Functionally-Aware Product Schematic Clustering Algorithm,Ning Quan,Harrison M Kim
+DETC2007-35098,A New Inverse Reliability Analysis Method Using MPP-Based Dimension Reduction Method (DRM),Ikjin Lee,Kyung K Choi,Liu Du,David Gorsich
+DETC2006-99535,A Function-Based Methodology for Analyzing Critical Events,Ryan S Hutcheson,Daniel A McAdams,Robert B Stone,Irem Y Tumer
+DETC2010-28782,A Fast Grid Deformation Algorithm for Aerodynamic Shape Optimization,Kaveh Mohamed,Kurt Sermeus,Eric Laurendeau
+DETC2007-34494,A Method for Benchmarking Product Family Design Alternatives,Henri J Thevenot,Timothy W Simpson
+DETC2004-57461,Unified Distance Queries in a Heterogeneous Model Environment,David E Johnson,Elaine Cohen
+DETC2004-57410,A CAD Package for High-Speed CAM Design Based on Direct Multiple Shooting Optimal Control Techniques,Sebastian Mennicke,Richard W Longman,MengSang Chew,Hans Georg Bock
+DETC2004-57271,Geometric Containment Analysis for Rotational Parts,Mukul Karnik,Satyandra K Gupta,Edward B Magrab
+DETC2010-28158,Theoretical and Experimental Characterization of the 34.6 2D Lattice Material,Mostafa S A Elsayed,Damiano Pasini
+DETC2010-28140,Multi-Objective Design and Tolerance Allocation for Single- and Multi-Level Systems,TzuChieh Hung,KueiYuan Chan
+DETC2011-47130,Comparison of Gene Expression Programming and Common Metamodeling Techniques in Engineering Design,Mi Xiao,Liang Gao,Xinyu Shao,Haobo Qiu,Li Nie
+DETC2011-48584,A Method for Identifying Design Principles for the Developing World,Robert D Campbell,Patrick K Lewis,Christopher A Mattson
+DETC2008-49481,An Effective Random Field Characterization for Probability Analysis and Design,Zhimin Xi,Byeng D Youn
+DETC2003-48775,Parameterization Strategy for Optimization of Shape Morphing Compliant Mechanisms Using Load Path Representation,KerrJia Lu,Sridhar Kota
+DETC2006-99599,Some Metrics and a Bayesian Procedure for Validating Predictive Models in Engineering Design,Wei Chen,Ying Xiong,KwokLeung Tsui,Shuchun Wang
+DETC2002-34153,Math-Based Performance Evaluation of an Experimental Car: Frontal Impact Crashworthiness,Robert R Mayer,ChinHsu Lin,J T Wang
+DETC2010-28389,A Modified Continuous Reactive Tabu Search for Damage Detection in Beams,Mustafa Arafa,Ayman Youssef,Ashraf Nassef
+DETC2005-85406,Gaussian Process Meta-Models for Efficient Probabilistic Design in Complex Engineering Design Spaces,Liping Wang,Don Beeson,Srikanth Akkaram,Gene Wiggs
+DETC2003-48784,A Concurrent Design Method for Multiple Cross-Sectional Automotive Body Frames Involving Discrete and Continuous Design Variables,Masataka Yoshimura,Shinji Nishiwaki,Kazuhiro Izui
+DETC2005-84738,Shape Recovery From Medical Image Data Using Extended Superquadrics,Talib Bhabhrawala,Venkat Krovi
+DETC2006-99295,FEA-Based Design of Heterogeneous Objects,KiHoon Shin
+DETC2005-85045,Insertion of Planar Areas Into Free-Form Surfaces in Early Product Design,V Cheutet,J P Pernot,J C Leon,B Falcidieno,F Giannini
+DETC2004-57369,A Method for Determining the Optimal Direction of the Principal Moment of Inertia in Frame Element Cross-Sections,Akihiro Takezawa,Shinji Nishiwaki,Kazuhiro Izui,Masataka Yoshimura
+DETC2006-99326,2-D Deposition Pattern and Strategy Study on Rapid Manufacturing,Jianzhong Ruan,Lan Ren,Todd E Sparks,Frank Liou
+DETC2008-50061,A Study of Covariance Functions for Multi-Response Metamodeling for Simulation-Based Design and Optimization,David A Romero,Cristina H Amon,Susan Finger
+DETC2009-87120,A Hybrid Sensitivity Analysis for Use in Early Design,Ryan S Hutcheson,Daniel A McAdams
+DETC2007-34970,Reverse Engineering of Geometric Surfaces Using Tabu Search Optimization Technique,Ayman M A Youssef,Ashraf O Nassef,Sayed M Metwalli
+DETC2002-34135,Smart Assemblies for Robot Design: A Progress Report,Kris Downey,Alan R Parkinson,Kenneth W Chase
+DETC2006-99413,Exploiting Shape Similarity in Engineering Analysis,Sankara Hari Gopalakrishnan,Krishnan Suresh
+DETC2005-84853,Feasibility Assessment in Preliminary Design Using Pareto Sets,Ashwin Gurnani,Scott Ferguson,Joseph Donndelinger,Kemper Lewis
+DETC2010-29023,Tolerance Allocation of Assemblies Using Fuzzy Comprehensive Evaluation and Decision Support Processes,Abhishek Kumar,Lorens Goksel,SeungKyum Choi
+DETC2002-34114,Development of an Interactive Web-Based Support System for Gear Design,Aziz ElSayed,C Chassapis
+DETC2012-71316,Non-Probabilistic Based Structural Design Optimization Under External Load Uncertainty With Eigenvalue-Superposition of Convex Models,Hae Chang Gea,Xike Zhao,Limei Xu
+DETC2006-99412,Review of Metamodeling Techniques in Support of Engineering Design Optimization,G Gary Wang,S Shan
+DETC2011-48390,Object-Oriented Modeling of Industrial Manipulators With Application to Energy Optimal Trajectory Scaling,Giovanni Berselli,Francesco Leali,Marcello Pellicciari,Alberto Vergnano,Bengt Lennartson
+DETC2005-85313,A Group Technology Based Representation for Product Portfolios,Robert L Jordan Jr,Mike Van Wie,Robert B Stone,Jiachuan Wang,Janis Terpenny
+DETC2011-48742,Exploring Marketing to Engineering Information Mapping in Mass Customization: A Presentation of Ideas, Challenges and Resulting Questions,Scott Ferguson,Andrew Olewnik,Phil Cormier
+DETC2009-86673,A Context-Aware Information Model for Elderly Homecare Services in a Smart Home,Jianxin Roger Jiao,Feng Zhou,Daqing Zhang,Songlin Chen
+DETC2010-28731,Low-Velocity Impact Behavior of Aluminum-Fiber/Epoxy Laminates: A Comprehensive Experimental Study,Mohammd AlemiArdakani,Akbar AfaghiKhatibi,Abbas S Milani,Hady Parsaiyan
+DETC2004-57405,An Integrated Robust Design and Marketing Approach for Product Design Selection Process,B Besharati,L Luo,S Azarm,P K Kannan
+DETC2010-29186,Safety of Spur Gear Design Under Non-Ideal Conditions With Uncertainty,Kyle Stoker,Anirban Chaudhuri,Nam Ho Kim
+DETC2011-47555,An Approach to Automated Conversion From Design Feature Model to Analysis Feature Model,Weijuan Cao,Xiaoshen Chen,Shuming Gao
+DETC2005-85061,Robust Design of Cellular Materials With Topological and Dimensional Imperfections,Carolyn Conner Seepersad,Janet K Allen,David L McDowell,Farrokh Mistree
+DETC2007-34703,Wavelet SDF-Reps: Solid Modeling With Volumetric Scans,Duane Storti,Mark A Ganter,William R Ledoux,Randal P Ching,Yangqiu Patrick Hu,David Haynor
+DETC2009-86827,Application of Shape Grammars to Planning for CNC Machining,Christoph Ertelt,Kristina Shea
+DETC2004-57332,Design for Project Change Management: Part 2 -- Attribute Design,D Xue,S Y Cheing,P Gu
+DETC2002-34066,Use of Constrained Viscoelastic Layers in the Design of Satellite Panels to Predict the Amplification Factor,MarieJosee Potvin,Andre Cote,Eric Charbonneau,MariaElena Aguilar
+DETC2007-34421,A Development Methodology for Parametric Synthesis Tools,Wouter O Schotborgh,Maarten H L Roring,Roxana Grigoras,Frans G M Kokkeler,Hans Tragter,Fred J A M van Houten
+DETC2007-34597,Curve Shape Modification and Fairness Evaluation,Tetsuzo Kuragano,Akira Yamaguchi
+DETC2012-70639,Objective-Oriented Sequential Sampling for Simulation Based Robust Design Considering Multiple Sources of Uncertainty,Paul D Arendt,Daniel W Apley,Wei Chen
+DETC2002-34098,Knowledge Intensive Support for Product Family Design,Xuan F Zha,Wen F Lu
+DETC2006-99496,Development of Distributed Computing Framework for Parallel Multi-Disciplinary Optimization,Chan Yu,Nan Liu,Kishore Pochiraju,Souran Manoochehri,K H Ko
+DETC2006-99380,Determine Mesh Orientation by Voxel-Based Principal Component Analysis,Basavaraj Tonshal,Yifan Chen,Pietro Buttolo
+DETC2006-99349,Simultaneous Geometry Optimization and Material Selection for Truss Structures,Sourav Rakshit,G K Ananthasuresh
+DETC2012-70470,Lighting Optimization for Sustainable Building Design Considering User Productivity,Joseph R Piacenza,Irem Y Tumer,Christopher Hoyle
+DETC2002-34034,Design Decision-Making in the Early Stages of Collaborative Engineering,I Kimura,KH Grote
+DETC2008-50029,A Deterministic Lagrangian-Based Global Optimization Approach for Large Scale Decomposable Problems,Aida Khajavirad,Jeremy J Michalek
+DETC2008-49236,A Structure-Based Approach to Mearsuring Adaptability of Product Design,X Y Shao,Q Cheng,G J Zhang,P G Li,P H Gu
+DETC2010-28492,A Port-Based Agent Approach to Guiding Concept Generation for Customizing Modular Varieties,Dongxing Cao,Karthik Ramani,Ming Wang Fu,Runli Zhang
+DETC2004-57048,An Efficient Feasibility Robust Optimization Method Using a Sensitivity Region Concept,S Gunawan,S Azarm
+DETC2012-70484,Safety Design Evaluation of Motorcycle Helmet for Oblique Impact,Iman Ebrahimi,Farid Golnaraghi,Gary Wang,Ali Madani,David Yin,Jun Lu,Alexandrea Chor,Combiz Jelveh
+DETC2006-99651,Verve: A General Purpose Open Source Reinforcement Learning Toolkit,Tyler Streeter,James Oliver,Adrian Sannier
+DETC2006-99220,Stereolithography Mock-Up With Internal Camera for Automatic Usability Data Acquisition and Functional Simulation,Tamotsu Murakami,Michiki Nakano
+DETC2011-48404,Identifying Product Scaling Principles: A Tool for Bioinspired Design and Beyond,Angel G Perez,Julie S Linsey
+DETC2004-57360,Purely Declarative Feature-Based Design With Feature Type Property Maintenance,Dhaval Lokagariwar,Bernhard Bettig
+DETC2009-87045,Supporting Trade Space Exploration of Multi-Dimensional Data With Interactive Multi-Scale Nested Clustering and Aggregation,Xiaolong Luke Zhang,Timothy W Simpson,Mary Frecker,George Lesieutre
+DETC2009-86882,Simulation and Optimization of the Water-Jet Cleaning Process,Adarsh Krishnamurthy,Wei Li,Sara McMains
+DETC2007-35385,Decision Making and Constraint Tradeoff Visualization for Design Under Uncertainty,Sirisha Rangavajhala,Achille Messac
+DETC2011-48323,Microstructure Reconstruction for Stochastic Multiscale Material Design,Yu Liu,M Steven Greene,Wei Chen,Dmitriy A Dikin,Wing Kam Liu
+DETC2005-85605,Structural Topology Optimization Under Design-Dependent Loads,Bin Zheng,Hae Chang Gea
+DETC2012-70832,Selecting and Optimizing a Regulation Compliant Robust Vehicle Portfolio Mix: An Approach and a Case Study,Anil Kumar Maddulapalli,Parameshwaran S Iyer,N R Srinivasa Raghavan
+DETC2008-49563,Topology Optimization of a MEMS Resonator Using Hybrid Fuzzy Techniques,Mohamed S Senousy,Hesham A Hegazi,Sayed M Metwalli
+DETC2003-48707,An Approach to Robust Multiattribute Concept Selection,Ashwin P Gurnani,TungKing See,Kemper Lewis
+DETC2005-85290,Design of Functionally Graded Structures for Enhanced Thermal Behavior,Vincent Y Blouin,Martin Oschwald,Yuna Hu,Georges M Fadel
+DETC2010-29032,A Method for Supporting Service Design Based on Multiple Domain Knowledge,Kazuhiro Oki,Kentaro Watanabe,Ryosuke Chiba,Yoshiki Shimomura
+DETC2011-48749,Granularity Enhancement of Extracted Preferential Probabilities From Design Team Discussion,Haifeng Ji,Tomonori Honda,Maria C Yang
+DETC2009-87368,Design Language for Airplane Geometries Using the Unified Modeling Language,Daniel Bohnke,Axel Reichwein,Stephan Rudolph
+DETC2010-28767,A Simulation-Based Robust Concept Exploration Method,Markus Rippel,SeungKyum Choi,Farrokh Mistree,Janet Allen
+DETC2012-71209,Designing Products for Optimal Collaborative Performance With Application to Engineering-Based Poverty Alleviation,Nicholas S Wasley,Patrick K Lewis,Christopher A Mattson
+DETC2012-70247,Hybrid Manufacturing System Modeling and Development,Jacquelyn K S Nagel,Frank W Liou
+DETC2009-87279,Ensemble of Meta-Models Based on Local Error Measure Using Cross-Validation,Dohyun Park,Yongbin Lee,DongHoon Choi
+DETC2007-34636,Application of Interactive Deformation to Assembled Mesh Models for CAE Analysis,Hiroshi Masuda,Kenta Ogawa
+DETC2004-57471,The Performance Moment Integration Method for Reliability-Based Robust Design Optimization,Byeng D Youn,Kyung K Choi
+DETC2008-49356,Decision Support for Strategic Redesign,Matthew K Chamberlain,Janet K Allen,Farrokh Mistree
+DETC2003-48793,Strengthening of Bone Cement by Shape Optimization of Short Fibers,Yan Zhou,Chaodi Li,John E Renaud,James J Mason
+DETC2008-49560,A Multiscale Design Approach With Random Field Representation of Material Uncertainty,Wei Chen,Xiaolei Yin,Sanghon Lee,Wing Kam Liu,M F Horstemeyer
+DETC2008-49799,Design Achievement Model for Planning Creative and Concurrent Design Process,Yutaka Nomaguchi,Daisuke Tsutsumi,Kikuo Fujita
+DETC2007-35171,Quasi-Optimal Mesh Segmentation Via Region Growing/Merging,Tomohiro Mizoguchi,Hiroaki Date,Satoshi Kanai,Takeshi Kishinami
+DETC2002-34053,A Study on Optimum Topology of Plate Structure Using Coordinate Transformation by Conformal Mapping,Satoshi Kitayama,Hiroshi Yamakawa
+DETC2005-84812,Manufacturing Investment and Allocation in Product Line Design Decision-Making,Jeremy J Michalek,Oben Ceryan,Panos Y Papalambros,Yoram Koren
+DETC2005-85245,Design Optimization by Integration of Evolutionary Search and Cumulative Approximation,Kikuo Fujita,Tomoki Ushiro,Noriyasu Hirokawa
+DETC2003-48749,A Knowledge-Supported System for Engineering Change Impact Analysis,Sha Ma,Bin Song,Wen Feng Lu,Cheng Feng Zhu
+DETC2006-99151,Growth Design Modeling,Kezheng Huang
+DETC2011-48060,Platform Strategy for Product Family Design Using Particle Swarm Optimization,Seung Ki Moon,KyoungJong Park,Timothy W Simpson
+DETC2009-86784,A Design Method for Developing a Universal Product Family in a Dynamic Market Environment,Seung Ki Moon,Daniel A McAdams
+DETC2003-48727,Extracting Freeform Shape Information by Template Fitting,Y Song,J S M Vergeest,R Dumitrescu,T Wiegers,C Wang
+DETC2002-34119,Architectural Optimisation Using Real Options Theory and Dependency Structure Matrices,David M Sharman,Ali A Yassine,Paul Carlile
+DETC2007-35742,Process Platform Formation for Product Families,Roger Jianxin Jiao,Linda Lianfeng Zhang
+DETC2002-34085,Control, Design and Error Variables in Decomposition of Design Optimization Problems,Jose Martinez Escanaverino,Jose A Llamos Soriz,Alejandra Garcia Toll,Tania Ortiz Cardenas
+DETC2009-86183,A Filter-Based Sample Average SQP for Optimization Problems With Highly Nonlinear Probabilistic Constraints,KueiYuan Chan,KaiHsuan Hsu
+DETC2005-85686,Integrated Feature Modeller for Certain Manufacturing Processes,C Jebaraj,D Kingsly Jeba Singh
+DETC2006-99423,An Improved Genetic Algorithm for the Optimization of Composite Structures,Vladimir Gantovnik,Georges Fadel,Zafer Gurdal
+DETC2011-48314,Resilience-Driven System Design of Complex Engineered Systems,Byeng D Youn,Chao Hu,Pingfeng Wang
+DETC2010-28778,Strategic Product Design Decisions for Uncertain Market Systems Using an Agent Based Approach,Z Wang,S Azarm,P K Kannan
+DETC2005-84984,A Methodology to Manage Uncertainty During System-Level Conceptual Design,Jay D Martin,Timothy W Simpson
+DETC2005-84761,A Topology Optimization Problem in Control of Structures Using Modal Disparity,Alejandro Diaz,Ranjan Mukherjee
+DETC2009-87118,Analysis of Product Flexibility for Future Evolution Based on Design Guidelines and a High-Definition Design Structure Matrix,Andrew H Tilstra,Carolyn C Seepersad,Kristin L Wood
+DETC2007-35465,Conservative Estimation of Reliability With Limited Sampling,Victor Picheny,NamHo Kim,Raphael T Haftka
+DETC2005-84414,Evaluation of Modular Design Concepts of Complex Mechatronic Systems,Peter Hehenberger,Klaus Zeman
+DETC2012-70967,Interactive UAS Path Planning Using Particle Swarm Optimization and Flight Mechanics,Joseph Holub,Jung Leng Foo,Eliot Winer
+DETC2003-48807,On Design of Electro-Thermally Compliant MEMS for Strength,Rajat Saxena,Anupam Saxena
+DETC2007-34926,Bayesian Analysis of Adaptive One-Factor-At-A-Time Experimentation,Hungjen Wang,Daniel D Frey,Gordon M Kaufman
+DETC2002-34130,Visualization of Multidimensional Design and Optimization Data Using Cloud Visualization,John Eddy,Kemper E Lewis
+DETC2005-85486,A Study of Factor Effects in Data From Factorial Experiments,Xiang Li,Daniel D Frey
+DETC2007-34588,A Graph Grammar Approach to Generate Neural Network Topologies,Chaitanya Vempati,Matthew I Campbell
+DETC2010-28818,Development of Game Theoretic Protocols for Multilevel Design,Ayan Sinha,Janet K Allen,Farrokh Mistree
+DETC2010-28828,Updating Predictive Models: Calibration, Bias Correction, and Identifiability,Paul D Arendt,Wei Chen,Daniel W Apley
+DETC2012-70582,Finite Element Synthesis for Design Optimization,Mahmoud R Saad,Sayed M Metwalli
+DETC2008-50038,Enhanced Collaborative Optimization: A Decomposition-Based Method for Multidisciplinary Design,Brian D Roth
+DETC2007-35517,Reliable Space Pursuing for RBDO With Black-Box Performance Functions,S Shan,G Gary Wang
+DETC2010-28689,Investigating the Significance of 'One-to-Many' Mappings in Multiobjective Optimization,Peter Simov,Scott Ferguson
+DETC2004-57091,Derivation of Design Guidelines for Miniature Machine Tools,Nozomu Mishima
+DETC2010-28130,System RBDO With Correlated Variables Using Probabilistic Re-Analysis and Local Metamodels,Ramon C Kuczera,Zissimos P Mourelatos,Efstratios Nikolaidis
+DETC2011-47094,Return on Investment Analysis for Implementing Barriers to Reverse Engineering,Darren C Knight,Christopher A Mattson
+DETC2005-84489,An Adaptive Sequential Linear Programming Algorithm for Optimal Design Problems With Probabilistic Constraints,KueiYuan Chan,Steven J Skerlos,Panos Y Papalambros
+DETC2010-29085,A Hybrid Biomimetic Genetic Algorithm Using a Local Fuzzy Simplex Search,George S Ladkany,Mohamed B Trabia
+DETC2002-34096,A Quantitative Approach for Designing Multiple Product Platforms for an Evolving Portfolio of Products,Carolun Conner Seepersad,Farrokh Mistree,Janet K Allen
+DETC2003-48716,Non-Gradient Based Parameter Sensitivity Estimation for Robust Design Optimization,S Gunawan,S Azarm
+DETC2003-48777,A New Approach to Minimisations for Shape Control During Free-Form Surface Deformation,JeanPhilippe Pernot,Stephane Guillet,JeanClaude Leon,Bianca Facidieno,Franca Giannini
+DETC2010-28095,Subfunctions as Parts of Functions: Some Formal Problems,Pieter E Vermaas
+DETC2010-28242,Modular Product Configuration: An Automatic Tool for Eliciting Design Knowledge From Parametric CAD Models,Roberto Raffaeli,Paolo Cicconi,Maura Mengoni,Michele Germani
+DETC2009-86973,On the Application of Multi-Objective Parallel Asynchronous Particle Swarm Optimization to Engineering Design Problems,Robin McDougall,Scott Nokleby
+DETC2005-85342,Pipe Route Design Using Variable Topography Distance Transforms,Hlynur Kristinsson,Magnus Thor Jonsson,Fjola Jonsdottir
+DETC2004-57212,A Parametric Approach to Vehicle Seating Buck Design,Nanxin Wang,Jian Wan,Gianna GomezLevi
+DETC2012-71530,Design of Origami Sheets for Foldable Object Fabrication,Yong Chen,Dongping Deng
+DETC2006-99268,A Comprehensive Metric for Evaluating Component Commonality in a Product Family,Henri J Thevenot,Timothy W Simpson
+DETC2004-57522,Development of a J2EE Web Application for STEP-Based Design Conformance Checking,Q Z Yang,W F Lu
+DETC2010-28261,Robustness Analysis of Airfoil Performance,David Lindstrom
+DETC2003-48806,On Honeycomb Parameterization for Topology Optimization of Compliant Mechanisms,Rajat Saxena,Anupam Saxena
+DETC2003-48796,Optimal Troubleshooting for Electro-Mechanical Systems,Robert Paasch,Parthsarathy Durgi
+DETC2008-49439,Evolutive Design of Car Silhouettes,Bernard Yannou,Markus Dihlmann,Roy Awedikian
+DETC2012-71108,Plant-Limited Co-Design of an Energy-Efficient Counterbalanced Robotic Manipulator,James T Allison
+DETC2010-28856,Topology Optimization of Piezoelectric Energy Harvesting Devices Subjected to Stochastic Excitation,Zheqi Lin,Hae Chang Gea,Shutian Liu
+DETC2003-48726,Toward Automatic Process Planning of a Multi-Axis Hybrid Laser Aided Manufacturing System: Skeleton-Based Offset Edge Generation,Kunnayut Eiamsaard,F W Liou,Robert G Landers,Howie Choset
+DETC2012-70468,An Approach for Revealed Consumer Preferences for Technology Products: A Case Study of Residential Solar Panels,Heidi Q Chen,Tomonori Honda,Maria C Yang
+DETC2011-48316,Design Preference Elicitation Using Efficient Global Optimization,Yi Ren,Panos Y Papalambros
+DETC2003-48797,Optimization for Mass Variation of System Including Shock Absorber,Reiko Koganei,Kenichi Maemori
+DETC2011-48227,A Rational Design Approach to Gaussian Process Modeling for Variable Fidelity Models,Roxanne A Moore,David A Romero,Christiaan J J Paredis
+DETC2004-57061,Freeform Feature Retrieval by Signal Processing,Chensheng Wang,Joris S M Vergeest,Pieter J Stappers,Willem F Bronsvoort
+DETC2006-99544,Enhanced Convergence in Distributed Design Processes,Jayaram Gopalakrishnan,Tarunraj Singh,Kemper Lewis
+DETC2007-34520,Q2S2: Merging Qualitative Information in Sequential DOE,Rahul Rai,Matthew I Campbell
+DETC2008-49447,Contact Analysis Between a Moving Solid and the Boundary of Its Swept Volume,Huseyin Erdim,Horea T Ilies
+DETC2002-34146,A Scheme for Transformation of Tolerance Specifications to Generalized Deviation Space for Use in Tolerance Synthesis and Analysis,H Wang,NPramanik,U Roy,R Sudarsan,R D Sriram,K W Lyong
+DETC2003-48815,Suggesting Joint Limitations and Physical Parameters for Motion Generating 3 DOF Planar Chains,Lauren S Perry,Andrew P Murray
+DETC2012-70290,Optimization of Wind Farm Layout and Wind Turbine Geometry Using a Multi-Level Extended Pattern Search Algorithm That Accounts for Variation in Wind Shear Profile Shape,Bryony L DuPont,Jonathan Cagan,Patrick Moriarty
+DETC2005-85348,Heuristic Gradient Projection for 3D Space Frame Optimization,Maged R Abd El Malek,Mohamed S Senousy,Hesham A Hegazi,Sayed M Metwalli
+DETC2002-34149,An Evolutionary Multi-Objective Optimization Approach to the Topology Optimization of Auxetic Structures,Ashraf O Nassef
+DETC2002-34079,Multiattribute Decision Making Using Hypothetical Equivalents,TungKing See,Kemper Lewis
+DETC2003-48717,Product Platform Design and Optimization: Status and Promise,Timothy W Simpson
+DETC2009-86236,Variation Analysis of Position, Velocity, and Acceleration of Two-Dimensional Mechanisms by the Direct Linearization Method,Robert C Leishman,Kenneth W Chase
+DETC2006-99360,Knowledge Model for Managing Product Variety and its Reflective Design Process,Yutaka Nomaguchi,Tomohiro Taguchi,Kikuo Fujita
+DETC2004-57458,Assessing Product Architecture Costing: Product Life-Cycles, Allocation Rules, and Cost Models,Sebastian K Fixson
+DETC2006-99469,A Method to Improve Platform Leveraging in a Market Segmentation Grid for an Existing Product Line,Ronald S Farrell,Timothy W Simpson
+DETC2012-71497,Topology Optimization of Blank Geometry for the Sheet Forming Process,Saber DorMohammadi,Mohammad Rouhi,Masoud RaisRohani
+DETC2005-85335,An Inductive Design Exploration Method for the Integrated Design of Multi-Scale Materials and Products,HaeJin Choi,Janet K Allen,David Rosen,David L McDowell,Farrokh Mistree
+DETC2010-28849,Ball Bearing Fatigue and Wear Life Optimization Using Elastohydrodynamic and Genetic Algorithm,Mohamed H Abbas,Ayman M A Youssef,Sayed M Metwalli
+DETC2012-70806,A Hybrid Inference Approach for Health Diagnostics With Unexampled Faulty States,Prasanna Tamilselvan,Pingfeng Wang
+DETC2012-71015,Optimal Process Architectures for Distributed Design Using a Social Network Model,Peter Cormier,Erich Devendorf,Kemper Lewis
+DETC2006-99748,Optimization of Chemical Vapor Deposition Process,Pradeep George,Hae Chang Gea,Yogesh Jaluria
+DETC2006-99331,Developement of Evaluation System for Style Design Using Mixed Reality Technology,Yu Kimishima,Hideki Aoyama
+DETC2010-28528,Reconfigurable Products and Their Means of Reconfiguration,Jillian Haldaman,Matthew B Parkinson
+DETC2004-57442,A Benchmark Comparison of CAD 5-Axis Machining Packages,Zhenyu Cheng,Robert Cheatham,Jianguo Wang,C Creg Jensen,Yifan Chen,Brian Bowman
+DETC2002-34071,Determination of Geometric Distortions in Automotive Lamps Using Non-Linear Parametric Estimations,Asad A Usman,Mohammad Usman
+DETC2005-84543,Organizational Applications of Failure Knowledge Management,Masahiro Terabe,Naohiro Yabuta,Jun Kawai,Takeo Ohashi,Masayuki Nakao
+DETC2012-70867,Metamodel Based Design Automation: Applied on Multidisciplinary Design Optimization of Industrial Robots,Mehdi Tarkian,Bhanoday Vemula,Johan Olvander,Xiaolong Feng
+DETC2008-49483,Modeling Variability in Torso Shape for Chair and Seat Design,Matthew P Reed,Matthew B Parkinson
+DETC2010-28788,Constraint Management of Reduced Representation Variables in Decomposition-Based Design Optimization,Michael J Alexander,James T Allison,Panos Y Papalambros,David J Gorsich
+DETC2011-47625,An Early-Stage Tool to Evaluate the Product Redesign Impact,Roberto Raffaeli,Maura Mengoni,Michele Germani
+DETC2008-49561,Optimal Experimental Design of Human Appraisals for Modeling Consumer Preferences in Engineering Design,Wei Chen,Christopher Hoyle,Bruce Ankenman,Nanxin Wang
+DETC2011-48393,Evaluating Genetic Algorithms on Welding Sequence Optimization With Respect to Dimensional Variation and Cycle Time,Johan Segeborn,Johan S Carlson,Kristina Warmefjord,Rikard Soderberg
+DETC2003-48762,A Study on the Use of Kriging Models to Approximate Deterministic Computer Models,Jay D Martin,Timothy W Simpson
+DETC2007-35483,Representation and Analysis Challenges in Design for Part Re-Use: an Automotive Case Study,Hallie J Kintner
+DETC2008-49187,An Improved Initial Population Strategy for Compliant Mechanism Designs Using Evolutionary Optimization,Deepak Sharma,Kalyanmoy Deb,N N Kishore
+DETC2008-49727,Finite Element Model Updating Approach to Damage Identification in Beams Using Particle Swarm Optimization,Ashraf O Nassef,Mustafa H Arafa,Mohamed M Saada
+DETC2004-57300,On the Use of Kriging Models to Approximate Deterministic Computer Models,Jay D Martin,Timothy W Simpson
+DETC2003-48715,Robust Design Using Preference Aggregation Methods,Zhihuang Dai,Michael J Scott,Zissimos P Mourelatos
+DETC2003-48757,Computer Model Validation in Vehicle Crash Safety Design,Lei Gu,R J Yang
+DETC2008-50105,A Subdivision Scheme for Discrete Motion Generation and Swept Volume Analysis,Carlos A Trujillo,Qiaode Jeffrey Ge
+DETC2009-87217,A Design Exploration Method for Adaptive Design Systems,Chenjie Wang,Vivek Krishnamurthy,Benjamin Klein,SeungKyum Choi,Janet K Allen,Farrokh Mistree
+DETC2005-84330,Methodology to Reach Optimal Design of CHP Plants,ManuelAngel GonzalezChapa,JoseRamon VegaGalaz
+DETC2002-34110,Parameter Sensitivity in System Identification of Parallel Mechanisms,Gloria J Wiens
+DETC2002-34075,A Stochastic Optimization Application for Vehicle Structures,Yan Fu,Steve C Wang,Urmila M Diwekar,Kemal H Sahin
+DETC2012-70583,A Local-Diffusion Genetic Algorithm for Disjoint Pareto-Optimal Problems With Application to Vehicle Suspension,Mohamed F Aly,Ashraf O Nassef,Karim Hamza
+DETC2012-70345,Simulation-Based Design of Wind-Turbine Sealing Solutions Using a Systematic Approach to Robust Concept Exploration,Frank Schonberg,Matthias Messer
+DETC2005-84794,Design of an Automobile Seat With Regulations Using Axiomatic Design,M M Shin,B S Kang,Y I Kim,S I Yi,G J Park
+DETC2007-34507,Recommending a Platform Leveraging Strategy Based on the Homogeneous or Heterogeneous Nature of a Product Line,Fabrice Alizon,Steven B Shooter,Timothy W Simpson
+DETC2008-49479,Optimization of Engine Torque Management Under Uncertainty for Vehicle Driveline Clunk Using Time-Dependent Metamodels,Daniel Wehrwein,Zissimos P Mourelatos
+DETC2004-57066,Covariance Modeling Method for Use in Compliant Assembly Tolerance Analysis,Michael R Tonks,Ken W Chase
+DETC2006-99566,Crashworthiness Design Using a Hybrid Cellular Automation Algorithm,Neal M Patel,ByungSoo Kang,John E Renaud
+DETC2012-70235,Design of Mechanical Structures Considering Harmonic Loads Using Level Set-Based Topology Optimization,Takayuki Yamada,Toshiro Matsumoto,Shinji Nishiwaki
+DETC2006-99749,Topology Optimization Considering Gravitational and Centrifugal Forces,Bin Zheng,Hae Chang Gea
+DETC2003-48739,A Study of Geometric Error Measurement of CNC Machine Tools Using the Improved Planar Encoder System,WenYuh Jywe,ChienHong Liu
+DETC2002-34142,Uncertainty Analysis Using a Constraint Reliability Index,Ramesh Lakshmipathy,Sundar Krishnamurty
+DETC2007-35409,Measurement of Headlight Form Preference Using a Choice Based Conjoint Analysis,Surya Swamy,Seth Orsborn,Jeremy Michalek,Jonathan Cagan
+DETC2004-57350,Transient Root Cause Analysis: A Model-Based Systems Engineering Methodology,Trevor Bailey,Suzanne Woll,Rajul Misra,Kevin Otto
+DETC2004-57244,A Survey of the Study of Failure,Kenji Iino,Yotaro Hatamura
+DETC2002-34074,Local Least Squares Fitting for Surface Mesh Fairing in Automobile Panel Design,Miguel Vieira,Kenji Shimada,Tomotake Furuhata
+DETC2007-34582,Interval Reliability Analysis,Xiaoping Du
+DETC2012-71166,Optimization-Based Prediction of Aiming and Kneeling Military Tasks Performed by a Soldier,Mahdiar Hariri,Jasbir Arora,Karim AbdelMalek
+DETC2007-34727,A Framework for Collaborative Top-Down Assembly Design,Zhang Shuting,Chen Xiang,Gao Shuming,Yang Youdong
+DETC2003-48785,Design Space Visualization and Its Application to a Design by Shopping Paradigm,Gary M Stump,Mike Yukish,Timothy W Simpson,E Nathan Harris
+DETC2002-34099,Platform Selection Under Performance Loss Constraints in Optimal Design of Product Families,Ryan Fellini,Michael Kokkolaras,Panos Y Papalambros,Alexis PerezDuarte
+DETC2005-84079,Knowledge Based Design Method for Fibre Metal Laminate Fuselage Panels,B Vermeulen,M J L van Tooren,L J B Peeters
+DETC2002-34048,An Evolutionary Clustering Approach to Pareto Solutions in Multiobjective Optimization,Min Joong Jeong,Sinobu Yoshimura
+DETC2003-48705,A Cross-Evaluation Matrix (CEM) Rating Based Approach to Pareto Efficient Frontier and Design Alternatives Enumeration,Anand Krishnamurthy,Sundar Krishnamurthy
+DETC2007-35580,Preference Inconsistency in Multidisciplinary Design Decision Making,Erin MacDonald,Richard Gonzalez,Panos Papalambros
+DETC2004-57463,Two-Level Approximation Method for Reliability Based Design Optimization,Kunjal Oza,Hae Chang Gea
+DETC2008-49604,Interval Extensions of Signed Distance Functions: Uniform Samplings and the Range of Associated Implicit Objects,Duane Storti,Mark Ganter
+DETC2002-34038,Autogenetic Design Theory: An Approach to Optimise Both the Design Process and the Product,Sandor Vajna,Steffen Clement,Andre Jordan
+DETC2008-49524,A Hybrid Models Deformation Tool for Free-Form Shapes Manipulation,JP Pernot,B Falcidieno,F Giannini,JC Leon
+DETC2005-84425,Modeling of Non-Linear Relations Among Different Design Evaluation Measures for Multi-Objective Design Optimization,H Yang,D Xue,Y L Tu
+DETC2002-34148,Optimal Embedding in Topology Design of Structures,Zhongyan Qian,G K Ananthasuresh
+DETC2005-84905,Multi-Objective Design Optimization for Product Platform and Product Family Design Using Genetic Algorithms,Satish V Akundi,Timothy W Simpson,Patrick M Reed
+DETC2006-99133,Applying the Mahalanobis-Taguchi System to Vehicle Handling,Elizabeth A Cudney,Kioumars Paryani,Kenneth M Ragsdell
+DETC2008-49143,A Pareto Approach to Aligning Public and Private Objectives in Vehicle Design,Bart Frischknecht,Panos Papalambros
+DETC2004-57464,Product Platform Design Through Sensitivity Analysis and Cluster Analysis,Zhihuang Dai,Michael J Scott
+DETC2011-47960,Optimal Hybridization of Battery, Engine and Motor for PHEV20,Shashi K Shahi,G Gary Wang,Liqiang An,Eric Bibeau
+DETC2010-28887,Combined Plant and Controller Design Using Decomposition-Based Design Optimization and the Minimum Principle,James T Allison,Sam Nazari
+DETC2005-84454,A Review of Software Solutions for the Management of New Product Development and Product Family Planning,Bethany M Byron,Steven B Shooter
+DETC2010-28662,Product Family Deployment Through Optimal Resource Allocation Under Market System,Ryota Akai,Hirofumi Amaya,Kikuo Fujita
+DETC2010-28390,User Interface Design for Interactive Product Family Analysis and Variants Derivation,Ying Liu,Soon Chong Johnson Lim,Han Tong Loh
+DETC2011-47819,Simultaneous Requirement and Design Optimization of an Industrial Robot Family Using Multi-Objective Optimization,Daniel Wappling,Xiaolong Feng,Hans Andersson,Marcus Pettersson,Bjorn Lunden,Jakob Westrom
+DETC2006-99572,Visual Representations as an Aid to Concept Generation,Vivek Attaluri,Daniel A McAdams,Robert B Stone,Andrea De Crescenzo
+DETC2003-48742,A Methodology for the Study of the Effects of Communication Method on Design Review Effectiveness,Karen J Ostergaard,William Wetmore,Joshua D Summers
+DETC2003-48733,Structural Topology Design Optimization for Controlled Crash Behavior,Ciro A Soto
+DETC2002-34139,H-ISM: An Implementation of Heterogeneous Implicit Solid Modeling,Justin Wahlborg,Mark A Ganter,Daniel T Schwartz,Duane Storti
+DETC2007-34157,Optimization of a Vehicle Space Frame Under Ballistic Impact Loading,Umakanth Sakaray,Mohamed B Trabia,Brendan J OToole,Jagadeep Thota
+DETC2008-50081,A General Approach to Robustness Assessment for Multidisciplinary Systems,Xiaoping Du,Yi Zhang
+DETC2009-86503,Automatic Virtual Entity Simulation of the Symbolic Schemes Generated in Conceptual Design Processes,YuXin Wang,YuTong Li
+DETC2007-35637,Evaluation Method of Drinking Ease for Aluminum Beverage Bottles,Koetsu Yamazaki,Takanori Chihara,Ryoichi Itoh,Jing Han,Sadao Nishiyama
+DETC2003-48795,Design Sensitivity Analysis of Nonlinear Shell Structure With Frictionless Contact,Kyung K Choi,Kiyoung Yi,Nam H Kim,Mark E Botkin
+DETC2002-34094,Modeling of Slope Discontinuities in Flexible Body Dynamics Using the Finite Element Method,Ahmed A Shabana,Aki M Mikkola
+DETC2012-70783,Integrated Optimization of a Solar-Powered Humidification-Dehumidification Desalination System for Small Communities,Mohamed ElMorsi,Karim Hamza,Ashraf O Nassef,Sayed Metwalli,Kazuhiro Saitou
+DETC2004-57327,Robustness and Performance Optimization of Engine Bearing System Using Computer Model and Surrogate Noise,Mikhail Ejakov,Agus Sudjianto,John Pieprzak
+DETC2005-84240,A Web-Enabled Engineering Object Modeling Environment to Support Interoperability and Intelligent Services in Collaborative Design,Q Z Yang,W F Lu
+DETC2003-48743,Development of Knowledge Based System to Facilitate Design of On-Board Car Safety Systems,Walid Ben Ahmed,Michel Bigand,Mounib Mekhilef,Yves Page
+DETC2010-28597,Reliability-Based Design Optimization With Confidence Level for Non-Gaussian Distributions Using Bootstrap Method,Yoojeong Noh,Kyung K Choi,Ikjin Lee,David Gorsich
+DETC2004-57336,Moment Matching for Sensitivity Analysis of Probabilistic Model Output,Mahmoud Awad,Agus Sudjianto,Nanua Singh
+DETC2008-49438,Identifying Feature Handles of Freeform Shapes,Yu Song,Joris S M Vergeest,Tjamme Wiegers
+DETC2003-48709,Reliability-Based Design With the Mixture of Random and Interval Variables,Xiaoping Du,Agus Sudjianto
+DETC2005-84542,Analyzing Accidents of Jamming Body Parts in Doors,Yotaro Hatamura,Masumi Sekita
+DETC2006-99237,Numerical Methods for Propagating Imprecise Uncertainty,Morgan Bruns,Christiaan J J Paredis
+DETC2006-99612,Parametric and Topological Control in Shape Optimization,Jiaqin Chen,Vadim Shapiro,Krishnan Suresh,Igor Tsukanov
+DETC2004-57475,Segmentation of Noisy Laser-Scanner Generated Meshes With Piecewise Polynomial Approximations,Miguel Vieira,Kenji Shimada
+DETC2007-35179,Design for Product Adaptability,Y Li,D Xue,P Gu
+DETC2011-47538,Adaptive Virtual Support Vector Machine for the Reliability Analysis of High-Dimensional Problems,Hyeongjin Song,K K Choi,Ikjin Lee,Liang Zhao,David Lamb
+DETC2004-57467,A Full Parametric Model for Turbomachinery Blade Design and Optimisation,Jurgen Grasel,Akin Keskin,Marius Swoboda,Hans Przewozny,Andre Saxer
+DETC2004-57174,Identifying and Tracking Features in Freeform Shape,Y Song,J S M Vergeest,C Wang
+DETC2012-70560,Probabilistic Approach for Digital Human Kinematic and Dynamic Reliabilities,Jared Gragg,Jingzhou James Yang,Guolai Yang
+DETC2002-34050,Automatic Conceptual Design of Mechanical Devices Based on Reasoning the Design Rules,YuXin Wang,Lijun Wang
+DETC2010-28591,Sampling-Based Stochastic Sensitivity Analysis Using Score Functions for RBDO Problems With Correlated Random Variables,Ikjin Lee,Kyung K Choi,Yoojeong Noh,Liang Zhao,David Gorsich
+DETC2004-57302,A New Approach for Simultaneous Shape and Topology Optimization Based on Implicit Topology Description Functions,Xu Guo,Kang Zhao,Michael Yu Wang
+DETC2003-48786,Design Process Error-Proofing: Development of Automated Error-Proofing Information Systems,Lawrence P Chao,Kosuke Ishii
+DETC2008-50073,Establishing Correspondence Between Value Functions Used in Market-Based Engineering Design,Luke A Wissmann,Joseph A Donndelinger
+DETC2006-99289,Towards a Suite of Problems for Comparison of Product Platform Design Methods: A Proposed Classification,Michael J Scott,Juan Carlos Garcia Arenillas,Timothy W Simpson,Somasundaram Valliyappan,Venkat Allada
+DETC2012-71046,Trajectory Estimation of Human Mass Center Based on an Inertia Identification Approach,Wenwu Xiu,Qi Lu,Ou Ma
+DETC2010-28942,Using Level Set Method in Order to Design Structures Against Buckling,Alireza Kasaiezadeh,Amir Khajepour,Hamid Jahed
+DETC2008-49904,Towards Rules for Functional Composition,Benjamin W Caldwell,Gregory M Mocko
+DETC2012-71123,Incorporating Social Impact on New Product Adoption in Choice Modeling: A Case Study in Green Vehicles,Lin He,Wei Chen
+DETC2005-84495,Reliability Assessment Based on the Concept of Failure Surface Frontier,Songqing Shan,G Gary Wang
+DETC2009-86292,Topology Optimization of Non-Linear Elastic Structures by Using SLP,Niclas Stromberg
+DETC2002-34057,Dual Stage Input Coupled Split Power Transmission Efficiency Optimization,Doug Fussner,Yesh P Singh
+DETC2010-28411,An Efficient Tradeoff Approach for Topology Optimization With Manufacturing Constraints,Niclas Stromberg
+DETC2007-34685,Pre-Programmed Failure Behavior Using Biology-Inspired Structures,Brian Bay,Mike Bailey
+DETC2003-48814,Approximate Motion Synthesis of Open and Closed Chains via Parametric Constraint Manifold Fitting: Preliminary Results,Pierre M Larochelle
+DETC2012-71305,Coordination of Product Design Process in View of Product and Organizational Structures,Kazuya Oizumi,Kazuhiro Aoyama
+DETC2009-86940,Topology Optimization of Piezoelectric Energy Harvesting Strap Buckle,Bin Zheng,HongZhong Huang,Hae Chang Gea
+DETC2003-48813,Kinematic Synthesis of RPS Serial Chains,HaiJun Su,J Michael McCarthy
+DETC2009-87482,Development of a Changeable Airfoil Optimization Model for Use in the Multidisciplinary Design of Unmanned Aerial Vehicles,Scott Ferguson,Andrew H Tilstra,Carolyn C Seepersad,Kristin L Wood
+DETC2009-87278,A Regularized Inexact Penalty Decomposition Algorithm for Multidisciplinary Design Optimization Problem With Complementarity Constraints,Shen Lu,Harrison M Kim
+DETC2008-50091,Predicting 5th and 95th Percentile Anthropometric Segment Lengths From Population Stature,Robert C Fromuth,Matthew B Parkinson
+DETC2012-70131,A Reliability Approach to Inverse Simulation Under Uncertainty,Xiaoping Du
+DETC2011-48790,Shear Compliant Hexagonal Cellular Solids With a Shape Memory Alloy,Jaehyung Ju,Joshua D Summers
+DETC2009-86703,Comparison Study Between Probabilistic and Possibilistic Approach for Problems With Correlated Input and Lack of Input Statistical Information,Ikjin Lee,Kyung K Choi,Yoojeong Noh
+DETC2012-70858,Global Product Family Design: Multi-Objective Optimization and Design Concept Exploration,Kikuo Fujita,Ken Nasu,Yuma Ito,Yutaka Nomaguchi
+DETC2002-34036,Reconstructing Freeform Surface With Parameterized Features,Y Song,J S M Vergeest,I Horvath
+DETC2011-48196,Multidisciplinary Design Optimization of Modular Industrial Robots,Mehdi Tarkian,Johan Persson,Johan Olvander,Xiaolong Feng
+DETC2002-34072,Macroscopic Shape-Information as a Curve Design-Guideline,Yoshiki Ujiie,Yoshiyuki Matsuoka
+DETC2002-34104,GA-Based Multi-Objective Fuzzy Matter-Element Optimization,Yanwei Zhao,Hua Ertian,Guoxian Zhang,Fangshun Jin
+DETC2003-48745,Knowledge Management: A Concept Review,Mounib Mekhilef,Philippe Deshayes
+DETC2011-47390,Structural Optimization of Lattice Materials,Andrea Vigliotti,Damiano Pasini
+DETC2003-48747,Knowledge Intensive Collaborative Decision Support for Design Process,Xuan F Zha,Ram D Sriram,Wen F Lu
+DETC2010-28539,Risk Management in Product Design: Current State, Conceptual Model and Future Research,Josef Oehmen,Mohammad BenDaya,Warren Seering,Muhammad AlSalamah
+DETC2003-48755,Bayesian Approximation-Assisted Optimization Applied to Crashworthiness Design of a Pickup Truck,A FarhangMehr,S Azarm,A Diaz,A Ravisekar
+DETC2007-34773,Adaptive Complex Method for Efficient Design Optimization,Marcus Pettersson,Johan Olvander
+DETC2008-50054,Parametric Modeling and Optimization of Chemical Vapor Deposition Process,Po Ting Lin,Yogesh Jaluria,Hae Chang Gea
+DETC2010-28922,Additive Manufacturing Based on Multiple Calibrated Projectors and Its Mask Image Planning,Chi Zhou,Yong Chen
+DETC2005-84124,On Tolerance Information Extraction of Feature Model in Automotive Engine CAPP System,Sun Yuguo
+DETC2009-86422,Designing Product Families With Competition: A Design for Market Systems Approach,Peyman Karimian,Jeffrey W Herrmann
+DETC2008-49760,Integrating Assembly Design, Sequence Optimization, and Advanced Path Planning,Domenico Spensieri,Johan S Carlson,Robert Bohlin,Rikard Soderberg
+DETC2009-86618,Level Set-Based Topology Optimization Method for Thermal Problems Considering Design-Dependent Boundary Effects,Takayuki Yamada,Shinji Nishiwaki,Atsuro Iga,Kazuhiro Izui,Masataka Yoshimura
+DETC2003-48753,Parametric Design Sensitivity Analysis of High Frequency Structural-Acoustic Problems Using Energy Finite Element Method,Kyung K Choi,Jun Dong,Nickilas Vlahopoulos,Aimin Wang,Weiguo Zhang
+DETC2011-48582,Optimal Scheduling of Parabolic Heliostats Aim Targets in a Mini-Tower Solar Concentrator System,Karim Hamza,Umesh Gandhi,Kazuhiro Saitou
+DETC2003-48819,Analytical Determination of Principal Twists and Singular Directions in Robot Manipulators,Sandipan Bandyopadhyay,Ashitava Ghosal
+DETC2006-99281,Poisson Based Reuse of Freeform Features,Wei Zhao,Shuming Gao,Yusheng Liu
+DETC2007-34691,Automated Synthesis of MEMS Fabrication Sequence Using Graph Grammars,Saneet A Jawalkar,Matthew I Campbell
+DETC2008-49154,Exploiting the Features of ISO GPS Standards to Enhance a Knowledge-Based Method for Product Redesign and Process Reconfiguration,Ilaria Cristofolini,Stefano Filippi
+DETC2002-34116,Theoretical Evaluation of the Integrated Structure and Control Design Approach by Optimization Theory,Ke Fu,James K Mills
+DETC2007-35554,Non-Dominated Sorting Genetic Quantum Algorithm for Multi Objective Optimization,AmirR Khorsand,G Gary Wang,J Raghavan
+DETC2012-71143,Application of Bayesian Sensor Placement Optimization for Real-Time Health Monitoring,Masoud Pourali,Ali Mosleh
+DETC2002-34073,Collaborative Decision Making Across Digital Interfaces,Angran Xiao,HaeJin Choi,Janet K Allen,David W Rosen,Farrokh Mistree
+DETC2006-99581,High Accuracy Laser Scanned View Registration Method for Reverse Engineering Using a CMM Generated CAD Model,Jafar Jamshidi,Antony Roy Mileham,Geraint Wyn Owen
+DETC2012-70353,A Classifier-Guided Sampling Method for Computationally Expensive, Discrete-Variable, Discontinuous Design Problems,Peter B Backlund,David W Shahan,Carolyn C Seepersad
+DETC2003-48704,Design Under Uncertainty Using Monte Carlo Simulation and Probabilistic Sufficiency Factor,Xueyong Qu,Raphael T Haftka
+DETC2011-48919,Prospect of Design for Mass Customization and Personalization,Roger J Jiao
+DETC2008-50137,Genetic Programming of an Artificial Neural Network for Robust Control of a 2-D Path Following Robot,Anthony M Roy,Erik K Antonsson,Andrew A Shapiro
+DETC2008-50062,Direct 3D Layer Metal Deposition and Toolpath Generation,Jianzhong Ruan,Lie Tang,Todd E Sparks,Robert G Landers,Frank Liou
+DETC2004-57438,An Information Theoretical Perspective on Design Optimization,Petter Krus,Johan Andersson
+DETC2004-57576,Quantifying Profit and Loss Associated With Failure Cases,Masayuki Nakao,Naohiro Yabuta,Masahiro Terabe
+DETC2002-34150,Compliant Mechanism Design With Non-Linear Materials Using Topology Optimization,Daeyoon Jung,Hae Chang Gea
+DETC2006-99271,A Survey of Various Encoding Schemes and Associated Placement Algorithms Applied to Packing and Layout Problems,Santosh Tiwari,Georges Fadel,Vladimir Gantovnik
+DETC2010-28888,Designing a Product Package Platform,Margaret Devendorf,Kemper Lewis
+DETC2010-28645,Basic Study of Autologous-Bone-Replaceable Artificial Bone Fabrication With Porosity Distribution Using Electrolysis,Tamotsu Murakami,Yuki Hamasaki
+DETC2010-28557,Design of Chiral Honeycomb Meso-Structures for High Shear Flexure,Avinash Kolla,Jaehyung Ju,Joshua D Summers,John C Ziegert,George Fadel
+DETC2010-28554,Investigation of Design Tools as Complexity Management Techniques,Gary Palmer II,Beshoy Morkos,Joshua D Summers
+DETC2005-84818,Product Family Representation and Redesign: Increasing Commonality Using Formal Concept Analysis,Jyotirmaya Nanda,Henri J Thevenot,Timothy W Simpson
+DETC2007-34718,A Learning Algorithm for Optimal Internal Combustion Engine Calibration in Real Time,Andreas A Malikopoulos,Panos Y Papalambros,Dennis N Assanis
+DETC2008-49994,A Practical Robust and Efficient RBF Metamodel Method for Typical Engineering Problems,Xingjie Fang,Liping Wang,Don Beeson,Gene Wiggs
+DETC2005-84817,An Activity-Based Costing Method for Product Family Design in the Early Stages of Development,Jaeil Park,Timothy W Simpson
+DETC2006-99491,Surrogate Model Updating Using Clustering in a Genetic Algorithm Setup,Tiefu Shao,Sundar Krishnamurty
+DETC2006-99173,Topology and Classical Shape Optimization of a Lower Control Arm: A Case Study,Murali M R Krishna,Aaron Stange
+DETC2010-28927,Design of an Extended-Range Electric Vehicle for the EcoCAR Challenge,Kerem Bayar,Beth Bezaire,Brad Cooley,John Kruckenberg,Eric Schact,Shawn MidlamMohler,Giorgio Rizzoni
+DETC2010-28790,Multiscale Variability and Uncertainty Quantification Based on a Generalized Multiscale Markov Model,Yan Wang
+DETC2005-85097,Methodology for Market Analysis of CHP Systems,Stella Maris Oggianu,Razvan Florea,J Ricardo Munoz,Guido Poncia,Thierry Carriere,Dong Luo
+DETC2007-34957,A Monte Carlo Reliability Assessment for Multiple Failure Region Problems Using Approximate Metamodels,Ramon C Kuczera,Zissimos P Mourelatos,Michael A Latcha
+DETC2006-99609,Semantic Tolerance Modeling,Yan Wang
+DETC2005-85546,A Graph-Based Method for Mechanical Product Family Modeling and Functional Tolerancing,Haoyu Wang,Utpal Roy
+DETC2010-28488,Multi-Objective Optimization in Industrial Robotic Cell Design,Xiaolong Feng,Daniel Wappling,Hans Andersson,Johan Olvander,Mehdi Tarkian
+DETC2003-48822,Singularity Analysis of a Novel 4-DOFs Parallel Robot H4 by Using Screw Theory,HeeByoung Choi,Atsushi Konno,Masaru Uchiyama
+DETC2010-28208,Reverse Engineering for Spotting of Sheetmetal Forming Dies,Christine Schoene,Dietmar Suesse,Ralph Stelzer,Ulf Schmidt
+DETC2011-48385,On Usage Context of Hybrid Electric Vehicles in Choice Studies,Lin He,Wei Chen,Guenter Conzelmann
+DETC2004-57339,Product Design Selection With Variability in Preferences for an Implicit Value Function,K Maddulapalli,S Azarm
+DETC2010-28724,Bayesian Network Classifiers for Set-Based Collaborative Design,David Shahan,Carolyn C Seepersad
+DETC2004-57224,Parameter and Tolerance Constraints Modeling for Assembly,Jie Hu,Yonghong Peng
+DETC2005-85403,An Information Theoretical Perspective on Performance, Refinement and Cost,Petter Krus
+DETC2004-57366,Hierarchical Arrangement of Characteristics in Product Design Optimization Problems for Deeper Insight Into Optimized Results,Masataka Yoshimura,Masahiko Taniguchi,Kazuhiro Izui,Shinji Nishiwaki
+DETC2003-48719,Internet Based Framework to Perform Automated FEA on User Customized Products,Zahed Siddique,Jiju A Ninan
+DETC2007-35745,Flexible and Reconfigurable Systems: Nomenclature and Review,Scott Ferguson,Kemper Lewis,Olivier L de Weck,Afreen Siddiqi
+DETC2002-34039,Human Head Aesthetic Design Using Hybrid Genetic Algorithm,Zhi Gang Xu,Li Jiang Feng
+DETC2011-47853,Global Product Family Design: A Mathematical Model for Simultaneous Decision of Module Commonalization and Supply Chain Configuration,Kikuo Fujita,Hirofumi Amaya,Ryota Akai
+DETC2007-34299,A Concept for a Material That Softens With Frequency,Alejandro R Diaz,Jitendra Prasad
+DETC2006-99272,Vehicle Component Layout With Shape Morphing: An Initial Study,Hong Dong,Georges M Fadel,Vincent Y Blouin
+DETC2005-84927,A Methodology to Support Product Family Redesign Using Genetic Algorithm and Commonality Indices,Henri J Thevenot,Jyotirmaya Nanda,Timothy W Simpson
+DETC2006-99582,Ruled Layer Generation Between Two Freeform Curves by Normal and Distance Matching,Kuntal Samanta,Bahattin Koc
+DETC2006-99354,A Multicriteria System-Based Method for Simulation-Driven Design Synthesis,Francesca Bolognini,Kristina Shea,Christopher W Vale,Ashwin A Seshia
+DETC2012-71039,Use Scenarios for Design Space Exploration With a Dynamic Multiobjective Optimization Formulation,Shane K Curtis,Braden J Hancock,Christopher A Mattson
+DETC2005-84942,PSO Driven Genetic Range Genetic Algorithms,Masao Arakawa
+DETC2005-85431,Recognition of Interacting Turning Features for Mill/Turn Parts,Shiqiao Li,Jami J Shah
+DETC2011-47409,A Method for Designing Collaborative Products With Application to Poverty Alleviation,Jacob S Morrise,Patrick K Lewis,Christopher A Mattson,Spencer P Magleby
+DETC2008-49823,Consistency Constraint Allocation in Augmented Lagrangian Coordination,James T Allison,Panos Y Papalambros
+DETC2012-70601,Optimum Design of Columns Under Elastic Buckling,Moataz A M Abd El Gawad,Hesham A Hegazi,Sayed M Metwalli
+DETC2012-71174,Approximation Assisted Multiobjective Optimization With Combined Global and Local Metamodeling,W Hu,K H Saleh,S Azarm
+DETC2004-57298,Integrating Freeform and Feature-Based Fitting Methods,H James de St Germain,David E Johnson,Elaine Cohen
+DETC2006-99312,Fuzzy Preference Evaluation for Hierarchical Co-Evolutionary Design Concept Generation,Wei Li,Yan Jin
+DETC2006-99551,Two-Stage System of Systems Model by Linking System Design With Resource Allocation,I Jessica Hidalgo,Harrison M Kim
+DETC2011-47908,Generic Visual Simulation of Manufacturing Equipment,Sweta Dhaveji Ch,Jianzhong Ruan,Todd E Sparks,Frank W Liou
+DETC2003-48800,Genetic Range Genetic Algorithms to Obtain Quasi-Optimum Solutions,Masao Arakawa,Tomoyuki Miyashita,Hiroshi Ishikawa
+DETC2005-85316,A Strategy for Simulation-Based Multiscale, Multi-Functional Products and Associated Design Processes,Jitesh H Panchal,HaeJin Choi,Jim Shephard,Janet K Allen,David L McDowell,Farrokh Mistree
+DETC2012-71417,Representation: Formal Development and Computational Recognition of Localized Requirement Change Types,Beshoy Morkos,Shraddha Joshi,Joshua D Summers
+DETC2010-28355,Constraint Importance Mode Pursuing Sampling for Continuous Global Optimization,Moslem Kazemi,G Gary Wang,Shahryar Rahnamayan,Kamal Gupta
+DETC2003-48730,Topology Optimization of Multi-Component Structures via Decomposition-Based Assembly Synthesis,Naesung Lyu,Kazuhiro Saitou
+DETC2004-57533,Trim Loop Closure for Enhanced CAD Interoperability,Armand D Assadi,James H Oliver
+DETC2002-34100,Inverse Parametric Modeling From Independently Generated Product Data Sets,Zhengdong Huang,Derek YipHoi
+DETC2008-49891,Transformation Facilitators: A Quantitative Analysis of Reconfigurable Products and Their Characteristics,Jason M Weaver,Kristin L Wood,Dan Jensen
+DETC2007-34839,Approximated Unimodal Region Elimination Based Global Optimization Method for Engineering Design,Adel Younis,Ruoning Xu,Zuomin Dong
+DETC2010-28490,A Framework for Choice Modeling in Usage Context-Based Design,Lin He,Christopher Hoyle,Wei Chen,Jiliang Wang,Bernard Yannou
+DETC2012-71478,Wind Farm Layout Optimization Considering Energy Generation and Noise Propagation,Wing Yin Kwong,Peter Y Zhang,David Romero,Joaquin Moran,Michael Morgenroth,Cristina Amon
+DETC2002-34086,Decomposition-Based Assembly Synthesis for In-Process Dimensional Adjustability,Byungwoo Lee,Kazuhiro Saitou
+DETC2008-50097,A Fast and Efficient Compact Packing Algorithm for Free-Form Objects,Santosh Tiwari,Georges Fadel,Peter Fenyes
+DETC2009-87122,Product Modular Design Using Atomic Theory,ChaoChing Yen,Shana Smith
+DETC2002-34103,Development of Adaptive Range Genetic Algorithms Considering Inheritance of Searching Range,Masao Arakawa,Hiroshi Ishikawa
+DETC2008-49544,Improving Cost Effectiveness in an Existing Product Line Using Component Product Platforms,Ronald S Farrell,Timothy W Simpson
+DETC2003-48728,Extended Hierarchical Cluster Analysis for the Decomposition of Complex Design Problems,Li Chen,Zhengdong Ding,Simon Li
+DETC2003-48752,Response Surface Methods and Pareto Optimization in Crashworthiness Design,Johan Andersson,Marcus Redhe
+DETC2009-86283,Modeling of Geometric Variations Within a Tolerance-Zone for Circular Runout,Patrick J Clasen,Joseph K Davidson,Jami J Shah
+DETC2010-28064,A Mixed-Integer Nonlinear Programming Model for Global Optimization of Plug-In Hybrid Vehicle Design and Allocation to Minimize Life Cycle Greenhouse Gas Emissions,ChingShin Norman Shiau,Jeremy J Michalek
+DETC2005-85181,Knowledge Sharing Between Designers and Accidentologists for the Development of Road Safety Systems,Walid Ben Ahmed,Mounib Mekhilef,Michel Bigand,Yves Page
+DETC2007-34622,A Product Platform Development Method Using QFD,Jaeil Park,Dongmin Shin
+DETC2003-48718,Optimal Design Methodology of Common Components for a Class of Products: Its Foundations and Promise,Kikuo Fujita,Shinichi Yoshioka
+DETC2002-34055,Thermal Robustness and Mass Optimization of Heat Pipe Shape for Spacecraft Panel Using a Combination of Response Surface Methodology and Monte Carlo Simulation,Takashi Kobayashi,Takehide Nomura,Masaki Kamifuji,Akira Yao,Tetsurou Ogushi
+DETC2009-86348,Strain-Based Topology Optimization for Crashworthiness Using Hybrid Cellular Automata,Lianshui Guo,Charles L Penninger,John E Renaud,Andres Tovar
+DETC2005-85284,Analysis of Information Complexity During Product Development,K H Ko,C Yu,K Pochiraju,S Manoochehri
+DETC2010-28494,The Effect of Carbon Nanotubes on the Natural Frequencies of Microcantilever Beams,Hossein D T Rokni,Abbas S Milani,Rudolf J Seethaler,Jonathan Holzman
+DETC2004-57255,A Single-Loop Method for Reliability-Based Design Optimization,Jinghong Liang,Zissimos P Mourelatos,Jian Tu
+DETC2010-28618,Collision Free Locating of Mobile Cranes in 3D Lifting System,Xin Wang,Jiangchuan Liu,Liu Fang,Shunde Gao
+DETC2009-86470,Port-Based Ontology Semantic Similarities for Module Concept Creation,Dongxing Cao,Karthik Ramani,Ming Wang Fu,Runli Zhang
+DETC2002-34069,Integration of Commercial CAD/CAM System With Custom Capp Using Orbix Middleware and Cobra Standard,Fernando Rangel,Jami J Shah
+DETC2011-48333,LIVE: A Work-Centered Approach to Support Visual Analytics of Multi-Dimensional Engineering Design Data With Interactive Visualization and Data-Mining,Xin Yan,Mu Qiao,Timothy W Simpson,Jia Li,Xiaolong Luke Zhang
+DETC2010-28573,Validating the Generational Variety Index (GVI) Through Product Family Optimization: A Preliminary Study,Aaron Bobuk,Laura Slingerland,Timothy Simpson,Ben Donaldson,Karl Reichard
+DETC2007-34662,Using Maximum Likelihood Estimation to Estimate Kriging Model Parameters,Jay D Martin
+DETC2011-48245,Principles of Mechanical Design for the Developing World: A Case Study Approach,Adam J Andersen,Charles Kim
+DETC2003-48706,An Integrated Framework for Probabilistic Optimization Using Inverse Reliability Strategy,Xiaoping Du,Agus Sudjianto,Wei Chen
+DETC2002-34115,An Extensive Simplex Method Mapping the Global Feasibility,Liang Zhu,David Kazmer
+DETC2007-34510,Three Dimensional Design Structure Matrix With Cross-Module and Cross-Interface Analyses,Fabrice Alizon,Seung Ki Moon,Steven B Shooter,Timothy W Simpson
+DETC2002-34080,Interactive Product Design Selection With an Implicit Value Function,K Maddulapalli,S Azarm,A Boyars
+DETC2012-70424,The Improved Quadrilateral Discretization Model for the Discrete Topology Optimization of Structures,Hong Zhou,Anil K Annepu
+DETC2008-49425,Multiobjective Optimization Method for Lifecycle Design of Machine Products,Kenji Doi,Masataka Yoshimura,Shinji Nishiwaki,Kazuhiro Izui
+DETC2003-48789,Scenario Expression for Characterizing Failure Cases,Kenji Iino,Yotaro Hatamura,Yuko Shimomura
+DETC2011-48572,Decomposition Templates and Joint Morphing Operators for Genetic Algorithm Optimization of Multi-Component Topology,Karim Hamza,Zebin Zhou,Kazuhiro Saitou
+DETC2009-87461,System Dynamics Through Graphical Dimensional Analysis,Srikanth Tadepalli,Kristin L Wood
+DETC2008-50027,Plug-in Hybrid Vehicle Simulation: How Battery Weight and Charging Patterns Impact Cost, Fuel Consumption, and CO2 Emissions,Richard Hauffe,Constantine Samaras,Jeremy J Michalek
+DETC2007-35743,A Function-Based Approach for Integrated Design of Material and Product Concepts,Matthias Messer,Jitesh H Panchal,Janet K Allen,David L McDowell,Farrokh Mistree
+DETC2009-86701,Reliability-Based Design Optimization With Confidence Level Under Input Model Uncertainty,Yoojeong Noh,K K Choi,Ikjin Lee,David Gorsich,David Lamb
+DETC2008-49700,A Growth Design Approach for Tolerancing,KeZheng Huang,HuaiWei Ren
+DETC2005-85041,Extended Radial Basis Functions for Metamodeling: A Comparative Study,Anoop A Mullur,Achille Messac
+DETC2012-70727,Application of the Generational Variety Index: A Retrospective Study of iPhone Evolution,Gopal Nadadur,Matthew B Parkinson,Timothy W Simpson
+DETC2002-34123,A Sensitivity-Based Pattern Search Algorithm for 3D Component Layout,Chandankumar Aladahalli,Jonathan Cagan,Kenji Shimada
+DETC2011-47329,Tracing the Envelope of the Objective-Space in Multi-Objective Topology Optimization,Inna Turevsky,Krishnan Suresh
+DETC2010-28712,Visual Analysis of User Accommodation,Christopher J Garneau,Matthew B Parkinson
+DETC2006-99390,Application of a Genetic Algorithm to Concept Variant Selection,Ryan S Hutcheson,Robert L Jordan Jr,Robert B Stone,Janis P Terpenny,Xiaomeng Chang
+DETC2012-71309,An Analysis of Complexity Measures for Product Design and Development,Josue R CrespoVarela,Gul E Okudan Kremer,Conrad S Tucker,Lourdes A Medina
+DETC2012-70332,Genetic Algorithms Applied to Affordance Based Design,Manh Tien Nguyen,Georges M Fadel,Paolo Guarneri,Ivan Mata
+DETC2003-48720,Production Cost Modeling to Support Product Family Design Optimization,Jaeil Park,Timothy W Simpson
+DETC2003-48729,Assembly Synthesis With Subassembly Partitioning for Optimal-in-Process Dimensional Adjustability,Byungwoo Lee,Kazuhiro Saitou
+DETC2009-86748,Designing MEMS Disk Resonator Based Biological Mass Sensors Under Fabrication Uncertainty,Amir Heidari,HaeJin Choi
+DETC2004-57363,A Weighted Three-Point-Based Strategy for Variance Estimation,Thaweepat Buranathiti,Jian Cao,Wei Chen
+DETC2009-87127,Design Improvement by Sensitivity Analysis (DISA) Under Interval Uncertainty Using Multi-Objective Optimization,J Hamel,M Li,S Azarm
+DETC2010-28102,Parallel Biogeography-Based Optimization With GPU Acceleration for Nonlinear Optimization,Weihang Zhu
+DETC2006-99731,An Inverse Analysis Method for Design Optimization With Both Statistical and Fuzzy Uncertainties,Liu Du,Kyung K Choi
+DETC2008-49240,Using Multiple Surrogates for Minimization of the RMS Error in Meta-Modeling,Felipe A C Viana,Raphael T Haftka
+DETC2003-48790,Design Methodology for the Thermal Packaging of Hybrid Electronic-Mechanical Products: A Case Study on the Berkeley Emulation Engine (BEE),Roderick K W Lee,Michael G Montero,Paul K Wright
+DETC2011-48596,Exploring Differences in Preference Heterogeneity Representation and Their Influence in Product Family Design,Scott Ferguson,Eric Sullivan,Joseph Donndelinger
+DETC2009-87083,Level Set Based Robust Shape and Topology Optimization Under Random Field Uncertainties,Shikui Chen,Sanghoon Lee,Wei Chen
+DETC2007-35686,Managing Design Process Complexity: A Value-Of-Information Based Approach for Scale and Decision Decoupling,Jitesh H Panchal,Christian J J Paredis,Janet K Allen,Farrokh Mistree
+DETC2002-34041,Mini-Max Type Formulation of Strict Robust Design Optimization Under Correlative Variation,Noriyasu Hirokawa,Kikuo Fujita
+DETC2011-48579,On Using Kriging Models for Complex Design,Jay D Martin
+DETC2008-49191,Rough Set-Based Design Rule Selection for Collaborative Assembly Design,KyoungYun Kim,Keunho Choi
+DETC2002-34124,Hybrid Approach for Containment Problems,Chan Yu,Souran Manoochehri
+DETC2010-28489,Design Optimization of Reverse Osmosis Water Desalination Systems via Genetic Algorithms,Karim Hamza,Mohammed Shalaby,Ashraf O Nassef,Mohamed F Aly,Kazuhiro Saitou
+DETC2005-85518,Optimisation of a Robotic Workcell Layout Using Genetic Algorithms,SiangKok Sim,MengLeong Tay,Ahmad Khairyanto
+DETC2002-34045,Comparison of Gradient and Non Gradient Based Methods for Crash Optimisation,Patrick Morelle,Alain Remouchamps
+DETC2011-48800,Conditions of Equivalence Between Continuum and Discrete Sensitivities,Nam Ho Kim
+DETC2010-28813,Making the Most Out of Surrogate Models: Tricks of the Trade,Felipe A C Viana,Christian Gogu,Raphael T Haftka
+DETC2007-35010,Correspondences Matching on 3D Freeform Mesh Models,Samuel SaiMan Li,Charlie CL Wang,KinChuen Hui
+DETC2010-28723,State Transition in Reconfigurable Systems,Magdalena K Chmarra,Jacques Verriet,Rene Waarsing,Tetsuo Tomiyama
+DETC2005-84259,On Providing Formal Manufacturability Information to Upstream Product Development Processes: Methodology and Case Study,Eliab Z Opiyo
+DETC2012-71216,Design of Cellular Self-Organizing Systems,Winston Chiang,Yan Jin
+DETC2006-99534,Introducing Hierarchical Particle Swarm Optimization to Optimal Part Orientation in Fused Deposition Modeling,Amol Ghorpade,Yogesh Dashroa,M K Tiwari,K P Karunakaran
+DETC2005-85148,Microstructure Design for a Rotating Disk: With Application to Turbine Engines,Stephen D Sintay,Brent L Adams
+DETC2002-34101,A Hybrid Approach to Feature Recognition Using Approximate and Partial Exact CAD Models,Nagesh Belludi,Derek YipHoi
+DETC2003-48816,Geometric Design of Cylindric PRS Serial Chains,HaiJun Su,Charles W Wampler,J Michael McCarthy
+DETC2007-34818,Multiobjective Collaborative Robust Optimization (McRO) With Interval Uncertainty and Interdisciplinary Uncertainty Propagation,Mian Li,Shapour Azarm
+DETC2004-57159,Task Scheduling of Parallel Development Projects Using Genetic Algorithm,Miao Zhuang,Ali A Yassine
+DETC2005-85559,Process Platform-Based Production Configuration,Lianfeng Zhang,Jianxin Jiao,Shaligram Pokharel
+DETC2008-49428,Assessing Functional and Shape Differentiation Within a Family of Products,Fabrice Alizon,Jing Fu,Steven B Shooter,Timothy W Simpson,Sanjay B Joshi
+DETC2004-57195,Ant Colony Optimization Method for Product Platform Formation,Rupesh Kumar,Venkat Allada,Sreeram Ramakrishnan
+DETC2008-49156,An Efficient Re-Analysis Methodology for Probabilistic Vibration of Large-Scale Structures,Geng Zhang,Efstratios Nikolaidis,Zissimos P Mourelatos
+DETC2009-86899,Modular Product Design Using Cyberinfrastructure for Global Manufacturing,John JungWoon Yoo,Soundar R T Kumara,Timothy W Simpson
+DETC2002-34147,Topology Optimization of Compliant Mechanisms Using Evolutionary Algorithm With Design Geometry Encoded as a Graph,Shamim Akhtar,Kang Tai,Jitendra Prasad
+DETC2006-99232,A Sequential Algorithm for Possibility-Based Design Optimization,Jun Zhou,Zissimos P Mourelatos
+DETC2009-86587,Design for Lifecycle Cost Using Time-Dependent Reliability,Amandeep Singh,Zissimos P Mourelatos,Jing Li
+DETC2002-34129,New Concepts in Graphic Visualization of Objective Functions,PetruAurelian Simionescu,David G Beale
+DETC2011-47983,Shape Design of Periodic Cellular Materials Under Cyclic Loading,Ehsan Masoumi Khalil Abad,Sajad Arabnejad Khanoki,Damiano Pasini
+DETC2010-28879,Considering Secular and Demographic Trends in Designing for Present and Future Populations,Charlotte de Vries,Christopher J Garneau,Gopal Nadadur,Matthew B Parkinson
+DETC2009-87074,A Multi-Scale Design for a Robust Hydrogen Storage Tank,Alex M Ruderman,Jiten Patel,Abhishek Kumar,Janet K Allen,SeungKyum Choi
+DETC2002-34141,Bayesian Evaluation of Engineering Models,Natesh Chandrashekar,Sundar Krishnamurty
+DETC2011-48858,Robust Design Optimization of Ball Grid Array Packaging,Jae Chang Kim,JooHo Choi,Yeong K Kim
+DETC2008-49683,A Strategic Module-Based Platform Design Method for Developing Customized Products in Dynamic and Uncertain Market Environments,Seung Ki Moon,Timothy W Simpson,Soundar R T Kumara
+DETC2011-48375,Incorporating Process Architecture in the Evaluation of Stability in Distributed Design,Erich Devendorf,Kemper Lewis
+DETC2010-28911,Exploring Automated Concept Generator Output Through Principal Component Analysis,Kerry R Poppa,Robert B Stone,Seth Orsborn
+DETC2006-99234,Two Methodologies for Identifying Product Platform Elements Within an Existing Set of Products,Elizabeth D Steva,Elizabeth N Rice,Tucker J Marion,Timothy W Simpson,Robert B Stone
+DETC2006-99163,Flexible Product Platforms: Framework and Case Study,Olivier L de Weck,Eun Suk Suh
+DETC2003-48740,Reducing Cycle Time and Errors in the Design and Layout of MEMS,Michael S Cherry,Gregory M Roach,Jonathan W Wittwer,Larry L Howell,Jordan J Cox
+DETC2005-85489,Occupant Restraint System Design Under Uncertainty Using Analytical Uncertainty Propagation Via Metamodels,Yan Fu,Ruichen Jin
+DETC2008-49078,Locating Precision of Fit Datums,Faryar Etesami
+DETC2011-47756,Multi-Discipline Design of a Wind Turbine,Nickolas Vlahopoulos,Hong Yoon Kim,Kevin Maki,Ricardo Sbragio
+DETC2012-70392,Integrating Immersive Computing Technology With Mixed-Integer Nonlinear Programming for Disassembly Sequence Planning Under Uncertainty,Sara Behdad,Leif P Berg,Deborah Thurston,Judy Vance
+DETC2002-34105,Using Genetic Algorithms With Niche Formation to Solve the Minimum Distance Problem Among Concave Objects,J A Carretero,M A Nahon,O Ma
+DETC2012-70764,A Bisociative Design Framework for Knowledge Discovery Across Seemingly Unrelated Product Domains,Conrad S Tucker,Sung Woo Kang
+DETC2011-48324,Conceptual Design of Freeform Surfaces From Unstructured Point Sets Using Neural Network Regression,Mehmet Ersin Yumer,Levent Burak Kara
+DETC2009-86904,Shapley Value Based Attribute Selection for Configurators,Yue Wang,Mitchell M Tseng
+DETC2006-99478,An Enhanced Change Modes and Effects Analysis (CMEA) Tool for Measuring Product Flexibility With Applications to Consumer Products,Darren A Keese,Neha P Takawale,Carolyn C Seepersad,Kristin L Wood
+DETC2010-28475,Design Preference Elicitation, Derivative-Free Optimization and Support Vector Machine Search,Yi Ren,Panos Y Papalambros
+DETC2003-48772,Robust Topological Design of Cellular Materials,Carolyn Conner Seepersad,Janet K Allen,David L McDowell,Farrokh Mistree
+DETC2007-34892,Product Family Concept Generation and Validation Through Predictive Decision Tree Data Mining and Multi-Level Optimization,Conrad S Tucker,Harrison M Kim
+DETC2007-34591,Robust Product Design Optimization Method Using Hierarchical Representations of Characteristics,Masataka Yoshimura,Koichi Sasaki,Kazuhiro Izui,Shinji Nishiwaki
+DETC2012-70790,A Nested Extreme Response Surface Approach for RBDO With Time-Dependent Probabilistic Constraints,Zequn Wang,Pingfeng Wang
+DETC2012-70792,Prognosis Informed Design Framework for Operation and Maintenance of Wind Turbines,Prasanna Tamilselvan,Yibin Wang,Pingfeng Wang
+DETC2012-70132,Time-Dependent Reliability Analysis by a Sampling Approach to Extreme Values of Stochastic Processes,Zhen Hu,Xiaoping Du
+DETC2007-35568,Conjoint-HoQ: A Quantitative Methodology for Consumer-Driven Design,Andrew T Olewnik,Kemper E Lewis
+DETC2006-99189,Aerodynamic Shape Optimization and Knowledge Mining of Centrifugal Fans Using Simulated Annealing Coupled With a Neural Network,Kazuyuki Sugimura
+DETC2008-49645,Optimal Kinematics Design of an Industrial Robot Family,Johan Olvander,Xiaolong Feng,Bo Holmgren
+DETC2003-48759,Analysis of Support Vector Regression for Approximation of Complex Engineering Analyses,Stella M Clarke,Jan H Greibsch,Timothy W Simpson
+DETC2012-70234,Optimal Sample Augmentation and Resource Allocation for Design With Inadequate Uncertainty Data,PinYi Lin,KueiYuan Chan
+DETC2002-34052,Reconfiguration of Kinematic Structure for Changing Motion Requirement Based on Reusability Evaluation in Lie Algebra,Hitoshi Tokunaga,Norio Matsuki,Satoshi Imamura,Fumiki Tanaka,Takeshi Kishinami
+DETC2002-34131,Design Optimization for Structural-Acoustic Problems Using FEM-BEM,Kyung K Choi,Jun Dong,Nam Ho Kim
+DETC2007-34827,A Point Membership Classification for Sweeping Solids,Horea Ilies,Huseyin Erdim
+DETC2008-49871,Multi-Objective Optimization of Product Configuration,Sisi Xuanyuan,Zhaoliang Jiang,Lalit Patil,Yan Li,Zhaoqian Li
+DETC2009-86454,Robustness of Residual Stresses in Castings and an Improved Process Window,Magnus Hofwing,Niclas Stromberg
+DETC2006-99499,Assessing and Improving Commonality and Diversity Within a Product Family,Fabrice Alizon,Steven B Shooter,Timothy W Simpson
+DETC2005-85115,Tolerance-Maps Applied to a Point-Line Cluster of Features,Gaurav Ameta,Joseph K Davidson,Jami J Shah
+DETC2005-84890,Towards Rapid Redesign: Pattern-Based Redesign Planning for Large-Scale and Complex Redesign Problems,Li Chen,Simon Li
+DETC2004-57430,Toward an Information Management Infrastructure for Product Family Planning and Mass Customization,Steven B Shooter,Timothy W Simpson,Soundar R T Kumara,Robert B Stone,Janis P Terpenny
+DETC2011-47927,Customer Driven Optimal Design for Convergence Products,Z Wang,P K Kannan,S Azarm
+DETC2007-35329,A Component Based Optimization Approach for Modular Robot Design,Bjorn Johansson,Marcus Pettersson,Johan Olvander
+DETC2007-35606,Empirical Models for Non-Deterministic Simulation-Based Robust Design,HaeJin Choi,Janet K Allen
+DETC2004-57370,A Collaborative Rapid Analysis Method for Decision-Making in Assembly Line Design,Masataka Yoshimura,Satoshi Yoshida,Yoshinori Konishi,Kazuhiro Izui,Shinji Nishiwaki,Yutaka Inamori,Ayako Nomura,Keiji Mitsuyuki,Yuji Kawaguchi,Toru Inagaki
+DETC2005-85305,Twinkling a Random Search Algorithm for Design Optimization,Mounib Mekhilef
+DETC2011-48377,Quantifying the Convergence Time of Distributed Design Processes,Erich Devendorf,Kemper Lewis
+DETC2009-86594,A Structural Optimization Method for Universal Design of Compliant Mechanism Scissors,Kazuhiro Izui,Kiyoshi Yokota,Takayuki Yamada,Shinji Nishiwaki,Masataka Yoshimura
+DETC2007-35524,Bayesian Reliability Based Design Optimization Using Eigenvector Dimension Reduction (EDR) Method,Pingfeng Wang,Byeng D Youn,Lee J Wells
+DETC2010-28343,Parameter Screening in Dynamic Computer Model Calibration Using Global Sensitivities,Dorin Drignei,Zissimos P Mourelatos,Ramesh Rebba
+DETC2002-34060,Computational Recognition of Functional Parameters of Surfaces for the Kinematic Design of Window Regulator Systems,Pietro Fanghella,Guido Galliani,Matteo Mezzadra
+DETC2004-57152,A Comparative Study of Constraint Programming Techniques Over Intervals in Preliminary Design,Bernard Yannou,Ghassen Harmel
+DETC2009-87499,Design Optimization of a Special Class of Steel Structures Via Genetic Algorithms and Stochastic Sampling,Karim Hamza,Ashraf O Nassef,Mohammed Shalaby
+DETC2002-34107,Shape Optimization of NURBS Modeled 3D C-Frames Using Hybrid Genetic Algorithm,Hesham A Hegazi,Ashraf O Nassef,Sayed M Metwalli
+DETC2005-84287,A CAD-Integrated System for Automated Idealization of CAD-Models for Finite Element Analysis,Roland Stolt
+DETC2007-35012,Overlapped Grouping Genetic Algorithm for Optimization of Reels Cutting Planning Problems,Waleed M A Abd ElHady,Sayed M Metwalli
+DETC2008-49708,A Measure of the Information Loss for Inspection Point Reduction,Kristina Warmefjord,Johan S Carlson,Rikard Soderberg
+DETC2011-48731,Characterizing the Influence of Land Configuration on the Optimal Wind Farm Performance,Souma Chowdhury,Jie Zhang,Achille Messac,Luciano Castillo
+DETC2004-57404,Decoupled and Single Loop Methods for Reliability-Based Optimization and Robust Design,Akhil Sopory,Sankaran Mahadevan,Zissimos P Mourelatos,Jian Tu
+DETC2010-28440,2-D Path Planning for Direct Laser Deposition Process,Swathi Routhu,Divya Kanakanala,Jianzhong Ruan,Xiaoqing Frank Liu,Frank Liou
+DETC2006-99322,Selection-Integrated Optimization (SIO) Methodology for Optimal Design of Adaptive Systems,Ritesh A Khire,Achille Messac
+DETC2006-99485,An Efficient Algorithm for Vehicle Crashworthiness Design via Crash Mode Matching,Karim Hamza,Kazuhiro Saitou
+DETC2009-87304,Shape Commonalization to Develop Common Platform for Product Family,Zahed Siddique,Sagar Chowdhury
+DETC2003-48778,Smoothing of Noisy Laser Scanner Generated Meshes Using Polynomial Fitting and Neighborhood Erosion,Miguel Vieira,Kenji Shimada,Tomotake Furuhata
+DETC2009-87370,Selection of Part Orientation for Multi-Axis Hybrid Manufacturing Process,Jianzhong Ruan,Jun Zhang,Frank Liou
+DETC2005-84274,Hole-Making on a Bent Thick Plate,YoungIl Kim,ChaSoo Jun
+DETC2006-99230,A Comparison of Probability Bounds Analysis and Sensitivity Analysis in Environmentally Benign Design and Manufacture,Jason Matthew Aughenbaugh,Scott Duncan,Christiaan J J Paredis,Bert Bras
+DETC2006-99229,Platform-Based Design and Development: Current Trends and Needs in Industry,Timothy W Simpson,Tucker Marion,Olivier de Weck,Katja HolttaOtto,Michael Kokkolaras,Steve B Shooter
+DETC2007-35520,Incorporating Customer Preferences and Market Trends in Vehicle Package Design,Deepak Kumar,Chris Hoyle,Wei Chen,Nanxin Wang,Gianna GomezLevi,Frank S Koppelman
+DETC2010-28550,Optimal Adaptable Design Considering Changes of Requirements, Configurations and Parameters in the Whole Product Life-Cycle,D Xue,G Hua,V Mehrad,P Gu
+DETC2011-48414,Approximate Surfacing of Curve Clouds for Conceptual Shape Creation and Evaluation,Erhan Batuhan Arisoy,Gunay Orbay,Levent Burak Kara
+DETC2002-34118,Development of an Automatic Design and Optimization System for Industrial Silencers,Lee Ming Wong,G Gary Wang,Charles Friesen,Ken How Foo,Lucas Pang
+DETC2005-84768,Continuum-Based Design Sensitivity Analysis and Optimization of Springback in Stamping Process,Kyung K Choi,Kiyoung Yi,NamH Kim,Mark E Botkin
+DETC2009-87311,The Integration of Pahl and Beitz and the Theory of Inventive Problem Solving for the Conceptual Design of Multi-Domain Systems,Timothy P Dietz,Farrokh Mistree
+DETC2012-70731,A Product-Service System Design Framework Based on a Business Ecosystem,Hyung Sool Oh,Seung Ki Moon,Wonmo Kim
+DETC2011-47888,Multi-Stage Uncertainty Quantification for Verifying the Correctness of Complex System Designs,Christopher Hoyle,Irem Y Tumer,Tolga Kurtoglu,Wei Chen
+DETC2006-99747,An Efficient Method for Detecting Packaging Supporting Space,ChingJui Chang,Hae Chang Gea
+DETC2004-57342,A Forma Approach to Handling Conflicts in Multiattribute Group Decision Making,TungKing See,Kemper Lewis
+DETC2012-70406,A Graph Grammar Based Approach to Automated Manufacturing Planning,Wentao Fu,Ata A Eftekharian,Pradeep Radhakrishnan,Matthew I Campbell,Christian Fritz
+DETC2010-28872,Examining Interactions Between Design Architecture and Designer Mistakes,Erich Devendorf,Kemper Lewis
+DETC2009-87280,A Strategic Platform Design Method for Developing Customized Families of Services,Seung Ki Moon,Jun Shu,Timothy W Simpson,Soundar R T Kumara
+DETC2003-48781,A Taxonomy for Collaborative Design,Karen J Ostergaard,Joshua D Summers
+DETC2012-70210,Determining Optimal Building Direction for Rapid Prototyping Based on Unit Sphere Searching,Ye Li,Jian Zhang
+DETC2004-57102,On the Design Synthesis of Multistable Equilibrium Systems,Carey W King,Matthew I Campbell,Joseph J Beaman
+DETC2009-86322,Representation and Automated Generation of Analysis Feature Model for Finite Element Analysis,Weijuan Cao,Haipang Wu,Yuqin Jiang,Yusheng Liu,Shuming Gao
+DETC2002-34145,Computer-Aided Fixture Design Verification: Part II - Tolerance Analysis,Y Kang,Y Rong,J A Yang
+DETC2009-87327,Approach to Evaluate and Implement Information Systems That Satisfy Your Goals,Kathleen M Hart,Steven B Shooter,Charles Kim
+DETC2006-99417,Optimal Design With Non-Normally Distributed Random Parameters, Conditional Probability, and Joint Constraint Reliabilities: A Case Study in Vehicle Emissions Regulations to Achieve Ambient Air Quality Standards,KueiYuan Chan,Steven J Skerlos,Panos Y Papalambros
+DETC2008-49734,Knowledge Management for Fault Tree Analysis Based on Quantity Dimension Indexing,Tamotsu Murakami,Yosuke Kikuchi,Youji Hiraoka
+DETC2012-71025,A Mathematical Programming-Based Approach for Architecture Selection,Aleksandr A Kerzhner,Christiaan J J Paredis
+DETC2011-47741,Development of an Ontology for the Automatic Reconfiguration of a Vise-Type Fixture Device,Thomas Gmeiner,Kristina Shea
+DETC2008-50068,Heat Compensation in Buildings Using Thermoelectric Windows: An Energy Efficient Window Technology,RhysSheffer SK Birthwright,Achille Messac,Timothy HarrenLewis,Sirisha Rangavajhala
+DETC2006-99240,A Single-Loop Approach for System Reliability-Based Design Optimization,Jinghong Liang,Zissimos P Mourelatos,Efstratios Nikolaidis
+DETC2004-57400,Optimisation and Robust Design in Aero Engine Development,Alexander Karl,Stephan Lisiewicz,WinfriedHagen Friedl,Janet Worgan,Gordon May
+DETC2004-57119,A Quantitative Analysis of the Evolution of Design Automation Conference Fields,Mounib Mekhilef,Barthelemy Longueville
+DETC2003-48804,Generalized Random Tunneling Algorithm for Continuous Design Variables,Satoshi Kitayama,Koetsu Yamazaki
+DETC2005-85147,An Optimization Based Methodology to Design Flexible Systems Subjected to Changing Operating Conditions,Ritesh A Khire,Anoop A Mullur,Achille Messac
+DETC2012-70535,Toward an Interactive Visualization Environment for Architecting Microgrids in Ultra Low Energy Communities,Gary Stump,Timothy W Simpson,Stella Oggianu,Ritesh Khire
+DETC2009-86496,A Study of Different Metamodeling Techniques for Conceptual Design,Christian Noon,Eliot Winer
+DETC2010-29054,Augmented Reality Visualization of Automobile Air Conditioning Using Optical Tracking Tools,Rita T Willmann,Uwe Woessner
+DETC2011-48568,A Design Exploration of Genetically Engineered Myosin Motors,Paul F Egan,Philip R LeDuc,Jonathan Cagan,Christian Schunn
+DETC2002-34037,Analysis and Design of a Four-Bar Linkage Type of Vibratory Parts Feeder Driven by Piezoelectric Actuator,Yung Ting,MinSheng Shin,HongYuan Chang
+DETC2005-84514,Reliability Optimization Involving Mixed Continuous-Discrete Uncertainties,Subroto Gunawan,Panos Y Papalambros
+DETC2010-29183,Effective Random Field Characterization Considering Statistical Dependence for Probability Analysis and Design,Zhimin Xi,Byeng D Youn,Chao Hu
+DETC2006-99035,A Sensitivity Analysis of Shot Peening Parameters,Abdalla Elbella,Vishal Rami,Jyothi Hogirala
+DETC2003-48736,A New Mathematical Model for Geometric Tolerances as Applied to Axes,S Bhide,J K Davidson,J J Shah
+DETC2012-71525,Free-Form Optimal Conjugation Design,Bowen Yu,Kwunlon Ting
+DETC2008-49127,Fuzzy Controlled Hooke-Jeeves Optimization Search Algorithm,Deepak Sankar Somasundaram,Mohamed B Trabia
+DETC2008-49444,Parallel Implementation of Particle Swarm Optimization (PSO) Through Digital Pheromone Sharing,Vijay K Kalivarapu,Eliot H Winer
+DETC2005-85473,A Study on the Feed Rate Optimization of a Ball Screw Feed Drive System for Minimum Vibrations,Young H Choi,Jin H Hong,Sung H Jang
+DETC2010-29121,Response Surface Based Cost Model for Onshore Wind Farms Using Extended Radial Basis Functions,Jie Zhang,Souma Chowdhury,Achille Messac,Luciano Castillo,Jose Lebron
+DETC2004-57429,Objective Function Based Pattern Search: A Computationally Efficient Algorithm for 3D Component Layout,Chandankumar Aladahalli,Jonathan Cagan,Kenji Shimada
+DETC2003-48724,Layered Manufacturing by Electrophotographic Printing,Ashok V Kumar,Anirban Dutta
+DETC2007-34878,A Customer-Driven Approach to One-Of-A-Kind Product Design,Huijun Song,Deyi Xue,Yiliu Tu
+DETC2008-49663,Bayesian Reliability Analysis With Evolving, Insufficient, and Subjective Data Sets,Pingfeng Wang,Byeng D Youn,Zhimin Xi,Artemis Kloess
+DETC2004-57134,An Efficient Weighting Update Method to Achieve Acceptable Consistency Deviation in Analytical Target Cascading,Jeremy J Michalek,Panos Y Papalambros
+DETC2007-35605,An Extension of the Commonality Index for Product Family Optimization,Aida Khajavirad,Jeremy J Michalek
+DETC2010-28442,A Multi-Axis Slicing Method for Direct Laser Deposition Process,Divya Kanakanala,Swathi Routhu,Jianzhong Ruan,Xiaoqing Frank Liu,Frank Liou
+DETC2003-48773,Structural Topology Optimization Using Function-Oriented Elements Based on the Concept of First Order Analysis,Akihiro Takezawa,Shinji Nishiwaki,Kazuhiro Izui,Masataka Yoshimura
+DETC2010-28180,Development and Application of a Patent-Based Design Around Process,YehLiang Hsu,PoEr Hsu,YungChieh Hung,YaDan Xiao
+DETC2003-48776,A Face Clustering Method for a Hexahedral Meshing,Jun Doi,Atsushi Yamada,Keisuke Inoue
+DETC2011-48680,APIX: Analysis From Pixellated Inputs in Early Design Using a Pen-Based Interface,Sundar Murugappan,Vinayak,Karthik Ramani,Maria C Yang
+DETC2003-48783,Port-Compatibility and Connectability Based Assembly Design,Palwinder Singh,Bernhard Bettig
+DETC2006-99078,Uncertainty Analysis With Probability and Evidence Theories,Xiaoping Du
+DETC2012-70558,Decision-Based Design Using Time-Varying Preferences Represented by Stochastic Processes,Vijitashwa Pandey,Zissimos P Mourelatos
+DETC2011-47507,Modeling of Geometric Variations for Line-Profiles,Joseph K Davidson,Jami J Shah
+DETC2010-28609,A Graph Theory Based Method for Functional Decoupling of a Design With Complex Interaction Structure,Hilario L Oh,Taesik Lee,Raymond Lipowski
+DETC2009-86473,Reliable Design Optimization Under Aleatory and Epistemic Uncertainties,Sundeep Samson,Sravya Thoomu,Georges Fadel,James Reneke
+DETC2004-57050,Analysis of Decomposability and Complexity for Design Problems in the Context of Decomposition,Li Chen,Simon Li
+DETC2006-99304,Robust Design of Compressor Blades Against Manufacturing Variations,Apurva Kumar,A J Keane,P B Nair,S Shahpar
+DETC2010-28768,Functional Decomposition of the Clustering Approach for Matrix-Based Design Structuring,Simon Li
+DETC2006-99068,Topology Synthesis and Classification of Low-Mobility Parallel Mechanisms,Xiangdong Yang,Dongchao Yang,Jing Xiong,Ken Chen,TingLi Yang
+DETC2007-34865,Reliability Estimation for Time-Dependent Problems Using a Niching Genetic Algorithm,Jing Li,Zissimos P Mourelatos
+DETC2005-84955,Style Design Method Based on Form Impressions,Andreas Nordgren,Hideki Aoyama
+DETC2008-50006,Planning on Mistakes: An Approach to Incorporate Error Checking Into the Design Process,Erich Devendorf,Kemper Lewis
+DETC2006-99157,Heterogeneous Design Optimization From the Microstructure,Jordan J Cox,Brent L Adams,David T Fullwood,Denise Halverson
+DETC2012-70779,Revisiting the Research Field of Product-Service Systems Development,Asa Ericson,Tobias C Larsson,Ola Isaksson,Andreas Larsson
+DETC2010-28269,Development of a Product Family Analysis Toolkit for Systematic Benchmarking,Avanti Jain,Rahul Sarnobat,Timothy W Simpson
+DETC2005-85509,Automating Error Attenuation of Cutting Tools Using Smart Material,Maki K Rashid,Abdullah M AlShabibi
+DETC2006-99373,Multifunctional Topology Design of Cellular Material Structures,Carolyn Conner Seepersad,Janet K Allen,David L McDowell,Farrokh Mistree
+DETC2009-86780,Automated Synthesis and Optimization of Gear Train Topologies,Albert Swantner,Matthew I Campbell
+DETC2008-49168,Uncertainty Analysis of Damage Evolution Computed Through Microstructure-Property Relations,Erdem Acar,Kiran Solanki,Masoud RaisRohani,Mark F Horstemeyer
+DETC2002-34051,A Study on Collaborative Design Considering Features of Design,Tomoyuki Miyashita,Hiroshi Yamakawa
+DETC2002-34063,Artificial Immune System Based Isomorphism Identification Method for Mechanism Kinematics Chains,Rembin Xiao,Lei Wang,Zheng Fan
+DETC2011-47855,Robustness Metrics for Time-Dependent Quality Characteristics,Xiaoping Du
+DETC2007-35610,A Case Study of Design Process and Development of a Design Enabling Tool for Wright Metal Products,Madhusudan Kayyar,Joshua D Summers,Farhad Ameri,Sherrill Biggers
+DETC2012-71507,Casting and Milling Restrictions in Topology Optimization via Projection-Based Algorithms,James K Guest,Mu Zhu
+DETC2009-87486,Product Platform Selection in Lower-Dimensional Manifold Spaces,Madan Mohan Dabbeeru,Amitabha Mukerjee
+DETC2006-99329,Material Property Identification and Sensitivity Analysis Using Indentation and FEM,Long Ge,Nam Ho Kim,Gerald R Bourne,W Gregory Sawyer
+DETC2010-28364,Trending Mining for Predictive Product Design,Conrad S Tucker,Harrison M Kim
+DETC2009-86462,Separating Design Optimization Problems for Bounded Rational Designers,Jeffrey W Herrmann
+DETC2002-34040,Applying Universal Linking of Engineering Objects in the Automotive Industry: Practical Aspects, Benefits, and Prototypes,Johann U Zimmermann,Siegnar Haasis,Fred J A M van Houten
+DETC2012-70423,Concurrent Design Optimization and Calibration-Based Validation Using Local Domains Sized by Bootstrapping,Dorin Drignei,Zissimos P Mourelatos,Vijitashwa Pandey,Michael Kokkolaras
+DETC2003-48774,Design of Energy Absorbing Structure Using Topology Optimization With a Multi-Material Model,Daeyoon Jung,Hae Chang Gea
+DETC2006-99341,Topology Optimization of Micromachined Structures With Surface Micromachining Manufacturing Constraints,Aravind Alwan,G K Nanthasuresh
+DETC2003-48741,Approaches of Knowledge-Based Design,Sandor Vajna
+DETC2002-34084,An Analytical Approach to Functional Design,KaiLu Wang,Yan Jin
+DETC2007-34968,Supervised Bayesian Models to Carry Out Kansei Engineering of Car Dashbaords,Walid Ben Ahmed,Bernard Yannou
+DETC2004-57484,Analytical Variance-Based Global Sensitivity Analysis in Simulation-Based Design Under Uncertainty,Wei Chen,Ruichen Jin,Agus Sudjianto
+DETC2008-50005,Customizing Products Using Functional Component Matrices,Ali Kamyab,Kemper E Lewis
+DETC2004-57421,Structural Topology Optimization Under Impact Loads Using Beam Ground Structures,Ciro A Soto
+DETC2009-86407,Response Surface Algorithms for Engine Mount Optimization in Motorcycles,Sudhir Kaul,Anoop K Dhingra
+DETC2005-85322,An Interval-Based Focalization Method for Decision-Making in Decentralized, Multi-Functional Design,Jitesh H Panchal,Marco Gero Fernandez,Janet K Allen,Christiaan J J Paredis,Farrokh Mistree
+DETC2008-49582,Topology Optimization of Poroelastic Structures to Minimize Mean Sound Pressure Levels,Takashi Yamamoto,S Maruyama,S Nishiwaki,M Yoshimura
+DETC2007-35152,Integrated Structure Decomposition, Optimization and Control Design,Shaoluo L Butler,Anoop K Dhingra
+DETC2002-34089,A Knowledge-Based Approach to Spur Gear Fabrication in Precision Forging Process,Aziz ElSayed,C Chassapis
+DETC2008-49865,Product Realization in the Age of Mass Collaboration,Jitesh H Panchal,Meryvn Fathianathan
+DETC2003-48738,Development of a Design Reuse View of Cutting Tool Design Ontology,R Roy,J I Bailey,R G L Hodges
+DETC2007-35158,Updating Uncertainty Assessments: A Comparison of Statistical Approaches,Jason Matthew Aughenbaugh,Jeffrey W Herrmann
+DETC2004-57229,An Integrated Design Support Environment for a Micro-Scale Portable Absorption Cooling System,Brian J Daniels,Ashutosh Ballal,Ping Ge,Kevin Drost
+DETC2008-49335,Product Family Commonality Selection Through Interactive Visualization,Ritesh Khire,Jiachuan Wang,Trevor Bailey,Yao Lin,Timothy W Simpson
+DETC2002-34081,A Customer-Based Expected Utility Metric for Product Design Selection,B Besharati,S Azarm,A FarhangMehr
+DETC2002-34083,Decomposition-Based Assembly Synthesis Based on Structural Stiffness Considerations,Naesung Lyu,Kazuhiro Saitou
+DETC2007-35611,A Single-Stage Gradient-Based Approach for Solving the Joint Product Family Platform Selection and Design Problem Using Decomposition,Aida Khajavirad,Jeremy Michalek
+DETC2010-28917,Enabling Integrated Material and Product Design Under Uncertainty Through Stochastic Constitutive Relations,M Steven Greene,Yu Liu,Wei Chen,Wing Kam Liu,HongZhong Huang
+DETC2009-87335,The Effect of Toolpath Intersection Angle in Metal Deposition,Jianzhong Ruan,Andrew Hayes,Todd E Sparks,Frank Liou
+DETC2012-71105,A Copula Based Sampling Method for Residual Life Prediction of Engineering Systems Under Uncertainty,Zhimin Xi,Pingfeng Wang
+DETC2011-48608,Surrogate Modeling of Complex Systems Using Adaptive Hybrid Functions,Jie Zhang,Souma Chowdhury,Achille Messac,Junqiang Zhang,Luciano Castillo
+DETC2002-34138,Automatic Process Planning of a Multi-Axis Hybrid Manufacturing System,Jianzhong Ruan,Kunnayut Elammaard,Jun Zhang,F W Liou
+DETC2012-70276,A Novel Second-Order Reliability Method (SORM) Using Non-Central or Generalized Chi-Squared Distributions,Ikjin Lee,Yoojeong Noh,David Yoo
+DETC2008-49256,Incorporating Twinkling in Genetic Algorithms for Global Optimization,George S Ladkany,Mohamed B Trabia
+DETC2005-85111,Synthesis of Structural Symmetry Driven by Cost Savings,Tomonori Honda,Fabien Nicaise,Erik K Antonsson
+DETC2008-49659,Shape Optimization of a Camoid Follower Surface,Karim A Aguib,Keith A Hekman,Ashraf O Nassef
+DETC2007-35506,Multi Agent Normal Sampling Technique (MANST) for Global Optimization,Alireza Saremi,Nasr AlHinai,G Gary Wang,Tarek ElMekkawy
+DETC2005-84367,Design and Experimental Research of Magneto-Rheological Fluids Fan Clutch,Yuliang Shen,Shaopu Yang,Cunzhi Pan
+DETC2011-47906,PipeSynth: An Algorithm for Automated Topological and Parametric Design and Optimization of Pipe Networks,William R Patterson Jr,Matthew I Campbell
+DETC2009-86268,Optimized Mask Image Projection for Solid Freeform Fabrication,Yong Chen,Chi Zhou,Richard A Waltz
+DETC2012-70870,Applications of 3D Level Set Topology Optimization,Hyunsun A Kim,Christopher J Brampton,James L Cunningham
+DETC2010-28871,A Hybrid Reliability Approach for Reliability-Based Design Optimization,Po Ting Lin,Yogesh Jaluria,Hae Chang Gea
+DETC2004-57228,Design of Components With Optimized Microstructure,Douglas C Stahl,Mark Batdorff
+DETC2010-29068,Concept Opportunity Diagrams: A Visual Modeling Method to Find Multifunctional Design Concepts,Rachel Kuhr,Kristin Wood,Dan Jensen,Richard Crawford
+DETC2006-99606,Optimization of a PEM Fuel Cell System for Low-Speed Hybrid Electric Vehicles,Jeffrey D Wishart,Zuomin Dong,Marc M Secanell
+DETC2005-84965,Vehicle Crashworthiness Design via a Surrogate Model Ensemble and a Co-Evolutionary Genetic Algorithm,Karim Hamza,Kazuhiro Saitou
+DETC2008-49541,Lagrangian Relaxation for Decentralized Decision Making in Engineering Design,Simon Li
+DETC2008-50079,Development of a Probabilistic Model for Mechanistic Evaluation of Reliability of Oil Pipelines Subject to Corrosion-Fatigue Cracking,Mohamed Chookah,Mohammad Nuhi,Mohammad Modarres,Abdennour Seibi
+DETC2002-34054,Computer-Aided Analysis of Free Transverse-Vibration of Stepped Beams,Kazem Abhary,Ahmad Nourbakhsh
+DETC2008-49429,Product Family Design: Strategic Principles to Choose Between Product-Driven and Platform-Driven Processes,Fabrice Alizon,Tucker J Marion,Steven B Shooter,Timothy W Simpson
+DETC2009-87474,A Function-Based Strategy for Analysis of Energy Systems in Transportation Vehicles,Nathan H Putnam,Daniel D Jensen,Kristin L Wood,Carolyn C Seepersad
+DETC2002-34070,Counting Degrees of Freedom for Developable Bezier Surface Design,ChihHsing Chu
+DETC2008-49395,Designing Embodiment Design Processes Using a Value-of-Information-Based Approach With Applications for Integrated Product and Materials Design,M Messer,J H Panchal,J K Allen,F Mistree,V Krishnamurthy,B Klein,P D Yoder
+DETC2008-49895,Pultrusion Process Analysis Using Knowledge-Based System,Chan Yu,Kishore Pochiraju,Souran Manoochehri
+DETC2011-48607,Hybrid Power Generation System Design Optimization Based on a Markovian Reliability Analysis Approach,Shen Lu,Harrison M Kim
+DETC2004-57257,Geometric Design of Uniform Developable B-Spline Surfaces,ChihHsing Chu,JangTing Chen
+DETC2007-34842,A Design Strategy for Collaborative Decision Making in a Distributed Environment,Zhiqiang Chen,Zahed Siddique
+DETC2008-49597,Focused Product Family Improvement,Xiaoli Ye,John K Gershenson
+DETC2007-34769,A Simplified Systematic Method of Acquiring Design Specifications From Customer Requirements,Nuogang Sun,Youyun Zhang,Xuesong Mei
+DETC2011-47237,Multidisciplinary Design Optimization for Complex Engineered Systems Design: State of the Research and State of the Practice--Report From a National Science Foundation Workshop,Timothy W Simpson,Joaquim R R A Martins
+DETC2009-87534,Usage Coverage Model for Choice Modeling: Principles,Bernard Yannou,Wei Chen,Jiliang Wang,Christopher Hoyle,Ndrianarilala Rianantsoa,Mark Drayer,Fabrice Alizon,JeanPierre Mathieu
+DETC2012-70496,Optimization Method of Location for Cooperative Lifting of Two Mobile Cranes,Xin Wang,Yuanyuan Liu,Fang Liu
+DETC2005-85443,Product Configuration Design Based on Extensible Product Family for Mass Customization,Shuyou Zhang,Harry H Cheng
+DETC2004-57115,Optimization of a Semi-Active Shock Absorber Using a Genetic Algorithm,Kenichi Maemori,Naoki Tanigawa,FengHui Shi
+DETC2005-85146,A Hybrid Method Using Response Surface and Pattern Search for Design Optimization,T Zhang,K K Choi,S Rahman
+DETC2006-99494,Determination of Ranged Sets of Design Specifications by Incorporating Heterogeneous Design Capability Information,Huibin Lui,Wei Chen,Michael J Scott,Khurshid Oureshi
+DETC2011-48513,Optimal Component Sizing and Forward-Looking Dispatch of an Electrical Microgrid for Energy Storage Planning,John W Whitefoot,Abigail R Mechtenberg,Diane L Peters,Panos Y Papalambros
+DETC2002-34137,ModelAngelo: A Rapid Prototyping System for Polystyrene,Ahmad Smaili,Ramsey Hemadeh,Firas Zeineddine,Barbar Akle
+DETC2007-35187,Procedural Design of Imprint Rolls for Fluid Pathway Fabrication,Athulan Vijayaraghavan,David A Dornfeld
+DETC2003-48811,A Robust Solution to the Spherical Rigid-Body Guidance Problem,Khalid AlWidyan,Jorge Angeles
+DETC2006-99595,Investigating Different Approaches for Front-Loading Problem Solving in Product Development: Evidence From Engine Engineering,Farhad Ameri,Khurshid Qureshi
+DETC2004-57376,Text and Illustration Based Senario Expressions for Conveying Failure Knowledge,Yotaro Hatamura,Kensuke Tsuchiya
+DETC2003-48788,Design Shell for Parametric Design at Embodiment Stage,Adwait Vaidya,Jami Shah
+DETC2005-85125,Automated Concept Generation: A Co-Evolutionary Approach,Wei Li,Yan Jin
+DETC2008-49435,Fundamental Strategies for System Optimization of Machine Product Designs,Masataka Yoshimura,Yu Yoshimura,Kazuhiro Izui,Shinji Nishiwaki
+DETC2011-48591,Optimization of Parabolic Heliostat Focal Lengths in a Mini-Tower Solar Concentrator System,Karim Hamza,Umesh Gandhi,Kazuhiro Saitou
+DETC2008-49494,Selection of Copula to Generate Input Joint CDF for RBDO,Yoojeong Noh,K K Choi,Liu Du
+DETC2009-87052,A Mixed Logit Choice Modeling Approach Using Customer Satisfaction Surveys to Support Engineering Design,Lin He,Christopher Hoyle,Wei Chen
+DETC2003-48768,Level Set Models for Structural Topology Optimization,Michael Yu Wang,Xiaoming Wang
+DETC2012-70577,Design and Selection of Safe Water Supply Solutions for Emerging Regions: A Demography Based Demand Driven Approach,Shaiful Arif,Zahed Siddique
+DETC2009-86613,Automated Design of an Industrial Robot Family,Clemens Mandl,Xiaolong Feng,Johan Olvander
+DETC2002-34093,Computer Implementation of an Improved Kutzbach-Grobler Mobility Criterion,Daniel Aguilera,Jose Maria Rico,Jaime Gallardo
+DETC2005-84765,Can a House Without a Foundation Support Design?,Andrew Olewnik,Kemper Lewis
+DETC2003-48725,Towards Automated Design of Multi-Piece Permanent Molds,Satyandra K Gupta,Alok K Priyadarshi
+DETC2012-70624,On the Use of Active Learning in Engineering Design,Yi Ren,Panos Y Papalambros
+DETC2011-47487,Multiscale Design and Multiobjective Optimization of Orthopaedic Cellular Hip Implants,Sajad Arabnejad Khanoki,Damiano Pasini
+DETC2012-71198,Identification of Platform Variables in Product Family Design Using Sensitivity Analysis,Chad Hume,David W Rosen
+DETC2009-86887,Creating Polytope Representation of Design Spaces for Visual Exploration Using Consistency Technique,Srikanth Devanathan,Karthik Ramani
+DETC2007-35672,An Investigation of the Impact of Assembly Sequencing on the Product Family Design Outcomes,Gul Okudan,Shafin Tauhid,Hakan U Artar,Saraj Gupta
+DETC2012-70323,The Skewboid Method: A Simple and Effective Approach to Pareto Relaxation and Filtering,Matthew I Campbell
+DETC2011-48363,Shape and Topology Optimization With Medial Zones,Ata A Eftekharian,Horea T Ilies
+DETC2004-57384,A Process-Oriented Approach for Management of Product Configuration Models,Samir Mesihovic,Johan Malmqvist
+DETC2007-35133,Quantity Dimension Indexing for Design Knowledge Management,Tamotsu Murakami,Yasushi Suehisa
+DETC2005-85260,Design for Product-Embedded Disassembly,Shingo Takeuchi,Kazuhiro Saitou
+DETC2006-99233,Preliminary Results on Generating Assembly Sequences for Shape Display,Sebastien J Wolff,Imme EbertUphoff
+DETC2011-48636,Assessing the Effectiveness of Using Graveyard Data for Generating Design Alternatives,Garrett Foster,Scott Ferguson
+DETC2003-48810,Suspension Synthesis for N:1 Roll Center Motion,Madhusudan Raghavan
+DETC2006-99393,Design and Verification of a New Computer Controlled Seating Buck,Nanxin Wang,Vijitha Kiridena,Gianna GomezLevi,Jian Wan,Steven Sieczka,David Pulliam
+DETC2005-84807,Handling Multiple Objectives in Decentralized Design,Vincent Chanron,Kemper Lewis,Yayoi Murase,Kazuhiro Izui,Shinji Nishiwaki,Masataka Yoshimura
+DETC2002-34097,Optimal Design Decisions in Product Portfolio Valuation,Panayotis Georgiopoulos,Ryan Fellini,Michael Sasena,Panos Y Papalambros
+DETC2003-48801,Optimization of Helicopter Air Intake Scoop Design,Dapeng Wang,G Gary Wang,Greg F Naterer
+DETC2003-48769,Topology Optimization of Heat-Resistant Structures,Alejandro R Diaz,Andre Benard
+DETC2009-87312,Improving Multi-Objective Robust Optimization Under Interval Uncertainty Using Worst Possible Point Constraint Cuts,W Hu,M Li,S Azarm,S Al Hashimi,A Almansoori,N AlQasas
+DETC2004-57478,Solid Modeler Evaluation and Comparison Cycle: A Methodology for Optimum Selection of Modeling Software,Gul E Okudan,Raymond Rutkowski
+DETC2007-35373,Towards a Reference Ontology for Functional Knowledge Interoperability,Yoshinobu Kitamura,Sunao Takafuji,Riichiro Mizoguchi
+DETC2005-84541,A Conceptual Design Tool With Error Warning,Kenji Iino,Yotaro Hatamura
+DETC2007-34445,Adaptive Deposition Coverage Toolpath Planning for Metal Deposition Process,Lan Ren,Jianzhong Ruan,Kunnayut Eiamsaard,Frank Liou
+DETC2009-86129,Parallel Population Based Incremental Learning With GPU Acceleration for Nonlinear Optimization,Weihang Zhu
+DETC2006-99294,Parametric Structural Shape and Topology Optimization Method With Radial Basis Functions and Level-Set Method,Peng Wei,Michael Yu Wang
+DETC2006-99458,A Bayesian Approach to Reliability-Based Optimization With Incomplete Information,Subroto Gunawan,Panos Y Papalambros
+DETC2004-57225,Fully Free-Form Deformation Features ([delta]-F4) Incorporating Discontinuities,Vincent Cheutet,JeanPhilippe Pernot,JeanClaude Leon,Bianca Falcidieno,Franca Giannini
+DETC2007-35479,Including Preference in Anthropometry-Driven Models for Design,Christopher J Garneau,Matthew B Parkinson
+DETC2005-85042,Efficient Genetic Algoritm Based Robust Design Method for Compressor Fan Blades,Apurva Kumar,A J Keane,P B Nair,S Shahpar
+DETC2006-99425,Optimum Disassembly Process With Genetic Algorithms for a Compressor,Yuan Mao Huang,YuChung Liao
+DETC2012-71473,Towards Robustly Stable Musculo-Skeletal Simulation of Human Gait: Merging Lumped and Component-Based Modeling Approaches,Justin Seipel
+DETC2010-28266,A Joint Probability Approach to Multiobjective Optimization Under Uncertainty,Sirisha Rangavajhala,Sankaran Mahadevan
+DETC2002-34117,Finding the Shortest Path for Quality Assurance of Electric Components,Masaru Kageura,Kenji Shimada
+DETC2012-70225,Optimal Design of a Simplified Morphing Blade for Fixed-Speed Horizontal Axis Wind Turbines,Weijun Wang,Stephane Caro,Fouad Bennis,Oscar Roberto Salinas Mejia
+DETC2011-47655,Managing Uncertainty in Multiscale Systems via Simulation Model Refinement,Ayan Sinha,Jitesh H Panchal,Janet K Allen,Farrokh Mistree
+DETC2006-99573,Product Platform Problem Taxonomy: Classification and Identification of Benchmark Problems,Venkat Allada,Abhijit K Choudhury,Padmavathi K Pakala,Timothy W Simpson,Michael J Scott,Somasundaram Valliyappan
+DETC2010-28462,Optimum Design of an Anchoring System for Percutaneous Mitral Valve Repair,Farhad Javid,Jorge Angeles,Damiano Pasini,Renzo Cecere
+DETC2002-34120,Dynamic Analysis and Optimization of Tensioner in Automotive Serpentine Belt Drive Systems,Mostafa Nouri,Jean W Zu
+DETC2008-49648,An Approach to Automate Concept Generation of Sheet Metal Parts Based on Manufacturing Operations,Jay Patel,Matthew I Campbell
+DETC2005-84888,Towards Rapid Redesign: Pattern-Based Design Diagnostics for Large-Scale and Complex Redesign Problems,Li Chen,Ashish Macwan
+DETC2004-57507,A Haptic System for Virtual Prototyping of Polygonal Models,David E Johnson,Peter Willemsen,Elaine Cohen
+DETC2007-35827,Product Reverse Engineering Based on Growth Design Process,Kezheng Huang
+DETC2006-99159,Enabling Local Risk Assessment to Support Global Collaboration in a Distributed Environment,Yuming Qiu,Ping Ge,Solomon C Yim
+DETC2006-99467,Multiobjective Optimization for Integrated Tolerance Allocation and Fixture Layout Design in Multistation Assembly,Zhijun Li,Michael Kokkolaras,Luis E Izquierdo,S Jack Hu,Panos Y Papalambros
+DETC2011-47743,A Novel Search Algorithm for Interactive Automated Conceptual Design Generator (ACDG),Rahul Rai,Pranay Kilaru,Ravi Vallepalli,Matthew I Campbell
+DETC2005-85541,A Complete Variation Algorithm for Slot and Tab Features for 3D Simulation-Based Tolerance Analysis,Zhengshu Shen,Jami J Shah,Joseph K Davidson
+DETC2011-47624,Elastohydrodynamic Ball Bearing Optimization Using Genetic Algorithm and Heuristic Gradient Projection,Mohamed H Abbas,Sayed M Metwalli
+DETC2005-85353,Fuzzy Heuristic Gradient Projection for Frame Topology Optimization,Mohamed S Senousy,Hesham A Hegazi,Sayed M Metwalli
+DETC2002-34151,An Interactive Virtual Environment for 3D Model Assembly With Video Immersion,Thomas Klar,Miranda Baladi,George Fadel,Mathias Almer
+DETC2012-70960,Designing Resource-Efficient Military Base Camps From a Holistic Perspective,Nathan H Putnam,Carolyn c Seepersad,Michael E Webber
+DETC2003-48722,Dimensional Adjustment for Assemblability of Rapid Protoyped Parts,Hoda A ElMaraghy,Ashraf O Nassef,Waguih H ElMaraghy
+DETC2009-87477,Learning Geometric Design Knowledge From Conceptual Sketches and Its Utilization in Shape Creation and Optimization,Gunay Orbay,Levent Burak Kara
+DETC2002-34033,An Approach for Generating Variational Geometry of a Pattern of Holes With Composite Positional Tolerances,Y S Liu,S M Gao
+DETC2007-35189,A Perspective of Hierarchical Layout Design Optimization for Highly Packaged Equipments,Kikuo Fujita,Masanori Kuriyama,Takashi Suyama
+DETC2006-99674,Case Study Instrument Development for Studying Collaborative Design,Jonathan Osborn,Timothy J Troy,Gregory Smith,Joshua D Summers
+DETC2004-57153,Front Structure Design Procedure for Optimal Pedestrian Leg Impact Performance,Mark O Neal
+DETC2006-99617,Multi-Disciplinary Conceptual Modeling and Optimization With Uncertainty Effects Consideration,Nan Liu,Souran Manoochehri,Chan Yu
+DETC2010-28178,A Second-Order Reliability Method With First-Order Efficiency,Xiaoping Du,Junfu Zhang
+DETC2009-87101,Metamorphosis of Periodic Surface Models,Cheng Qi,Yan Wang
+DETC2004-57528,Applicability of Design Spaces to Utilize Current Assembly Plant Resources to Produce New Product Family Members,Lindsay Wilmes,Zahed Siddique
+DETC2005-85449,Faster Generation of Feasible Design Points,Bernard Yannou,Faysal Moreno,Henri J Thevenot,Timothy W Simpson
+DETC2004-57486,Building Surrogate Models Based on Detailed and Approximate Simulations,Zhigaung Qian,Carolyn Conner Seepersad,V Roshan Joseph,C F Jeff Wu,Janet K Allen
+DETC2006-99678,Issues of Similarity in Engineering Design,Srinivasan Anandan,Sudhakar Teegavarapu,Joshua D Summers
+DETC2004-57529,A Sketch-Based Interface for the Design and Analysis of Simple Vibratory Mechanical Systems,Levent Burak Kara,Leslie Gennari,Thomas F Stahovich
+DETC2003-48798,Discretizing Continuous Problems for Faster Global Convergence,Madara Ogot,Sherif Aly
+DETC2003-48803,Optimizing Optimization for Design Optimization,Petter Krus,Johan Andersson
+DETC2007-35687,Switchgear Component Commonality Design Method Considering Delivery Lead-Time and Inventory Level,Kazuhiro Izui,Haruki Kariya,Shinji Nishiwaki,Masataka Yoshimura,Yoshiya Ogihara,Shuichi Hayashi
+DETC2002-34068,Finite Element Analysis in 3D Using the Penalty Boundary Method,Brett W Clark,David C Anderson
+DETC2003-48764,Multidimensional Solution Clustering and Its Application to the Cool and Passage Optimization of a Turbine Blade,Min Joong Jeong,Brian H Dennis,Shinobu Yoshimura
+DETC2012-71151,Quantifying Customer Sacrifice for Use in Product Customization Problems,Kalie Porterfield,Scott Ferguson
+DETC2004-57299,A Systems Framework for Platform Architecture Analysis,Rafael Araque,Trevor Bailey,Murilo W Bonilha,Jay Fletcher
+DETC2009-87012,Hybrid General Heuristic Gradient Projection for Frame Optimization of Micro and Macro Applications,Mohmmad M A Hanafy,Sayed M Metwalli
+DETC2008-49675,Energy Characteristic State Model for Automated Conceptual Design of Hydraulic System,Wenyong Ma,Delun Wang,KwunLon Ting
+DETC2005-84904,Synthesis of Bistable Periodic Structures Using Topology Optimization and a Genetic Algorithm,Jitendra Prasad,Alejandro Diaz
+DETC2003-48779,Partitioning Positional and Normal Space for Fast Occlusion Detection,Xiaoping Qian,Kevin G Harding
+DETC2005-85479,A Packing Genetic Algorithm for Configuration Design,YI Miao,Georges M Fadel
+DETC2008-49739,Functional Part Families and Design Change for Mechanical Assemblies,Madan Mohan Dabbeeru,Amitabha Mukerjee
+DETC2010-28431,Validating Designs Through Sequential Simulation-Based Optimization,Jing Li,Zissimos P Mourelatos,Michael Kokkolaras,Panos Y Papalambros,David J Gorsich
+DETC2005-85528,Mesh Processing for Computerized Anthropometry,Dhanannjay Deo,Dibakar Sen
+DETC2011-48409,Robust Design for Profit Maximization Under Uncertainty of Consumer Choice Model Parameters Using the Delta Method,Camilo B Resende,C Grace Heckmann,Jeremy J Michalek
+DETC2004-57328,Design Optimization of Enclosed Liquid Containers With Baffles for Sloshing and Impact,T C Kingsley,K J Craig
+DETC2008-49637,Elicitation and Modeling of Customer' Preferences in Industrial Design: A Comparative Study on Vehicle Front End,Antoine Dagher,JeanFrancois Petiot,Herve Guyon
+DETC2008-49415,Reliability-Based Shape Optimization of a Pressure Tank Under Random and Stochastic Environments,ChihHao Liu,KueiYuan Chan
+DETC2008-49542,A Unified Framework for Decomposition of Design Structure Matrix and Domain Mapping Matrix,Simon Li,Li Chen
+DETC2011-47376,Towards Parametric Environmental Profiles of Complex Industrial Systems in Preliminary Design Stage,Francois Cluzel,Bernard Yannou,Dominique Millet,Yann Leroy
+DETC2009-86263,Customer-Centric Product Modeling for Rapid Product Identification in One-Of-A-Kind Production,G Hong,D Xue,YL Tu
+DETC2010-28159,Modified Reduced Gradient With Realizations Sorting for Hard Equality Constraints in Reliability-Based Design Optimization,KueiYuan Chan,ChunMin Ho
+DETC2010-28338,Symmetry Plane Detection for 3D CAD Volumes,Ke Li,Gilles Foucault,JeanClaude Leon
+DETC2006-99118,Engineering Product Design Optimization for Retail Channel Acceptance,N Williams,S Azarm,P K Kannan
+DETC2004-57357,Design Optimization of Hierarchically Decomposed Multilevel Systems Under Uncertainty,Michael Kokkolaras,Zissimos P Mourelatos,Panos Y Papalambros
+DETC2004-57254,Evaluation Method for the Topological Synthesis of Sheet Metal Components,Swapnil Padhye,Matthew I Campbell
+DETC2009-87522,Variable Fidelity Modeling as Applied to Trajectory Optimization for a Hydraulic Backhoe,Roxanne A Moore,Christiaan J J Paredis
+DETC2004-57500,Relative Entropy Based Method for Global and Regional Sensitivity Analysis in Probabilistic Design,Huibin Liu,Wei Chen,Agus Sudjianto
+DETC2007-34631,Fuzzy Analytical Hierarchy Process-Based Assembly Unit Partition for Complex Products,Jihong Liu,Yong Wang
+DETC2010-28730,A Study of the Effect of Geometry Changes on the Structural Stiffness of a Composite D-Spar,Swaroop B Visweswaraiah,Damiano Pasini,Larry Lessard
+DETC2009-86259,Optimal Design of a 3-DOF Parallel Micromanipulator,Dan Zhang,Zhen Gao,Beizhi Li
+DETC2003-48732,Multi-Objective Optimisation of Ship Hull With Distributed Applications,Alessandro Giassi,Fouad Bennis,JeanJacques Maisonneuve
+DETC2004-57163,Dynamic Modelling and Simulation of Parallel Kinematic Machines,S J Du,M Kalveram,K Weinert
+DETC2003-48731,Quantitative Exploratory Techniques to Simplify Multiple Objectives in Product Design Optimization,Liem Ferryanto,Agus Sudjianto,Mahesh Vora
+DETC2012-70419,Computationally Efficient Imprecise Uncertainty Propagation in Engineering Design and Decision Making,Dipanjan D Ghosh,Andrew Olewnik
+DETC2005-84751,The Generalized Cahn-Hilliard Equations of Multiphase Transition for Structural Topology Optimization,Shiwei Zhou,Michael Yu Wang
+DETC2008-49953,An Industrial Trial of a Set-Based Approach to Collaborative Design,Kaarthic Madhavan,David Shahan,Carolyn C Seepersad,Danny A Hlavinka,Walt Benson
+DETC2005-84891,Enhanced Sequential Optimization and Reliability Assessment Method for Changing Design Variance,Xiaolei Yin,Wei Chen
+DETC2006-99647,Geometric Construction of Piecewise Line-Symmetric Spherical Motions Using Quaternion Biarcs,Carlos A Trujillo,Q J Ge
+DETC2011-47341,A Modified Formulation for Automatic Synthesis of Planar Linkage Mechanisms,GangWon Jang,Sang Jun Nam,Yoon Young Kim
+DETC2009-87155,A Virtual Reality Interface for the Design of Compliant Mechanisms,Utkarsh Seth,HaiJun Su,Judy M Vance
+DETC2007-34723,PDM Implementation in Indian Industries: An Impact Study on Technology Adoption,C Jebaraj,G Balakrishnan
+DETC2012-70104,Application of Pontryagin's Maximum Principle to Statistical Process Control Optimization,Valery Y Glizer,Vladimir Turetsky,Emil Bashkansky
+DETC2008-49176,Optimal Product Design Under Price Competition,ChingShin Shiau,Jeremy J Michalek
+DETC2011-48338,Customer-Driven Product Design Selection Using Web Based User-Generated Content,L Wang,B D Youn,S Azarm,P K Kannan
+DETC2004-57082,An Optimization Study of the Ultrasonic Welding of Thin Film Polymers,Alejandro A Espinoza Orias,John E Renaud
+DETC2012-71080,Enabling Decision-Based Design Using Solution Trajectory Correction and Backtracking Rules,Vijitashwa Pandey,Zissimos P Mourelatos,Monica Majcher
+DETC2012-71201,Numerically Stable Design Optimization With Price Competition,W Ross Morrow,Joshua Mineroff,Kate S Whitefoot
+DETC2007-34260,Function Block Design to Enable Adaptive Job Shop Operations,Lihui Wang,HsiYung Feng,Changjin Song,Wei Jin
+DETC2012-71337,Representation: Structural Complexity of Assemblies to Create Neural Network Based Assembly Time Estimation Models,Michael G Miller,James L Mathieson,Joshua D Summers,Gregory M Mocko
+DETC2002-34044,Conceptual Design of Tool Storage Based on the Divergent Tree Method,Yanwei Zhao,Wanliang Wang,Yingli Zhang,Zhengchu Wang
+DETC2008-50071,Choice Model Specification for Market-Based Engineering Design,Joseph A Donndelinger,Jeffrey A Robinson,Luke A Wissmann
+DETC2006-99228,INSIDES: A New Design and Simulation Platform for Virtual Prototyping in Automotive and Aerospace Industry,Michael Schabacker,Moh Sabeur,Sandor Vajna
+DETC2005-85136,Roles and Observations of a Graduate Design Coach,Lance M Powers,Joshua D Summers
+DETC2002-34058,Informing Design Using Data Mining Methods,M D Giess,S J Culley,A Shepherd
+DETC2008-49148,A Sequential Linearization Technique for Analytical Target Cascading,KueiYuan Chan
+DETC2009-86807,Modeling and Virtual Reality Realization of Coupled Processes in Integrated Open-Die Forging Plant,Changya Yan,Feng Gao,Jie Chen
+DETC2003-48812,Designing a Dexterous Reconfigurable Packaging System for Flexible Automation,Venketesh N Dubey,Richard M Crowder
+DETC2003-48746,A Design Alternatives Assessment and Management Approach,Pierre Nowak,Benoit Eynard,Lionel Roucoules
+DETC2012-71448,Novel Geometrical Approach to Designing Flow Channels,Bradley Camburn,Kristin Wood,Richard Crawford,Dan Jensen
+DETC2009-87460,Numerical Experiments in Using Voronoi Cell Finite Elements for Topology Optimization,James M Gibert,Georges M Fadel
+DETC2003-48821,Forward Problem Singularities of Manipulators Which Become PS-2RS or 2PS-RS Structures When the Actuators Are Locked,Raffaele Di Gregorio
+DETC2004-57344,Convergence and Stability in Distributed Design of Large Systems,Vincent Chanron,Kemper Lewis
+DETC2002-34082,Empirical Analysis Using Advanced Similarity Methods,John J Wood,Kristin L Wood,Wade O Troxell
+DETC2006-99585,Using Tolerance-Maps to Generate Frequency Distributions of Clearance for Pin-Hole Assemblies,Gaurav Ameta,Joseph K Davidson,Jami J Shah
+DETC2011-47037,Structural Topology Optimization for Forced Vibration Problem Using Level Set Method,Lei Shu,Michael Yu Wang,Zongde Fang,Zhengdong Ma
+DETC2011-48319,Random Field Characterization With Insufficient Data Sets for Probability Analysis and Design,Zhimin Xi,Byung C Jung,Byeng D Youn
+DETC2006-99211,Visibility for Determining the Rotational Axis CNC Rapid Prototyping and Rapid Manufacturing,Kevin McBrearty,Richard A Wysk,Sanjay Joshi
+DETC2008-49976,A Proposed Taxonomy for Physical Prototypes: Structure and Validation,Ashwin Michaelraj,Rachel Hannah,Joshua D Summers
+DETC2008-49856,Generative Design and CNC Fabrication Using Shape Grammars,Christoph Ertelt,Kristina Shea
+DETC2002-34125,A Non-Deterministic Approach to Concept Selection Using S-Pareto Frontiers,Christopher A Mattson,Achille Messac
+DETC2003-48760,An Efficient Algorithm for Constructing Optimal Design of Computer Experiments,Ruichen Jin,Wei Chen,Agus Sudjianto
+DETC2005-85455,Integrating a Vision System With a Coordinate Measuring Machine to Automate the Datum Alignment Process,Rajesh Subramanian,H James de St Germain,Samual Drake
+DETC2005-84956,Modeling of Evolutionary Design Database,D Xue,H Yang,Y L Tu
+DETC2010-29055,An Investigation of Sustainability, Preference, and Profitability in Design Optimization,Erin MacDonald,Katie Whitefoot,James T Allison,Panos Y Papalambros,Richard Gonzalez
+DETC2012-70605,On Design Preference Elicitation With Crowd Implicit Feedback,Yi Ren,Panos Y Papalambros
+DETC2008-49726,Port-Based Ontology Modeling for Product Conceptual Design,Dongxing Cao,Ming Wang Fu,Yongmao Gu,Haipeng Jia
+DETC2012-71469,A Case Study of the Implementation and Maintenance of a Fee for Service Lighting System for a Rural Village in Sub Saharan Africa,Benjamin M Sloan,Douglas S McCorkle,Kenneth M Bryden
+DETC2011-47697,Isogeometric Shape Design Sensitivity Analysis Using Mixed Transformation Method for Kronecker Delta Property,Seonho Cho,Bonyong Koo,Minho Yoon,SeungWook Lee,Youn Doh Ha
+DETC2006-99676,Augmenting Tools for Reverse Engineering Methods,Mark Snider,Sudhakar Teegavarapu,D Scott Hesser,Joshua D Summers
+DETC2011-47922,A Function Based Approach for Product Integration,Vishwa Kalyanasundaram,Kemper Lewis
+DETC2005-85202,Methods for Discrete Design Optimization,Marcus Pettersson,Johan Andersson,Petter Krus
+DETC2009-86511,Analysis of Avoided Carbon-Dioxide Due to Photovoltaic and Wind Turbine Technologies Displacing Electrical Peaking Facilities,Jarod Kelly,Deepak Sivaraman,Gregory A Keoleian
+DETC2004-57249,A Knowledge-Based System for Change Impact Analysis,Walid Ben Ahmed,Mounib Mekhilef,Michel Bigand,Yves Page
+DETC2002-34111,A New Symbolic Method to Determine Base Inertia Parameters for General Spatial Mechanisms,Kaiyu Chen,David G Beale
+DETC2010-29207,A Cutting Plane Method for Analytical Target Cascading With Augmented Lagrangian Coordination,Wenshan Wang,Vincent Y Blouin,Melissa Gardenghi,Margaret M Wiecek,Georges M Fadel,Benjamin Sloop
+DETC2012-70182,Modeling and Identification for Rotary Geometric Errors of Five-Axis Machine Tools With R-Test Measurement,YungYuan Hsu,ChihHsiang Chang,YouTern Tsai
+DETC2006-99508,Ontologies for Supporting Engineering Design Optimization,Paul Witherell,Sundar Krishnamurty,Ian R Grosse
+DETC2012-70869,Design and Optimization of Multiple Microchannel Heat Transfer Systems Based on Multiple Prioritized Preferences,Po Ting Lin,Jingru Zhang,Yogesh Jaluria,Hae Chang Gea
+DETC2002-34109,Nonlinear Kinematic Tolerance Analysis of Planar Higher Pairs,MinHo Kyung,Elisha Sacks
+DETC2005-85160,Acquisition of Product Design Guidelines Considering User Kansei Data Pertaining to Product Environments,Masataka Yoshimura,Tsutomu Nishimura,Kazuhiro Izui
+DETC2009-86270,Performance Comparison of Metamodeling Methods From the Perspective of Sample Quality Merits,Dong Zhao,Deyi Xue
+DETC2007-34626,Evidence Theory-Based Reliability Analysis and Optimization in Engineering Design,Li Du,Liping He,HongZhong Huang
+DETC2010-28131,A Simulation-Based Random Process Method for Time-Dependent Reliability of Dynamic Systems,Amandeep Singh,Zissimos P Mourelatos,Efstratios Nikolaidis
+DETC2004-57269,A Saddlepoint Approximation Method for Uncertainty Analysis,Xiaoping Du,Agus Sudjianto
+DETC2002-34077,Model Reduction in Structural Analysis Using a Multiresolution Analysis,Sudarsanam Chellappa,Alejandro R Diaz
+DETC2008-49411,A Review of Recent Phase Transition Simulation Methods: Saddle Point Search,Devendra Alhat,Vernet Lasrado,Yan Wang
+DETC2011-48521,Co-Design of an Active Suspension Using Simultaneous Dynamic Optimization,James T Allison,Zhi Han
+DETC2004-57156,A Recursive, Line-Intersection Method for Finding the Area of a Mesh Projected Onto a Plane,Yifan Chen,Pietro Buttolo,James Rankin II,Basavaraj Tonshal
+DETC2006-99175,Model-Based Decomposition Using Non-Binary Dependency Analysis and Heuristic Partitioning Analysis,Simon Li,Li Chen
+DETC2005-85513,Polygon Offsetting by Computing Winding Numbers,Xiaorui Chen,Sara McMains
+DETC2012-70076,Improved Clustering Algorithm for Design Structure Matrix,Fredrik Borjesson,Katja HolttaOtto
+DETC2011-48575,Reliable Kinetic Monte Carlo Simulation Based on Random Set Sampling,Yan Wang
+DETC2003-48710,Application of the Sequential Optimization and Reliability Assessment Method to Structural Design Problems,Huibin Liu,Wei Chen,Jie Sheng,Hae Chang Gea
+DETC2006-99479,Design Information Support Tool (DIST): It's Development and Effectiveness Investigation,Gul E Okudan,Madara Ogut,Girish Rao
+DETC2009-87444,Optimization of Tool Handle Shape for a Target User Population,Christopher J Garneau,Matthew B Parkinson
+DETC2006-99316,A Kriging Metamodel Assisted Multi-Objective Genetic Algorithm for Design Optimization,Mian Li,Genzi Li,Shapour Azarm
+DETC2005-85034,On Performance Enhancement of Parallel Kinematic Machine,Dan Zhang,Lihui Wang
+DETC2008-50023,Optimal Design of Product Family Throughout Commonalization, Customization and Lineup Arrangement,Kikuo Fujita,Ryota Akai
+DETC2012-70333,Network Target Coordination for Optimal Design of Decomposed Systems With Consensus Optimization,Wenshan Wang,Paolo Guarneri,Vincent Blouin,Georges Fadel
+DETC2003-48818,Dimensional Synthesis of CRR Serial Chains,Alba Perez,J M McCarthy
+DETC2002-34061,Human Modelling: A Constraint-Based Feature Modelling Approach,Terry K K Chang,Brian C H Ho,M M F Yuen
+DETC2010-28997,An Optimization Model for Parabolic-Trough Solar Power Generation Systems,Karim Hamza,Kenneth P Laberteaux,Kazuhiro Saitou
+DETC2008-49589,Agent Based Variation Propagation for Collaborative Top-Down Assembly Design,Shuting Zhang,Xiang Chen,Shuming Gao,Youdong Yang
+DETC2008-49410,A Review of Recent Phase Transition Simulation Methods: Transition Path Search,Vernet Lasrado,Devendra Alhat,Yan Wang
+DETC2010-28592,Tracing Pareto-Optimal Frontiers in Topology Optimization,Krishnan Suresh
+DETC2003-48792,A Modeling Method for Vibration Analysis of a Stator Frame of Turbine Generators and Its Application to a Design System: Vibration Analysis and Analysis System,Shigeru Sakamoto,Tadafumi Kubo
+DETC2011-48569,Probability of User Fit for Spatially Optimized Products,Christopher Garneau,Matthew Parkinson
+DETC2010-28569,Model-Based Method to Translate System Level Customer Needs to Parts Specifications,Qi D Van Eikema Hommes
+DETC2003-48787,Design Evaluation Method for Miniature Machine Tools Utilizing Form-Shaping Theory,Nozomu Mishima
+DETC2008-49210,Multi-Category Design of Bundled Products for Retail Channels Considering Demand, Uncertainty and Competition,N Williams,S Azarm,P K Kannan
+DETC2011-47247,Fundamental Concepts for Product Designs Based on Pareto Optimum Solutions,Masataka Yoshimura
+DETC2004-57457,A Reliability-Based Design Method Using Simulation Techniques and Efficient Optimization Approach,Tong Zou,Sankaran Mahadevan,Akhil Sopory
+DETC2006-99351,A Two-Stage Design Method for Compliant Mechanisms Having Specified Non-Linear Output Paths,Masakazu Kobayashi,Hiroshi Yamakawa,Shinji Nishiwaki,Kazuhiro Izui,Masataka Yoshimura
+DETC2006-99545,Automating Redesign of Sheet-Metal Parts in Automotive Industry Using KBE and CBR,Marcus Sandberg,Tobias Larsson
+DETC2003-48794,Constraint Dominance Methods Applied to the Design of a Linear Motor,Ashish D Deshpande,James R Rinderle
+DETC2012-71171,Modular Product Optimization to Alleviate Poverty: An Irrigation Pump Case Study,Charles D Wood,Patrick K Lewis,Christopher A Mattson
+DETC2008-49249,Relating Two Domains via a Third: An Approach to Overcome Ambiguous Attributions Using Multiple Domain Matrices,Matthias Kreimeyer,Stefanie Braun,Matthias Gurtler,Udo Lindemann
+DETC2003-48780,Automatic Toolpath Generation for Multi-Axis Surface Machining in a Hybrid Manufacturing System,Jianzhong Ruan,F W Liou
+DETC2011-47200,An Importance Sampling Approach for Time-Dependent Reliability,Amandeep Singh,Zissimos P Mourelatos,Efstratios Nikolaidis
+DETC2008-49098,Topology Optimization for Steady-State Heat Transfer Problems Including Design-Dependent Effects,Atsuro Iga,Shinji Nishiwaki,Kazuhiro Izui,Masataka Yoshimura
+DETC2007-34688,Finding All Undercut-Free Parting Directions for Solids of Revolution,Xiaorui Chen,Sara McMains
+DETC2011-48642,Learning Stylistic Desires and Generating Preferred Designs of Consumers Using Neural Networks and Genetic Algorithms,Ian Tseng,Jonathan Cagan,Kenneth Kotovsky
+DETC2009-86531,Development of Adaptive RBF-HDMR Model for Approximating High Dimensional Problems,Songqing Shan,G Gary Wang
+DETC2002-34091,Adaptive Experimental Design Applied to Ergonomics Testing Procedure,Michael Sasena,Matthew Parkisnon,Pierre Goovaerts,Panos Papalambros,Matthew Reed
+DETC2012-70692,PSS Business Case Map: Supporting Idea Generation in PSS Design,Fumiya Akasaka,Kazuki Fujita,Yoshiki Shimomura
+DETC2006-99287,Data Mining and Fuzzy Clustering to Support Product Family Design,Seung Ki Moon,Soundar R T Kumara,Timothy W Simpson
+DETC2004-57593,Improved Disassembly Matrices for Disassembly Processes,Yuan Mao Huang,YuChung Liao
+DETC2003-48751,Design Optimization of Vehicle Structures for Crashworthiness Using Equivalent Mechanism Approximations,Karim Hamza,Kazuhiro Saitou
+DETC2012-70735,Filling N-Sided Holes Using Trimmed B-Spline Surfaces,Xiaodong Liu
