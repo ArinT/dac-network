@@ -67,6 +67,7 @@ DATABASES = {
 	    'PASSWORD': 'citations1',
 	    'HOST': 'dac-network.c8kxvfryaahi.us-west-2.rds.amazonaws.com',
 	    'PORT': '4848',
+        'OPTIONS': {'ssl': {'ca': 'config/mysql-ssl-ca-cert.pem'}}
      },
     'debug':
         {

@@ -12,5 +12,4 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "DAC_network_analysis.settings")
 
 from django.core.wsgi import get_wsgi_application
 from dj_static import Cling
-
 application = Cling(get_wsgi_application())
