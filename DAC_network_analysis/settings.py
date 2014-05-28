@@ -60,15 +60,15 @@ WSGI_APPLICATION = 'DAC_network_analysis.wsgi.application'
 
 
 DATABASES = {
-     # 'default': {
-     #   'ENGINE': 'django.db.backends.mysql',
-     #   'NAME': 'DAC_Network',
-	  #   'USER': 'root',
-	  #   'PASSWORD': 'buet105',
-	  #   'HOST': 'esdl-11.ise.illinois.edu',
-	  #   'PORT': '3306',
-     # }
-    'default':
+     'default': {
+       'ENGINE': 'django.db.backends.mysql',
+       'NAME': 'DAC_Network',
+	    'USER': 'root',
+	    'PASSWORD': 'citations1',
+	    'HOST': 'dac-network.c8kxvfryaahi.us-west-2.rds.amazonaws.com',
+	    'PORT': '4848',
+     },
+    'debug':
         {
             'ENGINE':'django.db.backends.sqlite3',
             'NAME': 'debug',
