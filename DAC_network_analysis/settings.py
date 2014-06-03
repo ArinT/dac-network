@@ -60,20 +60,20 @@ WSGI_APPLICATION = 'DAC_network_analysis.wsgi.application'
 
 
 DATABASES = {
-     'default': {
-       'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'DAC_Network',
-	    'USER': 'root',
-	    'PASSWORD': 'citations1',
-	    'HOST': 'dac-network.c8kxvfryaahi.us-west-2.rds.amazonaws.com',
-	    'PORT': '4848',
-        'OPTIONS': {'ssl': {'ca': 'config/mysql-ssl-ca-cert.pem'}}
-     },
-    'debug':
+    'default':
         {
-            'ENGINE':'django.db.backends.sqlite3',
-            'NAME': 'debug',
-        }
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'DACNetworkAnalysis',
+            'USER': 'ebroot',
+            'PASSWORD': 'citations1',
+            'HOST': 'dacnetworkanalysis.c8kxvfryaahi.us-west-2.rds.amazonaws.com',
+            'PORT':'3306'
+        },
+        'debug':
+         {
+             'ENGINE':'django.db.backends.sqlite3',
+             'NAME': 'debug',
+         }
 }
 
 # Internationalization
