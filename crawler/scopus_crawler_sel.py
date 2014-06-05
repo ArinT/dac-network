@@ -9,7 +9,7 @@ import os
 CURR_DIR = os.path.dirname(os.path.dirname(__file__))
 
 BASE_URL = "http://www.scopus.com"
-READ_PATH = os.path.join(CURR_DIR, "UniquePapers.txt")
+READ_PATH = os.path.join(CURR_DIR, "crawler/UniquePapers.txt")
 #folder_paths = {"2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"}
 DEST_PATH = CURR_DIR
 
@@ -102,4 +102,4 @@ def examinePapers():
 		time.sleep(2)
 	print("done for " + (str)(i))
 
-examinePapers()
+#examinePapers()
