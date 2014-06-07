@@ -5,3 +5,11 @@ var app = angular.module('CitationNetwork',[]).config(function($interpolateProvi
     $interpolateProvider.endSymbol('$}');
 	});
 
+app.controller("myCtrl", function($scope){
+	$scope.author = null;
+	$scope.$on("clicked", function(event, node){
+		$scope.author = node.name;
+		$scope.$apply();
+		console.log($scope.author);
+	});
+});

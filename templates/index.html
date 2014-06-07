@@ -12,28 +12,44 @@
 		  stroke: #999;
 		  stroke-opacity: .8;
 		}
+		body{
+			padding-top: 60px;
+		}
 	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link href="/static/js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<script src="/static/js/lib/jquery-1.11.0.min.js"></script>
 	<script src="/static/js/lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/static/js/lib/angular/angular.js"></script>
 	<script src="/static/js/app.js"></script>
-	<script src="/static/js/Navbar.js"></script>
+	<script src="/static/js/NavbarDir.js"></script>
+	<script src="/static/js/NetworkGraphDir.js"></script>
 	<script src="/static/js/d3.min.js" charset="utf-8"></script>
+	<script type="text/javascript">
+	console.log($(document).scrollTop());
+	$(document).ready(function(){
+	    var height = $(window).height();
+	    $("svg").css("height", height-10);
+	});
+</script>
 </head>
 <body>
 	<mynavbar></mynavbar>
-	<div style="color:#0000FF;height:30%;float:left">
-	  	<h3>Collaboration Network</h3>
 
+	<!-- <div style="color:#0000FF;height:30%;float:left">
+	  	<h3>Collaboration Network</h3>
 	  	<textarea rows="1" cols="25" id="myText"> </textarea><br>
 	  	<button  type="button" id="submitButton" >Search</button><br>
-	  	<textarea rows="25" cols="25" id="demo">
-		</textarea>
+	  	<textarea rows="25" cols="25" id="demo"></textarea>
+	</div> -->
+	<!-- <div style="height:70%;float:left"> -->
+	<!-- </div> -->
+	<div ng-controller="myCtrl">	
+		<div class="col-xs-6 col-md-3">Author: {$ author $}</div>
+		<div graph class="col-xs-12 col-sm-9" id="graph"></div>
 	</div>
-	<div style="height:70%;float:left">
-		<script src="/static/js/network_graph.js" charset="utf-8"></script>
-	</div>
+	<!-- <div id="graph"></div> -->
+	<script src="/static/js/network_graph.js" charset="utf-8"></script>
 
 </body>
 

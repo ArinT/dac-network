@@ -1,5 +1,5 @@
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
@@ -10,22 +10,21 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#about">Geographical</a></li>
         <li><a href="#contact">About</a></li>
       </ul>
         <form class="navbar-form navbar-right" role="search" >
             <div class="form-group">
-              <select ng-model="searchOption">
+              <select class="form-control" ng-model="searchOption">
                 <option value="author">Author</option>
                 <option value="paper">Paper</option>
                 <option value="topic">Topic</option>
               </select>
-              <input type="text" ng-model="search" class="form-control" placeholder="search" name="query">
+              <input type="text" ng-model="search" class="form-control" placeholder="search">
               <button class="btn btn-default" ng-click="submitSearch()" type="submit">Search</button>
             </div>
         </form>
-                <!-- /input-group -->
     </div><!--/.nav-collapse -->
-  </div>
 </div>
+</nav>
