@@ -5,8 +5,8 @@ app.directive("graph", function(){
 
 		},
 		link:function(scope, elem, attrs){
-			var width = 1000,
-			    height = 1000;
+			var width = $("#graph").width();
+			var height = $("#graph").height();
 
 			var color = d3.scale.category20b();
 
@@ -28,6 +28,7 @@ app.directive("graph", function(){
 			}
 
 			d3.json("../../static/json/author.json", function(error, graph) {
+				console.log(graph.nodes[0])
 				force
 					.nodes(graph.nodes)
 					.links(graph.links)
@@ -55,6 +56,20 @@ app.directive("graph", function(){
 			  		// .style("fill",color(2))
 			  		.on("click", function(d){
 			  			scope.$emit("clicked", d);
+			  			 // document.getElementById("demo").value=d.name+"\n Score "+d.centralityScore;
+				         d3.selectAll(".link")
+				            .filter(function(l)
+				             {
+				                 return (l.source.index!==d.index && l.target.index!==d.index);
+				             })
+				             .style({'stroke-opacity':0.5,'stroke':'#999'});
+				     
+				             d3.selectAll(".link")
+				            .filter(function(l)
+				             {
+				                 return (l.source.index===d.index || l.target.index===d.index);
+				             })
+				             .style({'stroke-opacity':0.8,'stroke':'#F0F'});
 			  			// document.getElementById("demo").value=d.name+"\n Score "+d.centralityScore;
 			  		});
 			  	node.append("title")

@@ -30,6 +30,8 @@
 	$(document).ready(function(){
 	    var height = $(window).height();
 	    $("svg").css("height", height-10);
+	    $(".resize").css("height", height-10);
+
 	});
 </script>
 </head>
@@ -45,8 +47,17 @@
 	<!-- <div style="height:70%;float:left"> -->
 	<!-- </div> -->
 	<div ng-controller="myCtrl">	
-		<div class="col-xs-6 col-md-3">Author: {$ author $}</div>
-		<div graph class="col-xs-12 col-sm-9" id="graph"></div>
+		<div ng-show="search !== null && search !=='' " style="overflow:auto;" class="col-md-2 resize">
+			<h3>Search Results: </h3>
+			<div class="list-group">
+				<a class="list-group-item" ng-repeat="node in nodes | filter:search">{$ node.name $}</a>
+			</div>
+		</div>
+		<div graph class="col-md-7" id="graph">
+		</div>
+		<div class="col-md-3">
+			<h3>Author Information:</h3>
+		</div>
 	</div>
 	<!-- <div id="graph"></div> -->
 	<script src="/static/js/network_graph.js" charset="utf-8"></script>
