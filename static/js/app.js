@@ -4,7 +4,7 @@ var app = angular.module('CitationNetwork',[]).config(function($interpolateProvi
     $interpolateProvider.startSymbol('{$');
     $interpolateProvider.endSymbol('$}');
 	});
-app.service("GetAuthors", function($http){
+app.service("MessageServer", function($http){
 	var myNodes = null;
 	this.getNodes = function(){
 		return myNodes;
@@ -20,13 +20,16 @@ app.service("GetAuthors", function($http){
 			});
 	};
 });
-app.controller("myCtrl", ["$scope", "GetAuthors", function($scope, GetAuthors){
-	$scope.getAuthors = GetAuthors;
-	$scope.getAuthors.readNodes();
+app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", function($rootScope, $scope, MessageServer){
+	$rootScope.nodeClick = function(){
+		console.log("passed");
+	}
+	$scope.messageServer = MessageServer;
+	$scope.messageServer.readNodes();
 	$scope.nodes = null;
 	$scope.search = null;
 
-	$scope.$watch("getAuthors.getNodes()", function(newVal, oldVal){
+	$scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
 		$scope.nodes = newVal;
 	})
 	$scope.author = null;
@@ -34,9 +37,10 @@ app.controller("myCtrl", ["$scope", "GetAuthors", function($scope, GetAuthors){
 		$scope.search = search;
 	})
 	$scope.$on("clicked", function(event, node){
-		$scope.author = node.name;
-		$scope.$apply();
-		console.log($scope.author);
+		$scope.$apply(function(){
+			$scope.author = node.name;
+			console.log($scope.author);
+		});
 	});
 }]);
 

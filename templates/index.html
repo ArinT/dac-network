@@ -3,6 +3,21 @@
 <head>
     <title>DAC Citation Network</title>
 	<style>
+		.sidebar {
+		  width: inherit;
+		  min-width: 220px;
+		  max-width: 220px;
+		  /*background-color:#f5f5f5;*/
+		  /*float: left;*/
+		  height:100%;
+		  position:relative;
+		  overflow-y:auto;
+		  overflow-x:hidden;
+		}
+		#main {
+		  height:100%;
+		  overflow:auto;
+		}
 		.node {
 		  stroke: #fff;
 		  stroke-width: 1.5px;
@@ -37,7 +52,6 @@
 </head>
 <body>
 	<mynavbar></mynavbar>
-
 	<!-- <div style="color:#0000FF;height:30%;float:left">
 	  	<h3>Collaboration Network</h3>
 	  	<textarea rows="1" cols="25" id="myText"> </textarea><br>
@@ -47,18 +61,18 @@
 	<!-- <div style="height:70%;float:left"> -->
 	<!-- </div> -->
 	<div ng-controller="myCtrl">	
-		<div ng-show="search !== null && search !=='' " style="overflow:auto;" class="col-md-2 resize">
+		<div ng-show="search !== null && search !=='' " style="float: left;" class="col-md-2">
 			<h3>Search Results: </h3>
 			<div class="list-group">
 				<a class="list-group-item" ng-repeat="node in nodes | filter:search">{$ node.name $}</a>
 			</div>
 		</div>
-		<div graph class="col-md-7" id="graph">
-		</div>
-		<div class="col-md-3">
-			<h3>Author Information:</h3>
+		<!-- <div graph class="col-md-7" id="graph"></div> -->
+		<div class="col-md-3" style="float: right;" >
+			<h3>About author:</h3>
 		</div>
 	</div>
+
 	<!-- <div id="graph"></div> -->
 	<script src="/static/js/network_graph.js" charset="utf-8"></script>
 
