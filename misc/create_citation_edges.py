@@ -1,10 +1,10 @@
 __author__ = 'arin'
 import csv
-
+import json
 import os
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.local_settings')
-
+from django.db import connection
 from network_visualizer.models import Papers
 
 def create_csv():
@@ -33,4 +33,22 @@ def check_links():
             except Papers.DoesNotExist:
                 pass
 
-check_links()
+def insert_into_references(filename):
+    citations = json.load(open(filename))
+    cursor = connection.cursor()
+    cursor.execute(
+        'DROP TABLE IF EXISTS Citations;'
+        'CREATE TABLE Citations(sourcePaperId INT, targetPaperId INT);'
+    )
+    cursor.close()
+    i = 0
+
+    for citation in citations:
+        print i
+        i+=1
+        cursor = connection.cursor()
+        cursor.execute(
+            'INSERT INTO Citations (sourcePaperId, targetPaperId) VALUES '
+            '((SELECT PaperId FROM Papers WHERE DOI = %s),(SELECT PaperId FROM Papers WHERE DOI = %s));'
+            ,[citation['source'].encode('UTF-8'),citation['target'].encode('UTF-8')])
+        cursor.close()

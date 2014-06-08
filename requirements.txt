@@ -12,3 +12,5 @@ pystache==0.5.3
 selenium==2.41.0
 static==1.0.2
 wsgiref==0.1.2
+djangular==0.2.7
+
