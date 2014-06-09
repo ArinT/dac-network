@@ -4,7 +4,7 @@ from django.db import connection
 
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.local_settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.settings')
 def insert_all_keywords(filename):
     papers = json.load(open(filename))
     keywords = set()

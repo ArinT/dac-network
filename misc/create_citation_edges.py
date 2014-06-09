@@ -3,7 +3,7 @@ import csv
 import json
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.local_settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.settings')
 from django.db import connection
 from network_visualizer.models import Papers
 
