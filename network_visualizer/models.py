@@ -19,6 +19,14 @@ class Authors(models.Model):
         managed = False
         db_table = 'Authors'
 
+class Citations(models.Model):
+    sourcepaperid = models.IntegerField(db_column='sourcePaperId', blank=True, null=True) # Field name made lowercase.
+    targetpaperid = models.IntegerField(db_column='targetPaperId', blank=True, null=True) # Field name made lowercase.
+    citationid = models.IntegerField(db_column='citationId', primary_key=True) # Field name made lowercase.
+    class Meta:
+        managed = False
+        db_table = 'Citations'
+
 class Cocredits(models.Model):
     authorid = models.IntegerField(db_column='AuthorID') # Field name made lowercase.
     coauthorid = models.IntegerField(db_column='CoAuthorID') # Field name made lowercase.
@@ -26,6 +34,21 @@ class Cocredits(models.Model):
     class Meta:
         managed = False
         db_table = 'CoCredits'
+
+class Keywordtopaper(models.Model):
+    paperid = models.IntegerField(db_column='PaperId', blank=True, null=True) # Field name made lowercase.
+    keywordid = models.IntegerField(db_column='KeywordId', blank=True, null=True) # Field name made lowercase.
+    id = models.IntegerField(primary_key=True)
+    class Meta:
+        managed = False
+        db_table = 'KeywordToPaper'
+
+class Keywords(models.Model):
+    keywordid = models.IntegerField(db_column='KeywordId', primary_key=True) # Field name made lowercase.
+    keyword = models.CharField(db_column='Keyword', max_length=50, blank=True) # Field name made lowercase.
+    class Meta:
+        managed = False
+        db_table = 'Keywords'
 
 class Papers(models.Model):
     paperid = models.IntegerField(db_column='PaperID', primary_key=True) # Field name made lowercase.
@@ -36,20 +59,29 @@ class Papers(models.Model):
         managed = False
         db_table = 'Papers'
 
+class Topfives(models.Model):
+    parentid = models.IntegerField(db_column='parentId', blank=True, null=True) # Field name made lowercase.
+    childid = models.IntegerField(db_column='childId', blank=True, null=True) # Field name made lowercase.
+    rank = models.IntegerField(blank=True, null=True)
+    id = models.IntegerField(primary_key=True)
+    class Meta:
+        managed = False
+        db_table = 'TopFives'
+
+class Works(models.Model):
+    authorid = models.IntegerField(db_column='AuthorId', blank=True, null=True) # Field name made lowercase.
+    paperid = models.IntegerField(db_column='PaperId', blank=True, null=True) # Field name made lowercase.
+    workid = models.IntegerField(db_column='workId', primary_key=True) # Field name made lowercase.
+    class Meta:
+        managed = False
+        db_table = 'Works'
+
 class AuthGroup(models.Model):
     id = models.IntegerField(primary_key=True)
     name = models.CharField(unique=True, max_length=80)
     class Meta:
         managed = False
         db_table = 'auth_group'
-
-class AuthGroupPermissions(models.Model):
-    id = models.IntegerField(primary_key=True)
-    group = models.ForeignKey(AuthGroup)
-    permission = models.ForeignKey('AuthPermission')
-    class Meta:
-        managed = False
-        db_table = 'auth_group_permissions'
 
 class AuthPermission(models.Model):
     id = models.IntegerField(primary_key=True)

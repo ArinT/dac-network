@@ -7,13 +7,15 @@ from network_visualizer.models import Papers
 def generate_citation_network_json():
     citations = Citations.objects.all()
     papers = Papers.objects.all()
-    nodes = []
+    node_set = set()
     edges = []
-
+    nodes = []
     for paper in papers:
         for citation in citations:
             if citation.sourcepaperid == paper.paperid or citation.targetpaperid == paper.paperid:
-                nodes.append({'paperid':paper.paperid,'title':paper.title,'doi':paper.doi})
+                node_set.add(paper)
+    for paper in node_set:
+        nodes.append({'paperid':paper.paperid,'title':paper.title,'doi':paper.doi})
     for citation in citations:
         source = -1
         target = -1

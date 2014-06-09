@@ -1,9 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="CitationNetwork">
 <head>
-    <title></title>
+    <title>DAC Citation Network</title>
+	<style>
+		.sidebar {
+		  width: inherit;
+		  min-width: 220px;
+		  max-width: 220px;
+		  /*background-color:#f5f5f5;*/
+		  /*float: left;*/
+		  height:100%;
+		  position:relative;
+		  overflow-y:auto;
+		  overflow-x:hidden;
+		}
+		#main {
+		  height:100%;
+		  overflow:auto;
+		}
+		.node {
+		  stroke: #fff;
+		  stroke-width: 1.5px;
+		}
+
+		.link {
+		  stroke: #999;
+		  stroke-opacity: .8;
+		}
+		body{
+			padding-top: 60px;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="/static/js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script src="/static/js/lib/jquery-1.11.0.min.js"></script>
+	<script src="/static/js/lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/static/js/lib/angular/angular.js"></script>
+	<script src="/static/js/app.js"></script>
+	<script src="/static/js/NavbarDir.js"></script>
+	<script src="/static/js/CitationNetworkGraphDir.js"></script>
+	<script src="/static/js/d3.min.js" charset="utf-8"></script>
+	<script type="text/javascript">
+	console.log($(document).scrollTop());
+	$(document).ready(function(){
+	    var height = $(window).height();
+	    $("svg").css("height", height-10);
+	    $(".resize").css("height", height-10);
+
+	});
+</script>
 </head>
 <body>
+	<mynavbar></mynavbar>
+	<!-- <div style="color:#0000FF;height:30%;float:left">
+	  	<h3>Collaboration Network</h3>
+	  	<textarea rows="1" cols="25" id="myText"> </textarea><br>
+	  	<button  type="button" id="submitButton" >Search</button><br>
+	  	<textarea rows="25" cols="25" id="demo"></textarea>
+	</div> -->
+	<!-- <div style="height:70%;float:left"> -->
+	<!-- </div> -->
+	<div ng-controller="myCtrl">	
+		<div ng-show="search !== null && search !=='' " style="float: left;" class="col-md-2">
+			<h3>Search Results: </h3>
+			<div class="list-group">
+				<a class="list-group-item" ng-repeat="node in nodes | filter:search">{$ node.name $}</a>
+			</div>
+		</div>
+		 <div graph class="col-md-7" id="graph"></div>
+		<div class="col-md-3" style="float: right;" >
+			<h3>About author:</h3>
+		</div>
+	</div>
+
+	<!-- <div id="graph"></div> -->
+	<script src="/static/js/network_graph.js" charset="utf-8"></script>
 
 </body>
+
 </html>

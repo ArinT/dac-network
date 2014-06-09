@@ -5,22 +5,25 @@ app.directive("graph", function(){
 
 		},
 		link:function(scope, elem, attrs){
-			var width = $("#graph").width();
-			var height = $("#graph").height();
+			var width = 1000;//$("#graph").width();
+			var height = 1000;//$("#graph").height();
 
 			var color = d3.scale.category20b();
 
 			var force = d3.layout.force()
-			    .charge(-50)
-			    .linkDistance(25)
+			    .charge(-100)
+			    .linkDistance(75)
 			    .size([width, height]);
 			    force.gravity(0.25);
-
+			    // force.on("tick", function(){
+			    // 	nodes[0].x = width/2;
+			    // 	nodes[0].y = height/2;
+			    // });
 			var svg = d3.select("#graph").append("svg")
 			    .attr("width", width)
 			    .attr("height", height)
 			    .append("g")
-			    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
+			    // .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
 			    .append("g");
 			    
 			function zoom() {
@@ -56,7 +59,6 @@ app.directive("graph", function(){
 			  		// .style("fill",color(2))
 			  		.on("click", function(d){
 			  			scope.$emit("clicked", d);
-			  			 // document.getElementById("demo").value=d.name+"\n Score "+d.centralityScore;
 				         d3.selectAll(".link")
 				            .filter(function(l)
 				             {
@@ -70,16 +72,13 @@ app.directive("graph", function(){
 				                 return (l.source.index===d.index || l.target.index===d.index);
 				             })
 				             .style({'stroke-opacity':0.8,'stroke':'#F0F'});
-			  			// document.getElementById("demo").value=d.name+"\n Score "+d.centralityScore;
+			  			
 			  		});
 			  	node.append("title")
 			  		.text(function(d){ 
-			  			return d.name+"\n Score "+d.centralityScore; 
+			  			return d.title; 
 			  		});
-			  	link.append("title")
-			  		.text(function(d){
-			        	return "number of papers:"+d.value;          
-			      	});
+			  	
 
 			  	force.on("tick", function() {
 			  		link.attr("x1", function(d) { return d.source.x; })

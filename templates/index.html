@@ -38,7 +38,7 @@
 	<script src="/static/js/lib/angular/angular.js"></script>
 	<script src="/static/js/app.js"></script>
 	<script src="/static/js/NavbarDir.js"></script>
-	<script src="/static/js/NetworkGraphDir.js"></script>
+	<script src="/static/js/AuthorNetworkGraphDir.js"></script>
 	<script src="/static/js/d3.min.js" charset="utf-8"></script>
 	<script type="text/javascript">
 	console.log($(document).scrollTop());
@@ -67,13 +67,13 @@
 				<a class="list-group-item" ng-repeat="node in nodes | filter:search">{$ node.name $}</a>
 			</div>
 		</div>
-		<!-- <div graph class="col-md-7" id="graph"></div> -->
+		 <div graph class="col-md-7" id="graph"></div>
 		<div class="col-md-3" style="float: right;" >
 			<h3>About author:</h3>
 		</div>
 	</div>
 
-	<!-- <div id="graph"></div> -->
+	 <!--<div id="graph"></div> -->
 	<script src="/static/js/network_graph.js" charset="utf-8"></script>
 
 </body>
