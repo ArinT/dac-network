@@ -10,8 +10,8 @@ urlpatterns = patterns('',
     url(r'^proto2', 'network_visualizer.views.proto2', name='proto2'),
     url(r'^proto3', 'network_visualizer.views.proto3', name='proto3'),
     url(r'^citation', 'network_visualizer.views.citation', name='citation'),
-    url(r'^query_author', 'network_visualizer.view.query_author', name='query_author'),
-    url(r'^query_paper', 'network_visualizer.view.query_paper', name='query_paper'),
+    url(r'^query_author', 'network_visualizer.views.query_author', name='query_author'),
+    url(r'^query_paper', 'network_visualizer.views.query_paper', name='query_paper'),
     url(r'^admin/', include(admin.site.urls)),
 )
 

@@ -30,7 +30,7 @@ app.directive("graph", function(){
 			  svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 			}
 
-			d3.json("../../static/json/authors.json", function(error, graph) {
+			d3.json("../../static/json/authors_centrality.json", function(error, graph) {
 				console.log(graph.nodes[0])
 				force
 					.nodes(graph.nodes)

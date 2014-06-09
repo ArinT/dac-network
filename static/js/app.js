@@ -27,7 +27,7 @@ app.service("MessageServer", function($http){
 	 */
 	this.readNodes = function(){
 		console.log("read nodes called");
-		$http.get("../../static/json/author.json")
+		$http.get("../../static/json/authors_centrality.json")
 			.success(function(data, status, headers, config){
 				myNodes = data.nodes;
 				console.log(myNodes[0]);
