@@ -28,6 +28,3 @@ def get_paper_info(paper_id):
     for item in res:
         results.append({'title':item[0],'url':item[1]})
     return results
-from pprint import pprint
-pprint(get_author_info(463))
-pprint(get_paper_info(463))
