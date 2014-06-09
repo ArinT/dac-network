@@ -1,0 +1,42 @@
+<style>
+	.container{
+		position: absolute;
+		overflow: auto;
+		max-width: 220px;
+		right:85%;
+		height:100%;
+	}
+	.middle{
+		position:relative;
+		/*height:50%;*/
+		/*width:75%;*/
+		top:45%;
+		/*vertical-align: middle;*/
+		/*margin: 0 0 0 -37.5%;*/
+	}
+	.glyphicon-chevron-right{
+		font-size:1.6em;
+	}
+	.open-close{
+		position: relative;
+		/*right:%;*/
+	}
+</style>
+				
+
+<div  class="container" style="float: left;">
+	<table class="table table-striped" >
+		<tr class="open-close">
+			<th><h4>Search Results:</h4></th>
+			<td >
+				<div class="list-group">
+					<a class="list-group-item" ng-repeat="node in nodes | filter:search">{$ node.name $}</a>
+				</div>
+			</td>
+			<td class="middle">
+				<div ng-show="opened===false" ng-click="open()" class="open-close middle glyphicon glyphicon-chevron-right"></div>
+				<div ng-show="opened===true" ng-click="close()" class="glyphicon glyphicon-chevron-left"></div>
+			</td>
+		</tr>
+	</table>
+</div>
