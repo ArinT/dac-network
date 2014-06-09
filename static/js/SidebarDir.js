@@ -1,12 +1,13 @@
 app.directive("sidebar", function(){
 	return{
 		restrict:"E",
-		templateUrl:"/static/partials/Sidebar.html",
+		templateUrl:"/static/partials/LeftSidebar.html",
 		controller:function($scope, MessageServer){
 			$scope.messageServer = MessageServer;
 			$scope.opened = false;
 			$scope.arrowPosition = 100;
 			$scope.postAuthorId = function(id){
+				console.log(id);
 				$scope.messageServer.queryAuthors(id);
 			};
 		},
@@ -56,7 +57,7 @@ app.directive("rightSidebar", function(){
 			
 			scope.open = function(){
 
-				shiftRight = new ShiftBar(99.5, 1, "left", "#right-container");
+				shiftRight = new ShiftBar(99.5, -1, "left", "#right-container");
 				ShiftBar.prototype.interval = setInterval(function(){
 					// console.log(shiftRight.loc);
 					shiftRight.shift();
@@ -64,7 +65,7 @@ app.directive("rightSidebar", function(){
 				scope.opened = true;
 			};
 			scope.close = function(){
-				shiftRight = new ShiftBar(85, -1, "left", "#right-container");
+				shiftRight = new ShiftBar(85, 1, "left", "#right-container");
 				ShiftBar.prototype.interval = setInterval(function(){
 					// console.log(shiftRight.loc);
 					shiftRight.shift();
