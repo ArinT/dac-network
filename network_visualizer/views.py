@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, Http404
 from django.template import RequestContext, loader
 from django import forms
+import json
 from django.shortcuts import render_to_response, redirect
 from network_visualizer.query_database import *
 import json
@@ -28,37 +29,26 @@ def citation(request):
     context = RequestContext(request)
     return HttpResponse(template.render(context))
 
-class QueryForm(forms.Form):
-    query = forms.IntegerField()
+class QueryAuthorForm(forms.Form):
+    author_id = forms.IntegerField()
+class QueryPaperForm(forms.Form):
+    paper_id = forms.IntegerField()
 
 def query_author(request):
-    response = {}
     if request.method == 'POST':
-        print(request.POST)
-        response['success'] = True;
-        query = QueryForm(request.POST)
+        data = json.loads(request.body)
+        query = QueryAuthorForm(data)
         if query.is_valid():
-            print("query is valid")
-            context = query_list[0](query['query'].value())
+            context = query_list[0](query['author_id'].value())
             return context
-        return HttpResponse(json.dumps(response), content_type="application/json")
-    else:
-        response['success'] = False
-        print(response)
-        return HttpResponse(json.dumps(response), content_type="application/json")
-        # print(query)
-        # if query.is_valid():
-            # context = query_list[0](query['query'].value())
-            # return context
-        # return {'success':false}
 
 def query_paper(request):
     if request.method == 'POST':
-        query = QueryForm(request.POST)
+        data = json.loads(request.body)
+        query = QueryPaperForm(data)
         if query.is_valid():
-            context = query_list[1](query['query'].value())
-            return context
-# Create your views here.
+            context = query_list[1](query['paper_id'].value())
+            return context# Create your views here.
 
 
 
