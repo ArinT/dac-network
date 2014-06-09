@@ -1,20 +1,21 @@
 <style>
 	.container{
 		position: absolute;
-		overflow: auto;
+		overflow: hidden;
 		max-width: 220px;
-		right:85%;
+		right:99.5%;
 		height:100%;
+		background-color:#f5f5f5;
 	}
 	.middle{
-		position:relative;
+		position:fixed;
 		/*height:50%;*/
 		/*width:75%;*/
 		top:45%;
 		/*vertical-align: middle;*/
 		/*margin: 0 0 0 -37.5%;*/
 	}
-	.glyphicon-chevron-right{
+	.glyphicon-chevron-right, .glyphicon-chevron-left{
 		font-size:1.6em;
 	}
 	.open-close{
@@ -25,12 +26,13 @@
 				
 
 <div  class="container" style="float: left;">
-	<table class="table table-striped" >
+	<table class="table" style="height:100%;">
 		<tr class="open-close">
-			<th><h4>Search Results:</h4></th>
+			<!-- <th></th> -->
 			<td >
+				<h4>Search Results:</h4>
 				<div class="list-group">
-					<a class="list-group-item" ng-repeat="node in nodes | filter:search">{$ node.name $}</a>
+					<a ng-show="search !== null && search !=='' " class="list-group-item" ng-repeat="node in nodes | filter:search" ng-click="postAuthorId(node.ID)">{$ node.name $}</a>
 				</div>
 			</td>
 			<td class="middle">

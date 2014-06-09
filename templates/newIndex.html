@@ -39,6 +39,7 @@
 	<script src="/static/js/app.js"></script>
 	<script src="/static/js/NavbarDir.js"></script>
 	<script src="/static/js/SidebarDir.js"></script>
+	<!-- // <script src="/static/js/CitationNetworkGraphDir.js"></script> -->
 	<script src="/static/js/AuthorNetworkGraphDir.js"></script>
 	<script src="/static/js/d3.min.js" charset="utf-8"></script>
 	<script type="text/javascript">
@@ -54,7 +55,7 @@
 <body>
 	<mynavbar></mynavbar>
 	
-	<!-- <div ng-controller="myCtrl">	 -->
+	<div ng-controller="myCtrl">	
 	<sidebar></sidebar>
 		<!-- <div ng-show="search !== null && search !=='' " style="float: left;" class="col-md-2">
 			<h3>Search Results: </h3>
@@ -63,11 +64,11 @@
 			</div>
 		</div> -->
 		<!-- <div style="width:1px; border-style:solid; height:2000px;"></div> -->
-		<!-- <div graph class="col-md-7" id="graph"></div> -->
+		<!-- <div graph style="right:50%" id="graph"></div> -->
 		<div class="col-md-3" style="float: right;" >
 			<h3>About author:</h3>
 		</div>
-	<!-- </div> -->
+	</div>
 
 	<!-- <div id="graph"></div> -->
 	<script src="/static/js/network_graph.js" charset="utf-8"></script>

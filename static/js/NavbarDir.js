@@ -8,6 +8,7 @@ app.directive("mynavbar", function(){
 			$scope.search=null;
 			$rootScope.$watch("search", function(){
 				$scope.$broadcast("searching", $scope.search);
+				$scope.$emit("searching", $scope.search);
 			})
 			/* function might submit to back end or filter front end */
 			$scope.submitSearch = function(){
