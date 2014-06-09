@@ -12,11 +12,12 @@ def calculate_all_centralities():
     t = centrality.closeness_centrality(G)
     u = centrality.betweenness_centrality(G)
     # v = centrality.eigenvector_centrality(G)
-    i = 0
+
     for author in data['nodes']:
-        author['degreeCentrality'] = s[i+1]
-        author['closenessCentrality'] = t[i+1]
-        author['betweennessCentrality'] = u[i+1]
+        i = author['id']
+        author['degreeCentrality'] = s[i]
+        author['closenessCentrality'] = t[i]
+        author['betweennessCentrality'] = u[i]
 
     writer = open("../static/json/authors_centrality.json", "w+")
     writer.write(json.dumps(data))
