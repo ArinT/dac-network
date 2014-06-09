@@ -4,7 +4,7 @@ app.directive("sidebar", function(){
 		templateUrl:"/static/partials/LeftSidebar.html",
 		controller:function($scope, MessageServer){
 			$scope.messageServer = MessageServer;
-			$scope.opened = false;
+			$scope.leftOpened = false;
 			$scope.arrowPosition = 100;
 			$scope.postAuthorId = function(id){
 				console.log(id);
@@ -13,29 +13,30 @@ app.directive("sidebar", function(){
 		},
 		link: function(scope, elem, attr){
 			
-			scope.open = function(){
+			scope.leftOpen = function(){
 
-				shiftRight = new ShiftBar(99.5, 1, "right", "#left-container");
+				shiftRight = new ShiftBar(98, 1, "right", "#left-container");
 				ShiftBar.prototype.interval = setInterval(function(){
 					// console.log(shiftRight.loc);
 					shiftRight.shift();
 				}, 1);
-				scope.opened = true;
+				scope.leftOpened = true;
 			};
-			scope.close = function(){
+			scope.leftClose = function(){
 				shiftRight = new ShiftBar(85, -1, "right", "#left-container");
 				ShiftBar.prototype.interval = setInterval(function(){
 					// console.log(shiftRight.loc);
 					shiftRight.shift();
 				}, 1);
-				scope.opened = false;
+				scope.leftOpened = false;
 			};
 			scope.$on("searching",function(event,search){
+
 				if(search === null || search ==='' ){
-					scope.close();
+					scope.leftClose();
 				}
 				else{
-					scope.open();
+					scope.leftOpen();
 				}
 			});
 		}
@@ -47,7 +48,7 @@ app.directive("rightSidebar", function(){
 		templateUrl:"/static/partials/RightSidebar.html",
 		controller:function($scope){
 			// $scope.messageServer = MessageServer;
-			$scope.opened = false;
+			$scope.rightOpened = false;
 			$scope.arrowPosition = 100;
 			// $scope.postAuthorId = function(id){
 			// 	$scope.messageServer.queryAuthors(id);
@@ -55,31 +56,23 @@ app.directive("rightSidebar", function(){
 		},
 		link: function(scope, elem, attr){
 			
-			scope.open = function(){
+			scope.rightOpen = function(){
 
-				shiftRight = new ShiftBar(99.5, -1, "left", "#right-container");
+				shiftRight = new ShiftBar(98, 1, "left", "#right-container");
 				ShiftBar.prototype.interval = setInterval(function(){
 					// console.log(shiftRight.loc);
 					shiftRight.shift();
 				}, 1);
-				scope.opened = true;
+				scope.rightOpened = true;
 			};
-			scope.close = function(){
-				shiftRight = new ShiftBar(85, 1, "left", "#right-container");
+			scope.rightClose = function(){
+				shiftRight = new ShiftBar(90, -1, "left", "#right-container");
 				ShiftBar.prototype.interval = setInterval(function(){
 					// console.log(shiftRight.loc);
 					shiftRight.shift();
 				}, 1);
-				scope.opened = false;
+				scope.rightOpened = false;
 			};
-			scope.$on("searching",function(event,search){
-				if(search === null || search ==='' ){
-					scope.close();
-				}
-				else{
-					scope.open();
-				}
-			});
 		}
 	}
 });
@@ -89,9 +82,9 @@ function ShiftBar(location, value, side, elem) {
 	this.loc = location;
 	this.val = value;
 	this.shift = function(){
-		if(this.loc >99.5){
+		if(this.loc >98){
 			// console.log(this.loc);
-			$(this.elem).css(side, "99.5%");
+			$(this.elem).css(side, "98%");
 			$(this.elem).css("overflow", "hidden");
 			clearInterval(this.interval);
 		}

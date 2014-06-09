@@ -3,13 +3,14 @@
 		position: absolute;
 		float:right;
 		overflow: hidden;
-		max-width: 220px;
-		left:97.5%;
+		width: 15%;
+		left:98%;
 		height:100%;
 		background-color:#f5f5f5;
 	}
-	.middle{
-		position:fixed;
+	.right-middle{
+		position:relative;
+		/*left:50%;*/
 		/*height:50%;*/
 		/*width:75%;*/
 		top:45%;
@@ -26,13 +27,12 @@
 </style>
 				
 
-<div  id="right-container" style="float: left;">
+<div  id="right-container" >
 	<table class="table" style="height:100%;">
 		<tr class="open-close">
-			<!-- <th></th> -->
-			<td class="middle">
-				<div ng-show="opened===false" ng-click="open()" class="middle glyphicon glyphicon-chevron-left"></div>
-				<div ng-show="opened===true" ng-click="close()" class="middle glyphicon glyphicon-chevron-right"></div>
+			<td class="right-middle">
+				<div ng-show="rightOpened===false" ng-click="rightOpen()" class="right-middle glyphicon glyphicon-chevron-left"></div>
+				<div ng-show="rightOpened===true" ng-click="rightClose()" class="right-middle glyphicon glyphicon-chevron-right"></div>
 			</td>
 			<td>
 				<h4>Author Paper:</h4>

@@ -15,8 +15,12 @@ app.service("MessageServer", function($http){
 		return myNodes;
 	}
 	this.queryAuthors = function(authorId){
-		var data = {'author_id':authorId}
-		console.log(data);
+		var myData = {'author_id':authorId}
+		// $http({
+		// 	method: 'POST',
+		// 	url: '/query_author',
+		// 	data: myData
+		// })
 		$http.post("/query_author",data)
 			.success(function(data, status, headers, config){
 				console.log(data);
