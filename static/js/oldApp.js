@@ -1,11 +1,8 @@
-var app = angular.module('CitationNetwork',[]).config(function($interpolateProvider, $httpProvider) {
+var app = angular.module('CitationNetwork',[]).config(function($interpolateProvider) {
 	//this is added because django and angular have similar ways of placing variable on a page
 	//angular variable should be used like: {$ myVar $}
     $interpolateProvider.startSymbol('{$');
     $interpolateProvider.endSymbol('$}');
-    //needed to send post requests to django
-    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
-    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
 	});
 app.service("MessageServer", function($http){
 	var myNodes = null;
@@ -15,15 +12,10 @@ app.service("MessageServer", function($http){
 		return myNodes;
 	}
 	this.queryAuthors = function(authorId){
-		console.log("got request");
+		console.log(authorId);
 		$http.post("/query_author",{'author_id':authorId})
 			.success(function(data, status, headers, config){
-				console.log(data);
-				if(data.success){
-
-				}
-				else{
-				}
+				
 			})
 			.error(function(data, status, headers, config){
 				console.log("error");
@@ -34,11 +26,9 @@ app.service("MessageServer", function($http){
 	 *	the javascript has an array to filter through.
 	 */
 	this.readNodes = function(){
-		console.log("read nodes called");
-		$http.get("../../static/json/authors_centrality.json")
+		$http.get("../../static/json/author.json")
 			.success(function(data, status, headers, config){
 				myNodes = data.nodes;
-				console.log(myNodes[0]);
 			})
 			.error(function(data, status, headers, config){
 				console.log("error");
