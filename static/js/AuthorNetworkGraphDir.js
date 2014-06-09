@@ -30,7 +30,7 @@ app.directive("graph", function(){
 			  svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 			}
 
-			d3.json("../../static/json/author.json", function(error, graph) {
+			d3.json("../../static/json/authors_centrality.json", function(error, graph) {
 				console.log(graph.nodes[0])
 				force
 					.nodes(graph.nodes)
@@ -50,10 +50,10 @@ app.directive("graph", function(){
 			  		.attr("class", "node")
 			  		.attr("r", 5)
 			  		.style("fill", function(d){
-			  			if(d.centralityScore == -1){
+			  			if(d.degreeCentrality == -1){
 			  				return "hsl(120,100% ,50%)";
 			  			}
-			  			var hue = Math.round((d.centralityScore) * 100);
+			  			var hue = Math.round((d.degreeCentrality) * 100);
 			  			return "hsl("+hue+",100% ,50%)";
 			  		})
 			  		// .style("fill",color(2))
@@ -77,7 +77,7 @@ app.directive("graph", function(){
 			  		});
 			  	node.append("title")
 			  		.text(function(d){ 
-			  			return d.name+"\n Score "+d.centralityScore; 
+			  			return d.name+"\n Score "+d.degreeCentrality; 
 			  		});
 			  	link.append("title")
 			  		.text(function(d){

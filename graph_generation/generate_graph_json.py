@@ -2,8 +2,8 @@ __author__ = 'arin'
 import json
 import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.settings')
-from network_visualizer.models import Citations
-from network_visualizer.models import Papers
+from django.db import connection
+from network_visualizer.models import Papers, Authors, Citations
 def generate_citation_network_json():
     citations = Citations.objects.all()
     papers = Papers.objects.all()
@@ -29,4 +29,30 @@ def generate_citation_network_json():
     j = {'nodes':nodes,'links':edges}
     writer = open('citations.json','w+')
     writer.write(json.dumps(j))
-generate_citation_network_json()
+def get_collaborations():
+    cursor = connection.cursor()
+    cursor.execute('SELECT w1.AuthorId, w2.AuthorId FROM Works w1 '
+                   'JOIN Works w2 ON w1.PaperId = w2.PaperId '
+                   'WHERE w1.AuthorId > w2.AuthorId')
+    return cursor.fetchall()
+def generate_author_network_json():
+    authors = Authors.objects.all()
+    nodes = []
+    edges = []
+    collaborations = get_collaborations()
+    for author in authors:
+        nodes.append({'id': author.authorid, 'name':author.authorname})
+    for collaboration in collaborations:
+        source = -1
+        target = -1
+        for i in range(0, len(authors)):
+            if authors[i].authorid == collaboration[0]:
+                source = i
+            if authors[i].authorid == collaboration[1]:
+                target = i
+        if target != -1 and source !=-1:
+            edges.append({'source':source, 'target':target})
+    j = {'nodes':nodes, 'links':edges}
+    writer = open('authors.json','w+')
+    writer.write(json.dumps(j))
+generate_author_network_json()
