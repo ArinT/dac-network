@@ -2,7 +2,7 @@ __author__ = 'arin'
 from networkx.readwrite import json_graph
 from networkx.algorithms import centrality
 import json
-
+import math
 
 def calculate_all_centralities():
     data = json.load(open("../static/json/authors.json"))
@@ -11,24 +11,27 @@ def calculate_all_centralities():
     closeness = centrality.closeness_centrality(G)
     betweeness = centrality.betweenness_centrality(G)
     #eigenvector = centrality.eigenvector_centrality(G)
-    degree_max = -1
-    closeness_max = -1
-    betweeness_max = -1
-    for item in degree:
-        if item>degree_max:
-            degree_max = item
-    for item in closeness:
-        if item>closeness_max:
-            clo_max = item
-    for item in betweeness:
-        if item>betweeness_max:
-            betweeness_max = item
-    for item in degree:
-        item = item/degree_max
-    for item in closeness:
-        item = item/closeness_max
-    for item in betweeness:
-        item = item/betweeness_max
+    degree_max = -1.0
+    closeness_max = -1.0
+    betweeness_max = -1.0
+    for i in degree:
+        if degree[i]>degree_max:
+            degree_max = degree[i]
+    for i in closeness:
+        if closeness[i]>closeness_max:
+            closeness_max = closeness[i]
+    for i in betweeness:
+        if betweeness[i]>betweeness_max:
+            betweeness_max = betweeness[i]
+    for i in degree:
+        if degree[i] != 0:
+            degree[i] = math.log(degree[i]/degree_max)
+    for i in closeness:
+        if closeness[i] != 0:
+            closeness[i] = math.log(closeness[i]/closeness_max)
+    for i in betweeness:
+        if betweeness[i] != 0:
+            betweeness[i] = math.log(betweeness[i]/betweeness_max)
     for author in data['nodes']:
         i = author['id']
         author['degreeCentrality'] = degree[i]

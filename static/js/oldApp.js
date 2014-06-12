@@ -26,7 +26,7 @@ app.service("MessageServer", function($http){
 	 *	the javascript has an array to filter through.
 	 */
 	this.readNodes = function(){
-		$http.get("../../static/json/author.json")
+		$http.get("../../static/json/authors_centrality.json")
 			.success(function(data, status, headers, config){
 				myNodes = data.nodes;
 			})
