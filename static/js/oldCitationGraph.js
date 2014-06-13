@@ -5,29 +5,26 @@ app.directive("citationGraph", function(){
 
 		},
 		link:function(scope, elem, attrs){
-			var width = 500; // $(".graphs").width();
-			var height = 500; //$(".graphs").height();
+			var width = 1000;//$("#graph").width();
+			var height = 1000;//$("#graph").height();
 
 			var color = d3.scale.category20b();
 
 			var force = d3.layout.force()
-			    .charge(-250)
+			    .charge(-100)
 			    .linkDistance(75)
 			    .size([width, height]);
 			    force.gravity(0.25);
-
+			    // force.on("tick", function(){
+			    // 	nodes[0].x = width/2;
+			    // 	nodes[0].y = height/2;
+			    // });
 			var svg = d3.select("#citation-graph").append("svg")
-			    // .attr("width", width)
-			    // .attr("height", height)
-				.attr({
-					"width": "100%",
-					"height": "80%"
-				})
-				.attr("viewBox", "0 0 " + width + " " + height )
-				.attr("preserveAspectRatio", "xMidYMid meet")
-			    .append("g")
-			    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
-			    .append("g");
+			    .attr("width", width)
+			    .attr("height", height)
+			    // .append("g")
+			    // .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
+			    // .append("g");
 			    
 			function zoom() {
 			  svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
@@ -44,8 +41,6 @@ app.directive("citationGraph", function(){
 			    	force.tick();
 			    }
 			    force.stop();
-
-			    //adding the positions of the lines and nodes here, instead of on "tick" makes it static
 				var link = svg.selectAll("line")
 					.data(graph.links)
 					.enter().append("line")
@@ -63,29 +58,7 @@ app.directive("citationGraph", function(){
 					.attr("class","node")
 					.attr("cx", function(d) { return d.x })
 					.attr("cy", function(d) { return d.y })
-					.attr("r", 5)
-					.on("click", function(d){
-			  			scope.$emit("clicked", d);
-				         d3.selectAll(".link")
-				            .filter(function(l)
-				             {
-				                 return (l.source.index!==d.index && l.target.index!==d.index);
-				             })
-				             .style({'stroke-opacity':0.5,'stroke':'#999'});
-				     
-				             d3.selectAll(".link")
-				            .filter(function(l)
-				             {
-				                 return (l.source.index===d.index || l.target.index===d.index);
-				             })
-				             .style({'stroke-opacity':0.8,'stroke':'#F0F'});
-			  			
-			  		})
-			  		.append("title")
-			  		.text(function(d){ 
-			  			return d.title; 
-			  		});
-
+					.attr("r", 5);
 
 				// svg.append("svg:g")
 				// 	.selectAll("")
@@ -103,23 +76,23 @@ app.directive("citationGraph", function(){
 			  	// 		return "hsl("+hue+",100% ,50%)";
 			  	// 	})
 			  	// 	// .style("fill",color(2))
-			  		// .on("click", function(d){
-			  		// 	scope.$emit("clicked", d);
-				   //       d3.selectAll(".link")
-				   //          .filter(function(l)
-				   //           {
-				   //               return (l.source.index!==d.index && l.target.index!==d.index);
-				   //           })
-				   //           .style({'stroke-opacity':0.5,'stroke':'#999'});
+			  	// 	.on("click", function(d){
+			  	// 		scope.$emit("clicked", d);
+				  //        d3.selectAll(".link")
+				  //           .filter(function(l)
+				  //            {
+				  //                return (l.source.index!==d.index && l.target.index!==d.index);
+				  //            })
+				  //            .style({'stroke-opacity':0.5,'stroke':'#999'});
 				     
-				   //           d3.selectAll(".link")
-				   //          .filter(function(l)
-				   //           {
-				   //               return (l.source.index===d.index || l.target.index===d.index);
-				   //           })
-				   //           .style({'stroke-opacity':0.8,'stroke':'#F0F'});
+				  //            d3.selectAll(".link")
+				  //           .filter(function(l)
+				  //            {
+				  //                return (l.source.index===d.index || l.target.index===d.index);
+				  //            })
+				  //            .style({'stroke-opacity':0.8,'stroke':'#F0F'});
 			  			
-			  		// });
+			  	// 	});
 			  	// node.append("title")
 			  	// 	.text(function(d){ 
 			  	// 		return d.title; 

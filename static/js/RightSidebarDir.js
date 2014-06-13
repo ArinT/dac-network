@@ -8,6 +8,7 @@ app.directive("rightSidebar", function(){
 			$scope.rightOpened = false;
 			$scope.$watch("messageServer.getAuthorPapers()", function(newVal, oldVal){
 				$scope.authorPapers = newVal;
+				console.log($scope.authorPapers);
 				if($scope.authorPapers !== null){
 					$scope.rightOpened = true;
 					$scope.rightOpen();

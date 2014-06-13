@@ -14,10 +14,7 @@
 		  overflow-y:auto;
 		  overflow-x:hidden;
 		}*/
-		#main {
-		  height:100%;
-		  overflow:auto;
-		}
+	
 		.node {
 		  stroke: #fff;
 		  stroke-width: 1.5px;
@@ -27,6 +24,14 @@
 		  stroke: #999;
 		  stroke-opacity: .8;
 		}
+		.graphs {
+	        max-width: 75%;
+	        max-height: 75%;
+	        padding: 19px 29px 29px;
+	        margin: 0 auto 20px;
+	        background-color: #fff;
+	        /*border: 1px solid #e5e5e5;*/
+	      }
 		body{
 			padding-top: 55px;
 		}
@@ -43,23 +48,24 @@
 	<script src="/static/js/SidebarDir.js"></script>
 	<script src="/static/js/RightSidebarDir.js"></script>
 	<script src="/static/js/AuthorNetworkGraphDir.js"></script>
+	<script src="/static/js/StaticAuthorDir.js"></script>
 	<script src="/static/js/CitationNetworkGraphDir.js"></script>
 	<script src="/static/js/d3.min.js" charset="utf-8"></script>
 	<script type="text/javascript">
-	console.log($(document).scrollTop());
-	$(document).ready(function(){
-	    var height = $(window).height();
-	    $("svg").css("height", height-10);
-	    $(".resize").css("height", height-10);
+		console.log($(document).scrollTop());
+		$(document).ready(function(){
+		    var height = $(window).height();
+		    $("svg").css("height", height-10);
+		    $(".resize").css("height", height-10);
 
-	});
-</script>
+		});
+	</script>
 </head>
 <body>
 	<mynavbar></mynavbar>
 	
 	<div  ng-controller="myCtrl">	
-		<div ng-view></div>
+		<div class="graphs" ng-view></div>
 		<sidebar></sidebar>
 		<right-sidebar></right-sidebar>
 	</div>
