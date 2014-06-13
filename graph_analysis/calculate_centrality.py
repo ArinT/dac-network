@@ -25,13 +25,13 @@ def calculate_all_centralities():
             betweeness_max = betweeness[i]
     for i in degree:
         if degree[i] != 0:
-            degree[i] = math.log(degree[i]/degree_max)
+            degree[i] = degree[i]/degree_max
     for i in closeness:
         if closeness[i] != 0:
-            closeness[i] = math.log(closeness[i]/closeness_max)
+            closeness[i] = closeness[i]/closeness_max
     for i in betweeness:
         if betweeness[i] != 0:
-            betweeness[i] = math.log(betweeness[i]/betweeness_max)
+            betweeness[i] = betweeness[i]/betweeness_max
     for author in data['nodes']:
         i = author['id']
         author['degreeCentrality'] = degree[i]
