@@ -1,0 +1,5 @@
+SELECT COUNT(*) as "Publications per year", a.AuthorName as "Author Name", a.AuthorID as "Author ID", SUBSTRING(p.DOI,5,4) as "Year" FROM Authors a
+	JOIN Works w ON w.AuthorID = a.AuthorID
+	JOIN Papers p on p.PaperID = w.PaperID
+	GROUP BY SUBSTRING(p.DOI,3,7), a.AuthorName, a.AuthorID
+	ORDER BY SUBSTRING(p.DOI,5,4), COUNT(*) DESC
