@@ -1,42 +1,39 @@
 <style>
 	#right-container{
-		position: absolute;
+		position: fixed;
 		float:right;
 		overflow: hidden;
 		width: 15%;
 		left:98%;
 		height:100%;
 		background-color:#f5f5f5;
+		top:7%;
 	}
 	.right-middle{
 		position:relative;
-		/*left:50%;*/
-		/*height:50%;*/
-		/*width:75%;*/
-		top:45%;
-		/*vertical-align: middle;*/
-		/*margin: 0 0 0 -37.5%;*/
+		top:40%;
+		height:100%;
 	}
 	.glyphicon-chevron-right, .glyphicon-chevron-left{
 		font-size:1.6em;
-	}
-	.open-close{
-		position: relative;
-		/*right:%;*/
 	}
 </style>
 				
 
 <div  id="right-container" >
-	<table class="table" style="height:100%;">
-		<tr class="open-close">
-			<td class="right-middle">
-				<div ng-show="rightOpened===false" ng-click="rightOpen()" class="right-middle glyphicon glyphicon-chevron-left"></div>
-				<div ng-show="rightOpened===true" ng-click="rightClose()" class="right-middle glyphicon glyphicon-chevron-right"></div>
+	<table  style="height:100%" class="table table-bordered">
+		<tr>
+			<td style="padding:3px;" class="right-middle" >
+				<div ng-show="rightOpened===false" ng-click="rightOpen()" class="glyphicon glyphicon-chevron-left"></div>
+				<div ng-show="rightOpened===true" ng-click="rightClose()" class="glyphicon glyphicon-chevron-right"></div>
 			</td>
 			<td>
-				<h4>Author Paper:</h4>
+				<h4>Author's Papers:</h4>
+				<div class="list-group">
+					<a ng-show="search !== null && search !=='' " class="list-group-item" ng-repeat="paper in authorPapers" href="{$paper.url$}">{$ paper.title $}</a>
+				</div>
 			</td>
 		</tr>
 	</table>
+
 </div>

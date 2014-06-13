@@ -43,7 +43,8 @@ def query_author(request):
         query = QueryAuthorForm(data)
         if query.is_valid():
             context = query_list[0](query['author_id'].value())
-            return context
+            print(context)
+            return HttpResponse(json.dumps(context), content_type="application/json")
 
 def query_paper(request):
     if request.method == 'POST':

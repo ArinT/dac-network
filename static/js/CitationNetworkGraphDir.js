@@ -1,4 +1,4 @@
-app.directive("graph", function(){
+app.directive("citationGraph", function(){
 	return {
 		restrict:"A",
 		controller:function($scope){
@@ -19,7 +19,7 @@ app.directive("graph", function(){
 			    // 	nodes[0].x = width/2;
 			    // 	nodes[0].y = height/2;
 			    // });
-			var svg = d3.select("#graph").append("svg")
+			var svg = d3.select("#citation-graph").append("svg")
 			    .attr("width", width)
 			    .attr("height", height)
 			    .append("g")

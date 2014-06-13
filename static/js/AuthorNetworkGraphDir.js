@@ -1,4 +1,4 @@
-app.directive("graph", function(){
+app.directive("authorGraph", function(){
 	return {
 		restrict:"A",
 		controller:function($scope){
@@ -19,7 +19,7 @@ app.directive("graph", function(){
 			    // 	nodes[0].x = width/2;
 			    // 	nodes[0].y = height/2;
 			    // });
-			var svg = d3.select("#graph").append("svg")
+			var svg = d3.select("#author-graph").append("svg")
 			    .attr("width", width)
 			    .attr("height", height)
 			    .append("g")
@@ -90,8 +90,8 @@ app.directive("graph", function(){
 			        	.attr("x2", function(d) { return d.target.x; })
 			        	.attr("y2", function(d) { return d.target.y; });
 
-			    node.attr("cx", function(d) { return d.x; })
-			        .attr("cy", function(d) { return d.y; });
+			    	node.attr("cx", function(d) { return d.x; })
+			        	.attr("cy", function(d) { return d.y; });
 			  	});
 			});
 		}

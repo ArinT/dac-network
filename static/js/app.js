@@ -1,4 +1,8 @@
-var app = angular.module('CitationNetwork',[]).config(function($interpolateProvider, $httpProvider) {
+var app = angular.module('CitationNetwork',['ngRoute'], function( $routeProvider){
+	$routeProvider.when('/authorNetwork', {templateUrl: '/static/partials/AuthorGraph.html'});
+	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/CitationGraph.html'});
+	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
+}).config(function($interpolateProvider, $httpProvider) {
 	//this is added because django and angular have similar ways of placing variable on a page
 	//angular variable should be used like: {$ myVar $}
     $interpolateProvider.startSymbol('{$');
@@ -6,50 +10,12 @@ var app = angular.module('CitationNetwork',[]).config(function($interpolateProvi
     //needed to send post requests to django
     $httpProvider.defaults.xsrfCookieName = 'csrftoken';
     $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
+
+	
+
 	});
-app.service("MessageServer", function($http){
-	var myNodes = null;
-	var authorInfo = null;
 
-	this.getNodes = function(){
-		return myNodes;
-	}
-	this.queryAuthors = function(authorId){
-		var myData = {'author_id':authorId}
-		// $http({
-		// 	method: 'POST',
-		// 	url: '/query_author',
-		// 	data: myData
-		// })
-		$http.post("/query_author",data)
-			.success(function(data, status, headers, config){
-				console.log(data);
-				if(data.success){
-
-				}
-				else{
-				}
-			})
-			.error(function(data, status, headers, config){
-				console.log("error");
-			});
-	}
-	/** 
-	 *	reads the authors.json file so that when a user searches for an author
-	 *	the javascript has an array to filter through.
-	 */
-	this.readNodes = function(){
-		console.log("read nodes called");
-		$http.get("../../static/json/authors_centrality.json")
-			.success(function(data, status, headers, config){
-				myNodes = data.nodes;
-				console.log(myNodes[0]);
-			})
-			.error(function(data, status, headers, config){
-				console.log("error");
-			});
-	};
-});
+	
 app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", function($rootScope, $scope, MessageServer){
 	//set a scope varialbe equal to service, so the scope can watch for a change in value.
 	$scope.messageServer = MessageServer;
