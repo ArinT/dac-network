@@ -1,33 +1,27 @@
 <style>
 	#left-container{
-		position: absolute;
+		position: fixed;
 		float:left;
 		overflow: hidden;
-		width: 14%;
+		width: 15%;
 		right:98%;
 		height:100%;
 		background-color:#f5f5f5;
+		top:7%;
 	}
 	.left-middle{
 		position:relative;
-		/*height:50%;*/
-		/*width:75%;*/
 		top:40%;
-		/*vertical-align: left-middle;*/
-		/*margin: 0 0 0 -37.5%;*/
+		height:100%;
 	}
 	.glyphicon-chevron-right, .glyphicon-chevron-left{
 		font-size:1.6em;
-	}
-	.open-close{
-		position: relative;
-		/*right:%;*/
 	}
 </style>
 				
 
 <div  id="left-container" >
-	<table class="table" style="height:100%;">
+	<table style="height:100%" class="table" >
 		<tr>
 			<td >
 				<h4>Search Results:</h4>
@@ -35,9 +29,9 @@
 					<a ng-show="search !== null && search !=='' " class="list-group-item" ng-repeat="node in nodes | filter:search" ng-click="postAuthorId(node.id)">{$ node.name $}</a>
 				</div>
 			</td>
-			<td class="left-middle">
-				<div ng-show="leftOpened===false" ng-click="leftOpen()" class="left-middle glyphicon glyphicon-chevron-right"></div>
-				<div ng-show="leftOpened===true" ng-click="leftClose()" class="left-middle glyphicon glyphicon-chevron-left"></div>
+			<td style="padding:2px;" class="left-middle">
+				<div ng-show="leftOpened===false" ng-click="leftOpen()" class="glyphicon glyphicon-chevron-right"></div>
+				<div ng-show="leftOpened===true" ng-click="leftClose()" class="glyphicon glyphicon-chevron-left"></div>
 			</td>
 		</tr>
 	</table>

@@ -3,17 +3,17 @@
 <head>
     <title>DAC Citation Network</title>
 	<style>
-		.sidebar {
+	/*	.sidebar {
 		  width: inherit;
 		  min-width: 220px;
 		  max-width: 220px;
-		  /*background-color:#f5f5f5;*/
-		  /*float: left;*/
+		  background-color:#f5f5f5;
+		  float: left;
 		  height:100%;
 		  position:relative;
 		  overflow-y:auto;
 		  overflow-x:hidden;
-		}
+		}*/
 		#main {
 		  height:100%;
 		  overflow:auto;
@@ -28,7 +28,7 @@
 		  stroke-opacity: .8;
 		}
 		body{
-			padding-top: 60px;
+			padding-top: 55px;
 		}
 	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,10 +36,14 @@
 	<script src="/static/js/lib/jquery-1.11.0.min.js"></script>
 	<script src="/static/js/lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/static/js/lib/angular/angular.js"></script>
+	<script src="/static/js/lib/angular/angular-route.js"></script>
 	<script src="/static/js/app.js"></script>
+	<script src="/static/js/services.js"></script>
 	<script src="/static/js/NavbarDir.js"></script>
 	<script src="/static/js/SidebarDir.js"></script>
+	<script src="/static/js/RightSidebarDir.js"></script>
 	<script src="/static/js/AuthorNetworkGraphDir.js"></script>
+	<script src="/static/js/CitationNetworkGraphDir.js"></script>
 	<script src="/static/js/d3.min.js" charset="utf-8"></script>
 	<script type="text/javascript">
 	console.log($(document).scrollTop());
@@ -54,19 +58,9 @@
 <body>
 	<mynavbar></mynavbar>
 	
-	<div ng-controller="myCtrl">	
-	<sidebar></sidebar>
-		<!-- <div ng-show="search !== null && search !=='' " style="float: left;" class="col-md-2">
-			<h3>Search Results: </h3>
-			<div class="list-group">
-				<a class="list-group-item" ng-repeat="node in nodes | filter:search">{$ node.name $}</a>
-			</div>
-		</div> -->
-		<!-- <div style="width:1px; border-style:solid; height:2000px;"></div> -->
-		  <div graph class="col-md-7" id="graph"></div>
-		<!-- <div class="col-md-3" style="float: right;" >
-			<h3>About author:</h3>
-		</div> -->
+	<div  ng-controller="myCtrl">	
+		<div ng-view></div>
+		<sidebar></sidebar>
 		<right-sidebar></right-sidebar>
 	</div>
 
