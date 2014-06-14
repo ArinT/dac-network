@@ -81,10 +81,6 @@ app.directive("authorGraph", function(){
 			  		.text(function(d){ 
 			  			return d.name+"\n Score "+d.degreeCentrality; 
 			  		});
-			  	link.append("title")
-			  		.text(function(d){
-			        	return "number of papers:"+d.value;          
-			      	});
 
 			  	force.on("tick", function() {
 			  		link.attr("x1", function(d) { return d.source.x; })
