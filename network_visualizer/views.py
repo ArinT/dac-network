@@ -32,6 +32,10 @@ def chrono(request):
     template = loader.get_template('chrono.html')
     context = RequestContext(request)
     return HttpResponse(template.render(context))
+def freqplot(request):
+    template = loader.get_template('freqplot.html')
+    context = RequestContext(request)
+    return HttpResponse(template.render(context))
 class QueryAuthorForm(forms.Form):
     author_id = forms.IntegerField()
 class QueryPaperForm(forms.Form):
