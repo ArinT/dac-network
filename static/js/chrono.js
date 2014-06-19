@@ -1,4 +1,10 @@
+app.directive("chrono", function(){
+  return {
+    restrict:"A",
+    controller:function($scope){
 
+    },
+    link:function(scope, elem, attrs){
 
 chart("../static/csv/chronological_array_top100.csv", "orange");
 
@@ -24,10 +30,10 @@ var margin = {top: 20, right: 40, bottom: 30, left: 30};
 var width = document.body.clientWidth - margin.left - margin.right;
 var height = 400 - margin.top - margin.bottom;
 
-var tooltip = d3.select("body")
+var tooltip = d3.select("#chrono")
     .append("div")
     .attr("class", "remove")
-    .style("position", "absolute")
+    .style("position", "relative")
     .style("z-index", "20")
     .style("visibility", "hidden")
     .style("top", "30px")
@@ -71,9 +77,9 @@ var area = d3.svg.area()
     .y0(function(d) { return y(d.y0); })
     .y1(function(d) { return y(d.y0 + d.y); });
 
-var svg = d3.select(".chart").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+var svg = d3.select("#chrono").append("svg")
+    // .attr("width", width + margin.left + margin.right)
+    // .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -174,4 +180,6 @@ var graph = d3.csv(csvpath, function(data) {
          vertical.style("left", mousex + "px")});
 });
 }
-
+}
+}
+});

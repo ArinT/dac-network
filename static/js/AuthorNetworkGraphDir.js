@@ -1,12 +1,16 @@
+app.controller("authorGraphCtrl", function($scope){
+	$scope.typeGraph = "degree";
+	$scope.$watch("typeGraph", function(newVal, old){
+		$scope.$broadcast(newVal);
+	});
+});
 app.directive("authorGraph", function(){
 	return {
 		restrict:"A",
-		controller:function($scope){
-
-		},
+		controller:"authorGraphCtrl",
 		link:function(scope, elem, attrs){
-			var width = 1000; //$("#author-graph").width();
-			var height = $(window).height(); //1000; //$("#author-graph").height();
+			var width = $(window).width();
+			var height = $(window).height();
 
 			var color = d3.scale.category20b();
 
@@ -51,17 +55,11 @@ app.directive("authorGraph", function(){
 			  		.attr("class", "node")
 			  		.attr("r", 5)
 			  		.style("fill", function(d){
-			  			if(d.degreeCentrality == -1){
-			  				return "hsl(120,100% ,50%)";
-			  			}
-			  			var hue = Math.round((d.degreeCentrality) * 100);
+			  			var hue = Math.round((1/d.degreeCentrality));
 			  			return "hsl("+hue+",100% ,50%)";
 			  		})
-			  		// .style("fill",color(2))
 			  		.on("click", function(d){
-			  			console.log(d.name);
 			  			scope.$emit("AuthorNodeClicked", d);
-			  			 // document.getElementById("demo").value=d.name+"\n Score "+d.centralityScore;
 				         d3.selectAll(".link")
 				            .filter(function(l)
 				             {
@@ -75,12 +73,51 @@ app.directive("authorGraph", function(){
 				                 return (l.source.index===d.index || l.target.index===d.index);
 				             })
 				             .style({'stroke-opacity':0.8,'stroke':'#F0F'});
-			  			// document.getElementById("demo").value=d.name+"\n Score "+d.centralityScore;
 			  		});
+		  		scope.$on("closeness",function(){
+					svg.selectAll(".node")
+					  		.style("fill", function(d){
+					  			var hue = Math.round((1/d.closenessCentrality));
+					  			return "hsl("+hue+",100% ,50%)";
+					  		});
+			  		svg.selectAll("title")
+				  		.text(function(d){ 
+				  			return d.name+"\n Score: "+d.closenessCentrality; 
+				  		});
+
+		  		});
+		  		scope.$on("degree",function(){
+					svg.selectAll(".node")
+					  		.style("fill", function(d){
+					  			var hue = Math.round((1/d.degreeCentrality));
+					  			return "hsl("+hue+",100% ,50%)";
+					  		});
+			  		svg.selectAll("title")
+				  		.text(function(d){ 
+				  			return d.name+"\n Score: "+d.degreeCentrality; 
+				  		});
+
+		  		});
+		  		scope.$on("betweenness",function(){
+					svg.selectAll(".node")
+					  		.style("fill", function(d){
+					  			var hue = Math.round((1/d.betweennessCentrality));
+					  			return "hsl("+hue+",100% ,50%)";
+					  		});
+			  		svg.selectAll("title")
+				  		.text(function(d){ 
+				  			return d.name+"\n Score: "+d.betweennessCentrality; 
+				  		});
+
+		  		});	
 			  	node.append("title")
 			  		.text(function(d){ 
 			  			return d.name+"\n Score "+d.degreeCentrality; 
 			  		});
+			  	link.append("title")
+			  		.text(function(d){
+			        	return "number of papers:"+d.value;          
+			      	});
 
 			  	force.on("tick", function() {
 			  		link.attr("x1", function(d) { return d.source.x; })

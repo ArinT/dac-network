@@ -1,4 +1,11 @@
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+app.directive("freqplot", function(){
+  return {
+    restrict:"A",
+    controller:function($scope){
+
+    },
+    link:function(scope, elem, attrs){
+      var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -20,7 +27,7 @@ var yAxis = d3.svg.axis()
     .orient("left")
     .tickFormat(d3.format(".2s"));
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#freqplot").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -90,3 +97,6 @@ d3.csv("../static/csv/degree_frequency_plot.csv", function(error, data) {
 
 });
 
+}
+}
+});
