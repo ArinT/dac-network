@@ -4,6 +4,7 @@ var app = angular.module('CitationNetwork',['ngRoute'], function( $routeProvider
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
 	$routeProvider.when('/chrono', {templateUrl: '/static/partials/chronologicalGraph.html'});
 	$routeProvider.when('/freqplot', {templateUrl: '/static/partials/freqplot.html'});
+	$routeProvider.when('/suggestions', {templateUrl: '/static/partials/Suggestions.html'});
 	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
 }).config(function($interpolateProvider, $httpProvider) {
 	//this is added because django and angular have similar ways of placing variable on a page
