@@ -38,6 +38,7 @@
 	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link href="/static/js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script src="/static/js/d3.min.js" charset="utf-8"></script>
 	<script src="/static/js/lib/jquery-1.11.0.min.js"></script>
 	<script src="/static/js/lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/static/js/lib/angular/angular.js"></script>
@@ -45,13 +46,13 @@
 	<script src="/static/js/app.js"></script>
 	<script src="/static/js/services.js"></script>
 	<script src="/static/js/NavbarDir.js"></script>
-	<script src="/static/js/SidebarDir.js"></script>
+	<script src="/static/js/LeftSidebarDir.js"></script>
 	<script src="/static/js/RightSidebarDir.js"></script>
 	<script src="/static/js/AuthorNetworkGraphDir.js"></script>
 	<script src="/static/js/StaticAuthorDir.js"></script>
 	<script src="/static/js/CitationNetworkGraphDir.js"></script>
-	<script src="/static/js/chrono.js"></script>
-	<script src="/static/js/d3.min.js" charset="utf-8"></script>
+	<script src="/static/js/FrequencyPlotDir.js"></script>
+	<script src="/static/js/ChronologicalStreamDir.js"></script>
 	<script type="text/javascript">
 		console.log($(document).scrollTop());
 		$(document).ready(function(){
@@ -66,9 +67,8 @@
 	<mynavbar></mynavbar>
 	
 	<div  ng-controller="myCtrl">	
-		<button ng-click="change()">click me!</button>
 		<div class="graphs" ng-view></div>
-		<sidebar></sidebar>
+		<left-sidebar></left-sidebar>
 		<right-sidebar></right-sidebar>
 	</div>
 

@@ -2,7 +2,7 @@ var app = angular.module('CitationNetwork',['ngRoute'], function( $routeProvider
 	$routeProvider.when('/authorNetwork', {templateUrl: '/static/partials/AuthorGraph.html', controller:"authorGraphCtrl"});
 	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/PapersGraph.html'});
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
-	$routeProvider.when('/chrono', {templateUrl: '/static/partials/chrono.html'});
+	$routeProvider.when('/chrono', {templateUrl: '/static/partials/chronologicalGraph.html'});
 	$routeProvider.when('/freqplot', {templateUrl: '/static/partials/freqplot.html'});
 	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
 }).config(function($interpolateProvider, $httpProvider) {

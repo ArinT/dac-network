@@ -1,4 +1,4 @@
-app.directive("sidebar", function(){
+app.directive("leftSidebar", function(){
 	return{
 		restrict:"E",
 		templateUrl:"/static/partials/LeftSidebar.html",
