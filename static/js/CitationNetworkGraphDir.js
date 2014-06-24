@@ -5,8 +5,8 @@ app.directive("citationGraph", function(){
 
 		},
 		link:function(scope, elem, attrs){
-			var width = 500; // $(".graphs").width();
-			var height = 500; //$(".graphs").height();
+			var width = $(window).width();
+			var height = $(window).height();
 
 			var color = d3.scale.category20b();
 

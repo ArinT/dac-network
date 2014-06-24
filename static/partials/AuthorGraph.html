@@ -1,1 +1,25 @@
-<div author-graph  id="author-graph"></div>
+<div class="row">
+	<div class="col-md-1">
+	<table class="table table-bordered">
+		<tr>
+			<th>Centrality Graph:</th>
+		</tr>
+		<tr>
+			<td>
+				<label class="btn">
+					<input ng-model="typeGraph" type="radio" name="CentralityGraph"  value="degree"> Degree
+				</label>
+				<br />
+				<label class="btn">
+					<input ng-model="typeGraph" type="radio" value="betweenness"> Betweenness 
+				</label>
+				<br />
+				<label class="btn">
+					<input type="radio" ng-model="typeGraph" value="closeness"> Closeness
+				</label>
+			</td>
+		</tr>
+	</table>
+	</div>
+	<div class="col-md-11" author-graph  id="author-graph"></div>
+</div>
