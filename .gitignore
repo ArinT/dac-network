@@ -5,3 +5,4 @@ debug
 .elasticbeanstalk/
 .ebextensions/
 DAC_network_analysis/local_settings.py
+Pruned_final_texts/

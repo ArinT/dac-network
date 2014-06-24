@@ -31,8 +31,9 @@ def generate_citation_network_json():
     writer.write(json.dumps(j))
 def get_collaborations():
     cursor = connection.cursor()
-    cursor.execute('SELECT w1.AuthorId, w2.AuthorId FROM Works w1 '
+    cursor.execute('SELECT w1.AuthorId, w2.AuthorId, SUBSTRING(p.DOI,5,4) FROM Works w1 '
                    'JOIN Works w2 ON w1.PaperId = w2.PaperId '
+                   'JOIN Papers p ON w2.PaperId = p.PaperID '
                    'WHERE w1.AuthorId > w2.AuthorId')
     return cursor.fetchall()
 def generate_author_network_json():
@@ -51,7 +52,8 @@ def generate_author_network_json():
             if authors[i].authorid == collaboration[1]:
                 target = i
         if target != -1 and source !=-1:
-            edges.append({'source':source, 'target':target})
+            year = collaboration[2]
+            edges.append({'source':source, 'target':target, 'year':year})
     j = {'nodes':nodes, 'links':edges}
     writer = open('authors.json','w+')
     writer.write(json.dumps(j))
