@@ -41,7 +41,7 @@ class QueryAuthorForm(forms.Form):
     author_id = forms.IntegerField()
 class QueryPaperForm(forms.Form):
     paper_id = forms.IntegerField()
-@csrf_exempt
+@csrf_protect
 def query_author(request):
     if request.method == 'POST':
         data = json.loads(request.body)
