@@ -3,7 +3,6 @@ import json
 from networkx.algorithms.cluster import clustering
 from networkx.readwrite import  json_graph
 from networkx.classes.graph import Graph
-from networkx.classes.digraph import DiGraph
 def add_clustering_groups(infile, outfile):
     json_data = json.load(open(infile))
     multigraph = json_graph.node_link_graph(json_data)
