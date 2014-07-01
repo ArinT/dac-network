@@ -1,25 +1,28 @@
 <div class="row">
-	<div class="col-md-1">
+	<div class="col-md-2">
 	<table class="table table-bordered">
 		<tr>
-			<th>Centrality Graph:</th>
+			<th>Options:</th>
 		</tr>
 		<tr>
 			<td>
-				<label class="btn">
-					<input ng-model="typeGraph" type="radio" name="CentralityGraph"  value="degree"> Degree
-				</label>
-				<br />
-				<label class="btn">
-					<input ng-model="typeGraph" type="radio" value="betweenness"> Betweenness 
-				</label>
-				<br />
-				<label class="btn">
-					<input type="radio" ng-model="typeGraph" value="closeness"> Closeness
-				</label>
+				<form role="form" name="options" novalidate>
+					<div class="form-group">
+						<label for="CentralityGraph">Centrality scores:</label>
+							<select ng-model="typeGraph" type="radio" class="form-control" id="CentralityGraph"> 
+								<option value="degree">Degree</option>
+								<option value="betweenness">Betweenness</option>
+								<option value="closeness">Closeness</option>
+							</select>
+					</div>
+					<div class="form-gourp" ng-class="{'has-error' : options.score.$invalid}">
+						<label for="score">Minimum score:</label>
+						<input class="form-control" type="number" min="0" max="1" name="score" ng-model="chosenScore" id="score">
+					</div>
+				</form>
 			</td>
 		</tr>
 	</table>
 	</div>
-	<div class="col-md-11" author-graph  id="author-graph"></div>
+	<div class="col-md-10" author-graph  id="author-graph"></div>
 </div>

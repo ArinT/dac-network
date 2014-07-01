@@ -40,7 +40,10 @@ app.directive("chrono", function(){
 
       var margin = {top: 20, right: 40, bottom: 30, left: 30};
       var width = document.body.clientWidth - margin.left - margin.right;
+      width = $("#chrono").width();
       var height = 400 - margin.top - margin.bottom;
+      height = $(window).height()*.5;
+      console.log($("#webpage").height());  
 
       var tooltip = d3.select("#chrono")
           .append("div")
@@ -90,8 +93,8 @@ app.directive("chrono", function(){
           .y1(function(d) { return y(d.y0 + d.y); });
 
       var svg = d3.select("#chrono").append("svg")
-          // .attr("width", width + margin.left + margin.right)
-          // .attr("height", height + margin.top + margin.bottom)
+          .attr("width", width)
+          // .attr("height", height)
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -174,6 +177,7 @@ app.directive("chrono", function(){
               .style("z-index", "19")
               .style("width", "1px")
               .style("height", "380px")
+              // .style("height", height)
               .style("top", "10px")
               .style("bottom", "30px")
               .style("left", "0px")
