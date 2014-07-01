@@ -44,9 +44,13 @@ class QueryPaperForm(forms.Form):
 @csrf_protect
 def query_author(request):
     if request.method == 'POST':
+        print "Did it get here"
         data = json.loads(request.body)
+        print "How about here"
         query = QueryAuthorForm(data)
+        print "Here?"
         if query.is_valid():
+            print "What about here"
             context = query_list[0](query['author_id'].value())
             # print(context)
             return HttpResponse(json.dumps(context), content_type="application/json")
