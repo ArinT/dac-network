@@ -1,19 +1,40 @@
 app.service("MessageServer", function($http){
 	var myNodes = null;
 	var authorPapers = null;
+	var topFive = null;
 
 	this.getNodes = function(){
 		return myNodes;
 	};
+
 	this.getAuthorPapers = function(){
 		return authorPapers;
 	};
+
+	this.getTopFive = function(){
+		return topFive;
+	};
+
 	this.queryAuthors = function(authorId){
 		var myData = {'author_id':authorId};
+		
 		$http.post("/query_author", myData)
 			.success(function(data, status, headers, config){
 				if(data !== null){
 					authorPapers = data;
+				}
+				
+			})
+			.error(function(data, status, headers, config){
+				console.log("error");
+			});
+	};
+	this.queryPaper = function(paperId){
+		var myData = {'paper_id':paperId};
+		$http.post("/query_paper", myData)
+			.success(function(data, status, headers, config){
+				if(data !== null){
+					topFive = data;
 				}
 				
 			})
@@ -30,7 +51,6 @@ app.service("MessageServer", function($http){
 		$http.get("../../static/json/authors_centrality.json")
 			.success(function(data, status, headers, config){
 				myNodes = data.nodes;
-				console.log(myNodes[0]);
 			})
 			.error(function(data, status, headers, config){
 				console.log("error");

@@ -21,7 +21,7 @@ app.directive("citationGraph", function(){
 			    // .attr("height", height)
 				.attr({
 					"width": "100%",
-					"height": "80%"
+					"height": "86%"
 				})
 				.attr("viewBox", "0 0 " + width + " " + height )
 				.attr("preserveAspectRatio", "xMidYMid meet")
@@ -65,7 +65,7 @@ app.directive("citationGraph", function(){
 					.attr("cy", function(d) { return d.y })
 					.attr("r", 5)
 					.on("click", function(d){
-			  			scope.$emit("clicked", d);
+			  			scope.$emit("CitationNodeClicked", d);
 				         d3.selectAll(".link")
 				            .filter(function(l)
 				             {

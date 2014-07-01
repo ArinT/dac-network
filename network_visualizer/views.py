@@ -48,7 +48,7 @@ def query_author(request):
         query = QueryAuthorForm(data)
         if query.is_valid():
             context = query_list[0](query['author_id'].value())
-            print(context)
+            # print(context)
             return HttpResponse(json.dumps(context), content_type="application/json")
 
 @csrf_protect
@@ -58,7 +58,8 @@ def query_paper(request):
         query = QueryPaperForm(data)
         if query.is_valid():
             context = query_list[1](query['paper_id'].value())
-            return context# Create your views here.
+            # print(context)
+            return HttpResponse(json.dumps(context), content_type="application/json")
 
 
 

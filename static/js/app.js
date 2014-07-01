@@ -1,22 +1,19 @@
 var app = angular.module('CitationNetwork',['ngRoute'], function( $routeProvider){
 	$routeProvider.when('/authorNetwork', {templateUrl: '/static/partials/AuthorGraph.html', controller:"authorGraphCtrl"});
-	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/PapersGraph.html'});
+	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/CitationGraph.html'});
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
 	$routeProvider.when('/chrono', {templateUrl: '/static/partials/chronologicalGraph.html'});
 	$routeProvider.when('/freqplot', {templateUrl: '/static/partials/freqplot.html'});
 	$routeProvider.when('/suggestions', {templateUrl: '/static/partials/Suggestions.html'});
 	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
 }).config(function($interpolateProvider, $httpProvider) {
-	//this is added because django and angular have similar ways of placing variable on a page
-	//angular variable should be used like: {$ myVar $}
-    $interpolateProvider.startSymbol('{$');
-    $interpolateProvider.endSymbol('$}');
-    //needed to send post requests to django
-    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
-    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
-
-	
-
+		//this is added because django and angular have similar ways of placing variable on a page
+		//angular variable should be used like: {$ myVar $}
+	    $interpolateProvider.startSymbol('{$');
+	    $interpolateProvider.endSymbol('$}');
+	    //needed to send post requests to django
+	    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
+	    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
 	});
 
 	
@@ -36,7 +33,7 @@ app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", function($roo
 
 	$scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
 		$scope.nodes = newVal;
-	})
+	});
 	$scope.author = null;
 	$scope.$on("searching", function(event, search){
 		$scope.search = search;
@@ -46,6 +43,13 @@ app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", function($roo
 		$scope.$apply(function(){
 			$scope.messageServer.queryAuthors(node.id);
 			$scope.author = node.name;
+		});
+	});
+	$scope.$on("CitationNodeClicked", function(event, node){
+		
+		$scope.$apply(function(){
+			console.log(node);
+			$scope.messageServer.queryPaper(node.paperid);
 		});
 	});
 }]);
