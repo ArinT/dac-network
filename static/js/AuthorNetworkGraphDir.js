@@ -1,6 +1,6 @@
 app.controller("authorGraphCtrl", function($scope){
 	$scope.typeGraph = "degree";
-	$scope.chosenScore = 0;
+	$scope.chosenScore = 0.2;
 	$scope.chosenCentrality = chooseCentrality($scope.typeGraph);
 	$scope.$watch("chosenScore", function(val, oldVal){
 		if(val !== oldVal){
@@ -68,17 +68,18 @@ function drawGraph(score, centrality, jsonFile, domId){
 	    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
 	    .append("g");
 	d3.json(jsonFile, function(error, graph) {
-		//removing the edges that are between a node with centrality lower than the one specified.
-		if(score === null){
-			
-		}
-		for(var i = 0; i<graph.links.length; i++){
-			if(graph.nodes[graph.links[i].source][centrality]< score 
-				|| graph.nodes[graph.links[i].target][centrality]< score){
-				graph.links.splice(i,1);
+
+		//only going to be called by the AUTHOR NETWORK graph
+		if(score !== null){
+			//removing the edges that are between a node with centrality lower than the one specified.
+			for(var i = 0; i<graph.links.length; i++){
+				if(graph.nodes[graph.links[i].source][centrality]< score 
+					|| graph.nodes[graph.links[i].target][centrality]< score){
+					graph.links.splice(i,1);
+				}
 			}
 		}
-		//CANNOT remove values fromt the node array, because we would have to edit the values of the edges.
+		
 		force
 			.nodes(graph.nodes)
 			.links(graph.links)
@@ -154,6 +155,7 @@ function drawGraph(score, centrality, jsonFile, domId){
 		  				&& d.target[centrality] > 0){
 		  				return d.source.x;
 		  			} 
+		  			// if(centrality)
 	  			})
 	        	.attr("y1", function(d) { 
 		  			if(d.source[centrality] >= score 
@@ -164,6 +166,9 @@ function drawGraph(score, centrality, jsonFile, domId){
 		  			} 
 		  		})
 	        	.attr("x2", function(d) { 
+	        		if(centrality === null){
+
+	        		}
 		  			if(d.source[centrality] >= score 
 		  				&& d.target[centrality] >= score
 		  				&& d.source[centrality] > 0
