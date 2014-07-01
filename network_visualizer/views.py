@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, Http404
 from django.template import RequestContext, loader
-from django.views.decorators.csrf import csrf_protect, csrf_exempt
+from django.views.decorators.csrf import csrf_protect, requires_csrf_token, ensure_csrf_cookie
 from django import forms
 import json
 from django.shortcuts import render_to_response, redirect
@@ -41,9 +41,8 @@ class QueryAuthorForm(forms.Form):
     author_id = forms.IntegerField()
 class QueryPaperForm(forms.Form):
     paper_id = forms.IntegerField()
-@csrf_protect
+@ensure_csrf_cookie
 def query_author(request):
-    breakshit()
     if request.method == 'POST':
         data = json.loads(request.body)
         print request.COOKIES['csrftoken']
