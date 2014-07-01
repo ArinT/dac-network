@@ -45,6 +45,7 @@ class QueryPaperForm(forms.Form):
 def query_author(request):
     if request.method == 'POST':
         data = json.loads(request.body)
+        pass
         query = QueryAuthorForm(data)
         if query.is_valid():
             context = query_list[0](query['author_id'].value())

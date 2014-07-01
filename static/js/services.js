@@ -16,7 +16,7 @@ app.service("MessageServer", function($http){
 	};
 
 	this.queryAuthors = function(authorId){
-		var myData = {'author_id':authorId};
+		var myData = {'author_id':authorId + " {% csrf_token %}"};
 		
 		$http.post("/query_author", myData)
 			.success(function(data, status, headers, config){
