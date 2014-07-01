@@ -43,8 +43,8 @@ class QueryPaperForm(forms.Form):
     paper_id = forms.IntegerField()
 @csrf_protect
 def query_author(request):
+    breakshit()
     if request.method == 'POST':
-        breakshit()
         data = json.loads(request.body)
         print request.COOKIES['csrftoken']
         query = QueryAuthorForm(data)
