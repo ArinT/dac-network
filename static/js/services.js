@@ -17,6 +17,7 @@ app.service("MessageServer", function($http){
 
 	this.queryAuthors = function(authorId){
 		var myData = {'author_id':authorId};
+		
 		$http.post("/query_author", myData)
 			.success(function(data, status, headers, config){
 				if(data !== null){

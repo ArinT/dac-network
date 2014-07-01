@@ -20,11 +20,13 @@ app.directive("authorGraph", function(){
 		restrict:"A",
 		controller:"authorGraphCtrl",
 		link:function(scope, elem, attrs){
-			drawGraph(scope.chosenScore,"degreeCentrality");
+			var fileName = "../../static/json/authors_centrality.json";
+			var dom = "#author-graph";
+			drawGraph(scope.chosenScore,"degreeCentrality",fileName, dom);
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
-	  			drawGraph(scope.chosenScore, scope.chosenCentrality);
+	  			drawGraph(scope.chosenScore, scope.chosenCentrality,fileName, dom);
 	  		});
 		}//end link
 	}//end return
@@ -43,19 +45,19 @@ function chooseCentrality(typeCent){
 function zoom(){
 	svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 }//end zoom()
-function drawGraph(score, centrality){
+function drawGraph(score, centrality, jsonFile, domId){
 	var width = $(window).width();
 	var height = $(window).height();
 
 	var color = d3.scale.category20b();
 
 	var force = d3.layout.force()
-	    .charge(-50)
+	    .charge(-100)
 	    .linkDistance(25)
 	    .size([width, height]);
 	    force.gravity(0.6);
 	    
-	var svg = d3.select("#author-graph").append("svg")
+	var svg = d3.select(domId).append("svg")
 	    .attr({
 			"width": "100%",
 			"height": "86%"
@@ -65,8 +67,11 @@ function drawGraph(score, centrality){
 	    .append("g")
 	    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
 	    .append("g");
-	d3.json("../../static/json/authors_centrality.json", function(error, graph) {
+	d3.json(jsonFile, function(error, graph) {
 		//removing the edges that are between a node with centrality lower than the one specified.
+		if(score === null){
+			
+		}
 		for(var i = 0; i<graph.links.length; i++){
 			if(graph.nodes[graph.links[i].source][centrality]< score 
 				|| graph.nodes[graph.links[i].target][centrality]< score){
@@ -124,6 +129,9 @@ function drawGraph(score, centrality){
   			
 	  	node.append("title")
 	  		.text(function(d){ 
+	  			if(d.title){
+	  				return d.title;
+	  			}
 	  			return d.name+"\n Score "+d[centrality]; 
 	  		});
 		svg.selectAll(".node")

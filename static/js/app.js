@@ -7,16 +7,13 @@ var app = angular.module('CitationNetwork',['ngRoute'], function( $routeProvider
 	$routeProvider.when('/suggestions', {templateUrl: '/static/partials/Suggestions.html'});
 	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
 }).config(function($interpolateProvider, $httpProvider) {
-	//this is added because django and angular have similar ways of placing variable on a page
-	//angular variable should be used like: {$ myVar $}
-    $interpolateProvider.startSymbol('{$');
-    $interpolateProvider.endSymbol('$}');
-    //needed to send post requests to django
-    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
-    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
-
-	
-
+		//this is added because django and angular have similar ways of placing variable on a page
+		//angular variable should be used like: {$ myVar $}
+	    $interpolateProvider.startSymbol('{$');
+	    $interpolateProvider.endSymbol('$}');
+	    //needed to send post requests to django
+	    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
+	    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
 	});
 
 	
