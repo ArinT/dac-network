@@ -17,17 +17,25 @@ app.service("MessageServer", function($http){
 
 	this.queryAuthors = function(authorId){
 		var myData = {'author_id':authorId};
-		
-		$http.post("/query_author", myData)
-			.success(function(data, status, headers, config){
-				if(data !== null){
-					authorPapers = data;
-				}
+		var csrf = "{% csrf_token %}"
+		$http({
+			method: 'POST',
+			url: "/query_author",
+			data:myData,
+			headers:{'X-CSRFToken': csrf}
+		}).success(function(data){
+			console.log(data);
+		})
+		// $http.post("/query_author", myData)
+		// 	.success(function(data, status, headers, config){
+		// 		if(data !== null){
+		// 			authorPapers = data;
+		// 		}
 				
-			})
-			.error(function(data, status, headers, config){
-				console.log("error");
-			});
+		// 	})
+		// 	.error(function(data, status, headers, config){
+		// 		console.log("error");
+		// 	});
 	};
 	this.queryPaper = function(paperId){
 		var myData = {'paper_id':paperId};
