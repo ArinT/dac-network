@@ -18,7 +18,7 @@
         <li><a href="/#/suggestions">Suggestions</a></li>
       </ul>
         <form class="navbar-form navbar-right" role="search" >
-            <div class="form-group">
+            <div class="form-group"> {% csrf_token %}
               <input type="text" ng-model="search" class="form-control" placeholder="search">
               <button class="btn btn-default" ng-click="submitSearch()" type="submit">Search</button>
             </div>
