@@ -41,11 +41,10 @@ class QueryAuthorForm(forms.Form):
     author_id = forms.IntegerField()
 class QueryPaperForm(forms.Form):
     paper_id = forms.IntegerField()
-@ensure_csrf_cookie
+@csrf_protect
 def query_author(request):
     if request.method == 'POST':
         data = json.loads(request.body)
-        print request.COOKIES['csrftoken']
         query = QueryAuthorForm(data)
         if query.is_valid():
             context = query_list[0](query['author_id'].value())

@@ -12,8 +12,10 @@ var app = angular.module('CitationNetwork',['ngRoute'], function( $routeProvider
 	    $interpolateProvider.startSymbol('{$');
 	    $interpolateProvider.endSymbol('$}');
 	    //needed to send post requests to django
+
 	    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
 	    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
+
 	});
 
 	
