@@ -44,6 +44,7 @@ class QueryPaperForm(forms.Form):
     paper_id = forms.IntegerField()
 @ensure_csrf_cookie
 def query_author(request):
+    breajsghut()
     if request.method == 'POST':
         data = json.loads(request.body)
         query = QueryAuthorForm(data)
