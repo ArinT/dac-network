@@ -1,4 +1,4 @@
-var app = angular.module('CitationNetwork',['ngRoute'], function( $routeProvider){
+var app = angular.module('CitationNetwork',['ngRoute','ngCookies'], function( $routeProvider){
 	$routeProvider.when('/authorNetwork', {templateUrl: '/static/partials/AuthorGraph.html', controller:"authorGraphCtrl"});
 	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/CitationGraph.html'});
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
@@ -6,13 +6,19 @@ var app = angular.module('CitationNetwork',['ngRoute'], function( $routeProvider
 	$routeProvider.when('/freqplot', {templateUrl: '/static/partials/freqplot.html'});
 	$routeProvider.when('/suggestions', {templateUrl: '/static/partials/Suggestions.html'});
 	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
+}).run(function($http, $cookies) {
+    $http.defaults.headers.post['X-CSRFToken'] = $cookies['csrftoken'];
 }).config(function($interpolateProvider, $httpProvider) {
 		//this is added because django and angular have similar ways of placing variable on a page
 		//angular variable should be used like: {$ myVar $}
 	    $interpolateProvider.startSymbol('{$');
 	    $interpolateProvider.endSymbol('$}');
 	    //needed to send post requests to django
+<<<<<<< HEAD
 
+=======
+	    // $httpProvider.defaults.headers.post['X-CSRFToken'] = '{% csrf_token %}'
+>>>>>>> 8aa306104ef0a139fb9482b180b95aef255ade79
 	    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
 	    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
 
