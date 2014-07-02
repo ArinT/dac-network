@@ -14,11 +14,7 @@ var app = angular.module('CitationNetwork',['ngRoute','ngCookies'], function( $r
 	    $interpolateProvider.startSymbol('{$');
 	    $interpolateProvider.endSymbol('$}');
 	    //needed to send post requests to django
-<<<<<<< HEAD
-
-=======
 	    // $httpProvider.defaults.headers.post['X-CSRFToken'] = '{% csrf_token %}'
->>>>>>> 8aa306104ef0a139fb9482b180b95aef255ade79
 	    $httpProvider.defaults.xsrfCookieName = 'csrftoken';
 	    $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
 
