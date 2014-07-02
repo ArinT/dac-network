@@ -1,7 +1,6 @@
 app.controller("authorGraphCtrl", function($scope){
-	$scope.typeGraph = "degree";
+	$scope.typeGraph = "degreeCentrality";
 	$scope.chosenScore = 0.2;
-	$scope.chosenCentrality = chooseCentrality($scope.typeGraph);
 	$scope.$watch("chosenScore", function(val, oldVal){
 		if(val !== oldVal){
 			$scope.$broadcast("NewGraph");
@@ -9,7 +8,6 @@ app.controller("authorGraphCtrl", function($scope){
 	});
 	$scope.$watch("typeGraph", function(newVal, oldVal){
 		if(newVal !== oldVal){
-			$scope.chosenCentrality = chooseCentrality($scope.typeGraph);
 			$scope.$broadcast("NewGraph");
 		}
 	});
@@ -22,11 +20,11 @@ app.directive("authorGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/authors_centrality.json";
 			var dom = "#author-graph";
-			drawGraph(scope.chosenScore,"degreeCentrality",fileName, dom);
+			drawGraph(scope, scope.chosenScore,"degreeCentrality",fileName, dom, -100, "AuthorNodeClicked");
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
-	  			drawGraph(scope.chosenScore, scope.chosenCentrality,fileName, dom);
+	  			drawGraph(scope, scope.chosenScore, scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
 	  		});
 		}//end link
 	}//end return
@@ -45,14 +43,17 @@ function chooseCentrality(typeCent){
 function zoom(){
 	svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 }//end zoom()
-function drawGraph(score, centrality, jsonFile, domId){
-	var width = $(window).width();
+function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicked){
+	var width = $(domId).width();
 	var height = $(window).height();
+	if( $("#menu") !== null ){
+		height = $(window).height() - $("#menu").height() - $("mynav").height();
+	}
 
 	var color = d3.scale.category20b();
 
 	var force = d3.layout.force()
-	    .charge(-100)
+	    .charge(charge)
 	    .linkDistance(25)
 	    .size([width, height]);
 	    force.gravity(0.6);
@@ -109,23 +110,22 @@ function drawGraph(score, centrality, jsonFile, domId){
 	  			return "hsl("+hue+",100% ,50%)";
 	  		})
 	  		.on("click", function(d){
-	  			if(d[centrality] < score  && d[centrality] > 0 ){
-	  				return;
-	  			}
-	  			scope.$emit("AuthorNodeClicked", d);
-		         d3.selectAll(".link")
-		            .filter(function(l)
-		             {
-		                 return (l.source.index!==d.index && l.target.index!==d.index);
-		             })
-		             .style({'stroke-opacity':0.5,'stroke':'#999'});
-		     
-		             d3.selectAll(".link")
-		            .filter(function(l)
-		             {
-		                 return (l.source.index===d.index || l.target.index===d.index);
-		             })
-		             .style({'stroke-opacity':0.8,'stroke':'#F0F'});
+	  			if(d[centrality] >= score  || d[centrality] <= 0 ){
+	  			
+	  				scope.$emit(nodeClicked, d);
+			        d3.selectAll(".link")
+			        	.filter(function(l){
+			                 return (l.source.index!==d.index && l.target.index!==d.index);
+			             })
+			             .style({'stroke-opacity':0.5,'stroke':'#999'});
+			     
+					d3.selectAll(".link")
+						.filter(function(l){
+							return (l.source.index===d.index || l.target.index===d.index);
+			            })
+			            .style({'stroke-opacity':0.8,'stroke':'#F0F'});
+		  		}
+
 	  		});
   			
 	  	node.append("title")
@@ -149,6 +149,9 @@ function drawGraph(score, centrality, jsonFile, domId){
 	  		});
 	  	force.on("tick", function() {
 	  		link.attr("x1", function(d) { 
+		  			if(centrality === null){
+	        			return d.source.x;
+	        		}
 		  			if(d.source[centrality] >= score 
 		  				&& d.target[centrality] >= score
 		  				&& d.source[centrality] > 0
@@ -158,7 +161,10 @@ function drawGraph(score, centrality, jsonFile, domId){
 		  			// if(centrality)
 	  			})
 	        	.attr("y1", function(d) { 
-		  			if(d.source[centrality] >= score 
+		  			if(centrality === null){
+	        			return d.source.y;
+	        		}
+	        		if(d.source[centrality] >= score 
 		  				&& d.target[centrality] >= score
 		  				&& d.source[centrality] > 0
 		  				&& d.target[centrality] > 0){
@@ -167,7 +173,7 @@ function drawGraph(score, centrality, jsonFile, domId){
 		  		})
 	        	.attr("x2", function(d) { 
 	        		if(centrality === null){
-
+	        			return d.target.x;
 	        		}
 		  			if(d.source[centrality] >= score 
 		  				&& d.target[centrality] >= score
@@ -177,7 +183,10 @@ function drawGraph(score, centrality, jsonFile, domId){
 		  			} 
 		  		})
 	        	.attr("y2", function(d) { 
-		  			if(d.source[centrality] >= score 
+		  			if(centrality === null){
+	        			return d.target.y;
+	        		}
+	        		if(d.source[centrality] >= score 
 		  				&& d.target[centrality] >= score
 		  				&& d.source[centrality] > 0
 		  				&& d.target[centrality] > 0){
@@ -186,12 +195,18 @@ function drawGraph(score, centrality, jsonFile, domId){
 		  		});
 
 	    	node.attr("cx", function(d) { 
-		  			if(d[centrality] >= score){
+		  			if(centrality === null){
+	        			return d.x;
+	        		}
+	        		if(d[centrality] >= score){
 	    				return d.x; 
 	    			}
 	    			return 0;
 	    		})
 	        	.attr("cy", function(d) { 
+		  			if(centrality === null){
+	        			return d.y;
+	        		}
 		  			if(d[centrality] >= score){
 	        			return d.y; 
 	        		}

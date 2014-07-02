@@ -7,7 +7,8 @@ app.directive("citationGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/citations.json";
 			var dom = "#citation-graph";
-			drawGraph(null ,"degreeCentrality",fileName, dom);
+			var charge = -250
+			drawGraph(scope, null ,null,fileName, dom, charge, "CitationNodeClicked");
 		}//end link
 	}
 });
@@ -91,55 +92,5 @@ app.directive("citationGraph", function(){
 // 			  		.text(function(d){ 
 // 			  			return d.title; 
 // 			  		});
-
-
-// 				// svg.append("svg:g")
-// 				// 	.selectAll("")
-
-// 			  	// var node = svg.selectAll("circle")
-// 			  	// 	.data(graph.nodes)
-// 			  	// 	.enter().append("circle")
-// 			  	// 	.attr("class", "node")
-// 			  	// 	.attr("r", 5)
-// 			  	// 	.style("fill", function(d){
-// 			  	// 		if(d.centralityScore == -1){
-// 			  	// 			return "hsl(120,100% ,50%)";
-// 			  	// 		}
-// 			  	// 		var hue = Math.round((d.centralityScore) * 100);
-// 			  	// 		return "hsl("+hue+",100% ,50%)";
-// 			  	// 	})
-// 			  	// 	// .style("fill",color(2))
-// 			  		// .on("click", function(d){
-// 			  		// 	scope.$emit("clicked", d);
-// 				   //       d3.selectAll(".link")
-// 				   //          .filter(function(l)
-// 				   //           {
-// 				   //               return (l.source.index!==d.index && l.target.index!==d.index);
-// 				   //           })
-// 				   //           .style({'stroke-opacity':0.5,'stroke':'#999'});
-				     
-// 				   //           d3.selectAll(".link")
-// 				   //          .filter(function(l)
-// 				   //           {
-// 				   //               return (l.source.index===d.index || l.target.index===d.index);
-// 				   //           })
-// 				   //           .style({'stroke-opacity':0.8,'stroke':'#F0F'});
-			  			
-// 			  		// });
-// 			  	// node.append("title")
-// 			  	// 	.text(function(d){ 
-// 			  	// 		return d.title; 
-// 			  	// 	});
-			  	
-
-// 			  	// force.on("tick", function() {
-// 			  	// 	link.attr("x1", function(d) { return d.source.x; })
-// 			   //      	.attr("y1", function(d) { return d.source.y; })
-// 			   //      	.attr("x2", function(d) { return d.target.x; })
-// 			   //      	.attr("y2", function(d) { return d.target.y; });
-
-// 			   //  	node.attr("cx", function(d) { return d.x; })
-// 			   //      	.attr("cy", function(d) { return d.y; });
-// 			  	// });
 // 			});//end d3 json
 // 			},10);

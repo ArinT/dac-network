@@ -2,6 +2,7 @@ app.service("MessageServer", function($http){
 	var myNodes = null;
 	var authorPapers = null;
 	var topFive = null;
+	var sent=false;
 
 	this.getNodes = function(){
 		return myNodes;
@@ -15,6 +16,10 @@ app.service("MessageServer", function($http){
 		return topFive;
 	};
 
+	this.emailSent = function(){
+		return sent;
+	}
+
 	this.queryAuthors = function(authorId){
 		var myData = {'author_id':authorId};
 		var csrf = "{% csrf_token %}"
@@ -23,9 +28,12 @@ app.service("MessageServer", function($http){
 			url: "/query_author",
 			data:myData,
 			headers:{'X-CSRFToken': csrf}
-		}).success(function(data){
-			console.log(data);
+		}).success(function(data, status, headers, config){
+			authorPapers = data;
+		}).error(function(data, status, headers, config){
+			console.log("error");
 		})
+
 		// $http.post("/query_author", myData)
 		// 	.success(function(data, status, headers, config){
 		// 		if(data !== null){
@@ -55,7 +63,6 @@ app.service("MessageServer", function($http){
 	 *	the javascript has an array to filter through.
 	 */
 	this.readNodes = function(){
-		console.log("read nodes called");
 		$http.get("../../static/json/authors_centrality.json")
 			.success(function(data, status, headers, config){
 				myNodes = data.nodes;
@@ -64,4 +71,17 @@ app.service("MessageServer", function($http){
 				console.log("error");
 			});
 	};
+
+	this.sendEmail = function(msg){
+		$http.post("/send_email", {'message': msg})
+			.success(function(data, status, headers, config){
+				if(data.success){
+					sent = true;
+					console.log("email response came back")
+				}
+			})
+			.error(function(data, status, headers, config){
+				console.log("error");
+			});
+	}
 });

@@ -36,7 +36,9 @@ app.directive("leftSidebar", function(){
 					scope.leftClose();
 				}
 				else{
-					scope.leftOpen();
+					if(!scope.leftOpened){
+						scope.leftOpen();
+					}
 				}
 			});
 		}

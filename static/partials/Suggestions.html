@@ -1,7 +1,9 @@
 <div suggestions id="suggestions">
-    <h1>Suggestions</h1>
-    <textarea rows="6" cols = "60" placeholder="What would you like to see?"></textarea>
-    <p><br></p>
-    <button type="button" class="btn btn-default btn-lg">Submit</button>
-
+    <h1>Suggestions or bug reports</h1>
+    <div ng-hide="sent">
+	    <textarea rows="6" cols = "60" ng-model="message" placeholder="What would you like to see?"></textarea>
+	    <p><br></p>
+	    <button type="button" ng-click="sendEmail()" class="btn btn-default btn-lg">Submit</button>
+	</div>
+	<h2 ng-show="sent">Thank you for you feedback!</h2>
 </div>

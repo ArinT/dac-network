@@ -7,21 +7,23 @@ app.directive("rightSidebar", function(){
 			$scope.authorPapers = null;
 			$scope.rightOpened = false;
 			$scope.$watch("messageServer.getAuthorPapers()", function(newVal, oldVal){
+				//this is the initialization of the variables
+				if(newVal === oldVal){
+					return;
+				}
 				$scope.authorPapers = newVal;
-				console.log($scope.authorPapers);
 				if($scope.authorPapers !== null){
+					if( !$scope.rightOpened ){
+						$scope.rightOpen();
+					}
 					$scope.rightOpened = true;
-					$scope.rightOpen();
 				}
-				else{
-					$scope.rightOpened = false;
-				}
+				// else{
+				// 	$scope.rightOpened = false;
+				// }
 			});
-			// $scope.messageServer = MessageServer;
 			$scope.arrowPosition = 100;
-			// $scope.postAuthorId = function(id){
-			// 	$scope.messageServer.queryAuthors(id);
-			// };
+			
 		},
 		link: function(scope, elem, attr){
 			

@@ -1,6 +1,6 @@
-<div class="row">
-	<div class="col-md-2">
-	<table class="table table-bordered">
+<div >
+	<div id="menu" class="row">
+	<!-- <table class="table table-bordered">
 		<tr>
 			<th>Options:</th>
 		</tr>
@@ -10,19 +10,44 @@
 					<div class="form-group">
 						<label for="CentralityGraph">Centrality scores:</label>
 							<select ng-model="typeGraph" type="radio" class="form-control" id="CentralityGraph"> 
-								<option value="degree">Degree</option>
-								<option value="betweenness">Betweenness</option>
-								<option value="closeness">Closeness</option>
+								<option value="degreeCentrality">Degree</option>
+								<option value="betweennessCentrality">Betweenness</option>
+								<option value="closenessCentrality">Closeness</option>
+								<option value="eigenvectorCentrality">Eigenvector</option>
 							</select>
 					</div>
-					<div class="form-gourp" ng-class="{'has-error' : options.score.$invalid}">
+					<div class="form-group" ng-class="{'has-error' : options.score.$invalid}">
 						<label for="score">Minimum score:</label>
 						<input class="form-control" type="number" min="0" max="1" name="score" ng-model="chosenScore" id="score">
 					</div>
 				</form>
 			</td>
 		</tr>
-	</table>
+	</table> -->
+	<form class="form-inline" role="form" name="options"  novalidate>
+		<div class="form-group ">
+			<label id="centrality-options" for="CentralityGraph">Centrality scores:</label>
+				<select ng-model="typeGraph" type="radio" class="form-control my-form-control" id="CentralityGraph"> 
+					<option value="degreeCentrality">Degree</option>
+					<option value="betweennessCentrality">Betweenness</option>
+					<option value="closenessCentrality">Closeness</option>
+					<option value="eigenvectorCentrality">Eigenvector</option>
+				</select>
+		</div>
+		<div class="form-group" ng-class="{'has-error' : options.score.$invalid}">
+			<!-- <div class="row"> -->
+			<label id="filter-score" for="score">Filter score:</label>
+			<div class="form-control my-form-control" style="width:300px;" ui-slider min="0" max="1" step=".01" use-decimals id="score" ng-model="chosenScore"></div>
+			<input class="form-control my-form-control" type="number" min="0" max="1" name="score" ng-model="chosenScore" id="score">
+		<!-- </div> -->
+		</div>
+	</form>
 	</div>
-	<div class="col-md-10" author-graph  id="author-graph"></div>
+	<div author-graph  id="author-graph"></div>
 </div>
+<script>
+	$(document).ready(function(){
+		var menuWidth = $("#menu").width() - $("#filter-score").width() - $("#centrality-options").width() - 100;
+		$(".my-form-control").css("width", menuWidth/3)
+	});
+</script>

@@ -8,6 +8,8 @@ import json
 from django.shortcuts import render_to_response, redirect
 from network_visualizer.query_database import *
 import json
+from django.core.mail import EmailMessage
+import smtplib
 
 query_list = [get_author_info,get_paper_info]
 def index(request):
@@ -61,6 +63,11 @@ def query_paper(request):
             context = query_list[1](query['paper_id'].value())
             # print(context)
             return HttpResponse(json.dumps(context), content_type="application/json")
-
-
-
+@csrf_exempt
+def send_email(request):
+    if request.method == 'POST':
+        body = json.loads(request.body)
+        email = EmailMessage('Subject', body['message'], to=['dacnetworkanalysis@gmail.com'])
+        email.send()
+        return HttpResponse(json.dumps({'success':True}), content_type="application/json")
+        

@@ -1,10 +1,10 @@
-var app = angular.module('CitationNetwork',['ngRoute','ngCookies'], function( $routeProvider){
+var app = angular.module('CitationNetwork',['ngRoute','ngCookies','ui.slider'], function( $routeProvider){
 	$routeProvider.when('/authorNetwork', {templateUrl: '/static/partials/AuthorGraph.html', controller:"authorGraphCtrl"});
 	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/CitationGraph.html'});
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
 	$routeProvider.when('/chrono', {templateUrl: '/static/partials/chronologicalGraph.html'});
 	$routeProvider.when('/freqplot', {templateUrl: '/static/partials/freqplot.html'});
-	$routeProvider.when('/suggestions', {templateUrl: '/static/partials/Suggestions.html'});
+	$routeProvider.when('/suggestions', {templateUrl: '/static/partials/Suggestions.html', controller:"SuggestionsCtrl"});
 	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
 }).run(function($http, $cookies) {
     $http.defaults.headers.post['X-CSRFToken'] = $cookies['csrftoken'];

@@ -14,6 +14,7 @@ urlpatterns = patterns('',
     url(r'^freqplot', 'network_visualizer.views.freqplot', name='freqplot'),
     url(r'^query_author', 'network_visualizer.views.query_author', name='query_author'),
     url(r'^query_paper', 'network_visualizer.views.query_paper', name='query_paper'),
+    url(r'^send_email', 'network_visualizer.views.send_email', name='send_email'),
     url(r'^admin/', include(admin.site.urls)),
 )
 

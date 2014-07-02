@@ -27,6 +27,12 @@ TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+#TEST EMAIL STUFF
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'dacnetworkanalysis@gmail.com'
+EMAIL_HOST_PASSWORD = 'uiucsummer'
+EMAIL_PORT = 587
 
 # Application definition
 
