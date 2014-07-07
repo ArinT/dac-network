@@ -57,4 +57,5 @@ def generate_author_network_json():
     j = {'nodes':nodes, 'links':edges}
     writer = open('authors.json','w+')
     writer.write(json.dumps(j))
-generate_author_network_json()
+# generate_author_network_json()
+generate_citation_network_json()

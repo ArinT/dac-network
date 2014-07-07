@@ -38,7 +38,7 @@ def insert_into_references(filename):
     cursor = connection.cursor()
     cursor.execute(
         'DROP TABLE IF EXISTS Citations;'
-        'CREATE TABLE Citations(sourcePaperId INT, targetPaperId INT);'
+        'CREATE TABLE Citations(sourcePaperId INT, targetPaperId INT, citationId INT NOT NULL AUTO_INCREMENT PRIMARY KEY);'
     )
     cursor.close()
     i = 0
@@ -52,3 +52,4 @@ def insert_into_references(filename):
             '((SELECT PaperId FROM Papers WHERE DOI = %s),(SELECT PaperId FROM Papers WHERE DOI = %s));'
             ,[citation['source'].encode('UTF-8'),citation['target'].encode('UTF-8')])
         cursor.close()
+insert_into_references("/home/arin/Desktop/citations.json")
