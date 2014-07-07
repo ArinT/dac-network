@@ -15,14 +15,14 @@ def generate_citation_network_json():
             if citation.sourcepaperid == paper.paperid or citation.targetpaperid == paper.paperid:
                 node_set.add(paper)
     for paper in node_set:
-        nodes.append({'paperid':paper.paperid,'title':paper.title,'doi':paper.doi})
+        nodes.append({'id':paper.paperid,'name':paper.title,'doi':paper.doi})
     for citation in citations:
         source = -1
         target = -1
         for i in range (0,len(nodes)):
-            if citation.sourcepaperid == nodes[i]['paperid']:
+            if citation.sourcepaperid == nodes[i]['id']:
                 source = i
-            if citation.targetpaperid ==  nodes[i]['paperid']:
+            if citation.targetpaperid ==  nodes[i]['id']:
                 target = i
         if target !=-1 and source !=-1:
             edges.append({'source':source,'target':target})

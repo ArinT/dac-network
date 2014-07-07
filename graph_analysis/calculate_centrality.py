@@ -51,5 +51,5 @@ def calculate_all_centralities(infile, outfile):
     writer = open(outfile, "w+")
     writer.write(json.dumps(data))
 
-
-calculate_all_centralities("../static/json/authors.json","../static/json/authors_centrality.json")
+calculate_all_centralities("../static/json/citations.json","/home/arin/thesis/citations.json")
+# calculate_all_centralities("../static/json/authors.json","../static/json/authors_centrality.json")
