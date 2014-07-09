@@ -18,7 +18,7 @@ app.directive("authorGraph", function(){
 		restrict:"A",
 		controller:"authorGraphCtrl",
 		link:function(scope, elem, attrs){
-			var fileName = "../../static/json/authors_centrality.json";
+			var fileName = "../../static/json/authors.json";
 			var dom = "#author-graph";
 			drawGraph(scope, scope.chosenScore,"degreeCentrality",fileName, dom, -100, "AuthorNodeClicked");
 			
