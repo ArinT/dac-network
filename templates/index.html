@@ -36,6 +36,7 @@
 			padding-top: 55px;
 		}
 	</style>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link href="/static/js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   	<link href="/static/js/lib/jquery/jquery-ui.min.css" rel="stylesheet">
@@ -44,6 +45,7 @@
 	<script src="/static/js/lib/jquery/jquery-ui.min.js"></script>
 	<script src="/static/js/lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/static/js/lib/angular/angular.js"></script>
+	<script src="/static/js/lib/angular/ui-bootstrap-tpls-0.10.0.min.js"></script>
 	<!-- MIGHT NOT BE ABLE TO USE THIS -->
 	<script src="/static/js/lib/angular/slider.js"></script>
 	<script src="/static/js/lib/angular/angular-cookies.js"></script>
@@ -54,6 +56,7 @@
 	<script src="/static/js/LeftSidebarDir.js"></script>
 	<script src="/static/js/RightSidebarDir.js"></script>
 	<script src="/static/js/AuthorNetworkGraphDir.js"></script>
+	<script src="/static/js/Graph.js"></script>
 	<script src="/static/js/StaticAuthorDir.js"></script>
 	<script src="/static/js/CitationNetworkGraphDir.js"></script>
 	<script src="/static/js/FrequencyPlotDir.js"></script>
@@ -61,20 +64,39 @@
 	<script src="/static/js/SuggestionCtrl.js"></script>
 	<script type="text/javascript">
 		// console.log($(document).scrollTop());
+		
 		$(document).ready(function(){
 		    var height = $(window).height();
 		    $("#webpage").css("height", height-10);
 		    $(".resize").css("height", height-10);
+		    var temp = [];
+		    temp[6]=[];
+		    temp[6][1] = "hi" ;
+		    // console.log(temp[6])
+		    for(var i in temp){
+		    	for(var j in temp[i]){
+			    	console.log(temp[i][j]);
+
+		    	}
+		    }
 		});
+		
 	</script>
+
 </head>
 <body>
+
 	<mynavbar></mynavbar>
-	<div id="webpage" ng-controller="myCtrl">	
+	<div id="webpage" ng-controller="myCtrl">
 		<div class="graphs" ng-view></div>
 		<left-sidebar></left-sidebar>
 		<right-sidebar></right-sidebar>
-	</div>
+	</div>	
+	<!-- <div class="row">
+        <div class="col-sm-4"><progressbar value="55"></progressbar></div>
+        <div class="col-sm-4"><progressbar class="progress-striped" value="22" type="warning">22%</progressbar></div>
+        <div class="col-sm-4"><progressbar class="progress-striped active" max="200" value="166" type="danger"><i>166 / 200</i></progressbar></div>
+    </div> -->
 
 	<!-- <div id="graph"></div> -->
 	<script src="/static/js/network_graph.js" charset="utf-8"></script>
