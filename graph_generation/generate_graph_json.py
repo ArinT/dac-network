@@ -55,7 +55,7 @@ def generate_author_network_json():
             year = collaboration[2]
             edges.append({'source':source, 'target':target, 'year':year})
     j = {'nodes':nodes, 'links':edges}
-    writer = open('authors.json','w+')
+    writer = open('authors_without_centrality_or_groups.json','w+')
     writer.write(json.dumps(j))
 # generate_author_network_json()
 generate_citation_network_json()

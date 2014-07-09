@@ -52,4 +52,4 @@ def calculate_all_centralities(infile, outfile):
     writer.write(json.dumps(data))
 
 calculate_all_centralities("../static/json/citations.json","/home/arin/thesis/citations.json")
-# calculate_all_centralities("../static/json/authors.json","../static/json/authors_centrality.json")
+# calculate_all_centralities("../static/json/authors_without_centrality_or_groups.json","../static/json/authors_without_groups.json")
