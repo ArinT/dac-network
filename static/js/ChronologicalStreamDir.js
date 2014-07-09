@@ -38,17 +38,17 @@ app.directive("chrono", function(){
       strokecolor = colorrange[0];
 
 
-      var margin = {top: 20, right: 40, bottom: 30, left: 30};
+      var margin = {top: 20, right: 40, bottom: 45, left: 40};
       var width = document.body.clientWidth - margin.left - margin.right;
-      width = $("#chrono").width();
+      width = $("#chrono").width() - margin.left - margin.right;
       var height = 400 - margin.top - margin.bottom;
-      height = $(window).height()*.5;
+      height = ($(window).height()*.6) - margin.top - margin.bottom;
       console.log($("#webpage").height());  
 
       var tooltip = d3.select("#chrono")
           .append("div")
           .attr("class", "remove")
-          .style("position", "relative")
+          .style("position", "absolute")
           .style("z-index", "20")
           .style("visibility", "hidden")
           .style("top", "30px")
@@ -92,11 +92,13 @@ app.directive("chrono", function(){
           .y0(function(d) { return y(d.y0); })
           .y1(function(d) { return y(d.y0 + d.y); });
 
-      var svg = d3.select("#chrono").append("svg")
-          .attr("width", width)
-          // .attr("height", height)
+      var svg = d3.select("#chrono").append("div")
+        .attr("class", "chart")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
         .append("g")
-          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       var graph = d3.csv(csvpath, function(data) {
         data.forEach(function(d) {
@@ -119,7 +121,14 @@ app.directive("chrono", function(){
         svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
-            .call(xAxis);
+            .call(xAxis)
+            .append("text")
+              .attr("text-anchor", "end")
+              .attr("x", (width/2) + 50)
+              .attr("y", 40)
+              .attr("class" , "axis-label")
+              .text("Year");
+
 
         svg.append("g")
             .attr("class", "y axis")
@@ -177,7 +186,6 @@ app.directive("chrono", function(){
               .style("z-index", "19")
               .style("width", "1px")
               .style("height", "380px")
-              // .style("height", height)
               .style("top", "10px")
               .style("bottom", "30px")
               .style("left", "0px")

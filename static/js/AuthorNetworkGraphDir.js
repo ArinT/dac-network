@@ -38,13 +38,19 @@ app.directive("authorGraph", function(){
 	}//end return
 });
 function chooseCentrality(typeCent){
-	if(typeCent === "degree"){
-		return "degreeCentrality";
+	if(typeCent === "degreeCentrality"){
+		return "Degree";
 	}
-	if(typeCent === "closeness"){
-		return "closenessCentrality";
+	if(typeCent === "closenessCentrality"){
+		return "Closeness";
 	}
-	if(typeCent === "betweenness"){
-		return "betweennessCentrality";
+	if(typeCent === "betweennessCentrality"){
+		return "Betweenness";
+	}
+	if(typeCent === "eigenvectorCentrality"){
+		return "EigenVector";
+	}
+	if(typeCent === "group"){
+		return "Group";
 	}
 }//end chooseCentrality()

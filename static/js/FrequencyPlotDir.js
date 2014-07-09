@@ -6,9 +6,11 @@ app.directive("freqplot", function(){
     },
     link:function(scope, elem, attrs){
 
-      var margin = {top: 20, right: 20, bottom: 30, left: 40},
-      width = 960 - margin.left - margin.right,
+      var margin = {top: 20, right: 20, bottom: 45, left: 60},
+      width = 960 - margin.left - margin.right;
+      width = $("#freqplot").width() - margin.left - margin.right;
       height = 500 - margin.top - margin.bottom;
+      height = ($(window).height()*.6) - margin.top - margin.bottom;
 
       var x = d3.scale.ordinal()
           .rangeRoundBands([0, width], .1);
@@ -31,8 +33,8 @@ app.directive("freqplot", function(){
       var svg = d3.select("#freqplot").append("svg")
           .attr("width", width + margin.left + margin.right)
           .attr("height", height + margin.top + margin.bottom)
-        .append("g");
-          // .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       d3.csv("../static/csv/degree_frequency_plot.csv", function(error, data) {
         color.domain(d3.keys(data[0]).filter(function(key) { return key !== "degree"; }));
@@ -51,17 +53,26 @@ app.directive("freqplot", function(){
         svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
-            .call(xAxis);
+            .call(xAxis)
+          .append("text")
+              .attr("text-anchor", "end")
+              .attr("class", "axis-label")
+              .attr("x", (width/2) + 50)
+              .attr("y", 30)
+              .text("Number of Papers Published in a Year");
+
 
         svg.append("g")
             .attr("class", "y axis")
             .call(yAxis)
           .append("text")
             .attr("transform", "rotate(-90)")
-            .attr("y", 0)
-            .attr("dy", ".71em")
+            .attr("y", -45)
+            .attr("x", -(height/2) +20 )
+            .attr("dy", ".3em")
+            .attr("class", "axis-label")
             .style("text-anchor", "end")
-            .text("Frequency");
+            .text("Number of Authors");
 
         var state = svg.selectAll(".degree")
             .data(data)

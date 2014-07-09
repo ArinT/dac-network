@@ -172,3 +172,20 @@ function getEdgeCoord(centrality, d, score, retVal){
 			return retVal;
 		} 
 }
+function chooseCentrality(typeCent){
+	if(typeCent === "degreeCentrality"){
+		return "Degree";
+	}
+	if(typeCent === "closenessCentrality"){
+		return "Closeness";
+	}
+	if(typeCent === "betweennessCentrality"){
+		return "Betweenness";
+	}
+	if(typeCent === "eigenvectorCentrality"){
+		return "EigenVector";
+	}
+	if(typeCent === "group"){
+		return "Group";
+	}
+}//end chooseCentrality()
