@@ -2,95 +2,36 @@ app.directive("citationGraph", function(){
 	return {
 		restrict:"A",
 		controller:function($scope){
-
+				$scope.typeGraph = "degreeCentrality";
+				$scope.chosenScore = 0;
+				$scope.loaded = false;
+				$scope.$watch("chosenScore", function(val, oldVal){
+					if(val !== oldVal){
+						$scope.$broadcast("NewGraph");
+					}
+				});
+				$scope.$watch("typeGraph", function(newVal, oldVal){
+					console.log($scope.typeGraph)
+					if(newVal !== oldVal){
+						$scope.$broadcast("NewGraph");
+					}
+				});
+				$scope.$on("GraphLoaded", function(){
+					$scope.$apply(function(){
+						$scope.loaded = true;
+					});
+				});
 		},
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/citations.json";
 			var dom = "#citation-graph";
-			var charge = -250
-			drawGraph(scope, null ,null,fileName, dom, charge, "CitationNodeClicked");
+			drawGraph(scope, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
+			
+			scope.$on("NewGraph",function(){
+				$("svg").remove();
+	  			drawGraph(scope, scope.chosenScore, scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
+	  		});
+			
 		}//end link
 	}
 });
-// var width = $(window).width();
-// 			var height = $(window).height();
-
-// 			var color = d3.scale.category20b();
-
-// 			var force = d3.layout.force()
-// 			    .charge(-250)
-// 			    .linkDistance(75)
-// 			    .size([width, height]);
-// 			    force.gravity(0.25);
-
-// 			var svg = d3.select("#citation-graph").append("svg")
-// 			    // .attr("width", width)
-// 			    // .attr("height", height)
-// 				.attr({
-// 					"width": "100%",
-// 					"height": "86%"
-// 				})
-// 				.attr("viewBox", "0 0 " + width + " " + height )
-// 				.attr("preserveAspectRatio", "xMidYMid meet")
-// 			    .append("g")
-// 			    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
-// 			    .append("g");
-			    
-// 			function zoom() {
-// 			  svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-// 			}
-// 			setTimeout(function(){
-// 			d3.json("../../static/json/citations.json", function(error, graph) {
-// 				force
-// 					.nodes(graph.nodes)
-// 					.links(graph.links);
-// 					// .start();
-			    
-// 			    force.start();
-// 			    for(var i = 1600; i>0; --i){
-// 			    	force.tick();
-// 			    }
-// 			    force.stop();
-
-// 			    //adding the positions of the lines and nodes here, instead of on "tick" makes it static
-// 				var link = svg.selectAll("line")
-// 					.data(graph.links)
-// 					.enter().append("line")
-// 					.attr("class", "link")
-// 					.attr("x1", function(d) { return d.source.x; })
-// 		        	.attr("y1", function(d) { return d.source.y; })
-// 		        	.attr("x2", function(d) { return d.target.x; })
-// 		        	.attr("y2", function(d) { return d.target.y; })
-// 					.style("stroke-width", function(d){ return Math.sqrt(d.value);});
-
-// 				svg.append("svg:g")
-// 					.selectAll("circle")
-// 					.data(graph.nodes)
-// 					.enter().append("svg:circle")
-// 					.attr("class","node")
-// 					.attr("cx", function(d) { return d.x })
-// 					.attr("cy", function(d) { return d.y })
-// 					.attr("r", 5)
-// 					.on("click", function(d){
-// 			  			scope.$emit("CitationNodeClicked", d);
-// 				         d3.selectAll(".link")
-// 				            .filter(function(l)
-// 				             {
-// 				                 return (l.source.index!==d.index && l.target.index!==d.index);
-// 				             })
-// 				             .style({'stroke-opacity':0.5,'stroke':'#999'});
-				     
-// 				             d3.selectAll(".link")
-// 				            .filter(function(l)
-// 				             {
-// 				                 return (l.source.index===d.index || l.target.index===d.index);
-// 				             })
-// 				             .style({'stroke-opacity':0.8,'stroke':'#F0F'});
-			  			
-// 			  		})
-// 			  		.append("title")
-// 			  		.text(function(d){ 
-// 			  			return d.title; 
-// 			  		});
-// 			});//end d3 json
-// 			},10);

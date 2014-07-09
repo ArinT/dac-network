@@ -63,6 +63,7 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 	    	force.tick();
 	    }
 	    force.stop();
+	    scope.$broadcast("GraphLoaded");
 		var link = svg.selectAll(".link")
 			.data(graph.links)
 			.enter().append("line")
@@ -155,7 +156,7 @@ function getNodeCoord(centrality, d, score, retVal){
 	if(centrality === null){
 		return retVal;
 	}
-		if(d[centrality] >= score){
+	if(d[centrality] >= score){
 		return retVal; 
 	}
 	return 0;

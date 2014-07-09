@@ -1,5 +1,9 @@
 <div >
 	<!-- <img src="../../static/admin/img/ajax-loader.gif"> -->
+	<div ng-hide="loaded">
+		<h2 class="text-center">Loading...</h2>
+		<h3 class="text-center">The graph may take a while to load.</h3>
+	</div>
 	<div author-graph  id="author-graph"></div>
 	<div id="menu" class="row">
 	<form class="form-inline" role="form" name="options"  novalidate>
