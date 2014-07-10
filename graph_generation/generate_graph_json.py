@@ -4,7 +4,8 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.settings')
 from django.db import connection
 from network_visualizer.models import Papers, Authors, Citations
-def generate_citation_network_json():
+OUTFILE = 'citations.json'
+def generate_citation_network_json(outfile):
     citations = Citations.objects.all()
     papers = Papers.objects.all()
     node_set = set()
@@ -27,7 +28,7 @@ def generate_citation_network_json():
         if target !=-1 and source !=-1:
             edges.append({'source':source,'target':target})
     j = {'nodes':nodes,'links':edges}
-    writer = open('citations.json','w+')
+    writer = open(outfile,'w+')
     writer.write(json.dumps(j))
 def get_collaborations():
     cursor = connection.cursor()
@@ -58,4 +59,4 @@ def generate_author_network_json():
     writer = open('authors_without_centrality_or_groups.json','w+')
     writer.write(json.dumps(j))
 # generate_author_network_json()
-generate_citation_network_json()
+generate_citation_network_json(OUTFILE)

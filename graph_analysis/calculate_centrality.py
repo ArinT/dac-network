@@ -15,6 +15,13 @@ def calculate_all_centralities(infile, outfile):
     closeness_max = -1.0
     betweeness_max = -1.0
     eigenvector_max = -1.0
+    for author in data['nodes']:
+        i = author['id']
+        author['degreeCentralityUnnormalized'] = degree[i]
+        author['closenessCentralityUnnormalized'] = closeness[i]
+        author['betweennessCentralityUnnormalized'] = betweeness[i]
+        author['eigenvectorCentralityUnnormalized'] = eigenvector[i]
+
     for i in degree:
         if degree[i]>degree_max:
             degree_max = degree[i]
@@ -51,5 +58,5 @@ def calculate_all_centralities(infile, outfile):
     writer = open(outfile, "w+")
     writer.write(json.dumps(data))
 
-calculate_all_centralities("../static/json/citations.json","/home/arin/thesis/citations.json")
+calculate_all_centralities("/home/arin/thesis/DAC_network_analysis/graph_generation/citations.json","/home/arin/thesis/DAC_network_analysis/static/json/citations.json")
 # calculate_all_centralities("../static/json/authors_without_centrality_or_groups.json","../static/json/authors_without_groups.json")

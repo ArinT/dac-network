@@ -46,7 +46,6 @@ def filter_group_by_size(communities, community_count, group_count, min_size):
             communities[i] = -1
     return groups
 
-
 def add_clustering_communities(infile, outfile):
     json_data = json.load(open(infile))
     multigraph = json_graph.node_link_graph(json_data)
