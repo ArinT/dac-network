@@ -54,8 +54,6 @@ def insert_into_citation_table(filename):
         cursor.close()
 def add_references_to_papers(infile, outfile, dir):
     papers = json.load(open(infile))
-    i = 0
-
     for paper in papers:
         for file in os.listdir(dir):
             if file.split(".txt")[0] == paper['doi']:
@@ -77,7 +75,7 @@ def extract_references_from_txt(filename):
     references_section = ""
     references_section_found = False
     for line in file:
-        if "REFERENCES"  in line:
+        if "REFERENCE"  in line:
             references_section_found = True
         if references_section_found:
             references_section+=line + " "
