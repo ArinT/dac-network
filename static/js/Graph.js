@@ -1,5 +1,5 @@
 
-function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicked){
+function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked){
 	var width = $(domId).width();
 	var height = $(window).height();
 	if( $("#menu") !== null ){
@@ -21,9 +21,32 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 		})
 		.attr("viewBox", "0 0 " + width + " " + height )
 		.attr("preserveAspectRatio", "xMidYMid meet")
-	    .append("g")
 	    .call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))
-	    .append("g");
+	    
+	if (isCitationNetwork)
+	{
+		svg.append('svg:defs').append('svg:marker')
+		    .attr('id', 'end-arrow')
+		    .attr('viewBox', '0 -5 10 10')
+		    .attr('refX', 6)
+		    .attr('markerWidth', 3)
+		    .attr('markerHeight', 3)
+		    .attr('orient', 'auto')
+		  .append('svg:path')
+		    .attr('d', 'M0,-5L10,0L0,5')
+		    .attr('fill', '#000');
+
+		svg.append('svg:defs').append('svg:marker')
+		    .attr('id', 'start-arrow')
+		    .attr('viewBox', '0 -5 10 10')
+		    .attr('refX', 4)
+		    .attr('markerWidth', 3)
+		    .attr('markerHeight', 3)
+		    .attr('orient', 'auto')
+		  .append('svg:path')
+		    .attr('d', 'M10,-5L0,0L10,5')
+		    .attr('fill', '#000');
+	}
 	function zoom(){
 		svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 	}//end zoom()
@@ -36,9 +59,24 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 		if(score !== null){
 			//removing the edges that are between a node with centrality lower than the one specified.
 			for(var i = 0; i<graph.links.length; i++){
-				if(graph.nodes[graph.links[i].source][centrality] >= score 
-					&& graph.nodes[graph.links[i].target][centrality]>= score){
-					edgeArr.push(graph.links[i]);
+				var edge = graph.links[i];			
+				var src = graph.nodes[edge.source];
+				var tgt = graph.nodes[edge.target];
+				
+				if(src[centrality] >= score && tgt[centrality]>= score){
+					if (edge.year == undefined)
+					{
+						edgeArr.push(graph.links[i]);
+					}
+					else
+					{
+						START = "2002";
+						END = "2002";
+						if (edge.year >= START && edge.year <= END)
+						{
+							edgeArr.push(graph.links[i]);
+						}					
+					}
 				}
 			}
 			for(var i = 0; i<edgeArr.length; i++){
@@ -66,8 +104,10 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 	    scope.$broadcast("GraphLoaded");
 		var link = svg.selectAll(".link")
 			.data(graph.links)
-			.enter().append("line")
+			.enter().append("path")
 			.attr("class", "link")
+			.attr("d",function(d){
+					return 'M'+d.source.x+','+d.source.y+'L'+d.target.x+','+d.target.y;})
 			.attr("x1", function(d) { 
 		  			return getEdgeCoord(centrality, d, score, d.source.x);
   			})

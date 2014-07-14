@@ -28,11 +28,11 @@ app.directive("authorGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/authors.json";
 			var dom = "#author-graph";
-			drawGraph(scope, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
+			drawGraph(scope, false, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
-	  			drawGraph(scope, scope.chosenScore, scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
+	  			drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
 	  		});
 		}//end link
 	}//end return

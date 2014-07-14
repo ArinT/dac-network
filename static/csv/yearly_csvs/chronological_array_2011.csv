@@ -1,0 +1,551 @@
+key,value,date
+G Gary Wang,1.0,2002
+G Gary Wang,3.0,2003
+G Gary Wang,1.0,2004
+G Gary Wang,1.0,2005
+G Gary Wang,1.0,2006
+G Gary Wang,3.0,2007
+G Gary Wang,1.0,2008
+G Gary Wang,1.0,2009
+G Gary Wang,4.0,2010
+G Gary Wang,2.0,2011
+G Gary Wang,1.0,2012
+Chao Hu,0,2002
+Chao Hu,0,2003
+Chao Hu,0,2004
+Chao Hu,0,2005
+Chao Hu,0,2006
+Chao Hu,0,2007
+Chao Hu,0,2008
+Chao Hu,0,2009
+Chao Hu,1.0,2010
+Chao Hu,2.0,2011
+Chao Hu,1.0,2012
+Vishwa Kalyanasundaram,0,2002
+Vishwa Kalyanasundaram,0,2003
+Vishwa Kalyanasundaram,0,2004
+Vishwa Kalyanasundaram,0,2005
+Vishwa Kalyanasundaram,0,2006
+Vishwa Kalyanasundaram,0,2007
+Vishwa Kalyanasundaram,0,2008
+Vishwa Kalyanasundaram,0,2009
+Vishwa Kalyanasundaram,0,2010
+Vishwa Kalyanasundaram,1.0,2011
+Vishwa Kalyanasundaram,0,2012
+Erich Devendorf,0,2002
+Erich Devendorf,0,2003
+Erich Devendorf,0,2004
+Erich Devendorf,0,2005
+Erich Devendorf,0,2006
+Erich Devendorf,0,2007
+Erich Devendorf,1.0,2008
+Erich Devendorf,1.0,2009
+Erich Devendorf,1.0,2010
+Erich Devendorf,2.0,2011
+Erich Devendorf,1.0,2012
+Jie Zhang,0,2002
+Jie Zhang,0,2003
+Jie Zhang,0,2004
+Jie Zhang,0,2005
+Jie Zhang,0,2006
+Jie Zhang,0,2007
+Jie Zhang,0,2008
+Jie Zhang,0,2009
+Jie Zhang,2.0,2010
+Jie Zhang,2.0,2011
+Jie Zhang,0,2012
+S Azarm,2.0,2002
+S Azarm,2.0,2003
+S Azarm,3.0,2004
+S Azarm,0,2005
+S Azarm,1.0,2006
+S Azarm,0,2007
+S Azarm,1.0,2008
+S Azarm,3.0,2009
+S Azarm,2.0,2010
+S Azarm,2.0,2011
+S Azarm,1.0,2012
+Sayed M Metwalli,1.0,2002
+Sayed M Metwalli,1.0,2003
+Sayed M Metwalli,0,2004
+Sayed M Metwalli,2.0,2005
+Sayed M Metwalli,0,2006
+Sayed M Metwalli,2.0,2007
+Sayed M Metwalli,1.0,2008
+Sayed M Metwalli,1.0,2009
+Sayed M Metwalli,1.0,2010
+Sayed M Metwalli,1.0,2011
+Sayed M Metwalli,2.0,2012
+Fouad Bennis,0,2002
+Fouad Bennis,2.0,2003
+Fouad Bennis,0,2004
+Fouad Bennis,0,2005
+Fouad Bennis,0,2006
+Fouad Bennis,0,2007
+Fouad Bennis,0,2008
+Fouad Bennis,0,2009
+Fouad Bennis,0,2010
+Fouad Bennis,1.0,2011
+Fouad Bennis,2.0,2012
+Byeng D Youn,1.0,2002
+Byeng D Youn,1.0,2003
+Byeng D Youn,1.0,2004
+Byeng D Youn,0,2005
+Byeng D Youn,0,2006
+Byeng D Youn,2.0,2007
+Byeng D Youn,2.0,2008
+Byeng D Youn,0,2009
+Byeng D Youn,1.0,2010
+Byeng D Youn,3.0,2011
+Byeng D Youn,1.0,2012
+Damiano Pasini,0,2002
+Damiano Pasini,0,2003
+Damiano Pasini,0,2004
+Damiano Pasini,0,2005
+Damiano Pasini,0,2006
+Damiano Pasini,0,2007
+Damiano Pasini,0,2008
+Damiano Pasini,0,2009
+Damiano Pasini,3.0,2010
+Damiano Pasini,3.0,2011
+Damiano Pasini,0,2012
+Ikjin Lee,0,2002
+Ikjin Lee,0,2003
+Ikjin Lee,0,2004
+Ikjin Lee,0,2005
+Ikjin Lee,1.0,2006
+Ikjin Lee,2.0,2007
+Ikjin Lee,1.0,2008
+Ikjin Lee,3.0,2009
+Ikjin Lee,2.0,2010
+Ikjin Lee,2.0,2011
+Ikjin Lee,1.0,2012
+Umesh Gandhi,0,2002
+Umesh Gandhi,0,2003
+Umesh Gandhi,0,2004
+Umesh Gandhi,0,2005
+Umesh Gandhi,0,2006
+Umesh Gandhi,0,2007
+Umesh Gandhi,0,2008
+Umesh Gandhi,0,2009
+Umesh Gandhi,0,2010
+Umesh Gandhi,2.0,2011
+Umesh Gandhi,0,2012
+Luciano Castillo,0,2002
+Luciano Castillo,0,2003
+Luciano Castillo,0,2004
+Luciano Castillo,0,2005
+Luciano Castillo,0,2006
+Luciano Castillo,0,2007
+Luciano Castillo,0,2008
+Luciano Castillo,0,2009
+Luciano Castillo,2.0,2010
+Luciano Castillo,2.0,2011
+Luciano Castillo,0,2012
+Prabhu Shankar,0,2002
+Prabhu Shankar,0,2003
+Prabhu Shankar,0,2004
+Prabhu Shankar,0,2005
+Prabhu Shankar,0,2006
+Prabhu Shankar,0,2007
+Prabhu Shankar,0,2008
+Prabhu Shankar,0,2009
+Prabhu Shankar,0,2010
+Prabhu Shankar,2.0,2011
+Prabhu Shankar,0,2012
+Yi Ren,0,2002
+Yi Ren,0,2003
+Yi Ren,0,2004
+Yi Ren,0,2005
+Yi Ren,0,2006
+Yi Ren,0,2007
+Yi Ren,0,2008
+Yi Ren,0,2009
+Yi Ren,1.0,2010
+Yi Ren,1.0,2011
+Yi Ren,2.0,2012
+Jonathan Cagan,1.0,2002
+Jonathan Cagan,0,2003
+Jonathan Cagan,1.0,2004
+Jonathan Cagan,0,2005
+Jonathan Cagan,0,2006
+Jonathan Cagan,1.0,2007
+Jonathan Cagan,2.0,2008
+Jonathan Cagan,1.0,2009
+Jonathan Cagan,2.0,2010
+Jonathan Cagan,2.0,2011
+Jonathan Cagan,1.0,2012
+Christopher A Mattson,1.0,2002
+Christopher A Mattson,0,2003
+Christopher A Mattson,0,2004
+Christopher A Mattson,0,2005
+Christopher A Mattson,0,2006
+Christopher A Mattson,0,2007
+Christopher A Mattson,0,2008
+Christopher A Mattson,0,2009
+Christopher A Mattson,1.0,2010
+Christopher A Mattson,3.0,2011
+Christopher A Mattson,3.0,2012
+Eric Dierks,0,2002
+Eric Dierks,0,2003
+Eric Dierks,0,2004
+Eric Dierks,0,2005
+Eric Dierks,0,2006
+Eric Dierks,0,2007
+Eric Dierks,0,2008
+Eric Dierks,0,2009
+Eric Dierks,0,2010
+Eric Dierks,1.0,2011
+Eric Dierks,0,2012
+Jaehyung Ju,0,2002
+Jaehyung Ju,0,2003
+Jaehyung Ju,0,2004
+Jaehyung Ju,0,2005
+Jaehyung Ju,0,2006
+Jaehyung Ju,0,2007
+Jaehyung Ju,0,2008
+Jaehyung Ju,0,2009
+Jaehyung Ju,2.0,2010
+Jaehyung Ju,2.0,2011
+Jaehyung Ju,0,2012
+Wei Chen,3.0,2002
+Wei Chen,3.0,2003
+Wei Chen,3.0,2004
+Wei Chen,2.0,2005
+Wei Chen,3.0,2006
+Wei Chen,2.0,2007
+Wei Chen,2.0,2008
+Wei Chen,8.0,2009
+Wei Chen,3.0,2010
+Wei Chen,4.0,2011
+Wei Chen,3.0,2012
+Zissimos P Mourelatos,0,2002
+Zissimos P Mourelatos,3.0,2003
+Zissimos P Mourelatos,3.0,2004
+Zissimos P Mourelatos,2.0,2005
+Zissimos P Mourelatos,2.0,2006
+Zissimos P Mourelatos,2.0,2007
+Zissimos P Mourelatos,2.0,2008
+Zissimos P Mourelatos,2.0,2009
+Zissimos P Mourelatos,4.0,2010
+Zissimos P Mourelatos,3.0,2011
+Zissimos P Mourelatos,3.0,2012
+Kemper Lewis,3.0,2002
+Kemper Lewis,2.0,2003
+Kemper Lewis,2.0,2004
+Kemper Lewis,4.0,2005
+Kemper Lewis,1.0,2006
+Kemper Lewis,4.0,2007
+Kemper Lewis,2.0,2008
+Kemper Lewis,1.0,2009
+Kemper Lewis,2.0,2010
+Kemper Lewis,3.0,2011
+Kemper Lewis,2.0,2012
+Liang Zhao,0,2002
+Liang Zhao,0,2003
+Liang Zhao,0,2004
+Liang Zhao,0,2005
+Liang Zhao,0,2006
+Liang Zhao,0,2007
+Liang Zhao,0,2008
+Liang Zhao,1.0,2009
+Liang Zhao,1.0,2010
+Liang Zhao,1.0,2011
+Liang Zhao,0,2012
+Matthew Campbell,1.0,2002
+Matthew Campbell,0,2003
+Matthew Campbell,2.0,2004
+Matthew Campbell,0,2005
+Matthew Campbell,1.0,2006
+Matthew Campbell,4.0,2007
+Matthew Campbell,1.0,2008
+Matthew Campbell,1.0,2009
+Matthew Campbell,0,2010
+Matthew Campbell,2.0,2011
+Matthew Campbell,2.0,2012
+Xiaolong Feng,0,2002
+Xiaolong Feng,0,2003
+Xiaolong Feng,0,2004
+Xiaolong Feng,0,2005
+Xiaolong Feng,0,2006
+Xiaolong Feng,1.0,2007
+Xiaolong Feng,1.0,2008
+Xiaolong Feng,1.0,2009
+Xiaolong Feng,1.0,2010
+Xiaolong Feng,2.0,2011
+Xiaolong Feng,1.0,2012
+Scott Ferguson,0,2002
+Scott Ferguson,0,2003
+Scott Ferguson,0,2004
+Scott Ferguson,1.0,2005
+Scott Ferguson,0,2006
+Scott Ferguson,1.0,2007
+Scott Ferguson,0,2008
+Scott Ferguson,1.0,2009
+Scott Ferguson,2.0,2010
+Scott Ferguson,4.0,2011
+Scott Ferguson,1.0,2012
+Karim Hamza,0,2002
+Karim Hamza,2.0,2003
+Karim Hamza,0,2004
+Karim Hamza,1.0,2005
+Karim Hamza,1.0,2006
+Karim Hamza,0,2007
+Karim Hamza,0,2008
+Karim Hamza,2.0,2009
+Karim Hamza,3.0,2010
+Karim Hamza,4.0,2011
+Karim Hamza,3.0,2012
+Vijitashwa Pandey,0,2002
+Vijitashwa Pandey,0,2003
+Vijitashwa Pandey,0,2004
+Vijitashwa Pandey,0,2005
+Vijitashwa Pandey,0,2006
+Vijitashwa Pandey,0,2007
+Vijitashwa Pandey,0,2008
+Vijitashwa Pandey,0,2009
+Vijitashwa Pandey,0,2010
+Vijitashwa Pandey,2.0,2011
+Vijitashwa Pandey,3.0,2012
+Sajad Arabnejad Khanoki,0,2002
+Sajad Arabnejad Khanoki,0,2003
+Sajad Arabnejad Khanoki,0,2004
+Sajad Arabnejad Khanoki,0,2005
+Sajad Arabnejad Khanoki,0,2006
+Sajad Arabnejad Khanoki,0,2007
+Sajad Arabnejad Khanoki,0,2008
+Sajad Arabnejad Khanoki,0,2009
+Sajad Arabnejad Khanoki,0,2010
+Sajad Arabnejad Khanoki,2.0,2011
+Sajad Arabnejad Khanoki,0,2012
+Seonho Cho,0,2002
+Seonho Cho,0,2003
+Seonho Cho,0,2004
+Seonho Cho,0,2005
+Seonho Cho,0,2006
+Seonho Cho,0,2007
+Seonho Cho,0,2008
+Seonho Cho,0,2009
+Seonho Cho,0,2010
+Seonho Cho,2.0,2011
+Seonho Cho,0,2012
+Christopher Hoyle,0,2002
+Christopher Hoyle,0,2003
+Christopher Hoyle,0,2004
+Christopher Hoyle,0,2005
+Christopher Hoyle,0,2006
+Christopher Hoyle,0,2007
+Christopher Hoyle,1.0,2008
+Christopher Hoyle,4.0,2009
+Christopher Hoyle,1.0,2010
+Christopher Hoyle,1.0,2011
+Christopher Hoyle,1.0,2012
+Joshua D Summers,0,2002
+Joshua D Summers,2.0,2003
+Joshua D Summers,2.0,2004
+Joshua D Summers,1.0,2005
+Joshua D Summers,3.0,2006
+Joshua D Summers,1.0,2007
+Joshua D Summers,1.0,2008
+Joshua D Summers,0,2009
+Joshua D Summers,4.0,2010
+Joshua D Summers,2.0,2011
+Joshua D Summers,2.0,2012
+Jitesh H Panchal,0,2002
+Jitesh H Panchal,0,2003
+Jitesh H Panchal,0,2004
+Jitesh H Panchal,2.0,2005
+Jitesh H Panchal,2.0,2006
+Jitesh H Panchal,2.0,2007
+Jitesh H Panchal,1.0,2008
+Jitesh H Panchal,1.0,2009
+Jitesh H Panchal,0,2010
+Jitesh H Panchal,1.0,2011
+Jitesh H Panchal,1.0,2012
+Patrick K Lewis,0,2002
+Patrick K Lewis,0,2003
+Patrick K Lewis,0,2004
+Patrick K Lewis,0,2005
+Patrick K Lewis,0,2006
+Patrick K Lewis,0,2007
+Patrick K Lewis,0,2008
+Patrick K Lewis,0,2009
+Patrick K Lewis,1.0,2010
+Patrick K Lewis,2.0,2011
+Patrick K Lewis,2.0,2012
+Timothy W Simpson,1.0,2002
+Timothy W Simpson,5.0,2003
+Timothy W Simpson,4.0,2004
+Timothy W Simpson,7.0,2005
+Timothy W Simpson,9.0,2006
+Timothy W Simpson,4.0,2007
+Timothy W Simpson,7.0,2008
+Timothy W Simpson,4.0,2009
+Timothy W Simpson,2.0,2010
+Timothy W Simpson,3.0,2011
+Timothy W Simpson,2.0,2012
+Kazuhiro Saitou,2.0,2002
+Kazuhiro Saitou,5.0,2003
+Kazuhiro Saitou,1.0,2004
+Kazuhiro Saitou,2.0,2005
+Kazuhiro Saitou,2.0,2006
+Kazuhiro Saitou,0,2007
+Kazuhiro Saitou,0,2008
+Kazuhiro Saitou,1.0,2009
+Kazuhiro Saitou,3.0,2010
+Kazuhiro Saitou,3.0,2011
+Kazuhiro Saitou,1.0,2012
+Dimitri Mavris,0,2002
+Dimitri Mavris,0,2003
+Dimitri Mavris,0,2004
+Dimitri Mavris,0,2005
+Dimitri Mavris,0,2006
+Dimitri Mavris,0,2007
+Dimitri Mavris,0,2008
+Dimitri Mavris,0,2009
+Dimitri Mavris,0,2010
+Dimitri Mavris,1.0,2011
+Dimitri Mavris,0,2012
+Maria C Yang,0,2002
+Maria C Yang,0,2003
+Maria C Yang,0,2004
+Maria C Yang,0,2005
+Maria C Yang,0,2006
+Maria C Yang,0,2007
+Maria C Yang,0,2008
+Maria C Yang,0,2009
+Maria C Yang,0,2010
+Maria C Yang,2.0,2011
+Maria C Yang,1.0,2012
+Mehmet Ersin Yumer,0,2002
+Mehmet Ersin Yumer,0,2003
+Mehmet Ersin Yumer,0,2004
+Mehmet Ersin Yumer,0,2005
+Mehmet Ersin Yumer,0,2006
+Mehmet Ersin Yumer,0,2007
+Mehmet Ersin Yumer,0,2008
+Mehmet Ersin Yumer,0,2009
+Mehmet Ersin Yumer,0,2010
+Mehmet Ersin Yumer,1.0,2011
+Mehmet Ersin Yumer,0,2012
+Joseph A Donndelinger,0,2002
+Joseph A Donndelinger,0,2003
+Joseph A Donndelinger,1.0,2004
+Joseph A Donndelinger,1.0,2005
+Joseph A Donndelinger,0,2006
+Joseph A Donndelinger,0,2007
+Joseph A Donndelinger,2.0,2008
+Joseph A Donndelinger,0,2009
+Joseph A Donndelinger,0,2010
+Joseph A Donndelinger,2.0,2011
+Joseph A Donndelinger,0,2012
+Efstratios Nikolaidis,0,2002
+Efstratios Nikolaidis,0,2003
+Efstratios Nikolaidis,0,2004
+Efstratios Nikolaidis,0,2005
+Efstratios Nikolaidis,1.0,2006
+Efstratios Nikolaidis,0,2007
+Efstratios Nikolaidis,1.0,2008
+Efstratios Nikolaidis,1.0,2009
+Efstratios Nikolaidis,2.0,2010
+Efstratios Nikolaidis,2.0,2011
+Efstratios Nikolaidis,0,2012
+Achille Messac,1.0,2002
+Achille Messac,0,2003
+Achille Messac,0,2004
+Achille Messac,2.0,2005
+Achille Messac,1.0,2006
+Achille Messac,1.0,2007
+Achille Messac,1.0,2008
+Achille Messac,0,2009
+Achille Messac,2.0,2010
+Achille Messac,2.0,2011
+Achille Messac,1.0,2012
+Nickolas Vlahopoulos,0,2002
+Nickolas Vlahopoulos,1.0,2003
+Nickolas Vlahopoulos,0,2004
+Nickolas Vlahopoulos,0,2005
+Nickolas Vlahopoulos,0,2006
+Nickolas Vlahopoulos,0,2007
+Nickolas Vlahopoulos,0,2008
+Nickolas Vlahopoulos,0,2009
+Nickolas Vlahopoulos,0,2010
+Nickolas Vlahopoulos,2.0,2011
+Nickolas Vlahopoulos,0,2012
+P K Kannan,0,2002
+P K Kannan,0,2003
+P K Kannan,1.0,2004
+P K Kannan,0,2005
+P K Kannan,1.0,2006
+P K Kannan,0,2007
+P K Kannan,1.0,2008
+P K Kannan,0,2009
+P K Kannan,1.0,2010
+P K Kannan,2.0,2011
+P K Kannan,0,2012
+Ping An Du,0,2002
+Ping An Du,0,2003
+Ping An Du,0,2004
+Ping An Du,0,2005
+Ping An Du,0,2006
+Ping An Du,0,2007
+Ping An Du,0,2008
+Ping An Du,0,2009
+Ping An Du,0,2010
+Ping An Du,2.0,2011
+Ping An Du,0,2012
+Souma Chowdhury,0,2002
+Souma Chowdhury,0,2003
+Souma Chowdhury,0,2004
+Souma Chowdhury,0,2005
+Souma Chowdhury,0,2006
+Souma Chowdhury,0,2007
+Souma Chowdhury,0,2008
+Souma Chowdhury,0,2009
+Souma Chowdhury,2.0,2010
+Souma Chowdhury,2.0,2011
+Souma Chowdhury,1.0,2012
+Bernard Yannou,0,2002
+Bernard Yannou,1.0,2003
+Bernard Yannou,1.0,2004
+Bernard Yannou,1.0,2005
+Bernard Yannou,1.0,2006
+Bernard Yannou,1.0,2007
+Bernard Yannou,1.0,2008
+Bernard Yannou,1.0,2009
+Bernard Yannou,2.0,2010
+Bernard Yannou,2.0,2011
+Bernard Yannou,1.0,2012
+Hae Chang Gea,1.0,2002
+Hae Chang Gea,2.0,2003
+Hae Chang Gea,1.0,2004
+Hae Chang Gea,2.0,2005
+Hae Chang Gea,3.0,2006
+Hae Chang Gea,0,2007
+Hae Chang Gea,2.0,2008
+Hae Chang Gea,1.0,2009
+Hae Chang Gea,2.0,2010
+Hae Chang Gea,3.0,2011
+Hae Chang Gea,2.0,2012
+Panos Y Papalambros,3.0,2002
+Panos Y Papalambros,2.0,2003
+Panos Y Papalambros,2.0,2004
+Panos Y Papalambros,6.0,2005
+Panos Y Papalambros,4.0,2006
+Panos Y Papalambros,4.0,2007
+Panos Y Papalambros,2.0,2008
+Panos Y Papalambros,1.0,2009
+Panos Y Papalambros,4.0,2010
+Panos Y Papalambros,2.0,2011
+Panos Y Papalambros,2.0,2012
+Levent Burak Kara,0,2002
+Levent Burak Kara,0,2003
+Levent Burak Kara,1.0,2004
+Levent Burak Kara,0,2005
+Levent Burak Kara,0,2006
+Levent Burak Kara,0,2007
+Levent Burak Kara,0,2008
+Levent Burak Kara,2.0,2009
+Levent Burak Kara,0,2010
+Levent Burak Kara,2.0,2011
+Levent Burak Kara,0,2012

@@ -25,11 +25,11 @@ app.directive("citationGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/citations.json";
 			var dom = "#citation-graph";
-			drawGraph(scope, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
+			drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
-	  			drawGraph(scope, scope.chosenScore, scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
+	  			drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
 	  		});
 			
 		}//end link
