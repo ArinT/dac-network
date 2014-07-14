@@ -14,12 +14,12 @@ def generate_chronological_visualization():
                 'JOIN  Works w2 ON w2.AuthorID = a1.AuthorID '
                 'GROUP BY a1.AuthorID '
                 'ORDER BY COUNT(*) DESC '
-                'LIMIT 100) ab) '
+                ') ab) '
 	        'GROUP BY SUBSTRING(p.DOI,3,7), a.AuthorName, a.AuthorID '
 	        'ORDER BY a.AuthorName, SUBSTRING(p.DOI,5,4), COUNT(*) DESC ')
     return cursor.fetchall()
 def write_to_json():
-    writer = open("../static/csv/chronological_publications_top100.csv", "w+")
+    writer = open("../static/csv/chronological_publications.csv", "w+")
     results = generate_chronological_visualization()
     for tuple in results:
         writer.write("{},{},{} \n".format(tuple[1],float(tuple[0]),tuple[3]))
@@ -30,7 +30,7 @@ def create_array(filename):
     reader = csv.reader(f)
     for line in reader:
         names.add(line[0])
-    writer = open("../static/csv/chronological_array_top100.csv","w+")
+    writer = open("../static/csv/chronological_array.csv","w+")
 
     for name in names:
         for date in dates:
@@ -42,5 +42,5 @@ def create_array(filename):
                     found = True
             if not found:
                 writer.write("{},0,{}\n".format(name,date))
-#write_to_json()
-create_array("../static/csv/chronological_publications_top100.csv")
+write_to_json()
+create_array("../static/csv/chronological_publications.csv")
