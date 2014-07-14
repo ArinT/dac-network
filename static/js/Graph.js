@@ -22,7 +22,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		.attr("viewBox", "0 0 " + width + " " + height )
 		.attr("preserveAspectRatio", "xMidYMid meet")
 		.append("g")
-	    .call(d3.behavior.zoom().scaleExtent([-3, 8]).on("zoom", zoom))
+	    .call(d3.behavior.zoom().scaleExtent([-1, 8]).on("zoom", zoom))
 	    .append("g");
 	    
 	if (isCitationNetwork){
@@ -105,8 +105,10 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	    }
 	    force.stop();
 	    scope.$broadcast("GraphLoaded");
-		var link = svg.append('svg:g').selectAll("path")
-			.data(graph.links)
+		var link = svg.append('svg:g');
+			
+		if(isCitationNetwork){
+			link.selectAll("path").data(graph.links)
 			.enter().append("path")
 			.attr("class", "link")
 			.attr("d",function(d){
@@ -121,11 +123,33 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 				sourceY = d.source.y + (sourcePadding * normY),
 				targetX = d.target.x - (targetPadding * normX),
 				targetY = d.target.y - (targetPadding * normY);
-				return 'M' + sourceX + ',' + sourceY + 'L' + targetX + ',' + targetY;
+				if(sourceX){
+					return 'M' + sourceX + ',' + sourceY + 'L' + targetX + ',' + targetY;
+
+				}
 					// return 'M'+d.source.x+','+d.source.y+'L'+d.target.x+','+d.target.y;
 			})
-		    .style('marker-end', function(d) { return 'url(#end-arrow)'; });
-			// .style("stroke-width", function(d){ return Math.sqrt(d.value);});
+			.style('marker-end', function(d) { return 'url(#end-arrow)'; });
+		}
+		else{
+			link.selectAll("line").data(graph.links)
+			.enter().append("line")
+			.attr("class", "link")
+			.attr("x1", function(d) { 
+		  			return getEdgeCoord(centrality, d, score, d.source.x);
+  			})
+        	.attr("y1", function(d) { 
+	  			return getEdgeCoord(centrality, d, score, d.source.y);
+	  		})
+        	.attr("x2", function(d) { 
+	  			return getEdgeCoord(centrality, d, score, d.target.x);
+	  		})
+        	.attr("y2", function(d) { 
+	  			return getEdgeCoord(centrality, d, score, d.target.y);
+	  		})
+			.style("stroke-width", function(d){ return d.value;});
+
+		}
 
 	  	var node = svg.append("svg:g").selectAll("g")
 	  		.data(graph.nodes)
