@@ -46,8 +46,7 @@ def filter_group_by_size(communities, community_count, group_count, min_size):
             communities[i] = -1
     return groups
 
-def add_clustering_communities(infile, outfile):
-    json_data = json.load(open(infile))
+def add_clustering_communities(json_data):
     multigraph = json_graph.node_link_graph(json_data)
     graph = make_nonmultigraph(multigraph)
     communities = best_partition(graph)
@@ -61,8 +60,7 @@ def add_clustering_communities(infile, outfile):
             if group == communities[node['id']]:
                 node['group'] = c
             c+=1
-    writer = open(outfile, "w+")
-    writer.write(json.dumps(json_data))
+    return json_data
 def check_groups(infile):
     json_data = json.load(open(infile))
     group_count = []
@@ -71,6 +69,3 @@ def check_groups(infile):
     for node in json_data['nodes']:
         group_count[node['group']]+=1
     print group_count
-
-add_clustering_communities("/home/arin/thesis/DAC_network_analysis/static/json/old_json/authors_without_groups.json","/home/arin/Desktop/blah.json")
-# check_groups("/home/arin/thesis/DAC_network_analysis/static/json/authors.json")

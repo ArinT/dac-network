@@ -2,15 +2,21 @@ __author__ = 'arin'
 from networkx.readwrite import json_graph
 from networkx.algorithms import centrality
 from networkx.classes.digraph import DiGraph
+from networkx.exception import NetworkXError
 import json
 
-def calculate_all_centralities(infile, outfile):
-    data = json.load(open(infile))
+def calculate_all_centralities(data):
     G = json_graph.node_link_graph(data)
     degree = centrality.degree_centrality(G)
     closeness = centrality.closeness_centrality(G)
     betweeness = centrality.betweenness_centrality(G)
-    eigenvector = centrality.eigenvector_centrality(DiGraph(G),max_iter=1000)
+    eigenvector_fail = False
+    try:
+        eigenvector = centrality.eigenvector_centrality(DiGraph(G),max_iter=100000)
+    except NetworkXError:
+        eigenvector = []
+        eigenvector_fail = True
+        print "Max iterations exceeded"
     degree_max = -1.0
     closeness_max = -1.0
     betweeness_max = -1.0
@@ -20,7 +26,7 @@ def calculate_all_centralities(infile, outfile):
         author['degreeCentralityUnnormalized'] = degree[i]
         author['closenessCentralityUnnormalized'] = closeness[i]
         author['betweennessCentralityUnnormalized'] = betweeness[i]
-        author['eigenvectorCentralityUnnormalized'] = eigenvector[i]
+        author['eigenvectorCentralityUnnormalized'] = eigenvector[i] if not eigenvector_fail else 1.0
 
     for i in degree:
         if degree[i]>degree_max:
@@ -53,10 +59,5 @@ def calculate_all_centralities(infile, outfile):
         author['degreeCentrality'] = degree[i]
         author['closenessCentrality'] = closeness[i]
         author['betweennessCentrality'] = betweeness[i]
-        author['eigenvectorCentrality'] = eigenvector[i]
-
-    writer = open(outfile, "w+")
-    writer.write(json.dumps(data))
-
-calculate_all_centralities("/home/arin/thesis/DAC_network_analysis/graph_generation/citations.json","/home/arin/thesis/DAC_network_analysis/static/json/citations.json")
-# calculate_all_centralities("../static/json/authors_without_centrality_or_groups.json","../static/json/authors_without_groups.json")
+        author['eigenvectorCentrality'] = eigenvector[i] if not eigenvector_fail else 1.0
+    return data

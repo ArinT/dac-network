@@ -4,8 +4,18 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.settings')
 from django.db import connection
 from network_visualizer.models import Papers, Authors, Citations
+from graph_analysis.clustering import add_clustering_communities
+from graph_analysis.calculate_centrality import calculate_all_centralities
 OUTFILE = 'citations.json'
-def generate_citation_network_json(outfile):
+def get_year(doi):
+    return int(doi[4:8])
+
+
+def paper_is_cited_or_cites(citation, paper):
+    return citation.sourcepaperid == paper.paperid or citation.targetpaperid == paper.paperid
+
+
+def generate_citation_network_json( year ):
     citations = Citations.objects.all()
     papers = Papers.objects.all()
     node_set = set()
@@ -13,7 +23,7 @@ def generate_citation_network_json(outfile):
     nodes = []
     for paper in papers:
         for citation in citations:
-            if citation.sourcepaperid == paper.paperid or citation.targetpaperid == paper.paperid:
+            if paper_is_cited_or_cites(citation, paper) and year>= get_year(paper.doi):
                 node_set.add(paper)
     for paper in node_set:
         nodes.append({'id':paper.paperid,'name':paper.title,'doi':paper.doi})
@@ -27,9 +37,8 @@ def generate_citation_network_json(outfile):
                 target = i
         if target !=-1 and source !=-1:
             edges.append({'source':source,'target':target})
-    j = {'nodes':nodes,'links':edges}
-    writer = open(outfile,'w+')
-    writer.write(json.dumps(j))
+    json = {'nodes':nodes,'links':edges}
+    return json
 def get_collaborations():
     cursor = connection.cursor()
     cursor.execute('SELECT w1.AuthorId, w2.AuthorId, SUBSTRING(p.DOI,5,4) FROM Works w1 '
@@ -37,7 +46,7 @@ def get_collaborations():
                    'JOIN Papers p ON w2.PaperId = p.PaperID '
                    'WHERE w1.AuthorId > w2.AuthorId')
     return cursor.fetchall()
-def generate_author_network_json():
+def generate_author_network_json( year):
     authors = Authors.objects.all()
     nodes = []
     edges = []
@@ -53,10 +62,30 @@ def generate_author_network_json():
             if authors[i].authorid == collaboration[1]:
                 target = i
         if target != -1 and source !=-1:
-            year = collaboration[2]
-            edges.append({'source':source, 'target':target, 'year':year})
-    j = {'nodes':nodes, 'links':edges}
-    writer = open('authors_without_centrality_or_groups.json','w+')
+            paper_year = int(collaboration[2])
+            if year >= paper_year:
+                edges.append({'source':source, 'target':target})
+    json = {'nodes':nodes, 'links':edges}
+    return json
+def write_json_to_file(outfile, j):
+    writer = open(outfile,'w+')
     writer.write(json.dumps(j))
-# generate_author_network_json()
-generate_citation_network_json(OUTFILE)
+
+
+def create_and_analyze_network(year, outfile, type):
+    generate  = [generate_author_network_json,generate_citation_network_json]
+    author_network_json = generate[type](year)
+    print ("Author" if type == 0 else "Citation")+" Network generated for "+str(year)
+    author_network_json_with_centrality = calculate_all_centralities(author_network_json)
+    print ("Author" if type == 0 else "Citation")+" Network centrality calculated for "+str(year)
+    complete_author_network_json = add_clustering_communities(author_network_json_with_centrality)
+    print ("Author" if type == 0 else "Citation")+" Network community clustering calculated for "+str(year)
+    write_json_to_file(outfile, complete_author_network_json)
+    print "Complete "+("Author" if type == 0 else "Citation")+" Network written to "+outfile
+def main():
+    create_and_analyze_network(2012,"/home/arin/Desktop/authors.json",0)
+    create_and_analyze_network(2012,"/home/arin/Desktop/citations.json",1)
+    for i in range (0,10):
+        create_and_analyze_network(2002+i,"/home/arin/Desktop/yearly_authors/authors"+str(2002+i)+".json",0)
+        create_and_analyze_network(2002+i,"/home/arin/Desktop/yearly_citations/citations"+str(2002+i)+".json",1)
+main()
