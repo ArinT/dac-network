@@ -28,9 +28,17 @@
 				<div ng-show="rightOpened===true" ng-click="rightClose()" class="glyphicon glyphicon-chevron-right"></div>
 			</td>
 			<td>
+				<h4>Author Information:</h4>
+				<p><strong>Name: </strong><br/> {$ authorName $}</p>
+				<p><strong>Centrality: </strong><br/> {$ centrality $} </p>
+				<p><strong>Score: </strong><br/> {$ centralityScore $} </p>
 				<h4>Author's Papers:</h4>
 				<div class="list-group">
 					<a class="list-group-item" ng-repeat="paper in authorPapers" href="{$paper.url$}">{$ paper.title $}</a>
+				</div>
+				<h4>Author's Affiliates:</h4>
+				<div class="list-group">
+					<a class="list-group-item" ng-repeat="affiliate in authorAffiliates" ng-click="affiliateSelected(affiliate.name)">{$ affiliate.name $}</a>
 				</div>
 			</td>
 		</tr>

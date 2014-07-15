@@ -29,6 +29,7 @@ app.service("MessageServer", function($http){
 			data:myData,
 			headers:{'X-CSRFToken': csrf}
 		}).success(function(data, status, headers, config){
+			console.log(data);
 			authorPapers = data;
 		}).error(function(data, status, headers, config){
 			console.log("error");

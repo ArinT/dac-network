@@ -182,7 +182,12 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  		.on("click", function(d){
 	  			if(d[centrality] >= score  || d[centrality] <= 0 ){
 	  			
-	  				scope.$emit(nodeClicked, d);
+	  				scope.$emit(nodeClicked, {
+	  					'name': d['name'],
+	  					'id': d['id'],
+	  					'centrality': centrality,
+	  					'score': d[centrality]
+	  				});
 			        d3.selectAll(".link")
 			        	.filter(function(l){
 			                 return (l.source.index!==d.index && l.target.index!==d.index);
@@ -205,14 +210,6 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  			}
 	  			return d.name+"\n Score "+d[centrality]; 
 	  		});
-		// svg.selectAll(".node")
-	 //  		.style("fill", function(d){
-	 //  			if(d[centrality] < score || d[centrality] <= 0 ){
-	 //  				return "rgb(255,255,255)";
-	 //  			}
-	 //  			var hue = Math.round((1/(d[centrality])));
-	 //  			return "hsl("+hue+",100% ,50%)";
-	 //  		});
   		svg.selectAll("title")
 	  		.text(function(d){ 
 	  			return d.name+"\n Score: "+d[centrality]; 
