@@ -34,11 +34,21 @@
 				<p><strong>Score: </strong><br/> {$ centralityScore $} </p>
 				<h4>Author's Papers:</h4>
 				<div class="list-group">
-					<a class="list-group-item" ng-repeat="paper in authorPapers" href="{$paper.url$}">{$ paper.title $}</a>
+					<!--  -->
+					<div class="dropdown" ng-repeat="paper in viewAuthorPapers(viewNumber)">
+						<a class="list-group-item dropdown-toggle" data-toggle="dropdown"  >{$ paper.title $}<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="{$paper.url$}">View paper</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1">View in graph</a></li>
+						</ul>
+					</div>
+					<a ng-show="viewNumber === 2 && authorPapers.length > 2" ng-click="addMorePapers();">View more</a>
+					<a ng-hide="viewNumber === 2 || authorPapers.length <= 2 " ng-click="hidePapers()">Hide papers</a>
 				</div>
-				<h4>Author's Affiliates:</h4>
+				<h4>Author's Co-Authors:</h4>
 				<div class="list-group">
 					<a class="list-group-item" ng-repeat="affiliate in authorAffiliates" ng-click="affiliateSelected(affiliate.name)">{$ affiliate.name $}</a>
+
 				</div>
 			</td>
 		</tr>

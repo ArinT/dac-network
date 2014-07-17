@@ -21,9 +21,9 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		})
 		.attr("viewBox", "0 0 " + width + " " + height )
 		.attr("preserveAspectRatio", "xMidYMid meet")
+	    .call(d3.behavior.zoom().scaleExtent([0, 8]).on("zoom", zoom))
 		.append("g")
-	    .call(d3.behavior.zoom().scaleExtent([-1, 8]).on("zoom", zoom))
-	    .append("g");
+		.attr("id", "transformme");
 	    
 	if (isCitationNetwork){
 		svg.append('svg:defs').append('svg:marker')
@@ -155,6 +155,9 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  		.data(graph.nodes)
 	  		.enter().append("circle")
 	  		.attr("class", "node")
+	  		.attr("id", function(d){
+	  			return d["name"].replace(/\s+/g, '');
+	  		})
 	  		.attr("cx", function(d) { 
 	  			return getNodeCoord(centrality, d, score, d.x);
 	  			

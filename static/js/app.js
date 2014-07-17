@@ -4,7 +4,7 @@ var app = angular.module('CitationNetwork',['ngRoute','ngCookies','ui.slider','u
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
 	$routeProvider.when('/chrono', {templateUrl: '/static/partials/chronologicalGraph.html'});
 	$routeProvider.when('/freqplot', {templateUrl: '/static/partials/freqplot.html'});
-	$routeProvider.when('/suggestions', {templateUrl: '/static/partials/Suggestions.html', controller:"SuggestionsCtrl"});
+	$routeProvider.when('/feedback', {templateUrl: '/static/partials/Feedback.html', controller:"FeedbackCtrl"});
 	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
 }).run(function($http, $cookies) {
     $http.defaults.headers.post['X-CSRFToken'] = $cookies['csrftoken'];

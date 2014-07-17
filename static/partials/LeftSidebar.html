@@ -26,7 +26,8 @@
 			<td >
 				<h4>Search Results:</h4>
 				<div class="list-group">
-					<a ng-show="search !== null && search !=='' " class="list-group-item" ng-repeat="node in nodes | filter:search" ng-click="postAuthorId(node.id)">{$ node.name $}</a>
+					<a ng-show="search !== null && search !=='' " class="list-group-item" ng-repeat="node in nodes | filter:search" ng-click="authorSelected(node)">{$ node.name $}</a>
+
 				</div>
 			</td>
 			<td style="padding:2px;" class="left-middle">

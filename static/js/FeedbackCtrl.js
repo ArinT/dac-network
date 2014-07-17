@@ -1,4 +1,4 @@
-app.controller("SuggestionsCtrl", function($scope, MessageServer) {
+app.controller("FeedbackCtrl", function($scope, MessageServer) {
 	$scope.message = null;
 	$scope.messageServer = MessageServer;
 	$scope.sent = false;

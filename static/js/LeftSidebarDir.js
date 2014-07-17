@@ -1,3 +1,11 @@
+jQuery.fn.d3Click = function () {
+  this.each(function (i, e) {
+    var evt = document.createEvent("MouseEvents");
+    evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+
+    e.dispatchEvent(evt);
+  });
+};
 app.directive("leftSidebar", function(){
 	return{
 		restrict:"E",
@@ -6,9 +14,14 @@ app.directive("leftSidebar", function(){
 			$scope.messageServer = MessageServer;
 			$scope.leftOpened = false;
 			$scope.arrowPosition = 100;
-			$scope.postAuthorId = function(id){
-				console.log(id);
-				$scope.messageServer.queryAuthors(id);
+			$scope.authorSelected = function(node){
+				var domId = "#"+ node.name.replace(/\s+/g, '');
+				var xLoc = $(domId).attr("cx");
+				var yLoc = $(domId).attr("cy");
+				$("#transformme").attr("position", "2");
+				$(domId).d3Click();
+				console.log(node.id);
+				$scope.messageServer.queryAuthors(node.id);
 			};
 		},
 		link: function(scope, elem, attr){

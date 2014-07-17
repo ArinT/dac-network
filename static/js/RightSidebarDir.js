@@ -8,6 +8,25 @@ app.directive("rightSidebar", function(){
 			$scope.authorPapers = null;
 			$scope.rightOpened = false;
 			$scope.authorNodes = null;
+			$scope.viewNumber = 2;
+			$scope.viewAuthorPapers = function(numberOfPapers){
+				var retVal = [];
+				if($scope.authorPapers !== null){
+					for(var i = 0; i<numberOfPapers; i++){
+						//not all people have written two papers
+						if($scope.authorPapers[i]){
+							retVal.push($scope.authorPapers[i]);
+						}
+					}
+				}
+				return retVal;
+			};
+			$scope.addMorePapers = function(){
+				$scope.viewNumber = $scope.authorPapers.length;
+			};
+			$scope.hidePapers = function(){
+				$scope.viewNumber = 2;
+			}
 			$scope.affiliateSelected = function(name){
 				var authorObj = "";
 				for(var i = 0; i<$scope.authorNodes.length; i++){
