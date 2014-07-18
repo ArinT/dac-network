@@ -10,14 +10,16 @@ PAPERS_WITH_REFERENCES_FILE =  "/home/arin/thesis/DAC_network_analysis/misc/pape
 REFERENCES_FILE = "/home/arin/thesis/DAC_network_analysis/misc/references.json"
 STOP_WORDS = [':', ' on ',' in ',' the ',' and ',' of ',' by ',' as ',' to ',' at ',' a ',' and ',' for ',' an ',' to ', '-']
 
+def write_to_json(outfile, j):
+    writer = open(outfile, "w+")
+    writer.write(json.dumps(j))
 def remove_stopwords(text):
     text = " "+text
     text = text.upper()
     for word in STOP_WORDS:
         text = text.replace(word.upper()," ")
     return text
-def get_citations(filename, outfile):
-    papers = json.load(open(filename))
+def match_citations_with_papers(papers):
     edges = []
     i = 1
     for source in papers:
@@ -30,11 +32,8 @@ def get_citations(filename, outfile):
                 t = remove_stopwords(target['title'].encode('UTF-8'))
                 if soundex(s) == soundex(t):
                     edges.append({'source': source['doi'], 'target': target['doi']})
-    print len(edges)
-    writer = open(outfile, "w+")
-    writer.write(json.dumps(edges))
-def insert_into_citation_table(filename):
-    citations = json.load(open(filename))
+    return edges
+def insert_into_citation_table(citations):
     cursor = connection.cursor()
     cursor.execute(
         'DROP TABLE IF EXISTS Citations;'
@@ -52,7 +51,7 @@ def insert_into_citation_table(filename):
             '((SELECT PaperId FROM Papers WHERE DOI = %s),(SELECT PaperId FROM Papers WHERE DOI = %s));'
             ,[citation['source'].encode('UTF-8'),citation['target'].encode('UTF-8')])
         cursor.close()
-def add_references_to_papers(infile, outfile, dir):
+def add_references_to_papers(infile, dir):
     papers = json.load(open(infile))
     for paper in papers:
         for file in os.listdir(dir):
@@ -60,8 +59,7 @@ def add_references_to_papers(infile, outfile, dir):
                 filename = TEXT_DIR+file
                 refs =extract_references_from_txt(filename)
                 paper['references']=refs
-    writer = open(outfile,'w+')
-    writer.write(json.dumps(papers))
+    return papers
 def extract_references(text):
     open = u"\u201C"
     close = u"\u201D"
@@ -82,7 +80,8 @@ def extract_references_from_txt(filename):
     references_section = references_section.replace('\n','')
     refs = extract_references(references_section)
     return refs
-
-add_references_to_papers(PAPERS_FILE,PAPERS_WITH_REFERENCES_FILE, TEXT_DIR)
-get_citations(PAPERS_WITH_REFERENCES_FILE,REFERENCES_FILE)
-insert_into_citation_table(REFERENCES_FILE)
+def main():
+    papers_with_references = add_references_to_papers(PAPERS_FILE, TEXT_DIR)
+    citations = match_citations_with_papers(papers_with_references)
+    insert_into_citation_table(citations)
+main()

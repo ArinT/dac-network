@@ -26,7 +26,7 @@ app.directive("authorGraph", function(){
 		restrict:"A",
 		controller:"authorGraphCtrl",
 		link:function(scope, elem, attrs){
-			var fileName = "../../static/json/authors.json";
+			var fileName = "../../static/json/yearly_authors/authors2006.json";
 			var dom = "#author-graph";
 			drawGraph(scope, false, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
 			
