@@ -64,13 +64,13 @@ def get_citations(paper_id):
     return cites
 def get_cited_by(paper_id):
     cursor = connection.cursor()
-    cursor.execute('SELECT p.title, p.url FROM Citations c '
+    cursor.execute('SELECT p.title, p.url, p.doi FROM Citations c '
                    'JOIN Papers p on p.paperId = c.sourcePaperId '
                    'WHERE c.targetPaperId = %s; ',[paper_id])
     res = cursor.fetchall()
     cited = []
     for item in res:
-        cited.append({'name':item[0].encode('UTF-8'), 'url':item[1].encode('UTF-8')})
+        cited.append({'name':item[0].encode('UTF-8'), 'url':item[1].encode('UTF-8'), 'doi':item[2]})
     return cited
 def get_paper_authors(paper_id):
     cursor = connection.cursor()
