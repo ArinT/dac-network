@@ -2,6 +2,7 @@ app.directive("chrono", function(){
   return {
     restrict:"A",
     controller:function($scope){
+      $scope.csvpath = "../static/csv/chronological_array_top100.csv";
       $scope.graphColor = "blue";
       //when watching a variable, on first visit to page it thinks the variable changes when we it doesnt
       $scope.firstVisit = true;
@@ -15,10 +16,21 @@ app.directive("chrono", function(){
           console.log("changed")
           $("svg").remove();
           $(".remove").remove();
-          chart("../static/csv/chronological_array_top100.csv", scope.graphColor);
+          chart(scope.csvpath, scope.graphColor);
         }
       });
-      chart("../static/csv/chronological_array_top100.csv", "blue");
+      scope.$watch("csvpath", function(){
+        if(scope.firstVisit){
+          scope.firstVisit = false;
+        }
+        else{
+          console.log("changed")
+          $("svg").remove();
+          $(".remove").remove();
+          chart(scope.csvpath, scope.graphColor);
+        }
+      });
+      chart(scope.csvpath, "blue");
 
       var datearray = [];
       var colorrange = [];
