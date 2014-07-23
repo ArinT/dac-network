@@ -181,20 +181,44 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 						hue = d[centrality] * 10;
 						break;
 					case "degreeCentrality":
-						hue = 100-Math.round((1/(d[centrality])));
+						if (!isCitationNetwork)
+						{
+							hue = 100-Math.round((1/(d[centrality])));
+						}
+						else if (d[centrality] != 0)
+						{
+							hue = (Math.log(d[centrality])+4)*30;
+						}
+						else
+						{
+							hue = 0;
+						}				
 						break;
 					case "betweennessCentrality":
-						if (d[centrality] != 0)
+						if (!isCitationNetwork && d[centrality] != 0)
 						{
 							hue = (Math.log(d[centrality])+13)*10;
-							break;
+						}
+						else if (d[centrality] != 0)
+						{
+							hue = (Math.log(d[centrality])+12)*10;
 						}
 						break;
 					case "closenessCentrality":
-						if (d[centrality] != 0)
+						if (!isCitationNetwork && d[centrality] != 0)
 						{
 							hue = (Math.log(d[centrality])+6)*15;
-							break;
+						}
+						else if (d[centrality] != 0)
+						{
+							if (Math.log(d[centrality])>-1)
+							{
+								hue = (Math.log(d[centrality])+1)*120;
+							}
+							else
+							{
+								hue = 0;
+							}
 						}
 						break;
 					case "eigenvectorCentrality":
@@ -202,12 +226,10 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 						{
 							
 							hue = (Math.log(d[centrality])+12)*10;
-							break;
 						}
 						else
 						{
 							hue = 0;
-							break;
 						}
 						break;
 					default:

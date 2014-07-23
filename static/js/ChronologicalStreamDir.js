@@ -15,10 +15,10 @@ app.directive("chrono", function(){
           console.log("changed")
           $("svg").remove();
           $(".remove").remove();
-          chart("../static/csv/yearly_csvs/chronological_array_2006.csv", scope.graphColor);
+          chart("../static/csv/chronological_array_top100.csv", scope.graphColor);
         }
       });
-      chart("../static/csv/yearly_csvs/chronological_array_2006.csv", "blue");
+      chart("../static/csv/chronological_array_top100.csv", "blue");
 
       var datearray = [];
       var colorrange = [];
