@@ -191,10 +191,24 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 						}
 						break;
 					case "closenessCentrality":
-						hue = Math.round((1/(d[centrality])));
+						if (d[centrality] != 0)
+						{
+							hue = (Math.log(d[centrality])+6)*15;
+							break;
+						}
 						break;
 					case "eigenvectorCentrality":
-						hue = Math.round((1/(d[centrality])));
+						if (d[centrality] != 0 && Math.log(d[centrality])>-12)
+						{
+							
+							hue = (Math.log(d[centrality])+12)*10;
+							break;
+						}
+						else
+						{
+							hue = 0;
+							break;
+						}
 						break;
 					default:
 						hue = 0;
