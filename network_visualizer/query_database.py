@@ -8,14 +8,14 @@ from django.db import connection
 
 def get_author_credits(author_id):
     cursor = connection.cursor()
-    cursor.execute('SELECT title, url FROM Papers '
+    cursor.execute('SELECT title, url, doi FROM Papers '
                    'JOIN Works ON Works.PaperId = Papers.PaperID '
                    'JOIN Authors ON Authors.AuthorID = Works.AuthorId '
                    'WHERE Authors.AuthorID = %s;', [author_id])
     res = cursor.fetchall()
     credits = []
     for item in res:
-        credits.append({'title': item[0].encode('utf-8'), 'url': item[1].encode('utf-8')})
+        credits.append({'title': item[0].encode('utf-8'), 'url': item[1], 'doi':item[2]})
     return credits
 
 def get_author_affiliates(author_id):
@@ -41,7 +41,7 @@ def get_author_info(author_id):
 
 def get_similar_papers(paper_id):
     cursor = connection.cursor()
-    cursor.execute('SELECT p2.title, p2.url  FROM Papers p1 '
+    cursor.execute('SELECT p2.title, p2.url, p2.doi  FROM Papers p1 '
                    'JOIN TopFives tf ON tf.parentId = p1.PaperID '
                    'JOIN Papers p2 ON p2.PaperID = tf.childId '
                    'WHERE p1.PaperID = %s '
@@ -49,18 +49,18 @@ def get_similar_papers(paper_id):
     res = cursor.fetchall()
     results = []
     for item in res:
-        results.append({'title': item[0].encode('utf-8'), 'url': item[1].encode('utf-8')})
+        results.append({'title': item[0].encode('utf-8'), 'url': item[1], 'doi':item[2]})
     return results
 
 def get_citations(paper_id):
     cursor = connection.cursor()
-    cursor.execute('SELECT p.title, p.url FROM Citations c '
+    cursor.execute('SELECT p.title, p.url, p.doi FROM Citations c '
                    'JOIN Papers p on p.paperId = c.targetPaperId '
                    'WHERE c.sourcePaperId = %s; ',[paper_id])
     res = cursor.fetchall()
     cites = []
     for item in res:
-        cites.append({'name':item[0].encode('utf-8'), 'url':item[1].encode('utf-8')})
+        cites.append({'name':item[0].encode('utf-8'), 'url':item[1], 'doi':item[2]})
     return cites
 def get_cited_by(paper_id):
     cursor = connection.cursor()
@@ -70,7 +70,7 @@ def get_cited_by(paper_id):
     res = cursor.fetchall()
     cited = []
     for item in res:
-        cited.append({'name':item[0].encode('UTF-8'), 'url':item[1].encode('UTF-8'), 'doi':item[2]})
+        cited.append({'name':item[0].encode('UTF-8'), 'url':item[1], 'doi':item[2]})
     return cited
 def get_paper_authors(paper_id):
     cursor = connection.cursor()

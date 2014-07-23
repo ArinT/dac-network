@@ -175,11 +175,30 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  			}
 	  		})
 	  		.style("fill", function(d){
-
-	  			var hue = Math.round((1/(d[centrality])));
-	  			if(centrality === "group"){
-	  				hue = d[centrality] * 10;
-	  			}
+				var hue = 0;
+				switch  (centrality){
+					case "group":
+						hue = d[centrality] * 10;
+						break;
+					case "degreeCentrality":
+						hue = 100-Math.round((1/(d[centrality])));
+						break;
+					case "betweennessCentrality":
+						if (d[centrality] != 0)
+						{
+							hue = (Math.log(d[centrality])+13)*10;
+							break;
+						}
+						break;
+					case "closenessCentrality":
+						hue = Math.round((1/(d[centrality])));
+						break;
+					case "eigenvectorCentrality":
+						hue = Math.round((1/(d[centrality])));
+						break;
+					default:
+						hue = 0;
+					}				
 	  			return "hsl("+hue+",100% ,50%)";
 	  		})
 	  		.on("click", function(d){

@@ -16,5 +16,5 @@ class TestQuery(TestCase):
         assert(len(info['credits'])!= 0)
         assert(len(info['affiliates'])!= 0)
     def test_query_paper_info(self):
-        info = get_paper_info(53)
+        info = get_paper_info(161)
         print info
