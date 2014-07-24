@@ -97,19 +97,19 @@ app.directive("rightSidebar", function(){
 				if(newVal === oldVal){
 					return;
 				}
-				console.log(newVal);
+				console.log(newVal)
 				$scope.paperAuthors = newVal['authors'];
-				console.log('before call');
-				console.log($scope.paperAuthors);
 				$scope.selectAmountOfInfo('moreAuthors', 'paperAuthors', 'paperAuthorsHolder', 2);
-				console.log('after call');
-				console.log($scope.paperAuthors);
 				$scope.paperCited = newVal['cited'];
 				$scope.selectAmountOfInfo('moreCited', 'paperCited', 'paperCitedHolder', 2);
 				$scope.paperCites = newVal['cites'];
 				$scope.selectAmountOfInfo('moreCites', 'paperCites', 'paperCitesHolder', 2);
 				$scope.similarPapers = newVal['similar_papers'];
 				$scope.selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder', 2);
+				if( !$scope.rightOpened ){
+					$scope.rightOpen();
+				}
+				$scope.rightOpened = true;
 			});
 			$scope.$watch("messageServer.getAuthorQueries()", function(queryInfo, oldVal){
 				//this is the initialization of the variables

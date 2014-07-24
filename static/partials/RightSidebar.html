@@ -21,8 +21,6 @@
 				
 
 <div  id="right-container" >
-	hello
-	{$ location $}
 	<table  style="height:100%" class="table table-bordered">
 		<tr>
 			<td style="padding:3px;" class="right-middle" >
@@ -42,7 +40,7 @@
 					<h4>Author's Papers:</h4>
 				</div>
 				<div id="forCitationNetwork" ng-show="myLocation.path() === '/citationNetwork' ">
-					<h4 >Paper Information:</h4>
+					<h4>Paper Information:</h4>
 					{$ paperAuthorsHolder $}
 					<p><strong>Title: </strong><br/> {$ name $}</p>
 					<p class="text-center"><strong>Unnormalized Scores: </strong></p>
@@ -51,10 +49,50 @@
 					<p><strong>Closeness: </strong><br/> {$ closeness $} </p>
 					<p><strong>Eigenvector: </strong><br/> {$ eigen $} </p>
 					<p><strong>Group: </strong><br/> {$ group $} </p>
+					<h4>Authors: </h4>
 					<div class="list-group">
+
 						<a class="list-group-item" ng-repeat="author in paperAuthorsHolder">{$ author.name $}</a>
-						<a ng-show="moreAuthors" ng-click="selectAmountOfInfo('moreAuthors', 'paperAuthors', 'paperAuthorsHolder')">View more</a>
-						<a ng-hide="moreAuthors" ng-click="selectAmountOfInfo('moreAuthors', 'paperAuthors', 'paperAuthorsHolder', 2)">Hide papers</a>
+						<a ng-show="moreAuthors && paperAuthors.length > 2" ng-click="selectAmountOfInfo('moreAuthors', 'paperAuthors', 'paperAuthorsHolder')">View more</a>
+						<a ng-hide="moreAuthors || paperAuthors.length <= 2" ng-click="selectAmountOfInfo('moreAuthors', 'paperAuthors', 'paperAuthorsHolder', 2)">Hide papers</a>
+					</div>
+					<h4>Cited in: </h4>
+					<div class="list-group">
+						<div class="dropdown" ng-repeat="cited in paperCitedHolder">
+							<a class="list-group-item dropdown-toggle" data-toggle="dropdown">{$ cited.name $}<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$cited.url$}">View paper</a></li>
+								<li role="presentation" ng-click="showPaperInGraph(cited.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
+							</ul>
+						</div>
+						<a ng-show="moreCited && paperCited.length > 2" ng-click="selectAmountOfInfo('moreCited', 'paperCited', 'paperCitedHolder')">View more</a>
+						<a ng-hide="moreCited || paperCited.length <= 2" ng-click="selectAmountOfInfo('moreCited', 'paperCited', 'paperCitedHolder', 2)">Hide papers</a>
+
+					</div>
+					<h3>Cites: </h3>
+					<div class="list-group">
+						<div class="dropdown" ng-repeat="cites in paperCitesHolder">
+							<a class="list-group-item dropdown-toggle" data-toggle="dropdown">{$ cites.name $}<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$cites.url$}">View paper</a></li>
+								<li role="presentation" ng-click="showPaperInGraph(cites.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
+							</ul>
+						</div>
+						<a ng-show="moreCites && paperCites.length > 2" ng-click="selectAmountOfInfo('moreCites', 'paperCites', 'paperCitesHolder')">View more</a>
+						<a ng-hide="moreCites || paperCites.length <= 2" ng-click="selectAmountOfInfo('moreCites', 'paperCites', 'paperCitesHolder', 2)">Hide papers</a>
+
+					</div>
+					<h3>Similar Papers: </h3>
+					<div class="list-group">
+						<div class="dropdown" ng-repeat="simPaper in similarPapersHolder">
+							<a class="list-group-item dropdown-toggle" data-toggle="dropdown">{$ simPaper.title $}<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$ simPaper.url $}">View paper</a></li>
+								<li role="presentation" ng-click="showPaperInGraph(simPaper.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
+							</ul>
+						</div>
+						<a ng-show="moreSimilarPapers && similarPapers.length > 2" ng-click="selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder')">View more</a>
+						<a ng-hide="moreSimilarPapers || similarPapers.length <= 2" ng-click="selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder', 2)">Hide papers</a>
 					</div>
 				</div>
 				
