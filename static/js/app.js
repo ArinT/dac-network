@@ -26,7 +26,7 @@ app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", "$location", 
 	$scope.messageServer = MessageServer;
 	$scope.messageServer.readNodes();
 	$scope.messageServer.readCitationsJson();
-	$scope.location = $location;
+	$scope.myLocation = $location;
 	$scope.authorNodes = null;
 	$scope.citationNodes = null;
 	$scope.search = null;
@@ -49,38 +49,18 @@ app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", "$location", 
 			}
 			$scope.authorNodes = newVal;
 		});
-			$scope.$watch("location.path()", function(url, oldUrl){
+			$scope.$watch("myLocation.path()", function(url, oldUrl){
 				if(url === "/authorNetwork"){
 					$scope.nodes = $scope.authorNodes;
 				}
 				if(url === "/citationNetwork"){
-					console.log(url)
 					$scope.nodes = $scope.citationNodes;
 				}
 			});
-	// $scope.$watch("messageServer.getCitationNodes()", function(newVal, oldVal){
-	// 	$scope.citationNodes = newVal;
-	// });
-	// $scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
-	// 	$scope.authorNodes = newVal;
-	// });
+
 	$scope.author = null;
 	$scope.$on("searching", function(event, search){
 		$scope.search = search;
 	})
-	//this is what will happen when a node on the graph is clicked.
-	// $scope.$on("AuthorNodeClicked", function(event, node){
-	// 	$scope.$apply(function(){
-	// 		$scope.messageServer.queryAuthors(node['id']);
-	// 		$scope.author = node['name'];
-	// 	});
-	// });
-	$scope.$on("CitationNodeClicked", function(event, node){
-		
-		$scope.$apply(function(){
-			console.log(node);
-			$scope.messageServer.queryPaper(node['id']);
-		});
-	});
 }]);
 

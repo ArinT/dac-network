@@ -2,7 +2,7 @@ app.service("MessageServer", function($http){
 	var myNodes = null;
 	var citationNodes = null;
 	var authorPapers = null;
-	var topFive = null;
+	var paperQueries = null;
 	var sent = false;
 	var highlight = null;
 
@@ -14,12 +14,12 @@ app.service("MessageServer", function($http){
 		return myNodes;
 	};
 
-	this.getAuthorPapers = function(){
+	this.getAuthorQueries = function(){
 		return authorPapers;
 	};
 
-	this.getTopFive = function(){
-		return topFive;
+	this.getPaperQueries = function(){
+		return paperQueries;
 	};
 
 	this.emailSent = function(){
@@ -39,7 +39,6 @@ app.service("MessageServer", function($http){
 			data:myData,
 			headers:{'X-CSRFToken': csrf}
 		}).success(function(data, status, headers, config){
-			console.log(data);
 			authorPapers = data;
 		}).error(function(data, status, headers, config){
 			console.log("error");
@@ -50,7 +49,7 @@ app.service("MessageServer", function($http){
 		$http.post("/query_paper", myData)
 			.success(function(data, status, headers, config){
 				if(data !== null){
-					topFive = data;
+					paperQueries = data;
 				}
 				
 			})
