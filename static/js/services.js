@@ -1,8 +1,14 @@
 app.service("MessageServer", function($http){
 	var myNodes = null;
+	var citationNodes = null;
 	var authorPapers = null;
 	var topFive = null;
-	var sent=false;
+	var sent = false;
+	var highlight = null;
+
+	this.getCitationNodes = function(){
+		return citationNodes;
+	};
 
 	this.getNodes = function(){
 		return myNodes;
@@ -18,7 +24,11 @@ app.service("MessageServer", function($http){
 
 	this.emailSent = function(){
 		return sent;
-	}
+	};
+
+	this.getHighlight = function(){
+		return highlight;
+	};
 
 	this.queryAuthors = function(authorId){
 		var myData = {'author_id':authorId};
@@ -34,17 +44,6 @@ app.service("MessageServer", function($http){
 		}).error(function(data, status, headers, config){
 			console.log("error");
 		})
-
-		// $http.post("/query_author", myData)
-		// 	.success(function(data, status, headers, config){
-		// 		if(data !== null){
-		// 			authorPapers = data;
-		// 		}
-				
-		// 	})
-		// 	.error(function(data, status, headers, config){
-		// 		console.log("error");
-		// 	});
 	};
 	this.queryPaper = function(paperId){
 		var myData = {'paper_id':paperId};
@@ -73,6 +72,16 @@ app.service("MessageServer", function($http){
 			});
 	};
 
+	this.readCitationsJson = function(){
+		$http.get("../../static/json/citations.json")
+			.success(function(data, status, headers, config){
+				citationNodes = data.nodes;
+			})
+			.error(function(data, status, headers, config){
+				console.log("error");
+			});
+	};
+
 	this.sendEmail = function(msg){
 		$http.post("/send_email", {'message': msg})
 			.success(function(data, status, headers, config){
@@ -84,5 +93,9 @@ app.service("MessageServer", function($http){
 			.error(function(data, status, headers, config){
 				console.log("error");
 			});
-	}
+	};
+
+	this.setHighlight = function(doi){
+		highlight = doi;
+	};
 });

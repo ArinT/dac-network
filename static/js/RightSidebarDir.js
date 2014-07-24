@@ -2,13 +2,23 @@ app.directive("rightSidebar", function(){
 	return{
 		restrict:"E",
 		templateUrl:"/static/partials/RightSidebar.html",
-		controller:function($scope, MessageServer){
+		controller:function($scope, $location, MessageServer){
 			$scope.messageServer = MessageServer;
 			$scope.messageServer.readNodes();
 			$scope.authorPapers = null;
 			$scope.rightOpened = false;
 			$scope.authorNodes = null;
 			$scope.viewNumber = 2;
+
+			/* Function used for click.  Sends node to service to tell
+				the controllers which node to highlight in the graph. */
+			$scope.showPaperInGraph = function(doi){
+				$scope.messageServer.setHighlight("#"+doi);
+				if($location.path() !== "/citationNetwork"){
+					$location.path("/citationNetwork");
+				}
+			};
+
 			$scope.viewAuthorPapers = function(numberOfPapers){
 				var retVal = [];
 				if($scope.authorPapers !== null){
@@ -35,13 +45,11 @@ app.directive("rightSidebar", function(){
 						break;
 					}
 				}
-				console.log(name);
 			};
 			$scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
 				$scope.authorNodes = newVal;
 			})
 			$scope.$on("AuthorNodeClicked", function(event, node){
-				console.log(node['id'])
 				$scope.$apply(function(){
 					$scope.messageServer.queryAuthors(node['id']);
 					$scope.authorName = node['name'];

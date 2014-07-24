@@ -21,11 +21,14 @@ var app = angular.module('CitationNetwork',['ngRoute','ngCookies','ui.slider','u
 	});
 
 	
-app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", function($rootScope, $scope, MessageServer){
+app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", "$location", function($rootScope, $scope, MessageServer, $location){
 	//set a scope varialbe equal to service, so the scope can watch for a change in value.
 	$scope.messageServer = MessageServer;
 	$scope.messageServer.readNodes();
-	$scope.nodes = null;
+	$scope.messageServer.readCitationsJson();
+	$scope.location = $location;
+	$scope.authorNodes = null;
+	$scope.citationNodes = null;
 	$scope.search = null;
 	$scope.openAboutAuthor = false;	
 
@@ -34,10 +37,33 @@ app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", function($roo
 		var temp = "changed";
 		$scope.$broadcast(temp);
 	}
-
-	$scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
-		$scope.nodes = newVal;
-	});
+		$scope.$watch("messageServer.getCitationNodes()", function(newVal, oldVal){
+			if($location.path() === "/citationNetwork"){
+				$scope.nodes = newVal;
+			}
+			$scope.citationNodes = newVal;
+		});
+		$scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
+			if($location.path() === "/authorNetwork"){
+				$scope.nodes = newVal;
+			}
+			$scope.authorNodes = newVal;
+		});
+			$scope.$watch("location.path()", function(url, oldUrl){
+				if(url === "/authorNetwork"){
+					$scope.nodes = $scope.authorNodes;
+				}
+				if(url === "/citationNetwork"){
+					console.log(url)
+					$scope.nodes = $scope.citationNodes;
+				}
+			});
+	// $scope.$watch("messageServer.getCitationNodes()", function(newVal, oldVal){
+	// 	$scope.citationNodes = newVal;
+	// });
+	// $scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
+	// 	$scope.authorNodes = newVal;
+	// });
 	$scope.author = null;
 	$scope.$on("searching", function(event, search){
 		$scope.search = search;

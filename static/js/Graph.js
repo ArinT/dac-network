@@ -104,7 +104,6 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	    	force.tick();
 	    }
 	    force.stop();
-	    scope.$broadcast("GraphLoaded");
 		var link = svg.append('svg:g');
 			
 		if(isCitationNetwork){
@@ -155,16 +154,32 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  		.data(graph.nodes)
 	  		.enter().append("circle")
 	  		.attr("class", "node")
+	  		.attr("degree", function(d){
+	  			return d["degreeCentrality"]
+	  		})
+	  		.attr("between", function(d){
+	  			return d["betweennessCentrality"];
+	  		})
+	  		.attr("close", function(d){
+	  			return d["closenessCentrality"];
+	  		})
+	  		.attr("eigen", function(d){
+	  			return d["eigenvectorCentrality"]
+	  		})
+	  		.attr("group", function(d){
+	  			return d["group"]
+	  		})
 	  		.attr("id", function(d){
+	  			if(isCitationNetwork){
+	  				return d["doi"];
+	  			}
 	  			return d["name"].replace(/\s+/g, '');
 	  		})
 	  		.attr("cx", function(d) { 
 	  			return getNodeCoord(centrality, d, score, d.x);
-	  			
     		})
         	.attr("cy", function(d) { 
 	  			return getNodeCoord(centrality, d, score, d.y);
-	  			
         	})
 	  		.attr("r", function(d){
 	  			if(d[centrality] < score){
@@ -175,69 +190,11 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  			}
 	  		})
 	  		.style("fill", function(d){
-				var hue = 0;
-				switch  (centrality){
-					case "group":
-						hue = d[centrality] * 10;
-						break;
-					case "degreeCentrality":
-						if (!isCitationNetwork)
-						{
-							hue = 100-Math.round((1/(d[centrality])));
-						}
-						else if (d[centrality] != 0)
-						{
-							hue = (Math.log(d[centrality])+4)*30;
-						}
-						else
-						{
-							hue = 0;
-						}				
-						break;
-					case "betweennessCentrality":
-						if (!isCitationNetwork && d[centrality] != 0)
-						{
-							hue = (Math.log(d[centrality])+13)*10;
-						}
-						else if (d[centrality] != 0)
-						{
-							hue = (Math.log(d[centrality])+12)*10;
-						}
-						break;
-					case "closenessCentrality":
-						if (!isCitationNetwork && d[centrality] != 0)
-						{
-							hue = (Math.log(d[centrality])+6)*15;
-						}
-						else if (d[centrality] != 0)
-						{
-							if (Math.log(d[centrality])>-1)
-							{
-								hue = (Math.log(d[centrality])+1)*120;
-							}
-							else
-							{
-								hue = 0;
-							}
-						}
-						break;
-					case "eigenvectorCentrality":
-						if (d[centrality] != 0 && Math.log(d[centrality])>-12)
-						{
-							
-							hue = (Math.log(d[centrality])+12)*10;
-						}
-						else
-						{
-							hue = 0;
-						}
-						break;
-					default:
-						hue = 0;
-					}				
+				var hue = getNodeHue(d[centrality], centrality, isCitationNetwork);
 	  			return "hsl("+hue+",100% ,50%)";
 	  		})
 	  		.on("click", function(d){
+	  			console.log("node clicked");
 	  			if(d[centrality] >= score  || d[centrality] <= 0 ){
 	  			
 	  				scope.$emit(nodeClicked, {
@@ -272,10 +229,74 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  		.text(function(d){ 
 	  			return d.name+"\n Score: "+d[centrality]; 
 	  		});
+	    scope.$broadcast("GraphLoaded");
 	
 	});	
 	}, 10);
 }//end drawGraph()
+function getNodeHue(score, centrality, isCitationNetwork){
+	var hue = 0;
+	switch  (centrality){
+		case "group":
+			return score * 10;
+			break;
+		case "degreeCentrality":
+			if (!isCitationNetwork)
+			{
+				return 100-Math.round((1/(score)));
+			}
+			else if (score != 0)
+			{
+				return (Math.log(score)+4)*30;
+			}
+			else
+			{
+				return 0;
+			}				
+			break;
+		case "betweennessCentrality":
+			if (!isCitationNetwork && score != 0)
+			{
+				return (Math.log(score)+13)*10;
+			}
+			else if (score != 0)
+			{
+				return (Math.log(score)+12)*10;
+			}
+			break;
+		case "closenessCentrality":
+			if (!isCitationNetwork && score != 0)
+			{
+				return (Math.log(score)+6)*15;
+			}
+			else if (score != 0)
+			{
+				if (Math.log(score)>-1)
+				{
+					return (Math.log(score)+1)*120;
+				}
+				else
+				{
+					return 0;
+				}
+			}
+			break;
+		case "eigenvectorCentrality":
+			if (score != 0 && Math.log(score)>-12)
+			{
+				
+				return (Math.log(score)+12)*10;
+			}
+			else
+			{
+				return 0;
+			}
+			break;
+		default:
+			return 0;
+	}				
+}
+
 function getNodeCoord(centrality, d, score, retVal){
 	if(centrality === null){
 		return retVal;

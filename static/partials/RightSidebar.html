@@ -39,7 +39,7 @@
 						<a class="list-group-item dropdown-toggle" data-toggle="dropdown"  >{$ paper.title $}<span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="{$paper.url$}">View paper</a></li>
-							<li role="presentation"><a role="menuitem" tabindex="-1">View in graph</a></li>
+							<li role="presentation" ng-click="showPaperInGraph(paper.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
 						</ul>
 					</div>
 					<a ng-show="viewNumber === 2 && authorPapers.length > 2" ng-click="addMorePapers();">View more</a>

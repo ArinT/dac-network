@@ -1,5 +1,6 @@
 jQuery.fn.d3Click = function () {
   this.each(function (i, e) {
+	console.log("d3 click");
     var evt = document.createEvent("MouseEvents");
     evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
 
@@ -10,17 +11,48 @@ app.directive("leftSidebar", function(){
 	return{
 		restrict:"E",
 		templateUrl:"/static/partials/LeftSidebar.html",
-		controller:function($scope, MessageServer){
+		controller:function($scope, MessageServer, $location){
 			$scope.messageServer = MessageServer;
+			$scope.messageServer.readNodes();
+			$scope.messageServer.readCitationsJson();
+			$scope.location = $location;
 			$scope.leftOpened = false;
 			$scope.arrowPosition = 100;
-			$scope.authorSelected = function(node){
-				var domId = "#"+ node.name.replace(/\s+/g, '');
-				var xLoc = $(domId).attr("cx");
-				var yLoc = $(domId).attr("cy");
-				$("#transformme").attr("position", "2");
+			// $scope.$watch("messageServer.getCitationNodes()", function(newVal, oldVal){
+			// 	$scope.citationNodes = newVal;
+			// });
+			// $scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
+			// 	$scope.nodes = newVal;
+			// 	$scope.authorNodes = newVal;
+			// });
+			// $scope.$watch("location.path()", function(url, oldUrl){
+			// 	// if(url === oldUrl){
+			// 		if(url === "/authorNetwork"){
+			// 			console.log(url)
+			// 			$scope.nodes = $scope.citationNodes;
+			// 		}
+			// 		if(url === "/citationNetwork"){
+			// 			console.log(url)
+			// 			$scope.nodes = $scope.authorNodes;
+			// 		}
+			// 		console.log($scope.nodes);
+			// 	// }
+			// });
+			$scope.searchItemSelected = function(node){
+				console.log(node);
+				var domId = null;
+				if($location.path() === "/citationNetwork"){
+					domId = "#" + node.doi;
+				}
+				else{
+					//remove all the spaces in the authors name.
+					domId = "#"+ node.name.replace(/\s+/g, '');
+				}
+				console.log("in left sidebar searchItemSelected()" + domId);
+				// var xLoc = $(domId).attr("cx");
+				// var yLoc = $(domId).attr("cy");
+				// $("#transformme").attr("position", "2");
 				$(domId).d3Click();
-				console.log(node.id);
 				$scope.messageServer.queryAuthors(node.id);
 			};
 		},
@@ -30,7 +62,6 @@ app.directive("leftSidebar", function(){
 
 				shiftRight = new ShiftBar(98, 1, "right", "#left-container");
 				ShiftBar.prototype.interval = setInterval(function(){
-					// console.log(shiftRight.loc);
 					shiftRight.shift();
 				}, 1);
 				scope.leftOpened = true;
@@ -38,7 +69,6 @@ app.directive("leftSidebar", function(){
 			scope.leftClose = function(){
 				shiftRight = new ShiftBar(85, -1, "right", "#left-container");
 				ShiftBar.prototype.interval = setInterval(function(){
-					// console.log(shiftRight.loc);
 					shiftRight.shift();
 				}, 1);
 				scope.leftOpened = false;
@@ -66,19 +96,16 @@ function ShiftBar(location, value, side, elem) {
 	this.val = value;
 	this.shift = function(){
 		if(this.loc >98){
-			// console.log(this.loc);
 			$(this.elem).css(side, "98%");
 			$(this.elem).css("overflow", "hidden");
 			clearInterval(this.interval);
 		}
 		else if(this.loc <85){
-			// console.log(this.loc);
 			$(this.elem).css(side, "85%");
 			$(this.elem).css("overflow", "auto");
 			clearInterval(this.interval);
 		}
 		else{
-			// console.log(""+this.loc+"%");
 			$(this.elem).css(side, ""+this.loc+"%");
 			this.loc-=this.val;
 		}

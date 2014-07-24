@@ -1,3 +1,20 @@
+function getAttrCentrality(centrality){
+	if(centrality === "degreeCentrality"){
+		return "degree";
+	}
+	if(centrality === "betweennessCentrality"){
+		return "between";
+	}
+	if(centrality === "closenessCentrality"){
+		return "close";
+	}
+	if(centrality === "eigenvectorCentrality"){
+		return "eigen";
+	}
+	if(centrality === "group"){
+		return "group";
+	}
+}
 app.controller("authorGraphCtrl", function($scope){
 	$scope.typeGraph = "degreeCentrality";
 	$scope.chosenScore = 0;
@@ -10,8 +27,15 @@ app.controller("authorGraphCtrl", function($scope){
 	});
 	$scope.$watch("typeGraph", function(newVal, oldVal){
 		if(newVal !== oldVal){
-			$scope.loaded = false;
-			$scope.$broadcast("NewGraph");
+			$(".node").each(function( index, element ){
+				var attr = getAttrCentrality(newVal);
+				var centralityScore = $(element).attr(attr);
+				var hue = (1/centralityScore);
+				if(attr === "group"){
+	  				hue = centralityScore * 10;
+	  			}
+				$(this).css("fill", "hsl(" + hue + ",100% ,50%)");
+			});
 		}
 	});
 	$scope.$on("GraphLoaded", function(){

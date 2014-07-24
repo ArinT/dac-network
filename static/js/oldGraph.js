@@ -1,5 +1,5 @@
 
-function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicked){
+function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked){
 	var width = $(domId).width();
 	var height = $(window).height();
 	if( $("#menu") !== null ){
@@ -9,8 +9,8 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 	var color = d3.scale.category20b();
 
 	var force = d3.layout.force()
-	    .charge(-400)
-	    .linkDistance(25)
+	    .charge(-500)
+	    .linkDistance(70)
 	    .size([width, height]);
 	    force.gravity(0.6);
 	    
@@ -21,12 +21,38 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 		})
 		.attr("viewBox", "0 0 " + width + " " + height )
 		.attr("preserveAspectRatio", "xMidYMid meet")
-	    .append("g")
-	    .call(d3.behavior.zoom().scaleExtent([-4, 8]).on("zoom", zoom))
-	    .append("g");
+	    .call(d3.behavior.zoom().scaleExtent([0, 8]).on("zoom", zoom))
+		.append("g")
+		.attr("id", "transformme");
+	    
+	if (isCitationNetwork){
+		svg.append('svg:defs').append('svg:marker')
+		    .attr('id', 'end-arrow')
+		    .attr('viewBox', '0 -5 10 10')
+		    .attr('refX', 6)
+		    .attr('markerWidth', 5)
+		    .attr('markerHeight', 5)
+		    .attr('orient', 'auto')
+		  .append('svg:path')
+		    .attr('d', 'M0,-5L10,0L0,5')
+		    .attr('fill', '#000');
+
+		svg.append('svg:defs').append('svg:marker')
+		    .attr('id', 'start-arrow')
+		    .attr('viewBox', '0 -5 10 10')
+		    .attr('refX', 4)
+		    .attr('markerWidth', 5)
+		    .attr('markerHeight', 5)
+		    .attr('orient', 'auto')
+		  .append('svg:path')
+		    .attr('d', 'M10,-5L0,0L10,5')
+		    .attr('fill', '#000');
+	}
+
 	function zoom(){
 		svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 	}//end zoom()
+
 	setTimeout(function(){
 	d3.json(jsonFile, function(error, graph) {
 		var edgeArr = [];
@@ -36,9 +62,24 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 		if(score !== null){
 			//removing the edges that are between a node with centrality lower than the one specified.
 			for(var i = 0; i<graph.links.length; i++){
-				if(graph.nodes[graph.links[i].source][centrality] >= score 
-					&& graph.nodes[graph.links[i].target][centrality]>= score){
-					edgeArr.push(graph.links[i]);
+				var edge = graph.links[i];			
+				var src = graph.nodes[edge.source];
+				var tgt = graph.nodes[edge.target];
+				
+				if(src[centrality] >= score && tgt[centrality]>= score){
+					if (edge.year == undefined)
+					{
+						edgeArr.push(graph.links[i]);
+					}
+					else
+					{
+						START = "2002";
+						END = "2012";
+						if (edge.year >= START && edge.year <= END)
+						{
+							edgeArr.push(graph.links[i]);
+						}					
+					}
 				}
 			}
 			for(var i = 0; i<edgeArr.length; i++){
@@ -58,14 +99,40 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 			.nodes(graph.nodes)
 			.links(graph.links)
 			.start();
-	    	console.log(1);
+	    
 	    for(var i = 160; i>0; --i){
 	    	force.tick();
 	    }
 	    force.stop();
 	    scope.$broadcast("GraphLoaded");
-		var link = svg.selectAll(".link")
-			.data(graph.links)
+		var link = svg.append('svg:g');
+			
+		if(isCitationNetwork){
+			link.selectAll("path").data(graph.links)
+			.enter().append("path")
+			.attr("class", "link")
+			.attr("d",function(d){
+				var deltaX = d.target.x - d.source.x,
+				deltaY = d.target.y - d.source.y,
+				dist = Math.sqrt(deltaX * deltaX + deltaY * deltaY),
+				normX = deltaX / dist,
+				normY = deltaY / dist,
+				sourcePadding = 0; //d.left ? 17 : 12,
+				targetPadding =  12;// : 12,
+				sourceX = d.source.x + (sourcePadding * normX),
+				sourceY = d.source.y + (sourcePadding * normY),
+				targetX = d.target.x - (targetPadding * normX),
+				targetY = d.target.y - (targetPadding * normY);
+				if(sourceX){
+					return 'M' + sourceX + ',' + sourceY + 'L' + targetX + ',' + targetY;
+
+				}
+					// return 'M'+d.source.x+','+d.source.y+'L'+d.target.x+','+d.target.y;
+			})
+			.style('marker-end', function(d) { return 'url(#end-arrow)'; });
+		}
+		else{
+			link.selectAll("line").data(graph.links)
 			.enter().append("line")
 			.attr("class", "link")
 			.attr("x1", function(d) { 
@@ -80,19 +147,40 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
         	.attr("y2", function(d) { 
 	  			return getEdgeCoord(centrality, d, score, d.target.y);
 	  		})
-			.style("stroke-width", function(d){ return Math.sqrt(d.value);});
+			.style("stroke-width", function(d){ return d.value;});
 
-	  	var node = svg.selectAll(".node")
+		}
+
+	  	var node = svg.append("svg:g").selectAll("g")
 	  		.data(graph.nodes)
 	  		.enter().append("circle")
 	  		.attr("class", "node")
+	  		.attr("degree", function(d){
+	  			return d["degreeCentrality"]
+	  		})
+	  		.attr("between", function(d){
+	  			return d["betweennessCentrality"];
+	  		})
+	  		.attr("close", function(d){
+	  			return d["closenessCentrality"];
+	  		})
+	  		.attr("eigen", function(d){
+	  			return d["eigenvectorCentrality"]
+	  		})
+	  		.attr("group", function(d){
+	  			return d["group"]
+	  		})
+	  		.attr("id", function(d){
+	  			if(isCitationNetwork){
+	  				return d["doi"];
+	  			}
+	  			return d["name"].replace(/\s+/g, '');
+	  		})
 	  		.attr("cx", function(d) { 
 	  			return getNodeCoord(centrality, d, score, d.x);
-	  			
     		})
         	.attr("cy", function(d) { 
 	  			return getNodeCoord(centrality, d, score, d.y);
-	  			
         	})
 	  		.attr("r", function(d){
 	  			if(d[centrality] < score){
@@ -113,7 +201,12 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 	  		.on("click", function(d){
 	  			if(d[centrality] >= score  || d[centrality] <= 0 ){
 	  			
-	  				scope.$emit(nodeClicked, d);
+	  				scope.$emit(nodeClicked, {
+	  					'name': d['name'],
+	  					'id': d['id'],
+	  					'centrality': centrality,
+	  					'score': d[centrality]
+	  				});
 			        d3.selectAll(".link")
 			        	.filter(function(l){
 			                 return (l.source.index!==d.index && l.target.index!==d.index);
@@ -136,14 +229,6 @@ function drawGraph(scope, score, centrality, jsonFile, domId, charge, nodeClicke
 	  			}
 	  			return d.name+"\n Score "+d[centrality]; 
 	  		});
-		// svg.selectAll(".node")
-	 //  		.style("fill", function(d){
-	 //  			if(d[centrality] < score || d[centrality] <= 0 ){
-	 //  				return "rgb(255,255,255)";
-	 //  			}
-	 //  			var hue = Math.round((1/(d[centrality])));
-	 //  			return "hsl("+hue+",100% ,50%)";
-	 //  		});
   		svg.selectAll("title")
 	  		.text(function(d){ 
 	  			return d.name+"\n Score: "+d[centrality]; 
