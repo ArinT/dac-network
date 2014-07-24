@@ -243,7 +243,6 @@ function getNodeHue(score, centrality, isCitationNetwork){
 	switch  (centrality){
 		case "group":
 			return score * 10;
-			break;
 		case "degreeCentrality":
 			if (!isCitationNetwork)
 			{
@@ -256,8 +255,7 @@ function getNodeHue(score, centrality, isCitationNetwork){
 			else
 			{
 				return 0;
-			}				
-			break;
+			}	
 		case "betweennessCentrality":
 			if (!isCitationNetwork && score != 0)
 			{
@@ -267,7 +265,7 @@ function getNodeHue(score, centrality, isCitationNetwork){
 			{
 				return (Math.log(score)+12)*10;
 			}
-			break;
+			return 0;
 		case "closenessCentrality":
 			if (!isCitationNetwork && score != 0)
 			{
@@ -284,7 +282,7 @@ function getNodeHue(score, centrality, isCitationNetwork){
 					return 0;
 				}
 			}
-			break;
+			return 0;
 		case "eigenvectorCentrality":
 			if (score != 0 && Math.log(score)>-12)
 			{
@@ -295,7 +293,6 @@ function getNodeHue(score, centrality, isCitationNetwork){
 			{
 				return 0;
 			}
-			break;
 		default:
 			return 0;
 	}				
