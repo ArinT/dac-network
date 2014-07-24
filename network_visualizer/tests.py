@@ -2,7 +2,7 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.settings')
 from django.test import TestCase
 from network_visualizer.query_database import *
-
+from pprint import pprint
 # Create your tests here.
 class TestQuery(TestCase):
     def test_query_affiliates(self):
@@ -13,8 +13,9 @@ class TestQuery(TestCase):
         assert(len(credits)!=0)
     def test_query_author_info(self):
         info = get_author_info(463)
-        assert(len(info['credits'])!= 0)
-        assert(len(info['affiliates'])!= 0)
+        print "Printing Author Info"
+        pprint(info)
     def test_query_paper_info(self):
         info = get_paper_info(161)
-        print info
+        print "Printing Author Info"
+        pprint(info)
