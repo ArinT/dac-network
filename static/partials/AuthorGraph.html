@@ -47,7 +47,7 @@
 			    	</div>
     			</div>
 		</div>
-		<div class="form-group col-sm-8" ng-class="{'has-error' : options.score.$invalid}">
+		<div class="form-group col-sm-4" ng-class="{'has-error' : options.score.$invalid}">
 			<label id="filter-score" class="control-label col-sm-4" >Filter score:</label>
 			<div class="col-sm-8">
 				<div class="row">
@@ -60,6 +60,22 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="form-group col-sm-4">
+			<label for="year">Filter Year:</label>
+			<select id="year" ng-model="jsonFile" class="form-control">
+				<option value="authors.json">all</option>
+				<option value="yearly_authors/authors2002.json">2002</option>
+				<option value="yearly_authors/authors2003.json">2003</option>
+				<option value="yearly_authors/authors2004.json">2004</option>
+				<option value="yearly_authors/authors2005.json">2005</option>
+				<option value="yearly_authors/authors2006.json">2006</option>
+				<option value="yearly_authors/authors2007.json">2007</option>
+				<option value="yearly_authors/authors2008.json">2008</option>
+				<option value="yearly_authors/authors2009.json">2009</option>
+				<option value="yearly_authors/authors2010.json">2010</option>
+				<option value="yearly_authors/authors2011.json">2011</option>
+			</select>
 		</div>
 		</div>
 	</form>

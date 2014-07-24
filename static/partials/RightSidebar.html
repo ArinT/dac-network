@@ -38,6 +38,24 @@
 					<p><strong>Eigenvector: </strong><br/> {$ eigen $} </p>
 					<p><strong>Group: </strong><br/> {$ group $} </p>
 					<h4>Author's Papers:</h4>
+					<div class="list-group">
+						<div class="dropdown" ng-repeat="paper in authorPapersHolder">
+							<a class="list-group-item dropdown-toggle" data-toggle="dropdown"  >{$ paper.title $}<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$paper.url$}">View paper</a></li>
+								<li role="presentation" ng-click="showPaperInGraph(paper.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
+							</ul>
+						</div>
+
+						<a ng-show="moreAuthorPapers && authorPapers.length > 2" ng-click="selectAmountOfInfo('moreAuthorPapers', 'authorPapers', 'authorPapersHolder')">View more</a>
+						<a ng-hide="moreAuthorPapers || authorPapers.length <= 2" ng-click="selectAmountOfInfo('moreAuthorPapers', 'authorPapers', 'authorPapersHolder', 2)">Hide papers</a>
+					</div>
+					<h4>Co-Authors: </h4>
+					<div class="list-group">
+						<a class="list-group-item" ng-click="authorClicked(coauthor)" ng-repeat="coauthor in authorAffiliatesHolder">{$ coauthor.name $}</a>
+						<a ng-show="moreCoAuthors && authorAffiliates.length > 2" ng-click="selectAmountOfInfo('moreCoAuthors', 'authorAffiliates', 'authorAffiliatesHolder')">View more</a>
+						<a ng-hide="moreCoAuthors || authorAffiliates.length <= 2" ng-click="selectAmountOfInfo('moreCoAuthors', 'authorAffiliates', 'authorAffiliatesHolder', 2)">Hide papers</a>
+					</div>
 				</div>
 				<div id="forCitationNetwork" ng-show="myLocation.path() === '/citationNetwork' ">
 					<h4>Paper Information:</h4>
@@ -69,7 +87,7 @@
 						<a ng-hide="moreCited || paperCited.length <= 2" ng-click="selectAmountOfInfo('moreCited', 'paperCited', 'paperCitedHolder', 2)">Hide papers</a>
 
 					</div>
-					<h3>Cites: </h3>
+					<h4>Cites: </h4>
 					<div class="list-group">
 						<div class="dropdown" ng-repeat="cites in paperCitesHolder">
 							<a class="list-group-item dropdown-toggle" data-toggle="dropdown">{$ cites.name $}<span class="caret"></span></a>
@@ -82,7 +100,7 @@
 						<a ng-hide="moreCites || paperCites.length <= 2" ng-click="selectAmountOfInfo('moreCites', 'paperCites', 'paperCitesHolder', 2)">Hide papers</a>
 
 					</div>
-					<h3>Similar Papers: </h3>
+					<h4>Similar Papers: </h4>
 					<div class="list-group">
 						<div class="dropdown" ng-repeat="simPaper in similarPapersHolder">
 							<a class="list-group-item dropdown-toggle" data-toggle="dropdown">{$ simPaper.title $}<span class="caret"></span></a>
@@ -97,17 +115,7 @@
 				</div>
 				
 				
-				<div class="list-group">
-					<!--  -->
-					<div class="dropdown" ng-repeat="paper in viewAuthorPapers(viewNumber)">
-						<a class="list-group-item dropdown-toggle" data-toggle="dropdown"  >{$ paper.title $}<span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="{$paper.url$}">View paper</a></li>
-							<li role="presentation" ng-click="showPaperInGraph(paper.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
-						</ul>
-					</div>
-					
-				</div>
+				
 				<h4>Author's Co-Authors:</h4>
 				
 			</td>

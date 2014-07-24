@@ -7,6 +7,10 @@ app.directive("citationGraph", function(){
 			$scope.chosenScore = 0;
 			$scope.loaded = false;
 			$scope.highlightPaper = null;
+			$scope.jsonFile = "citations.json";
+			$scope.$watch("jsonFile", function(newVal, oldVal){
+				$scope.$broadcast("NewGraph");
+			});
 			// $scope.$watch("messageServer.getHighlight()", function(newVal, oldVal){
 			// 	var domId = "#" + newVal;
 			// 	if(newVal !== oldVal){
@@ -40,13 +44,14 @@ app.directive("citationGraph", function(){
 			});
 		},
 		link:function(scope, elem, attrs){
-			var fileName = "../../static/json/citations.json";
+			var fileName = "../../static/json/";
 			var dom = "#citation-graph";
-			drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "CitationNodeClicked");
+			drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked");
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
-	  			drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName, dom, -100, "CitationNodeClicked");
+				scope.loaded = false;
+	  			drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked");
 	  		});
 			
 		}//end link

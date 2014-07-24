@@ -182,7 +182,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  			return getNodeCoord(centrality, d, score, d.y);
         	})
 	  		.attr("r", function(d){
-	  			if(d[centrality] < score){
+	  			if(d[centrality] < score || d["degreeCentrality"] === 0){
 	  				return 0;
 	  			}
 	  			else{

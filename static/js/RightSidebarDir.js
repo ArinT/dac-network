@@ -13,6 +13,8 @@ app.directive("rightSidebar", function(){
 			$scope.moreCited = true;
 			$scope.moreCites = true;
 			$scope.moreSimilarPapers = true;
+			$scope.moreAuthorPapers = true;
+			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
 			/* Function used for click.  Sends node to service to tell
 				the controllers which node to highlight in the graph. */
@@ -22,7 +24,12 @@ app.directive("rightSidebar", function(){
 					$location.path("/citationNetwork");
 				}
 			};
-
+			$scope.authorClicked = function(author){
+				//remove all the spaces in the authors name
+				console.log(author)
+				var domId = "#"+ author.name.replace(/\s+/g, '');
+				$(domId).d3Click();
+			}
 			$scope.viewAuthorPapers = function(numberOfPapers){
 				var retVal = [];
 				if($scope.authorPapers !== null){
@@ -117,7 +124,9 @@ app.directive("rightSidebar", function(){
 					return;
 				}
 				$scope.authorPapers = queryInfo['credits'];
+				$scope.selectAmountOfInfo('moreAuthorPapers', 'authorPapers', 'authorPapersHolder', 2);
 				$scope.authorAffiliates = queryInfo['affiliates'];
+				$scope.selectAmountOfInfo('moreCoAuthors', 'authorAffiliates', 'authorAffiliatesHolder', 2);
 				if($scope.authorPapers !== null){
 					if( !$scope.rightOpened ){
 						$scope.rightOpen();
