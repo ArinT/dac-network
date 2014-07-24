@@ -18,10 +18,7 @@ app.directive("citationGraph", function(){
 			// });
 			$scope.$watchCollection('[messageServer.getHighlight(), loaded]', function(newValues, oldValues){
 				//if there is a node that should be highlighted, and the graph has loaded
-				console.log(newValues[0]);
-				console.log(newValues[1]);
 				if(newValues[1] === true){
-					console.log("got into if statement");
 					$(newValues[0]).d3Click();
 				}
 			});
@@ -45,11 +42,11 @@ app.directive("citationGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/citations.json";
 			var dom = "#citation-graph";
-			drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
+			drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName, dom, -100, "CitationNodeClicked");
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
-	  			drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName, dom, -100, "AuthorNodeClicked");
+	  			drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName, dom, -100, "CitationNodeClicked");
 	  		});
 			
 		}//end link

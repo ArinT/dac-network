@@ -201,7 +201,11 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	  					'name': d['name'],
 	  					'id': d['id'],
 	  					'centrality': centrality,
-	  					'score': d[centrality]
+	  					'degree': d["degreeCentralityUnnormalized"],
+	  					'betweenness': d["betweennessCentrality"],
+	  					'closeness': d["closenessCentralityUnnormalized"],
+	  					'eigen': d["eigenvectorCentralityUnnormalized"],
+	  					'group': d["group"]
 	  				});
 			        d3.selectAll(".link")
 			        	.filter(function(l){

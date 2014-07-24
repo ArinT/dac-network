@@ -9,7 +9,11 @@ app.directive("rightSidebar", function(){
 			$scope.rightOpened = false;
 			$scope.authorNodes = null;
 			$scope.viewNumber = 2;
-
+			$scope.moreAuthors = true;
+			$scope.moreCited = true;
+			$scope.moreCites = true;
+			$scope.moreSimilarPapers = true;
+			$scope.paperAuthorsHolder = [];
 			/* Function used for click.  Sends node to service to tell
 				the controllers which node to highlight in the graph. */
 			$scope.showPaperInGraph = function(doi){
@@ -31,8 +35,21 @@ app.directive("rightSidebar", function(){
 				}
 				return retVal;
 			};
-			$scope.addMorePapers = function(){
-				$scope.viewNumber = $scope.authorPapers.length;
+			$scope.selectAmountOfInfo = function(showConditional, original, holder, amount){
+				// $scope.viewNumber = $scope.authorPapers.length;
+				if(amount){
+					$scope[holder] = [];
+					for(var i = 0; i < amount; i++){
+						$scope[showConditional] = true;
+						if($scope[original][i]){
+							$scope[holder].push($scope[original][i]);
+						}
+					}
+				}
+				else{
+					$scope[showConditional] = false;
+					$scope[holder] = $scope[original];
+				}
 			};
 			$scope.hidePapers = function(){
 				$scope.viewNumber = 2;
@@ -48,16 +65,53 @@ app.directive("rightSidebar", function(){
 			};
 			$scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
 				$scope.authorNodes = newVal;
-			})
+			});
+			$scope.$on("CitationNodeClicked", function(event, node){
+				console.log(node);
+				$scope.$apply(function(){
+					$scope.messageServer.queryPaper(node['id']);
+					$scope.name = node['name'];
+					$scope.centrality = chooseCentrality(node['centrality']);
+					$scope.centralityScore = node['score'];
+					$scope.degree = node['degree'];
+					$scope.betweenness = node['betweenness'];
+					$scope.closeness = node['closeness'];
+					$scope.eigen = node['eigen'];
+					$scope.group  = node['group'];
+				});
+			});
 			$scope.$on("AuthorNodeClicked", function(event, node){
 				$scope.$apply(function(){
 					$scope.messageServer.queryAuthors(node['id']);
-					$scope.authorName = node['name'];
+					$scope.name = node['name'];
 					$scope.centrality = chooseCentrality(node['centrality']);
 					$scope.centralityScore = node['score'];
+					$scope.degree = node['degree'];
+					$scope.betweenness = node['betweenness'];
+					$scope.closeness = node['closeness'];
+					$scope.eigen = node['eigen'];
+					$scope.group  = node['group'];
 				});
 			});
-			$scope.$watch("messageServer.getAuthorPapers()", function(queryInfo, oldVal){
+			$scope.$watch("messageServer.getPaperQueries()", function(newVal, oldVal){
+				if(newVal === oldVal){
+					return;
+				}
+				console.log(newVal);
+				$scope.paperAuthors = newVal['authors'];
+				console.log('before call');
+				console.log($scope.paperAuthors);
+				$scope.selectAmountOfInfo('moreAuthors', 'paperAuthors', 'paperAuthorsHolder', 2);
+				console.log('after call');
+				console.log($scope.paperAuthors);
+				$scope.paperCited = newVal['cited'];
+				$scope.selectAmountOfInfo('moreCited', 'paperCited', 'paperCitedHolder', 2);
+				$scope.paperCites = newVal['cites'];
+				$scope.selectAmountOfInfo('moreCites', 'paperCites', 'paperCitesHolder', 2);
+				$scope.similarPapers = newVal['similar_papers'];
+				$scope.selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder', 2);
+			});
+			$scope.$watch("messageServer.getAuthorQueries()", function(queryInfo, oldVal){
 				//this is the initialization of the variables
 				if(queryInfo === oldVal){
 					return;
@@ -70,9 +124,6 @@ app.directive("rightSidebar", function(){
 					}
 					$scope.rightOpened = true;
 				}
-				// else{
-				// 	$scope.rightOpened = false;
-				// }
 			});
 			$scope.arrowPosition = 100;
 			

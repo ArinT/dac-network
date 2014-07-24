@@ -70,8 +70,8 @@
 	<mynavbar></mynavbar>
 	<div id="webpage" ng-controller="myCtrl">
 		<div class="graphs" ng-view></div>
-		<left-sidebar></left-sidebar>
-		<right-sidebar></right-sidebar>
+		<left-sidebar ng-show="myLocation.path() === '/citationNetwork' || myLocation.path() === '/authorNetwork' "></left-sidebar>
+		<right-sidebar ng-show="myLocation.path() === '/citationNetwork' || myLocation.path() === '/authorNetwork' "></right-sidebar>
 	</div>	
 	<script src="/static/js/network_graph.js" charset="utf-8"></script>
 

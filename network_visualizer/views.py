@@ -54,7 +54,7 @@ def query_author(request):
             # print(context)
             return HttpResponse(json.dumps(context), content_type="application/json")
 
-@csrf_protect
+@csrf_exempt
 def query_paper(request):
     if request.method == 'POST':
         data = json.loads(request.body)
