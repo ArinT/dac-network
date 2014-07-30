@@ -1,6 +1,7 @@
 jQuery.fn.d3Click = function () {
+	console.log("d3click called")
   this.each(function (i, e) {
-	console.log("d3 click");
+	console.log("inside each()");
     var evt = document.createEvent("MouseEvents");
     evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
 
@@ -18,26 +19,7 @@ app.directive("leftSidebar", function(){
 			$scope.location = $location;
 			$scope.leftOpened = false;
 			$scope.arrowPosition = 100;
-			// $scope.$watch("messageServer.getCitationNodes()", function(newVal, oldVal){
-			// 	$scope.citationNodes = newVal;
-			// });
-			// $scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
-			// 	$scope.nodes = newVal;
-			// 	$scope.authorNodes = newVal;
-			// });
-			// $scope.$watch("location.path()", function(url, oldUrl){
-			// 	// if(url === oldUrl){
-			// 		if(url === "/authorNetwork"){
-			// 			console.log(url)
-			// 			$scope.nodes = $scope.citationNodes;
-			// 		}
-			// 		if(url === "/citationNetwork"){
-			// 			console.log(url)
-			// 			$scope.nodes = $scope.authorNodes;
-			// 		}
-			// 		console.log($scope.nodes);
-			// 	// }
-			// });
+		
 			$scope.searchItemSelected = function(node){
 				console.log(node);
 				var domId = null;
@@ -49,11 +31,17 @@ app.directive("leftSidebar", function(){
 					domId = "#"+ node.name.replace(/\s+/g, '');
 				}
 				console.log("in left sidebar searchItemSelected()" + domId);
+				console.log($(domId));
 				// var xLoc = $(domId).attr("cx");
 				// var yLoc = $(domId).attr("cy");
 				// $("#transformme").attr("position", "2");
 				$(domId).d3Click();
-				$scope.messageServer.queryAuthors(node.id);
+				if($location.path() === "/citationNetwork"){
+					$scope.messageServer.queryPaper(node.id);
+				}
+				else{
+					$scope.messageServer.queryAuthors(node.id);
+				}
 			};
 		},
 		link: function(scope, elem, attr){

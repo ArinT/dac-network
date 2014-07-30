@@ -61,6 +61,6 @@ app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", "$location", 
 	$scope.author = null;
 	$scope.$on("searching", function(event, search){
 		$scope.search = search;
-	})
+	});
 }]);
 

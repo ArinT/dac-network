@@ -11,18 +11,9 @@ app.directive("citationGraph", function(){
 			$scope.$watch("jsonFile", function(newVal, oldVal){
 				$scope.$broadcast("NewGraph");
 			});
-			// $scope.$watch("messageServer.getHighlight()", function(newVal, oldVal){
-			// 	var domId = "#" + newVal;
-			// 	if(newVal !== oldVal){
-			// 		console.log("paperId:"+newVal);
-			// 		console.log($(domId));
-			// 		$(domId).d3Click();
-			// 	}
-			// 	console.log("paperId:"+newVal);
-			// });
 			$scope.$watchCollection('[messageServer.getHighlight(), loaded]', function(newValues, oldValues){
 				//if there is a node that should be highlighted, and the graph has loaded
-				if(newValues[1] === true){
+				if(newValues[0] !== null){
 					$(newValues[0]).d3Click();
 				}
 			});
@@ -34,13 +25,26 @@ app.directive("citationGraph", function(){
 			});
 			$scope.$watch("typeGraph", function(newVal, oldVal){
 				if(newVal !== oldVal){
-					$scope.$broadcast("NewGraph");
+					$(".node").each(function( index, element ){
+						var attr = getAttrCentrality(newVal);
+						var centralityScore = $(element).attr(attr);
+						var hue = getNodeHue(centralityScore, $scope.typeGraph, false);
+						if(attr === "group"){
+			  				hue = centralityScore * 10;
+			  			}
+						$(this).css("fill", "hsl(" + hue + ",100% ,50%)");
+					});
 				}
 			});
+			// $scope.$watch("typeGraph", function(newVal, oldVal){
+			// 	if(newVal !== oldVal){
+			// 		$scope.$broadcast("NewGraph");
+			// 	}
+			// });
 			$scope.$on("GraphLoaded", function(){
 				$scope.$apply(function(){
 					$scope.loaded = true;
-				});
+				})
 			});
 		},
 		link:function(scope, elem, attrs){

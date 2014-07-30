@@ -42,8 +42,8 @@
 						<div class="dropdown" ng-repeat="paper in authorPapersHolder">
 							<a class="list-group-item dropdown-toggle" data-toggle="dropdown"  >{$ paper.title $}<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$paper.url$}">View paper</a></li>
-								<li role="presentation" ng-click="showPaperInGraph(paper.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$paper.url$}" target="_blank">View on Scopus</a></li>
+								<li role="presentation" ng-click="showPaperInGraph(paper.doi)"><a role="menuitem" tabindex="-1">View in citation graph</a></li>
 							</ul>
 						</div>
 
@@ -78,8 +78,8 @@
 						<div class="dropdown" ng-repeat="cited in paperCitedHolder">
 							<a class="list-group-item dropdown-toggle" data-toggle="dropdown">{$ cited.name $}<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$cited.url$}">View paper</a></li>
-								<li role="presentation" ng-click="showPaperInGraph(cited.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$cited.url$}" target="_blank">View paper on Scopus</a></li>
+								<li role="presentation" ng-click="showPaperInGraph(cited.doi)"><a role="menuitem" tabindex="-1">View in citation graph</a></li>
 							</ul>
 						</div>
 						<a ng-show="moreCited && paperCited.length > 2" ng-click="selectAmountOfInfo('moreCited', 'paperCited', 'paperCitedHolder')">View more</a>
@@ -91,8 +91,8 @@
 						<div class="dropdown" ng-repeat="cites in paperCitesHolder">
 							<a class="list-group-item dropdown-toggle" data-toggle="dropdown">{$ cites.name $}<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$cites.url$}">View paper</a></li>
-								<li role="presentation" ng-click="showPaperInGraph(cites.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$cites.url$}" target="_blank">View paper on Scopus</a></li>
+								<li role="presentation" ng-click="showPaperInGraph(cites.doi)"><a role="menuitem" tabindex="-1">View in citation graph</a></li>
 							</ul>
 						</div>
 						<a ng-show="moreCites && paperCites.length > 2" ng-click="selectAmountOfInfo('moreCites', 'paperCites', 'paperCitesHolder')">View more</a>
@@ -104,8 +104,8 @@
 						<div class="dropdown" ng-repeat="simPaper in similarPapersHolder">
 							<a class="list-group-item dropdown-toggle" data-toggle="dropdown">{$ simPaper.title $}<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$ simPaper.url $}">View paper</a></li>
-								<li role="presentation" ng-click="showPaperInGraph(simPaper.doi)"><a role="menuitem" tabindex="-1">View in graph</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="{$ simPaper.url $}" target="_blank">View paper on Scopus</a></li>
+								<li role="presentation" ng-click="showPaperInGraph(simPaper.doi)"><a role="menuitem" tabindex="-1">View in citation graph</a></li>
 							</ul>
 						</div>
 						<a ng-show="moreSimilarPapers && similarPapers.length > 2" ng-click="selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder')">View more</a>

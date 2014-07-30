@@ -20,6 +20,7 @@ app.directive("rightSidebar", function(){
 				the controllers which node to highlight in the graph. */
 			$scope.showPaperInGraph = function(doi){
 				$scope.messageServer.setHighlight("#"+doi);
+				console.log("#"+doi);
 				if($location.path() !== "/citationNetwork"){
 					$location.path("/citationNetwork");
 				}
@@ -75,30 +76,28 @@ app.directive("rightSidebar", function(){
 			});
 			$scope.$on("CitationNodeClicked", function(event, node){
 				console.log(node);
-				$scope.$apply(function(){
-					$scope.messageServer.queryPaper(node['id']);
-					$scope.name = node['name'];
-					$scope.centrality = chooseCentrality(node['centrality']);
-					$scope.centralityScore = node['score'];
-					$scope.degree = node['degree'];
-					$scope.betweenness = node['betweenness'];
-					$scope.closeness = node['closeness'];
-					$scope.eigen = node['eigen'];
-					$scope.group  = node['group'];
-				});
+				//don't need to do $apply, becuase $scope is passed to the function. 
+				$scope.messageServer.queryPaper(node['id']);
+				$scope.name = node['name'];
+				$scope.centrality = chooseCentrality(node['centrality']);
+				$scope.centralityScore = node['score'];
+				$scope.degree = node['degree'];
+				$scope.betweenness = node['betweenness'];
+				$scope.closeness = node['closeness'];
+				$scope.eigen = node['eigen'];
+				$scope.group  = node['group'];
+				
 			});
 			$scope.$on("AuthorNodeClicked", function(event, node){
-				$scope.$apply(function(){
-					$scope.messageServer.queryAuthors(node['id']);
-					$scope.name = node['name'];
-					$scope.centrality = chooseCentrality(node['centrality']);
-					$scope.centralityScore = node['score'];
-					$scope.degree = node['degree'];
-					$scope.betweenness = node['betweenness'];
-					$scope.closeness = node['closeness'];
-					$scope.eigen = node['eigen'];
-					$scope.group  = node['group'];
-				});
+				$scope.messageServer.queryAuthors(node['id']);
+				$scope.name = node['name'];
+				$scope.centrality = chooseCentrality(node['centrality']);
+				$scope.centralityScore = node['score'];
+				$scope.degree = node['degree'];
+				$scope.betweenness = node['betweenness'];
+				$scope.closeness = node['closeness'];
+				$scope.eigen = node['eigen'];
+				$scope.group  = node['group'];
 			});
 			$scope.$watch("messageServer.getPaperQueries()", function(newVal, oldVal){
 				if(newVal === oldVal){

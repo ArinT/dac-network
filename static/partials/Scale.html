@@ -1,0 +1,26 @@
+<style>
+	.flex{
+		/* flexbox setup */
+		display: -webkit-flex;
+		-webkit-flex-direction: row;
+
+		display: flex;
+		flex-direction: row;
+		background-color: yellow;
+	}
+	.scale-color{
+		background-color: hsl(0,100%,50%);
+		/*height:100px;*/
+	}
+</style>
+<script>
+$(document).ready(function(){
+	var height = ($("#citation-graph").height())/3;
+	$("#scale").height(height+"px");
+});
+</script>
+<table id="scale" style="width:80%; height:100px;">
+	<tr ><td ng-style="setColor(0)"></td><td> - 0</td></tr>
+	<tr ng-repeat="hue in hueValue"><td ng-style="setColor(hue)"></td></tr>
+	<tr ><td ng-style="setColor(120)"></td><td> - 1</td></tr>
+</table>

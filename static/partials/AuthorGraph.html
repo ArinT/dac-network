@@ -5,6 +5,10 @@
 		<h2 class="text-center">Loading...</h2>
 		<h3 class="text-center">The graph may take a while to load.</h3>
 	</div>
+	<div class="row">
+		<div author-graph  id="author-graph" class="col-sm-10"></div>
+		<graph-scale class="col-sm-1"></graph-scale>
+	</div>
 	<div author-graph  id="author-graph"></div>
 	<div id="menu">
 	<form class="form-horizontal" role="form" name="options"  novalidate>
@@ -103,6 +107,6 @@
 		$("#group-popover").popover({'trigger': 'hover',
 									'placement':'top',
 									'title':"Group Centrality",
-									'content': "I'm not sure yet"});
+									'content': "Groups of nodes that are clustered together."});
 	});
 </script>
