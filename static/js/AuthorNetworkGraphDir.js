@@ -34,7 +34,7 @@ app.controller("authorGraphCtrl", function($scope){
 			$(".node").each(function( index, element ){
 				var attr = getAttrCentrality(newVal);
 				var centralityScore = $(element).attr(attr);
-				var hue = (1/centralityScore);
+				var hue = getNodeHue(centralityScore, $scope.typeGraph, false);
 				if(attr === "group"){
 	  				hue = centralityScore * 10;
 	  			}

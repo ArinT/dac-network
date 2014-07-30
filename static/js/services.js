@@ -27,7 +27,12 @@ app.service("MessageServer", function($http){
 	};
 
 	this.getHighlight = function(){
-		return highlight;
+		if( $(highlight).length ){
+			return highlight;
+		}
+		else{
+			return null;
+		}
 	};
 
 	this.queryAuthors = function(authorId){
