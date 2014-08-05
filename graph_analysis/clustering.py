@@ -16,14 +16,15 @@ def make_nonmultigraph(multigraph):
                 G.edge[edge[0]][edge[1]]['weight'] += 1
         G.add_edge(edge[0], edge[1], weight=1)
     return G
-#     clusters = clustering(G)
-#     return clusters
 
 def get_group_size(communities, community_count):
     group_count = []
     for i in range(0, community_count + 1):
         group_count.append(0)
     for i in communities:
+
+
+
         group_count[communities[i]] += 1
     return group_count
 
