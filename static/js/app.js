@@ -1,4 +1,5 @@
 var app = angular.module('CitationNetwork',['ngRoute','ngCookies','ui.slider','ui.bootstrap'], function( $routeProvider){
+	$routeProvider.when('/home', {templateUrl: '/static/partials/HomePage.html'});
 	$routeProvider.when('/authorNetwork', {templateUrl: '/static/partials/AuthorGraph.html', controller:"authorGraphCtrl"});
 	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/CitationGraph.html'});
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
