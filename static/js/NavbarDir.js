@@ -6,6 +6,27 @@ app.directive("mynavbar", function(){
 			// $scope.searchType = "Search Author";
 			$scope.location = $location;
 			$scope.search=null;
+			$scope.initialLoc = $location.path();
+			switch($scope.initialLoc){
+				case "/authorNetwork":
+					$("#author-tab").toggleClass("active");
+					break;
+				case "/citationNetwork":
+					$("#citation-tab").toggleClass("active");
+					break;
+				case "/chrono":
+					$("#chrono-tab").toggleClass("active");
+					break;
+				case "/freqplot":
+					$("#freq-tab").toggleClass("active");
+					break;
+				case "/feedback":
+					$("#feedback-tab").toggleClass("active");
+					break;
+				case "/home":
+					$("#home-tab").toggleClass("active");
+					break;
+			}
 			$scope.$watch("location.path()", function(newLocation, oldLocation){
 				if(newLocation === "/citationNetwork"){
 					$scope.searchType = "Search Paper";
@@ -14,16 +35,18 @@ app.directive("mynavbar", function(){
 					$scope.searchType = "Search Author";
 				}
 				else{
-					$scope.searchType = "Search";
+					$scope.searchType = null;
 				}
 			});
 			$rootScope.$watch("search", function(){
 				$scope.$broadcast("searching", $scope.search);
 				$scope.$emit("searching", $scope.search);
-			})
-			/* function might submit to back end or filter front end */
-			$scope.submitSearch = function(){
+			});
 
+			/* function might submit to back end or filter front end */
+			$scope.tabClicked = function(id){
+				$("li.active").toggleClass("active");
+				$("#"+id).toggleClass("active")
 			};
 		}
 	};

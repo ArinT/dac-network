@@ -9,6 +9,9 @@ app.directive("citationGraph", function(){
 			$scope.highlightPaper = null;
 			$scope.jsonFile = "citations.json";
 			$scope.$watch("jsonFile", function(newVal, oldVal){
+				if(newVal===oldVal){
+					return;
+				}
 				$scope.$broadcast("NewGraph");
 			});
 			$scope.$watchCollection('[messageServer.getHighlight(), loaded]', function(newValues, oldValues){
@@ -36,11 +39,7 @@ app.directive("citationGraph", function(){
 					});
 				}
 			});
-			// $scope.$watch("typeGraph", function(newVal, oldVal){
-			// 	if(newVal !== oldVal){
-			// 		$scope.$broadcast("NewGraph");
-			// 	}
-			// });
+
 			$scope.$on("GraphLoaded", function(){
 				$scope.$apply(function(){
 					$scope.loaded = true;

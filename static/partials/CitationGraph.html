@@ -1,12 +1,12 @@
 <div >
-	<!-- <img src="../../static/admin/img/ajax-loader.gif"> -->
-	<div ng-hide="loaded">
+
+<div ng-hide="loaded">
 		<h2 class="text-center">Loading...</h2>
 		<h3 class="text-center">The graph may take a while to load.</h3>
 	</div>
 	<div class="row">
-	<div citation-graph  id="citation-graph" class="col-sm-10"></div>
-		<graph-scale class="col-sm-2"></graph-scale>	
+		<div citation-graph  id="citation-graph" class="col-sm-10"></div>
+		<graph-scale ng-show="loaded" class="col-sm-2"></graph-scale>	
 	</div>
 	
 	<form class="form-horizontal" role="form" name="options"  novalidate>
@@ -16,35 +16,35 @@
 				<div class="col-sm-offset-6">
 			    	<div class="checkbox">
 				        <label id="degree-popover">
-				          <input ng-model="typeGraph" value="degreeCentrality" type="radio"> Degree
+				          <input ng-model="typeGraph" value="degreeCentrality" type="radio" rel="popover"> Degree
 				        </label>
 			    	</div>
     			</div>
     			<div class="col-sm-offset-6">
 			    	<div class="checkbox">
 				        <label id="between-popover">
-							<input ng-model="typeGraph" value="betweennessCentrality" type="radio"> Betweenness
+							<input ng-model="typeGraph" value="betweennessCentrality" type="radio" rel="popover"> Betweenness
 				        </label>
 			    	</div>
     			</div>
     			<div class="col-sm-offset-6">
 			    	<div class="checkbox">
 				        <label id="closeness-popover">
-							<input ng-model="typeGraph" value="closenessCentrality" type="radio"> Closeness
+							<input ng-model="typeGraph" value="closenessCentrality" type="radio" rel="popover"> Closeness
 				        </label>
 			    	</div>
     			</div>
     			<div class="col-sm-offset-6">
 			    	<div class="checkbox">
 				        <label id="eigenvector-popover">
-							<input ng-model="typeGraph" value="eigenvectorCentrality" type="radio"> Eigenvector
+							<input ng-model="typeGraph" value="eigenvectorCentrality" type="radio" rel="popover"> Eigenvector
 				        </label>
 			    	</div>
     			</div>
     			<div class="col-sm-offset-6">
 			    	<div class="checkbox">
 				        <label id="group-popover">
-							<input ng-model="typeGraph" value="group" type="radio"> Group
+							<input ng-model="typeGraph" value="group" type="radio" rel="popover"> Group
 				        </label>
 			    	</div>
     			</div>
@@ -83,28 +83,4 @@
 	</form>
 	</div>
 </div>
-<script>
-
-	$(document).ready(function(){
-		$("#degree-popover").popover({'trigger': 'hover',
-									'placement':'top',
-									'title':"Degree Centrality",
-									'content': "The one who has many collaborators is most important."});
-		$("#between-popover").popover({'trigger': 'hover',
-									'placement':'top',
-									'title':"Betweenness Centrality",
-									'content': "Author connecting more authors together is the central actor."});
-		$("#closeness-popover").popover({'trigger': 'hover',
-									'placement':'top',
-									'title':"Closeness Centrality",
-									'content': "A central author is characterized by many, short connections to other authors in the networks"});
-		$("#eigenvector-popover").popover({'trigger': 'hover',
-									'placement':'top',
-									'title':"Eigenvector Centrality",
-									'content': "Maybe not too many neighbors, but if you are connected to important people, you are important!"});
-		$("#group-popover").popover({'trigger': 'hover',
-									'placement':'top',
-									'title':"Group Centrality",
-									'content': "Groups of nodes that are clustered together."});
-	});
-</script>
+<script src="../../static/js/Popovers.js"></script>

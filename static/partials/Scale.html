@@ -15,12 +15,22 @@
 </style>
 <script>
 $(document).ready(function(){
-	var height = ($("#citation-graph").height())/3;
-	$("#scale").height(height+"px");
+	var author = $("#author-graph");
+	var citation = $("#citation-graph");
+	if(author.length){
+		var height = (author.height())/3;
+		$("#scale").height(height+"px");
+	}
+	if(citation.length){
+		var height = (citation.height())/3;
+		$("#scale").height(height+"px");
+	}
+
 });
 </script>
 <table id="scale" style="width:80%; height:100px;">
-	<tr ><td ng-style="setColor(0)"></td><td> - 0</td></tr>
+	<tr><td ng-style="setColor(0)"></td><td> - 0</td></tr>
 	<tr ng-repeat="hue in hueValue"><td ng-style="setColor(hue)"></td></tr>
-	<tr ><td ng-style="setColor(120)"></td><td> - 1</td></tr>
+	<tr><td ng-style="setColor(120)"></td><td> - 1</td></tr>
 </table>
+<p>The <font color="#0000FF">blue highlighted</font> edges, connecting the nodes, are the backbone of the graph.</p>

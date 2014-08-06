@@ -2,9 +2,9 @@
 function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked){
 	var width = $(domId).width();
 	var height = $(window).height();
-	if( $("#menu") !== null ){
-		height = $(window).height() - $("#menu").height() - $("mynav").height();
-	}
+	// if( $("#menu") !== null ){
+	// 	height = $(window).height() - $("#menu").height() - $("mynav").height();
+	// }
 
 	var color = d3.scale.category20b();
 
@@ -128,7 +128,12 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 					}
 						// return 'M'+d.source.x+','+d.source.y+'L'+d.target.x+','+d.target.y;
 				})
-				.style('marker-end', function(d) { return 'url(#end-arrow)'; });
+				.style('marker-end', function(d) { return 'url(#end-arrow)'; })
+				.style("stroke", function(d){
+					if(d.target.backbone && d.source.backbone){
+						return "#0000FF";
+					}
+				});
 			}
 			else{
 				link.selectAll("line").data(graph.links)
@@ -146,8 +151,13 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	        	.attr("y2", function(d) { 
 		  			return getEdgeCoord(centrality, d, score, d.target.y);
 		  		})
-				.style("stroke-width", function(d){ return d.value;});
-
+				.style("stroke-width", function(d){ return d.value;})
+				.style("stroke", function(d){
+					if(d.target.backbone && d.source.backbone){
+						return "#0000FF";
+					}
+				});
+				
 			}
 
 		  	var node = svg.append("svg:g").selectAll("g")
@@ -186,7 +196,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		  				return 0;
 		  			}
 		  			else{
-		  				return 5;
+		  				return 6;
 		  			}
 		  		})
 		  		.style("fill", function(d){
@@ -218,6 +228,11 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 								return (l.source.index===d.index || l.target.index===d.index);
 				            })
 				            .style({'stroke-opacity':0.8,'stroke':'#F0F'});
+				        d3.selectAll(".link")
+							.filter(function(l){
+								return (l.source.backbone && l.target.backbone);
+				            })
+				            .style({'stroke-opacity':0.8,'stroke':'#0000FF'});
 			  		}
 
 		  		});

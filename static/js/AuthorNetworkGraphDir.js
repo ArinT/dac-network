@@ -21,6 +21,9 @@ app.controller("authorGraphCtrl", function($scope){
 	$scope.loaded = false;
 	$scope.jsonFile = "authors.json";
 	$scope.$watch("jsonFile", function(newVal, oldVal){
+		if(newVal === oldVal){
+			return;
+		}
 		$scope.$broadcast("NewGraph");
 	});
 	$scope.$watch("chosenScore", function(val, oldVal){

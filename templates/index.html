@@ -46,8 +46,8 @@
 	<script src="/static/js/NavbarDir.js"></script>
 	<script src="/static/js/LeftSidebarDir.js"></script>
 	<script src="/static/js/RightSidebarDir.js"></script>
-	<script src="/static/js/AuthorNetworkGraphDir.js"></script>
 	<script src="/static/js/ScaleDir.js"></script>
+	<script src="/static/js/AuthorNetworkGraphDir.js"></script>
 	<script src="/static/js/Graph.js"></script>
 	<script src="/static/js/StaticAuthorDir.js"></script>
 	<script src="/static/js/CitationNetworkGraphDir.js"></script>
@@ -71,8 +71,8 @@
 	<mynavbar></mynavbar>
 	<div id="webpage" ng-controller="myCtrl">
 		<div class="graphs" ng-view></div>
-		<left-sidebar ng-show="myLocation.path() === '/citationNetwork' || myLocation.path() === '/authorNetwork' "></left-sidebar>
-		<right-sidebar ng-show="myLocation.path() === '/citationNetwork' || myLocation.path() === '/authorNetwork' "></right-sidebar>
+		<left-sidebar ng-show="showSidebars"></left-sidebar>
+		<right-sidebar ng-show="showSidebars"></right-sidebar>
 	</div>	
 	<script src="/static/js/network_graph.js" charset="utf-8"></script>
 

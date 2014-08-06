@@ -4,9 +4,6 @@ app.directive("graphScale", function(){
 		templateUrl:"/static/partials/Scale.html",
 		controller: function($scope){
 			$scope.hueValue = [];
-			$scope.hue2 = [];
-			$scope.hue3 = [];
-			$scope.hue4 = [];
 
 			for(var i = 0; i <121; i++){
 				$scope.hueValue.push(i);

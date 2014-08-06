@@ -31,32 +31,37 @@ app.controller("myCtrl", ["$rootScope", "$scope", "MessageServer", "$location", 
 	$scope.citationNodes = null;
 	$scope.search = null;
 	$scope.openAboutAuthor = false;	
-
+	$scope.showSidebars = true;
 	$scope.changeCentrality = function(type){
 		console.log(type);
 		var temp = "changed";
 		$scope.$broadcast(temp);
 	}
-		$scope.$watch("messageServer.getCitationNodes()", function(newVal, oldVal){
-			if($location.path() === "/citationNetwork"){
-				$scope.nodes = newVal;
-			}
-			$scope.citationNodes = newVal;
-		});
-		$scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
-			if($location.path() === "/authorNetwork"){
-				$scope.nodes = newVal;
-			}
-			$scope.authorNodes = newVal;
-		});
-			$scope.$watch("myLocation.path()", function(url, oldUrl){
-				if(url === "/authorNetwork"){
-					$scope.nodes = $scope.authorNodes;
-				}
-				if(url === "/citationNetwork"){
-					$scope.nodes = $scope.citationNodes;
-				}
-			});
+	$scope.$watch("messageServer.getCitationNodes()", function(newVal, oldVal){
+		if($location.path() === "/citationNetwork"){
+			$scope.nodes = newVal;
+		}
+		$scope.citationNodes = newVal;
+	});
+	$scope.$watch("messageServer.getNodes()", function(newVal, oldVal){
+		if($location.path() === "/authorNetwork"){
+			$scope.nodes = newVal;
+		}
+		$scope.authorNodes = newVal;
+	});
+	$scope.$watch("myLocation.path()", function(url, oldUrl){
+		if(url === "/authorNetwork"){
+			$scope.showSidebars = true;
+			$scope.nodes = $scope.authorNodes;
+		}
+		else if(url === "/citationNetwork"){
+			$scope.showSidebars = true;
+			$scope.nodes = $scope.citationNodes;
+		}
+		else{
+			$scope.showSidebars = false;
+		}
+	});
 
 	$scope.author = null;
 	$scope.$on("searching", function(event, search){
