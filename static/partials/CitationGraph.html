@@ -11,7 +11,7 @@
 	
 	<form class="form-horizontal" role="form" name="options"  novalidate>
 		<div class="row">
-		<div class="form-group col-sm-4">
+		<div class="form-group col-sm-3">
 			<label class="control-label col-sm-6" for="CentralityGraph">Centrality scores:</label>
 				<div class="col-sm-offset-6">
 			    	<div class="checkbox">
@@ -49,7 +49,15 @@
 			    	</div>
     			</div>
 		</div>
-		<div class="form-group col-sm-4" ng-class="{'has-error' : options.score.$invalid}">
+		<div class="form-group col-sm-3" >
+			<div class="checkbox">
+				<label  >
+					Chronological <input type="checkbox" ng-model="chronological">
+				</label>
+				
+			</div>
+		</div>
+		<div class="form-group col-sm-3" ng-class="{'has-error' : options.score.$invalid}">
 			<label id="filter-score" class="control-label col-sm-4" >Filter score:</label>
 			<div class="col-sm-8">
 				<div class="row">
@@ -63,7 +71,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="form-group col-sm-4">
+		<div class="form-group col-sm-3">
 			<label for="year">Filter Year:</label>
 			<select id="year" ng-model="jsonFile" class="form-control">
 				<option value="citations.json">all</option>

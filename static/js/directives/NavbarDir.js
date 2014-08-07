@@ -45,6 +45,7 @@ app.directive("mynavbar", function(){
 
 			/* function might submit to back end or filter front end */
 			$scope.tabClicked = function(id){
+				$rootScope.$broadcast("tabClicked");
 				$("li.active").toggleClass("active");
 				$("#"+id).toggleClass("active")
 			};

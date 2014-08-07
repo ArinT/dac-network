@@ -8,6 +8,7 @@ app.directive("citationGraph", function(){
 			$scope.loaded = false;
 			$scope.highlightPaper = null;
 			$scope.jsonFile = "citations.json";
+			$scope.chronological = true;
 			$scope.$watch("jsonFile", function(newVal, oldVal){
 				if(newVal===oldVal){
 					return;
@@ -49,12 +50,12 @@ app.directive("citationGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/";
 			var dom = "#citation-graph";
-			drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked");
+			drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
-	  			drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked");
+	  			drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 	  		});
 			
 		}//end link

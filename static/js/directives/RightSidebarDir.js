@@ -25,6 +25,7 @@ app.directive("rightSidebar", function(){
 					$location.path("/citationNetwork");
 				}
 			};
+
 			$scope.authorClicked = function(author){
 				//remove all the spaces in the authors name
 				console.log(author)
@@ -75,7 +76,7 @@ app.directive("rightSidebar", function(){
 				$scope.authorNodes = newVal;
 			});
 			$scope.$on("CitationNodeClicked", function(event, node){
-				console.log(node);
+				// console.log(node);
 				//don't need to do $apply, becuase $scope is passed to the function. 
 				$scope.messageServer.queryPaper(node['id']);
 				$scope.name = node['name'];
@@ -103,7 +104,7 @@ app.directive("rightSidebar", function(){
 				if(newVal === oldVal){
 					return;
 				}
-				console.log(newVal)
+				// console.log(newVal)
 				$scope.paperAuthors = newVal['authors'];
 				$scope.selectAmountOfInfo('moreAuthors', 'paperAuthors', 'paperAuthorsHolder', 2);
 				$scope.paperCited = newVal['cited'];
@@ -137,7 +138,11 @@ app.directive("rightSidebar", function(){
 			
 		},
 		link: function(scope, elem, attr){
-			
+			scope.$on("tabClicked", function(){
+				if(scope.rightOpened){
+					scope.rightClose();
+				}
+			})
 			scope.rightOpen = function(){
 
 				shiftRight = new ShiftBar(98, 1, "left", "#right-container");

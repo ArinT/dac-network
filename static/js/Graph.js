@@ -1,5 +1,5 @@
 
-function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked){
+function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked, isChronological){
 	var width = $(domId).width();
 	var height = $(window).height();
 	// if( $("#menu") !== null ){
@@ -49,12 +49,27 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		    .attr('fill', '#000');
 	}
 
+	var gradient = svg.append("svg:defs").append("linearGradient")
+			.attr("id", "grad2")
+			.attr("x1", "0%")
+			.attr("y1", "0%")
+			.attr("x2", "0%")
+			.attr("y2", "100%");
+		gradient.append("svg:stop")
+			.attr("offset", "0%")
+			.style({'stop-color':'rgb(255,0,255)', 'stop-opacity':'1'});
+		gradient.append("svg:stop")
+			.attr("offset", "100%")
+			.style({'stop-color':'rgb(0,0,255)', 'stop-opacity':'1'});
+
+
 	function zoom(){
 		svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 	}//end zoom()
 
 	setTimeout(function(){
 		d3.json(jsonFile, function(error, graph) {
+			console.log(width);
 			var edgeArr = [];
 			var holdEdges = [];
 			var edges = [];
@@ -95,6 +110,17 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 				}
 				graph.links = edges;
 			}
+			if(isChronological){
+				var spacing = width/10;
+				for(var i = 0; i<graph.nodes.length; i++){
+					var year = getYear(graph.nodes[i]['doi'])
+					// graph.nodes[i].x = (year - 2001) * spacing * Math.random();
+					graph.nodes[i]['x'] = 50;
+					graph.nodes[i]['px'] = 50;
+					console.log(JSON.stringify(graph.nodes[i]));
+				}
+				console.log(JSON.stringify(graph.nodes[0]));
+			}
 			force
 				.nodes(graph.nodes)
 				.links(graph.links)
@@ -104,7 +130,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		    	force.tick();
 		    }
 		    force.stop();
-			var link = svg.append('svg:g');
+			var link = svg.append('svg:g').attr("id", "edges");
 				
 			if(isCitationNetwork){
 				link.selectAll("path").data(graph.links)
@@ -133,6 +159,11 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 					if(d.target.backbone && d.source.backbone){
 						return "#0000FF";
 					}
+				})
+				.style('stroke-width', function(d){
+					if(d.target.backbone && d.source.backbone){
+						return 2.5;
+					}
 				});
 			}
 			else{
@@ -155,6 +186,11 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 				.style("stroke", function(d){
 					if(d.target.backbone && d.source.backbone){
 						return "#0000FF";
+					}
+				})
+				.style('stroke-width', function(d){
+					if(d.target.backbone && d.source.backbone){
+						return 2.5;
 					}
 				});
 				
@@ -186,7 +222,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		  			return d["name"].replace(/\s+/g, '');
 		  		})
 		  		.attr("cx", function(d) { 
-		  			return getNodeCoord(centrality, d, score, d.x);
+		  			return getNodeCoord(centrality, d, score, d.x, width);
 	    		})
 	        	.attr("cy", function(d) { 
 		  			return getNodeCoord(centrality, d, score, d.y);
@@ -196,7 +232,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		  				return 0;
 		  			}
 		  			else{
-		  				return 6;
+		  				return 5;
 		  			}
 		  		})
 		  		.style("fill", function(d){
@@ -204,7 +240,6 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		  			return "hsl("+hue+",100% ,50%)";
 		  		})
 		  		.on("click", function(d){
-		  			console.log(nodeClicked);
 		  			if(d[centrality] >= score  || d[centrality] <= 0 ){
 		  			
 		  				scope.$emit(nodeClicked, {
@@ -217,30 +252,45 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		  					'eigen': d["eigenvectorCentralityUnnormalized"],
 		  					'group': d["group"]
 		  				});
+				        d3.selectAll(".node")
+				        	.filter(function(l){
+				        		return (l['id']  === d['id']);
+				        	})
+				        	.attr("r", 9);
+				        d3.selectAll(".node")
+				        	.filter(function(l){
+				        		return (l['id']  !== d['id']);
+				        	})
+				        	.attr("r", 6);
 				        d3.selectAll(".link")
 				        	.filter(function(l){
 				                 return (l.source.index!==d.index && l.target.index!==d.index);
 				             })
-				             .style({'stroke-opacity':0.5,'stroke':'#999'});
+				             .style({'stroke-opacity':0.5,'stroke':'#999', 'stroke-width':'1px'});
 				     
 						d3.selectAll(".link")
 							.filter(function(l){
 								return (l.source.index===d.index || l.target.index===d.index);
 				            })
-				            .style({'stroke-opacity':0.8,'stroke':'#F0F'});
+				            .style({'stroke-opacity':0.8,'stroke':'#F0F', 'stroke-width':'2.5px'});
 				        d3.selectAll(".link")
 							.filter(function(l){
 								return (l.source.backbone && l.target.backbone);
 				            })
-				            .style({'stroke-opacity':0.8,'stroke':'#0000FF'});
+				            .style({'stroke-opacity':0.8,'stroke':'#0000FF', 'stroke-width':'2.5px'});
+				        d3.selectAll(".link")
+				        	.filter(function(l){
+				        		return (l.source.backbone && l.target.backbone) && (l.source.index===d.index || l.target.index===d.index);
+				        	})
+				            .style({'stroke-opacity':0.8,'stroke':'url(#grad2)', 'stroke-width':'2.5px'});
 			  		}
 
 		  		});
 	  			
 		  	node.append("title")
 		  		.text(function(d){ 
-		  			if(d.title){
-		  				return d.title;
+		  			if(d.doi){
+		  				return d.name+"\n Score: "+d[centrality] + "\nYear: " + getYear(d['doi']); 
 		  			}
 		  			return d.name+"\n Score "+d[centrality]; 
 		  		});
@@ -309,8 +359,12 @@ function getNodeHue(score, centrality, isCitationNetwork){
 			return 0;
 	}				
 }
-
+function getYear(doi){
+	var split = doi.split("-");
+	return split[0].slice(4);
+}
 function getNodeCoord(centrality, d, score, retVal){
+
 	if(centrality === null){
 		return retVal;
 	}

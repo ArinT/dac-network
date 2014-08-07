@@ -1,0 +1,113 @@
+<style>
+	#detailContainer{
+		max-width: 60%;
+        max-height: 100%;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #f9f8eb;
+	}
+</style>
+<script type="text/javascript"
+	  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+<div id="detailContainer">
+	<div id="degree">
+		<h2>Degree Centrality</h2>
+		<p>It is the simplest instantiation of the notion of centrality since it measures
+		only how many connections tie authors to their immediate neighbors in the
+		network. The normalized total Degree Centrality of a node v, will be defined
+		as following [8]:
+		<div> \[ TotalDegree(v) = \frac{degree(v)}{n-1} \]</div>
+		A very simple measure, it shows the node with most connection can be used
+		to find the source for intel in the social network and make the access to the
+		intel node faster. <br>
+		In the literature network context, specially in the citation network, it shows
+		the influence of an article in the citation network (prestigious paper). The
+		more citation a paper gets, the more prestigious it will be.</p>
+	</div>
+	<div id="close">
+		<h2>Closeness Centrality</h2>
+		<p>Authors may be well connected to their immediate neighbors but be part of a
+		relatively isolated clique. Although locally well connected, the overall cen-
+		trality can be low. Closeness centrality therefore expands the definition of
+		degree centrality by focusing on how close an author is to all other authors.
+		The distance between authors is the distance between each node in the short-
+		est path between them. The normalized measure therefore can be defined
+		as [8]:
+		<div> \[ Closeness(v) = \frac{(n-1)}{ \sum_{u \neq v} distance(u,v)}\] </div>
+		Therefore we can characterize the central author as the one who has many
+		connection with small actor in between (short distance). Therefore the higher
+		the closeness centrality, the more efficient propagating the information on
+		that node the rest of network, which shows how useful this metric can be. In
+		the citation network, recent papers will not be close to everyone so will have
+		a small closeness centrality which can get smaller(better) by time.</p>
+	</div>
+	<div id="between">
+		<h2>Betweenness Centrality</h2>
+		<p>Sometimes a node is not close to everyone in the network but often the
+		shortest-path between other nodes will pass through this node. Therefore it
+		can control the flow of information in the network and is considered highly
+		central. This will bring up a new measure in centrality which is called Be-
+		tweenness Centrality. The normalized centrality for node v can be defined
+		as [8]:
+		<div> \[ C = \sum_{u < w} \frac{g(u,w)(v)}{g(u,w)} \] </div>
+		Where g(u, w)(v) is the number of shortest path between u and w which
+		contains v and g(u, w) is the total number. The definition is slightly differ-
+		ent for the non-directed graph and will be normalized as the following:
+		<div>\[ Betweenness(v) = \frac{C}{[(n - 1)(n - 2)/2]} \]</div>
+		which for the directed we just multiply it by 2.
+		The higher a paper in betweenness centrality measure, the higher the chance
+		to bring different sub-fields of the area together.</p>
+	</div>
+	<div id="eigen">
+		<h2>Eigenvector Centrality</h2>
+		<p>The eigenvector centrality is very close concept to PageRank algorith [11],
+		which is basically developed base on this concept. In this definition a page
+		has high rank if the sum of the ranks of its backlinks is high. This covers both
+		the case when a page has many backlinks and when a page has a few highly
+		ranked backlinks. There are couples of algorithms for applying the page rank
+		concept into the social network and specially in the co-author network. one
+		of them called AuthorRank algorithm which first change a co-author network
+		into a directed graph first [4].<br>
+		In contrast with PageRank algorithm, the co-authorship link weights express
+		how strongly related two nodes, or authors, are in the co-authorship graph
+		and these weights can therefore be used to determine the amount of Page-
+		Rank that should be transferred from node A to the nodes it connects to. The
+		algorithm will be as following:
+			<ul>
+				<li>
+					To modify the PageRank algorithm to AuthorRank we need to modify
+					the co-author network to a directed graph. We need to calculate the
+					new expressions.
+				</li>
+				<li>
+					Let’s assume \(V = \{v_1, v_2, · · · , v_n\} \) is the set of authors and \(A =
+					\{a_1, a_2, · · · , a_m\}\) is the articles set. Also \(f(a_k)\) denotes the number of
+					authors of the ak paper. Now we calculate two new terms: Exclusivity
+					and Co-author frequency.
+				</li>
+				<li>
+					Exclusivity if authors \(v_i\) and \(v_j\) are co-author in article \(a_k\):
+					\[ g_{i,j,k} = \frac{1}{f(a_k) − 1} \]
+					represents the degree to which authors have an exclusive co-authorship
+					relation for a particular article.
+				</li>
+				<li>
+					Co-author frequency is defined as follows:
+					\[ C_{ij} = \sum_{k} g_(i,j,k) \]
+				</li>
+				<li>
+					Therefore the normalized weight can be calculated as:
+			 		\[ w_{ij} = \frac{c_{ij}}{\sum_{k} c_{ik}} \]
+				</li>
+				<li>
+					The iterative algorithm to compute the rank therefore will be:
+
+					\[AR(i) = (1 − d) + d(AR(1) × w_{1,i} + · · · + AR(n) × w_{n,i})\]
+
+					where \(AR(i)\) is the author rank of author \(i\) and \(d\) is the damping factor.
+				</li>
+			</ul>
+		</p>
+	</div>
+</div>

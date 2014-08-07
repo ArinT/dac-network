@@ -13,7 +13,6 @@ app.directive("chrono", function(){
           scope.firstVisit = false;
         }
         else{
-          console.log("changed")
           $("svg").remove();
           $(".remove").remove();
           chart(scope.csvpath, scope.graphColor);
@@ -24,7 +23,6 @@ app.directive("chrono", function(){
           scope.firstVisit = false;
         }
         else{
-          console.log("changed")
           $("svg").remove();
           $(".remove").remove();
           chart(scope.csvpath, scope.graphColor);
@@ -55,7 +53,6 @@ app.directive("chrono", function(){
       width = $("#chrono").width() - margin.left - margin.right;
       var height = 400 - margin.top - margin.bottom;
       height = ($(window).height()*.6) - margin.top - margin.bottom;
-      console.log($("#webpage").height());  
 
       var tooltip = d3.select("#chrono")
           .append("div")

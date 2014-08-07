@@ -1,12 +1,17 @@
 var app = angular.module('CitationNetwork',['ngRoute','ngCookies','ui.slider','ui.bootstrap'], function( $routeProvider){
 	$routeProvider.when('/home', {templateUrl: '/static/partials/HomePage.html'});
+	$routeProvider.when('/centralityDetails', {templateUrl: '/static/partials/CentralityDetails.html', controller:'centralityDetailsCtrl'});
+	$routeProvider.when('/betweenDetails', {templateUrl: '/static/partials/BetweenDetails.html', controller:"betweenDetailsCtrl"});
+	$routeProvider.when('/closeDetails', {templateUrl: '/static/partials/CloseDetails.html', controller:"closeDetailsCtrl"});
+	$routeProvider.when('/eigenDetails', {templateUrl: '/static/partials/EigenDetails.html', controller:"eigenDetailsCtrl"});
+	$routeProvider.when('/groupDetails', {templateUrl: '/static/partials/GroupDetails.html', controller:"groupDetailsCtrl"});
 	$routeProvider.when('/authorNetwork', {templateUrl: '/static/partials/AuthorGraph.html', controller:"authorGraphCtrl"});
 	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/CitationGraph.html'});
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
 	$routeProvider.when('/chrono', {templateUrl: '/static/partials/chronologicalGraph.html'});
 	$routeProvider.when('/freqplot', {templateUrl: '/static/partials/freqplot.html'});
 	$routeProvider.when('/feedback', {templateUrl: '/static/partials/Feedback.html', controller:"FeedbackCtrl"});
-	$routeProvider.otherwise({redirectTo: '/authorNetwork'});
+	$routeProvider.otherwise({redirectTo: '/home'});
 }).run(function($http, $cookies) {
     $http.defaults.headers.post['X-CSRFToken'] = $cookies['csrftoken'];
 }).config(function($interpolateProvider, $httpProvider) {
