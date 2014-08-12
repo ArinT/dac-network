@@ -5,6 +5,8 @@ import csv
 from pprint import pprint
 from django.db import connection
 def query_degree_frequency_data():
+    """A query which returns the number of papers publish in each year by each author and groups by the number of papers.
+    This gives a more general concept of how authors publish papers"""
     cursor = connection.cursor()
     cursor.execute(
         'SELECT pubs.ppy as Degree, pubs.yr as Year, COUNT(*) as Frequency FROM ( '
@@ -18,6 +20,7 @@ def query_degree_frequency_data():
         )
     return cursor.fetchall()
 def generate_plot_csv():
+    """Generates/formats the data and writes to a csv"""
     results = query_degree_frequency_data()
     x = [[0 for i in range(11)] for j in range(9)]
     for item in results:

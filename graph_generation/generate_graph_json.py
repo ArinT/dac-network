@@ -12,6 +12,7 @@ def get_year(doi):
 
 
 def paper_is_cited_or_cites(citation, paper):
+    """Logic to determine whether a citation either cites or is cited by the given paper"""
     return citation.sourcepaperid == paper.paperid or citation.targetpaperid == paper.paperid
 
 

@@ -30,7 +30,7 @@ ALLOWED_HOSTS = ['*']
 #TEST EMAIL STUFF
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'dacnetworkanalysis@gmail.com'
+EMAIL_HOST_USER = 'dacnetworkanalysis@gmail.com' #Used to the Feedback tab and sending feedback
 EMAIL_HOST_PASSWORD = 'uiucsummer'
 EMAIL_PORT = 587
 
@@ -45,7 +45,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'network_visualizer',
     'south',
-    'djangular'
+    'djangular' # Interface between Angular.js and Django
 )
 
 MIDDLEWARE_CLASSES = (
@@ -68,7 +68,7 @@ WSGI_APPLICATION = 'DAC_network_analysis.wsgi.application'
 
 DATABASES = {
     'default':
-        {
+        { #The MySQL database info
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'DACNetworkAnalysis',
             'USER': 'ebroot',
@@ -104,10 +104,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
 STATIC_URL = '/static/'
-
-# STATICFILES_DIRS = (
-#     # Put strings here, like "/home/html/static" or "C:/www/django/static".
-#     # Always use forward slashes, even on Windows.
-#     # Don't forget to use absolute paths, not relative paths.
-#     os.path.join(BASE_DIR, 'staticfiles'),
-# )
