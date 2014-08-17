@@ -7,6 +7,8 @@ from django.db import connection
 
 
 def get_author_credits(author_id):
+    """Get all a list of paper titles which
+    the input author has worked on"""
     cursor = connection.cursor()
     cursor.execute('SELECT title, url, doi FROM Papers '
                    'JOIN Works ON Works.PaperId = Papers.PaperID '
@@ -19,6 +21,9 @@ def get_author_credits(author_id):
     return credits
 
 def get_author_affiliates(author_id):
+    """
+    Get a list of people who the input author has worked with.
+    """
     cursor = connection.cursor()
     cursor.execute('SELECT a.authorName, COUNT(*) FROM Works w1 '
                    'JOIN Works w2 on w1.paperId = w2.paperId '
@@ -34,12 +39,18 @@ def get_author_affiliates(author_id):
     return affiliates
 
 def get_author_info(author_id):
+    """
+        Gets all relevant information on an author through a series of queries.
+    """
     credits = get_author_credits(author_id)
     affiliates = get_author_affiliates(author_id)
     info = {'credits':credits,'affiliates':affiliates}
     return info
 
 def get_similar_papers(paper_id):
+    """
+    Get a list of papers which are similar to the input paper.
+    """
     cursor = connection.cursor()
     cursor.execute('SELECT p2.title, p2.url, p2.doi  FROM Papers p1 '
                    'JOIN TopFives tf ON tf.parentId = p1.PaperID '
@@ -53,6 +64,9 @@ def get_similar_papers(paper_id):
     return results
 
 def get_citations(paper_id):
+    """
+    Gets a list of papers which this paper cites
+    """
     cursor = connection.cursor()
     cursor.execute('SELECT p.title, p.url, p.doi FROM Citations c '
                    'JOIN Papers p on p.paperId = c.targetPaperId '
@@ -63,6 +77,9 @@ def get_citations(paper_id):
         cites.append({'name':item[0].encode('utf-8'), 'url':item[1], 'doi':item[2]})
     return cites
 def get_cited_by(paper_id):
+    """
+    Gets a list of papers which this paper is cited by.
+    """
     cursor = connection.cursor()
     cursor.execute('SELECT p.title, p.url, p.doi FROM Citations c '
                    'JOIN Papers p on p.paperId = c.sourcePaperId '
@@ -73,6 +90,9 @@ def get_cited_by(paper_id):
         cited.append({'name':item[0].encode('UTF-8'), 'url':item[1], 'doi':item[2]})
     return cited
 def get_paper_authors(paper_id):
+    """
+    Gets a list of authors who co-authors this paper.
+    """
     cursor = connection.cursor()
     cursor.execute('SELECT a.authorName, a.authorId FROM Works w '
                    'JOIN Authors a on a.authorId = w.AuthorId '
@@ -83,6 +103,9 @@ def get_paper_authors(paper_id):
         authors.append({'name':item[0].encode('UTF-8'),'id':int(item[1])})
     return authors
 def get_paper_info(paper_id):
+    """
+    Gets all relevant info on a paper through a series of queries.
+    """
     similar_papers = get_similar_papers(paper_id)
     cites = get_citations(paper_id)
     cited = get_cited_by(paper_id)

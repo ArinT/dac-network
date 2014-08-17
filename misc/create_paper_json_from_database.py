@@ -4,6 +4,8 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.settings')
 from network_visualizer.models import Papers
 def generate_paper_json(outfile):
+    """Creates a json file from the Paper table in the database.
+    This file is used to for creating the citation network"""
     writer = open(outfile,"w+")
     papers = Papers.objects.all()
     json_papers = []

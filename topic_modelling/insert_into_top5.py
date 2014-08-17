@@ -4,6 +4,10 @@ import os
 from django.db import connection
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'DAC_network_analysis.local_settings')
 def insert_csv(filename):
+        """
+        Creates a table which represents which papers each paper is
+        most similar to. 
+        """
         reader = csv.reader(open(filename))
         cursor = connection.cursor()
         cursor.execute(
