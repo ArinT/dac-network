@@ -8,7 +8,7 @@ app.directive("citationGraph", function(){
 			$scope.loaded = false;
 			$scope.highlightPaper = null;
 			$scope.jsonFile = "citations.json";
-			$scope.chronological = true;
+			$scope.chronological = false;
 			$scope.$watch("jsonFile", function(newVal, oldVal){
 				if(newVal===oldVal){
 					return;
@@ -21,7 +21,11 @@ app.directive("citationGraph", function(){
 					$(newValues[0]).d3Click();
 				}
 			});
-
+			$scope.$watch("chronological", function(val, oldVal){
+				if(val !== oldVal){
+					$scope.$broadcast("NewGraph");
+				}
+			});
 			$scope.$watch("chosenScore", function(val, oldVal){
 				if(val !== oldVal){
 					$scope.$broadcast("NewGraph");
