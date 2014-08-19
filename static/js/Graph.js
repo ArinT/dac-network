@@ -69,7 +69,6 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 
 	setTimeout(function(){
 		d3.json(jsonFile, function(error, graph) {
-			console.log(width);
 			var edgeArr = [];
 			var holdEdges = [];
 			var edges = [];
@@ -110,17 +109,6 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 				}
 				graph.links = edges;
 			}
-			if(isChronological){
-				var spacing = width/10;
-				for(var i = 0; i<graph.nodes.length; i++){
-					var year = getYear(graph.nodes[i]['doi'])
-					// graph.nodes[i].x = (year - 2001) * spacing * Math.random();
-					graph.nodes[i]['x'] = 50;
-					graph.nodes[i]['px'] = 50;
-					console.log(JSON.stringify(graph.nodes[i]));
-				}
-				console.log(JSON.stringify(graph.nodes[0]));
-			}
 			force
 				.nodes(graph.nodes)
 				.links(graph.links)
@@ -130,6 +118,102 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		    	force.tick();
 		    }
 		    force.stop();
+
+		  	var node = svg.append("svg:g").selectAll("g")
+		  		.data(graph.nodes)
+		  		.enter().append("circle")
+		  		.attr("class", "node")
+		  		.attr("degree", function(d){
+		  			return d["degreeCentrality"]
+		  		})
+		  		.attr("between", function(d){
+		  			return d["betweennessCentrality"];
+		  		})
+		  		.attr("close", function(d){
+		  			return d["closenessCentrality"];
+		  		})
+		  		.attr("eigen", function(d){
+		  			return d["eigenvectorCentrality"]
+		  		})
+		  		.attr("group", function(d){
+		  			return d["group"]
+		  		})
+		  		.attr("id", function(d){
+		  			if(isCitationNetwork){
+		  				return d["doi"];
+		  			}
+		  			return d["name"].replace(/\s+/g, '');
+		  		})
+		  		.attr("cx", function(d) {
+					var spacing = width/10;
+					if (isChronological)
+					{
+						d.x = (Math.random()*spacing)+width/11*(getYear(d.doi)-2001); 
+					}		  			
+					return getNodeCoord(centrality, d, score, d.x, width);
+	    		})
+	        	.attr("cy", function(d) { 
+		  			return getNodeCoord(centrality, d, score, d.y, width);
+	        	})
+		  		.attr("r", function(d){
+		  			if(d[centrality] < score || d["degreeCentrality"] === 0){
+		  				return 0;
+		  			}
+		  			else{
+		  				return 5;
+		  			}
+		  		})
+		  		.style("fill", function(d){
+					var hue = getNodeHue(d[centrality], centrality, isCitationNetwork);
+		  			return "hsl("+hue+",100% ,50%)";
+		  		})
+		  		.on("click", function(d){
+		  			if(d[centrality] >= score  || d[centrality] <= 0 ){
+		  			
+		  				scope.$emit(nodeClicked, {
+		  					'name': d['name'],
+		  					'id': d['id'],
+		  					'centrality': centrality,
+		  					'degree': d["degreeCentralityUnnormalized"],
+		  					'betweenness': d["betweennessCentrality"],
+		  					'closeness': d["closenessCentralityUnnormalized"],
+		  					'eigen': d["eigenvectorCentralityUnnormalized"],
+		  					'group': d["group"]
+		  				});
+				        d3.selectAll(".node")
+				        	.filter(function(l){
+				        		return (l['id']  === d['id']);
+				        	})
+				        	.attr("r", 9);
+				        d3.selectAll(".node")
+				        	.filter(function(l){
+				        		return (l['id']  !== d['id']);
+				        	})
+				        	.attr("r", 6);
+				        d3.selectAll(".link")
+				        	.filter(function(l){
+				                 return (l.source.index!==d.index && l.target.index!==d.index);
+				             })
+				             .style({'stroke-opacity':0.5,'stroke':'#999', 'stroke-width':'1px'});
+				     
+						d3.selectAll(".link")
+							.filter(function(l){
+								return (l.source.index===d.index || l.target.index===d.index);
+				            })
+				            .style({'stroke-opacity':0.8,'stroke':'#F0F', 'stroke-width':'2.5px'});
+				        d3.selectAll(".link")
+							.filter(function(l){
+								return (l.source.backbone && l.target.backbone);
+				            })
+				            .style({'stroke-opacity':0.8,'stroke':'#0000FF', 'stroke-width':'2.5px'});
+				        d3.selectAll(".link")
+				        	.filter(function(l){
+				        		return (l.source.backbone && l.target.backbone) && (l.source.index===d.index || l.target.index===d.index);
+				        	})
+				            .style({'stroke-opacity':0.8,'stroke':'url(#grad2)', 'stroke-width':'2.5px'});
+			  		}
+
+		  		});
 			var link = svg.append('svg:g').attr("id", "edges");
 				
 			if(isCitationNetwork){
@@ -195,97 +279,6 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 				});
 				
 			}
-
-		  	var node = svg.append("svg:g").selectAll("g")
-		  		.data(graph.nodes)
-		  		.enter().append("circle")
-		  		.attr("class", "node")
-		  		.attr("degree", function(d){
-		  			return d["degreeCentrality"]
-		  		})
-		  		.attr("between", function(d){
-		  			return d["betweennessCentrality"];
-		  		})
-		  		.attr("close", function(d){
-		  			return d["closenessCentrality"];
-		  		})
-		  		.attr("eigen", function(d){
-		  			return d["eigenvectorCentrality"]
-		  		})
-		  		.attr("group", function(d){
-		  			return d["group"]
-		  		})
-		  		.attr("id", function(d){
-		  			if(isCitationNetwork){
-		  				return d["doi"];
-		  			}
-		  			return d["name"].replace(/\s+/g, '');
-		  		})
-		  		.attr("cx", function(d) { 
-		  			return getNodeCoord(centrality, d, score, d.x, width);
-	    		})
-	        	.attr("cy", function(d) { 
-		  			return getNodeCoord(centrality, d, score, d.y);
-	        	})
-		  		.attr("r", function(d){
-		  			if(d[centrality] < score || d["degreeCentrality"] === 0){
-		  				return 0;
-		  			}
-		  			else{
-		  				return 5;
-		  			}
-		  		})
-		  		.style("fill", function(d){
-					var hue = getNodeHue(d[centrality], centrality, isCitationNetwork);
-		  			return "hsl("+hue+",100% ,50%)";
-		  		})
-		  		.on("click", function(d){
-		  			if(d[centrality] >= score  || d[centrality] <= 0 ){
-		  			
-		  				scope.$emit(nodeClicked, {
-		  					'name': d['name'],
-		  					'id': d['id'],
-		  					'centrality': centrality,
-		  					'degree': d["degreeCentralityUnnormalized"],
-		  					'betweenness': d["betweennessCentrality"],
-		  					'closeness': d["closenessCentralityUnnormalized"],
-		  					'eigen': d["eigenvectorCentralityUnnormalized"],
-		  					'group': d["group"]
-		  				});
-				        d3.selectAll(".node")
-				        	.filter(function(l){
-				        		return (l['id']  === d['id']);
-				        	})
-				        	.attr("r", 9);
-				        d3.selectAll(".node")
-				        	.filter(function(l){
-				        		return (l['id']  !== d['id']);
-				        	})
-				        	.attr("r", 6);
-				        d3.selectAll(".link")
-				        	.filter(function(l){
-				                 return (l.source.index!==d.index && l.target.index!==d.index);
-				             })
-				             .style({'stroke-opacity':0.5,'stroke':'#999', 'stroke-width':'1px'});
-				     
-						d3.selectAll(".link")
-							.filter(function(l){
-								return (l.source.index===d.index || l.target.index===d.index);
-				            })
-				            .style({'stroke-opacity':0.8,'stroke':'#F0F', 'stroke-width':'2.5px'});
-				        d3.selectAll(".link")
-							.filter(function(l){
-								return (l.source.backbone && l.target.backbone);
-				            })
-				            .style({'stroke-opacity':0.8,'stroke':'#0000FF', 'stroke-width':'2.5px'});
-				        d3.selectAll(".link")
-				        	.filter(function(l){
-				        		return (l.source.backbone && l.target.backbone) && (l.source.index===d.index || l.target.index===d.index);
-				        	})
-				            .style({'stroke-opacity':0.8,'stroke':'url(#grad2)', 'stroke-width':'2.5px'});
-			  		}
-
-		  		});
 	  			
 		  	node.append("title")
 		  		.text(function(d){ 
@@ -294,7 +287,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		  			}
 		  			return d.name+"\n Score "+d[centrality]; 
 		  		});
-
+		
 		    scope.$broadcast("GraphLoaded");
 		
 		});	
@@ -361,10 +354,9 @@ function getNodeHue(score, centrality, isCitationNetwork){
 }
 function getYear(doi){
 	var split = doi.split("-");
-	return split[0].slice(4);
+	return parseInt(split[0].slice(4));
 }
-function getNodeCoord(centrality, d, score, retVal){
-
+function getNodeCoord(centrality, d, score, retVal, width){
 	if(centrality === null){
 		return retVal;
 	}
