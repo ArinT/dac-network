@@ -119,102 +119,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		    }
 		    force.stop();
 
-		  	var node = svg.append("svg:g").selectAll("g")
-		  		.data(graph.nodes)
-		  		.enter().append("circle")
-		  		.attr("class", "node")
-		  		.attr("degree", function(d){
-		  			return d["degreeCentrality"]
-		  		})
-		  		.attr("between", function(d){
-		  			return d["betweennessCentrality"];
-		  		})
-		  		.attr("close", function(d){
-		  			return d["closenessCentrality"];
-		  		})
-		  		.attr("eigen", function(d){
-		  			return d["eigenvectorCentrality"]
-		  		})
-		  		.attr("group", function(d){
-		  			return d["group"]
-		  		})
-		  		.attr("id", function(d){
-		  			if(isCitationNetwork){
-		  				return d["doi"];
-		  			}
-		  			return d["name"].replace(/\s+/g, '');
-		  		})
-		  		.attr("cx", function(d) {
-					var spacing = width/10;
-					if (isChronological)
-					{
-						d.x = (Math.random()*spacing)+width/11*(getYear(d.doi)-2001); 
-					}		  			
-					return getNodeCoord(centrality, d, score, d.x, width);
-	    		})
-	        	.attr("cy", function(d) { 
-		  			return getNodeCoord(centrality, d, score, d.y, width);
-	        	})
-		  		.attr("r", function(d){
-		  			if(d[centrality] < score || d["degreeCentrality"] === 0){
-		  				return 0;
-		  			}
-		  			else{
-		  				return 5;
-		  			}
-		  		})
-		  		.style("fill", function(d){
-					var hue = getNodeHue(d[centrality], centrality, isCitationNetwork);
-		  			return "hsl("+hue+",100% ,50%)";
-		  		})
-		  		.on("click", function(d){
-		  			if(d[centrality] >= score  || d[centrality] <= 0 ){
-		  			
-		  				scope.$emit(nodeClicked, {
-		  					'name': d['name'],
-		  					'id': d['id'],
-		  					'centrality': centrality,
-		  					'degree': d["degreeCentralityUnnormalized"],
-		  					'betweenness': d["betweennessCentrality"],
-		  					'closeness': d["closenessCentralityUnnormalized"],
-		  					'eigen': d["eigenvectorCentralityUnnormalized"],
-		  					'group': d["group"]
-		  				});
-				        d3.selectAll(".node")
-				        	.filter(function(l){
-				        		return (l['id']  === d['id']);
-				        	})
-				        	.attr("r", 9);
-				        d3.selectAll(".node")
-				        	.filter(function(l){
-				        		return (l['id']  !== d['id']);
-				        	})
-				        	.attr("r", 6);
-				        d3.selectAll(".link")
-				        	.filter(function(l){
-				                 return (l.source.index!==d.index && l.target.index!==d.index);
-				             })
-				             .style({'stroke-opacity':0.5,'stroke':'#999', 'stroke-width':'1px'});
-				     
-						d3.selectAll(".link")
-							.filter(function(l){
-								return (l.source.index===d.index || l.target.index===d.index);
-				            })
-				            .style({'stroke-opacity':0.8,'stroke':'#F0F', 'stroke-width':'2.5px'});
-				        d3.selectAll(".link")
-							.filter(function(l){
-								return (l.source.backbone && l.target.backbone);
-				            })
-				            .style({'stroke-opacity':0.8,'stroke':'#0000FF', 'stroke-width':'2.5px'});
-				        d3.selectAll(".link")
-				        	.filter(function(l){
-				        		return (l.source.backbone && l.target.backbone) && (l.source.index===d.index || l.target.index===d.index);
-				        	})
-				            .style({'stroke-opacity':0.8,'stroke':'url(#grad2)', 'stroke-width':'2.5px'});
-			  		}
-
-		  		});
-			var link = svg.append('svg:g').attr("id", "edges");
+		  	var link = svg.append('svg:g').attr("id", "edges");
 				
 			if(isCitationNetwork){
 				link.selectAll("path").data(graph.links)
@@ -280,7 +185,98 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 				});
 				
 			}
-	  			
+	  		var node = svg.append("svg:g").selectAll("g")
+		  		.data(graph.nodes)
+		  		.enter().append("circle")
+		  		.attr("class", "node")
+		  		.attr("degree", function(d){
+		  			return d["degreeCentrality"]
+		  		})
+		  		.attr("between", function(d){
+		  			return d["betweennessCentrality"];
+		  		})
+		  		.attr("close", function(d){
+		  			return d["closenessCentrality"];
+		  		})
+		  		.attr("eigen", function(d){
+		  			return d["eigenvectorCentrality"]
+		  		})
+		  		.attr("group", function(d){
+		  			return d["group"]
+		  		})
+		  		.attr("id", function(d){
+		  			if(isCitationNetwork){
+		  				return d["doi"];
+		  			}
+		  			return d["name"].replace(/\s+/g, '');
+		  		})
+		  		.attr("cx", function(d) {
+							  			
+					return getNodeCoord(centrality, d, score, d.x, width);
+	    		})
+	        	.attr("cy", function(d) { 
+		  			return getNodeCoord(centrality, d, score, d.y, width);
+	        	})
+		  		.attr("r", function(d){
+		  			if(d[centrality] < score || d["degreeCentrality"] === 0){
+		  				return 0;
+		  			}
+		  			else{
+		  				return 5;
+		  			}
+		  		})
+		  		.style("fill", function(d){
+					var hue = getNodeHue(d[centrality], centrality, isCitationNetwork);
+		  			return "hsl("+hue+",100% ,50%)";
+		  		})
+		  		.on("click", function(d){
+		  			if(d[centrality] >= score  || d[centrality] <= 0 ){
+		  			
+		  				scope.$emit(nodeClicked, {
+		  					'name': d['name'],
+		  					'id': d['id'],
+		  					'centrality': centrality,
+		  					'degree': d["degreeCentralityUnnormalized"],
+		  					'betweenness': d["betweennessCentrality"],
+		  					'closeness': d["closenessCentralityUnnormalized"],
+		  					'eigen': d["eigenvectorCentralityUnnormalized"],
+		  					'group': d["group"]
+		  				});
+				        d3.selectAll(".node")
+				        	.filter(function(l){
+				        		return (l['id']  === d['id']);
+				        	})
+				        	.attr("r", 9);
+				        d3.selectAll(".node")
+				        	.filter(function(l){
+				        		return (l['id']  !== d['id']);
+				        	})
+				        	.attr("r", 6);
+				        d3.selectAll(".link")
+				        	.filter(function(l){
+				                 return (l.source.index!==d.index && l.target.index!==d.index);
+				             })
+				             .style({'stroke-opacity':0.5,'stroke':'#999', 'stroke-width':'1px'});
+				     
+						d3.selectAll(".link")
+							.filter(function(l){
+								return (l.source.index===d.index || l.target.index===d.index);
+				            })
+				            .style({'stroke-opacity':0.8,'stroke':'#F0F', 'stroke-width':'2.5px'});
+				        d3.selectAll(".link")
+							.filter(function(l){
+								return (l.source.backbone && l.target.backbone);
+				            })
+				            .style({'stroke-opacity':0.8,'stroke':'#0000FF', 'stroke-width':'2.5px'});
+				        d3.selectAll(".link")
+				        	.filter(function(l){
+				        		return (l.source.backbone && l.target.backbone) && (l.source.index===d.index || l.target.index===d.index);
+				        	})
+				            .style({'stroke-opacity':0.8,'stroke':'url(#grad2)', 'stroke-width':'2.5px'});
+			  		}
+
+		  		});
+				
 		  	node.append("title")
 		  		.text(function(d){ 
 		  			if(d.doi){
