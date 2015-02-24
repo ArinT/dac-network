@@ -17,9 +17,19 @@ class Authors(models.Model):
     emailid = models.CharField(db_column='EmailID', max_length=64, blank=True) # Field name made lowercase.
     closenessscore = models.FloatField(db_column='CloseNessScore', blank=True, null=True) # Field name made lowercase.
     degreescore = models.FloatField(db_column='DegreeScore', blank=True, null=True) # Field name made lowercase.
+    location = models.CharField(db_column="Location", max_length=64, null=True)
+    institution = models.CharField(db_column="Institution", max_length=64, null=True)
     class Meta:
-        managed = False
+        managed = True
         db_table = 'Authors'
+
+class AuthorTopics(models.model):
+    authortopicid = models.AutoField(db_column="AuthorTopicId", primary_key=True)
+    authorid = models.IntegerField(db_column="AuthorID", blank=True, null=True)
+    topic = models.CharField(db_column="Topic", max_length=30, blank=True)
+    class Meta:
+        managed = True
+        db_table = 'AuthorTopics'
 
 class Citations(models.Model):
     sourcepaperid = models.IntegerField(db_column='sourcePaperId', blank=True, null=True) # Field name made lowercase.
@@ -40,7 +50,7 @@ class Cocredits(models.Model):
 class Keywordtopaper(models.Model):
     paperid = models.IntegerField(db_column='PaperId', blank=True, null=True) # Field name made lowercase.
     keywordid = models.IntegerField(db_column='KeywordId', blank=True, null=True) # Field name made lowercase.
-    id = models.IntegerField(primary_key=True)
+    _id = models.IntegerField(primary_key=True)
     class Meta:
         managed = False
         db_table = 'KeywordToPaper'
@@ -58,6 +68,11 @@ class Papers(models.Model):
     doi = models.CharField(db_column='DOI', max_length=20, blank=True) # Field name made lowercase.
     numauthors = models.IntegerField(db_column='NumAuthors') # Field name made lowercase.
     url = models.CharField(max_length=1000, blank=True)
+    year = models.IntegerField(db_column='Year') # Field name made lowercase.
+    publicationname = models.CharField(db_column="PublicationName", max_length=300, blank=True)
+    abstract = models.CharField(db_column="Abstract", max_length=2000, blank=True)
+    isdac = models.BooleanField(db_column="IsDAC")
+    isasme = models.BooleanField(db_column="IsASME")
     class Meta:
         managed = False
         db_table = 'Papers'
@@ -66,7 +81,15 @@ class Topfives(models.Model):
     parentid = models.IntegerField(db_column='parentId', blank=True, null=True) # Field name made lowercase.
     childid = models.IntegerField(db_column='childId', blank=True, null=True) # Field name made lowercase.
     rank = models.IntegerField(blank=True, null=True)
-    id = models.IntegerField(primary_key=True)
+    _id = models.IntegerField(primary_key=True)
+    class Meta:
+        managed = False
+        db_table = 'TopFives'
+
+class Topics(models.Model):
+    topicid = models.AutoField(db_column="TopicId", primary_key=True) 
+    paperid = models.IntegerField(db_column="PaperID", blank=True, null=True)
+    topic = models.CharField(db_column="Topic", max_length=30, blank=True)
     class Meta:
         managed = False
         db_table = 'TopFives'
@@ -74,7 +97,7 @@ class Topfives(models.Model):
 class Works(models.Model):
     authorid = models.IntegerField(db_column='AuthorId', blank=True, null=True) # Field name made lowercase.
     paperid = models.IntegerField(db_column='PaperId', blank=True, null=True) # Field name made lowercase.
-    workid = models.IntegerField(db_column='workId', primary_key=True) # Field name made lowercase.
+    workid = models.AutoField(db_column='workId', primary_key=True) # Field name made lowercase.
     class Meta:
         managed = False
         db_table = 'Works'
