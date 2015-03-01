@@ -23,7 +23,7 @@ class Authors(models.Model):
         managed = True
         db_table = 'Authors'
 
-class AuthorTopics(models.model):
+class AuthorTopics(models.Model):
     authortopicid = models.AutoField(db_column="AuthorTopicId", primary_key=True)
     authorid = models.IntegerField(db_column="AuthorID", blank=True, null=True)
     topic = models.CharField(db_column="Topic", max_length=30, blank=True)
