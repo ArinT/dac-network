@@ -17,8 +17,7 @@ class Authors(models.Model):
     emailid = models.CharField(db_column='EmailID', max_length=64, blank=True) # Field name made lowercase.
     closenessscore = models.FloatField(db_column='CloseNessScore', blank=True, null=True) # Field name made lowercase.
     degreescore = models.FloatField(db_column='DegreeScore', blank=True, null=True) # Field name made lowercase.
-    location = models.CharField(db_column="Location", max_length=64, null=True)
-    institution = models.CharField(db_column="Institution", max_length=64, null=True)
+    url = models.CharField(max_length=1000, blank=True)
     class Meta:
         managed = True
         db_table = 'Authors'
@@ -98,6 +97,7 @@ class Papers(models.Model):
     abstract = models.CharField(db_column="Abstract", max_length=2000, blank=True)
     isdac = models.BooleanField(db_column="IsDAC")
     isasme = models.BooleanField(db_column="IsASME")
+    pages = models.IntegerField(db_column='Pages', blank=True, null=True)
     class Meta:
         managed = False
         db_table = 'Papers'
