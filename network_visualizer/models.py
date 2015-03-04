@@ -12,7 +12,7 @@ from __future__ import unicode_literals
 from django.db import models
 
 class Authors(models.Model):
-    authorid = models.IntegerField(db_column='AuthorID', primary_key=True) # Field name made lowercase.
+    authorid = models.AutoField(db_column='AuthorID', primary_key=True) # Field name made lowercase.
     authorname = models.CharField(db_column='AuthorName', max_length=64, blank=True) # Field name made lowercase.
     emailid = models.CharField(db_column='EmailID', max_length=64, blank=True) # Field name made lowercase.
     closenessscore = models.FloatField(db_column='CloseNessScore', blank=True, null=True) # Field name made lowercase.
@@ -22,6 +22,14 @@ class Authors(models.Model):
     class Meta:
         managed = True
         db_table = 'Authors'
+
+class AuthorLocations(models.Model):
+    authorlocationid = models.AutoField(db_column="AuthorLocationID", primary_key=True)
+    locationid = models.IntegerField(db_column="LocationID", blank=True, null=True)
+    authorid = models.IntegerField(db_column="AuthorID", blank=True, null=True)
+    class Meta:
+        managed = True
+        db_table = 'AuthorLocations'
 
 class AuthorTopics(models.Model):
     authortopicid = models.AutoField(db_column="AuthorTopicId", primary_key=True)
@@ -34,7 +42,7 @@ class AuthorTopics(models.Model):
 class Citations(models.Model):
     sourcepaperid = models.IntegerField(db_column='sourcePaperId', blank=True, null=True) # Field name made lowercase.
     targetpaperid = models.IntegerField(db_column='targetPaperId', blank=True, null=True) # Field name made lowercase.
-    citationid = models.IntegerField(db_column='citationId', primary_key=True) # Field name made lowercase.
+    citationid = models.AutoField(db_column='citationId', primary_key=True) # Field name made lowercase.
     class Meta:
         managed = False
         db_table = 'Citations'
@@ -62,8 +70,25 @@ class Keywords(models.Model):
         managed = False
         db_table = 'Keywords'
 
+class Locations(models.Model):
+    locationid = models.AutoField(db_column='LocationID', primary_key=True)
+    city = models.CharField(db_column='City', max_length=64, blank=True)
+    state = models.CharField(db_column='State', max_length=64, blank=True)
+    country = models.CharField(db_column='Country', max_length=64, blank=True)
+    class Meta:
+        managed = False
+        db_table = 'Location'
+
+class PaperLocations(models.Model):
+    authorlocationid = models.AutoField(db_column="PaperLocationID", primary_key=True)
+    locationid = models.IntegerField(db_column="LocationID", blank=True, null=True)
+    paperid = models.IntegerField(db_column="PaperID", blank=True, null=True)
+    class Meta:
+        managed = True
+        db_table = 'PaperLocations'
+
 class Papers(models.Model):
-    paperid = models.IntegerField(db_column='PaperID', primary_key=True) # Field name made lowercase.
+    paperid = models.AutoField(db_column='PaperID', primary_key=True) # Field name made lowercase.
     title = models.CharField(db_column='Title', max_length=300, blank=True) # Field name made lowercase.
     doi = models.CharField(db_column='DOI', max_length=20, blank=True) # Field name made lowercase.
     numauthors = models.IntegerField(db_column='NumAuthors') # Field name made lowercase.
