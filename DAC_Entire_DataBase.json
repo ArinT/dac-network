@@ -20374,7 +20374,7 @@
         "Broad_Topic": "", 
         "Authors": [
             "Michael J. Scott", 
-            "Juan Carlos García Arenillas", 
+            "Juan Carlos García Arenillas", 
             "Timothy W. Simpson", 
             "Somasundaram Valliyappan", 
             "Venkat Allada"
@@ -22389,7 +22389,7 @@
         "Authors": [
             "Stella Maris Oggianu", 
             "Razvan Florea", 
-            "J. Ricardo Muñoz", 
+            "J. Ricardo Muñoz", 
             "Guido Poncia", 
             "Thierry Carriere", 
             "Dong Luo"
@@ -23782,7 +23782,7 @@
         "Year": 2004, 
         "Broad_Topic": "", 
         "Authors": [
-            "Alejandro A. Espinoza Orías", 
+            "Alejandro A. Espinoza Orías", 
             "John E. Renaud"
         ], 
         "Abstract": "In manufacturing industries, ultrasonic welding has established itself as one of the most effective techniques for fusing plastic assemblies due to its rapid performance and the absence of filler material. In this report, a thermoplastic polyurethane prototype of an orthopedics device that requires a hermetic seal is joined using ultrasonic welding. A robust design approach is used to study the manufacturing control factors that influence the process. The welding process factors and their interactions are used to characterize the resulting seal. Burst testing is used to assess weld strength. Optical microscopy in addition to SEM images, are used for a qualitative evaluation of the welded joint. Optimum process parameter settings from the robust design study deliver a strong and leak-proof weld."
@@ -23920,7 +23920,7 @@
         "Broad_Topic": "", 
         "Authors": [
             "Mounib Mekhilef", 
-            "Barthélemy Longueville"
+            "Barthélemy Longueville"
         ], 
         "Abstract": "A quick look to the literature related to “Design” points out the fact that traditional fields are covered by a huge quantity of concepts and sub-topics dealing with various research fields. Some of these fields and related concepts are emerging and others are disappearing. The last two decades provided a large variations in the covered fields—probably because of the computers capacity and the knowledge sharing using the internet- We are convinced that is time now for a global understanding of the evolution of the related preoccupations in order to start a new phase that deals with the next guidelines issues in design. Many researchers and gurus have proposed evolution schemes from an epistemological point of view. However, we believe that we still need a pragmatic analysis of what have been done and what is going on now in the various publications that deals with design, conferences and journals. To do so, we present in this paper an approach that lies on the systematic analysis of the International Design Engineering Technical Conference (IDETC-ASME), the Design Conference, the Integrated Design and Manufacturing in Mechanical Engineering (IDMME) and the International Conference in Engineering Design (ICED). We also consider the major reviews and journals related to design such as Computer-Aided Design, Journal of mechanical design and many others. Our proposition, presents a global overview that shows the time-evolution of the topics, the density production, the emerging areas and concepts. We show then that some topics remain with a great interest and other are in a decreasing period. A specific study of what is going on within the Design Automation Conference is provided and an open discussion is started."
     }, 
@@ -25435,7 +25435,7 @@
         "Year": 2004, 
         "Broad_Topic": "", 
         "Authors": [
-            "Jürgen Gräsel", 
+            "Jürgen Gräsel", 
             "Akin Keskin", 
             "Marius Swoboda", 
             "Hans Przewozny", 
@@ -26501,7 +26501,7 @@
         "Year": 2003, 
         "Broad_Topic": "", 
         "Authors": [
-            "Stéphane Caro", 
+            "Stéphane Caro", 
             "Fouad Bennis", 
             "Philippe Wenger"
         ], 
@@ -26672,7 +26672,7 @@
         "Broad_Topic": "", 
         "Authors": [
             "Pierre Nowak", 
-            "Benoît Eynard", 
+            "Benoît Eynard", 
             "Lionel Roucoules"
         ], 
         "Abstract": "One of the objectives of concurrent engineering has been to integrate more and more knowledge as soon as possible during the product development process. In such a method and owing to designer creativity, new design solutions are carried out. Design alternatives then appear; the differences can be relative to the functions, the technology, the materials or the manufacturing process as well. This paper presents some first specifications in modelling those design alternatives. Much more design solutions can then be kept in designers’ mind instead of focusing on the "
@@ -27855,7 +27855,7 @@
         "Year": 2003, 
         "Broad_Topic": "", 
         "Authors": [
-            "Ümit Sönmez"
+            "Ümit Sönmez"
         ], 
         "Abstract": "A new type of compliant approximate dwell mechanism design is introduced. This new compliant mechanism includes an initially straight flexible beam and a flexible arc. Approximate dwell motion is obtained by incorporating the snap-through buckling motion of the flexible arc. Load-deflection curves of flexible mechanism components are modeled by fitting polynomials to the analytical nonlinear large deflection response. The kinematic synthesis of the compliant mechanism is done quasi-statically using loop closure theory and large deflection relations of flexible parts."
     }, 
@@ -28681,7 +28681,7 @@
         "Year": 2002, 
         "Broad_Topic": "", 
         "Authors": [
-            "Stefan Dahlström", 
+            "Stefan Dahlström", 
             "S. Jack Hu", 
             "Rikard Söderberg"
         ], 
@@ -28706,7 +28706,7 @@
         "Authors": [
             "Y. Song", 
             "J. S. M. Vergeest", 
-            "I. Horváth"
+            "I. Horváth"
         ], 
         "Abstract": "Reconstruction of freeform surfaces is a state-of-the-art topic in reverse engineering. In this paper, a method of reconstructing freeform faces with parameterized freeform features is proposed. By their definitions in 3-Dimensional (3-D) space, freeform feature templates are analyzed and parameterized by high-level parameters first. The proposed parameterization provides both interactive user control and automatic feature extraction. With such freeform features, the designer can reason about and operate high-level entities in freeform surfaces than basic geometric constituents. An optimization function based on Hausdorff-like shape distance measuring method is proposed and applied as the similarity measuring method between the digitalized model surface and the parameterized feature template according to different kinds of features. Considering the fitting procedure between digitalized model surface data and the freeform feature templates, optimizing strategies were studied and the influence of parameters in each feature representation was qualified especially for shape elimination features. The proposed method was tested by numerical experiments based on ACIS®  and Open Inventor® , fitting errors were analyzed as well."
     }, 
@@ -29211,7 +29211,7 @@
         "Authors": [
             "Chengsheng Wang", 
             "Joris S. M. Vergeest", 
-            "Imre Horváth", 
+            "Imre Horváth", 
             "Raluca Dumitrescu", 
             "Tjamme Wiegers", 
             "Yu Song"
@@ -30508,7 +30508,7 @@
         "Year": 2002, 
         "Broad_Topic": "", 
         "Authors": [
-            "Dörte Freisleben", 
+            "Dörte Freisleben", 
             "Sándor Vajna"
         ], 
         "Abstract": "Engineering may be described as the main information and innovation source of a company. For an effective Engineering it is necessary to know well, to monitor, and to control all its processes and activities. Therefore a company needs a dynamic project and process navigation support for every user, which allows to model, to run, to react dynamically, and to evaluate activities in order to process these within given requirement, time, and cost frames. In this contribution, a system for dynamic project navigation in Engineering is presented with aspects of modelling, improvement and evaluation of processes."
@@ -30564,7 +30564,7 @@
         "Authors": [
             "Sara McMains", 
             "Jordan Smith", 
-            "Carlo Séquin"
+            "Carlo Séquin"
         ], 
         "Abstract": "Over the last several years we have developed the Berkeley Solid Interchange Format (SIF) for layered manufacturing data exchange. By building both design software that outputs SIF as well as manufacturing software that processes the SIF input files, we gained insights into the concerns of both sides of data exchange — insights which often led to major changes in successive versions of the format. In this paper, we share some of the most important lessons we learned (many of which are applicable to all geometric data exchange, not merely for layered manufacturing) and explain how they shaped SIF."
     }, 
