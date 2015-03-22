@@ -117,7 +117,7 @@ class Topics(models.Model):
     topic = models.CharField(db_column="Topic", max_length=30, blank=True)
     class Meta:
         managed = False
-        db_table = 'TopFives'
+        db_table = 'Topics'
 
 class Works(models.Model):
     authorid = models.IntegerField(db_column='AuthorId', blank=True, null=True) # Field name made lowercase.
