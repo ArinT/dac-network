@@ -1,0 +1,13 @@
+process planning	27
+CAD models	26
+freeform feature	23
+manufacturing process	20
+machine tool	16
+solid models	16
+path planning	15
+tooling machines	4
+planning process	2
+Model CAD	2
+operating conditions	2
+planning a path	1
+condition boundaries	1

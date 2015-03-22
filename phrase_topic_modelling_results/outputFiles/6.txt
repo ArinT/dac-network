@@ -1,0 +1,186 @@
+design optimization	194
+design variables	150
+design problem	150
+genetic algorithm	122
+optimization problem	118
+optimal design	113
+reliability analysis	92
+design space	89
+objective function	73
+robust design	68
+global optimization	56
+sensitivity analysis	53
+optimal solution	51
+engineering design	50
+optimization algorithm	49
+probability of failure	49
+computationally expensive	48
+computational efficiency	48
+optimization method	47
+large number	43
+computational cost	42
+design parameters	39
+random variables	38
+sample points	36
+system performance	35
+design domain	33
+input variables	31
+radial basis function	31
+search algorithm	30
+optimization technique	30
+probabilistic constraints	29
+performance functions	29
+design process	28
+design optimization problems	27
+problem is solved	27
+problem is formulated	26
+performance measures	26
+reliability assessment	26
+sequential sampling	25
+improve the efficiency	24
+limit state	24
+metamodeling techniques	24
+system reliability	23
+design of experiments	23
+genetic algorithm  GA	22
+global optimum	22
+probability distributions	22
+engineering systems	22
+robust optimization	21
+engineering design problems	21
+Pareto frontier	21
+Analytical Target Cascading	20
+probable point	20
+failure modes	20
+solve the problem	20
+interval variables	20
+standard deviation	20
+evolutionary algorithm	20
+search space	20
+improve the accuracy	19
+improve the performance	19
+accuracy and efficiency	19
+optimum solutions	19
+sampling technique	19
+shock absorber	19
+robust design optimization	18
+dimension reduction	18
+computationally intensive	18
+significantly reduce	18
+reduce the number	18
+high dimensional	17
+optimization problem is solved	17
+multiple objectives	17
+multidisciplinary design optimization	17
+design alternatives	17
+basis functions	17
+complex systems	17
+high fidelity	17
+input random variables	16
+deterministic optimization	15
+evaluate the performance	14
+RBDO problems	14
+Pareto optimal	14
+failure probability	14
+random process	14
+accurate and efficient	14
+design engineers	14
+optimization procedure	13
+performed to evaluate	13
+multiobjective optimization	13
+objective and constraint functions	12
+problem of designing	11
+address this problem	11
+dynamic system	11
+optimization problem is formulated	10
+complex engineered systems	10
+reduce the computational	10
+efficient and accurate	9
+space to the design	8
+efficiency and accuracy	8
+input random	8
+process of design	8
+method of optimization	8
+variable design	6
+solve the optimization problem	6
+algorithm  to optimize	6
+design and robust	6
+performance improvement	6
+problem  The optimization	6
+constraint functions	6
+utility function	6
+functional constraints	5
+expensive computer	5
+random input variables	5
+optimal design problem	5
+alternative design	5
+design space exploration	5
+complex engineered	5
+automated design	5
+space exploration	5
+solution to the optimization	5
+problem  To address	5
+parameter design	5
+multidisciplinary design	5
+time period	5
+explore the design space	5
+functions they perform	5
+intensive computational	4
+efficiently computed	4
+reliable system	4
+performance of the system	4
+design problem  The optimal	4
+objective functions and constraints	4
+period of time	4
+constraints and probabilistic	3
+cycle time	3
+domains of the design	3
+formulate this as an optimization problem	3
+technique for optimizing	3
+systems engineering	3
+robust optimization design	3
+formulating the problem	3
+variables with intervals	3
+design optimization  RBDO	3
+design automation	3
+measures of performance	2
+constraint functions and objective	2
+analytical target	2
+optimization and robust design	2
+problem of designing the IC engine	2
+random input	2
+points that sample	2
+functional basis	2
+engineering systems  However  the complexity	2
+algorithms  such as genetic	2
+system dynamics	2
+radial basis	2
+functions and objective	2
+efficiency improvement	2
+assess the reliability	2
+boundary conditions	2
+analysis with sensitivity	1
+variables are not from randomness	1
+optimization problem the design	1
+space along all possible search	1
+complex systems in engineering	1
+variability in the inputs	1
+stated limitations	1
+algorithm in evolutionary	1
+optimization and Robust	1
+design robust optimization	1
+deviation from its standard	1
+constraints and objective functions	1
+design  such as multidisciplinary	1
+process is not random	1
+algorithm  GA	1
+Experiments designed	1
+problems  RBDO	1
+system and complex	1
+accuracy improvement	1
+optimal Pareto	1
+reduced significantly	1
+optimization from a global	1
+target cascading	1
+optimized both deterministically	1
+design of many engineering problems	1
