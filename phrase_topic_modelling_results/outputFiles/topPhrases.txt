@@ -1,0 +1,436 @@
+design process	233
+proposed method	218
+paper presents	214
+design optimization	197
+design problem	183
+product family	179
+design variables	160
+engineering design	150
+product design	145
+design space	143
+case study	140
+genetic algorithm	122
+optimal design	119
+optimization problem	118
+proposed approach	102
+paper proposes	101
+surrogate models	92
+reliability analysis	92
+product development	91
+topology optimization	90
+results show	85
+conceptual design	82
+sensitivity analysis	75
+objective function	73
+product family design	69
+robust design	68
+response surface	66
+product platform	64
+decision making	64
+global optimization	56
+paper describes	55
+optimization method	53
+finite element	52
+optimal solution	52
+design parameters	51
+complex systems	50
+presented in this paper	50
+probability of failure	49
+optimization algorithm	49
+wind farm	49
+proposed methodology	48
+simulation models	48
+computationally expensive	48
+computational efficiency	48
+Monte Carlo simulation	47
+demonstrate the effectiveness	47
+data sets	46
+method is proposed	45
+Kriging models	45
+process planning	45
+method is developed	44
+machine tool	44
+design decisions	44
+large number	43
+manufacturing process	43
+paper introduces	43
+design of a product	43
+design engineers	43
+choice modeling	42
+computational cost	42
+design domain	40
+numerical examples	40
+paper presents a method	38
+random variables	38
+finite element analysis	38
+customer preferences	37
+system performance	37
+engineering systems	37
+sample points	36
+design of experiments	36
+method is applied	36
+random field	35
+mass customization	35
+paper discusses	35
+solid models	34
+mathematical model	33
+neural network	33
+approach is proposed	33
+production cost	33
+performance functions	31
+level set	31
+reverse engineering	31
+input variables	31
+radial basis function	31
+computer model	30
+search algorithm	30
+complex engineered systems	30
+design alternatives	30
+material properties	30
+approach based	30
+optimization technique	30
+wind turbine	30
+probabilistic constraints	29
+method is presented	29
+design stage	29
+compliant mechanism	29
+development of products	28
+product development process	28
+product line	27
+developing world	27
+concept generation	27
+problem is solved	27
+design optimization problems	27
+performance measures	26
+CAD models	26
+process of design	26
+problem is formulated	26
+customer requirements	26
+reliability assessment	26
+developed method	25
+paper focuses	25
+engineering design problems	25
+previous work	25
+operating conditions	25
+market share	25
+improve the efficiency	25
+sequential sampling	25
+metamodeling techniques	24
+mechanical systems	24
+limit state	24
+modeling and simulation	24
+utility function	24
+decision maker	24
+topology optimization method	24
+uncertainty propagation	24
+product architecture	23
+degrees of freedom	23
+collaborative design	23
+model prediction	23
+finite element model	23
+epistemic uncertainty	23
+freeform feature	23
+system reliability	23
+consumer preferences	23
+failure modes	22
+model validation	22
+market segments	22
+life cycle	22
+significantly reduce	22
+early stages	22
+genetic algorithm  GA	22
+global optimum	22
+probability distributions	22
+proposed framework	22
+powerful tool	21
+Pareto frontier	21
+space exploration	21
+product configuration	21
+fresh water	21
+experimental results	21
+supply chain	21
+future work	21
+robust optimization	21
+Analytical Target Cascading	20
+probable point	20
+sheet metal	20
+GHG emissions	20
+interval variables	20
+experimental data	20
+Monte Carlo	20
+standard deviation	20
+evolutionary algorithm	20
+cycle time	20
+family of products	20
+search space	20
+solve the problem	20
+improve the performance	19
+manufacturing cost	19
+results obtained	19
+particle swarm	19
+usage context	19
+improve the accuracy	19
+presents a method	19
+market demand	19
+optimum solutions	19
+sampling technique	19
+shock absorber	19
+dynamic system	19
+EDR method	19
+accuracy and efficiency	19
+confidence level	19
+reconfigurable system	18
+computationally intensive	18
+robust design optimization	18
+reduce the number	18
+dimension reduction	18
+product quality	18
+examples are presented	18
+product variety	18
+decision support	18
+taking into account	18
+systematic approach	18
+method is demonstrated	18
+optimization procedure	18
+basis functions	18
+approach is demonstrated	18
+high dimensional	17
+predictive models	17
+conjoint analysis	17
+automated design	17
+electric vehicle	17
+make decisions	17
+problem of designing	17
+multiple objectives	17
+statistical moments	17
+based approach	17
+optimization problem is solved	17
+multidisciplinary design optimization	17
+renewable energy	17
+high fidelity	17
+boundary conditions	17
+sources of uncertainty	16
+approach is presented	16
+input random variables	16
+results are compared	16
+proposed in this paper	16
+demonstrate the application	16
+industrial robot	16
+deterministic optimization	15
+present work	15
+evaluate the performance	15
+case study involving	15
+path planning	15
+address this issue	15
+address this problem	15
+case study is used to demonstrate	15
+failure probability	14
+random process	14
+compared with the results	14
+RBDO problems	14
+Pareto optimal	14
+variety of products	14
+accurate and efficient	14
+work presents	14
+cost  product	14
+multiobjective optimization	13
+focus of this paper	13
+demonstrated by three examples	13
+performed to evaluate	13
+design automation	12
+discussed in this paper	12
+methodology is presented	12
+objective and constraint functions	12
+time period	12
+discrete choice	12
+method of optimization	11
+explore the design space	11
+development process	11
+demand model	11
+effectiveness of the proposed	10
+pattern search	10
+presented to demonstrate	10
+examples demonstrate	10
+family design	10
+reduce the computational	10
+early design stage	10
+optimization problem is formulated	10
+demonstrated with case studies	9
+optimal topologies	9
+efficient and accurate	9
+methodology is proposed	9
+alternative design	9
+study presents	9
+presents an approach	9
+demonstrate the method	9
+design space exploration	9
+stages of the design	8
+efficiency and accuracy	8
+space to the design	8
+structural topology optimization	8
+stages of the design process	8
+input random	8
+properties of materials	8
+demonstrate the proposed	8
+valid model	8
+early stages of the design	8
+design  Conceptual	8
+introduced in this paper	7
+complex engineered	7
+problem  To address	7
+present study	7
+framework is proposed	7
+designing collaborative	7
+configurations of products	7
+variable design	6
+solution to the optimization	6
+systems engineering	6
+parameter design	6
+demonstrate the approach	6
+solve the optimization problem	6
+study is used to demonstrate	6
+presents a methodology	6
+functional basis	6
+design and robust	6
+problem  The optimization	6
+cost  manufacturability	6
+algorithm  to optimize	6
+obtained results	6
+performance improvement	6
+constraint functions	6
+period of time	6
+applied our method	6
+system reconfigurability	6
+topology optimization of structures	5
+random input variables	5
+design of a family	5
+quality and production	5
+functional constraints	5
+process has been developed	5
+expensive computer	5
+modeling with a cheap to compute	5
+functions they perform	5
+method presented in this paper	5
+optimal design problem	5
+designing a product family	5
+multidisciplinary design	5
+propagation of uncertainty	5
+system and complex	4
+show how to use our results	4
+system dynamics	4
+reliable system	4
+efficiently computed	4
+trade space	4
+performance of the system	4
+design are at an early stage	4
+domains of the design	4
+design problem  The optimal	4
+intensive computational	4
+model  kriging	4
+tooling machines	4
+designing a family of products	4
+objective functions and constraints	4
+constraints and probabilistic	3
+platforms and new product	3
+uncertainty sources	3
+formulate this as an optimization problem	3
+robust optimization design	3
+modeling choice	3
+method is useful for the topology optimization	3
+design optimization  RBDO	3
+effectiveness is demonstrated	3
+issues are addressed	3
+planning process	3
+variables with intervals	3
+Generation  Concept	3
+decisions  particularly during the design	3
+formulating the problem	3
+analysis as in the finite element	3
+technique for optimizing	3
+set data	3
+models or surrogate	2
+models of demand	2
+study involving	2
+measures of performance	2
+demonstrate the effectiveness of the proposed	2
+demands of markets	2
+elements in the finite	2
+optimization problem the design	2
+efficiency improvement	2
+assess the reliability	2
+Model CAD	2
+proposes an effective	2
+problem of designing the IC engine	2
+study the cases	2
+random input	2
+levels of confidence	2
+radial basis	2
+functions and objective	2
+Experiments designed	2
+applications are used to demonstrate	2
+element analysis	2
+support decision	2
+constraint functions and objective	2
+optimization and robust design	2
+results an experimental	2
+modeled in Finite Element	2
+points that sample	2
+algorithms  such as genetic	2
+line of products	2
+engineering systems  However  the complexity	2
+analytical target	2
+space along all possible search	1
+variables are not from randomness	1
+variability in the inputs	1
+segment of the market	1
+optimization and Robust	1
+vehicles with electrical	1
+families of products and designing	1
+optimal Pareto	1
+target cascading	1
+planning a path	1
+requirements from customers	1
+design robust optimization	1
+optimizing the topology of a structure	1
+design  such as multidisciplinary	1
+reduced significantly	1
+simulations and Monte Carlo	1
+accuracy improvement	1
+shares for the  market	1
+analysis  where the conjoint	1
+space exploration  particularly for the design	1
+optimized both deterministically	1
+procedure to optimize	1
+problem in engineering design	1
+complex systems in engineering	1
+condition boundaries	1
+uncertainty  and epistemic	1
+stated limitations	1
+systems and mechanisms	1
+work previously	1
+demonstrated by presenting	1
+robotics industry	1
+presented  Associated examples	1
+deviation from its standard	1
+problem under the optimal design	1
+proposed  One example is used to demonstrate	1
+preferences of the customer	1
+functions in utility	1
+context of the Usage	1
+metal sheet	1
+design of many engineering problems	1
+algorithm in evolutionary	1
+methods  This paper presents	1
+analysis instead of using all the elements	1
+analysis with sensitivity	1
+architecture of the product	1
+approach is systematically	1
+world  The development	1
+constraints and objective functions	1
+process is not random	1
+algorithm  GA	1
+field  of which randomness	1
+problems  RBDO	1
+optimization from a global	1
+design problem so that engineers	1
+process of manufacturing	1

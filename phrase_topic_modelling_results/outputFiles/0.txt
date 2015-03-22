@@ -1,0 +1,115 @@
+design process	205
+product family	179
+product design	145
+engineering design	100
+product development	91
+conceptual design	82
+product family design	69
+product platform	64
+decision making	64
+design space	54
+design decisions	44
+design of a product	43
+customer preferences	37
+mass customization	35
+production cost	33
+design problem	33
+reverse engineering	31
+design stage	29
+design engineers	29
+product development process	28
+development of products	28
+product line	27
+developing world	27
+customer requirements	26
+market share	25
+decision maker	24
+manufacturing process	23
+product architecture	23
+consumer preferences	23
+collaborative design	23
+market segments	22
+early stages	22
+product configuration	21
+family of products	20
+usage context	19
+manufacturing cost	19
+particle swarm	19
+market demand	19
+product variety	18
+decision support	18
+process of design	18
+product quality	18
+process planning	18
+conjoint analysis	17
+make decisions	17
+space exploration	16
+utility function	16
+variety of products	14
+cost  product	14
+design alternatives	13
+design of experiments	13
+design parameters	12
+automated design	12
+powerful tool	11
+development process	11
+design variables	10
+family design	10
+early design stage	10
+design automation	9
+early stages of the design	8
+stages of the design	8
+design  Conceptual	8
+stages of the design process	8
+designing collaborative	7
+configurations of products	7
+address this issue	7
+design domain	7
+problem of designing	6
+optimal design	6
+cost  manufacturability	6
+explore the design space	6
+designing a product family	5
+design of a family	5
+process has been developed	5
+quality and production	5
+engineering design problems	4
+design are at an early stage	4
+design space exploration	4
+address this problem	4
+alternative design	4
+trade space	4
+designing a family of products	4
+decisions  particularly during the design	3
+design optimization	3
+platforms and new product	3
+problem  To address	2
+performance functions	2
+demands of markets	2
+line of products	2
+support decision	2
+planning process	1
+problem in engineering design	1
+optimization problem the design	1
+families of products and designing	1
+evaluate the performance	1
+segment of the market	1
+requirements from customers	1
+parameter design	1
+improve the efficiency	1
+domains of the design	1
+architecture of the product	1
+world  The development	1
+problem under the optimal design	1
+preferences of the customer	1
+solution to the optimization	1
+functions in utility	1
+Experiments designed	1
+context of the Usage	1
+shares for the  market	1
+analysis  where the conjoint	1
+design problem so that engineers	1
+space exploration  particularly for the design	1
+issues are addressed	1
+process of manufacturing	1
+optimal solution	1
