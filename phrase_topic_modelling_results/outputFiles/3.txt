@@ -1,20 +1,15 @@
-wind farm	49
-wind turbine	30
-machine tool	28
-concept generation	27
-mechanical systems	24
+material properties	30
+Analytical Target Cascading	20
 sheet metal	20
-complex systems	20
-reconfigurable system	18
-pattern search	10
-powerful tool	10
-system reconfigurability	6
-functional basis	4
-Generation  Concept	3
-dynamic system	2
-utility function	2
-system and complex	2
-basis functions	1
+GHG emissions	20
+shock absorber	19
+renewable energy	17
+electric vehicle	17
+operating conditions	9
+properties of materials	8
+failure modes	2
+significantly reduce	2
+analytical target	2
 metal sheet	1
-systems and mechanisms	1
-system dynamics	1
+target cascading	1
+vehicles with electrical	1

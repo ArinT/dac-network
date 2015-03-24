@@ -50,12 +50,18 @@ for i in range (0,len(data)):
 		for t in topics:
 			t = t.encode('utf-8')
 			print "topic: ", t, ",paper id: ", paper_id
-			t_1 = Topics.objects.create(topic = t, paperid = paper_id)
-			# t_1.save()
+			t_set = Topics.objects.filter(topic = t)
+			if len(t_set) == 0:
+				t_1 = Topics.objects.create(topic = t, paperid = paper_id)
+				t_1.save()
+			else:
+				current_t = t_set[0]
+
+			
 
 		# p1.save()
 		print "updated topic: ", i
-		break
+		# break
 	else:
 		continue
 

@@ -4225,7 +4225,7 @@
     {
         "PaperID": "DETC2013-13181 pp. V03BT03A037; (15 pages)", 
         "DOI": "doi:10.1115/DETC2013-13181", 
-        "Title": "Comprehensive Product Platform Planning (CP", 
+        "Title": "Comprehensive Product Platform Planning (CP3) for a Modular Family of Unmanned Aerial Vehicles", 
         "URL": "http://proceedings.asmedigitalcollection.asme.org//proceeding.aspx?articleID=1830381", 
         "Topics": [
             "Unmanned aerial vehicles", 
@@ -6553,7 +6553,7 @@
     {
         "PaperID": "DETC2012-70954 pp. 983-999; (17 pages)", 
         "DOI": "doi:10.1115/DETC2012-70954", 
-        "Title": "Comprehensive Product Platform Planning (CP", 
+        "Title": "Comprehensive Product Platform Planning (CP3) Using Mixed-Discrete Particle Swarm Optimization and a New Commonality Index", 
         "URL": "http://proceedings.asmedigitalcollection.asme.org//proceeding.aspx?articleID=1736326", 
         "Topics": [
             "Particle swarm optimization", 
@@ -17155,7 +17155,7 @@
     {
         "PaperID": "DETC2007-34285 pp. 449-458; (10 pages)", 
         "DOI": "doi:10.1115/DETC2007-34285", 
-        "Title": "High Performance Dirichlet Parametrization Through Triangular Bézier Surface Interpolation for Deformation of CAE Meshes", 
+        "Title": "High Performance Dirichlet Parametrization Through Triangular Bezier Surface Interpolation for Deformation of CAE Meshes", 
         "URL": "http://proceedings.asmedigitalcollection.asme.org//proceeding.aspx?articleID=1604711", 
         "Topics": [
             "Deformation", 
@@ -20566,7 +20566,7 @@
             "Kristin L. Wood", 
             "Dan Jensen"
         ], 
-        "Abstract": null
+        "Abstract": "null"
     }, 
     {
         "PaperID": "DETC2006-99326 pp. 967-973; (7 pages)", 
@@ -24302,7 +24302,7 @@
     {
         "PaperID": "DETC2004-57225 pp. 351-360; (10 pages)", 
         "DOI": "doi:10.1115/DETC2004-57225", 
-        "Title": "Fully Free-Form Deformation Features (δ-F4) Incorporating Discontinuities", 
+        "Title": "Fully Free-Form Deformation Features Incorporating Discontinuities", 
         "URL": "http://proceedings.asmedigitalcollection.asme.org//proceeding.aspx?articleID=1651223", 
         "Topics": [
             "Deformation"
@@ -29766,7 +29766,7 @@
     {
         "PaperID": "DETC2002/DAC-34093 pp. 549-557; (9 pages)", 
         "DOI": "doi:10.1115/DETC2002/DAC-34093", 
-        "Title": "Computer Implementation of an Improved Kutzbach-Grübler Mobility Criterion", 
+        "Title": "Computer Implementation of an Improved Kutzbach-Grubler Mobility Criterion", 
         "URL": "http://proceedings.asmedigitalcollection.asme.org//proceeding.aspx?articleID=1579952", 
         "Topics": [
             "Computers", 
