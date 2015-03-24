@@ -1,0 +1,4567 @@
+AuthorID,AuthorName,PaperID
+1,"Shintaro Yamasaki",2
+2,"Atsushi Kawamoto",2
+3,"Akira Saito",2
+4,"Masakatsu Kuroishi",2
+5,"Kikuo Fujita",2
+6,"David Guirguis",3
+7,"Mohamed Aly",3
+8,"Karim Hamza",3
+9,"Hesham Hegazi",3
+7,"Mohamed Aly",4
+8,"Karim Hamza",4
+10,"Mohammed Tauhiduzzaman",4
+11,"Mouhab Meshreki",4
+12,"Ashraf O. Nassef",4
+13,"Stephen Veldhuis",4
+14,"Helmi Attia",4
+15,"Sean T. Ricks",5
+16,"John R. Lewandowski",5
+17,"Emmanuel G. Lim",5
+18,"Dawn M. Wendell",5
+19,"Amos G. Winter, V",5
+20,"Sree Shankar Satheesh Babu",6
+21,"Prakhar Jaiswal",6
+22,"Ehsan T. Esfahani",6
+23,"Rahul Rai",6
+24,"Ashish Khetan",7
+25,"James T. Allison",7
+26,"Corinna Königseder",8
+27,"Kristina Shea",8
+28,"Axel Nordin",9
+29,"Thomas Stone",10
+30,"Seung-Kyum Choi",10
+31,"Jeremy Murphy",11
+32,"Katherine Fu",11
+33,"Kevin Otto",11
+34,"Maria Yang",11
+35,"Dan Jensen",11
+36,"Kristin Wood",11
+37,"Jungmok Ma",12
+38,"Harrison M. Kim",12
+39,"Alex Burnap",13
+40,"Yi Ren",13
+41,"Honglak Lee",13
+42,"Richard Gonzalez",13
+43,"Panos Y. Papalambros",13
+44,"Kayla A. Von Hagel",14
+45,"Scott M. Ferguson",14
+46,"Brian Sylcott",15
+47,"Seth Orsborn",15
+48,"Jonathan Cagan",15
+49,"Simon Li",16
+50,"Ningrong Lei",17
+51,"Seung Ki Moon",17
+52,"Weiyang Tong",18
+53,"Souma Chowdhury",18
+54,"Achille Messac",18
+55,"Felipe A. C. Viana",19
+56,"Tzu-Chieh Hung",20
+57,"Kuei-Yuan Chan",20
+58,"Khalid M. Abd El-Aziz",21
+8,"Karim Hamza",21
+59,"Mohamed El Morsi",21
+12,"Ashraf O. Nassef",21
+60,"Sayed M. Metwalli",21
+61,"Kazuhiro Saitou",21
+62,"Jihun Kim",22
+8,"Karim Hamza",22
+63,"Mohamed El-Morsi",22
+12,"Ashraf O. Nassef",22
+64,"Sayed Metwalli",22
+61,"Kazuhiro Saitou",22
+65,"Jie Zhang",23
+66,"Anthony Florita",23
+67,"Bri-Mathias Hodge",23
+68,"Jeffrey Freedman",23
+69,"Philip Odonkor",24
+70,"Kemper Lewis",24
+71,"Jin Wen",24
+72,"Teresa Wu",24
+73,"Bo Yang Yu",25
+74,"Tomonori Honda",25
+75,"Syed Zubair",25
+76,"Mostafa H. Sharqawy",25
+77,"Maria C. Yang",25
+78,"Amy Bilton",26
+79,"Steven Dubowsky",26
+80,"Natasha C. Wright",27
+19,"Amos G. Winter, V",27
+81,"Daniel Stratton",28
+82,"Daniel Martino",28
+70,"Kemper Lewis",28
+83,"John Hall",28
+84,"Steven Hoffenson",29
+85,"Rikard Söderberg",29
+86,"Minhua Long",30
+87,"W. Ross Morrow",30
+88,"Mark Christian E. Manuel",31
+89,"Jaime P. Honra",31
+90,"Manuel C. Belino",31
+91,"Zhichao Wang",32
+92,"Shapour Azarm",32
+93,"P. K. Kannan",32
+94,"Kenneth P. Laberteaux",33
+95,"Regina R. Clewlow",33
+8,"Karim Hamza",33
+40,"Yi Ren",34
+43,"Panos Y. Papalambros",34
+96,"V. N. Murthy Arelekatti",35
+97,"Douglas H. Björkdal",35
+98,"Carmen W. Graves",35
+99,"Anthony Wong",35
+100,"Armen Mkrtchyan",35
+19,"Amos G. Winter, V",35
+101,"Namwoo Kang",36
+102,"Fred M. Feinberg",36
+43,"Panos Y. Papalambros",36
+103,"Garrett Foster",37
+104,"Scott Ferguson",37
+105,"Dorin Drignei",38
+106,"Igor Baseski",38
+107,"Zissimos P. Mourelatos",38
+108,"Vijitashwa Pandey",38
+109,"Pingfeng Wang",39
+110,"Zequn Wang",39
+111,"Byeng D. Youn",39
+112,"Soobum Lee",39
+109,"Pingfeng Wang",40
+113,"Adebayo O. Adewunmi",40
+110,"Zequn Wang",40
+114,"Seyedmohsen Hosseini",41
+115,"Nita Yodo",41
+109,"Pingfeng Wang",41
+116,"Guangxing Bai",42
+109,"Pingfeng Wang",42
+117,"Po Ting Lin",43
+118,"Kuan-Ting Chen",43
+119,"Kyung Min Park",44
+111,"Byeng D. Youn",44
+120,"Joung Taek Yoon",44
+121,"Hee Soo Kim",44
+122,"Beom Chan Jang",44
+123,"Junxuan Li",45
+124,"Zhimin Xi",45
+125,"Jordan F. Pease",46
+126,"Jered H. Dean",46
+127,"Douglas L. Van Bossuyt",46
+128,"Nordica MacCarty",47
+129,"Kenneth (Mark) Bryden",47
+130,"Amy E. Wood",48
+131,"Christopher A. Mattson",48
+132,"Nathan G. Johnson",49
+133,"Michael Granato",49
+134,"Pablo S. Santaeufemia",50
+132,"Nathan G. Johnson",50
+135,"Christopher McComb",50
+136,"Kenji Shimada",50
+137,"Varun Gopinath",51
+138,"Mehdi Tarkian",51
+139,"Johan Ölvander",51
+140,"William Gaziza",51
+141,"Brandon M. Haley",52
+142,"Andy Dong",52
+143,"Irem Y. Tumer",52
+144,"Simon W. Miller",53
+145,"Timothy W. Simpson",53
+146,"Michael A. Yukish",53
+147,"Gary Stump",53
+148,"Bryan L. Mesmer",53
+149,"Elliott B. Tibor",53
+150,"Christina L. Bloebaum",53
+151,"Eliot H. Winer",53
+152,"Pei Cao",54
+153,"Zhaoyan Fan",54
+154,"Robert Gao",54
+155,"Jiong Tang",54
+156,"Chung-Hyun Goh",55
+157,"Salman Ahmed",55
+158,"Adam P. Dachowicz",55
+159,"Janet K. Allen",55
+160,"Farrokh Mistree",55
+161,"Mohammad Fazelpour",56
+162,"Joshua D. Summers",56
+157,"Salman Ahmed",57
+156,"Chung-Hyun Goh",57
+159,"Janet K. Allen",57
+160,"Farrokh Mistree",57
+163,"Pramod Zagade",57
+164,"B. P. Gautham",57
+165,"Nagesh Kulkarni",58
+166,"Rahul Gupta",58
+167,"Danish Khan",58
+164,"B. P. Gautham",58
+159,"Janet K. Allen",58
+168,"Jitesh Panchal",58
+160,"Farrokh Mistree",58
+169,"Rishabh Shukla",59
+170,"Sharad Goyal",59
+171,"Amarendra K. Singh",59
+172,"Jitesh H. Panchal",59
+159,"Janet K. Allen",59
+160,"Farrokh Mistree",59
+173,"Ravikiran Anapagaddi",60
+169,"Rishabh Shukla",60
+170,"Sharad Goyal",60
+171,"Amarendra K. Singh",60
+159,"Janet K. Allen",60
+172,"Jitesh H. Panchal",60
+160,"Farrokh Mistree",60
+174,"Wei Huang",61
+175,"Yan Wang",61
+176,"David W. Rosen",61
+177,"Jordan Matthews",62
+178,"Timothy Klatt",62
+179,"Carolyn C. Seepersad",62
+180,"Michael Haberman",62
+181,"David Shahan",62
+182,"Hongyi Xu",63
+183,"Ruoqian Liu",63
+184,"Alok Choudhary",63
+185,"Wei Chen",63
+186,"Edgar Galvan",64
+187,"Richard J. Malak, Jr.",64
+188,"Sean Gibbons",64
+189,"Raymundo Arroyave",64
+190,"Mingming Wang",65
+191,"Xiaoping Qian",65
+192,"Wei Song",66
+193,"Hae Chang Gea",66
+194,"Bin Zheng",66
+195,"James K. Guest",67
+196,"Greg Burton",68
+197,"Erhan Batuhan Arisoy",69
+198,"Levent Burak Kara",69
+199,"Anthony Garland",70
+200,"Greg Mocko",70
+201,"Georges Fadel",70
+202,"Ting Zou",71
+203,"Mathew Shaker",71
+204,"Jorge Angeles",71
+205,"Alexei Morozov",71
+206,"Payam Haghighi",72
+207,"Prashant Mohan",72
+208,"Jami J. Shah",72
+209,"Joseph K. Davidson",72
+210,"Hyunwoong Ko",73
+211,"Sangwon Lee",73
+212,"Dongmin Shin",73
+51,"Seung Ki Moon",73
+213,"Charlotte de Vries",74
+214,"Matthew B. Parkinson",74
+215,"D. Reuben Haupt",75
+214,"Matthew B. Parkinson",75
+216,"Teng Long",76
+217,"Lv Wang",76
+218,"Di Wu",76
+219,"Xiaosong Guo",76
+220,"Li Liu",76
+221,"Bastien Talgorn",77
+222,"Sébastien Le Digabel",77
+223,"Michael Kokkolaras",77
+224,"Kaveh Amouzgar",78
+225,"Niclas Strömberg",78
+226,"Kambiz Haji Hajikolaei",79
+227,"G. Gary Wang",79
+53,"Souma Chowdhury",80
+228,"Ali Mehmani",80
+54,"Achille Messac",80
+175,"Yan Wang",81
+117,"Po Ting Lin",82
+229,"Yu-Cheng Chou",82
+88,"Mark Christian E. Manuel",82
+230,"Kuan Sung Hsu",82
+231,"Zhen Jiang",83
+232,"Wei Li",83
+233,"Daniel W. Apley",83
+185,"Wei Chen",83
+234,"Gautam Marwaha",84
+223,"Michael Kokkolaras",84
+235,"Ning Quan",85
+236,"Harrison Kim",85
+237,"Meng Xu",86
+201,"Georges Fadel",86
+238,"Margaret M. Wiecek",86
+237,"Meng Xu",87
+201,"Georges Fadel",87
+238,"Margaret M. Wiecek",87
+239,"J. M. Hamel",88
+240,"George H. Cheng",89
+241,"Chao Qi",89
+227,"G. Gary Wang",89
+242,"Mohammed Reza Kianifar",90
+243,"Felician Campean",90
+244,"Jeffrey D. Allen",91
+245,"Jason D. Watson",91
+131,"Christopher A. Mattson",91
+45,"Scott M. Ferguson",91
+246,"Sangjin Jung",92
+145,"Timothy W. Simpson",92
+247,"Oyku Asikoglu",92
+248,"Jeffrey D. Arena",93
+25,"James T. Allison",93
+249,"Zhila Pirmoradi",94
+226,"Kambiz Haji Hajikolaei",94
+227,"G. Gary Wang",94
+108,"Vijitashwa Pandey",95
+107,"Zissimos P. Mourelatos",95
+250,"Matthew P. Castanier",95
+251,"Jing Wang",96
+252,"Mian Li",96
+251,"Jing Wang",97
+252,"Mian Li",97
+253,"Zhen Hu",98
+254,"Xiaoping Du",98
+108,"Vijitashwa Pandey",99
+255,"Annette Skowronska",99
+107,"Zissimos P. Mourelatos",99
+256,"David Gorsich",99
+257,"Matthew Castanier",99
+258,"Zhonglai Wang",100
+259,"Xiaoqiang Zhang",100
+260,"Hong-Zhong Huang",100
+107,"Zissimos P. Mourelatos",100
+261,"Recep M. Gorguluarslan",101
+30,"Seung-Kyum Choi",101
+110,"Zequn Wang",102
+109,"Pingfeng Wang",102
+110,"Zequn Wang",103
+109,"Pingfeng Wang",103
+262,"Jongmin Lim",104
+263,"Byungchai Lee",104
+264,"Ikjin Lee",104
+265,"Hyunkyoo Cho",105
+266,"K. K. Choi",105
+267,"David Lamb",105
+107,"Zissimos P. Mourelatos",106
+268,"Monica Majcher",106
+108,"Vijitashwa Pandey",106
+106,"Igor Baseski",106
+269,"Xike Zhao",107
+192,"Wei Song",107
+193,"Hae Chang Gea",107
+270,"Limei Xu",107
+271,"Matthew G. McIntire",108
+272,"Veronika Vasylkivska",108
+273,"Christopher Hoyle",108
+274,"Nathan Gibson",108
+275,"Zhe Zhang",109
+276,"Chao Jiang",109
+227,"G. Gary Wang",109
+277,"Xu Han",109
+8,"Karim Hamza",110
+7,"Mohamed Aly",110
+9,"Hesham Hegazi",110
+278,"Zhansi Jiang",111
+240,"George H. Cheng",111
+227,"G. Gary Wang",111
+11,"Mouhab Meshreki",112
+8,"Karim Hamza",112
+12,"Ashraf O. Nassef",112
+14,"Helmi Attia",112
+279,"Jagadeep Thota",113
+280,"Mohamed Trabia",113
+281,"Brendan O’Toole",113
+282,"Chang-Hyun Lee",113
+283,"Hong-Lae Park",113
+284,"Man-Hoi Koo",113
+285,"Kyoung-Hoon Lee",113
+286,"Ho-bum Kim",113
+269,"Xike Zhao",114
+193,"Hae Chang Gea",114
+192,"Wei Song",114
+287,"Thomas Gmeiner",115
+27,"Kristina Shea",115
+288,"Joshua M. Williams",116
+289,"Mitch W. Pryor",116
+290,"Andreas Wünsch",117
+291,"Der-Min Tsay",117
+292,"Sándor Vajna",117
+293,"Michael Schabacker",117
+294,"Amir Hooshmand",118
+295,"Matthew I. Campbell",118
+296,"Guang Dong",119
+297,"John Cooper",119
+108,"Vijitashwa Pandey",120
+107,"Zissimos P. Mourelatos",120
+46,"Brian Sylcott",121
+298,"Jeremy J. Michalek",121
+48,"Jonathan Cagan",121
+299,"Baris Canbaz",122
+300,"Bernard Yannou",122
+301,"Pierre-Alain Yvars",122
+144,"Simon W. Miller",123
+145,"Timothy W. Simpson",123
+146,"Michael A. Yukish",123
+302,"Lorri A. Bennett",123
+303,"Sara E. Lego",123
+304,"Gary M. Stump",123
+305,"Lourdes A. Medina",124
+306,"Marija Jankovic",124
+307,"Gül E. Okudan Kremer",124
+308,"Weijun Wang",125
+309,"Stéphane Caro",125
+310,"Fouad Bennis",125
+311,"Bryony L. DuPont",126
+48,"Jonathan Cagan",126
+312,"Daniel R. Herber",127
+25,"James T. Allison",127
+115,"Nita Yodo",128
+109,"Pingfeng Wang",128
+62,"Jihun Kim",129
+8,"Karim Hamza",129
+59,"Mohamed El Morsi",129
+12,"Ashraf O. Nassef",129
+64,"Sayed Metwalli",129
+61,"Kazuhiro Saitou",129
+65,"Jie Zhang",130
+53,"Souma Chowdhury",130
+54,"Achille Messac",130
+67,"Bri-Mathias Hodge",130
+313,"Amirhossein Khosrojerdi",131
+314,"Minting Xiao",131
+315,"Piampoom Sarikprueck",131
+159,"Janet K. Allen",131
+160,"Farrokh Mistree",131
+58,"Khalid M. Abd El-Aziz",132
+8,"Karim Hamza",132
+59,"Mohamed El Morsi",132
+12,"Ashraf O. Nassef",132
+60,"Sayed M. Metwalli",132
+61,"Kazuhiro Saitou",132
+52,"Weiyang Tong",133
+53,"Souma Chowdhury",133
+228,"Ali Mehmani",133
+65,"Jie Zhang",133
+54,"Achille Messac",133
+316,"Le Chen",134
+317,"Erin MacDonald",134
+318,"Michael K. Coughlin",135
+319,"Michael J. Scott",135
+320,"Mingxian Wang",136
+185,"Wei Chen",136
+321,"Bart D. Frischknecht",137
+28,"Axel Nordin",138
+322,"Damien Motte",138
+323,"Robert Bjärnemo",138
+324,"Shabnam Rezapour",139
+159,"Janet K. Allen",139
+325,"Theodore B. Trafalis",139
+160,"Farrokh Mistree",139
+29,"Thomas Stone",140
+30,"Seung-Kyum Choi",140
+103,"Garrett Foster",141
+104,"Scott Ferguson",141
+326,"C. Grace Heckmann",142
+298,"Jeremy J. Michalek",142
+87,"W. Ross Morrow",142
+327,"Yimin Liu",142
+328,"Kilmo Kang",143
+329,"Changmook Kang",143
+330,"Yoo S. Hong",143
+73,"Bo Yang Yu",144
+74,"Tomonori Honda",144
+75,"Syed Zubair",144
+76,"Mostafa H. Sharqawy",144
+77,"Maria C. Yang",144
+109,"Pingfeng Wang",145
+111,"Byeng D. Youn",145
+331,"Chao Hu",145
+332,"Prasanna Tamilselvan",146
+109,"Pingfeng Wang",146
+331,"Chao Hu",146
+333,"Tamotsu Murakami",147
+334,"Toshiyuki Ishii",147
+124,"Zhimin Xi",148
+335,"Rong Jing",148
+109,"Pingfeng Wang",148
+331,"Chao Hu",148
+128,"Nordica MacCarty",149
+336,"Kenneth M. Bryden",149
+131,"Christopher A. Mattson",150
+130,"Amy E. Wood",150
+132,"Nathan G. Johnson",151
+336,"Kenneth M. Bryden",151
+132,"Nathan G. Johnson",152
+337,"John W. Glassmire",152
+338,"Peter D. Lilienthal",152
+339,"Kaushik Sinha",153
+340,"Olivier L. de Weck",153
+341,"Paul F. Egan",154
+48,"Jonathan Cagan",154
+342,"Christian Schunn",154
+343,"Philip R. LeDuc",154
+344,"James Humann",155
+345,"Yan Jin",155
+346,"Abdulaziz T. Almaktoom",156
+110,"Zequn Wang",156
+109,"Pingfeng Wang",156
+347,"Hoda Mehrpouyan",157
+348,"Brandon Haley",157
+142,"Andy Dong",157
+143,"Irem Y. Tumer",157
+349,"Chris Hoyle",157
+182,"Hongyi Xu",158
+350,"Yang Li",158
+351,"Catherine Brinson",158
+185,"Wei Chen",158
+352,"Sungwoo Jang",159
+353,"Hae-Jin Choi",159
+354,"Prabhu Shankar",160
+161,"Mohammad Fazelpour",160
+162,"Joshua D. Summers",160
+161,"Mohammad Fazelpour",161
+162,"Joshua D. Summers",161
+355,"Hong Zhou",162
+356,"Shabaz Ahmed Mohammed",162
+357,"Kai Liu",163
+358,"Andrés Tovar",163
+177,"Jordan Matthews",164
+178,"Timothy Klatt",164
+179,"Carolyn C. Seepersad",164
+180,"Michael Haberman",164
+181,"David Shahan",164
+192,"Wei Song",165
+193,"Hae Chang Gea",165
+359,"Ren-Jye Yang",165
+360,"Ching-Hung Chuang",165
+361,"Kunal R. Khadke",166
+362,"Weigang An",166
+358,"Andrés Tovar",166
+363,"N. Ashwin Bharadwaj",167
+25,"James T. Allison",167
+364,"Randy H. Ewoldt",167
+37,"Jungmok Ma",168
+38,"Harrison M. Kim",168
+365,"Adam Cutbill",169
+226,"Kambiz Haji Hajikolaei",169
+227,"G. Gary Wang",169
+70,"Kemper Lewis",170
+366,"Dave Van Horn",170
+39,"Alex Burnap",171
+40,"Yi Ren",171
+43,"Panos Y. Papalambros",171
+42,"Richard Gonzalez",171
+367,"Richard Gerth",171
+40,"Yi Ren",172
+368,"Clayton Scott",172
+43,"Panos Y. Papalambros",172
+7,"Mohamed Aly",173
+8,"Karim Hamza",173
+369,"Mohammed Shalaby",173
+12,"Ashraf O. Nassef",173
+370,"Ata A. Eftekharian",174
+371,"Wentao Fu",174
+372,"Charlie Manion",174
+295,"Matthew I. Campbell",174
+373,"Lupin Niranjan Jaishankar",175
+209,"Joseph K. Davidson",175
+208,"Jami J. Shah",175
+85,"Rikard Söderberg",176
+374,"Kristina Wärmefjord",176
+375,"Lars Lindkvist",176
+376,"Xu Zhang",177
+377,"Chao Liang",177
+378,"Tiedong Si",177
+379,"Ding Ding",177
+380,"Anand P. Deshmukh",178
+25,"James T. Allison",178
+381,"Adel A. Younis",179
+240,"George H. Cheng",179
+227,"G. Gary Wang",179
+382,"Zuomin Dong",179
+240,"George H. Cheng",180
+383,"Adel Younis",180
+226,"Kambiz Haji Hajikolaei",180
+227,"G. Gary Wang",180
+384,"Tim A. P. Gjernes",181
+385,"Hanbo Li",181
+386,"Kambiz H. Hajikolaei",181
+227,"G. Gary Wang",181
+387,"Siamak Arzanpour",181
+388,"Matthew J. Woodruff",182
+145,"Timothy W. Simpson",182
+389,"Patrick M. Reed",182
+390,"David W. Shahan",183
+391,"Peter B. Backlund",183
+179,"Carolyn C. Seepersad",183
+392,"Yixiang Han",184
+393,"Conrad S. Tucker",184
+145,"Timothy W. Simpson",184
+394,"Erik Davidson",184
+395,"Gopal Nadadur",185
+214,"Matthew B. Parkinson",185
+396,"Alborz Bekhradi",186
+300,"Bernard Yannou",186
+397,"Romain Farel",186
+398,"Benjamin Zimmer",186
+399,"Zhipeng Lei",187
+400,"James Yang",187
+401,"Jared Gragg",188
+400,"James Yang",188
+402,"Brad Howard",189
+400,"James Yang",189
+403,"Guolai Yang",189
+404,"Feng Zhou",190
+405,"Jianxin (Roger) Jiao",190
+406,"Shramana Ghosh",191
+407,"Hyosang Moon",191
+408,"Nina P. Robson",191
+409,"Brandon Brown",192
+410,"Tarunraj Singh",192
+23,"Rahul Rai",192
+411,"Shuo Cheng",193
+252,"Mian Li",193
+308,"Weijun Wang",194
+309,"Stéphane Caro",194
+310,"Fouad Bennis",194
+412,"Jie Hu",195
+175,"Yan Wang",195
+224,"Kaveh Amouzgar",196
+413,"Asim Rashid",196
+225,"Niclas Strömberg",196
+414,"C. Bakker",197
+415,"G. T. Parks",197
+416,"J. P. Jarrett",197
+417,"J. Schiffmann",198
+418,"Aftab Ahmad",199
+419,"Kjell Andersson",199
+420,"Ulf Sellgren",199
+421,"Daniel Shaefer",200
+104,"Scott Ferguson",200
+422,"Sourobh Ghosh",201
+423,"Erich Devendorf",201
+70,"Kemper Lewis",201
+33,"Kevin Otto",202
+424,"Katja Hölttä-Otto",202
+145,"Timothy W. Simpson",202
+425,"Roberto Raffaeli",203
+426,"Marco Malatesta",203
+427,"Eugenia Marilungo",203
+428,"Michele Germani",203
+53,"Souma Chowdhury",204
+429,"Victor Maldonado",204
+52,"Weiyang Tong",204
+54,"Achille Messac",204
+430,"Jason Denhart",205
+431,"Thomas Gemmer",205
+104,"Scott Ferguson",205
+432,"Andre Mazzoleni",205
+433,"Minjung Kwak",206
+434,"Katherine Koritz",206
+38,"Harrison M. Kim",206
+435,"Ang Liu",207
+436,"Stephen C-Y. Lu",207
+51,"Seung Ki Moon",208
+437,"Hyung Sool Oh",208
+438,"Samyeon Kim",208
+439,"Cassandra Telenko",209
+440,"Carolyn Seepersad",209
+254,"Xiaoping Du",210
+253,"Zhen Hu",211
+254,"Xiaoping Du",211
+441,"Xiaoyun Zhang",212
+253,"Zhen Hu",212
+254,"Xiaoping Du",212
+164,"B. P. Gautham",213
+442,"Prateek Gupta",213
+443,"Nagesh H. Kulkarni",213
+172,"Jitesh H. Panchal",213
+159,"Janet K. Allen",213
+160,"Farrokh Mistree",213
+444,"Jianhua Zhou",214
+252,"Mian Li",214
+258,"Zhonglai Wang",215
+107,"Zissimos P. Mourelatos",215
+445,"Jing Li",215
+446,"Amandeep Singh",215
+106,"Igor Baseski",215
+105,"Dorin Drignei",216
+107,"Zissimos P. Mourelatos",216
+108,"Vijitashwa Pandey",216
+223,"Michael Kokkolaras",216
+256,"David Gorsich",216
+108,"Vijitashwa Pandey",217
+447,"Annette G. Skowronska",217
+107,"Zissimos P. Mourelatos",217
+256,"David Gorsich",217
+257,"Matthew Castanier",217
+231,"Zhen Jiang",218
+185,"Wei Chen",218
+233,"Daniel W. Apley",218
+110,"Zequn Wang",219
+109,"Pingfeng Wang",219
+175,"Yan Wang",220
+448,"Jaekwan Shin",221
+264,"Ikjin Lee",221
+449,"David Yoo",222
+264,"Ikjin Lee",222
+450,"Bo Wang",223
+451,"Junqiang Bai",223
+193,"Hae Chang Gea",223
+452,"Joseph R. Piacenza",224
+143,"Irem Y. Tumer",224
+273,"Christopher Hoyle",224
+453,"Mahmoud R. Saad",225
+60,"Sayed M. Metwalli",225
+454,"Mohamed F. Aly",226
+12,"Ashraf O. Nassef",226
+8,"Karim Hamza",226
+455,"Moataz A. M. Abd El Gawad",227
+456,"Hesham A. Hegazi",227
+60,"Sayed M. Metwalli",227
+457,"Joseph Holub",228
+458,"Jung Leng Foo",228
+459,"Eliot Winer",228
+8,"Karim Hamza",229
+369,"Mohammed Shalaby",229
+269,"Xike Zhao",230
+193,"Hae Chang Gea",230
+270,"Limei Xu",230
+371,"Wentao Fu",231
+370,"Ata A. Eftekharian",231
+460,"Pradeep Radhakrishnan",231
+295,"Matthew I. Campbell",231
+461,"Christian Fritz",231
+40,"Yi Ren",232
+43,"Panos Y. Papalambros",232
+462,"Michael G. Miller",233
+463,"James L. Mathieson",233
+162,"Joshua D. Summers",233
+464,"Gregory M. Mocko",233
+465,"Beshoy Morkos",234
+466,"Shraddha Joshi",234
+162,"Joshua D. Summers",234
+108,"Vijitashwa Pandey",235
+107,"Zissimos P. Mourelatos",235
+108,"Vijitashwa Pandey",236
+107,"Zissimos P. Mourelatos",236
+268,"Monica Majcher",236
+467,"Kazuya Oizumi",237
+468,"Kazuhiro Aoyama",237
+469,"Iman Ebrahimi",238
+470,"Farid Golnaraghi",238
+471,"Gary Wang",238
+472,"Ali Madani",238
+473,"David Yin",238
+474,"Jun Lu",238
+475,"Alexandrea Chor",238
+476,"Combiz Jelveh",238
+477,"Xin Wang",239
+478,"Yuanyuan Liu",239
+479,"Fang Liu",239
+480,"Chun-Yu Lin",240
+481,"Gül E. Okudan",240
+482,"Thomas M. Stone",241
+30,"Seung-Kyum Choi",241
+483,"Hemanth Amarchinta",241
+484,"Jacquelyn K. S. Nagel",242
+485,"Frank W. Liou",242
+182,"Hongyi Xu",243
+486,"Hua Deng",243
+351,"Catherine Brinson",243
+487,"Dmitriy Dikin",243
+488,"Wing Kam Liu",243
+185,"Wei Chen",243
+489,"M. Steven Greene",243
+490,"Craig Burkhart",243
+491,"George Papakonstantopoulos",243
+492,"Mike Poldneff",243
+493,"Brian Literman",244
+494,"Phil Cormier",244
+70,"Kemper Lewis",244
+495,"Dongping Deng",245
+496,"Yong Chen",245
+308,"Weijun Wang",246
+309,"Stéphane Caro",246
+310,"Fouad Bennis",246
+497,"Oscar Roberto Salinas Mejia",246
+311,"Bryony L. DuPont",247
+48,"Jonathan Cagan",247
+498,"Patrick Moriarty",247
+499,"Bryant D. Hawthorne",248
+172,"Jitesh H. Panchal",248
+147,"Gary Stump",249
+145,"Timothy W. Simpson",249
+500,"Stella Oggianu",249
+501,"Ritesh Khire",249
+63,"Mohamed El-Morsi",250
+8,"Karim Hamza",250
+12,"Ashraf O. Nassef",250
+64,"Sayed Metwalli",250
+61,"Kazuhiro Saitou",250
+332,"Prasanna Tamilselvan",251
+502,"Yibin Wang",251
+109,"Pingfeng Wang",251
+503,"Toufic Zaraket",252
+300,"Bernard Yannou",252
+504,"Yann Leroy",252
+505,"Stephanie Minel",252
+506,"Emilie Chapotot",252
+507,"Nathan H. Putnam",253
+179,"Carolyn C. Seepersad",253
+508,"Michael E. Webber",253
+509,"Wing Yin Kwong",254
+510,"Peter Y. Zhang",254
+511,"David Romero",254
+512,"Joaquin Moran",254
+513,"Michael Morgenroth",254
+514,"Cristina Amon",254
+331,"Chao Hu",255
+111,"Byeng D. Youn",255
+109,"Pingfeng Wang",255
+120,"Joung Taek Yoon",255
+332,"Prasanna Tamilselvan",256
+109,"Pingfeng Wang",256
+124,"Zhimin Xi",257
+109,"Pingfeng Wang",257
+515,"Masoud Pourali",258
+516,"Ali Mosleh",258
+517,"Heidi Q. Chen",259
+74,"Tomonori Honda",259
+77,"Maria C. Yang",259
+518,"Lin He",260
+185,"Wei Chen",260
+87,"W. Ross Morrow",261
+86,"Minhua Long",261
+519,"Erin F. MacDonald",261
+87,"W. Ross Morrow",262
+520,"Joshua Mineroff",262
+521,"Kate S. Whitefoot",262
+522,"Shaiful Arif",263
+523,"Zahed Siddique",263
+524,"Charles D. Wood",264
+525,"Patrick K. Lewis",264
+131,"Christopher A. Mattson",264
+526,"Nicholas S. Wasley",265
+525,"Patrick K. Lewis",265
+131,"Christopher A. Mattson",265
+527,"Benjamin M. Sloan",266
+528,"Douglas S. McCorkle",266
+336,"Kenneth M. Bryden",266
+529,"Iyad T. Alzaharnah",267
+530,"Warren P. Seering",267
+77,"Maria C. Yang",267
+531,"Peter Cormier",268
+423,"Erich Devendorf",268
+70,"Kemper Lewis",268
+532,"Aleksandr A. Kerzhner",269
+533,"Christiaan J. J. Paredis",269
+534,"Winston Chiang",270
+345,"Yan Jin",270
+535,"Josue R. Crespo-Varela",271
+307,"Gül E. Okudan Kremer",271
+393,"Conrad S. Tucker",271
+305,"Lourdes A. Medina",271
+23,"Rahul Rai",272
+40,"Yi Ren",273
+43,"Panos Y. Papalambros",273
+536,"Kalie Porterfield",274
+104,"Scott Ferguson",274
+537,"Yung-Yuan Hsu",275
+538,"Chih-Hsiang Chang",275
+539,"You-Tern Tsai",275
+373,"Lupin Niranjan Jaishankar",276
+209,"Joseph K. Davidson",276
+208,"Jami J. Shah",276
+540,"Ye Li",277
+541,"Jian Zhang",277
+542,"Yuguang Wu",278
+543,"C. G. Li",278
+544,"Joel Johansson",279
+545,"Xiaodong Liu",280
+546,"Bradley Camburn",281
+36,"Kristin Wood",281
+547,"Richard Crawford",281
+35,"Dan Jensen",281
+548,"Bowen Yu",283
+1184,"Kwun-Lon Ting",283
+401,"Jared Gragg",284
+550,"Jingzhou (James) Yang",284
+403,"Guolai Yang",284
+551,"Wenwu Xiu",285
+552,"Qi Lu",285
+553,"Ou Ma",285
+554,"Mahdiar Hariri",286
+555,"Jasbir Arora",286
+556,"Karim Abdel-Malek",286
+557,"Dustyn P. Roberts",287
+558,"Joo H. Kim",287
+559,"Justin Seipel",288
+560,"Manh Tien Nguyen",289
+561,"Georges M. Fadel",289
+562,"Paolo Guarneri",289
+563,"Ivan Mata",289
+391,"Peter B. Backlund",290
+390,"David W. Shahan",290
+179,"Carolyn C. Seepersad",290
+226,"Kambiz Haji Hajikolaei",291
+227,"G. Gary Wang",291
+564,"Paul D. Arendt",292
+185,"Wei Chen",292
+233,"Daniel W. Apley",292
+565,"Julien Bénabès",293
+566,"Benoît Guédas",293
+567,"Emilie Poirson",293
+310,"Fouad Bennis",293
+110,"Zequn Wang",294
+109,"Pingfeng Wang",294
+568,"Ravi Teja Katragadda",295
+569,"Sreekanth Reddy Gondipalle",295
+562,"Paolo Guarneri",295
+201,"Georges Fadel",295
+570,"W. Hu",296
+571,"K. H. Saleh",296
+572,"S. Azarm",296
+295,"Matthew I. Campbell",297
+186,"Edgar Galvan",298
+573,"Richard Malak",298
+117,"Po Ting Lin",299
+574,"Jingru Zhang",299
+575,"Yogesh Jaluria",299
+193,"Hae Chang Gea",299
+576,"Shane K. Curtis",300
+577,"Braden J. Hancock",300
+131,"Christopher A. Mattson",300
+578,"Valery Y. Glizer",301
+579,"Vladimir Turetsky",301
+580,"Emil Bashkansky",301
+581,"Wenshan Wang",302
+562,"Paolo Guarneri",302
+201,"Georges Fadel",302
+582,"Vincent Blouin",302
+138,"Mehdi Tarkian",303
+583,"Bhanoday Vemula",303
+584,"Xiaolong Feng",303
+139,"Johan Ölvander",303
+25,"James T. Allison",304
+585,"Takayuki Yamada",305
+586,"Toshiro Matsumoto",305
+587,"Shinji Nishiwaki",305
+355,"Hong Zhou",306
+588,"Anil K. Annepu",306
+589,"Christopher J. Brampton",307
+590,"Hyunsun A. Kim",307
+591,"James L. Cunningham",307
+294,"Amir Hooshmand",308
+295,"Matthew I. Campbell",308
+27,"Kristina Shea",308
+592,"Christopher Czech",309
+562,"Paolo Guarneri",309
+201,"Georges Fadel",309
+593,"Saber DorMohammadi",310
+594,"Mohammad Rouhi",310
+595,"Masoud Rais-Rohani",310
+195,"James K. Guest",311
+596,"Mu Zhu",311
+597,"Fredrik Borjesson",312
+424,"Katja Hölttä-Otto",312
+395,"Gopal Nadadur",313
+214,"Matthew B. Parkinson",313
+145,"Timothy W. Simpson",313
+393,"Conrad S. Tucker",314
+598,"Sung Woo Kang",314
+599,"Anil Kumar Maddulapalli",315
+600,"Parameshwaran S. Iyer",315
+601,"N. R. Srinivasa Raghavan",315
+5,"Kikuo Fujita",316
+602,"Ken Nasu",316
+603,"Yuma Ito",316
+604,"Yutaka Nomaguchi",316
+53,"Souma Chowdhury",317
+54,"Achille Messac",317
+501,"Ritesh Khire",317
+605,"Chad Hume",318
+176,"David W. Rosen",318
+235,"Ning Quan",319
+38,"Harrison M. Kim",319
+606,"Fumiya Akasaka",320
+607,"Kazuki Fujita",320
+608,"Yoshiki Shimomura",320
+437,"Hyung Sool Oh",321
+51,"Seung Ki Moon",321
+609,"Wonmo Kim",321
+610,"Åsa Ericson",322
+611,"Tobias C. Larsson",322
+612,"Ola Isaksson",322
+613,"Andreas Larsson",322
+614,"Yong Se Kim",323
+615,"Sang Won Lee",323
+616,"Jin Hui Kim",323
+617,"Heji Jeong",323
+618,"Ji Hwan Lee",323
+330,"Yoo S. Hong",323
+254,"Xiaoping Du",324
+253,"Zhen Hu",325
+254,"Xiaoping Du",325
+444,"Jianhua Zhou",326
+411,"Shuo Cheng",326
+252,"Mian Li",326
+619,"Pin-Yi Lin",327
+57,"Kuei-Yuan Chan",327
+264,"Ikjin Lee",328
+449,"David Yoo",328
+620,"Yoojeong Noh",328
+621,"Frank Schönberg",329
+622,"Matthias Messer",329
+623,"Sara Behdad",330
+624,"Leif P. Berg",330
+625,"Deborah Thurston",330
+626,"Judy Vance",330
+627,"Dipanjan D. Ghosh",331
+628,"Andrew Olewnik",331
+105,"Dorin Drignei",332
+107,"Zissimos P. Mourelatos",332
+108,"Vijitashwa Pandey",332
+223,"Michael Kokkolaras",332
+629,"Byung C. Jung",333
+111,"Byeng D. Youn",333
+630,"Ji Sun Kim",333
+631,"Christopher S. Bily",334
+632,"Richard J. Malak",334
+175,"Yan Wang",335
+633,"Hyeongjin Song",336
+266,"K. K. Choi",336
+264,"Ikjin Lee",336
+634,"Liang Zhao",336
+267,"David Lamb",336
+265,"Hyunkyoo Cho",337
+266,"K. K. Choi",337
+264,"Ikjin Lee",337
+256,"David Gorsich",337
+299,"Baris Canbaz",338
+300,"Bernard Yannou",338
+301,"Pierre-Alain Yvars",338
+124,"Zhimin Xi",339
+635,"Yan Fu",339
+359,"Ren-Jye Yang",339
+636,"Charles L. Penninger",340
+637,"Neal M. Patel",340
+358,"Andrés Tovar",340
+638,"Pugazhendhi Kanakasabai",341
+639,"Anoop K. Dhingra",341
+640,"Punit Bandi",342
+641,"James P. Schmiedeler",342
+358,"Andrés Tovar",342
+642,"Juan Camilo Medina",343
+358,"Andrés Tovar",343
+643,"Shana Smith",344
+644,"Wei-Han Chen",344
+37,"Jungmok Ma",345
+433,"Minjung Kwak",345
+38,"Harrison M. Kim",345
+433,"Minjung Kwak",346
+38,"Harrison M. Kim",346
+645,"Claudio Favi",347
+428,"Michele Germani",347
+646,"Marco Mandolini",347
+647,"Marco Marconi",347
+648,"Mohamed H. Abbas",348
+60,"Sayed M. Metwalli",348
+649,"William R. Patterson, Jr.",349
+295,"Matthew I. Campbell",349
+650,"Xiaobao Liu",350
+651,"Euihark Lee",350
+193,"Hae Chang Gea",350
+652,"Ping An Du",350
+653,"Niranjan Thyagaraja",351
+354,"Prabhu Shankar",351
+201,"Georges Fadel",351
+562,"Paolo Guarneri",351
+654,"Zebin Zhou",352
+8,"Karim Hamza",352
+61,"Kazuhiro Saitou",352
+518,"Lin He",353
+185,"Wei Chen",353
+655,"Guenter Conzelmann",353
+656,"Callaway Turner",354
+104,"Scott Ferguson",354
+657,"Joseph Donndelinger",354
+658,"Eric Sullivan",355
+104,"Scott Ferguson",355
+657,"Joseph Donndelinger",355
+659,"Gang-Won Jang",356
+660,"Sang Jun Nam",356
+661,"Yoon Young Kim",356
+662,"Seonho Cho",357
+663,"Bon-yong Koo",357
+664,"Minho Yoon",357
+665,"Seung-Wook Lee",357
+666,"Youn Doh Ha",357
+667,"Hyun-Seok Kim",358
+668,"Hong-Lae Jang",358
+669,"Min-Geun Kim",358
+662,"Seonho Cho",358
+670,"Diane Villanueva",359
+671,"Rodolphe Le Riche",359
+672,"Gauthier Picard",359
+673,"Raphael T. Haftka",359
+674,"Bhavani V. Sankar",359
+124,"Zhimin Xi",360
+629,"Byung C. Jung",360
+111,"Byeng D. Youn",360
+675,"Nam Ho Kim",361
+331,"Chao Hu",362
+111,"Byeng D. Youn",362
+676,"Jae Chang Kim",363
+677,"Joo-Ho Choi",363
+678,"Yeong K. Kim",363
+679,"Seungjae Oh",364
+680,"Semyung Wang",364
+681,"Minkyu Park",364
+682,"Joonha Kim",364
+425,"Roberto Raffaeli",365
+683,"Maura Mengoni",365
+428,"Michele Germani",365
+299,"Baris Canbaz",366
+300,"Bernard Yannou",366
+301,"Pierre-Alain Yvars",366
+423,"Erich Devendorf",367
+70,"Kemper Lewis",367
+684,"Christopher Garneau",368
+685,"Matthew Parkinson",368
+686,"Haifeng Ji",369
+74,"Tomonori Honda",369
+77,"Maria C. Yang",369
+687,"François Cluzel",377
+300,"Bernard Yannou",377
+504,"Yann Leroy",377
+688,"Dominique Millet",377
+287,"Thomas Gmeiner",378
+27,"Kristina Shea",378
+689,"Vishwa Kalyanasundaram",379
+70,"Kemper Lewis",379
+690,"Wuhsun Chung",381
+481,"Gül E. Okudan",381
+692,"Richard A. Wysk",381
+693,"Nickolas Vlahopoulos",382
+694,"Hong Yoon Kim",382
+695,"Kevin Maki",382
+696,"Ricardo Sbragio",382
+316,"Le Chen",383
+317,"Erin MacDonald",383
+697,"Shashi K. Shahi",384
+227,"G. Gary Wang",384
+698,"Liqiang An",384
+699,"Eric Bibeau",384
+700,"Travis McEvoy",385
+701,"Eric Dierks",385
+702,"Jason Weaver",385
+703,"Sumedh Inamdar",385
+704,"Krystian Zimowski",385
+705,"Kristin L. Wood",385
+706,"Richard H. Crawford",385
+35,"Dan Jensen",385
+707,"John W. Whitefoot",386
+708,"Abigail R. Mechtenberg",386
+709,"Diane L. Peters",386
+43,"Panos Y. Papalambros",386
+8,"Karim Hamza",387
+710,"Umesh Gandhi",387
+61,"Kazuhiro Saitou",387
+8,"Karim Hamza",388
+710,"Umesh Gandhi",388
+61,"Kazuhiro Saitou",388
+53,"Souma Chowdhury",389
+65,"Jie Zhang",389
+54,"Achille Messac",389
+711,"Luciano Castillo",389
+712,"Z. Wang",390
+93,"P. K. Kannan",390
+572,"S. Azarm",390
+321,"Bart D. Frischknecht",391
+713,"Kate Whitefoot",391
+714,"L. Wang",392
+715,"B. D. Youn",392
+572,"S. Azarm",392
+93,"P. K. Kannan",392
+716,"Camilo B. Resende",393
+326,"C. Grace Heckmann",393
+298,"Jeremy J. Michalek",393
+717,"Jacob S. Morrise",394
+525,"Patrick K. Lewis",394
+131,"Christopher A. Mattson",394
+718,"Spencer P. Magleby",394
+719,"Adam J. Andersen",395
+720,"Charles Kim",395
+721,"Robert D. Campbell",396
+525,"Patrick K. Lewis",396
+131,"Christopher A. Mattson",396
+336,"Kenneth M. Bryden",397
+132,"Nathan G. Johnson",397
+722,"Ayan Sinha",398
+172,"Jitesh H. Panchal",398
+159,"Janet K. Allen",398
+160,"Farrokh Mistree",398
+723,"Edin Crnkic",399
+724,"Lijuan He",399
+175,"Yan Wang",399
+725,"Yu Liu",400
+489,"M. Steven Greene",400
+185,"Wei Chen",400
+726,"Dmitriy A. Dikin",400
+488,"Wing Kam Liu",400
+727,"Angel G. Perez",401
+728,"Julie S. Linsey",401
+322,"Damien Motte",404
+28,"Axel Nordin",404
+323,"Robert Bjärnemo",404
+730,"Mi Xiao",405
+731,"Liang Gao",405
+732,"Xinyu Shao",405
+733,"Haobo Qiu",405
+734,"Li Nie",405
+735,"Sigurjon N. Kjaernested",406
+736,"Magnus Th. Jonsson",406
+737,"Halldor Palsson",406
+565,"Julien Bénabès",407
+567,"Emilie Poirson",407
+310,"Fouad Bennis",407
+739,"Yannick Ravaut",407
+103,"Garrett Foster",408
+104,"Scott Ferguson",408
+5,"Kikuo Fujita",409
+740,"Hirofumi Amaya",409
+741,"Ryota Akai",409
+40,"Yi Ren",410
+43,"Panos Y. Papalambros",410
+742,"Ian Tseng",411
+48,"Jonathan Cagan",411
+743,"Kenneth Kotovsky",411
+104,"Scott Ferguson",412
+628,"Andrew Olewnik",412
+494,"Phil Cormier",412
+744,"Roger J. Jiao",413
+745,"Lei Shu",414
+746,"Michael Yu Wang",414
+747,"Zongde Fang",414
+748,"Zhengdong Ma",414
+209,"Joseph K. Davidson",415
+208,"Jami J. Shah",415
+749,"Weijuan Cao",416
+750,"Xiaoshen Chen",416
+751,"Shuming Gao",416
+752,"Sweta Dhaveji Ch.",417
+753,"Todd E. Sparks",417
+754,"Jianzhong Ruan",417
+485,"Frank W. Liou",417
+755,"Mehmet Ersin Yumer",418
+198,"Levent Burak Kara",418
+370,"Ata A. Eftekharian",420
+756,"Horea T. Ilies",420
+757,"Johan Segeborn",422
+758,"Johan S. Carlson",422
+374,"Kristina Wärmefjord",422
+85,"Rikard Söderberg",422
+197,"Erhan Batuhan Arisoy",423
+761,"Gunay Orbay",423
+198,"Levent Burak Kara",423
+762,"Sundar Murugappan",424
+763,Vinayak,424
+764,"Karthik Ramani",424
+77,"Maria C. Yang",424
+765,"Roxanne A. Moore",425
+766,"David A. Romero",425
+533,"Christiaan J. J. Paredis",425
+767,"Erin Roach",426
+768,"Robert R. Parker",426
+187,"Richard J. Malak, Jr.",426
+8,"Karim Hamza",427
+369,"Mohammed Shalaby",427
+769,"Jay D. Martin",428
+65,"Jie Zhang",429
+53,"Souma Chowdhury",429
+54,"Achille Messac",429
+770,"Junqiang Zhang",429
+711,"Luciano Castillo",429
+771,"Masataka Yoshimura",430
+772,"Inna Turevsky",431
+773,"Krishnan Suresh",431
+774,"Daniel Wäppling",434
+584,"Xiaolong Feng",434
+775,"Hans Andersson",434
+776,"Marcus Pettersson",434
+777,"Björn Lunden",434
+778,"Jakob Weström",434
+779,"Xin Yan",435
+780,"Mu Qiao",435
+145,"Timothy W. Simpson",435
+781,"Jia Li",435
+782,"Xiaolong Luke Zhang",435
+145,"Timothy W. Simpson",436
+783,"Joaquim R. R. A. Martins",436
+784,"Jim He",437
+785,"Shari Hannapel",437
+693,"Nickolas Vlahopoulos",437
+786,"Trevor Richardson",438
+459,"Eliot Winer",438
+138,"Mehdi Tarkian",439
+787,"Johan Persson",439
+139,"Johan Ölvander",439
+584,"Xiaolong Feng",439
+181,"David Shahan",440
+179,"Carolyn C. Seepersad",440
+423,"Erich Devendorf",441
+70,"Kemper Lewis",441
+25,"James T. Allison",442
+789,"Zhi Han",442
+790,"Xiao-Ling Zhang",443
+117,"Po Ting Lin",443
+193,"Hae Chang Gea",443
+260,"Hong-Zhong Huang",443
+791,"Andrea Vigliotti",444
+792,"Damiano Pasini",444
+793,"Sajad Arabnejad Khanoki",445
+792,"Damiano Pasini",445
+794,"Ehsan Masoumi Khalil Abad",446
+793,"Sajad Arabnejad Khanoki",446
+792,"Damiano Pasini",446
+795,"Jesse Schultz",447
+796,"David Griese",447
+354,"Prabhu Shankar",447
+162,"Joshua D. Summers",447
+797,"Jaehyung Ju",447
+798,"Lonny Thompson",447
+797,"Jaehyung Ju",448
+162,"Joshua D. Summers",448
+799,"Darren C. Knight",449
+131,"Christopher A. Mattson",449
+23,"Rahul Rai",450
+800,"Pranay Kilaru",450
+801,"Ravi Vallepalli",450
+295,"Matthew I. Campbell",450
+802,"Marcello Pellicciari",451
+803,"Giovanni Berselli",451
+804,"Francesco Leali",451
+805,"Alberto Vergnano",451
+806,"Bengt Lennartson",451
+807,"Dimitris M. Chatzigeorgiou",452
+808,"Kamal Youcef-Toumi",452
+809,"Atia E. Khalifa",452
+810,"Rached Ben-Mansour",452
+341,"Paul F. Egan",453
+343,"Philip R. LeDuc",453
+48,"Jonathan Cagan",453
+342,"Christian Schunn",453
+811,"Dane Freeman",454
+812,"Dongwook Lim",454
+813,"Elena Garcia",454
+814,"Dimitri Mavris",454
+249,"Zhila Pirmoradi",455
+227,"G. Gary Wang",455
+51,"Seung Ki Moon",456
+815,"KyoungJong Park",456
+145,"Timothy W. Simpson",456
+816,"Soon Chong Johnson Lim",457
+817,"Ying Liu",457
+818,"Wing Bun Lee",457
+446,"Amandeep Singh",458
+107,"Zissimos P. Mourelatos",458
+819,"Efstratios Nikolaidis",458
+105,"Dorin Drignei",459
+107,"Zissimos P. Mourelatos",459
+223,"Michael Kokkolaras",459
+108,"Vijitashwa Pandey",459
+820,"Grzegorz Koscik",459
+108,"Vijitashwa Pandey",460
+107,"Zissimos P. Mourelatos",460
+819,"Efstratios Nikolaidis",460
+821,"M. Hofwing",461
+264,"Ikjin Lee",462
+822,"Kyung K. Choi",462
+256,"David Gorsich",462
+633,"Hyeongjin Song",463
+266,"K. K. Choi",463
+264,"Ikjin Lee",463
+634,"Liang Zhao",463
+267,"David Lamb",463
+254,"Xiaoping Du",464
+254,"Xiaoping Du",465
+823,"Harsheel Shah",465
+273,"Christopher Hoyle",466
+143,"Irem Y. Tumer",466
+824,"Tolga Kurtoglu",466
+185,"Wei Chen",466
+111,"Byeng D. Youn",467
+331,"Chao Hu",467
+109,"Pingfeng Wang",467
+175,"Yan Wang",468
+825,"Shen Lu",469
+38,"Harrison M. Kim",469
+564,"Paul D. Arendt",470
+185,"Wei Chen",470
+233,"Daniel W. Apley",470
+826,"Jiantao Liu",471
+193,"Hae Chang Gea",471
+652,"Ping An Du",471
+827,"Masoud Mojtahed",472
+828,"Qingtian Cai",472
+829,"Mostafa S. A. Elsayed",473
+792,"Damiano Pasini",473
+830,"Corey Lynam",474
+831,"Abbas S. Milani",474
+832,"Hossein Rokni D. T.",475
+831,"Abbas S. Milani",475
+833,"Rudolf J. Seethaler",475
+834,"Jonathan Holzman",475
+466,"Shraddha Joshi",476
+797,"Jaehyung Ju",476
+835,"Luke Berglind",476
+836,"Roy Rusly",476
+162,"Joshua D. Summers",476
+837,"John D. DesJardins",476
+838,"Avinash Kolla",477
+797,"Jaehyung Ju",477
+162,"Joshua D. Summers",477
+839,"George Fadel",477
+840,"John C. Ziegert",477
+841,"Swaroop B. Visweswaraiah",478
+792,"Damiano Pasini",478
+842,"Larry Lessard",478
+843,"Mohammad Alemi-Ardakani",479
+844,"Akbar Afaghi-Khatibi",479
+831,"Abbas S. Milani",479
+845,"Hady Parsaiyan",479
+846,"Kyle Stoker",480
+847,"Anirban Chaudhuri",480
+675,"Nam Ho Kim",480
+848,"Pieter E. Vermaas",481
+849,"Yeh-Liang Hsu",482
+850,"Po-Er Hsu",482
+851,"Yung-Chieh Hung",482
+852,"Ya-Dan Xiao",482
+853,"Dongxing Cao",483
+764,"Karthik Ramani",483
+854,"Ming Wang Fu",483
+855,"Runli Zhang",483
+465,"Beshoy Morkos",484
+162,"Joshua D. Summers",484
+856,"Hilario L. Oh",485
+857,"Taesik Lee",485
+858,"Raymond Lipowski",485
+104,"Scott Ferguson",486
+628,"Andrew Olewnik",486
+859,"Priyesh Malegaonkar",486
+494,"Phil Cormier",486
+860,"Saket Kansara",486
+861,"Abhinav Krishna Choudhary",487
+862,"Cari Bryant Arnold",487
+722,"Ayan Sinha",488
+160,"Farrokh Mistree",488
+159,"Janet K. Allen",488
+863,"Kerry R. Poppa",489
+864,"Robert B. Stone",489
+47,"Seth Orsborn",489
+865,"Rachel Kuhr",490
+36,"Kristin Wood",490
+35,"Dan Jensen",490
+547,"Richard Crawford",490
+425,"Roberto Raffaeli",491
+866,"Paolo Cicconi",491
+683,"Maura Mengoni",491
+428,"Michele Germani",491
+867,"Jillian Haldaman",492
+214,"Matthew B. Parkinson",492
+868,"D. Xue",493
+869,"G. Hua",493
+870,"V. Mehrad",493
+871,"P. Gu",493
+872,"Magdalena K. Chmarra",495
+873,"Jacques Verriet",495
+874,"René Waarsing",495
+875,"Tetsuo Tomiyama",495
+525,"Patrick K. Lewis",496
+131,"Christopher A. Mattson",496
+876,"Vance R. Murray",496
+518,"Lin He",497
+273,"Christopher Hoyle",497
+185,"Wei Chen",497
+877,"Jiliang Wang",497
+300,"Bernard Yannou",497
+741,"Ryota Akai",498
+740,"Hirofumi Amaya",498
+5,"Kikuo Fujita",498
+712,"Z. Wang",499
+572,"S. Azarm",499
+93,"P. K. Kannan",499
+878,"Kazuhiro Oki",500
+879,"Kentaro Watanabe",500
+880,"Ryosuke Chiba",500
+608,"Yoshiki Shimomura",500
+881,"Weihang Zhu",501
+882,"Moslem Kazemi",502
+227,"G. Gary Wang",502
+883,"Shahryar Rahnamayan",502
+884,"Kamal Gupta",502
+40,"Yi Ren",503
+43,"Panos Y. Papalambros",503
+885,"Lindsay Hanna",504
+48,"Jonathan Cagan",504
+886,"George S. Ladkany",505
+887,"Mohamed B. Trabia",505
+300,"Bernard Yannou",506
+877,"Jiliang Wang",506
+301,"Pierre-Alain Yvars",506
+888,"Christopher J. Garneau",507
+214,"Matthew B. Parkinson",507
+213,"Charlotte de Vries",508
+888,"Christopher J. Garneau",508
+395,"Gopal Nadadur",508
+214,"Matthew B. Parkinson",508
+889,"Rita T. Willmann",509
+890,"Uwe Woessner",509
+891,"Christine Schoene",510
+892,"Ralph Stelzer",510
+893,"Ulf Schmidt",510
+894,"Dietmar Suesse",510
+895,"Swathi Routhu",511
+896,"Divya Kanakanala",511
+754,"Jianzhong Ruan",511
+897,"Xiaoqing Frank Liu",511
+898,"Frank Liou",511
+896,"Divya Kanakanala",512
+895,"Swathi Routhu",512
+754,"Jianzhong Ruan",512
+897,"Xiaoqing Frank Liu",512
+898,"Frank Liou",512
+333,"Tamotsu Murakami",513
+899,"Yuki Hamasaki",513
+900,"Chi Zhou",514
+496,"Yong Chen",514
+542,"Yuguang Wu",515
+543,"C. G. Li",515
+901,"David E. Lindström",519
+902,"Ke Li",521
+903,"Gilles Foucault",521
+1890,"Jean-Claude Léon",521
+477,"Xin Wang",522
+905,"Jiangchuan Liu",522
+479,"Fang Liu",522
+906,"Shunde Gao",522
+907,"Kaveh Mohamed",523
+908,"Kurt Sermeus",523
+909,"Eric Laurendeau",523
+771,"Masataka Yoshimura",524
+910,"Gary Palmer, II",525
+465,"Beshoy Morkos",525
+162,"Joshua D. Summers",525
+181,"David Shahan",526
+179,"Carolyn C. Seepersad",526
+49,"Simon Li",527
+423,"Erich Devendorf",528
+70,"Kemper Lewis",528
+911,"Sudhir Kaul",529
+912,"Markus Rippel",530
+30,"Seung-Kyum Choi",530
+160,"Farrokh Mistree",530
+159,"Janet K. Allen",530
+55,"Felipe A. C. Viana",531
+913,"Christian Gogu",531
+673,"Raphael T. Haftka",531
+914,"Songqing Shan",532
+227,"G. Gary Wang",532
+766,"David A. Romero",533
+915,"Cristina H. Amon",533
+916,"Susan Finger",533
+917,"Ching-Shin Norman Shiau",534
+298,"Jeremy J. Michalek",534
+825,"Shen Lu",535
+918,"Nathan B. Schroeder",535
+38,"Harrison M. Kim",535
+919,"Anand Vedam",536
+920,"John E. Sneckenberger",536
+8,"Karim Hamza",537
+369,"Mohammed Shalaby",537
+12,"Ashraf O. Nassef",537
+454,"Mohamed F. Aly",537
+61,"Kazuhiro Saitou",537
+8,"Karim Hamza",538
+369,"Mohammed Shalaby",538
+12,"Ashraf O. Nassef",538
+454,"Mohamed F. Aly",538
+61,"Kazuhiro Saitou",538
+921,"Bryony L. Du Pont",539
+48,"Jonathan Cagan",539
+922,"Kerem Bayar",540
+923,"Beth Bezaire",540
+924,"Brad Cooley",540
+925,"John Kruckenberg",540
+926,"Eric Schacht",540
+927,"Shawn Midlam-Mohler",540
+928,"Giorgio Rizzoni",540
+697,"Shashi K. Shahi",541
+227,"G. Gary Wang",541
+317,"Erin MacDonald",542
+929,"Katie Whitefoot",542
+25,"James T. Allison",542
+43,"Panos Y. Papalambros",542
+42,"Richard Gonzalez",542
+65,"Jie Zhang",543
+53,"Souma Chowdhury",543
+54,"Achille Messac",543
+711,"Luciano Castillo",543
+930,"Jose Lebron",543
+931,"Zainab Hermes",544
+12,"Ashraf O. Nassef",544
+932,"Lotfi K. Gaafar",544
+933,"Michael J. Alexander",545
+25,"James T. Allison",545
+43,"Panos Y. Papalambros",545
+934,"David J. Gorsich",545
+25,"James T. Allison",546
+935,"Sam Nazari",546
+53,"Souma Chowdhury",547
+54,"Achille Messac",547
+65,"Jie Zhang",547
+711,"Luciano Castillo",547
+930,"Jose Lebron",547
+581,"Wenshan Wang",548
+936,"Vincent Y. Blouin",548
+937,"Melissa Gardenghi",548
+238,"Margaret M. Wiecek",548
+561,"Georges M. Fadel",548
+938,"Benjamin Sloop",548
+239,"J. M. Hamel",549
+572,"S. Azarm",549
+584,"Xiaolong Feng",550
+774,"Daniel Wäppling",550
+775,"Hans Andersson",550
+139,"Johan Ölvander",550
+138,"Mehdi Tarkian",550
+252,"Mian Li",551
+939,"Peter Simov",552
+104,"Scott Ferguson",552
+648,"Mohamed H. Abbas",553
+940,"Ayman M. A. Youssef",553
+60,"Sayed M. Metwalli",553
+941,"Avanti Jain",554
+942,"Rahul Sarnobat",554
+145,"Timothy W. Simpson",554
+816,"Soon Chong Johnson Lim",555
+943,"Han Tong Loh",555
+817,"Ying Liu",555
+944,"Aaron Bobuk",556
+945,"Laura A. Slingerland",556
+145,"Timothy W. Simpson",556
+946,"Ben Donaldson",556
+947,"Karl Reichard",556
+51,"Seung Ki Moon",557
+948,"Daniel A. McAdams",557
+949,"Margaret Devendorf",558
+70,"Kemper Lewis",558
+950,"Ramon C. Kuczera",559
+107,"Zissimos P. Mourelatos",559
+819,"Efstratios Nikolaidis",559
+446,"Amandeep Singh",560
+107,"Zissimos P. Mourelatos",560
+819,"Efstratios Nikolaidis",560
+56,"Tzu-Chieh Hung",561
+57,"Kuei-Yuan Chan",561
+951,"Chun-Min Ho",562
+57,"Kuei-Yuan Chan",562
+698,"Liqiang An",563
+227,"G. Gary Wang",563
+952,"Zhangqi Wang",563
+254,"Xiaoping Du",564
+953,"Junfu Zhang",564
+954,"Sirisha Rangavajhala",565
+955,"Sankaran Mahadevan",565
+105,"Dorin Drignei",566
+107,"Zissimos P. Mourelatos",566
+956,"Ramesh Rebba",566
+393,"Conrad S. Tucker",567
+38,"Harrison M. Kim",567
+445,"Jing Li",568
+107,"Zissimos P. Mourelatos",568
+223,"Michael Kokkolaras",568
+43,"Panos Y. Papalambros",568
+934,"David J. Gorsich",568
+957,"Josef Oehmen",569
+958,"Mohammad Ben-Daya",569
+959,"Warren Seering",569
+960,"Muhammad Al-Salamah",569
+961,"Qi D. Van Eikema Hommes",570
+264,"Ikjin Lee",571
+822,"Kyung K. Choi",571
+620,"Yoojeong Noh",571
+634,"Liang Zhao",571
+256,"David Gorsich",571
+620,"Yoojeong Noh",572
+822,"Kyung K. Choi",572
+264,"Ikjin Lee",572
+256,"David Gorsich",572
+175,"Yan Wang",573
+564,"Paul D. Arendt",574
+185,"Wei Chen",574
+233,"Daniel W. Apley",574
+117,"Po Ting Lin",575
+575,"Yogesh Jaluria",575
+193,"Hae Chang Gea",575
+489,"M. Steven Greene",576
+725,"Yu Liu",576
+185,"Wei Chen",576
+488,"Wing Kam Liu",576
+260,"Hong-Zhong Huang",576
+962,"Abhishek Kumar",577
+963,"Lorens Goksel",577
+30,"Seung-Kyum Choi",577
+124,"Zhimin Xi",578
+111,"Byeng D. Youn",578
+331,"Chao Hu",578
+964,"Huade Tan",579
+965,"John Goetz",579
+358,"Andrés Tovar",579
+967,"John E. Renaud",579
+968,"Mustafa Arafa",580
+969,"Ayman Youssef",580
+970,"Ashraf Nassef",580
+225,"Niclas Strömberg",582
+972,"Farhad Javid",583
+204,"Jorge Angeles",583
+792,"Damiano Pasini",583
+973,"Renzo Cecere",583
+773,"Krishnan Suresh",584
+974,"Zheqi Lin",585
+193,"Hae Chang Gea",585
+975,"Shutian Liu",585
+976,"Matthew Watkins",586
+977,"Mark Jakiela",586
+978,"Toufic Azar",588
+204,"Jorge Angeles",588
+979,"Jozsef Kövecses",588
+973,"Renzo Cecere",588
+980,"Alireza Kasaiezadeh",589
+981,"Amir Khajepour",589
+982,"Hamid Jahed",589
+8,"Karim Hamza",590
+94,"Kenneth P. Laberteaux",590
+61,"Kazuhiro Saitou",590
+983,"M. I. Mgwatu",591
+984,"E. Z. Opiyo",591
+985,"M. A. M. Victor",591
+986,"Albert Swantner",592
+295,"Matthew I. Campbell",592
+987,"Mohmmad M. A. Hanafy",593
+60,"Sayed M. Metwalli",593
+8,"Karim Hamza",594
+61,"Kazuhiro Saitou",594
+988,"Srikanth Tadepalli",595
+705,"Kristin L. Wood",595
+104,"Scott Ferguson",596
+989,"Andrew H. Tilstra",596
+179,"Carolyn C. Seepersad",596
+705,"Kristin L. Wood",596
+8,"Karim Hamza",597
+12,"Ashraf O. Nassef",597
+369,"Mohammed Shalaby",597
+765,"Roxanne A. Moore",598
+533,"Christiaan J. J. Paredis",598
+990,"Srikanth Devanathan",599
+764,"Karthik Ramani",599
+991,"John Jung-Woon Yoo",600
+992,"Soundar R. T. Kumara",600
+145,"Timothy W. Simpson",600
+993,"Yi-shih Lin",601
+27,"Kristina Shea",601
+994,"Aylmer Johnson",601
+995,"John Coultate",601
+996,"Jamie Pears",601
+997,"Anthony M. Roy",602
+998,"Erik K. Antonsson",602
+999,"Andrew A. Shapiro",602
+1000,"William Brace",604
+1001,"Eric Coatanéa",604
+1002,"Heikki Kauranne",604
+1003,"Matti Heiska",604
+853,"Dongxing Cao",605
+764,"Karthik Ramani",605
+854,"Ming Wang Fu",605
+855,"Runli Zhang",605
+1004,"Christian Noon",606
+459,"Eliot Winer",606
+1005,"Yu-Xin Wang",607
+1006,"Yu-Tong Li",607
+1007,"Ryan S. Hutcheson",608
+948,"Daniel A. McAdams",608
+1008,"Timothy P. Dietz",609
+160,"Farrokh Mistree",609
+1009,"Dennis Wang",610
+865,"Rachel Kuhr",610
+1010,"Kristen Kaufman",610
+547,"Richard Crawford",610
+705,"Kristin L. Wood",610
+35,"Dan Jensen",610
+507,"Nathan H. Putnam",611
+1011,"Daniel D. Jensen",611
+705,"Kristin L. Wood",611
+179,"Carolyn C. Seepersad",611
+1012,"Guillaume Jacquenot",612
+310,"Fouad Bennis",612
+1013,"Jean-Jacques Maisonneuve",612
+1014,"Philippe Wenger",612
+1015,"François Christophe",613
+1016,"Raivo Sell",613
+1017,"Alain Bernard",613
+1001,"Eric Coatanéa",613
+771,"Masataka Yoshimura",614
+1018,"Shin Kikuchi",614
+885,"Lindsay Hanna",615
+48,"Jonathan Cagan",615
+1019,"Kathleen M. Hart",616
+1020,"Steven B. Shooter",616
+720,"Charles Kim",616
+181,"David Shahan",617
+179,"Carolyn C. Seepersad",617
+1021,"Jeffrey W. Herrmann",618
+1022,"David E. Johnson",619
+1023,"Richard Riesenfeld",619
+1024,"Elaine Cohen",619
+1025,"Sam Drake",619
+1026,"Chiradeep Sen",620
+1027,"Farhad Ameri",620
+162,"Joshua D. Summers",620
+1028,"Ming-Chuan Chiu",621
+1029,"Saraj Gupta",621
+481,"Gül E. Okudan",621
+273,"Christopher Hoyle",622
+185,"Wei Chen",622
+1030,"Nanxin Wang",622
+1031,"Frank S. Koppelman",622
+393,"Conrad S. Tucker",623
+273,"Christopher Hoyle",623
+38,"Harrison M. Kim",623
+185,"Wei Chen",623
+518,"Lin He",624
+273,"Christopher Hoyle",624
+185,"Wei Chen",624
+1032,"Bart Frischknecht",625
+929,"Katie Whitefoot",625
+1033,"Panos Papalambros",625
+300,"Bernard Yannou",626
+877,"Jiliang Wang",626
+1034,"Ndrianarilala Rianantsoa",626
+349,"Chris Hoyle",626
+1035,"Mark Drayer",626
+185,"Wei Chen",626
+1036,"Fabrice Alizon",626
+1037,"Jean-Pierre Mathieu",626
+1038,"Sina Ghotbi",627
+319,"Michael J. Scott",627
+1039,"Joseph A. Donndelinger",627
+1040,"Alex M. Ruderman",628
+1041,"Jiten Patel",628
+962,"Abhishek Kumar",628
+159,"Janet K. Allen",628
+30,"Seung-Kyum Choi",628
+1042,"Cheng Qi",629
+175,"Yan Wang",629
+1043,"Chenjie Wang",630
+1044,"Vivek Krishnamurthy",630
+1045,"Benjamin Klein",630
+30,"Seung-Kyum Choi",630
+159,"Janet K. Allen",630
+160,"Farrokh Mistree",630
+722,"Ayan Sinha",631
+1046,"Madhusudan Chakraborty",631
+1047,"Sudipto Ghosh",631
+1048,"C. S. Kumar",631
+172,"Jitesh H. Panchal",631
+159,"Janet K. Allen",631
+1049,"David L. McDowell",631
+160,"Farrokh Mistree",631
+185,"Wei Chen",632
+1050,"Xiaolei Yin",632
+1051,"Sanghoon Lee",632
+488,"Wing Kam Liu",632
+881,"Weihang Zhu",633
+1052,"Robin McDougall",634
+1053,"Scott Nokleby",634
+1054,"Singiresu S. Rao",635
+1055,"Kiran K. Annamdas",635
+825,"Shen Lu",636
+38,"Harrison M. Kim",636
+5,"Kikuo Fujita",637
+1056,"Masayuki Kawamoto",637
+900,"Chi Zhou",638
+496,"Yong Chen",638
+1057,"Richard A. Waltz",638
+425,"Roberto Raffaeli",639
+683,"Maura Mengoni",639
+428,"Michele Germani",639
+1058,"Ferruccio Mandorli",639
+1059,"Yue Wang",640
+1060,"Mitchell M. Tseng",640
+754,"Jianzhong Ruan",641
+1061,"Andrew Hayes",641
+753,"Todd E. Sparks",641
+898,"Frank Liou",641
+754,"Jianzhong Ruan",642
+1062,"Jun Zhang",642
+898,"Frank Liou",642
+1063,"Patrick J. Clasen",643
+209,"Joseph K. Davidson",643
+208,"Jami J. Shah",643
+749,"Weijuan Cao",644
+1064,"Haipang Wu",644
+1065,"Yuqin Jiang",644
+1066,"Yusheng Liu",644
+751,"Shuming Gao",644
+1067,"S. M. Mahbub Murshed",645
+1068,"Adam Dixon",645
+208,"Jami J. Shah",645
+1069,"Changya Yan",646
+1070,"Feng Gao",646
+1071,"Jie Chen",646
+370,"Ata A. Eftekharian",647
+756,"Horea T. Ilies",647
+1072,"Christoph Ertelt",648
+27,"Kristina Shea",648
+1073,"Daniel Böhnke",649
+1074,"Axel Reichwein",649
+1075,"Stephan Rudolph",649
+1076,"Luoting Fu",650
+198,"Levent Burak Kara",650
+761,"Gunay Orbay",651
+198,"Levent Burak Kara",651
+1077,"Ehsan Tarkesh Esfahani",652
+1078,"V. Sundararajan",652
+1079,"Dong Zhao",653
+1080,"Deyi Xue",653
+911,"Sudhir Kaul",654
+639,"Anoop K. Dhingra",654
+914,"Songqing Shan",655
+227,"G. Gary Wang",655
+55,"Felipe A. C. Viana",656
+1081,"Victor Picheny",656
+673,"Raphael T. Haftka",656
+1082,"J. Gu",657
+1083,"G. Y. Li",657
+1084,"Z. Dong",657
+1085,"Dohyun Park",658
+1086,"Yongbin Lee",658
+1087,"Dong-Hoon Choi",658
+988,"Srikanth Tadepalli",659
+705,"Kristin L. Wood",659
+1088,"Liping Wang",660
+1089,"Don Beeson",660
+797,"Jaehyung Ju",661
+162,"Joshua D. Summers",661
+1090,"John Ziegert",661
+839,"George Fadel",661
+1091,"Dan Zhang",662
+1092,"Zhen Gao",662
+1093,"Beizhi Li",662
+1094,"M. Li",663
+1095,"N. Williams",663
+572,"S. Azarm",663
+1096,"J. Hamel",664
+1094,"M. Li",664
+572,"S. Azarm",664
+1097,"Verónica E. Marín",666
+1098,"José A. Rincón",666
+766,"David A. Romero",666
+1099,"Jarod C. Kelly",667
+1100,"Deepak Sivaraman",667
+1101,"Gregory A. Keoleian",667
+1102,"Kazuhiro Izui",668
+1103,"Kiyoshi Yokota",668
+585,"Takayuki Yamada",668
+587,"Shinji Nishiwaki",668
+771,"Masataka Yoshimura",668
+1104,"Masakazu Kobayashi",669
+1105,"Yuya Suzuki",669
+1106,"Masatake Higashi",669
+1107,"Adarsh Krishnamurthy",670
+232,"Wei Li",670
+1108,"Sara McMains",670
+1109,"Nikhil Kaushal",671
+917,"Ching-Shin Norman Shiau",671
+298,"Jeremy J. Michalek",671
+1110,"G. Hong",672
+868,"D. Xue",672
+1111,"Y. L. Tu",672
+1112,"Peyman Karimian",673
+1021,"Jeffrey W. Herrmann",673
+1113,"Clemens Mandl",674
+584,"Xiaolong Feng",674
+139,"Johan Ölvander",674
+51,"Seung Ki Moon",675
+948,"Daniel A. McAdams",675
+989,"Andrew H. Tilstra",676
+179,"Carolyn C. Seepersad",676
+705,"Kristin L. Wood",676
+1114,"Chao-Ching Yen",677
+643,"Shana Smith",677
+1115,"Sagar Chowdhury",678
+523,"Zahed Siddique",678
+1116,"Madan Mohan Dabbeeru",679
+1117,"Amitabha Mukerjee",679
+423,"Erich Devendorf",680
+70,"Kemper Lewis",680
+404,"Feng Zhou",681
+1118,"Jianxin Roger Jiao",681
+1119,"Songlin Chen",681
+1120,"Daqing Zhang",681
+51,"Seung Ki Moon",682
+1121,"Jun Shu",682
+145,"Timothy W. Simpson",682
+992,"Soundar R. T. Kumara",682
+888,"Christopher J. Garneau",683
+214,"Matthew B. Parkinson",683
+879,"Kentaro Watanabe",684
+1122,"Koji Kimita",684
+606,"Fumiya Akasaka",684
+608,"Yoshiki Shimomura",684
+1123,"Kai-Hsun Hsu",685
+57,"Kuei-Yuan Chan",685
+1124,"Nikita Thakur",686
+1125,"Andy Keane",686
+1126,"Prasanth B. Nair",686
+1127,"Robert C. Leishman",687
+1128,"Kenneth W. Chase",687
+1129,"Magnus Hofwing",688
+225,"Niclas Strömberg",688
+1130,"Sundeep Samson",689
+1131,"Sravya Thoomu",689
+201,"Georges Fadel",689
+1132,"James Reneke",689
+446,"Amandeep Singh",690
+107,"Zissimos P. Mourelatos",690
+445,"Jing Li",690
+620,"Yoojeong Noh",691
+266,"K. K. Choi",691
+264,"Ikjin Lee",691
+256,"David Gorsich",691
+267,"David Lamb",691
+264,"Ikjin Lee",692
+822,"Kyung K. Choi",692
+620,"Yoojeong Noh",692
+950,"Ramon C. Kuczera",693
+107,"Zissimos P. Mourelatos",693
+819,"Efstratios Nikolaidis",693
+445,"Jing Li",693
+1133,"Amir Heidari",694
+353,"Hae-Jin Choi",694
+634,"Liang Zhao",695
+266,"K. K. Choi",695
+264,"Ikjin Lee",695
+1134,"Liu Du",695
+1135,"Sunmin Yook",696
+1136,"Gabseong Lee",696
+1137,"Sang-Joon Yoon",696
+1138,"Jae-Yong Park",696
+1087,"Dong-Hoon Choi",696
+570,"W. Hu",697
+1094,"M. Li",697
+572,"S. Azarm",697
+1139,"S. Al Hashimi",697
+1140,"A. Almansoori",697
+1141,"N. Al-Qasas",697
+1142,"Fenfen Xiong",698
+1143,"Ying Xiong",698
+1144,"Steven Greene",698
+185,"Wei Chen",698
+1145,"Shuxing Yang",698
+725,"Yu Liu",699
+1050,"Xiaolei Yin",699
+1146,"Paul Arendt",699
+185,"Wei Chen",699
+260,"Hong-Zhong Huang",699
+111,"Byeng D. Youn",700
+629,"Byung C. Jung",700
+124,"Zhimin Xi",700
+1147,"Sang Bum Kim",700
+331,"Chao Hu",701
+111,"Byeng D. Youn",701
+117,"Po Ting Lin",702
+193,"Hae Chang Gea",702
+575,"Yogesh Jaluria",702
+225,"Niclas Strömberg",703
+1148,"Lianshui Guo",704
+636,"Charles L. Penninger",704
+967,"John E. Renaud",704
+358,"Andrés Tovar",704
+585,"Takayuki Yamada",705
+587,"Shinji Nishiwaki",705
+1149,"Atsuro Iga",705
+1102,"Kazuhiro Izui",705
+771,"Masataka Yoshimura",705
+194,"Bin Zheng",706
+260,"Hong-Zhong Huang",706
+193,"Hae Chang Gea",706
+1150,"Shikui Chen",707
+1051,"Sanghoon Lee",707
+185,"Wei Chen",707
+1151,"James M. Gibert",708
+561,"Georges M. Fadel",708
+829,"Mostafa S. A. Elsayed",709
+792,"Damiano Pasini",709
+428,"Michele Germani",710
+683,"Maura Mengoni",710
+1152,"Margherita Peruzzini",710
+782,"Xiaolong Luke Zhang",711
+145,"Timothy W. Simpson",711
+1153,"Mary Frecker",711
+1154,"George Lesieutre",711
+1155,"Utkarsh Seth",712
+1156,"Hai-Jun Su",712
+1157,"Judy M. Vance",712
+1158,"David Wolf",713
+145,"Timothy W. Simpson",713
+782,"Xiaolong Luke Zhang",713
+1159,"Jinling Wang",714
+1160,"Wen F. Lu",714
+47,"Seth Orsborn",715
+48,"Jonathan Cagan",715
+300,"Bernard Yannou",716
+1161,"Markus Dihlmann",716
+1162,"Roy Awedikian",716
+1072,"Christoph Ertelt",717
+27,"Kristina Shea",717
+1163,"Chan Yu",718
+1164,"Kishore Pochiraju",718
+1165,"Souran Manoochehri",718
+1166,"Yun Seon Kim",719
+1167,"Kyoung-Yun Joseph Kim",719
+1168,"Wooi Ping Cheah",719
+1169,"Hyung-Jeong Yang",719
+1170,"Kyoung-Yun Kim",720
+1171,"Keunho Choi",720
+1172,"Shuting Zhang",721
+1173,"Xiang Chen",721
+751,"Shuming Gao",721
+1174,"Youdong Yang",721
+1175,"Domenico Spensieri",722
+758,"Johan S. Carlson",722
+1176,"Robert Bohlin",722
+85,"Rikard Söderberg",722
+1029,"Saraj Gupta",723
+481,"Gül E. Okudan",723
+1177,"Vernet Lasrado",724
+1178,"Devendra Alhat",724
+175,"Yan Wang",724
+1178,"Devendra Alhat",725
+1177,"Vernet Lasrado",725
+175,"Yan Wang",725
+1050,"Xiaolei Yin",726
+1179,"Sanghon Lee",726
+185,"Wei Chen",726
+488,"Wing Kam Liu",726
+1180,"M. F. Horstemeyer",726
+1042,"Cheng Qi",727
+175,"Yan Wang",727
+1181,"Jay Patel",728
+295,"Matthew I. Campbell",728
+1182,"Wenyong Ma",729
+1183,"Delun Wang",729
+1184,"Kwun-Lon Ting",729
+1185,"Ke-Zheng Huang",730
+1186,"Huai-Wei Ren",730
+853,"Dongxing Cao",731
+854,"Ming Wang Fu",731
+1187,"Yongmao Gu",731
+1188,"Haipeng Jia",731
+1189,"Ali Kamyab",732
+1190,"Kemper E. Lewis",732
+1191,"Ilaria Cristofolini",733
+1192,"Stefano Filippi",733
+49,"Simon Li",734
+604,"Yutaka Nomaguchi",735
+1193,"Daisuke Tsutsumi",735
+5,"Kikuo Fujita",735
+172,"Jitesh H. Panchal",736
+1194,"Meryvn Fathianathan",736
+1195,"Rachel Hannah",737
+1196,"Ashwin Michaelraj",737
+162,"Joshua D. Summers",737
+124,"Zhimin Xi",738
+111,"Byeng D. Youn",738
+109,"Pingfeng Wang",739
+111,"Byeng D. Youn",739
+124,"Zhimin Xi",739
+1197,"Artemis Kloess",739
+423,"Erich Devendorf",740
+70,"Kemper Lewis",740
+1198,"Mohamed Chookah",741
+1199,"Mohammad Nuhi",741
+1200,"Mohammad Modarres",741
+1201,"Abdennour Seibi",741
+1202,"Matthias Kreimeyer",743
+1203,"Stefanie Braun",743
+1204,"Matthias Gürtler",743
+1205,"Udo Lindemann",743
+49,"Simon Li",744
+1206,"Li Chen",744
+1207,"Benjamin W. Caldwell",745
+464,"Gregory M. Mocko",745
+1208,"Aida Khajavirad",746
+298,"Jeremy J. Michalek",746
+1209,"X. Y. Shao",747
+1210,"Q. Cheng",747
+1211,"G. J. Zhang",747
+1212,"P. G. Li",747
+1213,"P. H. Gu",747
+1214,"Jason M. Weaver",748
+705,"Kristin L. Wood",748
+35,"Dan Jensen",748
+872,"Magdalena K. Chmarra",749
+1215,"Lieke Arts",749
+875,"Tetsuo Tomiyama",749
+1216,"Ching-Shin Shiau",750
+298,"Jeremy J. Michalek",750
+1032,"Bart Frischknecht",751
+1033,"Panos Papalambros",751
+1216,"Ching-Shin Shiau",752
+298,"Jeremy J. Michalek",752
+1095,"N. Williams",753
+572,"S. Azarm",753
+93,"P. K. Kannan",753
+273,"Christopher Hoyle",754
+185,"Wei Chen",754
+1217,"Bruce Ankenman",754
+1030,"Nanxin Wang",754
+1218,"Antoine Dagher",756
+1219,"Jean-François Petiot",756
+1220,"Hervé Guyon",756
+1039,"Joseph A. Donndelinger",757
+1221,"Jeffrey A. Robinson",757
+1222,"Luke A. Wissmann",757
+1222,"Luke A. Wissmann",758
+1039,"Joseph A. Donndelinger",758
+1223,"Deepak Sankar Somasundaram",759
+887,"Mohamed B. Trabia",759
+885,"Lindsay Hanna",760
+48,"Jonathan Cagan",760
+886,"George S. Ladkany",761
+887,"Mohamed B. Trabia",761
+1224,"Dan Carlsen",762
+1225,"Matthew Malone",762
+1226,"Josh Kollat",762
+145,"Timothy W. Simpson",762
+1227,"Christopher D. Congdon",763
+1228,"Daniel E. Carlsen",763
+145,"Timothy W. Simpson",763
+769,"Jay D. Martin",763
+1229,"Mohamed M. Saada",764
+1230,"Mustafa H. Arafa",764
+12,"Ashraf O. Nassef",764
+1231,"Alireza Saremi",765
+1232,"Amir H. Birjandi",765
+227,"G. Gary Wang",765
+1233,"Tarek ElMekkawy",765
+699,"Eric Bibeau",765
+1234,"Santosh Tiwari",766
+201,"Georges Fadel",766
+1235,"Peter Fenyes",766
+541,"Jian Zhang",767
+1236,"Peihua Gu",767
+1237,"Nengsheng Bao",767
+1238,"Guojun Zhang",767
+1239,"Matthew P. Reed",768
+214,"Matthew B. Parkinson",768
+254,"Xiaoping Du",769
+1240,"Yi Zhang",769
+1241,"Robert C. Fromuth",770
+214,"Matthew B. Parkinson",770
+1242,"Yaoyao F. Zhao",771
+1243,"Xun W. Xu",771
+1244,"Sheng Q. Xie",771
+1245,"Tom R. Kramer",771
+1246,"Fred M. Proctor",771
+1247,"John L. Michaloski",771
+754,"Jianzhong Ruan",772
+1248,"Lie Tang",772
+753,"Todd E. Sparks",772
+1249,"Robert G. Landers",772
+898,"Frank Liou",772
+1250,"Andreas Kain",773
+1251,"Frank Hoisl",773
+27,"Kristina Shea",773
+1252,"Faryar Etesami",774
+1253,"Yu Song",775
+1254,"Joris S. M. Vergeest",775
+1255,"Tjamme Wiegers",775
+1256,"Hüseyin Erdim",777
+756,"Horea T. Ilies",777
+1257,"J.-P. Pernot",779
+1258,"B. Falcidieno",779
+1259,"F. Giannini",779
+1260,"J.-C. Léon",779
+1261,"Duane Storti",780
+1262,"Mark Ganter",780
+1263,"Karim A. Aguib",781
+1264,"Keith A. Hekman",781
+12,"Ashraf O. Nassef",781
+1265,"Tomohiro Mizoguchi",782
+1266,"Satoshi Kanai",782
+374,"Kristina Wärmefjord",784
+758,"Johan S. Carlson",784
+85,"Rikard Söderberg",784
+1267,"Steven Turek",785
+1268,"Sam Anand",785
+1269,"Carlos A. Trujillo",786
+1270,"Qiaode Jeffrey Ge",786
+1091,"Dan Zhang",787
+1092,"Zhen Gao",787
+1271,"XiaoLin Hu",787
+1272,"Jason Parise",787
+291,"Der-Min Tsay",788
+1273,"Hsin-Pao Chen",788
+292,"Sándor Vajna",788
+293,"Michael Schabacker",788
+1275,"Kaarthic Madhavan",789
+181,"David Shahan",789
+179,"Carolyn C. Seepersad",789
+1276,"Danny A. Hlavinka",789
+1277,"Walt Benson",789
+1278,"H. A. Chowdhury",790
+1279,"A. G. Olabi",790
+117,"Po Ting Lin",791
+575,"Yogesh Jaluria",791
+193,"Hae Chang Gea",791
+1091,"Dan Zhang",792
+1092,"Zhen Gao",792
+139,"Johan Ölvander",793
+584,"Xiaolong Feng",793
+1280,"Bo Holmgren",793
+1281,"Wei-Ju Chen",794
+1282,"Ching-Jui Chang",794
+193,"Hae Chang Gea",794
+997,"Anthony M. Roy",795
+998,"Erik K. Antonsson",795
+999,"Andrew A. Shapiro",795
+1283,"Matthew K. Chamberlain",796
+159,"Janet K. Allen",796
+160,"Farrokh Mistree",796
+1284,"M. Messer",797
+1285,"J. H. Panchal",797
+1286,"J. K. Allen",797
+1287,"F. Mistree",797
+1288,"V. Krishnamurthy",797
+1289,"B. Klein",797
+1290,"P. D. Yoder",797
+333,"Tamotsu Murakami",798
+1291,"Yosuke Kikuchi",798
+1292,"Youji Hiraoka",798
+55,"Felipe A. C. Viana",799
+673,"Raphael T. Haftka",799
+1293,"Daniel Wehrwein",800
+107,"Zissimos P. Mourelatos",800
+1294,"Xingjie Fang",801
+1088,"Liping Wang",801
+1089,"Don Beeson",801
+1295,"Gene Wiggs",801
+766,"David A. Romero",802
+915,"Cristina H. Amon",802
+916,"Susan Finger",802
+57,"Kuei-Yuan Chan",803
+1296,"Vijay K. Kalivarapu",804
+151,"Eliot H. Winer",804
+25,"James T. Allison",805
+43,"Panos Y. Papalambros",805
+1297,"Brian D. Roth",806
+1298,"Ilan M. Kroo",806
+1299,"Kenji Doi",807
+771,"Masataka Yoshimura",807
+587,"Shinji Nishiwaki",807
+1102,"Kazuhiro Izui",807
+771,"Masataka Yoshimura",808
+1300,"Yu Yoshimura",808
+1102,"Kazuhiro Izui",808
+587,"Shinji Nishiwaki",808
+1301,"Sisi Xuanyuan",809
+1302,"Zhaoliang Jiang",809
+1303,"Lalit Patil",809
+1304,"Yan Li",809
+1305,"Zhaoqian Li",809
+1306,"Richard Hauffe",810
+1307,"Constantine Samaras",810
+298,"Jeremy J. Michalek",810
+1308,"Rhys-Sheffer Birthwright",811
+54,"Achille Messac",811
+1309,"Timothy Harren-Lewis",811
+954,"Sirisha Rangavajhala",811
+1310,"Peter Sandborn",812
+1311,"Varun Prabhakar",812
+1312,"Bo Eriksson",812
+501,"Ritesh Khire",813
+1313,"Jiachuan Wang",813
+1314,"Trevor Bailey",813
+1315,"Yao Lin",813
+145,"Timothy W. Simpson",813
+1036,"Fabrice Alizon",814
+1316,"Jing Fu",814
+145,"Timothy W. Simpson",814
+1317,"Sanjay B. Joshi",814
+1020,"Steven B. Shooter",814
+1036,"Fabrice Alizon",815
+1318,"Tucker J. Marion",815
+1020,"Steven B. Shooter",815
+145,"Timothy W. Simpson",815
+1319,"Ronald S. Farrell",816
+145,"Timothy W. Simpson",816
+1320,"Xiaoli Ye",817
+1321,"John K. Gershenson",817
+51,"Seung Ki Moon",818
+145,"Timothy W. Simpson",818
+992,"Soundar R. T. Kumara",818
+1116,"Madan Mohan Dabbeeru",819
+1117,"Amitabha Mukerjee",819
+5,"Kikuo Fujita",820
+741,"Ryota Akai",820
+1322,"Geng Zhang",821
+819,"Efstratios Nikolaidis",821
+107,"Zissimos P. Mourelatos",821
+1323,"Erdem Acar",822
+1324,"Kiran Solanki",822
+595,"Masoud Rais-Rohani",822
+1325,"Mark F. Horstemeyer",822
+1326,"Chih-Hao Liu",823
+57,"Kuei-Yuan Chan",823
+264,"Ikjin Lee",824
+822,"Kyung K. Choi",824
+1134,"Liu Du",824
+256,"David Gorsich",824
+620,"Yoojeong Noh",825
+266,"K. K. Choi",825
+1134,"Liu Du",825
+1149,"Atsuro Iga",826
+587,"Shinji Nishiwaki",826
+1102,"Kazuhiro Izui",826
+771,"Masataka Yoshimura",826
+1327,"Albert Albers",828
+1328,"Jens Ottnad",828
+1329,"Pascal Häußler",828
+1330,"Johannes Minx",828
+1331,"Deepak Sharma",829
+1332,"Kalyanmoy Deb",829
+1333,"N. N. Kishore",829
+1334,"Thomas Kormeier",830
+1075,"Stephan Rudolph",830
+1335,"Mohamed S. Senousy",831
+456,"Hesham A. Hegazi",831
+60,"Sayed M. Metwalli",831
+1336,"T. Yamamoto",832
+1337,"S. Maruyama",832
+1338,"S. Nishiwaki",832
+1339,"M. Yoshimura",832
+585,"Takayuki Yamada",833
+1,"Shintaro Yamasaki",833
+587,"Shinji Nishiwaki",833
+1102,"Kazuhiro Izui",833
+771,"Masataka Yoshimura",833
+1340,"Loris Barbieri",834
+1341,"Fabio Bruno",834
+1342,"Maurizio Muzzupappa",834
+1343,"Umberto Cugini",834
+1344,"Ali R. Yildiz",836
+61,"Kazuhiro Saitou",836
+1345,"Hossein Ghiasi",837
+792,"Damiano Pasini",837
+842,"Larry Lessard",837
+1315,"Yao Lin",838
+1346,"Dong Luo",838
+1314,"Trevor Bailey",838
+501,"Ritesh Khire",838
+1313,"Jiachuan Wang",838
+145,"Timothy W. Simpson",838
+1347,"Xuyuan Liu",839
+1348,"Kwok-Leung Tsui",839
+185,"Wei Chen",839
+1349,"H. Sarin",840
+1350,"M. Kokkolaras",840
+1351,"G. Hulbert",840
+1352,"P. Papalambros",840
+1353,"S. Barbat",840
+1354,"R.-J. Yang",840
+1355,"Waleed M. A. Abd El-Hady",841
+60,"Sayed M. Metwalli",841
+5,"Kikuo Fujita",842
+1356,"Masanori Kuriyama",842
+1357,"Takashi Suyama",842
+1234,"Santosh Tiwari",843
+1358,"Joshua Summers",843
+201,"Georges Fadel",843
+1359,"Gilberto Mejía Rodríguez",845
+967,"John E. Renaud",845
+1360,"Vikas Tomar",845
+637,"Neal M. Patel",846
+967,"John E. Renaud",846
+1361,"Chandan Mozumder",846
+1362,"Manasi Tamhankar",847
+295,"Matthew I. Campbell",847
+1363,"Chaitanya Vempati",848
+295,"Matthew I. Campbell",848
+1364,"Andreas A. Malikopoulos",849
+43,"Panos Y. Papalambros",849
+1365,"Dennis N. Assanis",849
+1366,"Nuogang Sun",850
+1367,"Youyun Zhang",850
+1368,"Xuesong Mei",850
+1369,"Yoshinobu Kitamura",851
+1370,"Sunao Takafuji",851
+1371,"Riichiro Mizoguchi",851
+1372,"Jihong Liu",852
+1373,"Yong Wang",852
+1374,"C. Jebaraj",853
+1375,"G. Balakrishnan",853
+1172,"Shuting Zhang",854
+1173,"Xiang Chen",854
+751,"Shuming Gao",854
+1174,"Youdong Yang",854
+1376,"Zhiqiang Chen",855
+523,"Zahed Siddique",855
+1377,"Ashwin P. Gurnani",856
+70,"Kemper Lewis",856
+1216,"Ching-Shin Shiau",857
+1378,"Ian H. Tseng",857
+1379,"Andrew W. Heutchy",857
+1380,"Jeremy Michalek",857
+1216,"Ching-Shin Shiau",858
+1380,"Jeremy Michalek",858
+1381,"Surya Swamy",859
+47,"Seth Orsborn",859
+1380,"Jeremy Michalek",859
+48,"Jonathan Cagan",859
+1382,"Andrew T. Olewnik",860
+1190,"Kemper E. Lewis",860
+317,"Erin MacDonald",861
+42,"Richard Gonzalez",861
+1033,"Panos Papalambros",861
+1091,"Dan Zhang",862
+1383,"Zhuming Bi",862
+1384,"Yunjian Ge",862
+1385,"Y. Li",863
+868,"D. Xue",863
+871,"P. Gu",863
+104,"Scott Ferguson",864
+1386,"Afreen Siddiqi",864
+70,"Kemper Lewis",864
+340,"Olivier L. de Weck",864
+776,"Marcus Pettersson",865
+139,"Johan Ölvander",865
+383,"Adel Younis",866
+1387,"Ruoning Xu",866
+382,"Zuomin Dong",866
+1388,"Hungjen Wang",867
+1389,"Daniel D. Frey",867
+1390,"Gordon M. Kaufman",867
+1231,"Alireza Saremi",868
+1391,"Nasr Al-Hinai",868
+227,"G. Gary Wang",868
+1233,"Tarek ElMekkawy",868
+1392,"Amir-R. Khorsand",869
+227,"G. Gary Wang",869
+1393,"J. Raghavan",869
+1394,"Umakanth Sakaray",870
+887,"Mohamed B. Trabia",870
+1395,"Brendan J. O’Toole",870
+279,"Jagadeep Thota",870
+1396,"Yuan Mao Huang",871
+1397,"Kuo Juei Wang",871
+772,"Inna Turevsky",872
+1398,"Sankara Hari Gopalakrishnan",872
+773,"Krishnan Suresh",872
+1399,"Tiefu Shao",873
+1400,"Sundar Krishnamurthy",873
+38,"Harrison M. Kim",874
+1401,"I. Jessica Hidalgo",874
+1402,"Jing Han",875
+1403,"Koetsu Yamazaki",875
+1404,"Sadao Nishiyama",875
+1405,"Ryoichi Itoh",875
+888,"Christopher J. Garneau",876
+214,"Matthew B. Parkinson",876
+1403,"Koetsu Yamazaki",877
+1406,"Takanori Chihara",877
+1405,"Ryoichi Itoh",877
+1402,"Jing Han",877
+1404,"Sadao Nishiyama",877
+1407,"Lan Ren",878
+754,"Jianzhong Ruan",878
+1408,"Kunnayut Eiamsa-ard",878
+898,"Frank Liou",878
+1409,"Saneet A. Jawalkar",879
+295,"Matthew I. Campbell",879
+1410,"Pinghai Yang",880
+191,"Xiaoping Qian",880
+1411,"Kezheng Huang",881
+1412,"Yifan Chen",882
+1413,"Basavaraj Tonshal",882
+1414,"Tetsuzo Kuragano",883
+1415,"Akira Yamaguchi",883
+1416,"Hiroshi Masuda",884
+1417,"Kenta Ogawa",884
+1418,"Brian Bay",885
+1419,"Mike Bailey",885
+1420,"Xiaorui Chen",886
+1108,"Sara McMains",886
+1261,"Duane Storti",887
+1421,"Mark A. Ganter",887
+1422,"William R. Ledoux",887
+1423,"Randal P. Ching",887
+1424,"Yangqiu Patrick Hu",887
+1425,"David Haynor",887
+1426,"Y. Song",888
+1427,"J. S. M. Vergeest",888
+1428,"Nier Wu",889
+756,"Horea T. Ilies",889
+1256,"Hüseyin Erdim",890
+1429,"Horea Ilies",890
+1265,"Tomohiro Mizoguchi",891
+1430,"Hiroaki Date",891
+1266,"Satoshi Kanai",891
+1431,"Takeshi Kishinami",891
+1432,"R. J. Yang",892
+1433,"G. Li",892
+1434,"Y. Fu",892
+1435,"Wouter O. Schotborgh",894
+1436,"Maarten H. L. Röring",894
+1437,"Roxana Grigoras",894
+1438,"Frans G. M. Kokkeler",894
+1439,"Hans Tragter",894
+1440,"Fred J. A. M. van Houten",894
+1441,"Deepak Kumar",895
+349,"Chris Hoyle",895
+185,"Wei Chen",895
+1030,"Nanxin Wang",895
+1442,"Gianna Gomez-Levi",895
+1031,"Frank S. Koppelman",895
+1443,"Madhusudan Kayyar",896
+162,"Joshua D. Summers",896
+1027,"Farhad Ameri",896
+1444,"Sherrill Biggers",896
+51,"Seung Ki Moon",897
+145,"Timothy W. Simpson",897
+992,"Soundar R. T. Kumara",897
+333,"Tamotsu Murakami",898
+1445,"Yasushi Suehisa",898
+1446,"Hallie J. Kintner",899
+353,"Hae-Jin Choi",900
+159,"Janet K. Allen",900
+172,"Jitesh H. Panchal",901
+533,"Christiaan J. J. Paredis",901
+159,"Janet K. Allen",901
+160,"Farrokh Mistree",901
+23,"Rahul Rai",902
+295,"Matthew I. Campbell",902
+769,"Jay D. Martin",903
+913,"Christian Gogu",904
+673,"Raphael T. Haftka",904
+1447,"Satish K. Bapanapalli",904
+674,"Bhavani V. Sankar",904
+988,"Srikanth Tadepalli",905
+705,"Kristin L. Wood",905
+1143,"Ying Xiong",906
+185,"Wei Chen",906
+1348,"Kwok-Leung Tsui",906
+25,"James T. Allison",907
+223,"Michael Kokkolaras",907
+43,"Panos Y. Papalambros",907
+252,"Mian Li",908
+92,"Shapour Azarm",908
+1448,"Shaoluo L. Butler",909
+639,"Anoop K. Dhingra",909
+1449,"Jeongwoo Han",910
+1033,"Panos Papalambros",910
+1450,"Yanjing Li",911
+1451,"Zhaosong Lu",911
+298,"Jeremy J. Michalek",911
+1452,"Jitendra Prasad",912
+1453,"Alejandro R. Diaz",912
+1454,"Hannah Muchnick",913
+159,"Janet K. Allen",913
+1049,"David L. McDowell",913
+160,"Farrokh Mistree",913
+124,"Zhimin Xi",914
+111,"Byeng D. Youn",914
+622,"Matthias Messer",915
+172,"Jitesh H. Panchal",915
+159,"Janet K. Allen",915
+1049,"David L. McDowell",915
+160,"Farrokh Mistree",915
+1455,"Thomas R. Langerak",916
+1254,"Joris S. M. Vergeest",916
+940,"Ayman M. A. Youssef",917
+12,"Ashraf O. Nassef",917
+60,"Sayed M. Metwalli",917
+1456,"Samuel Sai-Man Li",918
+1457,"Charlie C. L. Wang",918
+1458,"Kin-Chuen Hui",918
+1459,"Athulan Vijayaraghavan",919
+1460,"David A. Dornfeld",919
+1067,"S. M. Mahbub Murshed",920
+208,"Jami J. Shah",920
+1461,"Vadivel Jagasivamani",920
+1462,"Ayman Wasfy",920
+1463,"David W. Hislop",920
+771,"Masataka Yoshimura",921
+1464,"Koichi Sasaki",921
+1102,"Kazuhiro Izui",921
+587,"Shinji Nishiwaki",921
+1465,"Toru Matsushima",922
+587,"Shinji Nishiwaki",922
+1466,"Shintarou Yamasaki",922
+1102,"Kazuhiro Izui",922
+771,"Masataka Yoshimura",922
+584,"Xiaolong Feng",923
+1467,"Shiva Sander-Tavallaey",923
+139,"Johan Ölvander",923
+1468,"Björn Johansson",924
+776,"Marcus Pettersson",924
+139,"Johan Ölvander",924
+1469,"Henri J. Thevenot",925
+145,"Timothy W. Simpson",925
+1036,"Fabrice Alizon",926
+1020,"Steven B. Shooter",926
+145,"Timothy W. Simpson",926
+1036,"Fabrice Alizon",927
+51,"Seung Ki Moon",927
+1020,"Steven B. Shooter",927
+145,"Timothy W. Simpson",927
+1470,"Jaeil Park",928
+212,"Dongmin Shin",928
+1471,"Huijun Song",929
+1080,"Deyi Xue",929
+1472,"Yiliu Tu",929
+393,"Conrad S. Tucker",930
+38,"Harrison M. Kim",930
+1473,"Bryan R. Dolan",931
+1190,"Kemper E. Lewis",931
+1208,"Aida Khajavirad",932
+298,"Jeremy J. Michalek",932
+1208,"Aida Khajavirad",933
+298,"Jeremy J. Michalek",933
+1474,"Shafin Tauhid",934
+1475,"Hakan U. Artar",934
+1029,"Saraj Gupta",934
+481,"Gül E. Okudan",934
+1477,"Haruki Kariya",935
+1102,"Kazuhiro Izui",935
+587,"Shinji Nishiwaki",935
+771,"Masataka Yoshimura",935
+1478,"Yoshiya Ogihara",935
+1479,"Shuichi Hayashi",935
+1480,"Roger Jianxin Jiao",936
+1481,"Linda Lianfeng Zhang",936
+1482,"Mohit Goswami",937
+1483,"Venkat Allada",937
+1484,"Chang Muk Kang",938
+1485,"Yoo Suk Hong",938
+1486,"Lihui Wang",939
+1487,"Hsi-Yung Feng",939
+1488,"Changjin Song",939
+1489,"Wei Jin",939
+1490,"Yee Mey Goh",940
+1491,"Chris McMahon",940
+1492,"Julian Booker",940
+254,"Xiaoping Du",941
+1493,"Li Du",942
+1494,"Liping He",942
+260,"Hong-Zhong Huang",942
+445,"Jing Li",943
+107,"Zissimos P. Mourelatos",943
+950,"Ramon C. Kuczera",944
+107,"Zissimos P. Mourelatos",944
+1495,"Michael Latcha",944
+1496,"Walid Ben Ahmed",945
+300,"Bernard Yannou",945
+264,"Ikjin Lee",946
+822,"Kyung K. Choi",946
+1134,"Liu Du",946
+256,"David Gorsich",946
+822,"Kyung K. Choi",947
+620,"Yoojeong Noh",947
+1134,"Liu Du",947
+1134,"Liu Du",948
+822,"Kyung K. Choi",948
+264,"Ikjin Lee",948
+1497,"Jason Matthew Aughenbaugh",949
+1021,"Jeffrey W. Herrmann",949
+954,"Sirisha Rangavajhala",950
+54,"Achille Messac",950
+1081,"Victor Picheny",951
+1498,"Nam-Ho Kim",951
+673,"Raphael T. Haftka",951
+1499,"S. Shan",952
+227,"G. Gary Wang",952
+109,"Pingfeng Wang",953
+111,"Byeng D. Youn",953
+1500,"Lee J. Wells",953
+1050,"Xiaolei Yin",954
+185,"Wei Chen",954
+1501,"Sang Hoon Lee",955
+185,"Wei Chen",955
+111,"Byeng D. Youn",956
+109,"Pingfeng Wang",956
+124,"Zhimin Xi",956
+934,"David J. Gorsich",956
+1500,"Lee J. Wells",957
+111,"Byeng D. Youn",957
+124,"Zhimin Xi",957
+111,"Byeng D. Youn",958
+124,"Zhimin Xi",958
+1500,"Lee J. Wells",958
+934,"David J. Gorsich",958
+1502,"Felipe Antonio Chegury Viana",960
+1503,"Fernando César Gama de Oliveira",960
+1504,"Jose Antonio Ferreria Borges",960
+1505,"Valder Steffen, Jr.",960
+1506,"Anupam Saxena",961
+194,"Bin Zheng",962
+1282,"Ching-Jui Chang",962
+193,"Hae Chang Gea",962
+1507,"Fabien Nicaise",963
+998,"Erik K. Antonsson",963
+1508,"Daniela Faas",964
+1509,"Andrew Fischer",964
+1157,"Judy M. Vance",964
+147,"Gary Stump",965
+1510,"Sara Lego",965
+1511,"Mike Yukish",965
+145,"Timothy W. Simpson",965
+1039,"Joseph A. Donndelinger",965
+683,"Maura Mengoni",966
+428,"Michele Germani",966
+1512,"Monica Bordegoni",966
+1513,"Daniel R. Abbott",967
+1514,"Katie Grantham Lough",967
+1515,"Ruqin Zhang",968
+1004,"Christian Noon",968
+459,"Eliot Winer",968
+1516,"James H. Oliver",968
+1517,"Brian Gilmore",968
+1518,"Jerry Duncan",968
+1206,"Li Chen",969
+49,"Simon Li",969
+1334,"Thomas Kormeier",970
+1075,"Stephan Rudolph",970
+1411,"Kezheng Huang",971
+232,"Wei Li",972
+345,"Yan Jin",972
+1007,"Ryan S. Hutcheson",973
+1519,"Robert L. Jordan, Jr.",973
+864,"Robert B. Stone",973
+1520,"Janis P. Terpenny",973
+1521,"Xiaomeng Chang",973
+1522,"Jian Wan",974
+1030,"Nanxin Wang",974
+1442,"Gianna Gomez-Levi",974
+1398,"Sankara Hari Gopalakrishnan",975
+773,"Krishnan Suresh",975
+1523,"Srinivasan Anandan",976
+1524,"Sudhakar Teegavarapu",976
+162,"Joshua D. Summers",976
+1525,"Yuming Qiu",977
+1526,"Ping Ge",977
+1527,"Solomon C. Yim",977
+1528,"Jayaram Gopalakrishnan",978
+410,"Tarunraj Singh",978
+70,"Kemper Lewis",978
+1027,"Farhad Ameri",979
+1529,"Khurshid Qureshi",979
+1530,"Jonathan Osborn",980
+1531,"Timothy J. Troy",980
+1532,"Gregory Smith",980
+162,"Joshua D. Summers",980
+1533,"Murali M. R. Krishna",981
+1534,"Aaron Stange",981
+214,"Matthew B. Parkinson",982
+1239,"Matthew P. Reed",982
+8,"Karim Hamza",983
+61,"Kazuhiro Saitou",983
+637,"Neal M. Patel",984
+1535,"Byung-Soo Kang",984
+967,"John E. Renaud",984
+1536,"Sebastien J. Wolff",985
+1537,"Imme Ebert-Uphoff",985
+1538,"Tsuyoshi Koga",986
+468,"Kazuhiro Aoyama",986
+1396,"Yuan Mao Huang",987
+1539,"Yu-Chung Liao",987
+1540,"Zhijun Li",988
+223,"Michael Kokkolaras",988
+1541,"Luis E. Izquierdo",988
+1542,"S. Jack Hu",988
+43,"Panos Y. Papalambros",988
+1543,"Kevin McBrearty",989
+692,"Richard A. Wysk",989
+1544,"Sanjay Joshi",989
+333,"Tamotsu Murakami",990
+1545,"Michiki Nakano",990
+1413,"Basavaraj Tonshal",991
+1412,"Yifan Chen",991
+1546,"Pietro Buttolo",991
+1547,"Amol Ghorpade",992
+1548,"Yogesh Dashroa",992
+1549,"M. K. Tiwari",992
+1550,"K. P. Karunakaran",992
+1551,"Jafar Jamshidi",993
+1552,"Antony Roy Mileham",993
+1553,"Geraint Wyn Owen",993
+1554,"Gaurav Ameta",994
+209,"Joseph K. Davidson",994
+208,"Jami J. Shah",994
+175,"Yan Wang",995
+1269,"Carlos A. Trujillo",996
+1555,"Q. J. Ge",996
+1556,"Ramy Harik",997
+1557,"Gabriel Ris",997
+1558,"Kazuyuki Sugimura",998
+1559,"Naesung Lyu",999
+1560,"Amane Shimura",999
+61,"Kazuhiro Saitou",999
+1561,"Pradeep George",1000
+193,"Hae Chang Gea",1000
+575,"Yogesh Jaluria",1000
+51,"Seung Ki Moon",1001
+992,"Soundar R. T. Kumara",1001
+145,"Timothy W. Simpson",1001
+604,"Yutaka Nomaguchi",1002
+1562,"Tomohiro Taguchi",1002
+5,"Kikuo Fujita",1002
+481,"Gül E. Okudan",1003
+1563,"Madara Ogot",1003
+1564,"Girish Rao",1003
+1565,"Marcus Sandberg",1004
+1566,"Tobias Larsson",1004
+1567,"Tyler Streeter",1005
+1568,"James Oliver",1005
+1569,"Adrian Sannier",1005
+1570,"Mark Snider",1006
+1524,"Sudhakar Teegavarapu",1006
+1571,"D. Scott Hesser",1006
+162,"Joshua D. Summers",1006
+23,"Rahul Rai",1007
+295,"Matthew I. Campbell",1007
+766,"David A. Romero",1008
+915,"Cristina H. Amon",1008
+916,"Susan Finger",1008
+252,"Mian Li",1009
+1572,"Genzi Li",1009
+92,"Shapour Azarm",1009
+227,"G. Gary Wang",1010
+1499,"S. Shan",1010
+1573,"Vladimir Gantovnik",1012
+201,"Georges Fadel",1012
+1574,"Zafer Gürdal",1012
+1399,"Tiefu Shao",1013
+1575,"Sundar Krishnamurty",1013
+1576,"Abdelbasset Hamdi",1014
+300,"Bernard Yannou",1014
+1577,"Eric Landel",1014
+1578,"Jordan J. Cox",1015
+1579,"Brent L. Adams",1015
+1580,"David T. Fullwood",1015
+1581,"Denise Halverson",1015
+1582,"Peng Wei",1016
+746,"Michael Yu Wang",1016
+1583,"Ki-Hoon Shin",1017
+1584,"Long Ge",1018
+675,"Nam Ho Kim",1018
+1585,"Gerald R. Bourne",1018
+1586,"W. Gregory Sawyer",1018
+1587,"Aravind Alwan",1019
+1588,"G. K. Ananthasuresh",1019
+1589,"Carolyn Conner Seepersad",1020
+159,"Janet K. Allen",1020
+1049,"David L. McDowell",1020
+160,"Farrokh Mistree",1020
+172,"Jitesh H. Panchal",1021
+353,"Hae-Jin Choi",1021
+159,"Janet K. Allen",1021
+1049,"David L. McDowell",1021
+160,"Farrokh Mistree",1021
+1454,"Hannah Muchnick",1022
+1590,"Stephanie C. Thompson",1022
+1591,"Emad Samadiani",1022
+159,"Janet K. Allen",1022
+1592,"Yogendra Joshi",1022
+160,"Farrokh Mistree",1022
+1593,"David Ferrari",1023
+1594,"Geoff West",1023
+1595,"Bernard Rolfe",1023
+1596,"Michael Cardew-Hall",1023
+756,"Horea T. Ilies",1024
+1597,"Wei Zhao",1025
+751,"Shuming Gao",1025
+1066,"Yusheng Liu",1025
+1598,"Jiaqin Chen",1026
+1599,"Vadim Shapiro",1026
+773,"Krishnan Suresh",1026
+1600,"Igor Tsukanov",1026
+1601,"Xiangdong Yang",1027
+1602,"Dongchao Yang",1027
+1603,"Jing Xiong",1027
+1604,"Ken Chen",1027
+1605,"Ting-Li Yang",1027
+1603,"Jing Xiong",1028
+1605,"Ting-Li Yang",1028
+1601,"Xiangdong Yang",1028
+1602,"Dongchao Yang",1028
+1604,"Ken Chen",1028
+1234,"Santosh Tiwari",1029
+201,"Georges Fadel",1029
+1573,"Vladimir Gantovnik",1029
+1606,"Hong Dong",1030
+561,"Georges M. Fadel",1030
+936,"Vincent Y. Blouin",1030
+1607,"Sourav Rakshit",1031
+1588,"G. K. Ananthasuresh",1031
+1104,"Masakazu Kobayashi",1032
+1608,"Hiroshi Yamakawa",1032
+587,"Shinji Nishiwaki",1032
+1102,"Kazuhiro Izui",1032
+771,"Masataka Yoshimura",1032
+1609,"Francesca Bolognini",1033
+27,"Kristina Shea",1033
+1610,"Christopher W. Vale",1033
+1611,"Ashwin A. Seshia",1033
+1030,"Nanxin Wang",1034
+1612,"Vijitha Kiridena",1034
+1442,"Gianna Gomez-Levi",1034
+1522,"Jian Wan",1034
+1613,"Steven Sieczka",1034
+1614,"David Pulliam",1034
+1282,"Ching-Jui Chang",1035
+193,"Hae Chang Gea",1035
+194,"Bin Zheng",1036
+193,"Hae Chang Gea",1036
+298,"Jeremy J. Michalek",1037
+43,"Panos Y. Papalambros",1037
+1615,"Elizabeth A. Cudney",1038
+1616,"Kioumars Paryani",1038
+1617,"Kenneth M. Ragsdell",1038
+49,"Simon Li",1039
+1206,"Li Chen",1039
+771,"Masataka Yoshimura",1040
+1300,"Yu Yoshimura",1040
+1102,"Kazuhiro Izui",1040
+587,"Shinji Nishiwaki",1040
+1163,"Chan Yu",1041
+1618,"Nan Liu",1041
+1164,"Kishore Pochiraju",1041
+1165,"Souran Manoochehri",1041
+1619,"K. H. Ko",1041
+1620,"Paul Witherell",1042
+1575,"Sundar Krishnamurty",1042
+1621,"Ian R. Grosse",1042
+1401,"I. Jessica Hidalgo",1043
+38,"Harrison M. Kim",1043
+1622,"Jeffrey D. Wishart",1044
+382,"Zuomin Dong",1044
+1623,"Marc M. Secanell",1044
+1624,"Ali Farhang Mehr",1045
+143,"Irem Y. Tumer",1045
+340,"Olivier L. de Weck",1046
+1625,"Eun Suk Suh",1046
+145,"Timothy W. Simpson",1048
+1626,"Tucker Marion",1048
+1627,"Olivier de Weck",1048
+424,"Katja Hölttä-Otto",1048
+223,"Michael Kokkolaras",1048
+1629,"Steve B. Shooter",1048
+1630,"Elizabeth D. Steva",1049
+1631,"Elizabeth N. Rice",1049
+1318,"Tucker J. Marion",1049
+145,"Timothy W. Simpson",1049
+864,"Robert B. Stone",1049
+1469,"Henri J. Thevenot",1050
+145,"Timothy W. Simpson",1050
+319,"Michael J. Scott",1052
+1632,"Juan Carlos García Arenillas",1052
+145,"Timothy W. Simpson",1052
+1633,"Somasundaram Valliyappan",1052
+1483,"Venkat Allada",1052
+1634,"Ritesh A. Khire",1053
+54,"Achille Messac",1053
+1319,"Ronald S. Farrell",1054
+145,"Timothy W. Simpson",1054
+1635,"Darren A. Keese",1055
+1636,"Neha P. Takawale",1055
+179,"Carolyn C. Seepersad",1055
+705,"Kristin L. Wood",1055
+1637,"Huibin Lui",1056
+185,"Wei Chen",1056
+319,"Michael J. Scott",1056
+1529,"Khurshid Qureshi",1056
+1036,"Fabrice Alizon",1057
+1020,"Steven B. Shooter",1057
+145,"Timothy W. Simpson",1057
+1036,"Fabrice Alizon",1058
+1020,"Steven B. Shooter",1058
+145,"Timothy W. Simpson",1058
+1638,"Bernhard Bettig",1059
+1321,"John K. Gershenson",1059
+1483,"Venkat Allada",1060
+1639,"Abhijit K. Choudhury",1060
+1640,"Padmavathi K. Pakala",1060
+145,"Timothy W. Simpson",1060
+319,"Michael J. Scott",1060
+1633,"Somasundaram Valliyappan",1060
+1641,"Stewart M. Skiles",1061
+1642,"Vikramjit Singh",1061
+1643,"Jarden Krager",1061
+1589,"Carolyn Conner Seepersad",1061
+705,"Kristin L. Wood",1061
+35,"Dan Jensen",1061
+754,"Jianzhong Ruan",1062
+1407,"Lan Ren",1062
+753,"Todd E. Sparks",1062
+898,"Frank Liou",1062
+1644,"Kuntal Samanta",1063
+1645,"Bahattin Koc",1063
+1408,"Kunnayut Eiamsa-ard",1064
+1646,"F. W. Liou",1064
+1407,"Lan Ren",1064
+1647,"H. Choset",1064
+1648,"Rahul Khardekar",1065
+1108,"Sara McMains",1065
+1649,"Abdalla Elbella",1066
+1650,"Vishal Rami",1066
+1651,"Jyothi Hogirala",1066
+254,"Xiaoping Du",1067
+254,"Xiaoping Du",1068
+1095,"N. Williams",1069
+572,"S. Azarm",1069
+93,"P. K. Kannan",1069
+1497,"Jason Matthew Aughenbaugh",1070
+1652,"Scott Duncan",1070
+533,"Christiaan J. J. Paredis",1070
+1653,"Bert Bras",1070
+1654,"Jun Zhou",1071
+107,"Zissimos P. Mourelatos",1071
+1655,"Morgan Bruns",1072
+533,"Christiaan J. J. Paredis",1072
+1656,"Jinghong Liang",1073
+107,"Zissimos P. Mourelatos",1073
+819,"Efstratios Nikolaidis",1073
+1657,"Apurva Kumar",1074
+1658,"A. J. Keane",1074
+1659,"P. B. Nair",1074
+1660,"S. Shahpar",1074
+1514,"Katie Grantham Lough",1075
+864,"Robert B. Stone",1075
+1661,"Irem Tumer",1075
+57,"Kuei-Yuan Chan",1076
+1662,"Steven J. Skerlos",1076
+43,"Panos Y. Papalambros",1076
+172,"Jitesh H. Panchal",1077
+533,"Christiaan J. J. Paredis",1077
+159,"Janet K. Allen",1077
+160,"Farrokh Mistree",1077
+1663,"Subroto Gunawan",1078
+43,"Panos Y. Papalambros",1078
+1399,"Tiefu Shao",1079
+1575,"Sundar Krishnamurty",1079
+1664,"Jun Liu",1080
+233,"Daniel W. Apley",1080
+185,"Wei Chen",1080
+1007,"Ryan S. Hutcheson",1081
+948,"Daniel A. McAdams",1081
+864,"Robert B. Stone",1081
+143,"Irem Y. Tumer",1081
+185,"Wei Chen",1082
+1143,"Ying Xiong",1082
+1348,"Kwok-Leung Tsui",1082
+1665,"Shuchun Wang",1082
+1618,"Nan Liu",1083
+1165,"Souran Manoochehri",1083
+1163,"Chan Yu",1083
+1134,"Liu Du",1084
+822,"Kyung K. Choi",1084
+264,"Ikjin Lee",1085
+822,"Kyung K. Choi",1085
+1134,"Liu Du",1085
+293,"Michael Schabacker",1086
+1666,"Moh Sabeur",1086
+292,"Sándor Vajna",1086
+1667,"Yu Kimishima",1087
+1668,"Hideki Aoyama",1087
+1669,"Asli Sahin",1088
+1520,"Janis P. Terpenny",1088
+1670,"Richard M. Goff",1088
+1671,"Vivek Attaluri",1089
+948,"Daniel A. McAdams",1089
+864,"Robert B. Stone",1089
+1672,"Andrea De Crescenzo",1089
+1673,"Andreas Nordgren",1090
+1668,"Hideki Aoyama",1090
+232,"Wei Li",1091
+345,"Yan Jin",1091
+1496,"Walid Ben Ahmed",1092
+1674,"Mounib Mekhilef",1092
+1675,"Michel Bigand",1092
+1676,"Yves Page",1092
+1677,"Kevin Rawson",1093
+1678,"Thomas F. Stahovich",1093
+1679,"Kaivan Kamali",1094
+1680,"Lijun Jiang",1094
+1681,"John Yen",1094
+1682,"K. W. Wang",1094
+1683,"Q. Z. Yang",1095
+1684,"W. F. Lu",1095
+1685,"Vincent Chanron",1096
+70,"Kemper Lewis",1096
+1686,"Yayoi Murase",1096
+1102,"Kazuhiro Izui",1096
+587,"Shinji Nishiwaki",1096
+771,"Masataka Yoshimura",1096
+481,"Gül E. Okudan",1097
+1687,"Deborah J. Medeiros",1097
+771,"Masataka Yoshimura",1098
+1688,"Tsutomu Nishimura",1098
+1102,"Kazuhiro Izui",1098
+1468,"Björn Johansson",1099
+1689,"Peter Hehenberger",1100
+1690,"Klaus Zeman",1100
+868,"D. Xue",1101
+1691,"H. Yang",1101
+1111,"Y. L. Tu",1101
+1091,"Dan Zhang",1102
+1486,"Lihui Wang",1102
+1692,"Petter Krus",1103
+1693,"Haoyu Wang",1104
+1694,"Utpal Roy",1104
+1695,"A. R. Rao",1105
+1658,"A. J. Keane",1105
+1696,"J. P. Scanlan",1105
+628,"Andrew Olewnik",1106
+70,"Kemper Lewis",1106
+1697,"Tung-King See",1107
+70,"Kemper Lewis",1107
+298,"Jeremy J. Michalek",1108
+1698,"Oben Ceryan",1108
+43,"Panos Y. Papalambros",1108
+1699,"Yoram Koren",1108
+1634,"Ritesh A. Khire",1109
+1700,"Anoop A. Mullur",1109
+54,"Achille Messac",1109
+1701,"Kenji Iino",1110
+1702,"Yotaro Hatamura",1110
+1702,"Yotaro Hatamura",1111
+1703,"Masumi Sekita",1111
+1704,"Masahiro Terabe",1112
+1705,"Naohiro Yabuta",1112
+1706,"Jun Kawai",1112
+1707,"Takeo Ohashi",1112
+1708,"Masayuki Nakao",1112
+1709,"K. H. Hwang",1113
+1710,"G. J. Park",1113
+1711,"Eliab Z. Opiyo",1114
+1691,"H. Yang",1115
+868,"D. Xue",1115
+1111,"Y. L. Tu",1115
+1712,"James Allison",1116
+223,"Michael Kokkolaras",1116
+1033,"Panos Papalambros",1116
+1713,"Ashwin Gurnani",1117
+104,"Scott Ferguson",1117
+657,"Joseph Donndelinger",1117
+70,"Kemper Lewis",1117
+1714,"Masao Arakawa",1118
+776,"Marcus Pettersson",1119
+1715,"Johan Andersson",1119
+1692,"Petter Krus",1119
+5,"Kikuo Fujita",1120
+1716,"Tomoki Ushiro",1120
+1717,"Noriyasu Hirokawa",1120
+1674,"Mounib Mekhilef",1121
+1718,"Hlynur Kristinsson",1122
+1719,"Magnus Thor Jonsson",1122
+1720,"Fjola Jonsdottir",1122
+1721,"Maged R. Abd El Malek",1123
+1335,"Mohamed S. Senousy",1123
+456,"Hesham A. Hegazi",1123
+60,"Sayed M. Metwalli",1123
+1335,"Mohamed S. Senousy",1124
+456,"Hesham A. Hegazi",1124
+60,"Sayed M. Metwalli",1124
+300,"Bernard Yannou",1125
+1722,"Faysal Moreno",1125
+1469,"Henri J. Thevenot",1125
+145,"Timothy W. Simpson",1125
+1723,"Manuel-Angel Gonzalez-Chapa",1126
+1724,"Jose-Ramon Vega-Galaz",1126
+1725,"Brian C. Fabien",1127
+1726,"Lance M. Powers",1128
+162,"Joshua D. Summers",1128
+1727,"Peter Hallberg",1129
+1692,"Petter Krus",1129
+1728,"Lars Austrin",1129
+74,"Tomonori Honda",1130
+1507,"Fabien Nicaise",1130
+998,"Erik K. Antonsson",1130
+172,"Jitesh H. Panchal",1131
+1729,"Marco Gero Fernández",1131
+159,"Janet K. Allen",1131
+533,"Christiaan J. J. Paredis",1131
+160,"Farrokh Mistree",1131
+1730,"Alex C. Starling",1132
+27,"Kristina Shea",1132
+1731,"Xiang Li",1133
+1389,"Daniel D. Frey",1133
+1412,"Yifan Chen",1134
+1413,"Basavaraj Tonshal",1134
+1732,"Ali Saeed",1134
+1733,"Roland Stolt",1135
+1734,"Robert Scott Pierce",1136
+1735,"David Rosen",1136
+1736,"Talib Bhabhrawala",1137
+1737,"Venkat Krovi",1137
+1738,"V. Cheutet",1138
+1739,"J. P. Pernot",1138
+1740,"J. C. Léon",1138
+1258,"B. Falcidieno",1138
+1259,"F. Giannini",1138
+1554,"Gaurav Ameta",1139
+209,"Joseph K. Davidson",1139
+208,"Jami J. Shah",1139
+1554,"Gaurav Ameta",1140
+209,"Joseph K. Davidson",1140
+208,"Jami J. Shah",1140
+1741,"Shingo Takeuchi",1141
+61,"Kazuhiro Saitou",1141
+496,"Yong Chen",1142
+1742,"Hongqing Wang",1142
+176,"David W. Rosen",1142
+1743,"Jarek Rossignac",1142
+1744,"Shiqiao Li",1143
+208,"Jami J. Shah",1143
+1745,"Yi Miao",1144
+561,"Georges M. Fadel",1144
+1420,"Xiaorui Chen",1145
+1108,"Sara McMains",1145
+1746,"Dhanannjay Deo",1146
+1747,"Dibakar Sen",1146
+1748,"Zhengshu Shen",1147
+208,"Jami J. Shah",1147
+209,"Joseph K. Davidson",1147
+1749,"Sun Yuguo",1148
+1750,"Young-Il Kim",1149
+1751,"Cha-Soo Jun",1149
+1752,"Yuliang Shen",1150
+1753,"Shaopu Yang",1150
+1754,"Cunzhi Pan",1150
+822,"Kyung K. Choi",1151
+1755,"Kiyoung Yi",1151
+1756,"Nam H. Kim",1151
+1757,"Mark E. Botkin",1151
+1758,"M. K. Shin",1152
+1759,"B. S. Kang",1152
+1760,"Y. I. Kim",1152
+1761,"S. I. Yi",1152
+1710,"G. J. Park",1152
+1762,"K. J. Craig",1153
+1763,"D. J. de Kock",1153
+1764,"G. J. de Wet",1153
+1765,"L. J. Haarhoff",1153
+1766,"C. A. Pretorius",1153
+1767,"Stella Maris Oggianu",1155
+1768,"Razvan Florea",1155
+1769,"J. Ricardo Muñoz",1155
+1770,"Guido Poncia",1155
+1771,"Thierry Carriere",1155
+1346,"Dong Luo",1155
+1772,"Rajesh Subramanian",1156
+1773,"H. James de St. Germain",1156
+1774,"Samuel Drake",1156
+1775,"Young H. Choi",1157
+1776,"Jin H. Hong",1157
+1777,"Sung H. Jang",1157
+635,"Yan Fu",1158
+1778,"Ruichen Jin",1158
+1606,"Hong Dong",1159
+561,"Georges M. Fadel",1159
+936,"Vincent Y. Blouin",1159
+1779,"Maki K. Rashid",1160
+1780,"Abdullah M. Al-Shabibi",1160
+1781,"B. Vermeulen",1161
+1782,"M. J. L. van Tooren",1161
+1783,"L. J. B. Peeters",1161
+1784,"Jyotirmaya Nanda",1162
+145,"Timothy W. Simpson",1162
+1020,"Steven B. Shooter",1162
+864,"Robert B. Stone",1162
+1619,"K. H. Ko",1163
+1785,"C. Yu",1163
+1786,"K. Pochiraju",1163
+1787,"S. Manoochehri",1163
+1374,"C. Jebaraj",1164
+1788,"D. Kingsly Jeba Singh",1164
+1700,"Anoop A. Mullur",1165
+54,"Achille Messac",1165
+1789,"Cameron J. Turner",1166
+706,"Richard H. Crawford",1166
+1790,"T. Zhang",1167
+266,"K. K. Choi",1167
+1791,"S. Rahman",1167
+1088,"Liping Wang",1168
+1089,"Don Beeson",1168
+1792,"Srikanth Akkaram",1168
+1295,"Gene Wiggs",1168
+1561,"Pradeep George",1169
+1563,"Madara Ogot",1169
+1589,"Carolyn Conner Seepersad",1170
+159,"Janet K. Allen",1170
+1049,"David L. McDowell",1170
+160,"Farrokh Mistree",1170
+1793,"Stephen D. Sintay",1171
+1579,"Brent L. Adams",1171
+936,"Vincent Y. Blouin",1172
+1794,"Martin Oschwald",1172
+1795,"Yuna Hu",1172
+561,"Georges M. Fadel",1172
+172,"Jitesh H. Panchal",1173
+353,"Hae-Jin Choi",1173
+1796,"Jim Shephard",1173
+159,"Janet K. Allen",1173
+1049,"David L. McDowell",1173
+160,"Farrokh Mistree",1173
+353,"Hae-Jin Choi",1174
+159,"Janet K. Allen",1174
+1735,"David Rosen",1174
+1049,"David L. McDowell",1174
+160,"Farrokh Mistree",1174
+1797,"Shiwei Zhou",1175
+746,"Michael Yu Wang",1175
+1798,"Alejandro Diaz",1176
+1799,"Ranjan Mukherjee",1176
+1452,"Jitendra Prasad",1177
+1798,"Alejandro Diaz",1177
+8,"Karim Hamza",1178
+61,"Kazuhiro Saitou",1178
+1800,"Akihiro Takezawa",1179
+587,"Shinji Nishiwaki",1179
+1102,"Kazuhiro Izui",1179
+771,"Masataka Yoshimura",1179
+1801,"Siang-Kok Sim",1180
+1802,"Meng-Leong Tay",1180
+1803,"Ahmad Khairyanto",1180
+193,"Hae Chang Gea",1181
+1804,"Jaehyun Kwon",1181
+194,"Bin Zheng",1182
+193,"Hae Chang Gea",1182
+1805,"Bethany M. Byron",1183
+1020,"Steven B. Shooter",1183
+1470,"Jaeil Park",1184
+145,"Timothy W. Simpson",1184
+1784,"Jyotirmaya Nanda",1185
+1469,"Henri J. Thevenot",1185
+145,"Timothy W. Simpson",1185
+1206,"Li Chen",1186
+1806,"Ashish Macwan",1186
+1206,"Li Chen",1187
+49,"Simon Li",1187
+1807,"Satish V. K. Akundi",1188
+145,"Timothy W. Simpson",1188
+389,"Patrick M. Reed",1188
+1469,"Henri J. Thevenot",1189
+1784,"Jyotirmaya Nanda",1189
+145,"Timothy W. Simpson",1189
+523,"Zahed Siddique",1190
+1808,"Rakesh S. Kulkarni",1191
+159,"Janet K. Allen",1191
+160,"Farrokh Mistree",1191
+1519,"Robert L. Jordan, Jr.",1192
+1809,"Mike Van Wie",1192
+864,"Robert B. Stone",1192
+1313,"Jiachuan Wang",1192
+1810,"Janis Terpenny",1192
+1811,"Rupesh Kumar",1193
+1483,"Venkat Allada",1193
+1812,"Shuyou Zhang",1194
+1813,"Harry H. Cheng",1194
+1814,"Lianfeng Zhang",1195
+1815,"Jianxin Jiao",1195
+1816,"Shaligram Pokharel",1195
+214,"Matthew B. Parkinson",1196
+1239,"Matthew P. Reed",1196
+223,"Michael Kokkolaras",1196
+43,"Panos Y. Papalambros",1196
+57,"Kuei-Yuan Chan",1197
+1662,"Steven J. Skerlos",1197
+43,"Panos Y. Papalambros",1197
+914,"Songqing Shan",1198
+227,"G. Gary Wang",1198
+1663,"Subroto Gunawan",1199
+43,"Panos Y. Papalambros",1199
+1817,"Beiqing Huang",1200
+254,"Xiaoping Du",1200
+107,"Zissimos P. Mourelatos",1201
+1654,"Jun Zhou",1201
+1050,"Xiaolei Yin",1202
+185,"Wei Chen",1202
+1818,"Huibin Liu",1203
+185,"Wei Chen",1203
+223,"Michael Kokkolaras",1203
+43,"Panos Y. Papalambros",1203
+38,"Harrison M. Kim",1203
+769,"Jay D. Martin",1204
+145,"Timothy W. Simpson",1204
+107,"Zissimos P. Mourelatos",1205
+1656,"Jinghong Liang",1205
+1657,"Apurva Kumar",1206
+1658,"A. J. Keane",1206
+1659,"P. B. Nair",1206
+1660,"S. Shahpar",1206
+1624,"Ali Farhang Mehr",1207
+143,"Irem Y. Tumer",1207
+1323,"Erdem Acar",1208
+673,"Raphael T. Haftka",1208
+1819,"Theodore F. Johnson",1208
+252,"Mian Li",1209
+92,"Shapour Azarm",1209
+1820,"Art Boyars",1209
+1821,"Katsuya Mogami",1210
+1102,"Kazuhiro Izui",1210
+587,"Shinji Nishiwaki",1210
+771,"Masataka Yoshimura",1210
+1822,"Nozomu Kogiso",1210
+111,"Byeng D. Youn",1211
+1823,"Amit A. Kale",1212
+673,"Raphael T. Haftka",1212
+1389,"Daniel D. Frey",1213
+1824,"Geoff Reber",1213
+1825,"Yiben Lin",1213
+1826,"H. Medellin",1214
+1827,"T. Lim",1214
+1828,"J. Corney",1214
+1829,"J. M. Ritchie",1214
+1830,"J. B. C. Davies",1214
+1831,"Kurt Chipperfield",1215
+626,"Judy Vance",1215
+1426,"Y. Song",1216
+1427,"J. S. M. Vergeest",1216
+1832,"T. R. Langerak",1216
+1408,"Kunnayut Eiamsa-ard",1217
+754,"Jianzhong Ruan",1217
+1407,"Lan Ren",1217
+1646,"F. W. Liou",1217
+1833,"Anurag Purwar",1218
+1834,"Xiaoyi Chi",1218
+1270,"Qiaode Jeffrey Ge",1218
+746,"Michael Yu Wang",1219
+1835,"Xiaoming Wang",1219
+1836,"S. Gunawan",1220
+572,"S. Azarm",1220
+1837,"Heng Pan",1221
+1838,"Yogesh D. Thakar",1221
+898,"Frank Liou",1221
+1206,"Li Chen",1222
+49,"Simon Li",1222
+1839,"Chensheng Wang",1223
+1254,"Joris S. M. Vergeest",1223
+1840,"Pieter J. Stappers",1223
+1841,"Willem F. Bronsvoort",1223
+1842,"Michael R. Tonks",1224
+1843,"Ken W. Chase",1224
+1844,"Clive I. Kerr",1225
+1845,"Rajkumar Roy",1225
+1846,"Peter J. Sackett",1225
+1847,"Karen J. Ostergaard",1226
+162,"Joshua D. Summers",1226
+201,"Georges Fadel",1226
+1848,"Alejandro A. Espinoza Orías",1228
+967,"John E. Renaud",1228
+1849,"Hitoshi Tokunaga",1229
+1850,"Takaaki Okano",1229
+1851,"Norio Matsuki",1229
+1852,"Fumiki Tanaka",1229
+1431,"Takeshi Kishinami",1229
+1853,"Nozomu Mishima",1230
+773,"Krishnan Suresh",1231
+1854,"Carey W. King",1232
+295,"Matthew I. Campbell",1232
+1855,"Joseph J. Beaman",1232
+1856,"Ken’ichi Maemori",1233
+1857,"Naoki Tanigawa",1233
+1858,"Feng-Hui Shi",1233
+1859,"Wenhui Fan",1234
+1860,"Tao Li",1234
+1861,"Guangleng Xiong",1234
+1674,"Mounib Mekhilef",1236
+1862,"Barthélemy Longueville",1236
+887,"Mohamed B. Trabia",1237
+1863,"William Culbreth",1237
+1864,"Satishkumar Subramanian",1237
+1865,"Tsuyoshi Tajima",1237
+298,"Jeremy J. Michalek",1238
+43,"Panos Y. Papalambros",1238
+1469,"Henri J. Thevenot",1239
+145,"Timothy W. Simpson",1239
+1866,"Nick Tzannetakis",1240
+1867,"Stijn Donders",1240
+1868,"Joost Van de Peer",1240
+1869,"Paul Weal",1240
+300,"Bernard Yannou",1241
+1870,"Ghassen Harmel",1241
+1871,"Mark O. Neal",1242
+1412,"Yifan Chen",1243
+1546,"Pietro Buttolo",1243
+1872,"James Rankin, II",1243
+1413,"Basavaraj Tonshal",1243
+1873,"Miao Zhuang",1244
+1874,"Ali A. Yassine",1244
+1875,"S. J. Du",1245
+1876,"M. Kalveram",1245
+1877,"K. Weinert",1245
+1878,"Rob H. Bracewell",1246
+1879,"Saeema Ahmed",1246
+1880,"Ken M. Wallace",1246
+1426,"Y. Song",1247
+1427,"J. S. M. Vergeest",1247
+1881,"C. Wang",1247
+1470,"Jaeil Park",1248
+145,"Timothy W. Simpson",1248
+1882,"Liangkai Ma",1249
+1798,"Alejandro Diaz",1249
+1883,"Alan Haddow",1249
+227,"G. Gary Wang",1250
+914,"Songqing Shan",1250
+1811,"Rupesh Kumar",1251
+1483,"Venkat Allada",1251
+1884,"Sreeram Ramakrishnan",1251
+1554,"Gaurav Ameta",1252
+209,"Joseph K. Davidson",1252
+208,"Jami J. Shah",1252
+1885,"El-Sayed Aziz",1253
+1886,"C. Chassapis",1253
+1091,"Dan Zhang",1254
+1030,"Nanxin Wang",1255
+1522,"Jian Wan",1255
+1442,"Gianna Gomez-Levi",1255
+412,"Jie Hu",1256
+1887,"Yonghong Peng",1256
+1888,"Vincent Cheutet",1257
+1889,"Jean-Philippe Pernot",1257
+1890,"Jean-Claude Léon",1257
+1891,"Bianca Falcidieno",1257
+1892,"Franca Giannini",1257
+1893,"Douglas C. Stahl",1258
+1894,"Mark Batdorff",1258
+1895,"Brian J. Daniels",1259
+1896,"Ashutosh Ballal",1259
+1526,"Ping Ge",1259
+1897,"Kevin Drost",1259
+1898,"Y.-M. Deng",1260
+1684,"W. F. Lu",1260
+1701,"Kenji Iino",1261
+1702,"Yotaro Hatamura",1261
+1496,"Walid Ben Ahmed",1262
+1674,"Mounib Mekhilef",1262
+1675,"Michel Bigand",1262
+1676,"Yves Page",1262
+1899,"Swapnil Padhye",1263
+295,"Matthew I. Campbell",1263
+1656,"Jinghong Liang",1264
+107,"Zissimos P. Mourelatos",1264
+1900,"Jian Tu",1264
+1901,"Chih-Hsing Chu",1265
+1902,"Jang-Ting Chen",1265
+1903,"Zhi-Gang Xu",1266
+254,"Xiaoping Du",1267
+1904,"Agus Sudjianto",1267
+1905,"Mukul Karnik",1268
+1906,"Satyandra K. Gupta",1268
+1907,"Edward B. Magrab",1268
+1773,"H. James de St. Germain",1269
+1022,"David E. Johnson",1269
+1024,"Elaine Cohen",1269
+1908,"Rafael Araque",1270
+1314,"Trevor Bailey",1270
+1909,"Murilo W. Bonilha",1270
+1910,"Jay Fletcher",1270
+769,"Jay D. Martin",1271
+145,"Timothy W. Simpson",1271
+1559,"Naesung Lyu",1272
+61,"Kazuhiro Saitou",1272
+1911,"Xu Guo",1273
+1912,"Kang Zhao",1273
+746,"Michael Yu Wang",1273
+1913,"Rhonda Anderson",1274
+1262,"Mark Ganter",1274
+1914,"Dan Schwartz",1274
+1261,"Duane Storti",1274
+1915,"John Whitaker",1274
+1916,"Mikhail Ejakov",1275
+1904,"Agus Sudjianto",1275
+1917,"John Pieprzak",1275
+1918,"T. C. Kingsley",1276
+1762,"K. J. Craig",1276
+868,"D. Xue",1277
+1919,"S. Y. Cheing",1277
+871,"P. Gu",1277
+868,"D. Xue",1278
+1919,"S. Y. Cheing",1278
+871,"P. Gu",1278
+1920,"Mahmoud Awad",1279
+1904,"Agus Sudjianto",1279
+1921,"Nanua Singh",1279
+1922,"K. Maddulapalli",1280
+572,"S. Azarm",1280
+1697,"Tung-King See",1281
+70,"Kemper Lewis",1281
+1685,"Vincent Chanron",1282
+70,"Kemper Lewis",1282
+1314,"Trevor Bailey",1283
+1923,"Suzanne Woll",1283
+1924,"Rajul Misra",1283
+33,"Kevin Otto",1283
+223,"Michael Kokkolaras",1284
+107,"Zissimos P. Mourelatos",1284
+43,"Panos Y. Papalambros",1284
+1925,"Dhaval Lokagariwar",1285
+1638,"Bernhard Bettig",1285
+1926,"Thaweepat Buranathiti",1286
+1927,"Jian Cao",1286
+185,"Wei Chen",1286
+771,"Masataka Yoshimura",1287
+1928,"Masahiko Taniguchi",1287
+1102,"Kazuhiro Izui",1287
+587,"Shinji Nishiwaki",1287
+1800,"Akihiro Takezawa",1288
+587,"Shinji Nishiwaki",1288
+1102,"Kazuhiro Izui",1288
+771,"Masataka Yoshimura",1288
+771,"Masataka Yoshimura",1289
+1929,"Satoshi Yoshida",1289
+1930,"Yoshinori Konishi",1289
+1102,"Kazuhiro Izui",1289
+587,"Shinji Nishiwaki",1289
+1931,"Yutaka Inamori",1289
+1932,"Ayako Nomura",1289
+1933,"Keiji Mitsuyuki",1289
+1934,"Yuji Kawaguchi",1289
+1935,"Toru Inagaki",1289
+1702,"Yotaro Hatamura",1290
+1936,"Kensuke Tsuchiya",1290
+1937,"Mikael Cederfeldt",1291
+1938,"Samir Mesihovic",1292
+1939,"Johan Malmqvist",1292
+1940,"Yung Ting",1293
+1941,"Ho-Chin Jar",1293
+1942,"Chung-Yi Lin",1293
+1943,"Jeng-Shen Huang",1293
+1944,"Alexander Karl",1294
+1945,"Stephan Lisiewicz",1294
+1946,"Winfried-Hagen Friedl",1294
+1947,"Janet Worgan",1294
+1948,"Gordon May",1294
+1949,"Akhil Sopory",1295
+955,"Sankaran Mahadevan",1295
+107,"Zissimos P. Mourelatos",1295
+1900,"Jian Tu",1295
+1950,"B. Besharati",1296
+1951,"L. Luo",1296
+572,"S. Azarm",1296
+93,"P. K. Kannan",1296
+1952,"Sebastian Mennicke",1297
+1953,"Richard W. Longman",1297
+1954,"Meng-Sang Chew",1297
+1955,"Hans Georg Bock",1297
+1143,"Ying Xiong",1298
+1054,"Singiresu S. Rao",1298
+1956,"Ciro A. Soto",1299
+1957,"Chandankumar Aladahalli",1300
+48,"Jonathan Cagan",1300
+136,"Kenji Shimada",1300
+1020,"Steven B. Shooter",1301
+145,"Timothy W. Simpson",1301
+992,"Soundar R. T. Kumara",1301
+864,"Robert B. Stone",1301
+1520,"Janis P. Terpenny",1301
+1039,"Joseph A. Donndelinger",1302
+1958,"Peter A. Fenyes",1302
+1692,"Petter Krus",1303
+1715,"Johan Andersson",1303
+1543,"Kevin McBrearty",1304
+692,"Richard A. Wysk",1304
+1959,"Matthew C. Frank",1304
+1960,"Zhenyu Cheng",1305
+1961,"Robert Cheatham",1305
+1962,"Jianguo Wang",1305
+1963,"C. Greg Jensen",1305
+1412,"Yifan Chen",1305
+1964,"Brian Bowman",1305
+1965,"Jeff Thielman",1306
+1526,"Ping Ge",1306
+1966,"Anukal Chiralaksanakul",1307
+955,"Sankaran Mahadevan",1307
+1967,"Tong Zou",1308
+955,"Sankaran Mahadevan",1308
+1949,"Akhil Sopory",1308
+1968,"Sebastian K. Fixson",1309
+1022,"David E. Johnson",1310
+1024,"Elaine Cohen",1310
+1969,"Raffi Kamalian",1311
+1970,"Alice M. Agogino",1311
+1971,"Hideyuki Takagi",1311
+1972,"Kunjal Oza",1312
+193,"Hae Chang Gea",1312
+1973,"Zhihuang Dai",1313
+319,"Michael J. Scott",1313
+1974,"Jürgen Gräsel",1315
+1975,"Akin Keskin",1315
+1976,"Marius Swoboda",1315
+1977,"Hans Przewozny",1315
+1978,"André Saxer",1315
+111,"Byeng D. Youn",1316
+822,"Kyung K. Choi",1316
+1979,"Miguel Vieira",1317
+136,"Kenji Shimada",1317
+481,"Gül E. Okudan",1318
+1980,"Raymond Rutkowski",1318
+1981,"Lei Gu",1319
+1982,"T. Tyan",1319
+1433,"G. Li",1319
+1432,"R. J. Yang",1319
+185,"Wei Chen",1320
+1778,"Ruichen Jin",1320
+1904,"Agus Sudjianto",1320
+1983,"Zhiguang Qian",1321
+1589,"Carolyn Conner Seepersad",1321
+1984,"V. Roshan Joseph",1321
+1985,"C. F. Jeff Wu",1321
+159,"Janet K. Allen",1321
+1520,"Janis P. Terpenny",1322
+1986,"Deepu Mathew",1322
+1818,"Huibin Liu",1323
+185,"Wei Chen",1323
+1904,"Agus Sudjianto",1323
+1022,"David E. Johnson",1324
+1987,"Peter Willemsen",1324
+1024,"Elaine Cohen",1324
+1988,"William Wetmore",1325
+162,"Joshua D. Summers",1325
+1683,"Q. Z. Yang",1326
+1684,"W. F. Lu",1326
+1315,"Yao Lin",1327
+160,"Farrokh Mistree",1327
+159,"Janet K. Allen",1327
+1348,"Kwok-Leung Tsui",1327
+1989,"Victoria C. P. Chen",1327
+1990,"Lindsay Wilmes",1328
+523,"Zahed Siddique",1328
+198,"Levent Burak Kara",1329
+1991,"Leslie Gennari",1329
+1678,"Thomas F. Stahovich",1329
+1992,"Armand D. Assadi",1330
+1516,"James H. Oliver",1330
+1993,"Kristin Potter",1331
+1994,"David Johnson",1331
+1024,"Elaine Cohen",1331
+1745,"Yi Miao",1332
+936,"Vincent Y. Blouin",1332
+561,"Georges M. Fadel",1332
+1995,"Hod Lipson",1333
+1996,"Josh Bongard",1333
+1708,"Masayuki Nakao",1334
+1705,"Naohiro Yabuta",1334
+1704,"Masahiro Terabe",1334
+1997,"Andrew R. Schnell",1335
+160,"Farrokh Mistree",1335
+1998,"Hongseok Moses Noh",1335
+1999,"Peter J. Hesketh",1335
+1396,"Yuan Mao Huang",1336
+1539,"Yu-Chung Liao",1336
+2000,"Xueyong Qu",1337
+673,"Raphael T. Haftka",1337
+2001,"Anand Krishnamurthy",1338
+1400,"Sundar Krishnamurthy",1338
+254,"Xiaoping Du",1339
+1904,"Agus Sudjianto",1339
+185,"Wei Chen",1339
+1377,"Ashwin P. Gurnani",1340
+1697,"Tung-King See",1340
+70,"Kemper Lewis",1340
+1967,"Tong Zou",1341
+107,"Zissimos P. Mourelatos",1341
+955,"Sankaran Mahadevan",1341
+1900,"Jian Tu",1341
+254,"Xiaoping Du",1342
+1904,"Agus Sudjianto",1342
+1818,"Huibin Liu",1343
+185,"Wei Chen",1343
+2002,"Jie Sheng",1343
+193,"Hae Chang Gea",1343
+822,"Kyung K. Choi",1344
+111,"Byeng D. Youn",1344
+2003,"Jun Tang",1344
+1973,"Zhihuang Dai",1345
+319,"Michael J. Scott",1345
+107,"Zissimos P. Mourelatos",1345
+2004,"Emre Kazancioglu",1346
+2005,"Guangquan Wu",1346
+2006,"Jeonghan Ko",1346
+2007,"Stanislav Bohac",1346
+2008,"Zoran Filipi",1346
+1542,"S. Jack Hu",1346
+2009,"Dennis Assanis",1346
+61,"Kazuhiro Saitou",1346
+1973,"Zhihuang Dai",1347
+319,"Michael J. Scott",1347
+107,"Zissimos P. Mourelatos",1347
+1836,"S. Gunawan",1348
+572,"S. Azarm",1348
+145,"Timothy W. Simpson",1349
+5,"Kikuo Fujita",1350
+2010,"Shin’ichi Yoshioka",1350
+523,"Zahed Siddique",1351
+2011,"Jiju A. Ninan",1351
+1470,"Jaeil Park",1352
+145,"Timothy W. Simpson",1352
+340,"Olivier L. de Weck",1353
+1625,"Eun Suk Suh",1353
+2012,"David Chang",1353
+2013,"Hoda A. ElMaraghy",1354
+12,"Ashraf O. Nassef",1354
+2014,"Waguih H. ElMaraghy",1354
+2015,"Alexander Lee",1355
+2016,"James Brink",1355
+2017,"David Anderson",1355
+764,"Karthik Ramani",1355
+2018,"Ashok V. Kumar",1356
+2019,"Anirban Dutta",1356
+1906,"Satyandra K. Gupta",1357
+2020,"Alok K. Priyadarshi",1357
+1408,"Kunnayut Eiamsa-ard",1358
+1646,"F. W. Liou",1358
+1249,"Robert G. Landers",1358
+2021,"Howie Choset",1358
+1426,"Y. Song",1359
+1427,"J. S. M. Vergeest",1359
+2022,"R. Dumitrescu",1359
+2023,"T. Wiegers",1359
+1881,"C. Wang",1359
+1206,"Li Chen",1360
+2024,"Zhengdong Ding",1360
+49,"Simon Li",1360
+2025,"Byungwoo Lee",1361
+61,"Kazuhiro Saitou",1361
+1559,"Naesung Lyu",1362
+61,"Kazuhiro Saitou",1362
+2026,"Liem Ferryanto",1363
+1904,"Agus Sudjianto",1363
+2027,"Mahesh Vora",1363
+2028,"Alessandro Giassi",1364
+310,"Fouad Bennis",1364
+1013,"Jean-Jacques Maisonneuve",1364
+1956,"Ciro A. Soto",1365
+2029,"Adam B. Cooper",1366
+2030,"Panayotis Georgiopoulos",1366
+2031,"Hyung Min Kim",1366
+43,"Panos Y. Papalambros",1366
+1745,"Yi Miao",1367
+936,"Vincent Y. Blouin",1367
+561,"Georges M. Fadel",1367
+2032,"S. Bhide",1368
+2033,"J. K. Davidson",1368
+2034,"J. J. Shah",1368
+309,"Stéphane Caro",1370
+310,"Fouad Bennis",1370
+1014,"Philippe Wenger",1370
+2036,"R. Roy",1371
+2037,"J. I. Bailey",1371
+2038,"R. G. L. Hodges",1371
+2039,"Wen-Yuh Jywe",1372
+2040,"Chien-Hong Liu",1372
+2041,"Michael S. Cherry",1373
+2042,"Gregory M. Roach",1373
+2043,"Jonathan W. Wittwer",1373
+2044,"Larry L. Howell",1373
+1578,"Jordan J. Cox",1373
+292,"Sándor Vajna",1374
+1847,"Karen J. Ostergaard",1375
+1988,"William Wetmore",1375
+162,"Joshua D. Summers",1375
+1496,"Walid Ben Ahmed",1376
+1675,"Michel Bigand",1376
+1674,"Mounib Mekhilef",1376
+1676,"Yves Page",1376
+1839,"Chensheng Wang",1377
+1254,"Joris S. M. Vergeest",1377
+1255,"Tjamme Wiegers",1377
+1253,"Yu Song",1377
+1674,"Mounib Mekhilef",1378
+2045,"Philippe Deshayes",1378
+2046,"Pierre Nowak",1380
+2047,"Benoît Eynard",1380
+2048,"Lionel Roucoules",1380
+2049,"Xuan F. Zha",1381
+2050,"Ram D. Sriram",1381
+1160,"Wen F. Lu",1381
+2051,"Sha Ma",1382
+2052,"Bin Song",1382
+2053,"Wen Feng Lu",1382
+2054,"Cheng Feng Zhu",1382
+8,"Karim Hamza",1383
+61,"Kazuhiro Saitou",1383
+970,"Ashraf Nassef",1383
+8,"Karim Hamza",1384
+61,"Kazuhiro Saitou",1384
+1715,"Johan Andersson",1385
+2055,"Marcus Redhe",1385
+822,"Kyung K. Choi",1386
+2056,"Jun Dong",1386
+693,"Nickolas Vlahopoulos",1386
+2057,"Aimin Wang",1386
+2058,"Weiguo Zhang",1386
+2059,"Robert R. Mayer",1387
+2060,"Brian Peterson",1387
+2061,"Raj Mishra",1387
+2062,"Anil Sachdev",1387
+2063,"A. Farhang-Mehr",1388
+572,"S. Azarm",1388
+2064,"A. Diaz",1388
+2065,"A. Ravisekar",1388
+2066,"Michael F. Zaeh",1389
+2067,"Georg M. W. Wuensch",1389
+2068,"Clemens Poernbacher",1389
+2069,"Michael S. O. Ehrenstrasser",1389
+1981,"Lei Gu",1390
+1432,"R. J. Yang",1390
+2070,"Runze Li",1391
+1904,"Agus Sudjianto",1391
+2071,"Stella M. Clarke",1392
+2072,"Jan H. Griebsch",1392
+145,"Timothy W. Simpson",1392
+1778,"Ruichen Jin",1393
+185,"Wei Chen",1393
+1904,"Agus Sudjianto",1393
+914,"Songqing Shan",1394
+227,"G. Gary Wang",1394
+769,"Jay D. Martin",1395
+145,"Timothy W. Simpson",1395
+2073,"Liqun Wang",1396
+914,"Songqing Shan",1396
+227,"G. Gary Wang",1396
+2074,"Min Joong Jeong",1397
+2075,"Brian H. Dennis",1397
+2076,"Shinobu Yoshimura",1397
+1856,"Ken’ichi Maemori",1398
+1857,"Naoki Tanigawa",1398
+2077,"Reiko Koganei",1398
+2078,"Toshio Morihara",1398
+300,"Bernard Yannou",1399
+145,"Timothy W. Simpson",1399
+2079,"Russell R. Barton",1399
+298,"Jeremy J. Michalek",1400
+43,"Panos Y. Papalambros",1400
+1662,"Steven J. Skerlos",1400
+746,"Michael Yu Wang",1401
+1835,"Xiaoming Wang",1401
+1453,"Alejandro R. Diaz",1402
+2080,"Andre Benard",1402
+2081,"Mohamed M. Shalaby",1403
+456,"Hesham A. Hegazi",1403
+12,"Ashraf O. Nassef",1403
+60,"Sayed M. Metwalli",1403
+1396,"Yuan Mao Huang",1404
+2082,"Jiung-Cheng Pan",1404
+1589,"Carolyn Conner Seepersad",1405
+159,"Janet K. Allen",1405
+1049,"David L. McDowell",1405
+160,"Farrokh Mistree",1405
+1800,"Akihiro Takezawa",1406
+587,"Shinji Nishiwaki",1406
+1102,"Kazuhiro Izui",1406
+771,"Masataka Yoshimura",1406
+2083,"Daeyoon Jung",1407
+193,"Hae Chang Gea",1407
+2084,"Kerr-Jia Lu",1408
+2085,"Sridhar Kota",1408
+2086,"Jun Doi",1409
+2087,"Atsushi Yamada",1409
+2088,"Keisuke Inoue",1409
+1889,"Jean-Philippe Pernot",1410
+2089,"Stéphane Guillet",1410
+1890,"Jean-Claude Léon",1410
+2090,"Bianca Facidieno",1410
+1892,"Franca Giannini",1410
+1979,"Miguel Vieira",1411
+136,"Kenji Shimada",1411
+2091,"Tomotake Furuhata",1411
+191,"Xiaoping Qian",1412
+2092,"Kevin G. Harding",1412
+754,"Jianzhong Ruan",1413
+1646,"F. W. Liou",1413
+1847,"Karen J. Ostergaard",1414
+162,"Joshua D. Summers",1414
+1685,"Vincent Chanron",1415
+70,"Kemper Lewis",1415
+2093,"Palwinder Singh",1416
+1638,"Bernhard Bettig",1416
+771,"Masataka Yoshimura",1417
+587,"Shinji Nishiwaki",1417
+1102,"Kazuhiro Izui",1417
+304,"Gary M. Stump",1418
+1511,"Mike Yukish",1418
+145,"Timothy W. Simpson",1418
+2094,"E. Nathan Harris",1418
+2095,"Lawrence P. Chao",1419
+2096,"Kosuke Ishii",1419
+1853,"Nozomu Mishima",1420
+2097,"Adwait Vaidya",1421
+2098,"Jami Shah",1421
+1701,"Kenji Iino",1422
+1702,"Yotaro Hatamura",1422
+2099,"Yuko Shimomura",1422
+2100,"Roderick K. W. Lee",1423
+2101,"Michael G. Montero",1423
+2102,"Paul K. Wright",1423
+2103,"Shigeru Sakamoto",1424
+2104,"Tadafumi Kubo",1424
+2105,"Yan Zhou",1425
+2106,"Chaodi Li",1425
+967,"John E. Renaud",1425
+2107,"James J. Mason",1425
+2108,"Ashish D. Deshpande",1426
+2109,"James R. Rinderle",1426
+822,"Kyung K. Choi",1427
+1755,"Kiyoung Yi",1427
+1756,"Nam H. Kim",1427
+1757,"Mark E. Botkin",1427
+2110,"Robert Paasch",1428
+2111,"Parthsarathy Durgi",1428
+2077,"Reiko Koganei",1429
+1856,"Ken’ichi Maemori",1429
+1563,"Madara Ogot",1430
+2112,"Sherif Aly",1430
+1163,"Chan Yu",1431
+1165,"Souran Manoochehri",1431
+2113,"Chad McKonly",1431
+1714,"Masao Arakawa",1432
+2114,"Tomoyuki Miyashita",1432
+2115,"Hiroshi Ishikawa",1432
+2116,"Dapeng Wang",1433
+227,"G. Gary Wang",1433
+2117,"Greg F. Naterer",1433
+2114,"Tomoyuki Miyashita",1434
+1608,"Hiroshi Yamakawa",1434
+1692,"Petter Krus",1435
+1715,"Johan Andersson",1435
+2118,"Satoshi Kitayama",1436
+1403,"Koetsu Yamazaki",1436
+2119,"Stephen L. Canfield",1437
+2120,"Patrick V. Hull",1437
+2121,"James W. Beard",1437
+2122,"Rajat Saxena",1438
+1506,"Anupam Saxena",1438
+2122,"Rajat Saxena",1439
+1506,"Anupam Saxena",1439
+2123,"Ümit Sönmez",1441
+2124,"Peng Song",1442
+2125,"Vijay Kumar",1442
+2126,"Madhusudan Raghavan",1443
+2127,"Khalid Al-Widyan",1444
+204,"Jorge Angeles",1444
+2128,"Venketesh N. Dubey",1445
+2129,"Richard M. Crowder",1445
+1156,"Hai-Jun Su",1446
+2130,"J. Michael McCarthy",1446
+2131,"Pierre M. Larochelle",1447
+2132,"Lauren S. Perry",1448
+2133,"Andrew P. Murray",1448
+1156,"Hai-Jun Su",1449
+2134,"Charles W. Wampler",1449
+2130,"J. Michael McCarthy",1449
+2135,"A. Purwar",1450
+1555,"Q. J. Ge",1450
+2136,"Alba Perez",1451
+2137,"J. M. McCarthy",1451
+2138,"Sandipan Bandyopadhyay",1452
+2139,"Ashitava Ghosal",1452
+2140,"Jingjun Yu",1453
+2141,"Shusheng Bi",1453
+2142,"Guanghua Zong",1453
+2143,"Tieshi Zhao",1453
+2144,"Zhen Huang",1453
+2145,"Raffaele Di Gregorio",1454
+2146,"Hee-Byoung Choi",1455
+2147,"Atsushi Konno",1455
+2148,"Masaru Uchiyama",1455
+2149,"Robert L. Williams, II",1456
+2150,"Jigar Vadia",1456
+2151,"Yang Wang",1457
+2152,"Tian Huang",1457
+2153,"Clement M. Gosselin",1457
+1091,"Dan Zhang",1458
+1486,"Lihui Wang",1458
+2154,"Sherman Y. T. Lang",1458
+2155,"Hui Yu",1459
+2156,"Jinsong Wang",1459
+2157,"Guanghong Duan",1459
+2158,"Lining Sun",1459
+2149,"Robert L. Williams, II",1460
+2159,"James S. Albus",1460
+2160,"Roger V. Bostelman",1460
+2161,"J. Rastegar",1461
+2162,"L. Yuan",1461
+2163,"J. Zhang",1461
+2164,"Kimberly A. Jensen",1462
+2044,"Larry L. Howell",1462
+2165,"Kazem Abhary",1463
+2166,"Lu Yi",1464
+2167,"Tatu Leinonen",1464
+2161,"J. Rastegar",1465
+2163,"J. Zhang",1465
+2168,"L. Hua",1465
+2169,"Gordon R. Pennock",1466
+2170,"Edward C. Kinzel",1466
+2171,"Seong-Ho Kang",1467
+2172,"Delbert Tesar",1467
+2173,"ChangHwan Kim",1468
+2174,"Alan Bowling",1468
+2175,"Dennis W. Hong",1469
+2176,"Raymond J. Cipra",1469
+2175,"Dennis W. Hong",1470
+2176,"Raymond J. Cipra",1470
+2177,"A. Meghdari",1471
+2178,"G. R. Vossoughi",1471
+2179,"M. Amir Hosseini",1471
+2180,"Eric Pearce",1472
+2181,"Alan Parkinson",1472
+2182,"Kenneth Chase",1472
+2183,"Alisha Hammond",1473
+2184,"Alan R. Parkinson",1473
+2185,"Advait A. Limaye",1474
+1854,"Carey W. King",1474
+295,"Matthew I. Campbell",1474
+1555,"Q. J. Ge",1475
+2161,"J. Rastegar",1475
+2186,"Carlos Pereira",1475
+2187,"Carl A. Nelson",1476
+2176,"Raymond J. Cipra",1476
+2188,"Curtis L. Collins",1477
+2189,"Alessio Salerno",1478
+204,"Jorge Angeles",1478
+2190,"Nilanjan Chakraborty",1479
+2139,"Ashitava Ghosal",1479
+2191,"Michael J. Harper",1480
+2192,"Donald R. Flugrad",1480
+2193,"Abir Z. Qamhiyah",1480
+358,"Andrés Tovar",1481
+2194,"Shawn E. Gano",1481
+967,"John E. Renaud",1481
+2107,"James J. Mason",1481
+2195,"Victor Oduguwa",1482
+1845,"Rajkumar Roy",1482
+2196,"Didier Farrugia",1482
+2197,"Y. S. Liu",1483
+2198,"S. M. Gao",1483
+2199,"I. Kimura",1484
+2200,"K.-H. Grote",1484
+2201,"Stefan Dahlström",1486
+1542,"S. Jack Hu",1486
+85,"Rikard Söderberg",1486
+1426,"Y. Song",1488
+1427,"J. S. M. Vergeest",1488
+2202,"I. Horváth",1488
+1940,"Yung Ting",1489
+2203,"Min-Sheng Shin",1489
+2204,"Hong-Yuan Chang",1489
+292,"Sándor Vajna",1490
+2205,"Steffen Clement",1490
+2206,"André Jordan",1490
+2207,"Zhi Gang Xu",1491
+2208,"JianFeng Li",1491
+2209,"Johann U. Zimmermann",1492
+2210,"Siegmar Haasis",1492
+1440,"Fred J. A. M. van Houten",1492
+1717,"Noriyasu Hirokawa",1493
+5,"Kikuo Fujita",1493
+771,"Masataka Yoshimura",1494
+1102,"Kazuhiro Izui",1494
+2211,"Shigeaki Komori",1494
+771,"Masataka Yoshimura",1495
+1102,"Kazuhiro Izui",1495
+2212,"Kazuma Fukatani",1495
+2213,"Yanwei Zhao",1496
+2214,"Wanliang Wang",1496
+2215,"Yingli Zhang",1496
+2216,"Zhengchu Wang",1496
+2217,"Patrick Morelle",1497
+2218,"Alain Remouchamps",1497
+2219,"Wei Liu",1498
+2220,"Kang Tai",1498
+2221,"Jyh-Cheng Yu",1499
+2222,"Tsung-Ren Hung",1499
+2223,"Francis Thibault",1499
+2074,"Min Joong Jeong",1500
+2224,"Sinobu Yoshimura",1500
+1005,"Yu-Xin Wang",1501
+2225,"Li-jun Wang",1501
+2114,"Tomoyuki Miyashita",1502
+1608,"Hiroshi Yamakawa",1502
+1849,"Hitoshi Tokunaga",1503
+1851,"Norio Matsuki",1503
+2226,"Satoshi Imamura",1503
+1852,"Fumiki Tanaka",1503
+1431,"Takeshi Kishinami",1503
+2118,"Satoshi Kitayama",1504
+1608,"Hiroshi Yamakawa",1504
+2165,"Kazem Abhary",1505
+2227,"Ahmad Nourbakhsh",1505
+2228,"Takashi Kobayashi",1506
+2229,"Takehide Nomura",1506
+2230,"Masaki Kamifuji",1506
+2231,"Akira Yao",1506
+2232,"Tetsurou Ogushi",1506
+2233,"Doug Fussner",1507
+2234,"Yesh P. Singh",1507
+2235,"M. D. Giess",1508
+2236,"S. J. Culley",1508
+2237,"A. Shepherd",1508
+2238,"Yasunari Mimura",1509
+2076,"Shinobu Yoshimura",1509
+2239,"Tomoyuki Hiroyasu",1509
+2240,"Mitsunori Miki",1509
+2241,"Pietro Fanghella",1510
+2242,"Guido Galliani",1510
+2243,"Matteo Mezzadra",1510
+2244,"Terry K. K. Chang",1511
+2245,"Brian C. H. Ho",1511
+2246,"M. M. F. Yuen",1511
+1396,"Yuan Mao Huang",1512
+2247,"Renbin Xiao",1513
+2248,"Lei Wang",1513
+2249,"Zheng Fan",1513
+2250,"Chengsheng Wang",1515
+1254,"Joris S. M. Vergeest",1515
+2251,"Imre Horváth",1515
+2252,"Raluca Dumitrescu",1515
+1255,"Tjamme Wiegers",1515
+1253,"Yu Song",1515
+2253,"Ningning Zhou",1516
+2254,"Alice Agogino",1516
+2255,"Kristofer S. J. Pister",1516
+2256,"Marie-Josée Potvin",1517
+2257,"André Côtè",1517
+2258,"Eric Charbonneau",1517
+2259,"Maria-Elena Aguilar",1517
+2260,"Kurt A. Chipperfield",1518
+1157,"Judy M. Vance",1518
+2261,"Brett W. Clark",1519
+2262,"David C. Anderson",1519
+2263,"Fernando Rangel",1520
+208,"Jami J. Shah",1520
+1901,"Chih-Hsing Chu",1521
+2264,"Asad A. Usman",1522
+2265,"Mohammad Usman",1522
+2266,"Yoshiki Ujiie",1523
+2267,"Yoshiyuki Matsuoka",1523
+2268,"Angran Xiao",1524
+353,"Hae-Jin Choi",1524
+159,"Janet K. Allen",1524
+176,"David W. Rosen",1524
+160,"Farrokh Mistree",1524
+1979,"Miguel Vieira",1525
+136,"Kenji Shimada",1525
+2091,"Tomotake Furuhata",1525
+635,"Yan Fu",1526
+2269,"Steve C. Wang",1526
+2270,"Urmila M. Diwekar",1526
+2271,"Kemal H. Sahin",1526
+2272,"Yih-Charng Deng",1527
+2273,"Chin-Hsu Lin",1527
+2274,"J. T. Wang",1527
+2275,"Sudarsanam Chellappa",1528
+1453,"Alejandro R. Diaz",1528
+2276,"Rogelio Flores",1529
+1963,"C. Greg Jensen",1529
+2277,"Jon Shelley",1529
+1697,"Tung-King See",1530
+70,"Kemper Lewis",1530
+1922,"K. Maddulapalli",1531
+572,"S. Azarm",1531
+2278,"A. Boyars",1531
+1950,"B. Besharati",1532
+572,"S. Azarm",1532
+2063,"A. Farhang-Mehr",1532
+2279,"John J. Wood",1533
+705,"Kristin L. Wood",1533
+2280,"Wade O. Troxell",1533
+1559,"Naesung Lyu",1534
+61,"Kazuhiro Saitou",1534
+2281,"Kai-Lu Wang",1535
+345,"Yan Jin",1535
+2282,"Jose Martinez Escanaverino",1536
+2283,"Jose A. Llamos Soriz",1536
+2284,"Alejandra Garcia Toll",1536
+2285,"Tania Ortiz Cardenas",1536
+2025,"Byungwoo Lee",1537
+61,"Kazuhiro Saitou",1537
+2286,"Aditya Soman",1538
+2287,"Matthew Campbell",1538
+23,"Rahul Rai",1539
+1483,"Venkat Allada",1539
+1885,"El-Sayed Aziz",1540
+1886,"C. Chassapis",1540
+2288,"J. K. Hill",1541
+2289,"R. M. Cheatham",1541
+2290,"C. G. Jensen",1541
+2291,"Michael Sasena",1542
+685,"Matthew Parkinson",1542
+2292,"Pierre Goovaerts",1542
+1033,"Panos Papalambros",1542
+2293,"Matthew Reed",1542
+1778,"Ruichen Jin",1543
+185,"Wei Chen",1543
+1904,"Agus Sudjianto",1543
+2294,"Daniel Aguilera",1544
+2295,"José María Rico",1544
+2296,"Jaime Gallardo",1544
+2297,"Ahmed A. Shabana",1545
+2298,"Aki M. Mikkola",1545
+2299,"Gabriel Hernandez",1546
+159,"Janet K. Allen",1546
+160,"Farrokh Mistree",1546
+1589,"Carolyn Conner Seepersad",1547
+160,"Farrokh Mistree",1547
+159,"Janet K. Allen",1547
+2030,"Panayotis Georgiopoulos",1548
+2300,"Ryan Fellini",1548
+2291,"Michael Sasena",1548
+43,"Panos Y. Papalambros",1548
+2049,"Xuan F. Zha",1549
+1160,"Wen F. Lu",1549
+2300,"Ryan Fellini",1550
+223,"Michael Kokkolaras",1550
+43,"Panos Y. Papalambros",1550
+2301,"Alexis Perez-Duarte",1550
+2302,"Zhengdong Huang",1551
+2303,"Derek Yip-Hoi",1551
+2304,"Nagesh Belludi",1552
+2303,"Derek Yip-Hoi",1552
+1412,"Yifan Chen",1553
+2305,"Paul Stewart",1553
+2306,"Anne Marsan",1553
+2307,"Huaicai Mo",1553
+1413,"Basavaraj Tonshal",1553
+1714,"Masao Arakawa",1554
+2115,"Hiroshi Ishikawa",1554
+2213,"Yanwei Zhao",1555
+2308,"Ertian Hua",1555
+2309,"Guoxian Zhang",1555
+2310,"Fangshun Jin",1555
+2311,"J. A. Carretero",1556
+2312,"M. A. Nahon",1556
+2313,"O. Ma",1556
+2314,"Brayan S. D’Souza",1557
+145,"Timothy W. Simpson",1557
+456,"Hesham A. Hegazi",1558
+12,"Ashraf O. Nassef",1558
+60,"Sayed M. Metwalli",1558
+2315,"Kurt Hacker",1559
+70,"Kemper Lewis",1559
+2316,"Min-Ho Kyung",1560
+2317,"Elisha Sacks",1560
+2318,"Gloria J. Wiens",1561
+2319,"Kaiyu Chen",1562
+2320,"David G. Beale",1562
+2317,"Elisha Sacks",1563
+2321,"Leo Joskowicz",1563
+2322,"Ralf Schultheiss",1563
+2323,"Uwe Hinze",1563
+2324,"Fengfeng Xi",1564
+2325,"Marcel Verner",1564
+2326,"Chris Mechefske",1564
+1885,"El-Sayed Aziz",1565
+1886,"C. Chassapis",1565
+2327,"Liang Zhu",1566
+2328,"David Kazmer",1566
+2329,"Ke Fu",1567
+2330,"James K. Mills",1567
+2331,"Masaru Kageura",1568
+136,"Kenji Shimada",1568
+2332,"Lee Ming Wong",1569
+227,"G. Gary Wang",1569
+2333,"Charles Friesen",1569
+2334,"Ken How Foo",1569
+2335,"Lucas Pang",1569
+2336,"David M. Sharman",1570
+1874,"Ali A. Yassine",1570
+2337,"Paul Carlile",1570
+2338,"Mostafa Nouri",1571
+2339,"Jean W. Zu",1571
+2340,"John K. Dickinson",1572
+2341,"Ali Farhang-Mehr",1573
+92,"Shapour Azarm",1573
+1957,"Chandankumar Aladahalli",1574
+48,"Jonathan Cagan",1574
+136,"Kenji Shimada",1574
+1163,"Chan Yu",1575
+1165,"Souran Manoochehri",1575
+131,"Christopher A. Mattson",1576
+54,"Achille Messac",1576
+254,"Xiaoping Du",1577
+185,"Wei Chen",1577
+822,"Kyung K. Choi",1578
+111,"Byeng D. Youn",1578
+2342,"Petru-Aurelian Simionescu",1579
+2320,"David G. Beale",1579
+2343,"John Eddy",1580
+1190,"Kemper E. Lewis",1580
+822,"Kyung K. Choi",1581
+2056,"Jun Dong",1581
+675,"Nam Ho Kim",1581
+2344,"Dörte Freisleben",1583
+292,"Sándor Vajna",1583
+293,"Michael Schabacker",1584
+2345,"Kris Downey",1585
+2184,"Alan R. Parkinson",1585
+1128,"Kenneth W. Chase",1585
+1108,"Sara McMains",1587
+2346,"Jordan Smith",1587
+2347,"Carlo Séquin",1587
+2348,"Ahmad Smaili",1588
+2349,"Ramsey Hemadeh",1588
+2350,"Firas Zeineddine",1588
+2351,"Barbar Akle",1588
+754,"Jianzhong Ruan",1589
+1408,"Kunnayut Eiamsa-ard",1589
+1062,"Jun Zhang",1589
+1646,"F. W. Liou",1589
+2352,"Justin Wahlborg",1590
+1421,"Mark A. Ganter",1590
+2353,"Daniel T. Schwartz",1590
+1261,"Duane Storti",1590
+2354,"Lusine Baghdasaryan",1591
+185,"Wei Chen",1591
+1926,"Thaweepat Buranathiti",1591
+1927,"Jian Cao",1591
+2355,"Natesh Chandrashekar",1592
+1575,"Sundar Krishnamurty",1592
+2356,"Ramesh Lakshmipathy",1593
+1575,"Sundar Krishnamurty",1593
+2357,"Irfan Kaymaz",1594
+1491,"Chris McMahon",1594
+2358,"D. Kalenchuk",1595
+871,"P. Gu",1595
+2359,"Y. Kang",1596
+2360,"Y. Rong",1596
+2361,"J. C. Yang",1596
+2362,"H. Wang",1597
+2363,"N. Pramanik",1597
+2364,"U. Roy",1597
+2365,"R. Sudarsan",1597
+2366,"R. D. Sriram",1597
+2367,"K. W. Lyons",1597
+2368,"Shamim Akhtar",1598
+2220,"Kang Tai",1598
+1452,"Jitendra Prasad",1598
+2369,"Zhongyan Qian",1599
+1588,"G. K. Ananthasuresh",1599
+12,"Ashraf O. Nassef",1600
+2083,"Daeyoon Jung",1601
+193,"Hae Chang Gea",1601
+2370,"Thomas Klar",1602
+2371,"Miranda Baladi",1602
+839,"George Fadel",1602
+2372,"Mathias Almer",1602
+2260,"Kurt A. Chipperfield",1603
+1157,"Judy M. Vance",1603
+2059,"Robert R. Mayer",1604
+2273,"Chin-Hsu Lin",1604
+2274,"J. T. Wang",1604
