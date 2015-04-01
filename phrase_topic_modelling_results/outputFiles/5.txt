@@ -3,116 +3,107 @@ paper presents	214
 case study	140
 proposed approach	102
 paper proposes	101
-surrogate models	92
 results show	85
-response surface	66
+objective function	73
 paper describes	55
 presented in this paper	50
 proposed methodology	48
-simulation models	48
 demonstrate the effectiveness	47
 data sets	46
 method is proposed	45
-Kriging models	45
 method is developed	44
 paper introduces	43
-choice modeling	42
 numerical examples	40
 paper presents a method	38
+method is applied	36
 paper discusses	35
-method is applied	35
-random field	35
 approach is proposed	33
-mathematical model	33
+neural network	33
+performance functions	31
+radial basis function	31
 level set	31
-computer model	30
 approach based	30
 method is presented	29
 developed method	25
 previous work	25
 paper focuses	25
-uncertainty propagation	24
-model prediction	23
-modeling and simulation	23
-epistemic uncertainty	23
-model validation	22
+utility function	24
+degrees of freedom	23
 proposed framework	22
 experimental results	21
 future work	21
 experimental data	20
+improve the performance	19
 results obtained	19
-EDR method	19
-confidence level	19
 presents a method	19
 method is demonstrated	18
 examples are presented	18
-taking into account	18
+basis functions	18
 approach is demonstrated	18
 systematic approach	18
 based approach	17
-predictive models	17
-solid models	17
-statistical moments	17
+multiple objectives	17
 results are compared	16
-sources of uncertainty	16
 proposed in this paper	16
 demonstrate the application	16
 approach is presented	16
+evaluate the performance	15
+performance measures	15
 case study is used to demonstrate	15
 present work	15
 case study involving	15
+improve the efficiency	14
 compared with the results	14
 work presents	14
 focus of this paper	13
+performed to evaluate	13
 demonstrated by three examples	13
-discrete choice	12
+objective and constraint functions	12
 discussed in this paper	12
 methodology is presented	12
-demand model	11
 effectiveness of the proposed	10
 presented to demonstrate	10
 examples demonstrate	10
 presents an approach	9
 demonstrate the method	9
+study presents	9
 demonstrated with case studies	9
 methodology is proposed	9
-study presents	9
-valid model	8
-address this issue	8
 demonstrate the proposed	8
-introduced in this paper	7
 framework is proposed	7
+introduced in this paper	7
 present study	7
 study is used to demonstrate	6
 obtained results	6
-degrees of freedom	6
+performance improvement	6
 demonstrate the approach	6
+constraint functions	6
 presents a methodology	6
+functional basis	6
 applied our method	6
 method presented in this paper	5
-modeling with a cheap to compute	5
-propagation of uncertainty	5
+functional constraints	5
+functions they perform	5
 show how to use our results	4
-model  kriging	4
-uncertainty sources	3
-modeling choice	3
+objective functions and constraints	4
 effectiveness is demonstrated	3
 set data	3
 proposes an effective	2
-levels of confidence	2
-models or surrogate	2
-models of demand	2
-study the cases	2
+constraint functions and objective	2
+measures of performance	2
 study involving	2
+study the cases	2
 results an experimental	2
+radial basis	2
+functions and objective	2
 demonstrate the effectiveness of the proposed	2
 applications are used to demonstrate	2
-issues are addressed	2
 methods  This paper presents	1
-uncertainty  and epistemic	1
 work previously	1
 approach is systematically	1
 presented  Associated examples	1
 proposed  One example is used to demonstrate	1
+efficiency improvement	1
 demonstrated by presenting	1
-field  of which randomness	1
+constraints and objective functions	1
+functions in utility	1

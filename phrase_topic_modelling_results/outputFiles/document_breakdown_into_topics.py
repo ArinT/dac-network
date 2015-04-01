@@ -26,6 +26,9 @@ for i in range (0,len(data)):
 		value = topic_hash_count[key]
 		topic_hash_count[key] = value / total_words
 
+	for j in range(0,8):
+		if j not in topic_hash_count:
+			topic_hash_count[j] = 0.00
 	output[i] = topic_hash_count
 
 with open ('document_topic_distribution.txt', 'w') as outfile:

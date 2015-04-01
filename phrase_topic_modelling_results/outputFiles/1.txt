@@ -1,4 +1,57 @@
-fresh water	21
-degrees of freedom	17
+product family	179
+product family design	69
+product platform	64
+product design	58
+product development	55
+mass customization	35
+production cost	33
+product line	27
+market share	25
+development of products	25
+customer preferences	23
+developing world	22
+market segments	22
+supply chain	21
+family of products	20
+product configuration	20
+life cycle	19
+market demand	19
+product variety	18
+product quality	18
+product architecture	18
+customer requirements	17
 industrial robot	16
+cycle time	16
+manufacturing cost	14
+variety of products	14
+design of a product	13
+cost  product	11
+family design	10
+demand model	9
+time period	8
+configurations of products	7
+consumer preferences	5
+design of a family	5
+designing a product family	5
+significantly reduce	5
+quality and production	5
+designing a family of products	4
+product development process	3
+development process	3
+design process	3
+platforms and new product	3
+cost  manufacturability	3
+manufacturing process	2
+model prediction	2
+demands of markets	2
+period of time	2
+models of demand	2
+line of products	2
 robotics industry	1
+architecture of the product	1
+families of products and designing	1
+shares for the  market	1
+preferences of the customer	1
+process of design	1
+requirements from customers	1
+segment of the market	1

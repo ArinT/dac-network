@@ -1,30 +1,89 @@
+design optimization	147
+genetic algorithm	122
+optimization problem	106
+design problem	97
+design variables	95
 topology optimization	90
-finite element	52
-Monte Carlo simulation	47
-finite element analysis	38
-material properties	30
-compliant mechanism	29
+optimal design	87
+design space	66
+global optimization	56
+optimization method	53
+optimal solution	52
+optimization algorithm	49
+wind farm	49
+design domain	32
+search algorithm	30
+optimization technique	30
+wind turbine	30
+problem is solved	27
 topology optimization method	24
-finite element model	23
-sensitivity analysis	22
-Monte Carlo	20
-boundary conditions	15
+design optimization problems	23
+genetic algorithm  GA	22
+global optimum	22
+Pareto frontier	21
+large number	20
+solve the problem	20
+evolutionary algorithm	20
+search space	20
+problem is formulated	19
+optimum solutions	19
+optimization problem is solved	17
+optimization procedure	17
+Pareto optimal	14
+robust optimization	13
+multiobjective optimization	13
+engineering design problems	13
+reduce the number	13
+design alternatives	12
+design of experiments	12
+robust design	11
+method of optimization	11
+design parameters	10
+pattern search	10
 optimal topologies	9
-properties of materials	8
+address this problem	9
+engineering design	9
+optimization problem is formulated	9
+problem of designing	8
+multidisciplinary design optimization	8
 structural topology optimization	8
-optimization method	6
+computational efficiency	8
+significantly reduce	7
+boundary conditions	7
+solve the optimization problem	6
+algorithm  to optimize	6
+problem  The optimization	6
+solution to the optimization	6
+space to the design	5
 topology optimization of structures	5
-optimization procedure	5
+optimal design problem	5
+alternative design	4
+design space exploration	4
+design problem  The optimal	4
+technique for optimizing	3
+space exploration	3
+formulate this as an optimization problem	3
 method is useful for the topology optimization	3
-analysis as in the finite element	3
-method of optimization	3
-elements in the finite	2
-element analysis	2
-modeled in Finite Element	2
-solid models	1
-method is applied	1
-simulations and Monte Carlo	1
-analysis instead of using all the elements	1
-procedure to optimize	1
+robust design optimization	2
+variable design	2
+formulating the problem	2
+problem  To address	2
+parameter design	2
+multidisciplinary design	2
+algorithms  such as genetic	2
+optimization problem the design	1
+space along all possible search	1
 optimizing the topology of a structure	1
-modeling and simulation	1
+problem of designing the IC engine	1
+algorithm in evolutionary	1
+robust optimization design	1
+design  such as multidisciplinary	1
+algorithm  GA	1
+reduced significantly	1
+problem under the optimal design	1
+process of design	1
+optimal Pareto	1
+optimization from a global	1
+reduce the computational	1
+procedure to optimize	1
+explore the design space	1
