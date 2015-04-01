@@ -74,6 +74,7 @@ class Locations(models.Model):
     city = models.CharField(db_column='City', max_length=64, blank=True)
     state = models.CharField(db_column='State', max_length=64, blank=True)
     country = models.CharField(db_column='Country', max_length=64, blank=True)
+    org = models.CharField(db_column='Organization', max_length=100, blank=True)
     class Meta:
         managed = False
         db_table = 'Location'
@@ -89,7 +90,7 @@ class PaperLocations(models.Model):
 class Papers(models.Model):
     paperid = models.AutoField(db_column='PaperID', primary_key=True) # Field name made lowercase.
     title = models.CharField(db_column='Title', max_length=300, blank=True) # Field name made lowercase.
-    doi = models.CharField(db_column='DOI', max_length=20, blank=True) # Field name made lowercase.
+    doi = models.CharField(db_column='DOI', max_length=64, blank=True) # Field name made lowercase.
     numauthors = models.IntegerField(db_column='NumAuthors') # Field name made lowercase.
     url = models.CharField(max_length=1000, blank=True)
     year = models.IntegerField(db_column='Year') # Field name made lowercase.
