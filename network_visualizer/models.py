@@ -115,7 +115,7 @@ class Topfives(models.Model):
 class Topics(models.Model):
     topicid = models.AutoField(db_column="TopicId", primary_key=True) 
     paperid = models.IntegerField(db_column="PaperID", blank=True, null=True)
-    topic = models.CharField(db_column="Topic", max_length=30, blank=True)
+    topic = models.CharField(db_column="Topic", max_length=200, blank=True)
     class Meta:
         managed = False
         db_table = 'Topics'
