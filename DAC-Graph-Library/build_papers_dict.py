@@ -21,9 +21,12 @@ class paper:
 		self.authors = {}
 		self.paper_id = ""
 
+		self.topic_links = {}
+
 	def self_print(self):
-		print self.paper_id, " ", self.title, " ", self.doi, " ", self.url, " ", self.year, " ", self.authors, " ", self.topic_dist
-		print self.abstract
+		print self.paper_id, " ", self.title, " ", self.doi, " ", self.url, " ", self.year, " ", self.authors, " ", self.topic_dist, " \ntopic links: ", self.topic_links 
+		
+		# print self.abstract
 
 json_data=open('../DAC_Entire_DataBase.json')
 data = json.load(json_data)
@@ -107,7 +110,7 @@ print "done adding in paper ids"
 
 #now instantiate the authors
 print "corpus keys"
-print paper_corpus.keys()
+# print paper_corpus.keys()
 print "size of paper corpus: ", len(paper_corpus)
 
 
@@ -135,6 +138,8 @@ with open('../authors_papers_map.csv', 'rb') as csvfile:
 output = open('papers.pkl', 'wb')
 pickle.dump(paper_corpus, output)
 output.close()
+
+print "papers pickled. \n"
 
 # # read python dict back from the file
 # pkl_file = open('myfile.pkl', 'rb')
