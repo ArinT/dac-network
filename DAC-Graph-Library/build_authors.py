@@ -98,10 +98,9 @@ output = open('authors.pkl', 'wb')
 pickle.dump(author_memo, output)
 output.close()
 
-# with open('authors.txt', 'w') as outfile:
-#     json.dump(author_memo, outfile)
-for key in author_memo:
-	author_memo[key].self_print()
+print "authors pickled \n"
+# for key in author_memo:
+# 	author_memo[key].self_print()
 
 
 'sql query to get the coauthor papers table is below'
