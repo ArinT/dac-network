@@ -33,7 +33,7 @@ class AuthorLocations(models.Model):
 class AuthorTopics(models.Model):
     authortopicid = models.AutoField(db_column="AuthorTopicId", primary_key=True)
     authorid = models.IntegerField(db_column="AuthorID", blank=True, null=True)
-    topic = models.CharField(db_column="Topic", max_length=30, blank=True)
+    topic = models.CharField(db_column="Topic", max_length=200, blank=True)
     class Meta:
         managed = True
         db_table = 'AuthorTopics'
