@@ -56,6 +56,12 @@
 						<a ng-show="moreCoAuthors && authorAffiliates.length > 2" ng-click="selectAmountOfInfo('moreCoAuthors', 'authorAffiliates', 'authorAffiliatesHolder')">View more</a>
 						<a ng-hide="moreCoAuthors || authorAffiliates.length <= 2" ng-click="selectAmountOfInfo('moreCoAuthors', 'authorAffiliates', 'authorAffiliatesHolder', 2)">Hide papers</a>
 					</div>
+					<h4>Similar-Authors: </h4>
+					<div class="list-group">
+						<a class="list-group-item" ng-click="authorClicked(sim_author)" ng-repeat="sim_author in simAuthorAffiliatesHolder">{$ sim_author.name $}</a>
+						<a ng-show="moreSimAuthors && similarAuthors.length > 2" ng-click="selectAmountOfInfo('moreSimAuthors', 'similarAuthors', 'simAuthorAffiliatesHolder')">View more</a>
+						<a ng-hide="moreSimAuthors || authorAffiliates.length <= 2" ng-click="selectAmountOfInfo('moreSimAuthors', 'similarAuthors', 'simAuthorAffiliatesHolder', 2)">Hide papers</a>
+					</div>
 				</div>
 				<div id="forCitationNetwork" ng-show="myLocation.path() === '/citationNetwork' ">
 					<h4>Paper Information:</h4>

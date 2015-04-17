@@ -114,6 +114,17 @@ class Topfives(models.Model):
         managed = False
         db_table = 'TopFives'
 
+class SimilarAuthors(models.Model):
+    parentid = models.IntegerField(db_column='parentId', blank=True, null=True) # Field name made lowercase.
+    childid = models.IntegerField(db_column='childId', blank=True, null=True) # Field name made lowercase.
+    rank = models.IntegerField(db_column = 'rank', blank=True, null=True)
+    # _id = models.IntegerField(primary_key=True)
+    # _id = models.IntegerField(db_column = 'id', primary_key=True)
+    _id = models.IntegerField( db_column = 'id')
+    class Meta:
+        managed = False
+        db_table = 'pathsim_similar_authors'
+
 class Topics(models.Model):
     topicid = models.AutoField(db_column="TopicId", primary_key=True) 
     paperid = models.IntegerField(db_column="PaperID", blank=True, null=True)

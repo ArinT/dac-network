@@ -9,24 +9,25 @@ from django.db import connection
 def get_author_credits(author_id):
     """Get all a list of paper titles which
     the input author has worked on"""
-    print "credit 1"
+    # print "credit 1"
     cursor = connection.cursor()
     # cursor.execute('SELECT title, url, doi FROM Papers '
     #                'JOIN Works ON Works.PaperId = Papers.PaperID '
     #                'JOIN Authors ON Authors.AuthorID = Works.Authorid '
     #                'WHERE Authors.AuthorID = %s;', [author_id])
-    print "credit 2"
+    # print "credit 2"
     cursor.execute(
                   'SELECT Title, Papers.url, DOI FROM Papers '
                    'JOIN Works ON Works.PaperId = Papers.PaperID '
                    'JOIN Authors ON Authors.AuthorID = Works.AuthorId '
                    'WHERE Authors.AuthorID = %s;',[author_id])
-    print "credit 3"
+    # print "credit 3"
     res = cursor.fetchall()
     credits = []
-    print credits , "credit 4"
+    # print credits , "credit 4"
     for item in res:
         credits.append({'title': item[0].encode('utf-8'), 'url': item[1], 'doi':item[2]})
+    # print "credits: ", credits
     return credits
 
 def get_author_affiliates(author_id):
@@ -55,18 +56,37 @@ def get_author_affiliates(author_id):
                    'ORDER BY COUNT(*) DESC',[author_id])
     res = cursor.fetchall()
     affiliates = []
-    print "affiliates: ", affiliates
     for item in res:
         affiliates.append({'name':item[0].encode('UTF-8'),'count':int(item[1])})
+    # print "affiliates: ", affiliates
     return affiliates
+
+def get_similar_authors(author_id):
+    """
+    Get a list of authors which are similar to the input author according to PathSim algorithm.
+    """
+    cursor = connection.cursor()
+    cursor.execute('SELECT p2.AuthorName, p2.AuthorID  FROM Authors p1 '
+                   'JOIN pathsim_similar_authors tf ON tf.parentId = p1.Authorid '
+                   'JOIN Authors p2 ON p2.Authorid = tf.childId '
+                   'WHERE p1.Authorid = %s '
+                   'ORDER BY tf.rank;', [author_id])
+    res = cursor.fetchall()
+    results = []
+    for item in res:
+        results.append({'name': item[0].encode('utf-8'), 'id': int(item[1])})
+    print "similarAuthors: ", results
+    return results
+
 
 def get_author_info(author_id):
     """
-        Gets all relevant information on an author through a series of queries.
+    Gets all relevant information on an author through a series of queries.
     """
     credits = get_author_credits(author_id)
     affiliates = get_author_affiliates(author_id)
-    info = {'credits':credits,'affiliates':affiliates}
+    peers = get_similar_authors(author_id)
+    info = {'credits':credits,'affiliates':affiliates, 'peers':peers}
     return info
 
 def get_similar_papers(paper_id):

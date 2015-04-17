@@ -5,6 +5,7 @@ app.service("MessageServer", function($http){
 	var paperQueries = null;
 	var sent = false;
 	var highlight = null;
+	// var similarAuthors = null;
 
 	this.getCitationNodes = function(){
 		return citationNodes;

@@ -16,6 +16,12 @@ app.directive("rightSidebar", function(){
 			$scope.moreAuthorPapers = true;
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
+
+
+			/*adding similar authors here*/
+			$scope.moreSimAuthors = true;
+			// #scope.
+
 			/* Function used for click.  Sends node to service to tell
 				the controllers which node to highlight in the graph. */
 			$scope.showPaperInGraph = function(doi){
@@ -127,6 +133,10 @@ app.directive("rightSidebar", function(){
 				$scope.selectAmountOfInfo('moreAuthorPapers', 'authorPapers', 'authorPapersHolder', 2);
 				$scope.authorAffiliates = queryInfo['affiliates'];
 				$scope.selectAmountOfInfo('moreCoAuthors', 'authorAffiliates', 'authorAffiliatesHolder', 2);
+				/*adding in similar peers*/
+				$scope.similarAuthors = queryInfo['peers'];
+				$scope.selectAmountOfInfo('moreSimAuthors', 'similarAuthors', 'simAuthorAffiliatesHolder', 2);
+
 				if($scope.authorPapers !== null){
 					if( !$scope.rightOpened ){
 						$scope.rightOpen();

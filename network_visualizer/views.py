@@ -55,6 +55,7 @@ def query_author(request):
         # if query.is_valid():
         #     print "fuck now"
             # context = query_list[0](query['author_id'].value())
+        # print "loaded"
         context = query_list[0](a_id)
         return HttpResponse(json.dumps(context), content_type="application/json")
 
