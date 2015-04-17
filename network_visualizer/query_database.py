@@ -9,13 +9,22 @@ from django.db import connection
 def get_author_credits(author_id):
     """Get all a list of paper titles which
     the input author has worked on"""
+    print "credit 1"
     cursor = connection.cursor()
-    cursor.execute('SELECT title, url, doi FROM Papers '
+    # cursor.execute('SELECT title, url, doi FROM Papers '
+    #                'JOIN Works ON Works.PaperId = Papers.PaperID '
+    #                'JOIN Authors ON Authors.AuthorID = Works.Authorid '
+    #                'WHERE Authors.AuthorID = %s;', [author_id])
+    print "credit 2"
+    cursor.execute(
+                  'SELECT Title, Papers.url, DOI FROM Papers '
                    'JOIN Works ON Works.PaperId = Papers.PaperID '
                    'JOIN Authors ON Authors.AuthorID = Works.AuthorId '
-                   'WHERE Authors.AuthorID = %s;', [author_id])
+                   'WHERE Authors.AuthorID = %s;',[author_id])
+    print "credit 3"
     res = cursor.fetchall()
     credits = []
+    print credits , "credit 4"
     for item in res:
         credits.append({'title': item[0].encode('utf-8'), 'url': item[1], 'doi':item[2]})
     return credits
@@ -25,15 +34,28 @@ def get_author_affiliates(author_id):
     Get a list of people who the input author has worked with.
     """
     cursor = connection.cursor()
-    cursor.execute('SELECT a.authorName, COUNT(*) FROM Works w1 '
-                   'JOIN Works w2 on w1.paperId = w2.paperId '
-                   'JOIN Authors a on w2.authorId = a.AuthorId '
-                   'WHERE w2.authorId <> w1.authorId AND '
-                   'w1.authorId = %s '
-                   'GROUP BY w1.authorId, w2.authorId, a.authorName '
-                   'ORDER BY COUNT(*) DESC; ',[author_id])
+
+    #old query for the old tables
+    # cursor.execute('SELECT a.authorName, COUNT(*) FROM Works w1 '
+    #                'JOIN Works w2 on w1.paperId = w2.paperId '
+    #                'JOIN Authors a on w2.authorId = a.AuthorId '
+    #                'WHERE w2.authorId <> w1.authorId AND '
+    #                'w1.authorId = %s '
+    #                'GROUP BY w1.authorId, w2.authorId, a.authorName '
+    #                'ORDER BY COUNT(*) DESC; ',[author_id])
+
+    #new query for the updated tables
+    cursor.execute(
+                  'SELECT a.AuthorName, COUNT(*) FROM Works w1 '
+                  'JOIN Works w2 on w1.PaperId = w2.PaperId '
+                   'JOIN Authors a on w2.Authorid = a.Authorid ' 
+                   'WHERE w2.Authorid <> w1.Authorid AND '
+                   'w1.Authorid = %s '
+                   'GROUP BY w1.Authorid, w2.Authorid, a.AuthorName '
+                   'ORDER BY COUNT(*) DESC',[author_id])
     res = cursor.fetchall()
     affiliates = []
+    print "affiliates: ", affiliates
     for item in res:
         affiliates.append({'name':item[0].encode('UTF-8'),'count':int(item[1])})
     return affiliates

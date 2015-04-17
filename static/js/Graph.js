@@ -73,13 +73,23 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 			var holdEdges = [];
 			var edges = [];
 			//only going to be called by the AUTHOR NETWORK graph
+			//double check this boolean
+			console.log(graph.links)
 			if(score !== null){
 				//removing the edges that are between a node with centrality lower than the one specified.
 				for(var i = 0; i<graph.links.length; i++){
 					var edge = graph.links[i];			
 					var src = graph.nodes[edge.source];
 					var tgt = graph.nodes[edge.target];
-					
+					// console.log ("source: ");
+					// console.log (src);
+					// console.log ("target: ");
+					// console.log (tgt);
+					// console.log ("edge: ");
+					// console.log (edge);
+					// console.log (" ");
+					// console.log (src[centrality]);
+					// console.log (score);
 					if(src[centrality] >= score && tgt[centrality]>= score){
 						if (edge.year == undefined)
 						{
@@ -96,6 +106,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 						}
 					}
 				}
+				// console.log (edgeArr);
 				for(var i = 0; i<edgeArr.length; i++){
 					if(!holdEdges[edgeArr[i].source]){
 						holdEdges[edgeArr[i].source] = [];
@@ -104,13 +115,19 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 				}
 				for(var i in holdEdges){
 					for(var j in holdEdges[i]){
-						edges.push(holdEdges[i][j]);
+						if (holdEdges[i][j] != undefined) edges.push(holdEdges[i][j]);
 					}
 				}
+				// console.log (edges);
+				// for (var i in edges){
+				// 	console.log (i)
+				// }
+				console.log ("before d3 force");
+				console.log(edges)
 				graph.links = edges;
 			}
 			force
-				.nodes(graph.nodes)
+				.nodes(Object.keys(graph.nodes).map(function (k) {return graph.nodes[k]}))
 				.links(graph.links)
 				.start();
 		    

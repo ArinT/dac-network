@@ -47,6 +47,7 @@ app.service("MessageServer", function($http){
 			authorPapers = data;
 		}).error(function(data, status, headers, config){
 			console.log("error");
+			console.log(data, status);
 		})
 	};
 	this.queryPaper = function(paperId){
