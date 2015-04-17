@@ -106,8 +106,10 @@ class Papers(models.Model):
 class Topfives(models.Model):
     parentid = models.IntegerField(db_column='parentId', blank=True, null=True) # Field name made lowercase.
     childid = models.IntegerField(db_column='childId', blank=True, null=True) # Field name made lowercase.
-    rank = models.IntegerField(blank=True, null=True)
-    _id = models.IntegerField(primary_key=True)
+    rank = models.IntegerField(db_column = 'rank', blank=True, null=True)
+    # _id = models.IntegerField(primary_key=True)
+    # _id = models.IntegerField(db_column = 'id', primary_key=True)
+    _id = models.IntegerField( db_column = 'id')
     class Meta:
         managed = False
         db_table = 'TopFives'
