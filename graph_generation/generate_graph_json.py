@@ -52,10 +52,10 @@ def get_collaborations():
         and edge in the author network.
     """
     cursor = connection.cursor()
-    cursor.execute('SELECT w1.AuthorId, w2.AuthorId, SUBSTRING(p.DOI,5,4) FROM Works w1 '
+    cursor.execute('SELECT w1.Authorid, w2.Authorid, SUBSTRING(p.DOI,5,4) FROM Works w1 '
                    'JOIN Works w2 ON w1.PaperId = w2.PaperId '
                    'JOIN Papers p ON w2.PaperId = p.PaperID '
-                   'WHERE w1.AuthorId > w2.AuthorId')
+                   'WHERE w1.Authorid > w2.Authorid')
     return cursor.fetchall()
 def generate_author_network_json( year):
     """
