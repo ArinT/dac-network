@@ -7,6 +7,7 @@ except:
 import json
 import csv
 import sys
+import os
 
 class paper:
 	def __init__(self, title, doi, url, year, abstract, topic_dist):
@@ -27,6 +28,7 @@ class paper:
 		print self.paper_id, " ", self.title, " ", self.doi, " ", self.url, " ", self.year, " ", self.authors, " ", self.topic_dist, " \ntopic links: ", self.topic_links 
 		
 		# print self.abstract
+
 
 json_data=open('../DAC_Entire_DataBase.json')
 data = json.load(json_data)
