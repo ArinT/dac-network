@@ -14,7 +14,7 @@ from network_visualizer.models import Papers, Works, Authors, AuthorTopics, Cita
 
 
 
-pkl_file = open('/Users/yishh/Downloads/ranked_similar_papers.pkl', 'rb')
+pkl_file = open('/Users/yishh/Downloads/ranked_similar_authors.pkl', 'rb')
 ranked_array = pickle.load(pkl_file)
 pkl_file.close()
 
