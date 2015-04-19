@@ -1,10 +1,9 @@
 <!DOCTYPE html>
+<h1> hello </h1>
 <html>
 <head lang="en">
+	<script>console.log("hello")</script>
     <meta charset="UTF-8">
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript">
         function initialize() {
             ($.ajax({
@@ -20,7 +19,7 @@
                         var maker = new google.maps.Marker({
                             position: new google.maps.LatLng(dataInfo[i].Lat, dataInfo[i].Lng),
                             title: dataInfo[i].Organization,
-                            icon:'pin.png'
+                            icon:'../static/admin/img/yellow_pin.png'
                         });
                         maker.setMap(map);
                     }
@@ -29,6 +28,7 @@
         }
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+
     <title>DAC Institution locations</title>
 </head>
 <body>
