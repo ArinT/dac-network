@@ -2,18 +2,43 @@
 
 
 
-<h1> Topic Bubble </h1>
-<h5> Each color corresponds to a different topic <br> that is represented as a bag of phrases,
-<br> hover over bubbles for the full phrase!</h5> 
-
-<div topicbubble id="topicbubble"></div>
-
+<div class="container">
+	<div class="tb_cont">
+		<div topicbubble id="topicbubble"></div>
+	</div>
+	<div class="description">
+		<h1> Topic Bubble </h1>
+		<h5> Each color corresponds to a different topic <br> 
+			that is represented as a bag of phrases,
+		<br> hover over bubbles for the full phrase!</h5> 
+		<h5> Phrases and 8 Topics were extracted <br> 
+			 using the ToPMine Algorithm to <br> 
+			 understand how the topics <br>
+			 were mined, click <a target= "_blank" href = "http://arxiv.org/pdf/1406.6312.pdf"> here</a>.</h5>	
+	</div>
+</div>
 
 <style>
+	.container {
+		position: relative;
+	}
 	#topicbubble{
-	  font: 10px sans-serif;
-	  color: #333;
-	  margin-left: -0%;
-	  margin-top: -17%;
+		position: absolute;
+	  	font: 10px sans-serif;
+	  	color: #333;
+	  	margin-left: -0%;
+	  	top: 0;
+	  	margin-top: -5%;
+	}
+
+	.description {
+		position: absolute;
+		top: 50;
+		left: -50;
+		z-index: 9999;
+	}
+
+	.tb_cont {
+		z-index: 0;
 	}
 </style>
