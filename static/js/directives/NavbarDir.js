@@ -14,6 +14,9 @@ app.directive("mynavbar", function(){
 				case "/citationNetwork":
 					$("#citation-tab").toggleClass("active");
 					break;
+				case "/topicbubble":
+					$("#topic-tab").toggleClass("active");
+					break;
 				case "/chrono":
 					$("#chrono-tab").toggleClass("active");
 					break;

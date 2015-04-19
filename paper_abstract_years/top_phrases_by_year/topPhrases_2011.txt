@@ -1,0 +1,25 @@
+design optimization	57
+topology optimization	44
+wind farm	26
+design variables	26
+paper presents	25
+genetic algorithm	25
+developing world	22
+product family design	22
+choice model	22
+optimal design	20
+case study	20
+engineered systems	18
+finite element	16
+proposed approach	15
+decision making	12
+product family	11
+make decisions	7
+approach is proposed	6
+presented in this paper	3
+elements in the finite	1
+families because product	1
+optimization  with topological	1
+models using different choice	1
+Systems   Most engineered	1
+world  The development	1

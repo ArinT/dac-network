@@ -1,0 +1,11 @@
+product family	48
+design optimization	39
+design process	30
+reliability analysis	26
+paper presents	23
+genetic algorithm	19
+case study	17
+optimal design	7
+presented in this paper	3
+family of products	3
+process  design	1

@@ -1,0 +1,16 @@
+design optimization	47
+product family	34
+design space	29
+case study	26
+surrogate model	25
+optimization problem	25
+proposed method	25
+paper presents	23
+genetic algorithm	21
+proposed approach	20
+optimal design	19
+method is proposed	7
+approach is proposed	5
+families of products	3
+problem is to optimally	2
+presented in this paper	1

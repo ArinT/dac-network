@@ -1,0 +1,6 @@
+product family	32
+proposed method	23
+paper presents	19
+family of products	6
+presented in this paper	5
+method has been proposed	4

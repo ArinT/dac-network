@@ -1,0 +1,13 @@
+design optimization	45
+product family	40
+genetic algorithm	25
+product development	21
+paper presents	18
+case study	18
+topology optimization	17
+optimal design	12
+presented in this paper	6
+Development   The product	4
+optimizing the topology	1
+families and product	1
+algorithms  such as genetic	1

@@ -1,0 +1,5 @@
+product family	31
+genetic algorithm	19
+paper presents	15
+presented in this paper	8
+families and product	1
