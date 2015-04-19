@@ -8,7 +8,7 @@ var app = angular.module('CitationNetwork',['ngRoute','ngCookies','ui.slider','u
 	$routeProvider.when('/authorNetwork', {templateUrl: '/static/partials/AuthorGraph.html', controller:"authorGraphCtrl"});
 	$routeProvider.when('/citationNetwork', {templateUrl: '/static/partials/CitationGraph.html'});
 	$routeProvider.when('/topicbubble', {templateUrl: '/static/partials/TopicBubble.html'});
-	$routeProvider.when('/topictimeline', {templateUrl: '/static/partials/TopicTimeLine.html'});
+	$routeProvider.when('/phrasetimeline', {templateUrl: '/static/partials/TopicTimeLine.html'});
 	$routeProvider.when('/geolocation', {templateUrl: '/static/partials/GeoLocation.html'});
 	$routeProvider.when('/staticAuthor', {templateUrl: '/static/partials/StaticAuthorGraph.html'});
 	$routeProvider.when('/chrono', {templateUrl: '/static/partials/chronologicalGraph.html'});

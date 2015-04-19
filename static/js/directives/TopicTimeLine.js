@@ -1,4 +1,4 @@
-app.directive("topictimeline", function(){
+app.directive("phrasetimeline", function(){
   return {
     restrict:"A",
     controller:function($scope){
@@ -35,7 +35,7 @@ app.directive("topictimeline", function(){
       var formatYears = d3.format("0000");
       xAxis.tickFormat(formatYears);
 
-      var svg = d3.select("#topictimeline").append("svg")
+      var svg = d3.select("#phrasetimeline").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .style("margin-left", margin.left + "px")
@@ -43,7 +43,7 @@ app.directive("topictimeline", function(){
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
-      d3.json("../static/json/test_timeline.json", function(data) {
+      d3.json("../static/json/phrasetimeline.json", function(data) {
         x.domain([start_year, end_year]);
         var xScale = d3.scale.linear()
           .domain([start_year, end_year])

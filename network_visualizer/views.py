@@ -44,7 +44,7 @@ def topicbubble(request):
     template = loader.get_template('TopicBubble.html')
     context = RequestContext(request)
     return HttpResponse(template.render(context))
-def topictimeline(request):
+def phrasetimeline(request):
     template = loader.get_template('TopicTimeLine.html')
     context = RequestContext(request)
     return HttpResponse(template.render(context))
