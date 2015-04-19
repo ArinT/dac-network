@@ -17,6 +17,12 @@ app.directive("mynavbar", function(){
 				case "/topicbubble":
 					$("#topic-tab").toggleClass("active");
 					break;
+				case "/topictimeline":
+					$("#topictimeline-tab").toggleClass("active");
+					break;
+				case "/geolocation":
+					$("#geolocation-tab").toggleClass("active");
+					break;
 				case "/chrono":
 					$("#chrono-tab").toggleClass("active");
 					break;
