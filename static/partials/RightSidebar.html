@@ -57,6 +57,7 @@
 						<a ng-hide="moreCoAuthors || authorAffiliates.length <= 2" ng-click="selectAmountOfInfo('moreCoAuthors', 'authorAffiliates', 'authorAffiliatesHolder', 2)">Hide papers</a>
 					</div>
 					<h4>Similar-Authors: </h4>
+					<h6>Click <a target= "_blank" href = "http://www-dev.ccs.neu.edu/home/yzsun/papers/vldb11_topKSim.pdf"> here</a> to find out how similar authors were calculated through the PathSim Algorithm</h6>
 					<div class="list-group">
 						<a class="list-group-item" ng-click="authorClicked(sim_author)" ng-repeat="sim_author in simAuthorAffiliatesHolder">{$ sim_author.name $}</a>
 						<a ng-show="moreSimAuthors && similarAuthors.length > 2" ng-click="selectAmountOfInfo('moreSimAuthors', 'similarAuthors', 'simAuthorAffiliatesHolder')">View more</a>
