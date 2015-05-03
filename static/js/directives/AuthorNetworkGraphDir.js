@@ -16,14 +16,13 @@ function getAttrCentrality(centrality){
 	}
 }
 
-this.height = $(window).height();
-
-app.controller("authorGraphCtrl", ["GraphService(this.height)", function($scope){
+app.controller("authorGraphCtrl", ["GraphService", function($scope){
 	$scope.typeGraph = "degreeCentrality";
 	$scope.chosenScore = 0;
 	$scope.loaded = false;
 	$scope.jsonFile = "authors.json";
 	$scope.graphService = GraphService;
+	$scope.graphService.setWindowHeight($(window).height());
 	$scope.$watch("jsonFile", function(newVal, oldVal){
 		if(newVal === oldVal){
 			return;

@@ -1,5 +1,5 @@
-app.service("GraphService", function($http, height){
-	this.height = height;
+app.service("GraphService", function($http){
+	this.height = $(window).height(); // This is not correct, change using setWindowHeight before using!!
 
 	this.drawGraph = function(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked, isChronological){
 		var width = $(domId).width();
@@ -413,4 +413,8 @@ app.service("GraphService", function($http, height){
 			return "Group";
 		}
 	}//end chooseCentrality()
+
+	this.setWindowHeight = function(height) {
+		this.height = height;
+	}
 });
