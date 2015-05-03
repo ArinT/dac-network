@@ -20,7 +20,6 @@ app.controller("authorGraphCtrl", function($scope){
 	$scope.chosenScore = 0;
 	$scope.loaded = false;
 	$scope.jsonFile = "authors.json";
-	$scope.clusters = JSON.parse("author_clusters.json");
 	$scope.$watch("jsonFile", function(newVal, oldVal){
 		if(newVal === oldVal){
 			return;
@@ -51,9 +50,6 @@ app.controller("authorGraphCtrl", function($scope){
 			$scope.loaded = true;
 		});
 	});
-	$scope.toggleAuthorClustering = function(e){
-		toggleClustering(e, $scope.clusters, $scope.force, $scope.svg);
-	};
 });
 
 app.directive("authorGraph", function(){

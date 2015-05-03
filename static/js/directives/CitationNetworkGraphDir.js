@@ -9,7 +9,6 @@ app.directive("citationGraph", function(){
 			$scope.highlightPaper = null;
 			$scope.jsonFile = "citations.json";
 			$scope.chronological = false;
-			$scope.clusters = JSON.parse("citation_clusters.json");
 			$scope.$watch("jsonFile", function(newVal, oldVal){
 				if(newVal===oldVal){
 					return;
@@ -51,9 +50,6 @@ app.directive("citationGraph", function(){
 					$scope.loaded = true;
 				})
 			});
-			$scope.toggleCitationClustering = function(e){
-				toggleClustering(e, $scope.clusters, $scope.force, $scope.svg);
-			};
 		},
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/";
