@@ -16,7 +16,16 @@ app.directive("rightSidebar", function(){
 			$scope.moreAuthorPapers = true;
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
-
+			//TODO: MOVE LOGIC HERE
+			$scope.authorClusters = JSON.parse("author_clusters.json");
+			$scope.citationClusters = JSON.parse("author_clusters.json");
+			$scope.toggleAuthorClustering = function(e){
+				//toggleClustering(e, $scope.clusters, $scope.force, $scope.svg);
+			};
+			$scope.toggleCitationClustering = function(e){
+				//toggleClustering(e, $scope.clusters, $scope.force, $scope.svg);
+			};
+			//END TODO
 
 			/*adding similar authors here*/
 			$scope.moreSimAuthors = true;
