@@ -1,8 +1,9 @@
 app.directive("citationGraph", function(){
 	return {
 		restrict:"A",
-		controller:function($scope, MessageServer){
+		controller:function($scope, MessageServer, GraphService){
 			$scope.messageServer = MessageServer;
+			$scope.graphService = GraphService;
 			$scope.typeGraph = "degreeCentrality";
 			$scope.chosenScore = 0;
 			$scope.loaded = false;
@@ -36,7 +37,7 @@ app.directive("citationGraph", function(){
 					$(".node").each(function( index, element ){
 						var attr = getAttrCentrality(newVal);
 						var centralityScore = $(element).attr(attr);
-						var hue = getNodeHue(centralityScore, $scope.typeGraph, false);
+						var hue = $scope.graphService.getNodeHue(centralityScore, $scope.typeGraph, false);
 						if(attr === "group"){
 			  				hue = centralityScore * 10;
 			  			}
@@ -54,12 +55,12 @@ app.directive("citationGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/";
 			var dom = "#citation-graph";
-			drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
+			$scope.graphService.drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
-	  			drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
+	  			$scope.graphService.drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 	  		});
 			
 		}//end link

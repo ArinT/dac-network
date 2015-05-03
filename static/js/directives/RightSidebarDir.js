@@ -20,6 +20,23 @@ app.directive("rightSidebar", function(){
 			/*adding similar authors here*/
 			$scope.moreSimAuthors = true;
 			// #scope.
+			$scope.chooseCentrality = function(typeCent){
+				if(typeCent === "degreeCentrality"){
+					return "Degree";
+				}
+				if(typeCent === "closenessCentrality"){
+					return "Closeness";
+				}
+				if(typeCent === "betweennessCentrality"){
+					return "Betweenness";
+				}
+				if(typeCent === "eigenvectorCentrality"){
+					return "EigenVector";
+				}
+				if(typeCent === "group"){
+					return "Group";
+				}
+			};
 
 			/* Function used for click.  Sends node to service to tell
 				the controllers which node to highlight in the graph. */
@@ -85,7 +102,7 @@ app.directive("rightSidebar", function(){
 				//don't need to do $apply, becuase $scope is passed to the function. 
 				$scope.messageServer.queryPaper(node['id']);
 				$scope.name = node['name'];
-				$scope.centrality = chooseCentrality(node['centrality']);
+				$scope.centrality = $scope.chooseCentrality(node['centrality']);
 				$scope.centralityScore = node['score'];
 				$scope.degree = node['degree'];
 				$scope.betweenness = node['betweenness'];
@@ -97,7 +114,7 @@ app.directive("rightSidebar", function(){
 			$scope.$on("AuthorNodeClicked", function(event, node){
 				$scope.messageServer.queryAuthors(node['id']);
 				$scope.name = node['name'];
-				$scope.centrality = chooseCentrality(node['centrality']);
+				$scope.centrality = $scope.chooseCentrality(node['centrality']);
 				$scope.centralityScore = node['score'];
 				$scope.degree = node['degree'];
 				$scope.betweenness = node['betweenness'];
