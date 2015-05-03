@@ -15,7 +15,10 @@ function getAttrCentrality(centrality){
 		return "group";
 	}
 }
-app.controller("authorGraphCtrl", ["GraphService", function($scope){
+
+this.height = $(window).height();
+
+app.controller("authorGraphCtrl", ["GraphService(this.height)", function($scope){
 	$scope.typeGraph = "degreeCentrality";
 	$scope.chosenScore = 0;
 	$scope.loaded = false;

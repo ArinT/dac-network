@@ -1,8 +1,8 @@
-app.service("GraphService", function($http){
+app.service("GraphService", function($http, height){
+	this.height = height;
 
 	this.drawGraph = function(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked, isChronological){
 		var width = $(domId).width();
-		var height = $(window).height();
 		// if( $("#menu") !== null ){
 		// 	height = $(window).height() - $("#menu").height() - $("mynav").height();
 		// }
@@ -12,7 +12,7 @@ app.service("GraphService", function($http){
 		var force = d3.layout.force()
 		    .charge(-500)
 		    .linkDistance(70)
-		    .size([this.width, this.height]);
+		    .size([width, this.height]);
 		    force.gravity(0.6);
 		    
 		var svg = d3.select(domId).append("svg")
@@ -20,7 +20,7 @@ app.service("GraphService", function($http){
 				"width": "100%",
 				"height": "86%"
 			})
-			.attr("viewBox", "0 0 " + this.width + " " + this.height )
+			.attr("viewBox", "0 0 " + width + " " + this.height )
 			.attr("preserveAspectRatio", "xMidYMid meet")
 		    .call(d3.behavior.zoom().scaleExtent([0, 8]).on("zoom", zoom))
 			.append("g")
@@ -230,10 +230,10 @@ app.service("GraphService", function($http){
 			  		})
 			  		.attr("cx", function(d) {
 								  			
-						return this.getNodeCoord(centrality, d, score, d.x, this.width);
+						return this.getNodeCoord(centrality, d, score, d.x, width);
 		    		})
 		        	.attr("cy", function(d) { 
-			  			return this.getNodeCoord(centrality, d, score, d.y, this.width);
+			  			return this.getNodeCoord(centrality, d, score, d.y, width);
 		        	})
 			  		.attr("r", function(d){
 			  			if(d[centrality] < score || d["degreeCentrality"] === 0){
