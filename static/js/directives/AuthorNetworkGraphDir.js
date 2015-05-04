@@ -15,11 +15,15 @@ function getAttrCentrality(centrality){
 		return "group";
 	}
 }
-app.controller("authorGraphCtrl", function($scope){
+
+app.controller("authorGraphCtrl", ["$scope", "GraphService", function($scope, GraphService){
 	$scope.typeGraph = "degreeCentrality";
 	$scope.chosenScore = 0;
 	$scope.loaded = false;
 	$scope.jsonFile = "authors.json";
+	$scope.graphService = GraphService;
+	console.log($scope.graphService);
+	$scope.graphService.setWindowHeight($(window).height());
 	$scope.$watch("jsonFile", function(newVal, oldVal){
 		if(newVal === oldVal){
 			return;
@@ -37,7 +41,7 @@ app.controller("authorGraphCtrl", function($scope){
 			$(".node").each(function( index, element ){
 				var attr = getAttrCentrality(newVal);
 				var centralityScore = $(element).attr(attr);
-				var hue = getNodeHue(centralityScore, $scope.typeGraph, false);
+				var hue = $scope.graphService.getNodeHue(centralityScore, $scope.typeGraph, false);
 				if(attr === "group"){
 	  				hue = centralityScore * 10;
 	  			}
@@ -50,7 +54,7 @@ app.controller("authorGraphCtrl", function($scope){
 			$scope.loaded = true;
 		});
 	});
-});
+}]);
 
 app.directive("authorGraph", function(){
 	return {
@@ -59,12 +63,12 @@ app.directive("authorGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/" ;
 			var dom = "#author-graph";
-			drawGraph(scope, false, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
+			scope.graphService.drawGraph(scope, false, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
-	  			drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
+	  			scope.graphService.drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
 	  		});
 		}//end link
 	}//end return
