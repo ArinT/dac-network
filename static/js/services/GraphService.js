@@ -431,10 +431,18 @@ app.service("GraphService", function($http){
 
 			});
 			this.force.start();
+			for(var i = 160; i>0; --i) {
+			    this.force.tick();
+			}
+			this.force.stop();
 		} else {
 			// Turn of clustering
 			this.force.on("tick", null);
 			this.force.start();
+			for(var i = 160; i>0; --i) {
+			    this.force.tick();
+			}
+			this.force.stop();
 		}
 	}
 });
