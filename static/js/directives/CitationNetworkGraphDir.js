@@ -2,7 +2,7 @@ app.directive("citationGraph", function(){
 	this.height = $(window).height();
 	return {
 		restrict:"A",
-		controller:function($scope, MessageServer, "GraphService"){
+		controller:function($scope, MessageServer, GraphService){
 			$scope.messageServer = MessageServer;
 			$scope.graphService = GraphService;
 			$scope.graphService.setHeight($(window).height());
