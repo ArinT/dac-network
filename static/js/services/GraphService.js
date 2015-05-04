@@ -436,6 +436,8 @@ app.service("GraphService", function($http){
 				var k = 6 * e.alpha;
 				nodes.forEach(function(node) {
 					console.log(node);
+					console.log(clusters[node.id]);
+					console.log(clusterCenters[clusters[node.id]]);
 					node.x += (clusterCenters[clusters[node.id]].x - node.x) * k;
 					node.y += (clusterCenters[clusters[node.id]].y - node.y) * k;
 				});
