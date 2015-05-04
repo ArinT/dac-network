@@ -432,8 +432,8 @@ app.service("GraphService", function($http){
 			this.force.on("tick", function(e) {
 				var k = 6 * e.alpha;
 				nodes.forEach(function(node) {
-					node.x += (clusterCenters[clusters[n.db_id]].x - node.x) * k;
-					node.y += (clusterCenters[clusters[n.db_id]].y - node.y) * k;
+					node.x += (clusterCenters[clusters[node.db_id]].x - node.x) * k;
+					node.y += (clusterCenters[clusters[node.db_id]].y - node.y) * k;
 				});
 				console.log("Tick occured!");
 			});
