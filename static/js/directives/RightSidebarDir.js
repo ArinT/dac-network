@@ -2,7 +2,7 @@ app.directive("rightSidebar", function(){
 	return{
 		restrict:"E",
 		templateUrl:"/static/partials/RightSidebar.html",
-		controller:function($scope, $location, MessageServer){
+		controller:function($scope, $location, $http, MessageServer){
 			$scope.messageServer = MessageServer;
 			$scope.messageServer.readNodes();
 			$scope.authorPapers = null;
@@ -17,8 +17,10 @@ app.directive("rightSidebar", function(){
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
 			
-			$scope.authorClusters = angular.fromJson("../../json/author_clusters.json");
-			$scope.citationClusters = angular.fromJson("../../json/citation_clusters.json");
+			$http.get("../../json/author_clusters.json")
+				.then(function(res){ $scope.authorClusters = res.data; });
+			$http.get("../../json/citation_clusters.json")
+				.then(function(res){ $scope.citationClusters = res.data; });
 
 			// angular.element gets the controls, then we call the function on the control
 			// Definitely not the angular way, but this makes the most sense design-wise
