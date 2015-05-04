@@ -1,5 +1,97 @@
 app.service("GraphService", function($http){
 	this.height = $(window).height(); // This is not correct, change using setWindowHeight before using!!
+	
+	this.getNodeHue = function(score, centrality, isCitationNetwork){
+		var hue = 0;
+		switch  (centrality){
+			case "group":
+				return score * 10;
+			case "degreeCentrality":
+				if (!isCitationNetwork)
+				{
+					return 100-Math.round((1/(score)));
+				}
+				else if (score != 0)
+				{
+					return (Math.log(score)+4)*30;
+				}
+				else
+				{
+					return 0;
+				}	
+			case "betweennessCentrality":
+				if (!isCitationNetwork && score != 0)
+				{
+					return (Math.log(score)+13)*10;
+				}
+				else if (score != 0)
+				{
+					return (Math.log(score)+12)*10;
+				}
+				return 0;
+			case "closenessCentrality":
+				if (!isCitationNetwork && score != 0)
+				{
+					return (Math.log(score)+6)*15;
+				}
+				else if (score != 0)
+				{
+					if (Math.log(score)>-1)
+					{
+						return (Math.log(score)+1)*120;
+					}
+					else
+					{
+						return 0;
+					}
+				}
+				return 0;
+			case "eigenvectorCentrality":
+				if (score != 0 && Math.log(score)>-12)
+				{
+					
+					return (Math.log(score)+12)*10;
+				}
+				else
+				{
+					return 0;
+				}
+			default:
+				return 0;
+		}				
+	}
+	var getNodeHue = this.getNodeHue;
+	
+	var getYear = function(doi){
+		var split = doi.split("-");
+		return parseInt(split[0].slice(4));
+	}
+	
+	var getNodeCoord = function(centrality, d, score, retVal, width){
+		if(centrality === null){
+			return retVal;
+		}
+		if(d[centrality] >= score){
+			return retVal; 
+		}
+		return 0;
+	}
+	
+	var getEdgeCoord = function(centrality, d, score, retVal){
+		if(centrality === null){
+			return retVal;
+		}
+		if(d.source[centrality] >= score 
+				&& d.target[centrality] >= score
+				&& d.source[centrality] >= 0
+				&& d.target[centrality] >= 0){
+				return retVal;
+			} 
+	}
+
+	this.setWindowHeight = function(height) {
+		this.height = height;
+	}
 
 	this.drawGraph = function(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked, isChronological){
 		var width = $(domId).width();
@@ -179,16 +271,16 @@ app.service("GraphService", function($http){
 					.enter().append("line")
 					.attr("class", "link")
 					.attr("x1", function(d) { 
-				  			return GraphService.getEdgeCoord(centrality, d, score, d.source.x);
+				  			return getEdgeCoord(centrality, d, score, d.source.x);
 		  			})
 		        	.attr("y1", function(d) { 
-			  			return GraphService.getEdgeCoord(centrality, d, score, d.source.y);
+			  			return getEdgeCoord(centrality, d, score, d.source.y);
 			  		})
 		        	.attr("x2", function(d) { 
-			  			return GraphService.getEdgeCoord(centrality, d, score, d.target.x);
+			  			return getEdgeCoord(centrality, d, score, d.target.x);
 			  		})
 		        	.attr("y2", function(d) { 
-			  			return GraphService.getEdgeCoord(centrality, d, score, d.target.y);
+			  			return getEdgeCoord(centrality, d, score, d.target.y);
 			  		})
 					.style("stroke-width", function(d){ return d.value;})
 					.style("stroke", function(d){
@@ -230,10 +322,10 @@ app.service("GraphService", function($http){
 			  		})
 			  		.attr("cx", function(d) {
 								  			
-						return GraphService.getNodeCoord(centrality, d, score, d.x, width);
+						return getNodeCoord(centrality, d, score, d.x, width);
 		    		})
 		        	.attr("cy", function(d) { 
-			  			return GraphService.getNodeCoord(centrality, d, score, d.y, width);
+			  			return getNodeCoord(centrality, d, score, d.y, width);
 		        	})
 			  		.attr("r", function(d){
 			  			if(d[centrality] < score || d["degreeCentrality"] === 0){
@@ -244,7 +336,7 @@ app.service("GraphService", function($http){
 			  			}
 			  		})
 			  		.style("fill", function(d){
-						var hue = GraphService.getNodeHue(d[centrality], centrality, isCitationNetwork);
+						var hue = getNodeHue(d[centrality], centrality, isCitationNetwork);
 			  			return "hsl("+hue+",100% ,50%)";
 			  		})
 			  		.on("click", function(d){
@@ -298,7 +390,7 @@ app.service("GraphService", function($http){
 			  	node.append("title")
 			  		.text(function(d){ 
 			  			if(d.doi){
-			  				return d.name+"\n Score: "+d[centrality] + "\nYear: " + GraphService.getYear(d['doi']); 
+			  				return d.name+"\n Score: "+d[centrality] + "\nYear: " + getYear(d['doi']); 
 			  			}
 			  			return d.name+"\n Score "+d[centrality]; 
 			  		});
@@ -308,113 +400,4 @@ app.service("GraphService", function($http){
 			});	
 		}, 10);
 	}//end drawGraph()
-	
-	this.getNodeHue = function(score, centrality, isCitationNetwork){
-		var hue = 0;
-		switch  (centrality){
-			case "group":
-				return score * 10;
-			case "degreeCentrality":
-				if (!isCitationNetwork)
-				{
-					return 100-Math.round((1/(score)));
-				}
-				else if (score != 0)
-				{
-					return (Math.log(score)+4)*30;
-				}
-				else
-				{
-					return 0;
-				}	
-			case "betweennessCentrality":
-				if (!isCitationNetwork && score != 0)
-				{
-					return (Math.log(score)+13)*10;
-				}
-				else if (score != 0)
-				{
-					return (Math.log(score)+12)*10;
-				}
-				return 0;
-			case "closenessCentrality":
-				if (!isCitationNetwork && score != 0)
-				{
-					return (Math.log(score)+6)*15;
-				}
-				else if (score != 0)
-				{
-					if (Math.log(score)>-1)
-					{
-						return (Math.log(score)+1)*120;
-					}
-					else
-					{
-						return 0;
-					}
-				}
-				return 0;
-			case "eigenvectorCentrality":
-				if (score != 0 && Math.log(score)>-12)
-				{
-					
-					return (Math.log(score)+12)*10;
-				}
-				else
-				{
-					return 0;
-				}
-			default:
-				return 0;
-		}				
-	}
-	
-	this.getYear = function(doi){
-		var split = doi.split("-");
-		return parseInt(split[0].slice(4));
-	}
-	
-	this.getNodeCoord = function(centrality, d, score, retVal, width){
-		if(centrality === null){
-			return retVal;
-		}
-		if(d[centrality] >= score){
-			return retVal; 
-		}
-		return 0;
-	}
-	
-	this.getEdgeCoord = function(centrality, d, score, retVal){
-		if(centrality === null){
-			return retVal;
-		}
-		if(d.source[centrality] >= score 
-				&& d.target[centrality] >= score
-				&& d.source[centrality] >= 0
-				&& d.target[centrality] >= 0){
-				return retVal;
-			} 
-	}
-	
-	this.chooseCentrality = function(typeCent){
-		if(typeCent === "degreeCentrality"){
-			return "Degree";
-		}
-		if(typeCent === "closenessCentrality"){
-			return "Closeness";
-		}
-		if(typeCent === "betweennessCentrality"){
-			return "Betweenness";
-		}
-		if(typeCent === "eigenvectorCentrality"){
-			return "EigenVector";
-		}
-		if(typeCent === "group"){
-			return "Group";
-		}
-	}//end chooseCentrality()
-
-	this.setWindowHeight = function(height) {
-		this.height = height;
-	}
 });
