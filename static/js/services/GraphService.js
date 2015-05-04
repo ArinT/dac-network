@@ -179,16 +179,16 @@ app.service("GraphService", function($http){
 					.enter().append("line")
 					.attr("class", "link")
 					.attr("x1", function(d) { 
-				  			return getEdgeCoord(centrality, d, score, d.source.x);
+				  			return GraphService.getEdgeCoord(centrality, d, score, d.source.x);
 		  			})
 		        	.attr("y1", function(d) { 
-			  			return getEdgeCoord(centrality, d, score, d.source.y);
+			  			return GraphService.getEdgeCoord(centrality, d, score, d.source.y);
 			  		})
 		        	.attr("x2", function(d) { 
-			  			return getEdgeCoord(centrality, d, score, d.target.x);
+			  			return GraphService.getEdgeCoord(centrality, d, score, d.target.x);
 			  		})
 		        	.attr("y2", function(d) { 
-			  			return getEdgeCoord(centrality, d, score, d.target.y);
+			  			return GraphService.getEdgeCoord(centrality, d, score, d.target.y);
 			  		})
 					.style("stroke-width", function(d){ return d.value;})
 					.style("stroke", function(d){
@@ -230,10 +230,10 @@ app.service("GraphService", function($http){
 			  		})
 			  		.attr("cx", function(d) {
 								  			
-						return this.getNodeCoord(centrality, d, score, d.x, width);
+						return GraphService.getNodeCoord(centrality, d, score, d.x, width);
 		    		})
 		        	.attr("cy", function(d) { 
-			  			return this.getNodeCoord(centrality, d, score, d.y, width);
+			  			return GraphService.getNodeCoord(centrality, d, score, d.y, width);
 		        	})
 			  		.attr("r", function(d){
 			  			if(d[centrality] < score || d["degreeCentrality"] === 0){
@@ -244,7 +244,7 @@ app.service("GraphService", function($http){
 			  			}
 			  		})
 			  		.style("fill", function(d){
-						var hue = getNodeHue(d[centrality], centrality, isCitationNetwork);
+						var hue = GraphService.getNodeHue(d[centrality], centrality, isCitationNetwork);
 			  			return "hsl("+hue+",100% ,50%)";
 			  		})
 			  		.on("click", function(d){
@@ -298,7 +298,7 @@ app.service("GraphService", function($http){
 			  	node.append("title")
 			  		.text(function(d){ 
 			  			if(d.doi){
-			  				return d.name+"\n Score: "+d[centrality] + "\nYear: " + this.getYear(d['doi']); 
+			  				return d.name+"\n Score: "+d[centrality] + "\nYear: " + GraphService.getYear(d['doi']); 
 			  			}
 			  			return d.name+"\n Score "+d[centrality]; 
 			  		});
