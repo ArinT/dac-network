@@ -119,6 +119,7 @@ app.service("GraphService", function($http){
 			.attr("preserveAspectRatio", "xMidYMid meet")
 		    .call(d3.behavior.zoom().scaleExtent([0, 8]).on("zoom", zoom))
 			.append("g")
+			.append("path")
 			.attr("id", "transformme");
 		this.svg = svg;
 		    
@@ -426,14 +427,14 @@ app.service("GraphService", function($http){
 			var groupFill = function(d, i) { return fill(i & groups.length); };
 			this.svg.selectAll("path")
 			    .data(groups)
-			      .attr("d", groupPath)
-			    .enter().insert("path", "circle")
-			      .style("fill", groupFill)
-			      .style("stroke", groupFill)
-			      .style("stroke-width", 40)
-			      .style("stroke-linejoin", "round")
-			      .style("opacity", .2)
-			      .attr("d", groupPath);
+			    	.attr("d", groupPath)
+			    .enter().insert("path", "g")
+			    	.style("fill", groupFill)
+			    	.style("stroke", groupFill)
+			    	.style("stroke-width", 40)
+			    	.style("stroke-linejoin", "round")
+			    	.style("opacity", .2)
+			    	.attr("d", groupPath);
 			/*var clusterCenters = d3.nest()
 				.key(function(d) { return clusters[d.id]; }).rollup(function(leaves) {
 				return {"x": d3.mean(leaves, function(d) { return d.x; }), 
