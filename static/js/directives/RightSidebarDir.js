@@ -16,16 +16,18 @@ app.directive("rightSidebar", function(){
 			$scope.moreAuthorPapers = true;
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
-			//TODO: MOVE LOGIC HERE
+			
 			$scope.authorClusters = JSON.parse("../../json/author_clusters.json");
 			$scope.citationClusters = JSON.parse("../../json/citation_clusters.json");
+
+			// angular.element gets the controls, then we call the function on the control
+			// Definitely not the angular way, but this makes the most sense design-wise
 			$scope.toggleAuthorClustering = function(e){
-				//toggleClustering(e, $scope.clusters, $scope.force, $scope.svg);
+				angular.element($("#author-graph")).scope().$apply(function() {scope.toggleClustering(e, $scope.authorClusters)});
 			};
 			$scope.toggleCitationClustering = function(e){
-				//toggleClustering(e, $scope.clusters, $scope.force, $scope.svg);
+				angular.element($("#citation-graph")).scope().$apply(function() {scope.toggleClustering(e, $scope.citationClusters)});
 			};
-			//END TODO
 
 			/*adding similar authors here*/
 			$scope.moreSimAuthors = true;

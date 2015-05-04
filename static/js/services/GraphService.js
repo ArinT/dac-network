@@ -1,5 +1,7 @@
 app.service("GraphService", function($http){
 	this.height = $(window).height(); // This is not correct, change using setWindowHeight before using!!
+	this.force;
+	this.svg;
 	
 	this.getNodeHue = function(score, centrality, isCitationNetwork){
 		var hue = 0;
@@ -106,6 +108,7 @@ app.service("GraphService", function($http){
 		    .linkDistance(70)
 		    .size([width, this.height]);
 		    force.gravity(0.6);
+		this.force = force;
 		    
 		var svg = d3.select(domId).append("svg")
 		    .attr({
@@ -117,6 +120,7 @@ app.service("GraphService", function($http){
 		    .call(d3.behavior.zoom().scaleExtent([0, 8]).on("zoom", zoom))
 			.append("g")
 			.attr("id", "transformme");
+		this.svg = svg;
 		    
 		if (isCitationNetwork){
 			svg.append('svg:defs').append('svg:marker')
@@ -400,4 +404,37 @@ app.service("GraphService", function($http){
 			});	
 		}, 10);
 	}//end drawGraph()
+
+	// Code adapted from http://bl.ocks.org/donaldh/2920551
+	this.toggleClustering = function(e, clusters){
+		if (e.checked) {
+			// We cluster
+			var nodes = force.nodes();
+			var groups = d3.nest()
+				.key(function(d) { return clusters[n.db_id]; })
+				.entries(nodes);
+			var groupPath = function(d) {
+			    return "M" + 
+			      d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; }))
+			        .join("L")
+			    + "Z";
+			};
+			var clusterCenters = groups.rollup(function(leaves) 
+				{x: d3.mean(leaves, function(d) { return d.x; }), 
+				y: d3.mean(leaves, function(d) { return d.y; }))});
+			force.on("tick", function(e) {
+				var k = 6 * e.alpha;
+				nodes.forEach(function(node) {
+					node.x += (clusterCenters[clusters[n.db_id]].x - node.x) * k;
+					node.y += (clusterCenters[clusters[n.db_id]].y - node.y) * k;
+				});
+
+			});
+			force.start();
+		} else {
+			// Turn of clustering
+			force.on("tick", null);
+			force.start();
+		}
+	}
 });
