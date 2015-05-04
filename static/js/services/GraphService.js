@@ -416,7 +416,7 @@ app.service("GraphService", function($http){
 			// We cluster
 			var nodes = this.force.nodes();
 			var groups = d3.nest()
-				.key(function(d) { return clusters[n.db_id]; })
+				.key(function(d) { return clusters[d.db_id]; })
 				.entries(nodes);
 			var groupPath = function(d) {
 			    return "M" + 
