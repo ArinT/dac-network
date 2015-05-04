@@ -423,7 +423,7 @@ app.service("GraphService", function($http){
 			var undef_idx;
 			for (var i = 0; i < groups.length; i++) {
 				console.log(groups[i]);
-				if (groups[i]["key"] === undefined) {
+				if (groups[i]["key"] === "undefined") {
 					undef_idx = i;
 					break;
 				}
