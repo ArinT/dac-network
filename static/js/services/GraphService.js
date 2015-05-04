@@ -430,7 +430,7 @@ app.service("GraphService", function($http){
 			}
 			console.log(groups["undefined"]);
 			console.log(undef_idx);
-			delete groups[undef_idx];
+			groups.splice(undef_idx, 1);
 			console.log(groups);
 			
 			var groupPath = function(d) {
