@@ -428,23 +428,27 @@ app.service("GraphService", function($http){
 					node.x += (clusterCenters[clusters[n.db_id]].x - node.x) * k;
 					node.y += (clusterCenters[clusters[n.db_id]].y - node.y) * k;
 				});
-
+				console.log("Tick occured!");
 			});
 			this.force.linkDistance(null);
+			console.log("Starting force");
 			this.force.start();
 			for(var i = 160; i>0; --i) {
 			    this.force.tick();
 			}
 			this.force.stop();
+			console.log("Ending force");
 		} else {
 			// Turn of clustering
 			this.force.on("tick", null);
 			this.force.linkDistance(70);
+			console.log("Starting force (uncheck)");
 			this.force.start();
 			for(var i = 160; i>0; --i) {
 			    this.force.tick();
 			}
 			this.force.stop();
+			console.log("Ending force (uncheck)");
 		}
 	}
 });
