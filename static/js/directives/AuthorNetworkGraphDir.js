@@ -29,8 +29,9 @@ app.controller("authorGraphCtrl", ["$scope", "GraphService", function($scope, Gr
 		}
 		$scope.$broadcast("NewGraph");
 	});
-	$scope.toggleClustering = function(e, clusters) {
-		$scope.graphService.toggleClustering(e, clusters);
+	$scope.toggleClustering = function(clusters) {
+		var checked = $("#authorShowClustering")[0].checked;
+		$scope.graphService.toggleClustering(checked, clusters);
 	};
 	$scope.$watch("chosenScore", function(val, oldVal){
 		if(val !== oldVal){

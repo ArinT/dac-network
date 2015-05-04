@@ -18,8 +18,9 @@ app.directive("citationGraph", function(){
 				}
 				$scope.$broadcast("NewGraph");
 			});
-			$scope.toggleClustering = function(e, clusters) {
-				$scope.graphService.toggleClustering(e, clusters);
+			$scope.toggleClustering = function(clusters) {
+				var on = $("#citationShowClustering")[0].checked;
+				$scope.graphService.toggleClustering(on, clusters);
 			};
 			$scope.$watchCollection('[messageServer.getHighlight(), loaded]', function(newValues, oldValues){
 				//if there is a node that should be highlighted, and the graph has loaded

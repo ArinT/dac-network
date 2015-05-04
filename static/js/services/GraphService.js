@@ -409,25 +409,20 @@ app.service("GraphService", function($http){
 	}//end drawGraph()
 
 	// Code adapted from http://bl.ocks.org/donaldh/2920551
-	this.toggleClustering = function(e, clusters){
-		console.log(e);
-		console.log($(e));
-		var checked = $(e)[0].checked;
-		console.log(checked);
-		// If not currently checked, action must be the actual checking
-		if (checked !== false) {
+	this.toggleClustering = function(on, clusters){
+		if (on === true) {
 			// We cluster
 			var nodes = this.force.nodes();
 			var groups = d3.nest()
 				.key(function(d) { return clusters[d.id]; })
 				.entries(nodes);
-			/*var groupPath = function(d) {
+			var groupPath = function(d) {
 			    return "M" + 
 			      d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; }))
 			        .join("L")
 			    + "Z";
-			};*/
-			var clusterCenters = d3.nest()
+			};
+			/*var clusterCenters = d3.nest()
 				.key(function(d) { return clusters[d.id]; }).rollup(function(leaves) {
 				return {"x": d3.mean(leaves, function(d) { return d.x; }), 
 				"y": d3.mean(leaves, function(d) { return d.y; }) }})
@@ -449,10 +444,10 @@ app.service("GraphService", function($http){
 			    this.force.tick();
 			}
 			this.force.stop();
-			console.log("Ending force");
+			console.log("Ending force");*/
 		} else {
 			// Turn of clustering
-			this.force.on("tick", null);
+			/*this.force.on("tick", null);
 			this.force.linkDistance(70);
 			console.log("Starting force (uncheck)");
 			this.force.start();
@@ -460,7 +455,7 @@ app.service("GraphService", function($http){
 			    this.force.tick();
 			}
 			this.force.stop();
-			console.log("Ending force (uncheck)");
+			console.log("Ending force (uncheck)");*/
 		}
 	}
 });
