@@ -413,6 +413,7 @@ app.service("GraphService", function($http){
 		if (on === true) {
 			// We cluster
 			var nodes = this.force.nodes();
+			var fill = d3.scale.category10();
 			var groups = d3.nest()
 				.key(function(d) { return clusters[d.id]; })
 				.entries(nodes);
@@ -422,6 +423,17 @@ app.service("GraphService", function($http){
 			        .join("L")
 			    + "Z";
 			};
+			var groupFill = function(d, i) { return fill(i & groups.length); };
+			this.svg.selectAll("path")
+			    .data(groups)
+			      .attr("d", groupPath)
+			    .enter().insert("path", "circle")
+			      .style("fill", groupFill)
+			      .style("stroke", groupFill)
+			      .style("stroke-width", 40)
+			      .style("stroke-linejoin", "round")
+			      .style("opacity", .2)
+			      .attr("d", groupPath);
 			/*var clusterCenters = d3.nest()
 				.key(function(d) { return clusters[d.id]; }).rollup(function(leaves) {
 				return {"x": d3.mean(leaves, function(d) { return d.x; }), 
