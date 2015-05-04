@@ -419,9 +419,7 @@ app.service("GraphService", function($http){
 			        .join("L")
 			    + "Z";
 			};
-			var clusterCenters = groups.rollup(function(leaves) 
-				{x: d3.mean(leaves, function(d) { return d.x; }), 
-				y: d3.mean(leaves, function(d) { return d.y; }))});
+			var clusterCenters = groups.rollup(function(leaves) {"x": d3.mean(leaves, function(d) { return d.x; }), "y": d3.mean(leaves, function(d) { return d.y; }))});
 			force.on("tick", function(e) {
 				var k = 6 * e.alpha;
 				nodes.forEach(function(node) {
