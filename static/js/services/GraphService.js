@@ -420,7 +420,14 @@ app.service("GraphService", function($http){
 
 			console.log(groups);
 			// Remove outlier and hub nodes
-			delete groups[undefined];
+			var undef_idx;
+			for (var i = 0; i < groups.length; i++) {
+				if (groups[i]["key"] === undefined) {
+					undef_idx = i;
+					break;
+				}
+			}
+			delete(groups[undef_idx]);
 			console.log(groups);
 			
 			var groupPath = function(d) {
