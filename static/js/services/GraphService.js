@@ -410,8 +410,9 @@ app.service("GraphService", function($http){
 		console.log(e);
 		console.log($(e));
 		var checked = $(e)[0].checked;
+		console.log(checked);
 		// If not currently checked, action must be the actual checking
-		if (!checked) {
+		if (checked !== false) {
 			// We cluster
 			var nodes = this.force.nodes();
 			var groups = d3.nest()
