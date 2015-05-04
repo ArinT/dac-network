@@ -407,6 +407,7 @@ app.service("GraphService", function($http){
 
 	// Code adapted from http://bl.ocks.org/donaldh/2920551
 	this.toggleClustering = function(e, clusters){
+		console.log(e);
 		if (e.checked) {
 			// We cluster
 			var nodes = this.force.nodes();
