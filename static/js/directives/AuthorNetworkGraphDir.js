@@ -16,7 +16,7 @@ function getAttrCentrality(centrality){
 	}
 }
 
-app.controller("authorGraphCtrl", ["GraphService", function($scope, GraphService){
+app.controller("authorGraphCtrl", ["$scope", "GraphService", function($scope, GraphService){
 	$scope.typeGraph = "degreeCentrality";
 	$scope.chosenScore = 0;
 	$scope.loaded = false;
