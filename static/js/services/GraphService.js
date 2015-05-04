@@ -427,7 +427,8 @@ app.service("GraphService", function($http){
 					break;
 				}
 			}
-			delete(groups[undef_idx]);
+			console.log(undef_idx);
+			delete groups[undef_idx];
 			console.log(groups);
 			
 			var groupPath = function(d) {
