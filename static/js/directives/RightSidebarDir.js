@@ -24,11 +24,11 @@ app.directive("rightSidebar", function(){
 
 			// angular.element gets the controls, then we call the function on the control
 			// Definitely not the angular way, but this makes the most sense design-wise
-			$scope.toggleAuthorClustering = function(e){
-				angular.element($("#author-graph")).scope().toggleClustering(e, $scope.authorClusters);
+			$scope.toggleAuthorClustering = function(){
+				angular.element($("#author-graph")).scope().toggleClustering("#authorShowClustering", $scope.authorClusters);
 			};
-			$scope.toggleCitationClustering = function(e){
-				angular.element($("#citation-graph")).scope().toggleClustering(e, $scope.citationClusters);
+			$scope.toggleCitationClustering = function(){
+				angular.element($("#citation-graph")).scope().toggleClustering("#citationShowClustering", $scope.citationClusters);
 			};
 
 			/*adding similar authors here*/
