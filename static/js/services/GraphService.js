@@ -324,6 +324,9 @@ app.service("GraphService", function($http){
 			  			}
 			  			return d["name"].replace(/\s+/g, '');
 			  		})
+			  		.attr("db_id", function (d) {
+			  			return d["id"];
+			  		})
 			  		.attr("cx", function(d) {
 								  			
 						return getNodeCoord(centrality, d, score, d.x, width);
