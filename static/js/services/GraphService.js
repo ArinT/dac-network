@@ -418,8 +418,10 @@ app.service("GraphService", function($http){
 				.key(function(d) { return clusters[d.id]; })
 				.entries(nodes);
 
+			console.log(groups);
 			// Remove outlier and hub nodes
 			delete groups[undefined];
+			console.log(groups);
 			
 			var groupPath = function(d) {
 			    return "M" + 
