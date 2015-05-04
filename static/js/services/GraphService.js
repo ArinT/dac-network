@@ -424,9 +424,11 @@ app.service("GraphService", function($http){
 			        .join("L")
 			    + "Z";
 			};
-			var clusterCenters = groups.rollup(function(leaves) {
+			var clusterCenters = d3.nest()
+				.key(function(d) { return clusters[d.db_id]; }).rollup(function(leaves) {
 				return {"x": d3.mean(leaves, function(d) { return d.x; }), 
-				"y": d3.mean(leaves, function(d) { return d.y; }) }});
+				"y": d3.mean(leaves, function(d) { return d.y; }) }})
+				.entries(nodes);
 			this.force.on("tick", function(e) {
 				var k = 6 * e.alpha;
 				nodes.forEach(function(node) {
