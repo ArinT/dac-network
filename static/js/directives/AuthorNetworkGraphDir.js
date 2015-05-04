@@ -22,7 +22,6 @@ app.controller("authorGraphCtrl", ["$scope", "GraphService", function($scope, Gr
 	$scope.loaded = false;
 	$scope.jsonFile = "authors.json";
 	$scope.graphService = GraphService;
-	console.log($scope.graphService);
 	$scope.graphService.setWindowHeight($(window).height());
 	$scope.$watch("jsonFile", function(newVal, oldVal){
 		if(newVal === oldVal){
