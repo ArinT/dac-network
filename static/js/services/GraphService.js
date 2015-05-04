@@ -417,6 +417,10 @@ app.service("GraphService", function($http){
 			var groups = d3.nest()
 				.key(function(d) { return clusters[d.id]; })
 				.entries(nodes);
+
+			// Remove outlier and hub nodes
+			delete groups[undefined];
+			
 			var groupPath = function(d) {
 			    return "M" + 
 			      d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; }))
@@ -468,6 +472,7 @@ app.service("GraphService", function($http){
 			}
 			this.force.stop();
 			console.log("Ending force (uncheck)");*/
+			this.svg.selectAll("path").remove();
 		}
 	}
 });
