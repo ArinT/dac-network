@@ -419,16 +419,16 @@ app.service("GraphService", function($http){
 			// We cluster
 			var nodes = this.force.nodes();
 			var groups = d3.nest()
-				.key(function(d) { return clusters[d.db_id]; })
+				.key(function(d) { return clusters[d.id]; })
 				.entries(nodes);
-			var groupPath = function(d) {
+			/*var groupPath = function(d) {
 			    return "M" + 
 			      d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; }))
 			        .join("L")
 			    + "Z";
-			};
+			};*/
 			var clusterCenters = d3.nest()
-				.key(function(d) { return clusters[d.db_id]; }).rollup(function(leaves) {
+				.key(function(d) { return clusters[d.id]; }).rollup(function(leaves) {
 				return {"x": d3.mean(leaves, function(d) { return d.x; }), 
 				"y": d3.mean(leaves, function(d) { return d.y; }) }})
 				.entries(nodes);
@@ -436,8 +436,8 @@ app.service("GraphService", function($http){
 				var k = 6 * e.alpha;
 				nodes.forEach(function(node) {
 					console.log(node);
-					node.x += (clusterCenters[clusters[node.db_id]].x - node.x) * k;
-					node.y += (clusterCenters[clusters[node.db_id]].y - node.y) * k;
+					node.x += (clusterCenters[clusters[node.id]].x - node.x) * k;
+					node.y += (clusterCenters[clusters[node.id]].y - node.y) * k;
 				});
 				console.log("Tick occured!");
 			});
