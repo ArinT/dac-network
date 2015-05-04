@@ -17,9 +17,9 @@ app.directive("rightSidebar", function(){
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
 			
-			$http.get("../../json/author_clusters.json")
+			$http.get("static/json/author_clusters.json")
 				.then(function(res){ $scope.authorClusters = res.data; });
-			$http.get("../../json/citation_clusters.json")
+			$http.get("static/json/citation_clusters.json")
 				.then(function(res){ $scope.citationClusters = res.data; });
 
 			// angular.element gets the controls, then we call the function on the control
