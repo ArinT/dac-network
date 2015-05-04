@@ -422,11 +422,13 @@ app.service("GraphService", function($http){
 			// Remove outlier and hub nodes
 			var undef_idx;
 			for (var i = 0; i < groups.length; i++) {
+				console.log(groups[i]);
 				if (groups[i]["key"] === undefined) {
 					undef_idx = i;
 					break;
 				}
 			}
+			console.log(groups["undefined"]);
 			console.log(undef_idx);
 			delete groups[undef_idx];
 			console.log(groups);
