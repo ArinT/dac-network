@@ -57,12 +57,12 @@ app.directive("citationGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/";
 			var dom = "#citation-graph";
-			$scope.graphService.drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
+			scope.graphService.drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
-	  			$scope.graphService.drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
+	  			scope.graphService.drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 	  		});
 			
 		}//end link

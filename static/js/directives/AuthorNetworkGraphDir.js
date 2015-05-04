@@ -63,12 +63,12 @@ app.directive("authorGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/" ;
 			var dom = "#author-graph";
-			$scope.graphService.drawGraph($scope, false, $scope.chosenScore, $scope.typeGraph,fileName+$scope.jsonFile, dom, -100, "AuthorNodeClicked");
+			scope.graphService.drawGraph(scope, false, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
 			
-			$scope.$on("NewGraph",function(){
+			scope.$on("NewGraph",function(){
 				$("svg").remove();
-				$scope.loaded = false;
-	  			$scope.graphService.drawGraph($scope, false,  $scope.chosenScore, $scope.typeGraph,fileName+$scope.jsonFile, dom, -100, "AuthorNodeClicked");
+				scope.loaded = false;
+	  			scope.graphService.drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
 	  		});
 		}//end link
 	}//end return
