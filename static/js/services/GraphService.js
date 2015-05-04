@@ -409,7 +409,7 @@ app.service("GraphService", function($http){
 	this.toggleClustering = function(e, clusters){
 		if (e.checked) {
 			// We cluster
-			var nodes = force.nodes();
+			var nodes = this.force.nodes();
 			var groups = d3.nest()
 				.key(function(d) { return clusters[n.db_id]; })
 				.entries(nodes);
@@ -430,11 +430,11 @@ app.service("GraphService", function($http){
 				});
 
 			});
-			force.start();
+			this.force.start();
 		} else {
 			// Turn of clustering
-			force.on("tick", null);
-			force.start();
+			this.force.on("tick", null);
+			this.force.start();
 		}
 	}
 });
