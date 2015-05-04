@@ -119,7 +119,6 @@ app.service("GraphService", function($http){
 			.attr("preserveAspectRatio", "xMidYMid meet")
 		    .call(d3.behavior.zoom().scaleExtent([0, 8]).on("zoom", zoom))
 			.append("g")
-			.append("path")
 			.attr("id", "transformme");
 		this.svg = svg;
 		    
