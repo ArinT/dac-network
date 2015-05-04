@@ -107,7 +107,7 @@ app.service("GraphService", function($http){
 		    .charge(-500)
 		    .linkDistance(70)
 		    .size([width, this.height]);
-		    force.gravity(0.6);
+		force.gravity(0.6);
 		this.force = force;
 		    
 		var svg = d3.select(domId).append("svg")
@@ -422,7 +422,7 @@ app.service("GraphService", function($http){
 			var clusterCenters = groups.rollup(function(leaves) {
 				return {"x": d3.mean(leaves, function(d) { return d.x; }), 
 				"y": d3.mean(leaves, function(d) { return d.y; }) }});
-			force.on("tick", function(e) {
+			this.force.on("tick", function(e) {
 				var k = 6 * e.alpha;
 				nodes.forEach(function(node) {
 					node.x += (clusterCenters[clusters[n.db_id]].x - node.x) * k;
@@ -430,6 +430,7 @@ app.service("GraphService", function($http){
 				});
 
 			});
+			this.force.linkDistance(null);
 			this.force.start();
 			for(var i = 160; i>0; --i) {
 			    this.force.tick();
@@ -438,6 +439,7 @@ app.service("GraphService", function($http){
 		} else {
 			// Turn of clustering
 			this.force.on("tick", null);
+			this.force.linkDistance(70);
 			this.force.start();
 			for(var i = 160; i>0; --i) {
 			    this.force.tick();
