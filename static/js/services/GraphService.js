@@ -409,8 +409,9 @@ app.service("GraphService", function($http){
 	this.toggleClustering = function(e, clusters){
 		console.log(e);
 		console.log($(e));
-		var checked = $(e).checked;
-		if (checked) {
+		var checked = $(e)[0].checked;
+		// If not currently checked, action must be the actual checking
+		if (!checked) {
 			// We cluster
 			var nodes = this.force.nodes();
 			var groups = d3.nest()
