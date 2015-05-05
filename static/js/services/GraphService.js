@@ -434,7 +434,7 @@ app.service("GraphService", function($http){
 			    + "Z";
 			};
 			var groupFill = function(d, i) { return fill(i); };
-			this.svg.selectAll("path.clusters")
+			this.svg.selectAll("path")
 			    .data(groups)
 			    	.attr("d", groupPath)
 			    .enter().insert("path.clusters", "g")
@@ -478,7 +478,7 @@ app.service("GraphService", function($http){
 			}
 			this.force.stop();
 			console.log("Ending force (uncheck)");*/
-			this.svg.selectAll("path").remove();
+			this.svg.selectAll("path.clusters").remove();
 		}
 	}
 });
