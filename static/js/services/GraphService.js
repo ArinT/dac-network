@@ -440,7 +440,7 @@ app.service("GraphService", function($http){
 			this.svg.selectAll("path.clusters")
 			    .data(groups)
 			    	.attr("d", groupPath)
-			    .enter().append("path.clusters")
+			    .enter().insert("path.clusters", "g")
 			    	.style("fill", groupFill)
 			    	.style("stroke", groupFill)
 			    	.style("stroke-width", 40)
@@ -481,6 +481,7 @@ app.service("GraphService", function($http){
 			}
 			this.force.stop();
 			console.log("Ending force (uncheck)");*/
+			console.log(this.svg.selectAll("path.clusters"));
 			this.svg.selectAll("path.clusters").remove();
 		}
 	}
