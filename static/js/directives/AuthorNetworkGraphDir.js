@@ -23,6 +23,7 @@ app.controller("authorGraphCtrl", ["$scope", "GraphService", function($scope, Gr
 	$scope.jsonFile = "authors.json";
 	$scope.graphService = GraphService;
 	$scope.graphService.setWindowHeight($(window).height());
+	$scope.authorCheckboxId = "#authorShowClustering";
 	$scope.$watch("jsonFile", function(newVal, oldVal){
 		if(newVal === oldVal){
 			return;
@@ -30,7 +31,7 @@ app.controller("authorGraphCtrl", ["$scope", "GraphService", function($scope, Gr
 		$scope.$broadcast("NewGraph");
 	});
 	$scope.toggleClustering = function(clusters) {
-		var checked = $("#authorShowClustering")[0].checked;
+		var checked = $($scope.authorCheckboxId)[0].checked;
 		$scope.graphService.toggleClustering(checked, clusters);
 	};
 	$scope.$watch("chosenScore", function(val, oldVal){
@@ -63,15 +64,25 @@ app.directive("authorGraph", function(){
 	return {
 		restrict:"A",
 		controller:"authorGraphCtrl",
-		link:function(scope, elem, attrs){
+		link:function(scope, http, elem, attrs){
 			var fileName = "../../static/json/" ;
 			var dom = "#author-graph";
+			http.get("static/json/author_clusters.json")
+				.then(function(res){ scope.clusters = res.data; });
 			scope.graphService.drawGraph(scope, false, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
+			var checked = $(scope.authorCheckboxId)[0].checked;
+			if (checked === true) {
+				scope.toggleClustering(scope.clusters);
+			}
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
 	  			scope.graphService.drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
+	  			checked = $(scope.authorCheckboxId)[0].checked;
+				if (checked === true) {
+					scope.toggleClustering(scope.clusters);
+				}
 	  		});
 		}//end link
 	}//end return
