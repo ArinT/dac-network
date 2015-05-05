@@ -415,6 +415,7 @@ app.service("GraphService", function($http){
 			var groups = d3.nest()
 				.key(function(d) { return clusters[d.id]; })
 				.entries(nodes);
+			var fill = d3.scale.category20();
 
 			// Remove outlier and hub nodes
 			var undef_idx;
@@ -425,9 +426,6 @@ app.service("GraphService", function($http){
 				}
 			}
 			groups.splice(undef_idx, 1);
-			var fill = function(i) {
-				return "hsl(" + i * 360 / groups.length + ", 100%, 75%)";
-			};
 			
 			var groupPath = function(d) {
 			    return "M" + 
