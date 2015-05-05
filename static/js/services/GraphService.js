@@ -434,6 +434,7 @@ app.service("GraphService", function($http){
 			    + "Z";
 			};
 			var groupFill = function(d, i) { return fill(i); };
+			console.log(this.svg.selectAll("path"));
 			this.svg.selectAll("path")
 			    .data(groups)
 			    	.attr("d", groupPath)
