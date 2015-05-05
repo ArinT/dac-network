@@ -435,7 +435,8 @@ app.service("GraphService", function($http){
 			};
 			var groupFill = function(d, i) { return fill(i); };
 			console.log(this.svg.selectAll("path"));
-			this.svg.selectAll("path")
+			console.log(this.svg.selectAll("path.clusters"));
+			this.svg.selectAll("path.clusters")
 			    .data(groups)
 			    	.attr("d", groupPath)
 			    .enter().insert("path.clusters", "g")
