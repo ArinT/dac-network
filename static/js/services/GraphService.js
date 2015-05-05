@@ -442,7 +442,7 @@ app.service("GraphService", function($http){
 			    	.style("stroke", groupFill)
 			    	.style("stroke-width", 40)
 			    	.style("stroke-linejoin", "round")
-			    	.style("opacity", .2)
+			    	.style("opacity", .35)
 			    	.attr("d", groupPath);
 			/*var clusterCenters = d3.nest()
 				.key(function(d) { return clusters[d.id]; }).rollup(function(leaves) {
