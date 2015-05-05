@@ -436,10 +436,10 @@ app.service("GraphService", function($http){
 			var groupFill = function(d, i) { return fill(i); };
 			console.log(this.svg.selectAll("path"));
 			console.log(this.svg.selectAll("path.clusters"));
-			this.svg.selectAll("g")
+			this.svg.selectAll("path.clusters")
 			    .data(groups)
 			    	.attr("d", groupPath)
-			    .enter().insert("path.clusters")
+			    .enter().append("path.clusters")
 			    	.style("fill", groupFill)
 			    	.style("stroke", groupFill)
 			    	.style("stroke-width", 40)
