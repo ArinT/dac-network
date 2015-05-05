@@ -2,7 +2,7 @@ app.directive("rightSidebar", function(){
 	return{
 		restrict:"E",
 		templateUrl:"/static/partials/RightSidebar.html",
-		controller:function($scope, $location, MessageServer){
+		controller:function($scope, $location, $http, MessageServer){
 			$scope.messageServer = MessageServer;
 			$scope.messageServer.readNodes();
 			$scope.authorPapers = null;
@@ -16,10 +16,25 @@ app.directive("rightSidebar", function(){
 			$scope.moreAuthorPapers = true;
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
+			
+			$http.get("static/json/author_clusters.json")
+				.then(function(res){ $scope.authorClusters = res.data; });
+			$http.get("static/json/citation_clusters.json")
+				.then(function(res){ $scope.citationClusters = res.data; });
+
+			// angular.element gets the controls, then we call the function on the control
+			// Definitely not the angular way, but this makes the most sense design-wise
+			$scope.toggleAuthorClustering = function(){
+				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters);
+			};
+			$scope.toggleCitationClustering = function(){
+				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters);
+			};
 
 			/*adding similar authors here*/
 			$scope.moreSimAuthors = true;
 			// #scope.
+
 			$scope.chooseCentrality = function(typeCent){
 				if(typeCent === "degreeCentrality"){
 					return "Degree";

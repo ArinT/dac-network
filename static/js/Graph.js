@@ -13,6 +13,8 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	    .linkDistance(70)
 	    .size([width, height]);
 	    force.gravity(0.6);
+
+	scope.force = force;
 	    
 	var svg = d3.select(domId).append("svg")
 	    .attr({
@@ -24,6 +26,7 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 	    .call(d3.behavior.zoom().scaleExtent([0, 8]).on("zoom", zoom))
 		.append("g")
 		.attr("id", "transformme");
+	scope.svg = svg;
 	    
 	if (isCitationNetwork){
 		svg.append('svg:defs').append('svg:marker')
@@ -227,6 +230,9 @@ function drawGraph(scope, isCitationNetwork, score, centrality, jsonFile, domId,
 		  			}
 		  			return d["name"].replace(/\s+/g, '');
 		  		})
+		  		.attr("db_id", function(d){
+		  			return d["id"]
+		  		})
 		  		.attr("cx", function(d) {
 							  			
 					return getNodeCoord(centrality, d, score, d.x, width);
@@ -407,3 +413,35 @@ function chooseCentrality(typeCent){
 		return "Group";
 	}
 }//end chooseCentrality()
+// Code adapted from http://bl.ocks.org/donaldh/2920551
+function toggleClustering(e, clusters, force, svg){
+	if (e.checked) {
+		// We cluster
+		var nodes = force.nodes();
+		var groups = d3.nest()
+			.key(function(d) { return clusters[n.db_id]; })
+			.entries(nodes);
+		var groupPath = function(d) {
+		    return "M" + 
+		      d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; }))
+		        .join("L")
+		    + "Z";
+		};
+		var clusterCenters = groups.rollup(function(leaves) 
+			{x: d3.mean(leaves, function(d) { return d.x; }), 
+			y: d3.mean(leaves, function(d) { return d.y; }))});
+		force.on("tick", function(e) {
+			var k = 6 * e.alpha;
+			nodes.forEach(function(node) {
+				node.x += (clusterCenters[clusters[n.db_id]].x - node.x) * k;
+				node.y += (clusterCenters[clusters[n.db_id]].y - node.y) * k;
+			});
+
+		});
+		force.start();
+	} else {
+		// Turn of clustering
+		force.on("tick", null);
+		force.start();
+	}
+}

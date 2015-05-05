@@ -1,5 +1,6 @@
 app.service("GraphService", function($http){
-	this.height = $(window).height(); // This is not correct, change using setWindowHeight before using!!
+	this.force;
+	this.svg;
 	
 	this.getNodeHue = function(score, centrality, isCitationNetwork){
 		var hue = 0;
@@ -105,7 +106,8 @@ app.service("GraphService", function($http){
 		    .charge(-500)
 		    .linkDistance(70)
 		    .size([width, this.height]);
-		    force.gravity(0.6);
+		force.gravity(0.6);
+		this.force = force;
 		    
 		var svg = d3.select(domId).append("svg")
 		    .attr({
@@ -117,6 +119,7 @@ app.service("GraphService", function($http){
 		    .call(d3.behavior.zoom().scaleExtent([0, 8]).on("zoom", zoom))
 			.append("g")
 			.attr("id", "transformme");
+		this.svg = svg;
 		    
 		if (isCitationNetwork){
 			svg.append('svg:defs').append('svg:marker')
@@ -320,6 +323,9 @@ app.service("GraphService", function($http){
 			  			}
 			  			return d["name"].replace(/\s+/g, '');
 			  		})
+			  		.attr("db_id", function (d) {
+			  			return d["id"];
+			  		})
 			  		.attr("cx", function(d) {
 								  			
 						return getNodeCoord(centrality, d, score, d.x, width);
@@ -386,6 +392,10 @@ app.service("GraphService", function($http){
 				  		}
 
 			  		});
+				
+				console.log(svg);
+				console.log(svg.select("svg"));
+				console.log(this.svg);
 					
 			  	node.append("title")
 			  		.text(function(d){ 
@@ -400,4 +410,84 @@ app.service("GraphService", function($http){
 			});	
 		}, 10);
 	}//end drawGraph()
+
+	// Code adapted from http://bl.ocks.org/donaldh/2920551
+	this.toggleClustering = function(on, clusters){
+		if (on === true) {
+			// We cluster
+			var nodes = this.force.nodes();
+			var groups = d3.nest()
+				.key(function(d) { return clusters[d.id]; })
+				.entries(nodes);
+			var fill = d3.scale.category20();
+
+			// Remove outlier and hub nodes
+			var undef_idx;
+			for (var i = 0; i < groups.length; i++) {
+				if (groups[i]["key"] === "undefined") {
+					undef_idx = i;
+					break;
+				}
+			}
+			groups.splice(undef_idx, 1);
+			
+			var groupPath = function(d) {
+			    return "M" + 
+			      d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; }))
+			        .join("L")
+			    + "Z";
+			};
+			var groupFill = function(d, i) { return fill(i); };
+			console.log(this.svg);
+			console.log(this.svg.selectAll("path"));
+			console.log(this.svg.selectAll("path.clusters"));
+			this.svg.selectAll("path.clusters")
+			    .data(groups)
+			    	.attr("d", groupPath)
+			    .enter().insert("path", "g")
+			    	.attr("class", "clusters")
+			    	.style("fill", groupFill)
+			    	.style("stroke", groupFill)
+			    	.style("stroke-width", 40)
+			    	.style("stroke-linejoin", "round")
+			    	.style("opacity", .35)
+			    	.attr("d", groupPath);
+			/*var clusterCenters = d3.nest()
+				.key(function(d) { return clusters[d.id]; }).rollup(function(leaves) {
+				return {"x": d3.mean(leaves, function(d) { return d.x; }), 
+				"y": d3.mean(leaves, function(d) { return d.y; }) }})
+				.entries(nodes);
+			this.force.on("tick", function(e) {
+				var k = 6 * e.alpha;
+				nodes.forEach(function(node) {
+					if (clusters[node.id] !== undefined) {
+						node.x += (clusterCenters[clusters[node.id]].x - node.x) * k;
+						node.y += (clusterCenters[clusters[node.id]].y - node.y) * k;
+					}
+				});
+				console.log("Tick occured!");
+			});
+			this.force.linkDistance(null);
+			console.log("Starting force");
+			this.force.start();
+			for(var i = 160; i>0; --i) {
+			    this.force.tick();
+			}
+			this.force.stop();
+			console.log("Ending force");*/
+		} else {
+			// Turn of clustering
+			/*this.force.on("tick", null);
+			this.force.linkDistance(70);
+			console.log("Starting force (uncheck)");
+			this.force.start();
+			for(var i = 160; i>0; --i) {
+			    this.force.tick();
+			}
+			this.force.stop();
+			console.log("Ending force (uncheck)");*/
+			console.log(this.svg.selectAll("path.clusters"));
+			this.svg.selectAll("path.clusters").remove();
+		}
+	}
 });

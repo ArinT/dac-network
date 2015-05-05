@@ -2,22 +2,28 @@ app.directive("citationGraph", function(){
 	this.height = $(window).height();
 	return {
 		restrict:"A",
-		controller:function($scope, MessageServer, GraphService){
+		controller:function($scope, $http, MessageServer, GraphService){
 			$scope.messageServer = MessageServer;
 			$scope.graphService = GraphService;
 			$scope.graphService.setWindowHeight($(window).height());
+			$scope.http = $http;
 			$scope.typeGraph = "degreeCentrality";
 			$scope.chosenScore = 0;
 			$scope.loaded = false;
 			$scope.highlightPaper = null;
 			$scope.jsonFile = "citations.json";
 			$scope.chronological = false;
+			$scope.citationCheckboxId = "#citationShowClustering";
 			$scope.$watch("jsonFile", function(newVal, oldVal){
 				if(newVal===oldVal){
 					return;
 				}
 				$scope.$broadcast("NewGraph");
 			});
+			$scope.toggleClustering = function(clusters) {
+				var on = $($scope.citationCheckboxId)[0].checked;
+				$scope.graphService.toggleClustering(on, clusters);
+			};
 			$scope.$watchCollection('[messageServer.getHighlight(), loaded]', function(newValues, oldValues){
 				//if there is a node that should be highlighted, and the graph has loaded
 				if(newValues[0] !== null){
@@ -58,11 +64,21 @@ app.directive("citationGraph", function(){
 			var fileName = "../../static/json/";
 			var dom = "#citation-graph";
 			scope.graphService.drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
+			var on = $(scope.citationCheckboxId)[0].checked;
+			scope.http.get("static/json/citation_clusters.json")
+				.then(function(res){ scope.clusters = res.data; });
+			if (on === true) {
+				scope.toggleClustering(scope.clusters);
+			}
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
 	  			scope.graphService.drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
+	  			on = $(scope.citationCheckboxId)[0].checked;
+	  			if (on === true) {
+					scope.toggleClustering(scope.clusters);
+				}
 	  		});
 			
 		}//end link
