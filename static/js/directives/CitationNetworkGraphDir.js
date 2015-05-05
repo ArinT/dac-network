@@ -2,10 +2,11 @@ app.directive("citationGraph", function(){
 	this.height = $(window).height();
 	return {
 		restrict:"A",
-		controller:function($scope, MessageServer, GraphService){
+		controller:function($scope, $http, MessageServer, GraphService){
 			$scope.messageServer = MessageServer;
 			$scope.graphService = GraphService;
 			$scope.graphService.setWindowHeight($(window).height());
+			$scope.http = http;
 			$scope.typeGraph = "degreeCentrality";
 			$scope.chosenScore = 0;
 			$scope.loaded = false;
@@ -59,12 +60,12 @@ app.directive("citationGraph", function(){
 				})
 			});
 		},
-		link:function(scope, http, elem, attrs){
+		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/";
 			var dom = "#citation-graph";
 			scope.graphService.drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 			var on = $(scope.citationCheckboxId)[0].checked;
-			http.get("static/json/citation_clusters.json")
+			scope.http.get("static/json/citation_clusters.json")
 				.then(function(res){ scope.clusters = res.data; });
 			if (on === true) {
 				scope.toggleClustering(scope.clusters);
