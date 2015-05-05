@@ -1,5 +1,4 @@
 app.service("GraphService", function($http){
-	this.height = $(window).height(); // This is not correct, change using setWindowHeight before using!!
 	this.force;
 	this.svg;
 	
@@ -413,25 +412,22 @@ app.service("GraphService", function($http){
 		if (on === true) {
 			// We cluster
 			var nodes = this.force.nodes();
-			var fill = d3.scale.category10();
 			var groups = d3.nest()
 				.key(function(d) { return clusters[d.id]; })
 				.entries(nodes);
 
-			console.log(groups);
 			// Remove outlier and hub nodes
 			var undef_idx;
 			for (var i = 0; i < groups.length; i++) {
-				console.log(groups[i]);
 				if (groups[i]["key"] === "undefined") {
 					undef_idx = i;
 					break;
 				}
 			}
-			console.log(groups["undefined"]);
-			console.log(undef_idx);
 			groups.splice(undef_idx, 1);
-			console.log(groups);
+			var fill = function(i) {
+				return "hsl(" + i * 360 / groups.length + ", 100%, 75%)";
+			};
 			
 			var groupPath = function(d) {
 			    return "M" + 
@@ -439,7 +435,7 @@ app.service("GraphService", function($http){
 			        .join("L")
 			    + "Z";
 			};
-			var groupFill = function(d, i) { return fill(i & groups.length); };
+			var groupFill = function(d, i) { return fill(i); };
 			this.svg.selectAll("path")
 			    .data(groups)
 			    	.attr("d", groupPath)
