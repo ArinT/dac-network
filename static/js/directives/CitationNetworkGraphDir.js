@@ -64,11 +64,13 @@ app.directive("citationGraph", function(){
 			var fileName = "../../static/json/";
 			var dom = "#citation-graph";
 			scope.graphService.drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
-			var on = $(scope.citationCheckboxId)[0].checked;
-			scope.http.get("static/json/citation_clusters.json")
-				.then(function(res){ scope.clusters = res.data; });
-			if (on === true) {
-				scope.toggleClustering(scope.clusters);
+			if ($(scope.citationCheckboxId).length !== 0) {
+				var on = $(scope.citationCheckboxId)[0].checked;
+				scope.http.get("static/json/citation_clusters.json")
+					.then(function(res){ scope.clusters = res.data; });
+				if (on === true) {
+					scope.toggleClustering(scope.clusters);
+				}
 			}
 			
 			scope.$on("NewGraph",function(){

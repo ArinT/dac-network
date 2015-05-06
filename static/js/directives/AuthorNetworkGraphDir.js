@@ -71,9 +71,11 @@ app.directive("authorGraph", function(){
 			scope.http.get("static/json/author_clusters.json")
 				.then(function(res){ scope.clusters = res.data; });
 			scope.graphService.drawGraph(scope, false, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
-			var checked = $(scope.authorCheckboxId)[0].checked;
-			if (checked === true) {
-				scope.toggleClustering(scope.clusters);
+			if ($(scope.authorCheckboxId).length !== 0) {
+				var checked = $(scope.authorCheckboxId)[0].checked;
+				if (checked === true) {
+					scope.toggleClustering(scope.clusters);
+				}
 			}
 			
 			scope.$on("NewGraph",function(){
