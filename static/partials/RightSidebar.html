@@ -63,7 +63,7 @@
 						<a ng-show="moreSimAuthors && similarAuthors.length > 2" ng-click="selectAmountOfInfo('moreSimAuthors', 'similarAuthors', 'simAuthorAffiliatesHolder')">View more</a>
 						<a ng-hide="moreSimAuthors || authorAffiliates.length <= 2" ng-click="selectAmountOfInfo('moreSimAuthors', 'similarAuthors', 'simAuthorAffiliatesHolder', 2)">Hide papers</a>
 					</div>
-					<h4>Toggle Clustering</h4><input type="checkbox" id="authorShowClustering" ng-model="authorClusteringCheckbox" ng-checked="authorClusteringCheckbox" ng-show="showAuthorClusteringCheckbox" ng-change="toggleAuthorClustering()">
+					<h4 ng-show="showAuthorClusteringCheckbox">Toggle Clustering</h4><input type="checkbox" id="authorShowClustering" ng-model="authorClusteringCheckbox" ng-checked="authorClusteringCheckbox" ng-show="showAuthorClusteringCheckbox" ng-change="toggleAuthorClustering()">
 					<div cluster-slider cluster-type="author"/>
 				</div>
 				<div id="forCitationNetwork" ng-show="myLocation.path() === '/citationNetwork' ">
@@ -121,7 +121,7 @@
 						<a ng-show="moreSimilarPapers && similarPapers.length > 2" ng-click="selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder')">View more</a>
 						<a ng-hide="moreSimilarPapers || similarPapers.length <= 2" ng-click="selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder', 2)">Hide papers</a>
 					</div>
-					<h4>Toggle Clustering</h4><input type="checkbox" id="citationShowClustering" ng-model="citationClusteringCheckbox" ng-checked="citationClusteringCheckbox" ng-show="showCitationClusteringCheckbox" ng-change="toggleCitationClustering()">
+					<h4 ng-show="showCitationClusteringCheckbox">Toggle Clustering</h4><input type="checkbox" id="citationShowClustering" ng-model="citationClusteringCheckbox" ng-checked="citationClusteringCheckbox" ng-show="showCitationClusteringCheckbox" ng-change="toggleCitationClustering()">
 					<div cluster-slider cluster-type="citation"/>
 				</div>
 				
