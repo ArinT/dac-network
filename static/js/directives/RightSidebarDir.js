@@ -21,11 +21,11 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			// angular.element gets the controls, then we call the function on the control
 			// Definitely not the angular way, but this makes the most sense design-wise
 			$scope.toggleAuthorClustering = function(){
-				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters);
+				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters, $scope.authorClusteringCheckbox);
 				$scope.$broadcast("toggleAuthorClustering", $scope.authorClusteringCheckbox);
 			};
 			$scope.toggleCitationClustering = function(){
-				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters);
+				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters, $scope.citationClusteringCheckbox);
 				$scope.$broadcast("toggleCitationClustering", $scope.citationClusteringCheckbox);
 			};
 
