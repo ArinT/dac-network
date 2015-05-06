@@ -13,7 +13,7 @@ app.controller("clusterSliderCtrl", ["$scope", "$attrs", function($scope, $attrs
 
 app.directive("clusterSlider", function(){
 	return {
-		replace: "true"
+		replace: "true",
 		restrict: "A",
 		controller: "clusterSliderCtrl"
 	}//end return
