@@ -22,11 +22,13 @@ app.controller("clusterSliderCtrl", ["$scope", "$attrs", function($scope, $attrs
 	};
 
 	$scope.$on("toggleAuthorClustering", function() {
+		console.log($attrs.clusterType);
 		if ($attrs.clusterType==="author") {
 			$scope.showClusters = !$scope.showClusters;
 		}
 	});
 	$scope.$on("toggleCitationClustering", function() {
+		console.log($attrs.clusterType);
 		if ($attrs.clusterType==="citation") {
 			$scope.showClusters = !$scope.showClusters;
 		}
