@@ -20,19 +20,6 @@ app.controller("clusterSliderCtrl", ["$scope", "$attrs", function($scope, $attrs
 	$scope.hasChanged = function() {
 		return $scope.clusSize !== $scope.initialClusSize || $scope.clusCoef !== $scope.initialClusCoef;
 	};
-
-	$scope.$on("toggleAuthorClustering", function() {
-		console.log($attrs.clusterType);
-		if ($attrs.clusterType==="author") {
-			$scope.showClusters = !$scope.showClusters;
-		}
-	});
-	$scope.$on("toggleCitationClustering", function() {
-		console.log($attrs.clusterType);
-		if ($attrs.clusterType==="citation") {
-			$scope.showClusters = !$scope.showClusters;
-		}
-	});
 }]);
 
 app.directive("clusterSlider", function(){
@@ -42,8 +29,18 @@ app.directive("clusterSlider", function(){
 		controller: "clusterSliderCtrl",
 		templateUrl: "/static/partials/ClusterSlider.html",
 		link: function(scope, elem, attrs) {
-
-
+			scope.$on("toggleAuthorClustering", function() {
+				console.log(attrs.clusterType);
+				if (attrs.clusterType==="author") {
+					scope.showClusters = !scope.showClusters;
+				}
+			});
+			scope.$on("toggleCitationClustering", function() {
+				console.log(attrs.clusterType);
+				if (attrs.clusterType==="citation") {
+					scope.showClusters = !scope.showClusters;
+				}
+			});
 		}
 	}//end return
 });
