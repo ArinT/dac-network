@@ -25,7 +25,7 @@ app.controller("clusterSliderCtrl", ["$scope", "$attrs", function($scope, $attrs
 app.directive("clusterSlider", function(){
 	return {
 		replace: "true",
-		restrict: "A",
+		restrict: "E",
 		controller: "clusterSliderCtrl",
 		templateUrl: "/static/partials/ClusterSlider.html",
 		link: function(scope, elem, attrs) {
