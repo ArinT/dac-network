@@ -28,6 +28,7 @@ app.directive("clusterSlider", function(){
 		restrict: "A",
 		controller: "clusterSliderCtrl",
 		templateUrl: "/static/partials/ClusterSlider.html",
+		scope: {},
 		link: function(scope, elem, attrs) {
 			scope.$on("toggleAuthorClustering", function() {
 				console.log(attrs.clusterType);
