@@ -20,7 +20,7 @@ app.directive("citationGraph", function(){
 				}
 				$scope.$broadcast("NewGraph");
 			});
-			$scope.toggleClustering = function(clusters) {
+			$scope.toggleClustering = function(clusters, e) {
 				var on = $($scope.citationCheckboxId)[0].checked;
 				$scope.graphService.toggleClustering(on, clusters);
 			};

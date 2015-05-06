@@ -30,18 +30,18 @@ app.directive("clusterSlider", function(){
 		templateUrl: "/static/partials/ClusterSlider.html",
 		scope: {},
 		link: function(scope, elem, attrs) {
-			scope.$on("toggleAuthorClustering", function() {
+			scope.$on("toggleAuthorClustering", function(event, e) {
 				console.log(attrs.clusterType);
 				if (attrs.clusterType==="author") {
-					scope.showClusters = !scope.showClusters;
+					scope.showClusters = e;
 					console.log("Changing!");
 				}
 				console.log(scope.showClusters);
 			});
-			scope.$on("toggleCitationClustering", function() {
+			scope.$on("toggleCitationClustering", function(event, e) {
 				console.log(attrs.clusterType);
 				if (attrs.clusterType==="citation") {
-					scope.showClusters = !scope.showClusters;
+					scope.showClusters = e;
 				}
 			});
 		}

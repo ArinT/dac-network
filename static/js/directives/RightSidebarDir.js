@@ -22,11 +22,11 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			// Definitely not the angular way, but this makes the most sense design-wise
 			$scope.toggleAuthorClustering = function(){
 				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters);
-				$scope.$broadcast("toggleAuthorClustering");
+				$scope.$broadcast("toggleAuthorClustering", $scope.authorClusteringCheckbox);
 			};
 			$scope.toggleCitationClustering = function(){
 				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters);
-				$scope.$broadcast("toggleCitationClustering");
+				$scope.$broadcast("toggleCitationClustering", $scope.citationClusteringCheckbox);
 			};
 
 			/*adding similar authors here*/
