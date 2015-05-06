@@ -32,20 +32,18 @@ app.directive("clusterSlider", function(){
 		link: function(scope, elem, attrs) {
 			scope.$on("toggleAuthorClustering", function(event, e) {
 				console.log(attrs.clusterType);
+				console.log(e);
 				if (attrs.clusterType==="author") {
-					scope.$apply(function() {
-						scope.showClusters = e;
-					});
+					scope.showClusters = e;
 					console.log("Changing!");
 				}
 				console.log(scope.showClusters);
 			});
 			scope.$on("toggleCitationClustering", function(event, e) {
 				console.log(attrs.clusterType);
+				console.log(e);
 				if (attrs.clusterType==="citation") {
-					scope.$apply(function() {
-						scope.showClusters = e;
-					});
+					scope.showClusters = e;
 				}
 			});
 		}
