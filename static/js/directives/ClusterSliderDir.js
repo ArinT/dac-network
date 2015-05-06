@@ -18,7 +18,11 @@ app.controller("clusterSliderCtrl", ["$scope", "$attrs", function($scope, $attrs
 	}
 
 	$scope.hasChanged = function() {
-		return $scope.clusSize !== $scope.initialClusSize || $scope.clusCoef !== $scope.initialClusCoef;
+		if ($scope.clusSize !== $scope.initialClusSize || $scope.clusCoef !== $scope.initialClusCoef) {
+			return "active";
+		} else {
+			return "disabled";
+		}
 	};
 }]);
 
