@@ -21,6 +21,7 @@ app.controller("authorGraphCtrl", ["$scope", "$http", "GraphService", function($
 	$scope.chosenScore = 0;
 	$scope.loaded = false;
 	$scope.jsonFile = "authors.json";
+	$scope.initialJsonFile = $scope.jsonFile;
 	$scope.graphService = GraphService;
 	$scope.graphService.setWindowHeight($(window).height());
 	$scope.http = $http;
@@ -70,20 +71,25 @@ app.directive("authorGraph", function(){
 			scope.http.get("static/json/author_clusters.json")
 				.then(function(res){ scope.clusters = res.data; });
 			scope.graphService.drawGraph(scope, false, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
-			if ($(scope.authorCheckboxId).length !== 0) {
+			/*if ($(scope.authorCheckboxId).length !== 0) {
 				var checked = $(scope.authorCheckboxId)[0].checked;
 				if (checked === true) {
 					scope.toggleClustering(scope.clusters);
 				}
-			}
+			}*/
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
 	  			scope.graphService.drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
-	  			checked = $(scope.authorCheckboxId)[0].checked;
-				if (checked === true) {
-					scope.toggleClustering(scope.clusters);
+				if (scope.chosenScore === 0 && scope.jsonFile === scope.initialJsonFile) {
+					scope.$emit("canClusterAuthor", true);
+					checked = $(scope.authorCheckboxId)[0].checked;
+					if (checked) {
+						scope.toggleClustering(scope.clusters, true);
+					}
+				} else {
+					scope.$emit("canClusterAuthor", false);
 				}
 	  		});
 		}//end link

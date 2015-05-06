@@ -12,6 +12,8 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			$scope.moreAuthorPapers = true;
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
+			$scope.showAuthorClusteringCheckbox = true;
+			$scope.showCitationClusteringCheckbox = true;
 			
 			$http.get("static/json/author_clusters.json")
 				.then(function(res){ $scope.authorClusters = res.data; });
@@ -134,6 +136,18 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 				$scope.closeness = node['closeness'];
 				$scope.eigen = node['eigen'];
 				$scope.group  = node['group'];
+			});
+			$scope.$on("canClusterAuthor", function(event, bool){
+				$scope.showAuthorClusteringCheckbox = bool;
+				if (bool === false) {
+					$scope.authorClusteringCheckbox = false;
+				}
+			});
+			$scope.$on("canClusterCitation", function(event, bool){
+				$scope.showCitationClusteringCheckbox = bool;
+				if (bool === false) {
+					$scope.citationClusteringCheckbox = false;
+				}
 			});
 			$scope.$watch("messageServer.getPaperQueries()", function(newVal, oldVal){
 				if(newVal === oldVal){
