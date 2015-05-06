@@ -15,6 +15,7 @@ app.directive("clusterSlider", function(){
 	return {
 		replace: "true",
 		restrict: "A",
+		require: "^rightSidebarCtrl",
 		controller: "clusterSliderCtrl",
 		templateUrl: "/static/partials/ClusterSlider.html"
 	}//end return
