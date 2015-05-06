@@ -1,6 +1,6 @@
 app.directive("rightSidebar", function(){
 	return{
-		require: "clusterSlider"
+		require: "clusterSlider",
 		restrict:"E",
 		templateUrl:"/static/partials/RightSidebar.html",
 		controller:function($scope, $location, $http, MessageServer){
