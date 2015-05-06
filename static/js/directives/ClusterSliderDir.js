@@ -33,6 +33,7 @@ app.directive("clusterSlider", function(){
 				console.log(attrs.clusterType);
 				if (attrs.clusterType==="author") {
 					scope.showClusters = !scope.showClusters;
+					console.log("Changing!");
 				}
 				console.log(scope.showClusters);
 			});
