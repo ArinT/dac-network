@@ -1,9 +1,4 @@
-app.directive("rightSidebar", function(){
-	return{
-		require: "clusterSliderCtrl",
-		restrict:"E",
-		templateUrl:"/static/partials/RightSidebar.html",
-		controller:function($scope, $location, $http, MessageServer){
+app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServer", function($scope, $location, $http, MessageServer){
 			$scope.messageServer = MessageServer;
 			$scope.messageServer.readNodes();
 			$scope.authorPapers = null;
@@ -182,7 +177,13 @@ app.directive("rightSidebar", function(){
 			});
 			$scope.arrowPosition = 100;
 			
-		},
+		}]);
+
+app.directive("rightSidebar", function(){
+	return{
+		restrict:"E",
+		templateUrl:"/static/partials/RightSidebar.html",
+		controller:"rightSidebarCtrl",
 		link: function(scope, elem, attr){
 			scope.$on("tabClicked", function(){
 				if(scope.rightOpened){
