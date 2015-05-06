@@ -34,6 +34,7 @@ app.directive("clusterSlider", function(){
 				if (attrs.clusterType==="author") {
 					scope.showClusters = !scope.showClusters;
 				}
+				console.log(scope.showClusters);
 			});
 			scope.$on("toggleCitationClustering", function() {
 				console.log(attrs.clusterType);
