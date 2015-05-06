@@ -1,5 +1,6 @@
 app.directive("rightSidebar", function(){
 	return{
+		require: "clusterSlider"
 		restrict:"E",
 		templateUrl:"/static/partials/RightSidebar.html",
 		controller:function($scope, $location, $http, MessageServer){
@@ -16,6 +17,8 @@ app.directive("rightSidebar", function(){
 			$scope.moreAuthorPapers = true;
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
+			$scope.showAuthorClusters = false;
+			$scope.showCitationClusters = false;
 			
 			$http.get("static/json/author_clusters.json")
 				.then(function(res){ $scope.authorClusters = res.data; });
@@ -26,9 +29,11 @@ app.directive("rightSidebar", function(){
 			// Definitely not the angular way, but this makes the most sense design-wise
 			$scope.toggleAuthorClustering = function(){
 				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters);
+				$scope.showAuthorClusters = !$scope.showAuthorClusters;
 			};
 			$scope.toggleCitationClustering = function(){
 				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters);
+				$scope.showCitationClusters = !$scope.showCitationClusters;
 			};
 
 			/*adding similar authors here*/
