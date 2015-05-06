@@ -12,8 +12,6 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			$scope.moreAuthorPapers = true;
 			$scope.moreCoAuthors = true;
 			$scope.paperAuthorsHolder = [];
-			$scope.showAuthorClusters = false;
-			$scope.showCitationClusters = false;
 			
 			$http.get("static/json/author_clusters.json")
 				.then(function(res){ $scope.authorClusters = res.data; });
@@ -24,11 +22,11 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			// Definitely not the angular way, but this makes the most sense design-wise
 			$scope.toggleAuthorClustering = function(){
 				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters);
-				$scope.showAuthorClusters = !$scope.showAuthorClusters;
+				$scope.broadcast("toggleAuthorClustering");
 			};
 			$scope.toggleCitationClustering = function(){
 				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters);
-				$scope.showCitationClusters = !$scope.showCitationClusters;
+				$scope.broadcast("toggleCitationClustering");
 			};
 
 			/*adding similar authors here*/

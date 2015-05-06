@@ -1,4 +1,7 @@
 <h4>Minimum Cluster Size</h4>
-<input class="clusSize" type="text" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="{{clusSize}}"/>
+<input id="clusSize" type="range" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="{{clusSize}}"/>
+<output for="fader" id="clusSizeOutput">{{clusSize}}</output>
 <h4>Clustering Coefficient</h4>
-<input class="clusCoef" type="text" data-slider-min="0.01" data-slider-max="2.50" data-slider-step=".01" data-slider-value="{{clusCoef}}"/>
+<input id="clusCoef" type="range" data-slider-min="0.01" data-slider-max="2.50" data-slider-step=".01" data-slider-value="{{clusCoef}}"/>
+<output for="fader" id="clusCoefOutput">{{clusCoef}}</output>
+<button type="button" class="btn btn-primary" ng-class="{{hasChanged()}}">Recluster</button>
