@@ -15,6 +15,7 @@ app.directive("clusterSlider", function(){
 	return {
 		replace: "true",
 		restrict: "A",
-		controller: "clusterSliderCtrl"
+		controller: "clusterSliderCtrl",
+		templateUrl: "/static/partials/ClusterSlider.html"
 	}//end return
 });
