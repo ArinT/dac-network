@@ -64,7 +64,7 @@
 						<a ng-hide="moreSimAuthors || authorAffiliates.length <= 2" ng-click="selectAmountOfInfo('moreSimAuthors', 'similarAuthors', 'simAuthorAffiliatesHolder', 2)">Hide papers</a>
 					</div>
 					<h4>Toggle Clustering</h4><input type="checkbox" id="authorShowClustering" ng-model="authorClusteringCheckbox" ng-change="toggleAuthorClustering()">
-					<clusterSlider ng-show="showAuthorClusters" cluster-type="author"/>
+					<cluster-slider ng-show="showAuthorClusters" cluster-type="author"/>
 				</div>
 				<div id="forCitationNetwork" ng-show="myLocation.path() === '/citationNetwork' ">
 					<h4>Paper Information:</h4>
@@ -122,7 +122,7 @@
 						<a ng-hide="moreSimilarPapers || similarPapers.length <= 2" ng-click="selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder', 2)">Hide papers</a>
 					</div>
 					<h4>Toggle Clustering</h4><input type="checkbox" id="citationShowClustering" ng-model="citationClusteringCheckbox" ng-change="toggleCitationClustering()">
-					<clusterSlider ng-show="showCitationClusters" cluster-type="citation"/>
+					<cluster-slider ng-show="showCitationClusters" cluster-type="citation"/>
 				</div>
 				
 				
