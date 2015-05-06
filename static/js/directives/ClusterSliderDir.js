@@ -24,6 +24,11 @@ app.controller("clusterSliderCtrl", ["$scope", "$attrs", function($scope, $attrs
 			return "disabled";
 		}
 	};
+
+	$scope.buttonPress = function() {
+		$scope.initialClusCoef = $scope.clusCoef;
+		$scope.initialClusSize = $scope.clusSize;
+	};
 }]);
 
 app.directive("clusterSlider", function(){
