@@ -1,4 +1,4 @@
-app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServer", function($scope, $location, $http, MessageServer){
+app.controller("rightSidebarCtrl", ["$rootScope", "$scope", "$location", "$http", "MessageServer", function($rootScope, $scope, $location, $http, MessageServer){
 			$scope.messageServer = MessageServer;
 			$scope.messageServer.readNodes();
 			$scope.authorPapers = null;
@@ -22,11 +22,11 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			// Definitely not the angular way, but this makes the most sense design-wise
 			$scope.toggleAuthorClustering = function(){
 				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters);
-				$scope.$broadcast("toggleAuthorClustering");
+				$rootScope.$broadcast("toggleAuthorClustering");
 			};
 			$scope.toggleCitationClustering = function(){
 				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters);
-				$scope.$broadcast("toggleCitationClustering");
+				$rootScope.$broadcast("toggleCitationClustering");
 			};
 
 			/*adding similar authors here*/
