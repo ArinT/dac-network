@@ -33,7 +33,9 @@ app.directive("clusterSlider", function(){
 			scope.$on("toggleAuthorClustering", function(event, e) {
 				console.log(attrs.clusterType);
 				if (attrs.clusterType==="author") {
-					scope.showClusters = e;
+					scope.$apply(function() {
+						scope.showClusters = e;
+					});
 					console.log("Changing!");
 				}
 				console.log(scope.showClusters);
@@ -41,7 +43,9 @@ app.directive("clusterSlider", function(){
 			scope.$on("toggleCitationClustering", function(event, e) {
 				console.log(attrs.clusterType);
 				if (attrs.clusterType==="citation") {
-					scope.showClusters = e;
+					scope.$apply(function() {
+						scope.showClusters = e;
+					});
 				}
 			});
 		}
