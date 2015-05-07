@@ -1,6 +1,42 @@
 app.service("GraphService", function($http){
 	this.force;
 	this.svg;
+	var canClusterAuthor = true;
+	var canClusterCitation = true;
+	var authorClusteringEnabled = false;
+	var citationClusteringEnabled = false;
+
+	this.setCanClusterAuthor = function(e) {
+		canClusterAuthor = e;
+	}
+
+	this.setCanClusterCitation = function (e) {
+		canClusterCitation = e;
+	}
+
+	this.getCanClusterAuthor = function() {
+		return canClusterAuthor;
+	}
+
+	this.getCanClusterCitation = function() {
+		return canClusterCitation;
+	}
+
+	this.setCitationClusteringEnabled = function(e) {
+		citationClusteringEnabled = e;
+	}
+
+	this.setAuthorClusteringEnabled = function(e) {
+		authorClusteringEnabled = e;
+	}
+
+	this.getCitationClusteringEnabled = function() {
+		return citationClusteringEnabled;
+	}
+
+	this.getAuthorClusteringEnabled = function() {
+		return authorClusteringEnabled;
+	}
 	
 	this.getNodeHue = function(score, centrality, isCitationNetwork){
 		var hue = 0;

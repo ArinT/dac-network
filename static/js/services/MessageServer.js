@@ -64,6 +64,9 @@ app.service("MessageServer", function($http){
 				console.log("error");
 			});
 	};
+	this.getClusters = function(clusSize, clusCoef, graphType){
+
+	}
 	/** 
 	 *	reads the authors.json file so that when a user searches for an author
 	 *	the javascript has an array to filter through.

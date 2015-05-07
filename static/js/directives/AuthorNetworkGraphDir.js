@@ -31,9 +31,8 @@ app.controller("authorGraphCtrl", ["$scope", "$http", "GraphService", function($
 		}
 		$scope.$broadcast("NewGraph");
 	});
-	$scope.toggleClustering = function(clusters) {
-		var checked = $($scope.authorCheckboxId)[0].checked;
-		$scope.graphService.toggleClustering(checked, clusters);
+	$scope.toggleClustering = function(clusters, e) {
+		$scope.graphService.toggleClustering(e, clusters);
 	};
 	$scope.$watch("chosenScore", function(val, oldVal){
 		if(val !== oldVal){
@@ -71,18 +70,26 @@ app.directive("authorGraph", function(){
 			scope.http.get("static/json/author_clusters.json")
 				.then(function(res){ scope.clusters = res.data; });
 			scope.graphService.drawGraph(scope, false, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
-			var checked = $(scope.authorCheckboxId)[0].checked;
-			if (checked === true) {
-				scope.toggleClustering(scope.clusters);
-			}
+			/*if ($(scope.authorCheckboxId).length !== 0) {
+				var checked = $(scope.authorCheckboxId)[0].checked;
+				if (checked === true) {
+					scope.toggleClustering(scope.clusters);
+				}
+			}*/
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
 	  			scope.graphService.drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
-	  			checked = $(scope.authorCheckboxId)[0].checked;
-				if (checked === true) {
-					scope.toggleClustering(scope.clusters);
+	  			// We can only cluster if we're using a preset dataset, so can't when we filter out some nodes
+				if (scope.chosenScore === 0) {
+					scope.graphService.setCanClusterAuthor(true);
+					checked = scope.graphService.getAuthorClusteringEnabled();
+					if (checked) {
+						scope.toggleClustering(scope.clusters, true);
+					}
+				} else {
+					scope.graphService.setCanClusterAuthor(false);
 				}
 	  		});
 		}//end link
