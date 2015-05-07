@@ -19,6 +19,7 @@ function getAttrCentrality(centrality){
 app.controller("authorGraphCtrl", ["$scope", "$http", "GraphService", function($scope, $http, GraphService){
 	$scope.typeGraph = "degreeCentrality";
 	$scope.chosenScore = 0;
+	$scope.filterScore = 0; // repr of last chosenscore actually updated to newgraph
 	$scope.loaded = false;
 	$scope.jsonFile = "authors.json";
 	$scope.graphService = GraphService;
@@ -34,12 +35,13 @@ app.controller("authorGraphCtrl", ["$scope", "$http", "GraphService", function($
 	$scope.toggleClustering = function(clusters, e) {
 		$scope.graphService.toggleClustering(e, clusters);
 	};
-	$scope.$watch("chosenScore", function(val, oldVal){
-		if(val !== oldVal){
-			$scope.loaded = false;
+	$scope.buttonPress = function() {
+		if ($scope.filterScore !== $scope.chosenScore) {
+			$scope.filterScore = $scope.chosenScore;
 			$scope.$broadcast("NewGraph");
+			$scope.loaded = false;
 		}
-	});
+	};
 	$scope.$watch("typeGraph", function(newVal, oldVal){
 		if(newVal !== oldVal){
 			$(".node").each(function( index, element ){
@@ -80,17 +82,20 @@ app.directive("authorGraph", function(){
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
-	  			scope.graphService.drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
-	  			// We can only cluster if we're using a preset dataset, so can't when we filter out some nodes
+				console.log(scope.chosenScore);
+				console.log(typeof(scope.chosenScore));
+				// We can only cluster if we're using a preset dataset, so can't when we filter out some nodes
 				if (scope.chosenScore === 0) {
-					scope.graphService.setCanClusterAuthor(true);
+					console.log("wtf");
+					scope.graphService.canClusterAuthor = true;
 					checked = scope.graphService.getAuthorClusteringEnabled();
 					if (checked) {
 						scope.toggleClustering(scope.clusters, true);
 					}
 				} else {
-					scope.graphService.setCanClusterAuthor(false);
+					scope.graphService.canClusterAuthor = false;
 				}
+	  			scope.graphService.drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
 	  		});
 		}//end link
 	}//end return

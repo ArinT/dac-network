@@ -1,42 +1,40 @@
 app.service("GraphService", function($http){
 	this.force;
 	this.svg;
-	var canClusterAuthor = true;
-	var canClusterCitation = true;
-	var authorClusteringEnabled = false;
-	var citationClusteringEnabled = false;
 
+	var canClusterAuthorCallbacks = [];
+	var canClusterCitationCallbacks = [];
+	var authorClusterEnabled = false;
+	var citationClusterEnabled = false;
+
+	this.registerCanClusterAuthorCallback = function(e) {
+		canClusterAuthorCallbacks.push(e);
+	};
+	this.registerCanClusterCitationCallback = function(e) {
+		canClusterCitationCallbacks.push(e);
+	};
 	this.setCanClusterAuthor = function(e) {
-		canClusterAuthor = e;
-	}
-
-	this.setCanClusterCitation = function (e) {
-		canClusterCitation = e;
-	}
-
-	this.getCanClusterAuthor = function() {
-		return canClusterAuthor;
-	}
-
-	this.getCanClusterCitation = function() {
-		return canClusterCitation;
-	}
-
-	this.setCitationClusteringEnabled = function(e) {
-		citationClusteringEnabled = e;
-	}
-
-	this.setAuthorClusteringEnabled = function(e) {
-		authorClusteringEnabled = e;
-	}
-
-	this.getCitationClusteringEnabled = function() {
-		return citationClusteringEnabled;
-	}
-
-	this.getAuthorClusteringEnabled = function() {
-		return authorClusteringEnabled;
-	}
+		angular.forEach(canClusterAuthorCallbacks, function(callback) {
+			callback(e);
+		});
+	};
+	this.setCanClusterCitation = function(e) {
+		angular.forEach(canClusterCitationCallbacks, function(callback) {
+			callback(e);
+		});
+	};
+	this.getAuthorClusterEnabled = function() {
+		return authorClusterEnabled;
+	};
+	this.setAuthorClusterEnabled = function(e) {
+		authorClusterEnabled = e;
+	};
+	this.getCitationClusterEnabled = function() {
+		return citationClusterEnabled;
+	};
+	this.setCitationClusterEnabled = function(e) {
+		citationClusterEnabled = e;
+	};
 	
 	this.getNodeHue = function(score, centrality, isCitationNetwork){
 		var hue = 0;
@@ -429,9 +427,6 @@ app.service("GraphService", function($http){
 
 			  		});
 				
-				console.log(svg);
-				console.log(svg.select("svg"));
-				console.log(this.svg);
 					
 			  	node.append("title")
 			  		.text(function(d){ 
@@ -474,9 +469,7 @@ app.service("GraphService", function($http){
 			    + "Z";
 			};
 			var groupFill = function(d, i) { return fill(i); };
-			console.log(this.svg);
-			console.log(this.svg.selectAll("path"));
-			console.log(this.svg.selectAll("path.clusters"));
+
 			this.svg.selectAll("path.clusters")
 			    .data(groups)
 			    	.attr("d", groupPath)

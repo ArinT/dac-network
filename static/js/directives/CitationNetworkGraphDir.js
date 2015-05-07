@@ -48,9 +48,10 @@ app.directive("citationGraph", function(){
 					});
 				}
 			});
-			$scope.buttonPress() = function() {
+			$scope.buttonPress = function() {
 				if ($scope.filterScore !== $scope.chosenScore) {
 					$scope.filterScore = $scope.chosenScore;
+					$scope.loaded = false;
 					$scope.$broadcast("NewGraph");
 				}
 			};
@@ -77,16 +78,16 @@ app.directive("citationGraph", function(){
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
-	  			scope.graphService.drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 				if (scope.chosenScore === 0) {
-					scope.graphService.setCanClusterCitation(true);
-					on = scope.graphService.getCitationClusteringEnabled();
+					scope.graphService.canClusterCitation = true;
+					on = scope.graphService.citationClusteringEnabled;
 					if (on) {
 						scope.toggleClustering(scope.clusters, true);
 					}
 				} else {
-					scope.graphService.setCanClusterCitation(false);
+					scope.graphService.canClusterCitation = false;
 				}
+	  			scope.graphService.drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 	  		});
 			
 		}//end link
