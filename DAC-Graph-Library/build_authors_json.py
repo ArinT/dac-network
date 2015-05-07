@@ -103,4 +103,22 @@ with open('authors_test.json', 'w') as outfile:
     json.dump(author_graph_memo, outfile)
 # authors_json = json.dumps(author_graph_memo, ensure_ascii=False)
 
-
+# this SQL query can also be used to find author links for a given year
+'''
+SELECT 
+    distinct w1_aid, w2_aid
+FROM
+    (SELECT 
+        w1.authorId AS w1_aid, w2.authorId AS w2_aid, w1.PaperID
+    FROM
+        Works AS w1
+    JOIN Works AS w2
+    WHERE
+        w1.PaperID = w2.PaperID
+            AND w1.AuthorId != w2.AuthorId) AS coauthors
+        JOIN
+    Papers
+WHERE
+    coauthors.PaperID = Papers.PaperID
+        AND year <= 2014 and w1_aid > w2_aid
+'''
