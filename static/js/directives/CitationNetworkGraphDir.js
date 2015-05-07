@@ -9,10 +9,10 @@ app.directive("citationGraph", function(){
 			$scope.http = $http;
 			$scope.typeGraph = "degreeCentrality";
 			$scope.chosenScore = 0;
+			$scope.filterScore = 0;
 			$scope.loaded = false;
 			$scope.highlightPaper = null;
 			$scope.jsonFile = "citations.json";
-			$scope.initialJsonFile = $scope.jsonFile;
 			$scope.chronological = false;
 			$scope.citationCheckboxId = "#citationShowClustering";
 			$scope.$watch("jsonFile", function(newVal, oldVal){
@@ -35,11 +35,6 @@ app.directive("citationGraph", function(){
 					$scope.$broadcast("NewGraph");
 				}
 			});
-			$scope.$watch("chosenScore", function(val, oldVal){
-				if(val !== oldVal){
-					$scope.$broadcast("NewGraph");
-				}
-			});
 			$scope.$watch("typeGraph", function(newVal, oldVal){
 				if(newVal !== oldVal){
 					$(".node").each(function( index, element ){
@@ -53,6 +48,12 @@ app.directive("citationGraph", function(){
 					});
 				}
 			});
+			$scope.buttonPress() = function() {
+				if ($scope.filterScore !== $scope.chosenScore) {
+					$scope.filterScore = $scope.chosenScore;
+					$scope.$broadcast("NewGraph");
+				}
+			};
 
 			$scope.$on("GraphLoaded", function(){
 				$scope.$apply(function(){
@@ -77,14 +78,14 @@ app.directive("citationGraph", function(){
 				$("svg").remove();
 				scope.loaded = false;
 	  			scope.graphService.drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
-				if (scope.chosenScore === 0 && scope.jsonFile === scope.initialJsonFile) {
-					scope.$emit("canClusterCitation", true);
-					on = $(scope.citationCheckboxId)[0].checked;
+				if (scope.chosenScore === 0) {
+					scope.graphService.setCanClusterCitation(true);
+					on = scope.graphService.getCitationClusteringEnabled();
 					if (on) {
 						scope.toggleClustering(scope.clusters, true);
 					}
 				} else {
-					scope.$emit("canClusterCitation", false);
+					scope.graphService.setCanClusterCitation(false);
 				}
 	  		});
 			
