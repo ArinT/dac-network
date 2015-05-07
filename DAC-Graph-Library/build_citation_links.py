@@ -14,6 +14,7 @@ citations_graph_memo = {"nodes":[], "links" :[]}
 
 paper_id_index_map = {}
 
+#select PaperID, DOI, Year, url, Title from Papers 
 with open('../papers.csv', 'rb') as csvfile:
 	title_reader = csv.reader(csvfile, delimiter='\n', quotechar='|')
 	i = 0
@@ -59,6 +60,9 @@ with open('../papers.csv', 'rb') as csvfile:
 
 # print " "
 # print paper_id_index_map
+
+#select * from Citations join Papers where sourcePaperId = Papers.PaperID and Year <= 2014 for years
+
 with open('../citations_links.csv', 'rb') as csvfile:
 	title_reader = csv.reader(csvfile, delimiter='\n', quotechar='|')
 	i = 0
