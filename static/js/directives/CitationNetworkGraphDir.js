@@ -79,13 +79,13 @@ app.directive("citationGraph", function(){
 				$("svg").remove();
 				scope.loaded = false;
 				if (scope.chosenScore === 0) {
-					scope.graphService.canClusterCitation = true;
-					on = scope.graphService.citationClusteringEnabled;
+					scope.graphService.setCanClusterCitation(true);
+					on = scope.graphService.getCitationClusteringEnabled();
 					if (on) {
 						scope.toggleClustering(scope.clusters, true);
 					}
 				} else {
-					scope.graphService.canClusterCitation = false;
+					scope.graphService.setCanClusterCitation(false);
 				}
 	  			scope.graphService.drawGraph(scope, true, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
 	  		});

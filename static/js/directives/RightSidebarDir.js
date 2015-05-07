@@ -15,10 +15,6 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			$scope.showAuthorClusteringCheckbox = true;
 			$scope.showCitationClusteringCheckbox = true;
 			$scope.graphService = GraphService;
-			$scope.graphService.canClusterAuthor = true;
-			$scope.graphService.canClusterCitation = true;
-			$scope.graphService.authorClusteringEnabled = false;
-			$scope.graphService.citationClusteringEnabled = false;
 			
 			$http.get("static/json/author_clusters.json")
 				.then(function(res){ $scope.authorClusters = res.data; });
@@ -29,12 +25,12 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			// Definitely not the angular way, but this makes the most sense design-wise
 			$scope.toggleAuthorClustering = function(){
 				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters, $scope.authorClusteringCheckbox);
-				$scope.graphService.authorClusteringEnabled = $scope.authorClusteringCheckbox;
+				$scope.graphService.setAuthorClusteringEnabled($scope.authorClusteringCheckbox);
 				$scope.$broadcast("toggleAuthorClustering", $scope.authorClusteringCheckbox);
 			};
 			$scope.toggleCitationClustering = function(){
 				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters, $scope.citationClusteringCheckbox);
-				$scope.graphService.citationClusteringEnabled = $scope.citationClusteringCheckbox;
+				$scope.graphService.setCitationClusteringEnabled($scope.citationClusteringCheckbox);
 				$scope.$broadcast("toggleCitationClustering", $scope.citationClusteringCheckbox);
 			};
 
@@ -144,19 +140,21 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 				$scope.eigen = node['eigen'];
 				$scope.group  = node['group'];
 			});
-			$scope.$watch($scope.graphService.canClusterAuthor, function(bool){
-				console.log(bool);
+			// Register callbacks for when clustering is available
+			var cb1 = function(bool) {
 				$scope.showAuthorClusteringCheckbox = bool;
 				if (bool === false) {
 					$scope.authorClusteringCheckbox = false;
 				}
-			});
-			$scope.$watch($scope.graphService.canClusterCitation, function(bool){
+			};
+			$scope.graphService.registerCanClusterAuthorCallback(cb1);
+			var cb2 = function(bool) {
 				$scope.showCitationClusteringCheckbox = bool;
 				if (bool === false) {
 					$scope.citationClusteringCheckbox = false;
 				}
-			});
+			};
+			$scope.graphService.registerCanClusterCitationCallback(cb2);
 			$scope.$watch("messageServer.getPaperQueries()", function(newVal, oldVal){
 				if(newVal === oldVal){
 					return;

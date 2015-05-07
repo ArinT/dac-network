@@ -87,13 +87,13 @@ app.directive("authorGraph", function(){
 				// We can only cluster if we're using a preset dataset, so can't when we filter out some nodes
 				if (scope.chosenScore === 0) {
 					console.log("wtf");
-					scope.graphService.canClusterAuthor = true;
+					scope.graphService.setCanClusterAuthor(true);
 					checked = scope.graphService.getAuthorClusteringEnabled();
 					if (checked) {
 						scope.toggleClustering(scope.clusters, true);
 					}
 				} else {
-					scope.graphService.canClusterAuthor = false;
+					scope.graphService.setCanClusterAuthor(false);
 				}
 	  			scope.graphService.drawGraph(scope, false,  scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
 	  		});

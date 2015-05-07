@@ -23,16 +23,16 @@ app.service("GraphService", function($http){
 			callback(e);
 		});
 	};
-	this.getAuthorClusterEnabled = function() {
+	this.getAuthorClusteringEnabled = function() {
 		return authorClusterEnabled;
 	};
-	this.setAuthorClusterEnabled = function(e) {
+	this.setAuthorClusteringEnabled = function(e) {
 		authorClusterEnabled = e;
 	};
-	this.getCitationClusterEnabled = function() {
+	this.getCitationClusteringEnabled = function() {
 		return citationClusterEnabled;
 	};
-	this.setCitationClusterEnabled = function(e) {
+	this.setCitationClusteringEnabled = function(e) {
 		citationClusterEnabled = e;
 	};
 	
