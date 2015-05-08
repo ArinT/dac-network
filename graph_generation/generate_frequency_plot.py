@@ -10,11 +10,11 @@ def query_degree_frequency_data():
     cursor = connection.cursor()
     cursor.execute(
         'SELECT pubs.ppy as Degree, pubs.yr as Year, COUNT(*) as Frequency FROM ( '
-	        'SELECT COUNT(*) as ppy, a.AuthorName as an, a.AuthorID as aid, SUBSTRING(p.DOI,5,4) as yr FROM Authors a '
+	        'SELECT COUNT(*) as ppy, a.AuthorName as an, a.AuthorID as aid, p.Year as yr FROM Authors a '
 		    'JOIN Works w ON w.AuthorID = a.AuthorID '
 		    'JOIN Papers p on p.PaperID = w.PaperID '
-		    'GROUP BY SUBSTRING(p.DOI,3,7), a.AuthorName, a.AuthorID '
-		    'ORDER BY SUBSTRING(p.DOI,5,4), COUNT(*) DESC ) pubs '
+		    'GROUP BY p.Year, a.AuthorName, a.AuthorID '
+		    'ORDER BY p.Year, COUNT(*) DESC ) pubs '
 	    'GROUP BY pubs.ppy, pubs.yr '
 	    'ORDER BY pubs.yr, pubs.ppy; '
         )
@@ -22,7 +22,10 @@ def query_degree_frequency_data():
 def generate_plot_csv():
     """Generates/formats the data and writes to a csv"""
     results = query_degree_frequency_data()
-    x = [[0 for i in range(11)] for j in range(9)]
+    min_year = min(results, key = lambda r: r[1])[1]
+    max_year = max(results, key = lambda r: r[1])[1]
+    max_deg = max(results, key = lambda r: r[0])[0]
+    x = [[0 for i in range(max_year - min_year + 1)] for j in range(max_deg)]
     for item in results:
         deg =item[0]
         year = item[1]
@@ -30,12 +33,16 @@ def generate_plot_csv():
         i = deg-1
         j = int(year) - 2002
         x[i][j] = int(freq)
-    writer = open("../static/csv/degree_frequency_plot.csv", "w+")
-    i = 1
-    for row in x:
-        writer.write(str(i))
-        i+=1
-        for column in row:
-            writer.write(","+str(column))
+    with open("static/csv/degree_frequency_plot.csv", "w") as writer:
+        i = 1
+        writer.write("degree")
+        for n in range(min_year, max_year + 1):
+            writer.write("," + str(n))
         writer.write("\n")
+        for row in x:
+            writer.write(str(i))
+            i+=1
+            for column in row:
+                writer.write(","+str(column))
+            writer.write("\n")
 generate_plot_csv()
