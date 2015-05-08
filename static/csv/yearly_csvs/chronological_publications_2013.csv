@@ -1,4 +1,13 @@
-Andreas Larsson,1.0,2012 
+Achille Messac,1.0,2002 
+Achille Messac,2.0,2005 
+Achille Messac,1.0,2006 
+Achille Messac,1.0,2007 
+Achille Messac,1.0,2008 
+Achille Messac,2.0,2010 
+Achille Messac,2.0,2011 
+Achille Messac,1.0,2012 
+Achille Messac,3.0,2013 
+Achille Messac,2.0,2014 
 Andres Tovar,1.0,2003 
 Andres Tovar,1.0,2009 
 Andres Tovar,1.0,2010 
@@ -13,7 +22,6 @@ Ashraf O. Nassef,3.0,2010
 Ashraf O. Nassef,2.0,2012 
 Ashraf O. Nassef,4.0,2013 
 Ashraf O. Nassef,3.0,2014 
-Benjamin M. Sloan,1.0,2012 
 Bernard Yannou,1.0,2003 
 Bernard Yannou,1.0,2004 
 Bernard Yannou,1.0,2005 
@@ -25,18 +33,6 @@ Bernard Yannou,2.0,2010
 Bernard Yannou,2.0,2011 
 Bernard Yannou,2.0,2012 
 Bernard Yannou,2.0,2013 
-Byeng D. Youn,1.0,2002 
-Byeng D. Youn,1.0,2003 
-Byeng D. Youn,1.0,2004 
-Byeng D. Youn,1.0,2005 
-Byeng D. Youn,5.0,2007 
-Byeng D. Youn,2.0,2008 
-Byeng D. Youn,2.0,2009 
-Byeng D. Youn,1.0,2010 
-Byeng D. Youn,3.0,2011 
-Byeng D. Youn,2.0,2012 
-Byeng D. Youn,1.0,2013 
-Byeng D. Youn,2.0,2014 
 Carolyn C. Seepersad,1.0,2006 
 Carolyn C. Seepersad,1.0,2008 
 Carolyn C. Seepersad,4.0,2009 
@@ -50,31 +46,46 @@ Chao Hu,1.0,2010
 Chao Hu,2.0,2011 
 Chao Hu,1.0,2012 
 Chao Hu,3.0,2013 
-Christopher A. Mattson,1.0,2002 
-Christopher A. Mattson,1.0,2010 
-Christopher A. Mattson,3.0,2011 
-Christopher A. Mattson,3.0,2012 
-Christopher A. Mattson,1.0,2013 
-Christopher A. Mattson,2.0,2014 
-Conrad S. Tucker,1.0,2007 
-Conrad S. Tucker,1.0,2009 
-Conrad S. Tucker,1.0,2010 
-Conrad S. Tucker,2.0,2012 
-Conrad S. Tucker,1.0,2013 
+David Gorsich,1.0,2007 
+David Gorsich,1.0,2008 
+David Gorsich,1.0,2009 
+David Gorsich,2.0,2010 
+David Gorsich,1.0,2011 
+David Gorsich,1.0,2012 
+David Gorsich,2.0,2013 
+David Gorsich,1.0,2014 
+Farrokh Mistree,3.0,2002 
+Farrokh Mistree,1.0,2003 
+Farrokh Mistree,2.0,2004 
+Farrokh Mistree,5.0,2005 
+Farrokh Mistree,4.0,2006 
+Farrokh Mistree,3.0,2007 
+Farrokh Mistree,1.0,2008 
+Farrokh Mistree,3.0,2009 
+Farrokh Mistree,2.0,2010 
+Farrokh Mistree,1.0,2011 
+Farrokh Mistree,3.0,2013 
+Farrokh Mistree,5.0,2014 
 Fouad Bennis,2.0,2003 
 Fouad Bennis,1.0,2009 
 Fouad Bennis,1.0,2011 
 Fouad Bennis,2.0,2012 
 Fouad Bennis,2.0,2013 
-Gary Wang,1.0,2012 
-Georges Fadel,1.0,2004 
-Georges Fadel,2.0,2006 
-Georges Fadel,1.0,2007 
-Georges Fadel,1.0,2008 
-Georges Fadel,1.0,2009 
-Georges Fadel,1.0,2011 
-Georges Fadel,3.0,2012 
-Georges Fadel,3.0,2014 
+G. Gary Wang,1.0,2002 
+G. Gary Wang,3.0,2003 
+G. Gary Wang,1.0,2004 
+G. Gary Wang,1.0,2005 
+G. Gary Wang,1.0,2006 
+G. Gary Wang,3.0,2007 
+G. Gary Wang,1.0,2008 
+G. Gary Wang,1.0,2009 
+G. Gary Wang,4.0,2010 
+G. Gary Wang,2.0,2011 
+G. Gary Wang,1.0,2012 
+G. Gary Wang,5.0,2013 
+G. Gary Wang,4.0,2014 
+George H. Cheng,3.0,2013 
+George H. Cheng,1.0,2014 
 Hae Chang Gea,1.0,2002 
 Hae Chang Gea,2.0,2003 
 Hae Chang Gea,1.0,2004 
@@ -97,8 +108,6 @@ Harrison M. Kim,1.0,2011
 Harrison M. Kim,3.0,2012 
 Harrison M. Kim,2.0,2013 
 Harrison M. Kim,1.0,2014 
-Hyeongjin Song,1.0,2011 
-Hyeongjin Song,1.0,2012 
 Ikjin Lee,1.0,2006 
 Ikjin Lee,2.0,2007 
 Ikjin Lee,1.0,2008 
@@ -108,7 +117,50 @@ Ikjin Lee,2.0,2011
 Ikjin Lee,3.0,2012 
 Ikjin Lee,2.0,2013 
 Ikjin Lee,1.0,2014 
-Jasbir Arora,1.0,2012 
+James T. Allison,1.0,2007 
+James T. Allison,1.0,2008 
+James T. Allison,3.0,2010 
+James T. Allison,1.0,2011 
+James T. Allison,1.0,2012 
+James T. Allison,3.0,2013 
+James T. Allison,2.0,2014 
+James Yang,3.0,2013 
+Janet K. Allen,3.0,2002 
+Janet K. Allen,1.0,2003 
+Janet K. Allen,2.0,2004 
+Janet K. Allen,5.0,2005 
+Janet K. Allen,4.0,2006 
+Janet K. Allen,4.0,2007 
+Janet K. Allen,1.0,2008 
+Janet K. Allen,3.0,2009 
+Janet K. Allen,2.0,2010 
+Janet K. Allen,1.0,2011 
+Janet K. Allen,3.0,2013 
+Janet K. Allen,5.0,2014 
+Jeremy J. Michalek,1.0,2003 
+Jeremy J. Michalek,1.0,2004 
+Jeremy J. Michalek,1.0,2005 
+Jeremy J. Michalek,1.0,2006 
+Jeremy J. Michalek,3.0,2007 
+Jeremy J. Michalek,4.0,2008 
+Jeremy J. Michalek,1.0,2009 
+Jeremy J. Michalek,1.0,2010 
+Jeremy J. Michalek,1.0,2011 
+Jeremy J. Michalek,2.0,2013 
+Jie Zhang,2.0,2010 
+Jie Zhang,2.0,2011 
+Jie Zhang,2.0,2013 
+Jie Zhang,1.0,2014 
+Jonathan Cagan,1.0,2002 
+Jonathan Cagan,1.0,2004 
+Jonathan Cagan,1.0,2007 
+Jonathan Cagan,2.0,2008 
+Jonathan Cagan,1.0,2009 
+Jonathan Cagan,2.0,2010 
+Jonathan Cagan,2.0,2011 
+Jonathan Cagan,1.0,2012 
+Jonathan Cagan,3.0,2013 
+Jonathan Cagan,1.0,2014 
 Joshua D. Summers,2.0,2003 
 Joshua D. Summers,2.0,2004 
 Joshua D. Summers,1.0,2005 
@@ -121,13 +173,9 @@ Joshua D. Summers,2.0,2011
 Joshua D. Summers,2.0,2012 
 Joshua D. Summers,2.0,2013 
 Joshua D. Summers,1.0,2014 
-Josue R. Crespo-Varela,1.0,2012 
-K. K. Choi,1.0,2005 
-K. K. Choi,1.0,2008 
-K. K. Choi,2.0,2009 
-K. K. Choi,1.0,2011 
-K. K. Choi,2.0,2012 
-K. K. Choi,1.0,2014 
+Kambiz Haji Hajikolaei,1.0,2012 
+Kambiz Haji Hajikolaei,2.0,2013 
+Kambiz Haji Hajikolaei,2.0,2014 
 Karim Hamza,2.0,2003 
 Karim Hamza,1.0,2005 
 Karim Hamza,1.0,2006 
@@ -137,6 +185,18 @@ Karim Hamza,4.0,2011
 Karim Hamza,3.0,2012 
 Karim Hamza,5.0,2013 
 Karim Hamza,5.0,2014 
+Kazuhiro Saitou,2.0,2002 
+Kazuhiro Saitou,5.0,2003 
+Kazuhiro Saitou,1.0,2004 
+Kazuhiro Saitou,2.0,2005 
+Kazuhiro Saitou,2.0,2006 
+Kazuhiro Saitou,1.0,2008 
+Kazuhiro Saitou,1.0,2009 
+Kazuhiro Saitou,3.0,2010 
+Kazuhiro Saitou,3.0,2011 
+Kazuhiro Saitou,1.0,2012 
+Kazuhiro Saitou,2.0,2013 
+Kazuhiro Saitou,2.0,2014 
 Kemper Lewis,2.0,2002 
 Kemper Lewis,2.0,2003 
 Kemper Lewis,2.0,2004 
@@ -150,10 +210,9 @@ Kemper Lewis,3.0,2011
 Kemper Lewis,2.0,2012 
 Kemper Lewis,2.0,2013 
 Kemper Lewis,2.0,2014 
-Maria C. Yang,2.0,2011 
-Maria C. Yang,2.0,2012 
-Maria C. Yang,1.0,2013 
-Maria C. Yang,1.0,2014 
+Kenneth M. Bryden,1.0,2011 
+Kenneth M. Bryden,1.0,2012 
+Kenneth M. Bryden,2.0,2013 
 Matthew I. Campbell,1.0,2003 
 Matthew I. Campbell,2.0,2004 
 Matthew I. Campbell,1.0,2006 
@@ -170,13 +229,15 @@ Mian Li,1.0,2010
 Mian Li,1.0,2012 
 Mian Li,2.0,2013 
 Mian Li,2.0,2014 
-Minjung Kwak,2.0,2012 
-Minjung Kwak,1.0,2013 
-Mohamed F. Aly,2.0,2010 
-Mohamed F. Aly,1.0,2012 
-Neal M. Patel,1.0,2006 
-Neal M. Patel,1.0,2007 
-Neal M. Patel,1.0,2012 
+Mohamed Aly,2.0,2013 
+Mohamed Aly,2.0,2014 
+Mohamed El Morsi,2.0,2013 
+Mohamed El Morsi,1.0,2014 
+Mohammad Fazelpour,2.0,2013 
+Mohammad Fazelpour,1.0,2014 
+Nathan G. Johnson,1.0,2011 
+Nathan G. Johnson,2.0,2013 
+Nathan G. Johnson,2.0,2014 
 Panos Y. Papalambros,2.0,2002 
 Panos Y. Papalambros,2.0,2003 
 Panos Y. Papalambros,2.0,2004 
@@ -189,41 +250,33 @@ Panos Y. Papalambros,2.0,2011
 Panos Y. Papalambros,2.0,2012 
 Panos Y. Papalambros,2.0,2013 
 Panos Y. Papalambros,3.0,2014 
-Paolo Guarneri,1.0,2011 
-Paolo Guarneri,4.0,2012 
-Parameshwaran S. Iyer,1.0,2012 
-Patrick K. Lewis,1.0,2010 
-Patrick K. Lewis,2.0,2011 
-Patrick K. Lewis,2.0,2012 
 Pingfeng Wang,2.0,2007 
 Pingfeng Wang,1.0,2008 
 Pingfeng Wang,1.0,2011 
 Pingfeng Wang,5.0,2012 
 Pingfeng Wang,6.0,2013 
 Pingfeng Wang,6.0,2014 
-Prasanna Tamilselvan,2.0,2012 
-Prasanna Tamilselvan,1.0,2013 
-Richard Crawford,1.0,2009 
-Richard Crawford,1.0,2010 
-Richard Crawford,1.0,2012 
-Ritesh Khire,2.0,2008 
-Ritesh Khire,2.0,2012 
-Saber DorMohammadi,1.0,2012 
-Sayed M. Metwalli,1.0,2002 
-Sayed M. Metwalli,1.0,2003 
-Sayed M. Metwalli,2.0,2005 
-Sayed M. Metwalli,2.0,2007 
-Sayed M. Metwalli,1.0,2008 
-Sayed M. Metwalli,1.0,2009 
-Sayed M. Metwalli,1.0,2010 
-Sayed M. Metwalli,1.0,2011 
-Sayed M. Metwalli,2.0,2012 
-Sayed M. Metwalli,1.0,2013 
-Sayed M. Metwalli,1.0,2014 
+Sandor Vajna,2.0,2002 
+Sandor Vajna,1.0,2003 
+Sandor Vajna,1.0,2006 
+Sandor Vajna,1.0,2008 
+Sandor Vajna,1.0,2013 
+Scott Ferguson,1.0,2005 
+Scott Ferguson,1.0,2007 
+Scott Ferguson,1.0,2009 
+Scott Ferguson,2.0,2010 
+Scott Ferguson,4.0,2011 
+Scott Ferguson,1.0,2012 
+Scott Ferguson,3.0,2013 
+Scott Ferguson,1.0,2014 
+Souma Chowdhury,2.0,2010 
+Souma Chowdhury,2.0,2011 
+Souma Chowdhury,1.0,2012 
+Souma Chowdhury,3.0,2013 
+Souma Chowdhury,2.0,2014 
 Stephane Caro,1.0,2003 
 Stephane Caro,1.0,2012 
 Stephane Caro,2.0,2013 
-Stephanie Minel,1.0,2012 
 Timothy W. Simpson,1.0,2002 
 Timothy W. Simpson,6.0,2003 
 Timothy W. Simpson,4.0,2004 
@@ -237,14 +290,10 @@ Timothy W. Simpson,3.0,2011
 Timothy W. Simpson,2.0,2012 
 Timothy W. Simpson,4.0,2013 
 Timothy W. Simpson,2.0,2014 
-Valery Y. Glizer,1.0,2012 
 Vijitashwa Pandey,2.0,2011 
 Vijitashwa Pandey,3.0,2012 
 Vijitashwa Pandey,3.0,2013 
 Vijitashwa Pandey,4.0,2014 
-W. Ross Morrow,2.0,2012 
-W. Ross Morrow,1.0,2013 
-W. Ross Morrow,1.0,2014 
 Wei Chen,3.0,2002 
 Wei Chen,3.0,2003 
 Wei Chen,3.0,2004 
@@ -258,6 +307,12 @@ Wei Chen,4.0,2011
 Wei Chen,3.0,2012 
 Wei Chen,3.0,2013 
 Wei Chen,2.0,2014 
+Wei Song,2.0,2013 
+Wei Song,2.0,2014 
+Weijun Wang,1.0,2012 
+Weijun Wang,2.0,2013 
+Weiyang Tong,2.0,2013 
+Weiyang Tong,1.0,2014 
 Xiaoping Du,1.0,2002 
 Xiaoping Du,2.0,2003 
 Xiaoping Du,1.0,2004 
@@ -270,19 +325,25 @@ Xiaoping Du,2.0,2011
 Xiaoping Du,2.0,2012 
 Xiaoping Du,3.0,2013 
 Xiaoping Du,1.0,2014 
+Yan Wang,1.0,2006 
+Yan Wang,3.0,2008 
+Yan Wang,1.0,2009 
+Yan Wang,1.0,2010 
+Yan Wang,2.0,2011 
+Yan Wang,1.0,2012 
+Yan Wang,2.0,2013 
+Yan Wang,2.0,2014 
 Yi Ren,1.0,2010 
 Yi Ren,1.0,2011 
 Yi Ren,2.0,2012 
 Yi Ren,2.0,2013 
 Yi Ren,2.0,2014 
-Zhimin Xi,4.0,2007 
-Zhimin Xi,2.0,2008 
-Zhimin Xi,1.0,2009 
-Zhimin Xi,1.0,2010 
-Zhimin Xi,1.0,2011 
-Zhimin Xi,2.0,2012 
-Zhimin Xi,1.0,2013 
-Zhimin Xi,1.0,2014 
+Zequn Wang,1.0,2012 
+Zequn Wang,2.0,2013 
+Zequn Wang,4.0,2014 
+Zhen Hu,1.0,2012 
+Zhen Hu,2.0,2013 
+Zhen Hu,1.0,2014 
 Zissimos P. Mourelatos,3.0,2003 
 Zissimos P. Mourelatos,3.0,2004 
 Zissimos P. Mourelatos,2.0,2005 

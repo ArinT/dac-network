@@ -78,7 +78,7 @@ app.directive("chrono", function(){
           .orient("bottom")
           .tickFormat(formatAxis)
           .ticks(11)
-          .tickValues([2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012]);
+          .tickValues([2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014]);
 
       var yAxis = d3.svg.axis()
           .scale(y);
