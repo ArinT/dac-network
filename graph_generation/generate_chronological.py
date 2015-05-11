@@ -101,3 +101,10 @@ for i in range(13):
 write_to_json("static/csv/chronological_publications.csv")
 create_array("static/csv/chronological_publications.csv",
     "static/csv/chronological_array.csv")
+write_to_json_top100("static/csv/chronological_publications_top100.csv")
+create_array("static/csv/chronological_publications_top100.csv",
+    "static/csv/chronological_array_top100.csv")
+
+
+
+
