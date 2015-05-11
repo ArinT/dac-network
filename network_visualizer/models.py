@@ -17,7 +17,7 @@ class Authors(models.Model):
     emailid = models.CharField(db_column='EmailID', max_length=64, blank=True) # Field name made lowercase.
     closenessscore = models.FloatField(db_column='CloseNessScore', blank=True, null=True) # Field name made lowercase.
     degreescore = models.FloatField(db_column='DegreeScore', blank=True, null=True) # Field name made lowercase.
-    url = models.CharField(max_length=1000, blank=True)
+    url = models.CharField(db_column="url", max_length=1000, blank=True)
     class Meta:
         managed = True
         db_table = 'Authors'
@@ -80,7 +80,7 @@ class Locations(models.Model):
         db_table = 'Location'
 
 class PaperLocations(models.Model):
-    authorlocationid = models.AutoField(db_column="PaperLocationID", primary_key=True)
+    paperlocationid = models.AutoField(db_column="PaperLocationID", primary_key=True)
     locationid = models.IntegerField(db_column="LocationID", blank=True, null=True)
     paperid = models.IntegerField(db_column="PaperID", blank=True, null=True)
     class Meta:
