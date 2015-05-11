@@ -64,6 +64,7 @@
 						<a ng-hide="moreSimAuthors || authorAffiliates.length <= 2" ng-click="selectAmountOfInfo('moreSimAuthors', 'similarAuthors', 'simAuthorAffiliatesHolder', 2)">Hide papers</a>
 					</div>
 					<h4 ng-show="showAuthorClusteringCheckbox">Toggle Clustering</h4><input type="checkbox" id="authorShowClustering" ng-model="authorClusteringCheckbox" ng-checked="authorClusteringCheckbox" ng-show="showAuthorClusteringCheckbox" ng-change="toggleAuthorClustering()">
+					<h6>Clustering analysis was done via the SCAN algorithm, click <a target= "_blank" href = "http://www1.se.cuhk.edu.hk/~hcheng/seg5010/slides/p824-xu.pdf"> here</a> to read the paper.</h6>
 					<div cluster-slider cluster-type="author"/>
 				</div>
 				<div id="forCitationNetwork" ng-show="myLocation.path() === '/citationNetwork' ">
@@ -122,6 +123,7 @@
 						<a ng-hide="moreSimilarPapers || similarPapers.length <= 2" ng-click="selectAmountOfInfo('moreSimilarPapers', 'similarPapers', 'similarPapersHolder', 2)">Hide papers</a>
 					</div>
 					<h4 ng-show="showCitationClusteringCheckbox">Toggle Clustering</h4><input type="checkbox" id="citationShowClustering" ng-model="citationClusteringCheckbox" ng-checked="citationClusteringCheckbox" ng-show="showCitationClusteringCheckbox" ng-change="toggleCitationClustering()">
+					<h6>Clustering analysis was done via the SCAN algorithm, click <a target= "_blank" href = "http://www1.se.cuhk.edu.hk/~hcheng/seg5010/slides/p824-xu.pdf"> here</a> to read the paper.</h6>
 					<div cluster-slider cluster-type="citation"/>
 				</div>
 				

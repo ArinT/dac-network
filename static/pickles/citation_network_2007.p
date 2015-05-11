@@ -1,0 +1,6784 @@
+ccopy_reg
+_reconstructor
+p0
+(c__main__
+CitationNetwork
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'network_dict'
+p6
+(dp7
+L841L
+c__builtin__
+set
+p8
+((lp9
+tp10
+Rp11
+sL842L
+g8
+((lp12
+L1037L
+atp13
+Rp14
+sL843L
+g8
+((lp15
+L973L
+atp16
+Rp17
+sL845L
+g8
+((lp18
+tp19
+Rp20
+sL846L
+g8
+((lp21
+tp22
+Rp23
+sL847L
+g8
+((lp24
+tp25
+Rp26
+sL848L
+g8
+((lp27
+tp28
+Rp29
+sL849L
+g8
+((lp30
+tp31
+Rp32
+sL850L
+g8
+((lp33
+tp34
+Rp35
+sL851L
+g8
+((lp36
+tp37
+Rp38
+sL852L
+g8
+((lp39
+tp40
+Rp41
+sL853L
+g8
+((lp42
+tp43
+Rp44
+sL854L
+g8
+((lp45
+tp46
+Rp47
+sL855L
+g8
+((lp48
+tp49
+Rp50
+sL856L
+g8
+((lp51
+L1532L
+atp52
+Rp53
+sL857L
+g8
+((lp54
+L859L
+atp55
+Rp56
+sL858L
+g8
+((lp57
+tp58
+Rp59
+sL859L
+g8
+((lp60
+L857L
+atp61
+Rp62
+sL860L
+g8
+((lp63
+tp64
+Rp65
+sL861L
+g8
+((lp66
+tp67
+Rp68
+sL862L
+g8
+((lp69
+tp70
+Rp71
+sL863L
+g8
+((lp72
+tp73
+Rp74
+sL864L
+g8
+((lp75
+L1503L
+aL1053L
+aL1046L
+aL1055L
+atp76
+Rp77
+sL865L
+g8
+((lp78
+tp79
+Rp80
+sL866L
+g8
+((lp81
+tp82
+Rp83
+sL867L
+g8
+((lp84
+tp85
+Rp86
+sL868L
+g8
+((lp87
+tp88
+Rp89
+sL869L
+g8
+((lp90
+tp91
+Rp92
+sL870L
+g8
+((lp93
+tp94
+Rp95
+sL871L
+g8
+((lp96
+L1600L
+aL1601L
+aL1599L
+atp97
+Rp98
+sL872L
+g8
+((lp99
+L1231L
+atp100
+Rp101
+sL873L
+g8
+((lp102
+L1543L
+aL1395L
+aL1271L
+aL1013L
+aL1079L
+atp103
+Rp104
+sL874L
+g8
+((lp105
+L1366L
+atp106
+Rp107
+sL875L
+g8
+((lp108
+tp109
+Rp110
+sL876L
+g8
+((lp111
+L1196L
+aL982L
+atp112
+Rp113
+sL877L
+g8
+((lp114
+tp115
+Rp116
+sL878L
+g8
+((lp117
+tp118
+Rp119
+sL879L
+g8
+((lp120
+L1516L
+atp121
+Rp122
+sL880L
+g8
+((lp123
+tp124
+Rp125
+sL881L
+g8
+((lp126
+L971L
+atp127
+Rp128
+sL882L
+g8
+((lp129
+L1553L
+aL1134L
+atp130
+Rp131
+sL883L
+g8
+((lp132
+tp133
+Rp134
+sL884L
+g8
+((lp135
+tp136
+Rp137
+sL885L
+g8
+((lp138
+tp139
+Rp140
+sL886L
+g8
+((lp141
+tp142
+Rp143
+sL887L
+g8
+((lp144
+tp145
+Rp146
+sL888L
+g8
+((lp147
+tp148
+Rp149
+sL889L
+g8
+((lp150
+L1024L
+atp151
+Rp152
+sL890L
+g8
+((lp153
+tp154
+Rp155
+sL891L
+g8
+((lp156
+L1317L
+atp157
+Rp158
+sL892L
+g8
+((lp159
+L1082L
+atp160
+Rp161
+sL894L
+g8
+((lp162
+tp163
+Rp164
+sL895L
+g8
+((lp165
+L1108L
+aL1034L
+aL1532L
+aL1046L
+aL1255L
+atp166
+Rp167
+sL896L
+g8
+((lp168
+tp169
+Rp170
+sL897L
+g8
+((lp171
+L1301L
+atp172
+Rp173
+sL898L
+g8
+((lp174
+tp175
+Rp176
+sL899L
+g8
+((lp177
+L1162L
+aL1046L
+atp178
+Rp179
+sL900L
+g8
+((lp180
+tp181
+Rp182
+sL901L
+g8
+((lp183
+L1222L
+atp184
+Rp185
+sL902L
+g8
+((lp186
+L1007L
+aL1542L
+aL1543L
+atp187
+Rp188
+sL903L
+g8
+((lp189
+L1543L
+aL1204L
+aL1271L
+atp190
+Rp191
+sL904L
+g8
+((lp192
+tp193
+Rp194
+sL905L
+g8
+((lp195
+tp196
+Rp197
+sL906L
+g8
+((lp198
+L1543L
+aL1321L
+aL1327L
+aL1393L
+aL1080L
+aL1082L
+atp199
+Rp200
+sL907L
+g8
+((lp201
+L1222L
+atp202
+Rp203
+sL908L
+g8
+((lp204
+L1577L
+aL1203L
+atp205
+Rp206
+sL909L
+g8
+((lp207
+tp208
+Rp209
+sL910L
+g8
+((lp210
+L1203L
+aL1284L
+aL1197L
+aL1238L
+atp211
+Rp212
+sL911L
+g8
+((lp213
+L933L
+aL911L
+atp214
+Rp215
+sL912L
+g8
+((lp216
+L1177L
+atp217
+Rp218
+sL913L
+g8
+((lp219
+tp220
+Rp221
+sL914L
+g8
+((lp222
+tp223
+Rp224
+sL915L
+g8
+((lp225
+L1170L
+atp226
+Rp227
+sL916L
+g8
+((lp228
+tp229
+Rp230
+sL917L
+g8
+((lp231
+L1006L
+atp232
+Rp233
+sL918L
+g8
+((lp234
+tp235
+Rp236
+sL919L
+g8
+((lp237
+tp238
+Rp239
+sL920L
+g8
+((lp240
+tp241
+Rp242
+sL921L
+g8
+((lp243
+tp244
+Rp245
+sL922L
+g8
+((lp246
+tp247
+Rp248
+sL923L
+g8
+((lp249
+tp250
+Rp251
+sL924L
+g8
+((lp252
+L1435L
+aL1119L
+atp253
+Rp254
+sL925L
+g8
+((lp255
+L1050L
+aL1189L
+atp256
+Rp257
+sL926L
+g8
+((lp258
+L1057L
+atp259
+Rp260
+sL927L
+g8
+((lp261
+L1057L
+aL1418L
+atp262
+Rp263
+sL928L
+g8
+((lp264
+tp265
+Rp266
+sL929L
+g8
+((lp267
+L1049L
+atp268
+Rp269
+sL930L
+g8
+((lp270
+L1001L
+aL1046L
+atp271
+Rp272
+sL931L
+g8
+((lp273
+L1530L
+aL1107L
+atp274
+Rp275
+sL932L
+g8
+((lp276
+L933L
+atp277
+Rp278
+sL933L
+g8
+((lp279
+L1313L
+aL1188L
+aL1353L
+aL1546L
+aL1547L
+aL911L
+aL1557L
+aL932L
+atp280
+Rp281
+sL934L
+g8
+((lp282
+tp283
+Rp284
+sL935L
+g8
+((lp285
+L1184L
+aL1557L
+atp286
+Rp287
+sL936L
+g8
+((lp288
+tp289
+Rp290
+sL937L
+g8
+((lp291
+L1353L
+aL1251L
+aL1188L
+aL1191L
+atp292
+Rp293
+sL938L
+g8
+((lp294
+L1239L
+atp295
+Rp296
+sL939L
+g8
+((lp297
+tp298
+Rp299
+sL940L
+g8
+((lp300
+tp301
+Rp302
+sL941L
+g8
+((lp303
+L1084L
+aL1068L
+atp304
+Rp305
+sL942L
+g8
+((lp306
+L1201L
+aL1339L
+atp307
+Rp308
+sL943L
+g8
+((lp309
+L1341L
+atp310
+Rp311
+sL944L
+g8
+((lp312
+L1067L
+aL1341L
+atp313
+Rp314
+sL945L
+g8
+((lp315
+tp316
+Rp317
+sL946L
+g8
+((lp318
+L1200L
+aL1085L
+atp319
+Rp320
+sL947L
+g8
+((lp321
+tp322
+Rp323
+sL948L
+g8
+((lp324
+L1084L
+aL1205L
+atp325
+Rp326
+sL949L
+g8
+((lp327
+tp328
+Rp329
+sL950L
+g8
+((lp330
+L1080L
+aL1203L
+aL1205L
+atp331
+Rp332
+sL951L
+g8
+((lp333
+tp334
+Rp335
+sL952L
+g8
+((lp336
+L1264L
+aL1577L
+aL1250L
+aL1395L
+atp337
+Rp338
+sL953L
+g8
+((lp339
+L1577L
+atp340
+Rp341
+sL954L
+g8
+((lp342
+tp343
+Rp344
+sL955L
+g8
+((lp345
+tp346
+Rp347
+sL956L
+g8
+((lp348
+tp349
+Rp350
+sL957L
+g8
+((lp351
+tp352
+Rp353
+sL958L
+g8
+((lp354
+tp355
+Rp356
+sL960L
+g8
+((lp357
+tp358
+Rp359
+sL961L
+g8
+((lp360
+tp361
+Rp362
+sL962L
+g8
+((lp363
+tp364
+Rp365
+sL963L
+g8
+((lp366
+tp367
+Rp368
+sL964L
+g8
+((lp369
+tp370
+Rp371
+sL965L
+g8
+((lp372
+tp373
+Rp374
+sL966L
+g8
+((lp375
+tp376
+Rp377
+sL967L
+g8
+((lp378
+tp379
+Rp380
+sL968L
+g8
+((lp381
+tp382
+Rp383
+sL969L
+g8
+((lp384
+L1186L
+aL1187L
+aL1428L
+aL1222L
+atp385
+Rp386
+sL970L
+g8
+((lp387
+L1132L
+aL1222L
+atp388
+Rp389
+sL971L
+g8
+((lp390
+L881L
+atp391
+Rp392
+sL972L
+g8
+((lp393
+tp394
+Rp395
+sL973L
+g8
+((lp396
+L843L
+atp397
+Rp398
+sL974L
+g8
+((lp399
+L1550L
+aL1255L
+atp400
+Rp401
+sL975L
+g8
+((lp402
+tp403
+Rp404
+sL976L
+g8
+((lp405
+tp406
+Rp407
+sL977L
+g8
+((lp408
+tp409
+Rp410
+sL978L
+g8
+((lp411
+L1238L
+atp412
+Rp413
+sL979L
+g8
+((lp414
+tp415
+Rp416
+sL980L
+g8
+((lp417
+L1414L
+atp418
+Rp419
+sL981L
+g8
+((lp420
+tp421
+Rp422
+sL982L
+g8
+((lp423
+L876L
+aL1196L
+atp424
+Rp425
+sL983L
+g8
+((lp426
+tp427
+Rp428
+sL984L
+g8
+((lp429
+tp430
+Rp431
+sL985L
+g8
+((lp432
+tp433
+Rp434
+sL986L
+g8
+((lp435
+L1110L
+aL1422L
+atp436
+Rp437
+sL987L
+g8
+((lp438
+L1141L
+atp439
+Rp440
+sL988L
+g8
+((lp441
+tp442
+Rp443
+sL989L
+g8
+((lp444
+tp445
+Rp446
+sL990L
+g8
+((lp447
+tp448
+Rp449
+sL991L
+g8
+((lp450
+L1134L
+atp451
+Rp452
+sL992L
+g8
+((lp453
+tp454
+Rp455
+sL993L
+g8
+((lp456
+L1317L
+atp457
+Rp458
+sL994L
+g8
+((lp459
+L1368L
+atp460
+Rp461
+sL995L
+g8
+((lp462
+L1368L
+atp463
+Rp464
+sL996L
+g8
+((lp465
+tp466
+Rp467
+sL997L
+g8
+((lp468
+tp469
+Rp470
+sL998L
+g8
+((lp471
+tp472
+Rp473
+sL999L
+g8
+((lp474
+L1346L
+atp475
+Rp476
+sL1000L
+g8
+((lp477
+L1169L
+atp478
+Rp479
+sL1001L
+g8
+((lp480
+L930L
+atp481
+Rp482
+sL1002L
+g8
+((lp483
+L1162L
+atp484
+Rp485
+sL1003L
+g8
+((lp486
+tp487
+Rp488
+sL1004L
+g8
+((lp489
+tp490
+Rp491
+sL1005L
+g8
+((lp492
+tp493
+Rp494
+sL1006L
+g8
+((lp495
+L1106L
+aL917L
+atp496
+Rp497
+sL1007L
+g8
+((lp498
+L1010L
+aL902L
+aL1542L
+atp499
+Rp500
+sL1008L
+g8
+((lp501
+L1250L
+aL1327L
+aL1271L
+aL1543L
+atp502
+Rp503
+sL1009L
+g8
+((lp504
+tp505
+Rp506
+sL1010L
+g8
+((lp507
+L1250L
+aL1542L
+aL1321L
+aL1580L
+aL1391L
+aL1168L
+aL1007L
+aL1341L
+atp508
+Rp509
+sL1012L
+g8
+((lp510
+L1012L
+atp511
+Rp512
+sL1013L
+g8
+((lp513
+L1592L
+aL873L
+aL1271L
+atp514
+Rp515
+sL1014L
+g8
+((lp516
+tp517
+Rp518
+sL1015L
+g8
+((lp519
+tp520
+Rp521
+sL1016L
+g8
+((lp522
+tp523
+Rp524
+sL1017L
+g8
+((lp525
+tp526
+Rp527
+sL1018L
+g8
+((lp528
+tp529
+Rp530
+sL1019L
+g8
+((lp531
+tp532
+Rp533
+sL1020L
+g8
+((lp534
+tp535
+Rp536
+sL1021L
+g8
+((lp537
+tp538
+Rp539
+sL1022L
+g8
+((lp540
+tp541
+Rp542
+sL1023L
+g8
+((lp543
+tp544
+Rp545
+sL1024L
+g8
+((lp546
+L1553L
+aL889L
+atp547
+Rp548
+sL1025L
+g8
+((lp549
+L1515L
+atp550
+Rp551
+sL1026L
+g8
+((lp552
+tp553
+Rp554
+sL1027L
+g8
+((lp555
+tp556
+Rp557
+sL1028L
+g8
+((lp558
+tp559
+Rp560
+sL1029L
+g8
+((lp561
+L1367L
+atp562
+Rp563
+sL1030L
+g8
+((lp564
+L1134L
+aL1367L
+atp565
+Rp566
+sL1031L
+g8
+((lp567
+tp568
+Rp569
+sL1032L
+g8
+((lp570
+tp571
+Rp572
+sL1033L
+g8
+((lp573
+tp574
+Rp575
+sL1034L
+g8
+((lp576
+L895L
+atp577
+Rp578
+sL1035L
+g8
+((lp579
+tp580
+Rp581
+sL1036L
+g8
+((lp582
+L1182L
+atp583
+Rp584
+sL1037L
+g8
+((lp585
+L842L
+atp586
+Rp587
+sL1038L
+g8
+((lp588
+tp589
+Rp590
+sL1039L
+g8
+((lp591
+L1222L
+atp592
+Rp593
+sL1040L
+g8
+((lp594
+L1287L
+atp595
+Rp596
+sL1041L
+g8
+((lp597
+L1366L
+atp598
+Rp599
+sL1042L
+g8
+((lp600
+tp601
+Rp602
+sL1043L
+g8
+((lp603
+L1366L
+atp604
+Rp605
+sL1044L
+g8
+((lp606
+tp607
+Rp608
+sL1045L
+g8
+((lp609
+tp610
+Rp611
+sL1046L
+g8
+((lp612
+L864L
+aL930L
+aL899L
+aL1547L
+aL1048L
+aL895L
+atp613
+Rp614
+sL1048L
+g8
+((lp615
+L1547L
+aL1046L
+aL1183L
+atp616
+Rp617
+sL1049L
+g8
+((lp618
+L929L
+atp619
+Rp620
+sL1050L
+g8
+((lp621
+L1057L
+aL1189L
+aL925L
+atp622
+Rp623
+sL1052L
+g8
+((lp624
+L1248L
+aL1313L
+aL1060L
+aL1349L
+aL1546L
+aL1547L
+aL1557L
+aL1052L
+atp625
+Rp626
+sL1053L
+g8
+((lp627
+L864L
+aL1239L
+aL1196L
+aL1109L
+aL1557L
+atp628
+Rp629
+sL1054L
+g8
+((lp630
+L1353L
+aL1546L
+aL1547L
+aL1548L
+aL1550L
+aL1557L
+atp631
+Rp632
+sL1055L
+g8
+((lp633
+L864L
+atp634
+Rp635
+sL1056L
+g8
+((lp636
+L1366L
+atp637
+Rp638
+sL1057L
+g8
+((lp639
+L1050L
+aL926L
+aL927L
+atp640
+Rp641
+sL1058L
+g8
+((lp642
+tp643
+Rp644
+sL1059L
+g8
+((lp645
+L1416L
+atp646
+Rp647
+sL1060L
+g8
+((lp648
+L1248L
+aL1251L
+aL1190L
+aL1191L
+aL1193L
+aL1557L
+aL1353L
+aL1052L
+atp649
+Rp650
+sL1061L
+g8
+((lp651
+tp652
+Rp653
+sL1062L
+g8
+((lp654
+L1358L
+atp655
+Rp656
+sL1063L
+g8
+((lp657
+tp658
+Rp659
+sL1064L
+g8
+((lp660
+L1589L
+aL1358L
+atp661
+Rp662
+sL1065L
+g8
+((lp663
+tp664
+Rp665
+sL1066L
+g8
+((lp666
+tp667
+Rp668
+sL1067L
+g8
+((lp669
+L944L
+aL1577L
+aL1200L
+aL1264L
+aL1267L
+aL1342L
+atp670
+Rp671
+sL1068L
+g8
+((lp672
+L1201L
+aL941L
+aL1390L
+atp673
+Rp674
+sL1069L
+g8
+((lp675
+L1366L
+atp676
+Rp677
+sL1070L
+g8
+((lp678
+L1072L
+aL1201L
+atp679
+Rp680
+sL1071L
+g8
+((lp681
+L1264L
+aL1577L
+aL1342L
+atp682
+Rp683
+sL1072L
+g8
+((lp684
+L1070L
+atp685
+Rp686
+sL1073L
+g8
+((lp687
+L1264L
+aL1577L
+atp688
+Rp689
+sL1074L
+g8
+((lp690
+L1348L
+atp691
+Rp692
+sL1075L
+g8
+((lp693
+tp694
+Rp695
+sL1076L
+g8
+((lp696
+tp697
+Rp698
+sL1077L
+g8
+((lp699
+tp700
+Rp701
+sL1078L
+g8
+((lp702
+L1264L
+aL1577L
+aL1342L
+atp703
+Rp704
+sL1079L
+g8
+((lp705
+L873L
+aL1271L
+atp706
+Rp707
+sL1080L
+g8
+((lp708
+L1080L
+aL906L
+aL950L
+atp709
+Rp710
+sL1081L
+g8
+((lp711
+tp712
+Rp713
+sL1082L
+g8
+((lp714
+L906L
+aL892L
+atp715
+Rp716
+sL1083L
+g8
+((lp717
+tp718
+Rp719
+sL1084L
+g8
+((lp720
+L948L
+aL941L
+atp721
+Rp722
+sL1085L
+g8
+((lp723
+L1200L
+aL946L
+aL1205L
+aL1286L
+atp724
+Rp725
+sL1086L
+g8
+((lp726
+tp727
+Rp728
+sL1087L
+g8
+((lp729
+tp730
+Rp731
+sL1088L
+g8
+((lp732
+L1301L
+atp733
+Rp734
+sL1089L
+g8
+((lp735
+tp736
+Rp737
+sL1090L
+g8
+((lp738
+tp739
+Rp740
+sL1091L
+g8
+((lp741
+tp742
+Rp743
+sL1092L
+g8
+((lp744
+tp745
+Rp746
+sL1093L
+g8
+((lp747
+tp748
+Rp749
+sL1094L
+g8
+((lp750
+tp751
+Rp752
+sL1095L
+g8
+((lp753
+L1326L
+atp754
+Rp755
+sL1096L
+g8
+((lp756
+L1282L
+aL1399L
+aL1325L
+aL1238L
+aL1415L
+atp757
+Rp758
+sL1097L
+g8
+((lp759
+tp760
+Rp761
+sL1098L
+g8
+((lp762
+tp763
+Rp764
+sL1099L
+g8
+((lp765
+tp766
+Rp767
+sL1100L
+g8
+((lp768
+tp769
+Rp770
+sL1101L
+g8
+((lp771
+tp772
+Rp773
+sL1102L
+g8
+((lp774
+tp775
+Rp776
+sL1103L
+g8
+((lp777
+tp778
+Rp779
+sL1104L
+g8
+((lp780
+tp781
+Rp782
+sL1105L
+g8
+((lp783
+tp784
+Rp785
+sL1106L
+g8
+((lp786
+L1006L
+atp787
+Rp788
+sL1107L
+g8
+((lp789
+L1530L
+aL931L
+atp790
+Rp791
+sL1108L
+g8
+((lp792
+L895L
+atp793
+Rp794
+sL1109L
+g8
+((lp795
+L1053L
+atp796
+Rp797
+sL1110L
+g8
+((lp798
+L986L
+aL1422L
+atp799
+Rp800
+sL1111L
+g8
+((lp801
+tp802
+Rp803
+sL1112L
+g8
+((lp804
+tp805
+Rp806
+sL1113L
+g8
+((lp807
+tp808
+Rp809
+sL1114L
+g8
+((lp810
+tp811
+Rp812
+sL1115L
+g8
+((lp813
+L1250L
+atp814
+Rp815
+sL1116L
+g8
+((lp816
+L1282L
+atp817
+Rp818
+sL1117L
+g8
+((lp819
+tp820
+Rp821
+sL1118L
+g8
+((lp822
+tp823
+Rp824
+sL1119L
+g8
+((lp825
+L1435L
+aL924L
+atp826
+Rp827
+sL1120L
+g8
+((lp828
+tp829
+Rp830
+sL1121L
+g8
+((lp831
+tp832
+Rp833
+sL1122L
+g8
+((lp834
+tp835
+Rp836
+sL1123L
+g8
+((lp837
+L1124L
+atp838
+Rp839
+sL1124L
+g8
+((lp840
+L1403L
+aL1123L
+atp841
+Rp842
+sL1125L
+g8
+((lp843
+tp844
+Rp845
+sL1126L
+g8
+((lp846
+tp847
+Rp848
+sL1127L
+g8
+((lp849
+tp850
+Rp851
+sL1128L
+g8
+((lp852
+tp853
+Rp854
+sL1129L
+g8
+((lp855
+tp856
+Rp857
+sL1130L
+g8
+((lp858
+tp859
+Rp860
+sL1131L
+g8
+((lp861
+tp862
+Rp863
+sL1132L
+g8
+((lp864
+L970L
+atp865
+Rp866
+sL1133L
+g8
+((lp867
+L1321L
+aL1327L
+aL1543L
+atp868
+Rp869
+sL1134L
+g8
+((lp870
+L1553L
+aL882L
+aL1030L
+aL991L
+atp871
+Rp872
+sL1135L
+g8
+((lp873
+tp874
+Rp875
+sL1136L
+g8
+((lp876
+tp877
+Rp878
+sL1137L
+g8
+((lp879
+L1137L
+atp880
+Rp881
+sL1138L
+g8
+((lp882
+L1269L
+atp883
+Rp884
+sL1139L
+g8
+((lp885
+L1252L
+atp886
+Rp887
+sL1140L
+g8
+((lp888
+tp889
+Rp890
+sL1141L
+g8
+((lp891
+L987L
+atp892
+Rp893
+sL1142L
+g8
+((lp894
+tp895
+Rp896
+sL1143L
+g8
+((lp897
+tp898
+Rp899
+sL1144L
+g8
+((lp900
+tp901
+Rp902
+sL1145L
+g8
+((lp903
+tp904
+Rp905
+sL1146L
+g8
+((lp906
+tp907
+Rp908
+sL1147L
+g8
+((lp909
+tp910
+Rp911
+sL1148L
+g8
+((lp912
+tp913
+Rp914
+sL1149L
+g8
+((lp915
+tp916
+Rp917
+sL1150L
+g8
+((lp918
+tp919
+Rp920
+sL1151L
+g8
+((lp921
+L1427L
+atp922
+Rp923
+sL1152L
+g8
+((lp924
+tp925
+Rp926
+sL1153L
+g8
+((lp927
+tp928
+Rp929
+sL1155L
+g8
+((lp930
+tp931
+Rp932
+sL1156L
+g8
+((lp933
+tp934
+Rp935
+sL1157L
+g8
+((lp936
+tp937
+Rp938
+sL1158L
+g8
+((lp939
+tp940
+Rp941
+sL1159L
+g8
+((lp942
+L1367L
+atp943
+Rp944
+sL1160L
+g8
+((lp945
+tp946
+Rp947
+sL1161L
+g8
+((lp948
+tp949
+Rp950
+sL1162L
+g8
+((lp951
+L1002L
+aL899L
+aL1239L
+atp952
+Rp953
+sL1163L
+g8
+((lp954
+tp955
+Rp956
+sL1164L
+g8
+((lp957
+tp958
+Rp959
+sL1165L
+g8
+((lp960
+tp961
+Rp962
+sL1166L
+g8
+((lp963
+L1271L
+atp964
+Rp965
+sL1167L
+g8
+((lp966
+tp967
+Rp968
+sL1168L
+g8
+((lp969
+L1010L
+atp970
+Rp971
+sL1169L
+g8
+((lp972
+L1000L
+atp973
+Rp974
+sL1170L
+g8
+((lp975
+L915L
+atp976
+Rp977
+sL1171L
+g8
+((lp978
+tp979
+Rp980
+sL1172L
+g8
+((lp981
+tp982
+Rp983
+sL1173L
+g8
+((lp984
+tp985
+Rp986
+sL1174L
+g8
+((lp987
+tp988
+Rp989
+sL1175L
+g8
+((lp990
+tp991
+Rp992
+sL1176L
+g8
+((lp993
+tp994
+Rp995
+sL1177L
+g8
+((lp996
+L1232L
+aL912L
+atp997
+Rp998
+sL1178L
+g8
+((lp999
+L1385L
+aL1271L
+aL1319L
+atp1000
+Rp1001
+sL1179L
+g8
+((lp1002
+L1288L
+aL1406L
+atp1003
+Rp1004
+sL1180L
+g8
+((lp1005
+tp1006
+Rp1007
+sL1181L
+g8
+((lp1008
+tp1009
+Rp1010
+sL1182L
+g8
+((lp1011
+L1036L
+atp1012
+Rp1013
+sL1183L
+g8
+((lp1014
+L1048L
+atp1015
+Rp1016
+sL1184L
+g8
+((lp1017
+L1248L
+aL1309L
+aL935L
+atp1018
+Rp1019
+sL1185L
+g8
+((lp1020
+L1239L
+atp1021
+Rp1022
+sL1186L
+g8
+((lp1023
+L969L
+aL1187L
+aL1222L
+atp1024
+Rp1025
+sL1187L
+g8
+((lp1026
+L969L
+aL1186L
+aL1428L
+atp1027
+Rp1028
+sL1188L
+g8
+((lp1029
+L1313L
+aL1546L
+aL1251L
+aL933L
+aL937L
+atp1030
+Rp1031
+sL1189L
+g8
+((lp1032
+L1248L
+aL925L
+aL1050L
+aL1349L
+aL1239L
+atp1033
+Rp1034
+sL1190L
+g8
+((lp1035
+L1328L
+aL1060L
+atp1036
+Rp1037
+sL1191L
+g8
+((lp1038
+L937L
+aL1546L
+aL1547L
+aL1060L
+atp1039
+Rp1040
+sL1192L
+g8
+((lp1041
+L1557L
+atp1042
+Rp1043
+sL1193L
+g8
+((lp1044
+L1251L
+aL1060L
+atp1045
+Rp1046
+sL1194L
+g8
+((lp1047
+L1239L
+atp1048
+Rp1049
+sL1195L
+g8
+((lp1050
+tp1051
+Rp1052
+sL1196L
+g8
+((lp1053
+L876L
+aL1053L
+aL982L
+atp1054
+Rp1055
+sL1197L
+g8
+((lp1056
+L1264L
+aL1577L
+aL1578L
+aL910L
+atp1057
+Rp1058
+sL1198L
+g8
+((lp1059
+L1250L
+aL1395L
+aL1339L
+aL1341L
+aL1342L
+aL1343L
+atp1060
+Rp1061
+sL1199L
+g8
+((lp1062
+L1220L
+aL1577L
+aL1264L
+aL1493L
+aL1307L
+aL1342L
+atp1063
+Rp1064
+sL1200L
+g8
+((lp1065
+L1067L
+aL1578L
+aL1267L
+aL1085L
+aL946L
+atp1066
+Rp1067
+sL1201L
+g8
+((lp1068
+L1264L
+aL1068L
+aL1070L
+aL1342L
+aL942L
+atp1069
+Rp1070
+sL1202L
+g8
+((lp1071
+L1264L
+aL1577L
+aL1343L
+aL1295L
+atp1072
+Rp1073
+sL1203L
+g8
+((lp1074
+L1284L
+aL950L
+aL1577L
+aL908L
+aL910L
+aL1366L
+atp1075
+Rp1076
+sL1204L
+g8
+((lp1077
+L1337L
+aL903L
+aL1271L
+atp1078
+Rp1079
+sL1205L
+g8
+((lp1080
+L1347L
+aL1284L
+aL1577L
+aL1264L
+aL948L
+aL950L
+aL1559L
+aL1085L
+atp1081
+Rp1082
+sL1206L
+g8
+((lp1083
+L1271L
+atp1084
+Rp1085
+sL1207L
+g8
+((lp1086
+tp1087
+Rp1088
+sL1208L
+g8
+((lp1089
+tp1090
+Rp1091
+sL1209L
+g8
+((lp1092
+tp1093
+Rp1094
+sL1210L
+g8
+((lp1095
+tp1096
+Rp1097
+sL1211L
+g8
+((lp1098
+tp1099
+Rp1100
+sL1212L
+g8
+((lp1101
+tp1102
+Rp1103
+sL1213L
+g8
+((lp1104
+tp1105
+Rp1106
+sL1214L
+g8
+((lp1107
+tp1108
+Rp1109
+sL1215L
+g8
+((lp1110
+tp1111
+Rp1112
+sL1216L
+g8
+((lp1113
+tp1114
+Rp1115
+sL1217L
+g8
+((lp1116
+tp1117
+Rp1118
+sL1218L
+g8
+((lp1119
+tp1120
+Rp1121
+sL1219L
+g8
+((lp1122
+tp1123
+Rp1124
+sL1220L
+g8
+((lp1125
+L1348L
+aL1493L
+aL1199L
+atp1126
+Rp1127
+sL1221L
+g8
+((lp1128
+tp1129
+Rp1130
+sL1222L
+g8
+((lp1131
+L1186L
+aL901L
+aL969L
+aL970L
+aL907L
+aL1039L
+atp1132
+Rp1133
+sL1223L
+g8
+((lp1134
+L1515L
+atp1135
+Rp1136
+sL1224L
+g8
+((lp1137
+tp1138
+Rp1139
+sL1225L
+g8
+((lp1140
+tp1141
+Rp1142
+sL1226L
+g8
+((lp1143
+L1414L
+atp1144
+Rp1145
+sL1228L
+g8
+((lp1146
+tp1147
+Rp1148
+sL1229L
+g8
+((lp1149
+tp1150
+Rp1151
+sL1230L
+g8
+((lp1152
+tp1153
+Rp1154
+sL1231L
+g8
+((lp1155
+L872L
+atp1156
+Rp1157
+sL1232L
+g8
+((lp1158
+L1177L
+atp1159
+Rp1160
+sL1233L
+g8
+((lp1161
+L1398L
+atp1162
+Rp1163
+sL1234L
+g8
+((lp1164
+tp1165
+Rp1166
+sL1236L
+g8
+((lp1167
+tp1168
+Rp1169
+sL1237L
+g8
+((lp1170
+tp1171
+Rp1172
+sL1238L
+g8
+((lp1173
+L1096L
+aL978L
+aL910L
+atp1174
+Rp1175
+sL1239L
+g8
+((lp1176
+L1185L
+aL1189L
+aL938L
+aL1053L
+aL1194L
+aL1239L
+aL1162L
+atp1177
+Rp1178
+sL1240L
+g8
+((lp1179
+tp1180
+Rp1181
+sL1241L
+g8
+((lp1182
+L1399L
+atp1183
+Rp1184
+sL1242L
+g8
+((lp1185
+tp1186
+Rp1187
+sL1243L
+g8
+((lp1188
+L1553L
+atp1189
+Rp1190
+sL1244L
+g8
+((lp1191
+tp1192
+Rp1193
+sL1245L
+g8
+((lp1194
+tp1195
+Rp1196
+sL1246L
+g8
+((lp1197
+tp1198
+Rp1199
+sL1247L
+g8
+((lp1200
+tp1201
+Rp1202
+sL1248L
+g8
+((lp1203
+L1352L
+aL1184L
+aL1052L
+aL1189L
+aL1060L
+atp1204
+Rp1205
+sL1249L
+g8
+((lp1206
+tp1207
+Rp1208
+sL1250L
+g8
+((lp1209
+L1008L
+aL952L
+aL1010L
+aL1115L
+aL1198L
+atp1210
+Rp1211
+sL1251L
+g8
+((lp1212
+L1193L
+aL1060L
+aL1188L
+aL1349L
+aL937L
+atp1213
+Rp1214
+sL1252L
+g8
+((lp1215
+L1368L
+aL1139L
+atp1216
+Rp1217
+sL1253L
+g8
+((lp1218
+L1540L
+atp1219
+Rp1220
+sL1254L
+g8
+((lp1221
+tp1222
+Rp1223
+sL1255L
+g8
+((lp1224
+L974L
+aL895L
+atp1225
+Rp1226
+sL1256L
+g8
+((lp1227
+tp1228
+Rp1229
+sL1257L
+g8
+((lp1230
+L1410L
+atp1231
+Rp1232
+sL1258L
+g8
+((lp1233
+tp1234
+Rp1235
+sL1259L
+g8
+((lp1236
+tp1237
+Rp1238
+sL1260L
+g8
+((lp1239
+tp1240
+Rp1241
+sL1261L
+g8
+((lp1242
+L1422L
+atp1243
+Rp1244
+sL1262L
+g8
+((lp1245
+L1376L
+aL1382L
+atp1246
+Rp1247
+sL1263L
+g8
+((lp1248
+tp1249
+Rp1250
+sL1264L
+g8
+((lp1251
+L1199L
+aL1284L
+aL1073L
+aL1577L
+aL1067L
+aL1197L
+aL1071L
+aL1295L
+aL1201L
+aL1202L
+aL1205L
+aL1078L
+aL952L
+aL1307L
+aL1308L
+atp1252
+Rp1253
+sL1265L
+g8
+((lp1254
+tp1255
+Rp1256
+sL1266L
+g8
+((lp1257
+tp1258
+Rp1259
+sL1267L
+g8
+((lp1260
+L1200L
+aL1067L
+atp1261
+Rp1262
+sL1268L
+g8
+((lp1263
+tp1264
+Rp1265
+sL1269L
+g8
+((lp1266
+L1138L
+atp1267
+Rp1268
+sL1270L
+g8
+((lp1269
+L1353L
+aL1547L
+atp1270
+Rp1271
+sL1271L
+g8
+((lp1272
+L1543L
+aL873L
+aL903L
+aL1166L
+aL1008L
+aL1395L
+aL1204L
+aL1013L
+aL1206L
+aL1079L
+aL1178L
+atp1273
+Rp1274
+sL1272L
+g8
+((lp1275
+L1362L
+aL1534L
+atp1276
+Rp1277
+sL1273L
+g8
+((lp1278
+tp1279
+Rp1280
+sL1274L
+g8
+((lp1281
+L1590L
+atp1282
+Rp1283
+sL1275L
+g8
+((lp1284
+tp1285
+Rp1286
+sL1276L
+g8
+((lp1287
+tp1288
+Rp1289
+sL1277L
+g8
+((lp1290
+L1278L
+atp1291
+Rp1292
+sL1278L
+g8
+((lp1293
+L1277L
+atp1294
+Rp1295
+sL1279L
+g8
+((lp1296
+L1577L
+aL1391L
+aL1393L
+atp1297
+Rp1298
+sL1280L
+g8
+((lp1299
+L1531L
+atp1300
+Rp1301
+sL1281L
+g8
+((lp1302
+L1530L
+atp1303
+Rp1304
+sL1282L
+g8
+((lp1305
+L1096L
+aL1116L
+aL1415L
+atp1306
+Rp1307
+sL1283L
+g8
+((lp1308
+tp1309
+Rp1310
+sL1284L
+g8
+((lp1311
+L1264L
+aL1577L
+aL1203L
+aL1205L
+aL910L
+atp1312
+Rp1313
+sL1285L
+g8
+((lp1314
+tp1315
+Rp1316
+sL1286L
+g8
+((lp1317
+L1085L
+aL1591L
+atp1318
+Rp1319
+sL1287L
+g8
+((lp1320
+L1040L
+aL1494L
+atp1321
+Rp1322
+sL1288L
+g8
+((lp1323
+L1179L
+aL1406L
+atp1324
+Rp1325
+sL1289L
+g8
+((lp1326
+tp1327
+Rp1328
+sL1290L
+g8
+((lp1329
+L1422L
+atp1330
+Rp1331
+sL1291L
+g8
+((lp1332
+tp1333
+Rp1334
+sL1292L
+g8
+((lp1335
+tp1336
+Rp1337
+sL1293L
+g8
+((lp1338
+L1489L
+atp1339
+Rp1340
+sL1294L
+g8
+((lp1341
+tp1342
+Rp1343
+sL1295L
+g8
+((lp1344
+L1264L
+aL1577L
+aL1202L
+aL1339L
+aL1308L
+atp1345
+Rp1346
+sL1296L
+g8
+((lp1347
+L1500L
+atp1348
+Rp1349
+sL1297L
+g8
+((lp1350
+tp1351
+Rp1352
+sL1298L
+g8
+((lp1353
+tp1354
+Rp1355
+sL1299L
+g8
+((lp1356
+L1365L
+atp1357
+Rp1358
+sL1300L
+g8
+((lp1359
+L1574L
+atp1360
+Rp1361
+sL1301L
+g8
+((lp1362
+L1088L
+aL897L
+atp1363
+Rp1364
+sL1302L
+g8
+((lp1365
+L1400L
+aL1548L
+atp1366
+Rp1367
+sL1303L
+g8
+((lp1368
+tp1369
+Rp1370
+sL1304L
+g8
+((lp1371
+tp1372
+Rp1373
+sL1305L
+g8
+((lp1374
+L1541L
+atp1375
+Rp1376
+sL1306L
+g8
+((lp1377
+tp1378
+Rp1379
+sL1307L
+g8
+((lp1380
+L1264L
+aL1577L
+aL1308L
+aL1199L
+atp1381
+Rp1382
+sL1308L
+g8
+((lp1383
+L1264L
+aL1577L
+aL1307L
+aL1295L
+atp1384
+Rp1385
+sL1309L
+g8
+((lp1386
+L1352L
+aL1184L
+aL1349L
+atp1387
+Rp1388
+sL1310L
+g8
+((lp1389
+tp1390
+Rp1391
+sL1311L
+g8
+((lp1392
+L1516L
+atp1393
+Rp1394
+sL1312L
+g8
+((lp1395
+tp1396
+Rp1397
+sL1313L
+g8
+((lp1398
+L1347L
+aL1188L
+aL1349L
+aL1350L
+aL1352L
+aL1547L
+aL1550L
+aL1052L
+aL933L
+atp1399
+Rp1400
+sL1315L
+g8
+((lp1401
+tp1402
+Rp1403
+sL1316L
+g8
+((lp1404
+L1577L
+atp1405
+Rp1406
+sL1317L
+g8
+((lp1407
+L891L
+aL993L
+aL1411L
+atp1408
+Rp1409
+sL1318L
+g8
+((lp1410
+tp1411
+Rp1412
+sL1319L
+g8
+((lp1413
+L1178L
+aL1390L
+atp1414
+Rp1415
+sL1320L
+g8
+((lp1416
+L1323L
+atp1417
+Rp1418
+sL1321L
+g8
+((lp1419
+L1010L
+aL906L
+aL1573L
+aL1133L
+atp1420
+Rp1421
+sL1322L
+g8
+((lp1422
+tp1423
+Rp1424
+sL1323L
+g8
+((lp1425
+L1320L
+atp1426
+Rp1427
+sL1324L
+g8
+((lp1428
+tp1429
+Rp1430
+sL1325L
+g8
+((lp1431
+L1096L
+atp1432
+Rp1433
+sL1326L
+g8
+((lp1434
+L1095L
+atp1435
+Rp1436
+sL1327L
+g8
+((lp1437
+L1008L
+aL906L
+aL1133L
+aL1543L
+atp1438
+Rp1439
+sL1328L
+g8
+((lp1440
+L1190L
+atp1441
+Rp1442
+sL1329L
+g8
+((lp1443
+tp1444
+Rp1445
+sL1330L
+g8
+((lp1446
+tp1447
+Rp1448
+sL1331L
+g8
+((lp1449
+tp1450
+Rp1451
+sL1332L
+g8
+((lp1452
+L1367L
+atp1453
+Rp1454
+sL1333L
+g8
+((lp1455
+tp1456
+Rp1457
+sL1334L
+g8
+((lp1458
+tp1459
+Rp1460
+sL1335L
+g8
+((lp1461
+tp1462
+Rp1463
+sL1336L
+g8
+((lp1464
+tp1465
+Rp1466
+sL1337L
+g8
+((lp1467
+L1204L
+atp1468
+Rp1469
+sL1338L
+g8
+((lp1470
+tp1471
+Rp1472
+sL1339L
+g8
+((lp1473
+L1577L
+aL942L
+aL1198L
+aL1295L
+atp1474
+Rp1475
+sL1340L
+g8
+((lp1476
+L1530L
+aL1579L
+aL1580L
+atp1477
+Rp1478
+sL1341L
+g8
+((lp1479
+L944L
+aL1010L
+aL1198L
+aL943L
+atp1480
+Rp1481
+sL1342L
+g8
+((lp1482
+L1577L
+aL1067L
+aL1198L
+aL1071L
+aL1201L
+aL1078L
+aL1199L
+atp1483
+Rp1484
+sL1343L
+g8
+((lp1485
+L1577L
+aL1202L
+aL1198L
+atp1486
+Rp1487
+sL1344L
+g8
+((lp1488
+tp1489
+Rp1490
+sL1345L
+g8
+((lp1491
+tp1492
+Rp1493
+sL1346L
+g8
+((lp1494
+L999L
+atp1495
+Rp1496
+sL1347L
+g8
+((lp1497
+L1313L
+aL1205L
+atp1498
+Rp1499
+sL1348L
+g8
+((lp1500
+L1074L
+aL1220L
+aL1493L
+atp1501
+Rp1502
+sL1349L
+g8
+((lp1503
+L1313L
+aL1251L
+aL1189L
+aL1546L
+aL1547L
+aL1549L
+aL1550L
+aL1557L
+aL1529L
+aL1052L
+aL1309L
+atp1504
+Rp1505
+sL1350L
+g8
+((lp1506
+L1313L
+atp1507
+Rp1508
+sL1351L
+g8
+((lp1509
+tp1510
+Rp1511
+sL1352L
+g8
+((lp1512
+L1248L
+aL1313L
+aL1309L
+atp1513
+Rp1514
+sL1353L
+g8
+((lp1515
+L1060L
+aL933L
+aL937L
+aL1547L
+aL1548L
+aL1270L
+aL1054L
+atp1516
+Rp1517
+sL1354L
+g8
+((lp1518
+tp1519
+Rp1520
+sL1355L
+g8
+((lp1521
+tp1522
+Rp1523
+sL1356L
+g8
+((lp1524
+tp1525
+Rp1526
+sL1357L
+g8
+((lp1527
+tp1528
+Rp1529
+sL1358L
+g8
+((lp1530
+L1064L
+aL1589L
+aL1062L
+atp1531
+Rp1532
+sL1359L
+g8
+((lp1533
+tp1534
+Rp1535
+sL1360L
+g8
+((lp1536
+tp1537
+Rp1538
+sL1361L
+g8
+((lp1539
+L1537L
+aL1534L
+atp1540
+Rp1541
+sL1362L
+g8
+((lp1542
+L1272L
+aL1534L
+atp1543
+Rp1544
+sL1363L
+g8
+((lp1545
+tp1546
+Rp1547
+sL1364L
+g8
+((lp1548
+tp1549
+Rp1550
+sL1365L
+g8
+((lp1551
+L1299L
+atp1552
+Rp1553
+sL1366L
+g8
+((lp1554
+L1056L
+aL1203L
+aL874L
+aL1548L
+aL1069L
+aL1041L
+aL1043L
+atp1555
+Rp1556
+sL1367L
+g8
+((lp1557
+L1332L
+aL1029L
+aL1030L
+aL1159L
+atp1558
+Rp1559
+sL1368L
+g8
+((lp1560
+L994L
+aL995L
+aL1252L
+atp1561
+Rp1562
+sL1370L
+g8
+((lp1563
+tp1564
+Rp1565
+sL1371L
+g8
+((lp1566
+tp1567
+Rp1568
+sL1372L
+g8
+((lp1569
+tp1570
+Rp1571
+sL1373L
+g8
+((lp1572
+tp1573
+Rp1574
+sL1374L
+g8
+((lp1575
+tp1576
+Rp1577
+sL1375L
+g8
+((lp1578
+tp1579
+Rp1580
+sL1376L
+g8
+((lp1581
+L1262L
+atp1582
+Rp1583
+sL1377L
+g8
+((lp1584
+L1515L
+atp1585
+Rp1586
+sL1378L
+g8
+((lp1587
+tp1588
+Rp1589
+sL1380L
+g8
+((lp1590
+tp1591
+Rp1592
+sL1381L
+g8
+((lp1593
+L1524L
+aL1549L
+atp1594
+Rp1595
+sL1382L
+g8
+((lp1596
+L1262L
+atp1597
+Rp1598
+sL1383L
+g8
+((lp1599
+tp1600
+Rp1601
+sL1384L
+g8
+((lp1602
+tp1603
+Rp1604
+sL1385L
+g8
+((lp1605
+L1178L
+atp1606
+Rp1607
+sL1386L
+g8
+((lp1608
+L1581L
+atp1609
+Rp1610
+sL1387L
+g8
+((lp1611
+tp1612
+Rp1613
+sL1388L
+g8
+((lp1614
+tp1615
+Rp1616
+sL1389L
+g8
+((lp1617
+tp1618
+Rp1619
+sL1390L
+g8
+((lp1620
+L1068L
+aL1319L
+atp1621
+Rp1622
+sL1391L
+g8
+((lp1623
+L1393L
+aL1010L
+aL1279L
+atp1624
+Rp1625
+sL1392L
+g8
+((lp1626
+tp1627
+Rp1628
+sL1393L
+g8
+((lp1629
+L906L
+aL1279L
+aL1391L
+atp1630
+Rp1631
+sL1394L
+g8
+((lp1632
+tp1633
+Rp1634
+sL1395L
+g8
+((lp1635
+L952L
+aL873L
+aL1271L
+aL1198L
+aL1543L
+atp1636
+Rp1637
+sL1396L
+g8
+((lp1638
+tp1639
+Rp1640
+sL1397L
+g8
+((lp1641
+L1500L
+atp1642
+Rp1643
+sL1398L
+g8
+((lp1644
+L1233L
+atp1645
+Rp1646
+sL1399L
+g8
+((lp1647
+L1096L
+aL1241L
+atp1648
+Rp1649
+sL1400L
+g8
+((lp1650
+L1548L
+aL1302L
+atp1651
+Rp1652
+sL1401L
+g8
+((lp1653
+tp1654
+Rp1655
+sL1402L
+g8
+((lp1656
+tp1657
+Rp1658
+sL1403L
+g8
+((lp1659
+L1600L
+aL1124L
+atp1660
+Rp1661
+sL1404L
+g8
+((lp1662
+tp1663
+Rp1664
+sL1405L
+g8
+((lp1665
+tp1666
+Rp1667
+sL1406L
+g8
+((lp1668
+L1288L
+aL1179L
+atp1669
+Rp1670
+sL1407L
+g8
+((lp1671
+L1601L
+atp1672
+Rp1673
+sL1408L
+g8
+((lp1674
+L1598L
+atp1675
+Rp1676
+sL1409L
+g8
+((lp1677
+tp1678
+Rp1679
+sL1410L
+g8
+((lp1680
+L1257L
+atp1681
+Rp1682
+sL1411L
+g8
+((lp1683
+L1525L
+aL1317L
+atp1684
+Rp1685
+sL1412L
+g8
+((lp1686
+tp1687
+Rp1688
+sL1413L
+g8
+((lp1689
+tp1690
+Rp1691
+sL1414L
+g8
+((lp1692
+L1226L
+aL980L
+atp1693
+Rp1694
+sL1415L
+g8
+((lp1695
+L1096L
+aL1282L
+atp1696
+Rp1697
+sL1416L
+g8
+((lp1698
+L1059L
+atp1699
+Rp1700
+sL1417L
+g8
+((lp1701
+tp1702
+Rp1703
+sL1418L
+g8
+((lp1704
+L927L
+atp1705
+Rp1706
+sL1419L
+g8
+((lp1707
+tp1708
+Rp1709
+sL1420L
+g8
+((lp1710
+tp1711
+Rp1712
+sL1421L
+g8
+((lp1713
+tp1714
+Rp1715
+sL1422L
+g8
+((lp1716
+L986L
+aL1290L
+aL1261L
+aL1110L
+atp1717
+Rp1718
+sL1423L
+g8
+((lp1719
+tp1720
+Rp1721
+sL1424L
+g8
+((lp1722
+tp1723
+Rp1724
+sL1425L
+g8
+((lp1725
+tp1726
+Rp1727
+sL1426L
+g8
+((lp1728
+tp1729
+Rp1730
+sL1427L
+g8
+((lp1731
+L1151L
+atp1732
+Rp1733
+sL1428L
+g8
+((lp1734
+L969L
+aL1187L
+atp1735
+Rp1736
+sL1429L
+g8
+((lp1737
+tp1738
+Rp1739
+sL1430L
+g8
+((lp1740
+tp1741
+Rp1742
+sL1431L
+g8
+((lp1743
+tp1744
+Rp1745
+sL1432L
+g8
+((lp1746
+tp1747
+Rp1748
+sL1433L
+g8
+((lp1749
+tp1750
+Rp1751
+sL1434L
+g8
+((lp1752
+tp1753
+Rp1754
+sL1435L
+g8
+((lp1755
+L924L
+aL1119L
+atp1756
+Rp1757
+sL1436L
+g8
+((lp1758
+tp1759
+Rp1760
+sL1437L
+g8
+((lp1761
+tp1762
+Rp1763
+sL1438L
+g8
+((lp1764
+tp1765
+Rp1766
+sL1439L
+g8
+((lp1767
+tp1768
+Rp1769
+sL1441L
+g8
+((lp1770
+tp1771
+Rp1772
+sL1442L
+g8
+((lp1773
+tp1774
+Rp1775
+sL1443L
+g8
+((lp1776
+tp1777
+Rp1778
+sL1444L
+g8
+((lp1779
+tp1780
+Rp1781
+sL1445L
+g8
+((lp1782
+tp1783
+Rp1784
+sL1446L
+g8
+((lp1785
+L1449L
+atp1786
+Rp1787
+sL1447L
+g8
+((lp1788
+tp1789
+Rp1790
+sL1448L
+g8
+((lp1791
+tp1792
+Rp1793
+sL1449L
+g8
+((lp1794
+L1446L
+atp1795
+Rp1796
+sL1450L
+g8
+((lp1797
+tp1798
+Rp1799
+sL1451L
+g8
+((lp1800
+tp1801
+Rp1802
+sL1452L
+g8
+((lp1803
+tp1804
+Rp1805
+sL1453L
+g8
+((lp1806
+tp1807
+Rp1808
+sL1454L
+g8
+((lp1809
+tp1810
+Rp1811
+sL1455L
+g8
+((lp1812
+tp1813
+Rp1814
+sL1456L
+g8
+((lp1815
+tp1816
+Rp1817
+sL1457L
+g8
+((lp1818
+tp1819
+Rp1820
+sL1458L
+g8
+((lp1821
+tp1822
+Rp1823
+sL1459L
+g8
+((lp1824
+tp1825
+Rp1826
+sL1460L
+g8
+((lp1827
+tp1828
+Rp1829
+sL1461L
+g8
+((lp1830
+tp1831
+Rp1832
+sL1462L
+g8
+((lp1833
+tp1834
+Rp1835
+sL1463L
+g8
+((lp1836
+tp1837
+Rp1838
+sL1464L
+g8
+((lp1839
+tp1840
+Rp1841
+sL1465L
+g8
+((lp1842
+tp1843
+Rp1844
+sL1466L
+g8
+((lp1845
+tp1846
+Rp1847
+sL1467L
+g8
+((lp1848
+tp1849
+Rp1850
+sL1468L
+g8
+((lp1851
+tp1852
+Rp1853
+sL1469L
+g8
+((lp1854
+tp1855
+Rp1856
+sL1470L
+g8
+((lp1857
+tp1858
+Rp1859
+sL1471L
+g8
+((lp1860
+tp1861
+Rp1862
+sL1472L
+g8
+((lp1863
+tp1864
+Rp1865
+sL1473L
+g8
+((lp1866
+tp1867
+Rp1868
+sL1474L
+g8
+((lp1869
+tp1870
+Rp1871
+sL1475L
+g8
+((lp1872
+tp1873
+Rp1874
+sL1476L
+g8
+((lp1875
+tp1876
+Rp1877
+sL1477L
+g8
+((lp1878
+tp1879
+Rp1880
+sL1478L
+g8
+((lp1881
+tp1882
+Rp1883
+sL1479L
+g8
+((lp1884
+tp1885
+Rp1886
+sL1480L
+g8
+((lp1887
+tp1888
+Rp1889
+sL1481L
+g8
+((lp1890
+tp1891
+Rp1892
+sL1482L
+g8
+((lp1893
+tp1894
+Rp1895
+sL1483L
+g8
+((lp1896
+tp1897
+Rp1898
+sL1484L
+g8
+((lp1899
+tp1900
+Rp1901
+sL1486L
+g8
+((lp1902
+tp1903
+Rp1904
+sL1488L
+g8
+((lp1905
+tp1906
+Rp1907
+sL1489L
+g8
+((lp1908
+L1293L
+atp1909
+Rp1910
+sL1490L
+g8
+((lp1911
+tp1912
+Rp1913
+sL1491L
+g8
+((lp1914
+tp1915
+Rp1916
+sL1492L
+g8
+((lp1917
+tp1918
+Rp1919
+sL1493L
+g8
+((lp1920
+L1348L
+aL1220L
+aL1199L
+atp1921
+Rp1922
+sL1494L
+g8
+((lp1923
+L1287L
+atp1924
+Rp1925
+sL1495L
+g8
+((lp1926
+tp1927
+Rp1928
+sL1496L
+g8
+((lp1929
+tp1930
+Rp1931
+sL1497L
+g8
+((lp1932
+tp1933
+Rp1934
+sL1498L
+g8
+((lp1935
+tp1936
+Rp1937
+sL1499L
+g8
+((lp1938
+tp1939
+Rp1940
+sL1500L
+g8
+((lp1941
+L1296L
+aL1397L
+atp1942
+Rp1943
+sL1501L
+g8
+((lp1944
+tp1945
+Rp1946
+sL1502L
+g8
+((lp1947
+tp1948
+Rp1949
+sL1503L
+g8
+((lp1950
+L864L
+atp1951
+Rp1952
+sL1504L
+g8
+((lp1953
+tp1954
+Rp1955
+sL1505L
+g8
+((lp1956
+tp1957
+Rp1958
+sL1506L
+g8
+((lp1959
+tp1960
+Rp1961
+sL1507L
+g8
+((lp1962
+tp1963
+Rp1964
+sL1508L
+g8
+((lp1965
+tp1966
+Rp1967
+sL1509L
+g8
+((lp1968
+tp1969
+Rp1970
+sL1510L
+g8
+((lp1971
+tp1972
+Rp1973
+sL1511L
+g8
+((lp1974
+tp1975
+Rp1976
+sL1512L
+g8
+((lp1977
+tp1978
+Rp1979
+sL1513L
+g8
+((lp1980
+tp1981
+Rp1982
+sL1515L
+g8
+((lp1983
+L1377L
+aL1025L
+aL1223L
+atp1984
+Rp1985
+sL1516L
+g8
+((lp1986
+L879L
+aL1311L
+atp1987
+Rp1988
+sL1517L
+g8
+((lp1989
+tp1990
+Rp1991
+sL1518L
+g8
+((lp1992
+L1603L
+atp1993
+Rp1994
+sL1519L
+g8
+((lp1995
+tp1996
+Rp1997
+sL1520L
+g8
+((lp1998
+tp1999
+Rp2000
+sL1521L
+g8
+((lp2001
+tp2002
+Rp2003
+sL1522L
+g8
+((lp2004
+tp2005
+Rp2006
+sL1523L
+g8
+((lp2007
+tp2008
+Rp2009
+sL1524L
+g8
+((lp2010
+L1381L
+atp2011
+Rp2012
+sL1525L
+g8
+((lp2013
+L1411L
+atp2014
+Rp2015
+sL1526L
+g8
+((lp2016
+tp2017
+Rp2018
+sL1527L
+g8
+((lp2019
+L1604L
+atp2020
+Rp2021
+sL1528L
+g8
+((lp2022
+tp2023
+Rp2024
+sL1529L
+g8
+((lp2025
+L1349L
+atp2026
+Rp2027
+sL1530L
+g8
+((lp2028
+L1281L
+aL1107L
+aL931L
+aL1340L
+atp2029
+Rp2030
+sL1531L
+g8
+((lp2031
+L1280L
+atp2032
+Rp2033
+sL1532L
+g8
+((lp2034
+L856L
+aL895L
+atp2035
+Rp2036
+sL1533L
+g8
+((lp2037
+tp2038
+Rp2039
+sL1534L
+g8
+((lp2040
+L1272L
+aL1361L
+aL1362L
+aL1534L
+atp2041
+Rp2042
+sL1535L
+g8
+((lp2043
+tp2044
+Rp2045
+sL1536L
+g8
+((lp2046
+tp2047
+Rp2048
+sL1537L
+g8
+((lp2049
+L1361L
+atp2050
+Rp2051
+sL1538L
+g8
+((lp2052
+tp2053
+Rp2054
+sL1539L
+g8
+((lp2055
+tp2056
+Rp2057
+sL1540L
+g8
+((lp2058
+L1253L
+atp2059
+Rp2060
+sL1541L
+g8
+((lp2061
+L1305L
+atp2062
+Rp2063
+sL1542L
+g8
+((lp2064
+L1010L
+aL902L
+aL1007L
+atp2065
+Rp2066
+sL1543L
+g8
+((lp2067
+L902L
+aL903L
+aL873L
+aL906L
+aL1133L
+aL1327L
+aL1008L
+aL1395L
+aL1271L
+atp2068
+Rp2069
+sL1544L
+g8
+((lp2070
+tp2071
+Rp2072
+sL1545L
+g8
+((lp2073
+tp2074
+Rp2075
+sL1546L
+g8
+((lp2076
+L1188L
+aL933L
+aL1191L
+aL1052L
+aL1054L
+aL1349L
+atp2077
+Rp2078
+sL1547L
+g8
+((lp2079
+L1313L
+aL1270L
+aL1349L
+aL1191L
+aL1353L
+aL1046L
+aL1048L
+aL1052L
+aL1054L
+aL933L
+atp2080
+Rp2081
+sL1548L
+g8
+((lp2082
+L1400L
+aL1353L
+aL1054L
+aL1302L
+aL1366L
+atp2083
+Rp2084
+sL1549L
+g8
+((lp2085
+L1349L
+aL1381L
+atp2086
+Rp2087
+sL1550L
+g8
+((lp2088
+L1313L
+aL1054L
+aL1349L
+aL974L
+atp2089
+Rp2090
+sL1551L
+g8
+((lp2091
+tp2092
+Rp2093
+sL1552L
+g8
+((lp2094
+tp2095
+Rp2096
+sL1553L
+g8
+((lp2097
+L1024L
+aL882L
+aL1243L
+aL1134L
+atp2098
+Rp2099
+sL1554L
+g8
+((lp2100
+tp2101
+Rp2102
+sL1555L
+g8
+((lp2103
+tp2104
+Rp2105
+sL1556L
+g8
+((lp2106
+tp2107
+Rp2108
+sL1557L
+g8
+((lp2109
+L1060L
+aL933L
+aL935L
+aL1192L
+aL1052L
+aL1053L
+aL1054L
+aL1349L
+atp2110
+Rp2111
+sL1558L
+g8
+((lp2112
+tp2113
+Rp2114
+sL1559L
+g8
+((lp2115
+L1205L
+atp2116
+Rp2117
+sL1560L
+g8
+((lp2118
+tp2119
+Rp2120
+sL1561L
+g8
+((lp2121
+tp2122
+Rp2123
+sL1562L
+g8
+((lp2124
+tp2125
+Rp2126
+sL1563L
+g8
+((lp2127
+tp2128
+Rp2129
+sL1564L
+g8
+((lp2130
+tp2131
+Rp2132
+sL1565L
+g8
+((lp2133
+tp2134
+Rp2135
+sL1566L
+g8
+((lp2136
+tp2137
+Rp2138
+sL1567L
+g8
+((lp2139
+tp2140
+Rp2141
+sL1568L
+g8
+((lp2142
+tp2143
+Rp2144
+sL1569L
+g8
+((lp2145
+tp2146
+Rp2147
+sL1570L
+g8
+((lp2148
+tp2149
+Rp2150
+sL1571L
+g8
+((lp2151
+tp2152
+Rp2153
+sL1572L
+g8
+((lp2154
+tp2155
+Rp2156
+sL1573L
+g8
+((lp2157
+L1321L
+atp2158
+Rp2159
+sL1574L
+g8
+((lp2160
+L1300L
+atp2161
+Rp2162
+sL1575L
+g8
+((lp2163
+tp2164
+Rp2165
+sL1576L
+g8
+((lp2166
+tp2167
+Rp2168
+sL1577L
+g8
+((lp2169
+L1284L
+aL908L
+aL1295L
+aL1199L
+aL1308L
+aL1307L
+aL1316L
+aL1067L
+aL1197L
+aL1071L
+aL1073L
+aL1202L
+aL1203L
+aL1205L
+aL1078L
+aL952L
+aL953L
+aL1339L
+aL1342L
+aL1343L
+aL1264L
+aL1279L
+atp2170
+Rp2171
+sL1578L
+g8
+((lp2172
+L1200L
+aL1197L
+atp2173
+Rp2174
+sL1579L
+g8
+((lp2175
+L1340L
+atp2176
+Rp2177
+sL1580L
+g8
+((lp2178
+L1010L
+aL1340L
+atp2179
+Rp2180
+sL1581L
+g8
+((lp2181
+L1386L
+atp2182
+Rp2183
+sL1583L
+g8
+((lp2184
+tp2185
+Rp2186
+sL1584L
+g8
+((lp2187
+tp2188
+Rp2189
+sL1585L
+g8
+((lp2190
+tp2191
+Rp2192
+sL1587L
+g8
+((lp2193
+tp2194
+Rp2195
+sL1588L
+g8
+((lp2196
+tp2197
+Rp2198
+sL1589L
+g8
+((lp2199
+L1064L
+aL1358L
+atp2200
+Rp2201
+sL1590L
+g8
+((lp2202
+L1274L
+atp2203
+Rp2204
+sL1591L
+g8
+((lp2205
+L1286L
+atp2206
+Rp2207
+sL1592L
+g8
+((lp2208
+L1013L
+atp2209
+Rp2210
+sL1593L
+g8
+((lp2211
+tp2212
+Rp2213
+sL1594L
+g8
+((lp2214
+tp2215
+Rp2216
+sL1595L
+g8
+((lp2217
+tp2218
+Rp2219
+sL1596L
+g8
+((lp2220
+tp2221
+Rp2222
+sL1597L
+g8
+((lp2223
+tp2224
+Rp2225
+sL1598L
+g8
+((lp2226
+L1408L
+atp2227
+Rp2228
+sL1599L
+g8
+((lp2229
+L871L
+atp2230
+Rp2231
+sL1600L
+g8
+((lp2232
+L1403L
+aL871L
+atp2233
+Rp2234
+sL1601L
+g8
+((lp2235
+L1407L
+aL871L
+atp2236
+Rp2237
+sL1602L
+g8
+((lp2238
+tp2239
+Rp2240
+sL1603L
+g8
+((lp2241
+L1518L
+atp2242
+Rp2243
+sL1604L
+g8
+((lp2244
+L1527L
+atp2245
+Rp2246
+ssS'names'
+p2247
+(dp2248
+L841L
+S'Overlapped Grouping Genetic Algorithm for Optimization of Reels Cutting Planning Problems'
+p2249
+sL842L
+S'A Perspective of Hierarchical Layout Design Optimization for Highly Packaged Equipments'
+p2250
+sL843L
+S'A Genetic Algorithm Based Procedure for Extracting Optimal Solutions From a Morphological Chart'
+p2251
+sL845L
+S'A Variable Fidelity Model Management Framework for Multiscale Computational Design of Continuous Fiber SiC-Si3N4 Ceramic Composites'
+p2252
+sL846L
+S'Topology Optimization for Synthesizing Extrusion Based Nonlinear Transient Designs'
+p2253
+sL847L
+S'An Intelligent and Efficient Tree Search Algorithm for Computer-Aided Component Selection'
+p2254
+sL848L
+S'A Graph Grammar Approach to Generate Neural Network Topologies'
+p2255
+sL849L
+S'A Learning Algorithm for Optimal Internal Combustion Engine Calibration in Real Time'
+p2256
+sL850L
+S'A Simplified Systematic Method of Acquiring Design Specifications From Customer Requirements'
+p2257
+sL851L
+S'Towards a Reference Ontology for Functional Knowledge Interoperability'
+p2258
+sL852L
+S'Fuzzy Analytical Hierarchy Process-Based Assembly Unit Partition for Complex Products'
+p2259
+sL853L
+S'PDM Implementation in Indian Industries: An Impact Study on Technology Adoption'
+p2260
+sL854L
+S'A Framework for Collaborative Top-Down Assembly Design'
+p2261
+sL855L
+S'A Design Strategy for Collaborative Decision Making in a Distributed Environment'
+p2262
+sL856L
+S'An Approach to Improved Decentralized Design: The Modified Approximation-Based Decentralized Design (MADD) Framework'
+p2263
+sL857L
+S'Design Optimization of a Laptop Computer Using Aggregate and Mixed Logit Demand Models With Consumer Survey Data'
+p2264
+sL858L
+S'A Game-Theoretic Approach to Finding Market Equilibria for Automotive Design Under Environmental Regulation'
+p2265
+sL859L
+S'Measurement of Headlight Form Preference Using a Choice Based Conjoint Analysis'
+p2266
+sL860L
+S'Conjoint-HoQ: A Quantitative Methodology for Consumer-Driven Design'
+p2267
+sL861L
+S'Preference Inconsistency in Multidisciplinary Design Decision Making'
+p2268
+sL862L
+S'Theoretical Design and Control Analysis of Reconfigurable Parallel Kinematic Machine Tools'
+p2269
+sL863L
+S'Design for Product Adaptability'
+p2270
+sL864L
+S'Flexible and Reconfigurable Systems: Nomenclature and Review'
+p2271
+sL865L
+S'Adaptive Complex Method for Efficient Design Optimization'
+p2272
+sL866L
+S'Approximated Unimodal Region Elimination Based Global Optimization Method for Engineering Design'
+p2273
+sL867L
+S'Bayesian Analysis of Adaptive One-Factor-at-a-Time Experimentation'
+p2274
+sL868L
+S'Multi Agent Normal Sampling Technique (MANST) for Global Optimization'
+p2275
+sL869L
+S'Non-Dominated Sorting Genetic Quantum Algorithm for Multi-Objective Optimization'
+p2276
+sL870L
+S'Optimization of a Vehicle Space Frame Under Ballistic Impact Loading'
+p2277
+sL871L
+S'Optimization of Bicycle Frames Using Genetic Algorithms'
+p2278
+sL872L
+S'Generalization of Topological Sensitivity and Its Application to Defeaturing'
+p2279
+sL873L
+S'A Hybrid Method for Surrogate Model Updating in Engineering Design Optimization'
+p2280
+sL874L
+S'Pseudo-Hierarchical Multistage Model for System of Systems Design and Operations'
+p2281
+sL875L
+S'Finite Element Analysis Applied to Ergonomic Design of 2-Piece Aluminum Beverage Cans and Bottles'
+p2282
+sL876L
+S'Including Preference in Anthropometry-Driven Models for Design'
+p2283
+sL877L
+S'Evaluation Method of Drinking Ease for Aluminum Beverage Bottles'
+p2284
+sL878L
+S'Adaptive Deposition Coverage Toolpath Planning for Metal Deposition Process'
+p2285
+sL879L
+S'Automated Synthesis of MEMS Fabrication Sequences Using Graph Grammars'
+p2286
+sL880L
+S'Adaptive Slicing of Moving Least Squares Surfaces: Toward Direct Manufacturing of Point Set Surfaces'
+p2287
+sL881L
+S'Product Reverse Engineering Based on Growth Design Process'
+p2288
+sL882L
+S'High Performance Dirichlet Parametrization Through Triangular Bezier Surface Interpolation for Deformation of CAE Meshes'
+p2289
+sL883L
+S'Curve Shape Modification and Fairness Evaluation'
+p2290
+sL884L
+S'Application of Interactive Deformation to Assembled Mesh Models for CAE Analysis'
+p2291
+sL885L
+S'Pre-Programmed Failure Behavior Using Biology-Inspired Structures'
+p2292
+sL886L
+S'Finding All Undercut-Free Parting Directions for Solids of Revolution'
+p2293
+sL887L
+S'Wavelet SDF-Reps: Solid Modeling With Volumetric Scans'
+p2294
+sL888L
+S'Matching Geometric Shapes in 4D Space Incorporating Curvature Information'
+p2295
+sL889L
+S'Motion-Based Shape Deformation of Solid Models'
+p2296
+sL890L
+S'A Point Membership Classification for Sweeping Solids'
+p2297
+sL891L
+S'Quasi-Optimal Mesh Segmentation Via Region Growing/Merging'
+p2298
+sL892L
+S'Development of Validation Metrics for Vehicle Frontal Impact Simulation'
+p2299
+sL894L
+S'A Development Methodology for Parametric Synthesis Tools'
+p2300
+sL895L
+S'Incorporating Customer Preferences and Market Trends in Vehicle Package Design'
+p2301
+sL896L
+S'A Case Study of Design Process and Development of a Design Enabling Tool for Wright Metal Products'
+p2302
+sL897L
+S'A Process Model and Data Mining to Support Designing Families of Services'
+p2303
+sL898L
+S'Quantity Dimension Indexing for Design Knowledge Management'
+p2304
+sL899L
+S'Representation and Analysis Challenges in Design for Part-Reuse: An Automotive Case Study'
+p2305
+sL900L
+S'Empirical Models for Non-Deterministic Simulation-Based Robust Design'
+p2306
+sL901L
+S'Managing Design Process Complexity: A Value-of-Information Based Approach for Scale and Decision Decoupling'
+p2307
+sL902L
+S'Q2S2: Merging Qualitative Information in Sequential DOE'
+p2308
+sL903L
+S'Using Maximum Likelihood Estimation to Estimate Kriging Model Parameters'
+p2309
+sL904L
+S'Reducing the Number of Variables in a Response Surface Approximation: Application to Thermal Design'
+p2310
+sL905L
+S'Reduction of Non-Monomial Basis in the Dimensional Analysis of a Dynamical System'
+p2311
+sL906L
+S'A New Variable Fidelity Optimization Framework Based on Model Fusion and Objective-Oriented Sequential Sampling'
+p2312
+sL907L
+S'Optimal Partitioning and Coordination Decisions in Decomposition-Based Design Optimization'
+p2313
+sL908L
+S'Multiobjective Collaborative Robust Optimization (McRO) With Interval Uncertainty and Interdisciplinary Uncertainty Propagation'
+p2314
+sL909L
+S'Integrated Structure Decomposition, Optimization and Control Design'
+p2315
+sL910L
+S'A Sequential Linear Programming Coordination Algorithm for Analytical Target Cascading'
+p2316
+sL911L
+S'Diagonal Quadratic Approximation for Parallelization of Analytical Target Cascading'
+p2317
+sL912L
+S'A Concept for a Material That Softens With Frequency'
+p2318
+sL913L
+S'A Template-Based Approach for Multilevel Blast Resistant Panel Design'
+p2319
+sL914L
+S'Predictive Carbon Nanotube Models Using the Eigenvector Dimension Reduction (EDR) Method'
+p2320
+sL915L
+S'A Function-Based Approach for Integrated Design of Material and Product Concepts'
+p2321
+sL916L
+S'A Dual Environment for 3D Modeling With User-Defined Free Form Features'
+p2322
+sL917L
+S'Reverse Engineering of Geometric Surfaces Using Tabu Search Optimization Technique'
+p2323
+sL918L
+S'Correspondences Matching on 3D Mesh Models'
+p2324
+sL919L
+S'Procedural Design of Imprint Rolls for Fluid Pathway Fabrication'
+p2325
+sL920L
+S'OAM+: An Assembly Data Model for Legacy Systems Engineering'
+p2326
+sL921L
+S'Robust Product Design Optimization Method Using Hierarchical Representations of Characteristics'
+p2327
+sL922L
+S'An Optimal Design Method for Reducing Brake Squeal in Disc Brake Systems'
+p2328
+sL923L
+S'Cycle-Based Robot Drive Train Optimization Utilizing SVD Analysis'
+p2329
+sL924L
+S'A Component Based Optimization Approach for Modular Robot Design'
+p2330
+sL925L
+S'A Method for Benchmarking Product Family Design Alternatives'
+p2331
+sL926L
+S'Recommending a Platform Leveraging Strategy Based on the Homogeneous or Heterogeneous Nature of a Product Line'
+p2332
+sL927L
+S'Three Dimensional Design Structure Matrix With Cross-Module and Cross-Interface Analyses'
+p2333
+sL928L
+S'A Product Platform Development Method Using QFD'
+p2334
+sL929L
+S'A Customer-Driven Approach to One-of-a-Kind Product Design'
+p2335
+sL930L
+S'Product Family Concept Generation and Validation Through Predictive Decision Tree Data Mining and Multi-Level Optimization'
+p2336
+sL931L
+S'Robust Product Family Consolidation and Selection Using the Hypothetical Equivalents and Inequivalents Method'
+p2337
+sL932L
+S'An Extension of the Commonality Index for Product Family Optimization'
+p2338
+sL933L
+S'A Single-Stage Gradient-Based Approach for Solving the Joint Product Family Platform Selection and Design Problem Using Decomposition'
+p2339
+sL934L
+S'An Investigation of the Impact of Assembly Sequencing on the Product Family Design Outcomes'
+p2340
+sL935L
+S'Switchgear Component Commonality Design Method Considering Delivery Lead-Time and Inventory Level'
+p2341
+sL936L
+S'Process Platform Formation for Product Families'
+p2342
+sL937L
+S'Application of Product Platform Design for Engineered System'
+p2343
+sL938L
+S'A Framework for Designing Balanced Product Platforms by Estimating Versatility of Components'
+p2344
+sL939L
+S'Function Block Design to Enable Adaptive Job Shop Operations'
+p2345
+sL940L
+S'Improving Confidence in Simulation-Based Design Through Error Functions'
+p2346
+sL941L
+S'Interval Reliability Analysis'
+p2347
+sL942L
+S'Evidence Theory-Based Reliability Analysis and Optimization in Engineering Design'
+p2348
+sL943L
+S'Reliability Estimation for Time-Dependent Problems Using a Niching Genetic Algorithm'
+p2349
+sL944L
+S'A Monte Carlo Reliability Assessment for Multiple Failure Region Problems Using Approximate Metamodels'
+p2350
+sL945L
+S'Supervised Bayesian Models to Carry Out Kansei Engineering of Car Dashbaords'
+p2351
+sL946L
+S'A New Inverse Reliability Analysis Method Using MPP-Based Dimension Reduction Method (DRM)'
+p2352
+sL947L
+S'Reliability Based Design Optimization With Correlated Input Variables Using Copulas'
+p2353
+sL948L
+S'Robust Design Concept in Possibility Theory and Optimization for System With Both Random and Fuzzy Input Variables'
+p2354
+sL949L
+S'Updating Uncertainty Assessments: A Comparison of Statistical Approaches'
+p2355
+sL950L
+S'Decision Making and Constraint Tradeoff Visualization for Design Under Uncertainty'
+p2356
+sL951L
+S'Conservative Estimations of Reliability With Limited Sampling'
+p2357
+sL952L
+S'Reliable Space Pursuing for RBDO With Black-Box Performance Functions'
+p2358
+sL953L
+S'Bayesian Reliability Based Design Optimization Using Eigenvector Dimension Reduction (EDR) Method'
+p2359
+sL954L
+S'A Hierarchical Statistical Sensitivity Analysis Method for Complex Engineering Systems'
+p2360
+sL955L
+S'A Comparative Study of Uncertainty Propagation Methods for Black-Box Type Functions'
+p2361
+sL956L
+S'Complementary Interaction Method (CIM) for System Reliability Analysis'
+p2362
+sL957L
+S'Innovative Six Sigma Design Using the Eigenvector Dimension-Reduction (EDR) Method'
+p2363
+sL958L
+S'Sensitivity-Free Approach for Reliability-Based Robust Design Optimization'
+p2364
+sL960L
+S'Differential Evolution Applied to the Design of a Three-Dimensional Vehicular Structure'
+p2365
+sL961L
+S'On Optimization of 2D Compliant Mechanisms Using Honeycomb Discretization With Material-Mask Overlay Strategy'
+p2366
+sL962L
+S'Design of Piezoelectric Actuator With In-Plane Motion Using Topology Optimization'
+p2367
+sL963L
+S'Indirect Encoding of Structures for Evolutionary Design'
+p2368
+sL964L
+S'Interactive Mesh-Free Stress Analysis for Mechanical Design Assembly With Haptics'
+p2369
+sL965L
+S'Visual Steering Commands for Trade Space Exploration: User-Guided Sampling With Example'
+p2370
+sL966L
+S'Virtual Reality Systems: A Method to Evaluate the Applicability Based on the Design Context'
+p2371
+sL967L
+S'Representing Historically Based Component-Function Relationships Through Design Templates'
+p2372
+sL968L
+S'Immersive Product Configurator for Conceptual Design'
+p2373
+sL969L
+S'Pattern-Based Reasoning in Critical Parameter Management (CPM) for Rapid Redesign'
+p2374
+sL970L
+S'Topological Synthesis of Shell Structures'
+p2375
+sL971L
+S'Growth Design Modeling'
+p2376
+sL972L
+S'Fuzzy Preference Evaluation for Hierarchical Co-Evolutionary Design Concept Generation'
+p2377
+sL973L
+S'Application of a Genetic Algorithm to Concept Variant Selection'
+p2378
+sL974L
+S'A Hybrid Method for Parametric Conceptual Vehicle Design Using Legacy Components and Parametric Surfaces'
+p2379
+sL975L
+S'Exploiting Shape Similarity in Engineering Analysis'
+p2380
+sL976L
+S'Issues of Similarity in Engineering Design'
+p2381
+sL977L
+S'Enabling Local Risk Assessment to Support Global Collaboration in a Distributed Environment'
+p2382
+sL978L
+S'Enhanced Convergence in Distributed Design Processes'
+p2383
+sL979L
+S'Investigating Different Approaches for Front-Loading Problem Solving in Product Development: Evidence From Engine Engineering'
+p2384
+sL980L
+S'Case Study Instrument Development for Studying Collaborative Design'
+p2385
+sL981L
+S'Topology and Classical Shape Optimization of a Lower Control Arm: A Case Study'
+p2386
+sL982L
+S'Improved Head Restraint Design for Safety and Compliance'
+p2387
+sL983L
+S'An Efficient Algorithm for Vehicle Crashworthiness Design Via Crash Mode Matching'
+p2388
+sL984L
+S'Crashworthiness Design Using a Hybrid Cellular Automaton Algorithm'
+p2389
+sL985L
+S'Preliminary Results on Generating Assembly Sequences for Shape Display'
+p2390
+sL986L
+S'Process Planning Support System Considering Product Quality'
+p2391
+sL987L
+S'Optimum Disassembly Process With Genetic Algorithms for a Compressor'
+p2392
+sL988L
+S'Multiobjective Optimization for Integrated Tolerance Allocation and Fixture Layout Design in Multistation Assembly'
+p2393
+sL989L
+S'Visibility for Determining the Rotational Axis CNC Rapid Prototyping and Rapid Manufacturing'
+p2394
+sL990L
+S'Stereolithography Mock-Up With Internal Camera for Automatic Usability Data Acquisition and Functional Simulation'
+p2395
+sL991L
+S'Determine Mesh Orientation by Voxel-Based Principal Component Analysis'
+p2396
+sL992L
+S'Introducing Hierarchical Particle Swarm Optimization to Optimal Part Orientation in Fused Deposition Modeling'
+p2397
+sL993L
+S'High Accuracy Laser Scanned View Registration Method for Reverse Engineering Using a CMM Generated CAD Model'
+p2398
+sL994L
+S'Using Tolerance-Maps to Generate Frequency Distributions of Clearance for Pin-Hole Assemblies'
+p2399
+sL995L
+S'Semantic Tolerance Modeling'
+p2400
+sL996L
+S'Geometric Construction of Piecewise Line-Symmetric Spherical Motions Using Quaternion Biarcs'
+p2401
+sL997L
+S'Aeronautical Planar Flank Milling Automation: Computing the G-Zones'
+p2402
+sL998L
+S'Aerodynamic Shape Optimization and Knowledge Mining of Centrifugal Fans Using Simulated Annealing Coupled With a Neural Network'
+p2403
+sL999L
+S'Optimal Tolerance Allocation of Automotive Pneumatic Control Valves Based on Product and Process Simulations'
+p2404
+sL1000L
+S'Optimization of Chemical Vapor Deposition Process'
+p2405
+sL1001L
+S'Data Mining and Fuzzy Clustering to Support Product Family Design'
+p2406
+sL1002L
+S'Knowledge Model for Managing Product Variety and Its Reflective Design Process'
+p2407
+sL1003L
+S'Design Information Support Tool (DIST): Its Development and Effectiveness Investigation'
+p2408
+sL1004L
+S'Automating Redesign of Sheet-Metal Parts in Automotive Industry Using KBE and CBR'
+p2409
+sL1005L
+S'Verve: A General Purpose Open Source Reinforcement Learning Toolkit'
+p2410
+sL1006L
+S'Augmenting Tools for Reverse Engineering Methods'
+p2411
+sL1007L
+S'Qualitative and Quantitative Sequential Sampling'
+p2412
+sL1008L
+S'On Adaptive Sampling for Single and Multi-Response Bayesian Surrogate Models'
+p2413
+sL1009L
+S'A Kriging Metamodel Assisted Multi-Objective Genetic Algorithm for Design Optimization'
+p2414
+sL1010L
+S'Review of Metamodeling Techniques in Support of Engineering Design Optimization'
+p2415
+sL1012L
+S'An Improved Genetic Algorithm for the Optimization of Composite Structures'
+p2416
+sL1013L
+S'Surrogate Model Updating Using Clustering in a Genetic Algorithm Setup'
+p2417
+sL1014L
+S'Exploration in the Preliminary Mechanical Design of Trade-Offs Between Automotive Architectural Constraints and Aggregate Noise Performances'
+p2418
+sL1015L
+S'Heterogeneous Design Optimization From the Microstructure'
+p2419
+sL1016L
+S'Parametric Structural Shape and Topology Optimization Method With Radial Basis Functions and Level-Set Method'
+p2420
+sL1017L
+S'FEA-Based Design of Heterogeneous Objects'
+p2421
+sL1018L
+S'Material Property Identification and Sensitivity Analysis Using Indentation and FEM'
+p2422
+sL1019L
+S'Topology Optimization of Micromachined Structures With Surface Micromachining Manufacturing Constraints'
+p2423
+sL1020L
+S'Multifunctional Topology Design of Cellular Material Structures'
+p2424
+sL1021L
+S'Designing Design Processes for Integrated Materials and Products Realization: A Multifunctional Energetic Structural Material Example'
+p2425
+sL1022L
+S'Exploring the Advantages of Materials Design in a Product Design Process'
+p2426
+sL1023L
+S'Free-Form Feature Representation and Comparison'
+p2427
+sL1024L
+S'Parametric Solid Modeling'
+p2428
+sL1025L
+S'Poisson Based Reuse of Freeform Features'
+p2429
+sL1026L
+S'Parametric and Topological Control in Shape Optimization'
+p2430
+sL1027L
+S'Topology Synthesis and Classification of Low-Mobility Parallel Mechanisms'
+p2431
+sL1028L
+S'Coupling Degree of Mechanism and Its Application'
+p2432
+sL1029L
+S'A Survey of Various Encoding Schemes and Associated Placement Algorithms Applied to Packing and Layout Problems'
+p2433
+sL1030L
+S'Vehicle Component Layout With Shape Morphing: An Initial Study'
+p2434
+sL1031L
+S'Simultaneous Geometry Optimization and Material Selection for Truss Structures'
+p2435
+sL1032L
+S'A Two-Stage Design Method for Compliant Mechanisms Having Specified Non-Linear Output Paths'
+p2436
+sL1033L
+S'A Multicriteria System-Based Method for Simulation-Driven Design Synthesis'
+p2437
+sL1034L
+S'Design and Verification of a New Computer Controlled Seating Buck'
+p2438
+sL1035L
+S'An Efficient Method for Detecting Packaging Supporting Space'
+p2439
+sL1036L
+S'Topology Optimization Considering Gravitational and Centrifugal Forces'
+p2440
+sL1037L
+S'BB-ATC: Analytical Target Cascading Using Branch and Bound for Mixed-Integer Nonlinear Programming'
+p2441
+sL1038L
+S'Applying the Mahalanobis-Taguchi System to Vehicle Handling'
+p2442
+sL1039L
+S'Model-Based Decomposition Using Non-Binary Dependency Analysis and Heuristic Partitioning Analysis'
+p2443
+sL1040L
+S'Product Optimization Incorporating Discrete Design Variables Based on Decomposition of Performance Characteristics'
+p2444
+sL1041L
+S'Development of Distributed Computing Framework for Parallel Multi-Disciplinary Optimization'
+p2445
+sL1042L
+S'Ontologies for Supporting Engineering Design Optimization'
+p2446
+sL1043L
+S'Two-Stage System of Systems Model by Linking System Design With Resource Allocation'
+p2447
+sL1044L
+S'Optimization of a PEM Fuel Cell System for Low-Speed Hybrid Electric Vehicles'
+p2448
+sL1045L
+S"A Multidisciplinary and Multiobjective System Analysis and Optimization Methodology for Embedding Integrated Systems Health Management (ISHM) Into NASA's Complex Systems"
+p2449
+sL1046L
+S'Flexible Product Platforms: Framework and Case Study'
+p2450
+sL1048L
+S'Platform-Based Design and Development: Current Trends and Needs in Industry'
+p2451
+sL1049L
+S'Two Methodologies for Identifying Product Platform Elements Within an Existing Set of Products'
+p2452
+sL1050L
+S'A Comprehensive Metric for Evaluating Component Commonality in a Product Family'
+p2453
+sL1052L
+S'Towards a Suite of Problems for Comparison of Product Platform Design Methods: A Proposed Classification'
+p2454
+sL1053L
+S'Selection-Integrated Optimization (SIO) Methodology for Optimal Design of Adaptive Systems'
+p2455
+sL1054L
+S'A Method to Improve Platform Leveraging in a Market Segmentation Grid for an Existing Product Line'
+p2456
+sL1055L
+S'An Enhanced Change Modes and Effects Analysis (CMEA) Tool for Measuring Product Flexibility With Applications to Consumer Products'
+p2457
+sL1056L
+S'Determination of Ranged Sets of Design Specifications by Incorporating Heterogeneous Design Capability Information'
+p2458
+sL1057L
+S'Assessing and Improving Commonality and Diversity Within a Product Family'
+p2459
+sL1058L
+S'Assessing and Increasing Product and Family Differentiation in the Market'
+p2460
+sL1059L
+S'Module Interface Representation'
+p2461
+sL1060L
+S'Product Platform Problem Taxonomy: Classification and Identification of Benchmark Problems'
+p2462
+sL1061L
+S'Adapted Concept Generation and Computational Techniques for the Application of a Transformer Design Theory'
+p2463
+sL1062L
+S'2-D Deposition Pattern and Strategy Study on Rapid Manufacturing'
+p2464
+sL1063L
+S'Ruled Layer Generation Between Two Freeform Curves by Normal and Distance Matching'
+p2465
+sL1064L
+S'Spiral-Like Path Planning Without Gap for Material Deposition Processes'
+p2466
+sL1065L
+S'Fast Layered Manufacturing Support Volume Computation on GPUs'
+p2467
+sL1066L
+S'A Sensitivity Analysis of Shot Peening Parameters'
+p2468
+sL1067L
+S'Reliability-Based Design Using Saddlepoint Approximation'
+p2469
+sL1068L
+S'Uncertainty Analysis With Probability and Evidence Theories'
+p2470
+sL1069L
+S'Engineering Product Design Optimization for Retail Channel Acceptance'
+p2471
+sL1070L
+S'A Comparison of Probability Bounds Analysis and Sensitivity Analysis in Environmentally Benign Design and Manufacture'
+p2472
+sL1071L
+S'A Sequential Algorithm for Possibility-Based Design Optimization'
+p2473
+sL1072L
+S'Numerical Methods for Propagating Imprecise Uncertainty'
+p2474
+sL1073L
+S'A Single-Loop Approach for System Reliability-Based Design Optimization'
+p2475
+sL1074L
+S'Robust Design of Compressor Blades Against Manufacturing Variations'
+p2476
+sL1075L
+S'The Risk in Early Design (RED) Method: Likelihood and Consequence Formulations'
+p2477
+sL1076L
+S'Optimal Design With Non-Normally Distributed Random Parameters, Conditional Probability, and Joint Constraint Reliabilities: A Case Study in Vehicle Emissions Regulations to Achieve Ambient Air Quality Standards'
+p2478
+sL1077L
+S'Simulation Model Refinement for Decision Making Via a Value-of-Information Based Metric'
+p2479
+sL1078L
+S'A Bayesian Approach to Reliability-Based Optimization With Incomplete Information'
+p2480
+sL1079L
+S'Modeling Implications in Simulation-Based Design of Stents'
+p2481
+sL1080L
+S'Understanding the Effects of Model Uncertainty in Robust Design With Computer Experiments'
+p2482
+sL1081L
+S'A Function-Based Methodology for Analyzing Critical Events'
+p2483
+sL1082L
+S'Some Metrics and a Bayesian Procedure for Validating Predictive Models in Engineering Design'
+p2484
+sL1083L
+S'Multi-Disciplinary Conceptual Modeling and Optimization With Uncertainty Effects Consideration'
+p2485
+sL1084L
+S'An Inverse Analysis Method for Design Optimization With Both Statistical and Fuzzy Uncertainties'
+p2486
+sL1085L
+S'Alternative Methods for Reliability-Based Robust Design Optimization Including Dimension Reduction Method'
+p2487
+sL1086L
+S'INSIDES: A New Design and Simulation Platform for Virtual Prototyping in Automotive and Aerospace Industry'
+p2488
+sL1087L
+S'Development of Evaluation System for Style Design Using Mixed Reality Technology'
+p2489
+sL1088L
+S'A Graphical Modeling Environment for Configuring Modular Product Families and Platforms'
+p2490
+sL1089L
+S'Visual Representations as an Aid to Concept Generation'
+p2491
+sL1090L
+S'Style Design Method Based on Form Impressions'
+p2492
+sL1091L
+S'Automated Concept Generation: A Co-Evolutionary Approach'
+p2493
+sL1092L
+S'Knowledge Sharing Between Designers and Accidentologists for the Development of Road Safety Systems'
+p2494
+sL1093L
+S'A Method for Inferring Design Rules With Explicit Bounds of Applicability'
+p2495
+sL1094L
+S'Using Q-Learning and Genetic Algorithms to Improve the Efficiency of Weight Adjustments for Optimal Control and Design Problems'
+p2496
+sL1095L
+S'A Web-Enabled Engineering Object Modeling Environment to Support Interoperability and Intelligent Services in Collaborative Design'
+p2497
+sL1096L
+S'Handling Multiple Objectives in Decentralized Design'
+p2498
+sL1097L
+S'Facilitating Collaborative Design: A Review on Design Representations and Workstations'
+p2499
+sL1098L
+S'Acquisition of Product Design Guidelines Considering User Kansei Data Pertaining to Product Environments'
+p2500
+sL1099L
+S'Computational Methods Applied to Modelica Simulation Models in a Web Based Framework'
+p2501
+sL1100L
+S'Evaluation of Modular Design Concepts of Complex Mechatronic Systems'
+p2502
+sL1101L
+S'Modeling of Evolutionary Design Database'
+p2503
+sL1102L
+S'On Performance Enhancement of Parallel Kinematic Machine'
+p2504
+sL1103L
+S'An Information Theoretical Perspective on Performance, Refinement and Cost'
+p2505
+sL1104L
+S'A Graph-Based Method for Mechanical Product Family Modeling and Functional Tolerancing'
+p2506
+sL1105L
+S'A Cost Based Methodology for Design Optimization'
+p2507
+sL1106L
+S'Can a House Without a Foundation Support Design?'
+p2508
+sL1107L
+S'A Decision Support Formulation for Design Teams: A Study in Preference Aggregation and Handling Unequal Group Members'
+p2509
+sL1108L
+S'Manufacturing Investment and Allocation in Product Line Design Decision-Making'
+p2510
+sL1109L
+S'An Optimization Based Methodology to Design Flexible Systems Subjected to Changing Operating Conditions'
+p2511
+sL1110L
+S'A Conceptual Design Tool With Error Warning'
+p2512
+sL1111L
+S'Analyzing Accidents of Jamming Body Parts in Doors'
+p2513
+sL1112L
+S'Organizational Applications of Failure Knowledge Management'
+p2514
+sL1113L
+S'Development of a Robust Design Process Using a New Robustness Index'
+p2515
+sL1114L
+S'On Providing Formal Manufacturability Information to Upstream Product Development Processes: Methodology and Case Study'
+p2516
+sL1115L
+S'Modeling of Non-Linear Relations Among Different Design Evaluation Measures for Multi-Objective Design Optimization'
+p2517
+sL1116L
+S'On the Impact of Coupling Strength on Complex System Optimization for Single-Level Formulations'
+p2518
+sL1117L
+S'Feasibility Assessment in Preliminary Design Using Pareto Sets'
+p2519
+sL1118L
+S'PSO Driven Genetic Range Genetic Algorithms'
+p2520
+sL1119L
+S'Methods for Discrete Design Optimization'
+p2521
+sL1120L
+S'Design Optimization by Integration of Evolutionary Search and Cumulative Approximation'
+p2522
+sL1121L
+S'Twinkling a Random Search Algorithm for Design Optimization'
+p2523
+sL1122L
+S'Pipe Route Design Using Variable Topography Distance Transforms'
+p2524
+sL1123L
+S'Heuristic Gradient Projection for 3D Space Frame Optimization'
+p2525
+sL1124L
+S'Fuzzy Heuristic Gradient Projection for Frame Topology Optimization'
+p2526
+sL1125L
+S'Faster Generation of Feasible Design Points'
+p2527
+sL1126L
+S'Methodology to Reach Optimal Design of CHP Plants'
+p2528
+sL1127L
+S'A Comparison of Optimized Stacked-Ply Flywheel Designs That Are Based on Different Failure Criteria'
+p2529
+sL1128L
+S'Roles and Observations of a Graduate Design Coach'
+p2530
+sL1129L
+S'Low Cost Demonstrator as a Mean for Rapid Product Realization With an Electric Motorcycle Application'
+p2531
+sL1130L
+S'Synthesis of Structural Symmetry Driven by Cost Savings'
+p2532
+sL1131L
+S'An Interval-Based Focalization Method for Decision-Making in Decentralized, Multi-Functional Design'
+p2533
+sL1132L
+S'A Parallel Grammar for Simulation-Driven Mechanical Design Synthesis'
+p2534
+sL1133L
+S'A Study of Factor Effects in Data From Factorial Experiments'
+p2535
+sL1134L
+S'Geometric Surface Features Applied to Volumetric CAE Mesh Models'
+p2536
+sL1135L
+S'A CAD-Integrated System for Automated Idealization of CAD-Models for Finite Element Analysis'
+p2537
+sL1136L
+S'A Method for Integrating Form Errors Into Geometric Tolerance Analysis'
+p2538
+sL1137L
+S'Shape Recovery From Medical Image Data Using Extended Superquadrics'
+p2539
+sL1138L
+S'Insertion of Planar Areas Into Free-Form Surfaces in Early Product Design'
+p2540
+sL1139L
+S'Tolerance-Maps Applied to a Point-Line Cluster of Features'
+p2541
+sL1140L
+S'Allocating Tolerances Statistically With Tolerance-Maps and Beta Distributions: The Target a Planar Face'
+p2542
+sL1141L
+S'Design for Product-Embedded Disassembly'
+p2543
+sL1142L
+S'Filleting and Rounding Using a Point-Based Method'
+p2544
+sL1143L
+S'Recognition of Interacting Turning Features for Mill/Turn Parts'
+p2545
+sL1144L
+S'A Packing Genetic Algorithm for Configuration Design'
+p2546
+sL1145L
+S'Polygon Offsetting by Computing Winding Numbers'
+p2547
+sL1146L
+S'Mesh Processing for Computerized Anthropometry'
+p2548
+sL1147L
+S'A Complete Variation Algorithm for Slot and Tab Features for 3D Simulation-Based Tolerance Analysis'
+p2549
+sL1148L
+S'On Tolerance Information Extraction of Feature Model in Automotive Engine CAPP System'
+p2550
+sL1149L
+S'Hole-Making on a Bent Thick Plate'
+p2551
+sL1150L
+S'Design and Experimental Research of Magneto-Rheological Fluid Fan Clutch'
+p2552
+sL1151L
+S'Continuum-Based Design Sensitivity Analysis and Optimization of Springback in Stamping Process'
+p2553
+sL1152L
+S'Design of an Automobile Seat With Regulations Using Axiomatic Design'
+p2554
+sL1153L
+S'Design Optimization of Continuous Caster Refractory Components'
+p2555
+sL1155L
+S'Methodology for Market Analysis of CHP Systems'
+p2556
+sL1156L
+S'Integrating a Vision System With a Coordinate Measuring Machine to Automate the Datum Alignment Process'
+p2557
+sL1157L
+S'A Study on the Feed Rate Optimization of a Ball Screw Feed Drive System for Minimum Vibrations'
+p2558
+sL1158L
+S'Occupant Restraint System Design Under Uncertainty Using Analytical Uncertainty Propagation Via Metamodels'
+p2559
+sL1159L
+S'Packing Optimization by Enhanced Rubber Band Analogy'
+p2560
+sL1160L
+S'Automating Error Attenuation of Cutting Tools Using Smart Material'
+p2561
+sL1161L
+S'Knowledge Based Design Method for Fibre Metal Laminate Fuselage Panels'
+p2562
+sL1162L
+S'A Unified Information Model for Product Family Design Management'
+p2563
+sL1163L
+S'Analysis of Information Complexity During Product Development'
+p2564
+sL1164L
+S'Integrated Feature Modeller for Certain Manufacturing Processes'
+p2565
+sL1165L
+S'Extended Radial Basis Functions for Metamodeling: A Comparative Study'
+p2566
+sL1166L
+S'Selecting an Appropriate Metamodel: The Case for NURBs Metamodels'
+p2567
+sL1167L
+S'A Hybrid Method Using Response Surface and Pattern Search for Design Optimization'
+p2568
+sL1168L
+S'Gaussian Process Meta-Models for Efficient Probabilistic Design in Complex Engineering Design Spaces'
+p2569
+sL1169L
+S'A Compromise Method for the Design of Parametric Polynomial Surrogate Models'
+p2570
+sL1170L
+S'Robust Design of Cellular Materials With Topological and Dimensional Imperfections'
+p2571
+sL1171L
+S'Microstructure Design for a Rotating Disk: With Application to Turbine Engines'
+p2572
+sL1172L
+S'Design of Functionally Graded Structures for Enhanced Thermal Behavior'
+p2573
+sL1173L
+S'A Strategy for Simulation-Based Multiscale, Multi-Functional Products and Associated Design Processes'
+p2574
+sL1174L
+S'An Inductive Design Exploration Method for the Integrated Design of Multi-Scale Materials and Products'
+p2575
+sL1175L
+S'The Generalized Cahn-Hilliard Equations of Multiphase Transition for Structural Topology Optimization'
+p2576
+sL1176L
+S'A Topology Optimization Problem in Control of Structures Using Modal Disparity'
+p2577
+sL1177L
+S'Synthesis of Bistable Periodic Structures Using Topology Optimization and a Genetic Algorithm'
+p2578
+sL1178L
+S'Vehicle Crashworthiness Design Via a Surrogate Model Ensemble and a Co-Evolutionary Genetic Algorithm'
+p2579
+sL1179L
+S'Structural Topology Optimization Using Frame Elements Based on the Complementary Strain Energy Concept for Eigen-Frequency Maximization'
+p2580
+sL1180L
+S'Optimisation of a Robotic Workcell Layout Using Genetic Algorithms'
+p2581
+sL1181L
+S'Topological Synthesis for Linkage Mechanism Design Using the Minimum Potential Energy Principle'
+p2582
+sL1182L
+S'Structural Topology Optimization Under Design-Dependent Loads'
+p2583
+sL1183L
+S'A Review of Software Solutions for the Management of New Product Development and Product Family Planning'
+p2584
+sL1184L
+S'An Activity-Based Costing Method for Product Family Design in the Early Stages of Development'
+p2585
+sL1185L
+S'Product Family Representation and Redesign: Increasing Commonality Using Formal Concept Analysis'
+p2586
+sL1186L
+S'Towards Rapid Redesign: Pattern-Based Design Diagnostics for Large-Scale and Complex Redesign Problems'
+p2587
+sL1187L
+S'Towards Rapid Redesign: Pattern-Based Redesign Planning for Large-Scale and Complex Redesign Problems'
+p2588
+sL1188L
+S'Multi-Objective Design Optimization for Product Platform and Product Family Design Using Genetic Algorithms'
+p2589
+sL1189L
+S'A Methodology to Support Product Family Redesign Using Genetic Algorithm and Commonality Indices'
+p2590
+sL1190L
+S'Assembly Process Selection to Minimize Existing Assembly System Modification Cost During New Product Family Member Design'
+p2591
+sL1191L
+S'Designing Product Families for a Changing Market Space'
+p2592
+sL1192L
+S'A Group Technology Based Representation for Product Portfolios'
+p2593
+sL1193L
+S'Customer Need Driven Function-Behavior Platform Formation'
+p2594
+sL1194L
+S'Product Configuration Design Based on Extensible Product Family for Mass Customization'
+p2595
+sL1195L
+S'Process Platform-Based Production Configuration'
+p2596
+sL1196L
+S'Robust Truck Cabin Layout Optimization Using Advanced Driver Variance Models'
+p2597
+sL1197L
+S'An Adaptive Sequential Linear Programming Algorithm for Optimal Design Problems With Probabilistic Constraints'
+p2598
+sL1198L
+S'Reliability Assessment Based on the Concept of Failure Surface Frontier'
+p2599
+sL1199L
+S'Reliability Optimization Involving Mixed Continuous-Discrete Uncertainties'
+p2600
+sL1200L
+S'Uncertainty Analysis by Dimension Reduction Integration and Saddlepoint Approximations'
+p2601
+sL1201L
+S'A Design Optimization Method Using Evidence Theory'
+p2602
+sL1202L
+S'Enhanced Sequential Optimization and Reliability Assessment Method for Changing Design Variance'
+p2603
+sL1203L
+S'Probabilistic Analytical Target Cascading: A Moment Matching Formulation for Multilevel Optimization Under Uncertainty'
+p2604
+sL1204L
+S'A Methodology to Manage Uncertainty During System-Level Conceptual Design'
+p2605
+sL1205L
+S'A Methodology for Trading-Off Performance and Robustness Under Uncertainty'
+p2606
+sL1206L
+S'Efficient Genetic Algoritm Based Robust Design Method for Compressor Fan Blades'
+p2607
+sL1207L
+S'A New Approach to Probabilistic Risk Analysis in Concurrent and Distributed Design of Aerospace Systems'
+p2608
+sL1208L
+S'Effects of Uncertainty Reduction on Weight of Composite Laminates at Cryogenic Temperatures'
+p2609
+sL1209L
+S'A New Deterministic Approach Using Sensitivity Region Measures for Multi-Objective Robust and Feasibilty Robust Design Optimization'
+p2610
+sL1210L
+S'Reliability-Based Topology Optimization Considering Multicriteria Using Frame Elements'
+p2611
+sL1211L
+S'Integrated Framework for Design Optimization Under Aleatory and/or Epistemic Uncertainties Using Adaptive-Loop Method'
+p2612
+sL1212L
+S'Effect of Safety Measures on Reliability of Aircraft Structures Subjected to Damage Growth'
+p2613
+sL1213L
+S'A Quadrature-Based Sampling Technique for Robust Design With Computer Models'
+p2614
+sL1214L
+S'Automatic Decomposition and Refinement of Oversized Components for Rapid Prototyping'
+p2615
+sL1215L
+S'Virtual Reality Interactive Design Utilizing Meshless Stress Re-Analysis'
+p2616
+sL1216L
+S'Selective Clay Milling for Interactive Prototyping'
+p2617
+sL1217L
+S'Building Sequence of Boundary Model in Layered Manufacturing'
+p2618
+sL1218L
+S'Automatic Fairing of Two-Parameter Rational B-Spline Motion'
+p2619
+sL1219L
+S'PDE-Driven Level Sets and Shape Sensitivity for Structural Topology Optimization'
+p2620
+sL1220L
+S'An Efficient Feasibility Robust Optimization Method Using a Sensitivity Region Concept'
+p2621
+sL1221L
+S'Numerical and Experimental Study of Shielding Gas Orientation Effects on Particle Stream Concentration Mode in Coaxial Laser Aided Material Deposition Process'
+p2622
+sL1222L
+S'Analysis of Decomposability and Complexity for Design Problems in the Context of Decomposition'
+p2623
+sL1223L
+S'Freeform Feature Retrieval by Signal Processing'
+p2624
+sL1224L
+S'Covariance Modeling Method for Use in Compliant Assembly Tolerance Analysis'
+p2625
+sL1225L
+S'A Product Ontology for Automotive Seat Specification'
+p2626
+sL1226L
+S'Resistance Based Modeling of Collaborative Design'
+p2627
+sL1228L
+S'An Optimization Study of the Ultrasonic Welding of Thin Film Polymers'
+p2628
+sL1229L
+S'A Method to Solve Inverse Kinematics Problems Using Lie Algebra and Its Application to Robot Spray Painting Simulation'
+p2629
+sL1230L
+S'Derivation of Design Guidelines for Miniature Machine Tools'
+p2630
+sL1231L
+S'Automated Symmetry Exploitation in Engineering Analysis'
+p2631
+sL1232L
+S'On the Design Synthesis of Multistable Equilibrium Systems'
+p2632
+sL1233L
+S'Optimization of a Semi-Active Shock Absorber Using a Genetic Algorithm'
+p2633
+sL1234L
+S'Concurrent Parameter Design Based on Constraint Network'
+p2634
+sL1236L
+S'A Quantitative Analysis of the Evolution of Design Automation Conference Fields'
+p2635
+sL1237L
+S'Optimization of Chemical Etching Process in Niobium Cavities'
+p2636
+sL1238L
+S'An Efficient Weighting Update Method to Achieve Acceptable Consistency Deviation in Analytical Target Cascading'
+p2637
+sL1239L
+S'A Comparison of Commonality Indices for Product Family Design'
+p2638
+sL1240L
+S'A System Approach to Simulation-Based Design Under Uncertainty, Through Best in Class Simulation Process Integration and Design Optimization'
+p2639
+sL1241L
+S'A Comparative Study of Constraint Programming Techniques Over Intervals in Preliminary Design'
+p2640
+sL1242L
+S'Front Structure Design Procedure for Optimal Pedestrian Leg Impact Performance'
+p2641
+sL1243L
+S'A Recursive, Line-Intersection Method for Finding the Area of a Mesh Projected Onto a Plane'
+p2642
+sL1244L
+S'Task Scheduling of Parallel Development Projects Using Genetic Algorithms'
+p2643
+sL1245L
+S'Dynamic Modeling and Simulation of Parallel Kinematic Machines'
+p2644
+sL1246L
+S'DRed and Design Folders: A Way of Capturing, Storing and Passing On Knowledge Generated During Design Projects'
+p2645
+sL1247L
+S'Identifying and Tracking Features in Freeform Shape'
+p2646
+sL1248L
+S'Development of a Production Cost Estimation Framework for Product Family Design'
+p2647
+sL1249L
+S'Modeling and Design of Materials for Controlled Wave Propagation in Plane Grid Structures'
+p2648
+sL1250L
+S'An Efficient Pareto Set Identification Approach for Multi-Objective Optimization on Black-Box Functions'
+p2649
+sL1251L
+S'Ant Colony Optimization Method for Product Platform Formation'
+p2650
+sL1252L
+S'The Effects of Different Specifications on the Tolerance-Maps for an Angled Face'
+p2651
+sL1253L
+S'Development of Process Optimization for an Intelligent Knowledge-Based System for Spur Gear Precision Forging Die Design'
+p2652
+sL1254L
+S'Global Stiffness Improvement for Tricept Machine Tools Family'
+p2653
+sL1255L
+S'A Parametric Approach to Vehicle Seating Buck Design'
+p2654
+sL1256L
+S'Parameter and Tolerance Constraints Modeling for Assembly'
+p2655
+sL1257L
+S'Fully Free-Form Deformation Features Incorporating Discontinuities'
+p2656
+sL1258L
+S'Design of Components With Optimized Microstructure'
+p2657
+sL1259L
+S'An Integrated Design Support Environment for a Micro-Scale Portable Absorption Cooling System'
+p2658
+sL1260L
+S'A Conceptual Design Synthesis Framework for Micro-Electro-Mechanical Systems (MEMS)'
+p2659
+sL1261L
+S'A Survey of the Study of Failure'
+p2660
+sL1262L
+S'A Knowledge-Based System for Change Impact Analysis'
+p2661
+sL1263L
+S'Evaluation Method for the Topological Synthesis of Sheet Metal Components'
+p2662
+sL1264L
+S'A Single-Loop Method for Reliability-Based Design Optimization'
+p2663
+sL1265L
+S'Geometric Design of Uniform Developable B-Spline Surfaces'
+p2664
+sL1266L
+S'Creative Design, Issues and Strategies'
+p2665
+sL1267L
+S'A Saddlepoint Approximation Method for Uncertainty Analysis'
+p2666
+sL1268L
+S'Geometric Containment Analysis for Rotational Parts'
+p2667
+sL1269L
+S'Integrating Freeform and Feature-Based Fitting Methods'
+p2668
+sL1270L
+S'A Systems Framework for Platform Architecture Analysis'
+p2669
+sL1271L
+S'On the Use of Kriging Models to Approximate Deterministic Computer Models'
+p2670
+sL1272L
+S'Decomposition-Based Assembly Synthesis of Space Frame Structures Using Joint Library'
+p2671
+sL1273L
+S'A New Approach for Simultaneous Shape and Topology Optimization Based on Implicit Topology Description Functions'
+p2672
+sL1274L
+S'On Electrochemical Deposition for Layered Manufacturing'
+p2673
+sL1275L
+S'Robustness and Performance Optimization of Engine Bearing System Using Computer Model and Surrogate Noise'
+p2674
+sL1276L
+S'Design Optimization of Enclosed Liquid Containers With Baffles for Sloshing and Impact'
+p2675
+sL1277L
+S'Design for Project Change Management: Part 1 -- Configuration Design'
+p2676
+sL1278L
+S'Design for Project Change Management: Part 2 -- Attribute Design'
+p2677
+sL1279L
+S'Moment Matching for Sensitivity Analysis of Probabilistic Model Output'
+p2678
+sL1280L
+S'Product Design Selection With Variability in Preferences for an Implicit Value Function'
+p2679
+sL1281L
+S'A Formal Approach to Handling Conflicts in Multiattribute Group Decision Making'
+p2680
+sL1282L
+S'Convergence and Stability in Distributed Design of Large Systems'
+p2681
+sL1283L
+S'Transient Root Cause Analysis: A Model-Based Systems Engineering Methodology'
+p2682
+sL1284L
+S'Design Optimization of Hierarchically Decomposed Multilevel Systems Under Uncertainty'
+p2683
+sL1285L
+S'Purely Declarative Feature-Based Design With Feature Type Property Maintenance'
+p2684
+sL1286L
+S'A Weighted Three-Point-Based Strategy for Variance Estimation'
+p2685
+sL1287L
+S'Hierarchical Arrangement of Characteristics in Product Design Optimization Problems for Deeper Insight Into Optimized Results'
+p2686
+sL1288L
+S'A Method for Determining the Optimal Direction of the Principal Moment of Inertia in Frame Element Cross-Sections'
+p2687
+sL1289L
+S'A Collaborative Rapid Analysis Method for Decision-Making in Assembly Line Design'
+p2688
+sL1290L
+S'Text and Illustration Based Scenario Expressions for Conveying Failure Knowledge'
+p2689
+sL1291L
+S'Variant Design Automation: Strategy and Procedure for Storing Design Process Information'
+p2690
+sL1292L
+S'A Process-Oriented Approach for Management of Product Configuration Models'
+p2691
+sL1293L
+S'Design of a Bimorph Driven Meander-Line Structure for Parts Feeder Application'
+p2692
+sL1294L
+S'Optimisation and Robust Design in Aero Engine Development'
+p2693
+sL1295L
+S'Decoupled and Single Loop Methods for Reliability-Based Optimization and Robust Design'
+p2694
+sL1296L
+S'An Integrated Robust Design and Marketing Approach for Product Design Selection Process'
+p2695
+sL1297L
+S'A CAD Package for High-Speed Cam Design Based on Direct Multiple Shooting Optimal Control Techniques'
+p2696
+sL1298L
+S'A Fuzzy Dynamic Programming Approach for Mixed-Discrete Multistage Decision Processes'
+p2697
+sL1299L
+S'Structural Topology Optimization Under Impact Loads Using Beam Ground Structures'
+p2698
+sL1300L
+S'Objective Function Based Pattern Search: A Computationally Efficient Algorithm for 3D Component Layout'
+p2699
+sL1301L
+S'Toward an Information Management Infrastructure for Product Family Planning and Mass Customization'
+p2700
+sL1302L
+S'Application of Math-Based Marketing and Financial Tools in an Automated Parametric Design Framework'
+p2701
+sL1303L
+S'An Information Theoretical Perspective on Design Optimization'
+p2702
+sL1304L
+S'Economics of Sacrificial Fixturing for CNC Machining and Rapid Manufacturing'
+p2703
+sL1305L
+S'A Benchmark Comparison of CAD 5-Axis Machining Packages'
+p2704
+sL1306L
+S'A Comparative Study of Optimal Design for an Inkjet Printer Tube With and Without Performance Variations'
+p2705
+sL1307L
+S'Reliability-Based Design Optimization Methods'
+p2706
+sL1308L
+S'A Reliability-Based Design Method Using Simulation Techniques and Efficient Optimization Approach'
+p2707
+sL1309L
+S'Assessing Product Architecture Costing: Product Life Cycles, Allocation Rules, and Cost Models'
+p2708
+sL1310L
+S'Unified Distance Queries in a Heterogeneous Model Environment'
+p2709
+sL1311L
+S'The Role of Constraints and Human Interaction in Evolving MEMS Designs: Microresonator Case Study'
+p2710
+sL1312L
+S'Two-Level Approximation Method for Reliability-Based Design Optimization'
+p2711
+sL1313L
+S'Product Platform Design Through Sensitivity Analysis and Cluster Analysis'
+p2712
+sL1315L
+S'A Full Parametric Model for Turbomachinery Blade Design and Optimisation'
+p2713
+sL1316L
+S'The Performance Moment Integration Method for Reliability-Based Robust Design Optimization'
+p2714
+sL1317L
+S'Segmentation of Noisy Laser-Scanner Generated Meshes With Piecewise Polynomial Approximations'
+p2715
+sL1318L
+S'Solid Modeler Evaluation and Comparison Cycle: A Methodology for Optimum Selection of Modeling Software'
+p2716
+sL1319L
+S'Vehicle Structure Optimization for Crash Pulse'
+p2717
+sL1320L
+S'Analytical Variance-Based Global Sensitivity Analysis in Simulation-Based Design Under Uncertainty'
+p2718
+sL1321L
+S'Building Surrogate Models Based on Detailed and Approximate Simulations'
+p2719
+sL1322L
+S'Graphical Modeling Environment and Supporting Framework for Function-Based Conceptual Design'
+p2720
+sL1323L
+S'Relative Entropy Based Method for Global and Regional Sensitivity Analysis in Probabilistic Design'
+p2721
+sL1324L
+S'A Haptic System for Virtual Prototyping of Polygonal Models'
+p2722
+sL1325L
+S'Influence of Group Cohesion and Information Sharing on Effectiveness of Design Review'
+p2723
+sL1326L
+S'Development of a J2EE Web Application for STEP-Based Design Conformance Checking'
+p2724
+sL1327L
+S'A Sequential Exploratory Experimental Design Method: Development of Appropriate Empirical Models in Design'
+p2725
+sL1328L
+S'Applicability of Design Spaces to Utilize Current Assembly Plant Resources to Produce New Product Family Members'
+p2726
+sL1329L
+S'A Sketch-Based Interface for the Design and Analysis of Simple Vibratory Mechanical Systems'
+p2727
+sL1330L
+S'Trim Loop Closure for Enhanced CAD Interoperability'
+p2728
+sL1331L
+S'Haptically Guided Filtering for Reverse Engineering'
+p2729
+sL1332L
+S'Design Configuration of Vehicle With Domain Knowledge Enhancement'
+p2730
+sL1333L
+S'An Exploration-Estimation Algorithm for Synthesis and Analysis of Engineering Systems Using Minimal Physical Testing'
+p2731
+sL1334L
+S'Quantifying Profit and Loss Associated With Failure Cases'
+p2732
+sL1335L
+S'Using the Compromise Decision Support Problem in Microsystem Design: A Formulation for a Miniature Parylene Gas Chromatographic Column'
+p2733
+sL1336L
+S'Improved Disassembly Matrices for Disassembly Processes'
+p2734
+sL1337L
+S'Design Under Uncertainty Using Monte Carlo Simulation and Probabilistic Sufficiency Factor'
+p2735
+sL1338L
+S'A Cross-Evaluation Matrix (CEM) Rating Based Approach to Pareto Efficient Frontier and Design Alternatives Enumeration'
+p2736
+sL1339L
+S'An Integrated Framework for Probabilistic Optimization Using Inverse Reliability Strategy'
+p2737
+sL1340L
+S'An Approach to Robust Multiattribute Concept Selection'
+p2738
+sL1341L
+S'An Indicator Response Surface-Based Monte Carlo Method for Efficient Component and System Reliability Analysis'
+p2739
+sL1342L
+S'Reliability-Based Design With the Mixture of Random and Interval Variables'
+p2740
+sL1343L
+S'Application of the Sequential Optimization and Reliability Assessment Method to Structural Design Problems'
+p2741
+sL1344L
+S'Structural Durability Design Optimization and Its Reliability Assessment'
+p2742
+sL1345L
+S'Incorporating Epistemic Uncertainty in Robust Design'
+p2743
+sL1346L
+S'Robust Optimization of an Automotive Valvetrain Using a Multiobjective Genetic Algorithm'
+p2744
+sL1347L
+S'Robust Design Using Preference Aggregation Methods'
+p2745
+sL1348L
+S'Non-Gradient Based Parameter Sensitivity Estimation for Robust Design Optimization'
+p2746
+sL1349L
+S'Product Platform Design and Optimization: Status and Promise'
+p2747
+sL1350L
+S'Optimal Design Methodology of Common Components for a Class of Products: Its Foundations and Promise'
+p2748
+sL1351L
+S'Internet Based Framework to Perform Automated FEA on User Customized Products'
+p2749
+sL1352L
+S'Production Cost Modeling to Support Product Family Design Optimization'
+p2750
+sL1353L
+S'Product Family and Platform Portfolio Optimization'
+p2751
+sL1354L
+S'Dimensional Adjustment for Assemblability of Rapid Protoyped Parts'
+p2752
+sL1355L
+S'WirePATH Rapid Tooling Process and Supporting Software Development'
+p2753
+sL1356L
+S'Layered Manufacturing by Electrophotographic Printing'
+p2754
+sL1357L
+S'Towards Automated Design of Multi-Piece Permanent Molds'
+p2755
+sL1358L
+S'Toward Automatic Process Planning of a Multi-Axis Hybrid Laser Aided Manufacturing System: Skeleton-Based Offset Edge Generation'
+p2756
+sL1359L
+S'Extracting Freeform Shape Information by Template Fitting'
+p2757
+sL1360L
+S'Extended Hierarchical Cluster Analysis for the Decomposition of Complex Design Problems'
+p2758
+sL1361L
+S'Assembly Synthesis With Subassembly Partitioning for Optimal In-Process Dimensional Adjustability'
+p2759
+sL1362L
+S'Topology Optimization of Multi-Component Structures via Decomposition-Based Assembly Synthesis'
+p2760
+sL1363L
+S'Quantitative Exploratory Techniques to Simplify Multiple Objectives in Product Design Optimization'
+p2761
+sL1364L
+S'Multi-Objective Optimisation of Ship Hull With Distributed Applications'
+p2762
+sL1365L
+S'Structural Topology Design Optimization for Controlled Crash Behavior'
+p2763
+sL1366L
+S'Analytical Target Setting: An Enterprise Context in Optimal Product Design'
+p2764
+sL1367L
+S'Multi-Objective Configuration Optimization With Vehicle Dynamics Applied to Midsize Truck Design'
+p2765
+sL1368L
+S'A New Mathematical Model for Geometric Tolerances as Applied to Axes'
+p2766
+sL1370L
+S'Tolerance Synthesis of Mechanisms: A Robust Design Approach'
+p2767
+sL1371L
+S'Development of a Design Reuse View of Cutting Tool Design Ontology'
+p2768
+sL1372L
+S'A Study of Geometric Error Measurement of CNC Machine Tools Using the Improved Planar Encoder System'
+p2769
+sL1373L
+S'Reducing Cycle Time and Errors in the Design and Layout of MEMS'
+p2770
+sL1374L
+S'Approaches of Knowledge-Based Design'
+p2771
+sL1375L
+S'A Methodology for the Study of the Effects of Communication Method on Design Review Effectiveness'
+p2772
+sL1376L
+S'Development of Knowledge Based System to Facilitate Design of On-Board Car Safety Systems'
+p2773
+sL1377L
+S'Shape Knowledge Indexing Using Invariant Shape Code'
+p2774
+sL1378L
+S'Knowledge Management: A Concept Review'
+p2775
+sL1380L
+S'A Design Alternatives Assessment and Management Approach'
+p2776
+sL1381L
+S'Knowledge Intensive Collaborative Decision Support for Design Process'
+p2777
+sL1382L
+S'A Knowledge-Supported System for Engineering Change Impact Analysis'
+p2778
+sL1383L
+S'Design Optimization of a Vehicle B-Pillar Subjected to Roof Crush Using Mixed Reactive Taboo Search'
+p2779
+sL1384L
+S'Design Optimization of Vehicle Structures for Crashworthiness Using Equivalent Mechanism Approximations'
+p2780
+sL1385L
+S'Response Surface Methods and Pareto Optimization in Crashworthiness Design'
+p2781
+sL1386L
+S'Parametric Design Sensitivity Analysis of High Frequency Structural-Acoustic Problems Using Energy Finite Element Method'
+p2782
+sL1387L
+S'The Effect of Tempering (Artificial Aging) on the Crashworthiness Performance of Mass-Efficient Extruded Aluminum Structures'
+p2783
+sL1388L
+S'Bayesian Approximation-Assisted Optimization Applied to Crashworthiness Design of a Pickup Truck'
+p2784
+sL1389L
+S'Emerging Virtual Machine Tools'
+p2785
+sL1390L
+S'Computer Model Validation in Vehicle Crash Safety Design'
+p2786
+sL1391L
+S'Penalized Likelihood Kriging Model for Analysis of Computer Experiments'
+p2787
+sL1392L
+S'Analysis of Support Vector Regression for Approximation of Complex Engineering Analyses'
+p2788
+sL1393L
+S'An Efficient Algorithm for Constructing Optimal Design of Computer Experiments'
+p2789
+sL1394L
+S'Introducing Rough Set for Design Space Exploration and Optimization'
+p2790
+sL1395L
+S'A Study on the Use of Kriging Models to Approximate Deterministic Computer Models'
+p2791
+sL1396L
+S'A New Global Optimization Method for Simultaneous Computation on Expensive Black-Box Functions'
+p2792
+sL1397L
+S'Multidimensional Solution Clustering and Its Application to the Coolant Passage Optimization of a Turbine Blade'
+p2793
+sL1398L
+S'Optimization of a Semi-Active Shock Absorber for Aircraft Landing Gear'
+p2794
+sL1399L
+S'Towards a Conceptual Design Explorer Using Metamodeling Approaches and Constraint Programming'
+p2795
+sL1400L
+S'A Study of Emission Policy Effects on Optimal Vehicle Design Decisions'
+p2796
+sL1401L
+S'Level Set Models for Structural Topology Optimization'
+p2797
+sL1402L
+S'Topology Optimization of Heat-Resistant Structures'
+p2798
+sL1403L
+S'Topology Optimization of a Compliant Gripper Using Hybrid Simulated Annealing and Direct Search'
+p2799
+sL1404L
+S'Topology Optimization and Dynamic Performance of a Bike Frame With Dampers'
+p2800
+sL1405L
+S'Robust Topological Design of Cellular Materials'
+p2801
+sL1406L
+S'Structural Topology Optimization Using Function-Oriented Elements Based on the Concept of First Order Analysis'
+p2802
+sL1407L
+S'Design of Energy Absorbing Structure Using Topology Optimization With a Multi-Material Model'
+p2803
+sL1408L
+S'Parameterization Strategy for Optimization of Shape Morphing Compliant Mechanisms Using Load Path Representation'
+p2804
+sL1409L
+S'A Face Clustering Method for a Hexahedral Meshing'
+p2805
+sL1410L
+S'A New Approach to Minimisations for Shape Control During Free-Form Surface Deformation'
+p2806
+sL1411L
+S'Smoothing of Noisy Laser Scanner Generated Meshes Using Polynomial Fitting and Neighborhood Erosion'
+p2807
+sL1412L
+S'Partitioning Positional and Normal Space for Fast Occlusion Detection'
+p2808
+sL1413L
+S'Automatic Toolpath Generation for Multi-Axis Surface Machining in a Hybrid Manufacturing System'
+p2809
+sL1414L
+S'A Taxonomy for Collaborative Design'
+p2810
+sL1415L
+S'A Study of Convergence in Decentralized Design'
+p2811
+sL1416L
+S'Port-Compatibility and Connectability Based Assembly Design'
+p2812
+sL1417L
+S'A Concurrent Design Method for Multiple Cross-Sectional Automotive Body Frames Involving Discrete and Continuous Design Variables'
+p2813
+sL1418L
+S'Design Space Visualization and Its Application to a Design by Shopping Paradigm'
+p2814
+sL1419L
+S'Design Process Error-Proofing: Development of Automated Error-Proofing Information Systems'
+p2815
+sL1420L
+S'Design Evaluation Method for Miniature Machine Tools Utilizing Form-Shaping Theory'
+p2816
+sL1421L
+S'Design Shell for Parametric Design at Embodiment Stage'
+p2817
+sL1422L
+S'Scenario Expression for Characterizing Failure Cases'
+p2818
+sL1423L
+S'Design Methodology for the Thermal Packaging of Hybrid Electronic-Mechanical Products: A Case Study on the Berkeley Emulation Engine (BEE)'
+p2819
+sL1424L
+S'A Modeling Method for Vibration Analysis of a Stator Frame of Turbine Generators and Its Application to a Design System: Vibration Analysis and Analysis System'
+p2820
+sL1425L
+S'Strengthening of Bone Cement by Shape Optimization of Short Fibers'
+p2821
+sL1426L
+S'Constraint Dominance Methods Applied to the Design of a Linear Motor'
+p2822
+sL1427L
+S'Design Sensitivity Analysis of Nonlinear Shell Structure With Frictionless Contact'
+p2823
+sL1428L
+S'Optimal Troubleshooting for Electro-Mechanical Systems'
+p2824
+sL1429L
+S'Optimization for Mass Variation of System Including Shock Absorber'
+p2825
+sL1430L
+S'Discretizing Continuous Problems for Faster Global Convergence'
+p2826
+sL1431L
+S'Optimal Packaging of Tank Turret System'
+p2827
+sL1432L
+S'Genetic Range Genetic Algorithms to Obtain Quasi-Optimum Solutions'
+p2828
+sL1433L
+S'Optimization of Helicopter Air Intake Scoop Design'
+p2829
+sL1434L
+S'A Study on Immune Algorithms Considering Interaction of Design With Environment Properties'
+p2830
+sL1435L
+S'Optimizing Optimization for Design Optimization'
+p2831
+sL1436L
+S'Generalized Random Tunneling Algorithm for Continuous Design Variables'
+p2832
+sL1437L
+S'Improved Development Cycle of a Compliant Manipulator'
+p2833
+sL1438L
+S'On Honeycomb Parameterization for Topology Optimization of Compliant Mechanisms'
+p2834
+sL1439L
+S'On Design of Electro-Thermally Compliant MEMS for Strength'
+p2835
+sL1441L
+S'Introduction to Compliant Long-Dwell Mechanism Synthesis Using Buckling Arc Theory'
+p2836
+sL1442L
+S'Distributed Compliant Model for Efficient Dynamic Simulation of Systems With Frictional Contacts'
+p2837
+sL1443L
+S'Suspension Synthesis for N:1 Roll Center Motion'
+p2838
+sL1444L
+S'A Robust Solution to the Spherical Rigid-Body Guidance Problem'
+p2839
+sL1445L
+S'Designing a Dexterous Reconfigurable Packaging System for Flexible Automation'
+p2840
+sL1446L
+S'Kinematic Synthesis of RPS Serial Chains'
+p2841
+sL1447L
+S'Approximate Motion Synthesis of Open and Closed Chains via Parametric Constraint Manifold Fitting: Preliminary Results'
+p2842
+sL1448L
+S'Suggesting Joint Limitations and Physical Parameters for Motion Generating 3 DOF Planar Chains'
+p2843
+sL1449L
+S'Geometric Design of Cylindric PRS Serial Chains'
+p2844
+sL1450L
+S'On the Effects of Weights in Rational Motion Design'
+p2845
+sL1451L
+S'Dimensional Synthesis of CRR Serial Chains'
+p2846
+sL1452L
+S'Analytical Determination of Principal Twists and Singular Directions in Robot Manipulators'
+p2847
+sL1453L
+S'Type Synthesis of Three-DOF Translational Parallel Mechanisms'
+p2848
+sL1454L
+S'Forward Problem Singularities of Manipulators Which Become PS-2RS or 2PS-RS Structures When the Actuators Are Locked'
+p2849
+sL1455L
+S'Singularity Analysis of a Novel 4-DOFs Parallel Robot H4 by Using Screw Theory'
+p2850
+sL1456L
+S'Planar Translational Cable-Direct-Driven Robots: Hardware Implementation'
+p2851
+sL1457L
+S'Interpolation Algorithm and Its Error Prediction of a Tripod-Based Parallel Kinematic Machine'
+p2852
+sL1458L
+S'An Integrated Virtual Validation System for Parallel Kinematic Machine Analysis Design'
+p2853
+sL1459L
+S'Design Optimization of 6-HTRT Parallel Robot Orientated on Workspace'
+p2854
+sL1460L
+S'Cable-Based Metrology System for Sculpting Assistance'
+p2855
+sL1461L
+S'Optimal Integration of Smart Actuators in the Structure of Serial and Parallel Robot Manipulators to Enhance Speed and Tracking Precision'
+p2856
+sL1462L
+S'An XZ Micropositioning Mechanism (XZMM) With Out-of-Plane Translation'
+p2857
+sL1463L
+S'Kinetic Analysis of Planar Frictionless Mechanisms Made Simple'
+p2858
+sL1464L
+S'Computer Simulation of Path and Motion Generation With Six-Bar Linkage'
+p2859
+sL1465L
+S'On the Existence of Special Cases of Input Speed Doubling Linkage Mechanisms'
+p2860
+sL1466L
+S'The Radius of Curvature of a Coupler Curve of the Single Flier Eight-Bar Linkage'
+p2861
+sL1467L
+S'An Analytical Comparison Between Ball and Crossed Roller Bearings for Utilization in Actuator Modules for Precision Modular Robots'
+p2862
+sL1468L
+S'Influence of End-Effector Velocities on Robotic Manipulator Dynamic Performance: An Analytical Approach'
+p2863
+sL1469L
+S'Analysis and Visualization of the Contact Force Solution Space for Multi-Limbed Mobile Robots With Three Feet Contact'
+p2864
+sL1470L
+S'Choosing the Optimal Contact Force Distribution for Multi-Limbed Mobile Robots With Three Feet Contact'
+p2865
+sL1471L
+S'An Articulated Body Algorithm for Modelling and Simulation of an Underwater Vehicle Equipped With Manipulator Arm'
+p2866
+sL1472L
+S'On the Design of Nesting Forces for Exactly Constrained, Robust Mechanical Assemblies'
+p2867
+sL1473L
+S'On the Robustness of Exactly Constrained Mechanical Assemblies'
+p2868
+sL1474L
+S'Analysis of Multiple Equilibrium Positions in Magnetostatic Field'
+p2869
+sL1475L
+S'On the Geometry of 3D Orientation Measurement Using a New Class of Wireless Angular Position Sensors'
+p2870
+sL1476L
+S'Similarity and Equivalence of Nutating Mechanisms to Bevel Epicyclic Gear Trains'
+p2871
+sL1477L
+S'Forward Kinematics of 3-GPR Planar Parallel Manipulators With Circular Rolling Contact Joints'
+p2872
+sL1478L
+S'The Robust Design of a Two-Wheeled Quasiholonomic Mobile Robot'
+p2873
+sL1479L
+S'Kinematics of Wheeled Mobile Robots With Toroidal Wheels on Uneven Terrain'
+p2874
+sL1480L
+S'Design of a Self-Actuating, Traction Drive System for High-Speed Ratios'
+p2875
+sL1481L
+S'Topology and Shape Optimization of an Interbody Fusion Implant for Lumbar Spine Fixation'
+p2876
+sL1482L
+S'An Integrated Design Optimization Approach for Quantitative and Qualitative Search Space'
+p2877
+sL1483L
+S'An Approach for Generating Variational Geometry of a Pattern of Holes With Composite Positional Tolerances'
+p2878
+sL1484L
+S'Design Decision-Making in the Early Stages of Collaborative Engineering'
+p2879
+sL1486L
+S'Identifying Variable Effects on the Dimensional Quality of Compliant Assembly, Using Computer Experiments'
+p2880
+sL1488L
+S'Reconstructing Freeform Surface With Parameterized Features'
+p2881
+sL1489L
+S'Analysis and Design of a Four-Bar Linkage Type of Vibratory Parts Feeder Driven by Piezoelectric Actuator'
+p2882
+sL1490L
+S'Autogenetic Design Theory: An Approach to Optimise Both the Design Process and the Product'
+p2883
+sL1491L
+S'Human Head Aesthetic Design Using Hybrid Genetic Algorithm'
+p2884
+sL1492L
+S'Applying Universal Linking of Engineering Objects in the Automotive Industry: Practical Aspects, Benefits, and Prototypes'
+p2885
+sL1493L
+S'Mini-Max Type Formulation of Strict Robust Design Optimization Under Correlative Variation'
+p2886
+sL1494L
+S'Optimization of Machine System Designs Using Hierarchical Decomposition Based on Criteria Influence'
+p2887
+sL1495L
+S'Lifecycle-Based Product Design Using Global Optimization Methods Based on Hierarchical Genotype Representation of Alternatives and Constraints'
+p2888
+sL1496L
+S'Conceptual Design of Tool Storage Based on the Divergent Tree Method'
+p2889
+sL1497L
+S'Comparison of Gradient and Non Gradient Based Methods for Crash Optimisation'
+p2890
+sL1498L
+S'Computational Geometric Modeling and Unfolding of 3-D Folded Structures'
+p2891
+sL1499L
+S'Performance Optimization of Extrusion Blow Molded Parts Using Fuzzy Neural-Taguchi Method and Genetic Algorithm'
+p2892
+sL1500L
+S'An Evolutionary Clustering Approach to Pareto Solutions in Multiobjective Optimization'
+p2893
+sL1501L
+S'Automatic Conceptual Design of Mechanical Devices Based on Reasoning the Design Rules'
+p2894
+sL1502L
+S'A Study on Collaborative Design Considering Features of Design'
+p2895
+sL1503L
+S'Reconfiguration of Kinematic Structure for Changing Motion Requirement Based on Reusability Evaluation in Lie Algebra'
+p2896
+sL1504L
+S'A Study on Optimum Topology of Plate Structure Using Coordinate Transformation by Conformal Mapping'
+p2897
+sL1505L
+S'Computer-Aided Analysis of Free Transverse-Vibration of Stepped Beams'
+p2898
+sL1506L
+S'Thermal Robustness and Mass Optimization of Heat Pipe Shape for Spacecraft Panel Using a Combination of Response Surface Methodology and Monte Carlo Simulation'
+p2899
+sL1507L
+S'Dual Stage Input Coupled Split Power Transmission Efficiency Optimization'
+p2900
+sL1508L
+S'Informing Design Using Data Mining Methods'
+p2901
+sL1509L
+S'Development of Multi-Stage and Hybrid Real-Coded Genetic Algorithms With Active Constraints'
+p2902
+sL1510L
+S'Computational Recognition of Functional Parameters of Surfaces for the Kinematic Design of Window Regulator Systems'
+p2903
+sL1511L
+S'Human Modelling: A Constraint-Based Feature Modelling Approach'
+p2904
+sL1512L
+S'Analysis of Loads and Stresses for a Sewing Needle'
+p2905
+sL1513L
+S'Artificial Immune System Based Isomorphism Identification Method for Mechanism Kinematics Chains'
+p2906
+sL1515L
+S'Cross Model Shape Reuse: Copying and Pasting of Freeform Features'
+p2907
+sL1516L
+S'Automated Design Synthesis for Micro-Electro-Mechanical Systems (MEMS)'
+p2908
+sL1517L
+S'Use of Constrained Viscoelastic Layers in the Design of Satellite Panels to Predict the Amplification Factor'
+p2909
+sL1518L
+S'Stiffness Testing of Hydraulic Hoses'
+p2910
+sL1519L
+S'Finite Element Analysis in 3D Using the Penalty Boundary Method'
+p2911
+sL1520L
+S'Integration of Commercial CAD/CAM System With Custom CAPP Using Orbix Middleware and CORBA Standard'
+p2912
+sL1521L
+S'Counting Degrees of Freedom for Developable Bezier Surface Design'
+p2913
+sL1522L
+S'Determination of Geometric Distortions in Automotive Lamps Using Non-Linear Parametric Estimations'
+p2914
+sL1523L
+S'Macroscopic Shape-Information as a Curve Design-Guideline'
+p2915
+sL1524L
+S'Collaborative Decision Making Across Digital Interfaces'
+p2916
+sL1525L
+S'Local Least Squares Fitting for Surface Mesh Fairing in Automobile Panel Design'
+p2917
+sL1526L
+S'A Stochastic Optimization Application for Vehicle Structures'
+p2918
+sL1527L
+S'Math-Based Performance Evaluation of an Experimental Car: Side Impact Protection'
+p2919
+sL1528L
+S'Model Reduction in Structural Analysis Using a Multiresolution Analysis'
+p2920
+sL1529L
+S'A Web Enabled Process for Accessing Customized Parametric Designs'
+p2921
+sL1530L
+S'Multiattribute Decision Making Using Hypothetical Equivalents'
+p2922
+sL1531L
+S'Interactive Product Design Selection With an Implicit Value Function'
+p2923
+sL1532L
+S'A Customer-Based Expected Utility Metric for Product Design Selection'
+p2924
+sL1533L
+S'Empirical Analysis Using Advanced Similarity Methods'
+p2925
+sL1534L
+S'Decomposition-Based Assembly Synthesis Based on Structural Stiffness Considerations'
+p2926
+sL1535L
+S'An Analytical Approach to Functional Design'
+p2927
+sL1536L
+S'Control, Design and Error Variables in Decomposition of Design Optimization Problems'
+p2928
+sL1537L
+S'Decomposition-Based Assembly Synthesis for In-Process Dimensional Adjustability'
+p2929
+sL1538L
+S'A Grammar-Based Approach to Sheet Metal Design'
+p2930
+sL1539L
+S'Adaptive-Agent Based Simulation Model to Study Diffusion of Eco-Innovation Strategies'
+p2931
+sL1540L
+S'A Knowledge-Based Approach to Spur Gear Fabrication in Precision Forging Process'
+p2932
+sL1541L
+S'A Benchmark Comparison of Curvature Matched Machining versus Three- and Five-Axis Machining Methods Applied to Industrial Part Surfaces'
+p2933
+sL1542L
+S'Adaptive Experimental Design Applied to Ergonomics Testing Procedure'
+p2934
+sL1543L
+S'On Sequential Sampling for Global Metamodeling in Engineering Design'
+p2935
+sL1544L
+S'Computer Implementation of an Improved Kutzbach-Grubler Mobility Criterion'
+p2936
+sL1545L
+S'Modeling of Slope Discontinuities in Flexible Body Dynamics Using the Finite Element Method'
+p2937
+sL1546L
+S'Design of Hierarchic Platforms for Customizable Products'
+p2938
+sL1547L
+S'A Quantitative Approach for Designing Multiple Product Platforms for an Evolving Portfolio of Products'
+p2939
+sL1548L
+S'Optimal Design Decisions in Product Portfolio Valuation'
+p2940
+sL1549L
+S'Knowledge Intensive Support for Product Family Design'
+p2941
+sL1550L
+S'Platform Selection Under Performance Loss Constraints in Optimal Design of Product Families'
+p2942
+sL1551L
+S'Inverse Parametric Modeling From Independently Generated Product Data Sets'
+p2943
+sL1552L
+S'A Hybrid Approach to Feature Recognition Using Approximate and Partial Exact CAD Models'
+p2944
+sL1553L
+S'A Mesh Feature Paradigm for Rapid Generation of CAE-Based Design of Experiments Data'
+p2945
+sL1554L
+S'Development of Adaptive Range Genetic Algorithms Considering Inheritance of Searching Range'
+p2946
+sL1555L
+S'GA-Based Multi-Objective Fuzzy Matter-Element Optimization'
+p2947
+sL1556L
+S'Using Genetic Algorithms With Niche Formation to Solve the Minimum Distance Problem Among Concave Objects'
+p2948
+sL1557L
+S'A Genetic Algorithm Based Method for Product Family Design Optimization'
+p2949
+sL1558L
+S'Shape Optimization of NURBS Modeled 3D C-Frames Using Hybrid Genetic Algorithm'
+p2950
+sL1559L
+S'Robust Design Through the Use of a Hybrid Genetic Algorithm'
+p2951
+sL1560L
+S'Nonlinear Kinematic Tolerance Analysis of Planar Higher Pairs'
+p2952
+sL1561L
+S'Parameter Sensitivity in System Identification of Parallel Mechanisms'
+p2953
+sL1562L
+S'A New Symbolic Method to Determine Base Inertia Parameters for General Spatial Mechanisms'
+p2954
+sL1563L
+S'Redesign of a Spatial Gear Pair Using Configuration Spaces'
+p2955
+sL1564L
+S'Error Sensitivity Analysis for Optimal Calibration of Parallel Kinematic Machines'
+p2956
+sL1565L
+S'Development of an Interactive Web-Based Support System for Gear Design'
+p2957
+sL1566L
+S'An Extensive Simplex Method Mapping the Global Feasibility'
+p2958
+sL1567L
+S'Theoretical Evaluation of the Integrated Structure and Control Design Approach by Optimization Theory'
+p2959
+sL1568L
+S'Finding the Shortest Path for Quality Assurance of Electric Components'
+p2960
+sL1569L
+S'Development of an Automatic Design and Optimization System for Industrial Silencers'
+p2961
+sL1570L
+S'Architectural Optimisation Using Real Options Theory and Dependency Structure Matrices'
+p2962
+sL1571L
+S'Dynamic Analysis and Optimization of Tensioner in Automotive Serpentine Belt Drive Systems'
+p2963
+sL1572L
+S'Configurable and Extensible System for Experimenting With Design Optimization'
+p2964
+sL1573L
+S'On the Entropy of Multi-Objective Design Optimization Solution Sets'
+p2965
+sL1574L
+S'A Sensitivity-Based Pattern Search Algorithm for 3D Component Layout'
+p2966
+sL1575L
+S'Hybrid Approach for Containment Problems'
+p2967
+sL1576L
+S'A Non-Deterministic Approach to Concept Selection Using S-Pareto Frontiers'
+p2968
+sL1577L
+S'Sequential Optimization and Reliability Assessment Method for Efficient Probabilistic Design'
+p2969
+sL1578L
+S'An Investigation of Nonlinearity of Reliability-Based Design Optimization Approaches'
+p2970
+sL1579L
+S'New Concepts in Graphic Visualization of Objective Functions'
+p2971
+sL1580L
+S'Visualization of Multidimensional Design and Optimization Data Using Cloud Visualization'
+p2972
+sL1581L
+S'Design Optimization for Structural-Acoustic Problems Using FEM-BEM'
+p2973
+sL1583L
+S'Dynamic Project Navigation: Modelling, Improving, and Review of Engineering Processes'
+p2974
+sL1584L
+S'Benefit Evaluation of New Technologies'
+p2975
+sL1585L
+S'Smart Assemblies for Robust Design: A Progress Report'
+p2976
+sL1587L
+S'The Evolution of a Layered Manufacturing Interchange Format'
+p2977
+sL1588L
+S'ModelAngelo: A Rapid Prototyping System for Polystyrene'
+p2978
+sL1589L
+S'Automatic Process Planning of a Multi-Axis Hybrid Manufacturing System'
+p2979
+sL1590L
+S'H-ISM: An Implementation of Heterogeneous Implicit Solid Modeling'
+p2980
+sL1591L
+S'Model Validation via Uncertainty Propagation Using Response Surface Models'
+p2981
+sL1592L
+S'Bayesian Evaluation of Engineering Models'
+p2982
+sL1593L
+S'Uncertainty Analysis Using a Constraint Reliability Index'
+p2983
+sL1594L
+S'A Tool Management System for Probabilistic Design Problems'
+p2984
+sL1595L
+S'Evaluation of Conceptual Designs and Maintainability Incorporating Uncertainty'
+p2985
+sL1596L
+S'Computer-Aided Fixture Design Verification: Part II -- Tolerance Analysis'
+p2986
+sL1597L
+S'A Scheme for Transformation of Tolerance Specifications to Generalized Deviation Space for Use in Tolerance Synthesis and Analysis'
+p2987
+sL1598L
+S'Topology Optimization of Compliant Mechanisms Using Evolutionary Algorithm With Design Geometry Encoded as a Graph'
+p2988
+sL1599L
+S'Optimal Embedding in the Topology Design of Structures'
+p2989
+sL1600L
+S'An Evolutionary Multi-Objective Optimization Approach to the Topology Optimization of Auxetic Structures'
+p2990
+sL1601L
+S'Compliant Mechanism Design With Non-Linear Materials Using Topology Optimization'
+p2991
+sL1602L
+S'An Interactive Virtual Environment for 3D Model Assembly With Video Immersion'
+p2992
+sL1603L
+S'Modeling of Hydraulic Hose Paths'
+p2993
+sL1604L
+S'Math-Based Performance Evaluation of an Experimental Car: Frontal Impact Crashworthiness'
+p2994
+ssb.
