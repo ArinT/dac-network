@@ -5,6 +5,7 @@ app.service("MessageServer", function($http){
 	var paperQueries = null;
 	var sent = false;
 	var highlight = null;
+	var clusters = null;
 	// var similarAuthors = null;
 
 	this.getCitationNodes = function(){
@@ -36,6 +37,10 @@ app.service("MessageServer", function($http){
 		}
 	};
 
+	this.getClusters = function() {
+		return clusters;
+	}
+
 	this.queryAuthors = function(authorId){
 		var myData = {'author_id':authorId};
 		var csrf = "{% csrf_token %}"
@@ -64,8 +69,26 @@ app.service("MessageServer", function($http){
 				console.log("error");
 			});
 	};
-	this.getClusters = function(clusSize, clusCoef, graphType){
+	this.queryClusters = function(clusSize, clusCoef, graphType, upToYear){
+		var myData = {
+			"clusSize" : clusSize,
+			"clusCoef" : clusCoef,
+			"graphType" : graphType
+		}
+		if (upToYear !== null) {
+			myData["upToYear"] = upToYear;
+		}
 
+		$http.post("/get_clusters", myData)
+			.success(function(data, status, headers, config){
+				if(data !== null){
+					clusters = data;
+				}
+				
+			})
+			.error(function(data, status, headers, config){
+				console.log("error");
+			});
 	}
 	/** 
 	 *	reads the authors.json file so that when a user searches for an author

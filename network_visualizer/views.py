@@ -7,7 +7,7 @@ from django import forms
 import json
 from django.shortcuts import render_to_response, redirect
 from network_visualizer.query_database import *
-import json
+import network_visualizer.scan_clustering
 from django.core.mail import EmailMessage
 import smtplib
 
@@ -52,6 +52,7 @@ class QueryAuthorForm(forms.Form):
     author_id = forms.IntegerField()
 class QueryPaperForm(forms.Form):
     paper_id = forms.IntegerField()
+
 @csrf_exempt
 def query_author(request):
     """Takes a post request from the client whose input is a
@@ -66,6 +67,22 @@ def query_author(request):
         # print "loaded"
         context = query_list[0](a_id)
         return HttpResponse(json.dumps(context), content_type="application/json")
+
+@csrf_exempt
+def get_clusters(request):
+    """Takes a post request to the client whose input is a
+    cluster size, cluster coef, and graph type"""
+    if request.method == "POST":
+        data = json.loads(request.body)
+        if "upToYear" in data:
+            ret = network_visualizer.scan_clustering.main(int(data["clusSize"]), 
+                float(data["clusCoef"]), data["graphType"], int(data["upToYear"]))
+        else:
+            ret = network_visualizer.scan_clustering.main(int(data["clusSize"]), 
+                float(data["clusCoef"]), data["graphType"])
+        ret = network_visualizer.scan_clustering.get_cluster_idxs(ret)
+        return HttpResponse(json.dumps(ret), content_type="application/json")
+    
 
 @csrf_exempt
 def query_paper(request):

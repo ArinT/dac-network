@@ -17,6 +17,7 @@ urlpatterns = patterns('',
     url(r'^query_author', 'network_visualizer.views.query_author', name='query_author'),
     url(r'^query_paper', 'network_visualizer.views.query_paper', name='query_paper'),
     url(r'^send_email', 'network_visualizer.views.send_email', name='send_email'),
+    url(r'^get_clusters', 'network_visualizer.views.get_clusters', name='get_clusters'),
     url(r'^admin/', include(admin.site.urls)),
 )
 

@@ -28,6 +28,7 @@ app.controller("clusterSliderCtrl", ["$scope", "$attrs", function($scope, $attrs
 	$scope.buttonPress = function() {
 		$scope.initialClusCoef = $scope.clusCoef;
 		$scope.initialClusSize = $scope.clusSize;
+		$scope.$emit("clusterParamChange", [$scope.clusCoef, $scope.clusSize, $attrs.clusterType]);
 	};
 }]);
 

@@ -1,7 +1,8 @@
 app.service("GraphService", function($http){
 	this.force;
 	this.svg;
-
+	
+	var filterYear = null;
 	var canClusterAuthorCallbacks = [];
 	var canClusterCitationCallbacks = [];
 	var authorClusterEnabled = false;
@@ -35,6 +36,10 @@ app.service("GraphService", function($http){
 	this.setCitationClusteringEnabled = function(e) {
 		citationClusterEnabled = e;
 	};
+
+	this.getFilterYear = function() {
+		return filterYear;
+	}
 	
 	this.getNodeHue = function(score, centrality, isCitationNetwork){
 		var hue = 0;
@@ -94,13 +99,13 @@ app.service("GraphService", function($http){
 			default:
 				return 0;
 		}				
-	}
+	};
 	var getNodeHue = this.getNodeHue;
 	
 	var getYear = function(doi){
 		var split = doi.split("-");
 		return parseInt(split[0].slice(4));
-	}
+	};
 	
 	var getNodeCoord = function(centrality, d, score, retVal, width){
 		if(centrality === null){
@@ -110,7 +115,7 @@ app.service("GraphService", function($http){
 			return retVal; 
 		}
 		return 0;
-	}
+	};
 	
 	var getEdgeCoord = function(centrality, d, score, retVal){
 		if(centrality === null){
@@ -122,13 +127,21 @@ app.service("GraphService", function($http){
 				&& d.target[centrality] >= 0){
 				return retVal;
 			} 
-	}
+	};
 
 	this.setWindowHeight = function(height) {
 		this.height = height;
-	}
+	};
 
-	this.drawGraph = function(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked, isChronological){
+	this.drawGraph = function(scope, isCitationNetwork, score, centrality, jsonFile, domId, charge, nodeClicked, isChronolog8ical){
+		var year = parseInt(jsonFile.substr(-9, 4), 10);
+		if (isNaN(year) === false) {
+			filterYear = year;
+		} else {
+			filterYear = null;
+		}
+
+
 		var width = $(domId).width();
 		// if( $("#menu") !== null ){
 		// 	height = $(window).height() - $("#menu").height() - $("mynav").height();
@@ -204,7 +217,6 @@ app.service("GraphService", function($http){
 				var edges = [];
 				//only going to be called by the AUTHOR NETWORK graph
 				//double check this boolean
-				console.log(graph.links)
 				if(score !== null){
 					//removing the edges that are between a node with centrality lower than the one specified.
 					for(var i = 0; i<graph.links.length; i++){
@@ -252,8 +264,6 @@ app.service("GraphService", function($http){
 					// for (var i in edges){
 					// 	console.log (i)
 					// }
-					console.log ("before d3 force");
-					console.log(edges)
 					graph.links = edges;
 				}
 				force
@@ -440,7 +450,7 @@ app.service("GraphService", function($http){
 			
 			});	
 		}, 10);
-	}//end drawGraph()
+	};//end drawGraph()
 
 	// Code adapted from http://bl.ocks.org/donaldh/2920551
 	this.toggleClustering = function(on, clusters){
@@ -515,8 +525,12 @@ app.service("GraphService", function($http){
 			}
 			this.force.stop();
 			console.log("Ending force (uncheck)");*/
-			console.log(this.svg.selectAll("path.clusters"));
 			this.svg.selectAll("path.clusters").remove();
 		}
-	}
+	};
+
+	this.updateClusters = function(clusters) {
+		this.toggleClustering(false);
+		this.toggleClustering(true, clusters);
+	};
 });

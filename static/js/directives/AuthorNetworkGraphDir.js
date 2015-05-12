@@ -32,9 +32,6 @@ app.controller("authorGraphCtrl", ["$scope", "$http", "GraphService", function($
 		}
 		$scope.$broadcast("NewGraph");
 	});
-	$scope.toggleClustering = function(clusters, e) {
-		$scope.graphService.toggleClustering(e, clusters);
-	};
 	$scope.buttonPress = function() {
 		if ($scope.filterScore !== $scope.chosenScore) {
 			$scope.filterScore = $scope.chosenScore;

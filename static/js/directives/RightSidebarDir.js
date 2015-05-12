@@ -21,18 +21,28 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			$http.get("static/json/citation_clusters.json")
 				.then(function(res){ $scope.citationClusters = res.data; });
 
-			// angular.element gets the controls, then we call the function on the control
-			// Definitely not the angular way, but this makes the most sense design-wise
 			$scope.toggleAuthorClustering = function(){
-				angular.element($("#author-graph")).scope().toggleClustering($scope.authorClusters, $scope.authorClusteringCheckbox);
+				$scope.graphService.toggleClustering($scope.authorClusteringCheckbox, $scope.authorClusters);
 				$scope.graphService.setAuthorClusteringEnabled($scope.authorClusteringCheckbox);
 				$scope.$broadcast("toggleAuthorClustering", $scope.authorClusteringCheckbox);
 			};
 			$scope.toggleCitationClustering = function(){
-				angular.element($("#citation-graph")).scope().toggleClustering($scope.citationClusters, $scope.citationClusteringCheckbox);
+				$scope.graphService.toggleClustering($scope.citationClusteringCheckbox, $scope.citationClusters);
 				$scope.graphService.setCitationClusteringEnabled($scope.citationClusteringCheckbox);
 				$scope.$broadcast("toggleCitationClustering", $scope.citationClusteringCheckbox);
 			};
+			$scope.$on("clusterParamChange", function(event, args) {
+				var clusCoef = args[0];
+				var clusSize = args[1];
+				var networkType = args[2];
+				var filterYear = $scope.graphService.getFilterYear();
+				$scope.messageServer.queryClusters(clusSize, clusCoef, networkType, filterYear);
+			});
+			$scope.$watch("messageServer.getClusters()", function(clusters) {
+				if (clusters !== null) {
+					$scope.graphService.updateClusters(clusters);
+				}
+			});
 
 			/*adding similar authors here*/
 			$scope.moreSimAuthors = true;
