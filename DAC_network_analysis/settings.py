@@ -73,7 +73,7 @@ DATABASES = {
             'NAME': 'DACNetworkAnalysis',
             'USER': 'ebroot',
             'PASSWORD': 'citations1',
-            'HOST': 'dacnetworkanalysis.c8kxvfryaahi.us-west-2.rds.amazonaws.com',
+            'HOST': 'dac-network.c8kxvfryaahi.us-west-2.rds.amazonaws.com',
             'PORT':'3306'
         },
         'debug':
@@ -82,6 +82,26 @@ DATABASES = {
              'NAME': 'debug',
          }
 }
+
+
+# DATABASES = {
+#     'default':
+#         { #The MySQL database info
+#             'ENGINE': 'django.db.backends.mysql',
+#             'NAME': 'DACNetworkAnalysis',
+#             'USER': 'ebroot',
+#             'PASSWORD': 'citations1',
+#             'HOST': 'dacnetworkanalysis.c8kxvfryaahi.us-west-2.rds.amazonaws.com',
+#             'PORT':'3306'
+#         },
+#         'debug':
+#          {
+#              'ENGINE':'django.db.backends.sqlite3',
+#              'NAME': 'debug',
+#          }
+# }
+
+#dac-network.c8kxvfryaahi.us-west-2.rds.amazonaws.com:3306 new host name
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
