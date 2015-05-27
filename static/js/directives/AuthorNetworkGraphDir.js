@@ -16,13 +16,14 @@ function getAttrCentrality(centrality){
 	}
 }
 
-app.controller("authorGraphCtrl", ["$scope", "$http", "GraphService", function($scope, $http, GraphService){
+app.controller("authorGraphCtrl", ["$scope", "$http", "GraphService", "MessageServer", function($scope, $http, GraphService, MessageServer){
 	$scope.typeGraph = "degreeCentrality";
 	$scope.chosenScore = 0;
 	$scope.filterScore = 0; // repr of last chosenscore actually updated to newgraph
 	$scope.loaded = false;
 	$scope.jsonFile = "authors.json";
 	$scope.graphService = GraphService;
+	$scope.messageServer = MessageServer;
 	$scope.graphService.setWindowHeight($(window).height());
 	$scope.http = $http;
 	$scope.authorCheckboxId = "#authorShowClustering";
@@ -66,8 +67,6 @@ app.directive("authorGraph", function(){
 		link:function(scope, elem, attrs){
 			var fileName = "../../static/json/" ;
 			var dom = "#author-graph";
-			scope.http.get("static/json/author_clusters.json")
-				.then(function(res){ scope.clusters = res.data; });
 			scope.graphService.drawGraph(scope, false, scope.chosenScore, scope.typeGraph,fileName+scope.jsonFile, dom, -100, "AuthorNodeClicked");
 			/*if ($(scope.authorCheckboxId).length !== 0) {
 				var checked = $(scope.authorCheckboxId)[0].checked;
@@ -79,15 +78,12 @@ app.directive("authorGraph", function(){
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
-				console.log(scope.chosenScore);
-				console.log(typeof(scope.chosenScore));
 				// We can only cluster if we're using a preset dataset, so can't when we filter out some nodes
 				if (scope.chosenScore === 0) {
-					console.log("wtf");
 					scope.graphService.setCanClusterAuthor(true);
-					checked = scope.graphService.getAuthorClusteringEnabled();
+					var checked = scope.graphService.getAuthorClusteringEnabled();
 					if (checked) {
-						scope.toggleClustering(scope.clusters, true);
+						scope.messageServer.queryClustersYearUpdate(scope.graphService.getFilterYear());
 					}
 				} else {
 					scope.graphService.setCanClusterAuthor(false);

@@ -1,4 +1,4 @@
-app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServer", "GraphService", function($scope, $location, $http, MessageServer, GraphService){
+app.controller("rightSidebarCtrl", ["$scope", "$location", "MessageServer", "GraphService", function($scope, $location, MessageServer, GraphService){
 			$scope.messageServer = MessageServer;
 			$scope.messageServer.readNodes();
 			$scope.authorPapers = null;
@@ -15,19 +15,12 @@ app.controller("rightSidebarCtrl", ["$scope", "$location", "$http", "MessageServ
 			$scope.showAuthorClusteringCheckbox = true;
 			$scope.showCitationClusteringCheckbox = true;
 			$scope.graphService = GraphService;
-			
-			$http.get("static/json/author_clusters.json")
-				.then(function(res){ $scope.authorClusters = res.data; });
-			$http.get("static/json/citation_clusters.json")
-				.then(function(res){ $scope.citationClusters = res.data; });
 
 			$scope.toggleAuthorClustering = function(){
-				$scope.graphService.toggleClustering($scope.authorClusteringCheckbox, $scope.authorClusters);
 				$scope.graphService.setAuthorClusteringEnabled($scope.authorClusteringCheckbox);
 				$scope.$broadcast("toggleAuthorClustering", $scope.authorClusteringCheckbox);
 			};
 			$scope.toggleCitationClustering = function(){
-				$scope.graphService.toggleClustering($scope.citationClusteringCheckbox, $scope.citationClusters);
 				$scope.graphService.setCitationClusteringEnabled($scope.citationClusteringCheckbox);
 				$scope.$broadcast("toggleCitationClustering", $scope.citationClusteringCheckbox);
 			};

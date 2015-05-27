@@ -2,11 +2,10 @@ app.directive("citationGraph", function(){
 	this.height = $(window).height();
 	return {
 		restrict:"A",
-		controller:function($scope, $http, MessageServer, GraphService){
+		controller:function($scope, MessageServer, GraphService){
 			$scope.messageServer = MessageServer;
 			$scope.graphService = GraphService;
 			$scope.graphService.setWindowHeight($(window).height());
-			$scope.http = $http;
 			$scope.typeGraph = "degreeCentrality";
 			$scope.chosenScore = 0;
 			$scope.filterScore = 0;
@@ -63,23 +62,15 @@ app.directive("citationGraph", function(){
 			var fileName = "../../static/json/";
 			var dom = "#citation-graph";
 			scope.graphService.drawGraph(scope, true, scope.chosenScore,scope.typeGraph,fileName+scope.jsonFile, dom, -100, "CitationNodeClicked", scope.chronological);
-			/*if ($(scope.citationCheckboxId).length !== 0) {
-				var on = $(scope.citationCheckboxId)[0].checked;
-				scope.http.get("static/json/citation_clusters.json")
-					.then(function(res){ scope.clusters = res.data; });
-				if (on === true) {
-					scope.toggleClustering(on, scope.clusters);
-				}
-			}*/
 			
 			scope.$on("NewGraph",function(){
 				$("svg").remove();
 				scope.loaded = false;
 				if (scope.chosenScore === 0) {
 					scope.graphService.setCanClusterCitation(true);
-					on = scope.graphService.getCitationClusteringEnabled();
+					var on = scope.graphService.getCitationClusteringEnabled();
 					if (on) {
-						scope.toggleClustering(scope.clusters, true);
+						scope.messageServer.queryClustersYearUpdate(scope.graphService.getFilterYear());
 					}
 				} else {
 					scope.graphService.setCanClusterCitation(false);

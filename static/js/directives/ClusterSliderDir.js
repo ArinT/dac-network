@@ -1,18 +1,18 @@
 app.controller("clusterSliderCtrl", ["$scope", "$attrs", function($scope, $attrs) {
 	$scope.showClusters = false;
 	if ($attrs.clusterType === "author") {
-		$scope.clusSize = 10;
-		$scope.initialClusSize = 10;
-		$scope.clusCoef = .99;
-		$scope.initialClusCoef = .99;
+		$scope.clusSize = 2;
+		$scope.initialClusSize = 2;
+		$scope.clusCoef = 1.08;
+		$scope.initialClusCoef = 1.08;
 	} else if ($attrs.clusterType === "citation") {
-		$scope.clusSize = 4;
-		$scope.initialClusSize = 4;
-		$scope.clusCoef = .22;
-		$scope.initialClusCoef = .22;
+		$scope.clusSize = 3;
+		$scope.initialClusSize = 3;
+		$scope.clusCoef = .91;
+		$scope.initialClusCoef = .91;
 	} else {
-		$scope.clusSize = 6;
-		$scope.initialClusSize = 6;
+		$scope.clusSize = 2;
+		$scope.initialClusSize = 2;
 		$scope.clusCoef = .5;
 		$scope.initialClusCoef = .5;
 	}
@@ -41,19 +41,20 @@ app.directive("clusterSlider", function(){
 		scope: {},
 		link: function(scope, elem, attrs) {
 			scope.$on("toggleAuthorClustering", function(event, e) {
-				console.log(attrs.clusterType);
-				console.log(e);
 				if (attrs.clusterType==="author") {
 					scope.showClusters = e;
-					console.log("Changing!");
+					if (e === true) {
+						scope.$emit("clusterParamChange", [scope.clusCoef, scope.clusSize, attrs.clusterType]);
+					}
 				}
-				console.log(scope.showClusters);
 			});
 			scope.$on("toggleCitationClustering", function(event, e) {
-				console.log(attrs.clusterType);
-				console.log(e);
 				if (attrs.clusterType==="citation") {
 					scope.showClusters = e;
+					if (e === true) {
+						scope.$emit("clusterParamChange", [scope.clusCoef, scope.clusSize, attrs.clusterType]);
+						console.log("hi");
+					}
 				}
 			});
 		}

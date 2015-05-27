@@ -6,6 +6,7 @@ app.service("MessageServer", function($http){
 	var sent = false;
 	var highlight = null;
 	var clusters = null;
+	var myData;
 	// var similarAuthors = null;
 
 	this.getCitationNodes = function(){
@@ -70,7 +71,7 @@ app.service("MessageServer", function($http){
 			});
 	};
 	this.queryClusters = function(clusSize, clusCoef, graphType, upToYear){
-		var myData = {
+		myData = {
 			"clusSize" : clusSize,
 			"clusCoef" : clusCoef,
 			"graphType" : graphType
@@ -89,7 +90,10 @@ app.service("MessageServer", function($http){
 			.error(function(data, status, headers, config){
 				console.log("error");
 			});
-	}
+	};
+	this.queryClustersYearUpdate = function(upToYear) {
+		this.queryClusters(myData.clusSize, myData.clusCoef, myData.graphType, upToYear);
+	};
 	/** 
 	 *	reads the authors.json file so that when a user searches for an author
 	 *	the javascript has an array to filter through.
